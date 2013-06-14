@@ -1,47 +1,24 @@
+# -*- coding: utf-8 -*-
 from lxml.html import soupparser
-import urllib2
-import socket
+import utils
 import json
 import logging
 import re
-import time
+
 
 URL="http://www.ferraraterraeacqua.it/it/divertimento-e-relax/sulla-spiaggia/stabilimenti-balneari/@@bath_results?name=&submit=Cerca&localita_id="
-opener = urllib2.build_opener()
-opener.addheaders = [('User-agent', "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)")]
-TIMEOUT = 5
-MAX_RETRIES = 3
-SERVICES = []
+SERVICES = utils.read_services()
 logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', level=logging.WARNING)
 coords_from_url = re.compile(".*/maps\?q=([0-9.]+), ([0-9.]+)")
-name_from_title = re.compile("(.+)\.? (.+)")
+name_from_title = re.compile("(.+?)\.? (.+)")
 
-def urlopen_logging(url, timeout=TIMEOUT):
-    try:
-        return opener.open(url, timeout=TIMEOUT)
-    except urllib2.URLError as e:
-        logging.warning("Warning %s opening url %s" % (e.message, url))
-        return ""
-    except socket.timeout as e:
-        logging.warning("Warning %s opening url %s" % (e.message, url))
-        return ""
 bagni = []
-page = urlopen_logging(URL)
-ret = MAX_RETRIES
-while not page and ret:
-        time.sleep(6)
-        page = urlopen_logging(URL)
-        ret -= 1
+page = utils.try_open(URL)
 parsed_page = soupparser.parse(page)
 url_bagni = parsed_page.xpath("//div[@class='results']/ul/li/a/@href")
 for url_bagno in url_bagni:
     bagno = {}
-    bagno_page = urlopen_logging(url_bagno)
-    ret = MAX_RETRIES
-    while not bagno_page and ret:
-        time.sleep(6)
-        bagno_page = urlopen_logging(url_bagno)
-        ret -=1
+    bagno_page = utils.try_open(url_bagno)
     parsed_bagno = soupparser.parse(bagno_page)
     bagno_title = parsed_bagno.xpath("//h2[@class='detail-name']")[0].text.strip()
     match = name_from_title.match(bagno_title)
@@ -70,10 +47,12 @@ for url_bagno in url_bagni:
     service_tds = parsed_bagno.xpath("//fieldset[@class='detail-facilities']//td")
     for service_td in service_tds:
         service_name = service_td.text.strip().lower()
-        if service_name:
-            if not service_name in SERVICES:
-                SERVICES.append(service_name)
-            bagno_services.append(service_name)
+        service_list = utils.get_service_from_alias(service_name)
+        for service in service_list:
+            if service:
+                if not service in SERVICES:
+                    SERVICES.append(service)
+                bagno_services.append(service)
     bagno['services'] = bagno_services
     bagno_geolink = parsed_bagno.xpath("//p[@class='geoRefLink']//a/@href")
     match = coords_from_url.match(bagno_geolink[0])
@@ -81,6 +60,8 @@ for url_bagno in url_bagni:
         import ipdb; ipdb.set_trace()
     bagno['coords'] = (match.group(1), match.group(2),)
     bagni.append(bagno)
+
+utils.write_services(SERVICES)
 
 with open('output_ferrara.json', 'w') as outfile:
   json.dump(bagni, outfile, sort_keys=True, indent=4,)

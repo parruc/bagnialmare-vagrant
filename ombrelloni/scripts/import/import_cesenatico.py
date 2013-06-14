@@ -1,21 +1,13 @@
+# -*- coding: utf-8 -*-
 from lxml.html import soupparser
-import urllib2
-import socket
 import json
 import logging
 import re
-import time
+import utils
 
 BASE_URL = "http://web.comune.cesenatico.fc.it/turismo/"
 URL = BASE_URL + "elenco_schede.asp?ambiente=DIVERTIMENTO%20E%20RELAX&famiglia=SULLA%20SPIAGGIA&sottofamiglia=STABILIMENTI%20BALNEARI&p="
-opener = urllib2.build_opener()
-opener.addheaders = [('User-agent', "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)")]
-TIMEOUT = 5
-MAX_RETRIES = 3
-SLEEPTIME = 5
-SERVICES = []
-with open('services.json', 'r') as services_file:
-    SERVICES = json.load(services_file)
+SERVICES = utils.read_services()
 logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', level=logging.WARNING)
 tel_from_text = re.compile("Tel: ([0-9 ]+)")
 fax_from_text = re.compile("Fax: ([0-9 ]+)")
@@ -26,29 +18,9 @@ geo_from_text = re.compile("LatLng\(([0-9.]+),([0-9.]+)\);")
 number_from_detail = re.compile("[^0-9]*([0-9]+[.,]{,1}[0-9]{,1})[^0-9]*")
 
 
-def urlopen_logging(url, timeout=TIMEOUT):
-    try:
-        return opener.open(url, timeout=TIMEOUT)
-    except urllib2.URLError as e:
-        logging.warning("%s problem opening url %s" % (e.message, url))
-        return ""
-    except socket.timeout as e:
-        logging.warning("%s timed out opening url %s" % (e.message, url))
-        return ""
-
-def try_open(url, ret=MAX_RETRIES, sleep=SLEEPTIME):
-    page = urlopen_logging(url)
-    while not page and ret:
-        page = urlopen_logging(url)
-        ret -= 1
-        time.sleep(sleep)
-    if page:
-        return page
-    raise urllib2.URLError("max retries reached for url %s" % url)
-
 url_bagni = []
 for page_number in range(1,14):
-    page = try_open(URL + str(page_number))
+    page = utils.try_open(URL + str(page_number))
     parsed_page = soupparser.parse(page)
     url_bagni_new = [BASE_URL + p.replace(" ", "%20") for p in parsed_page.xpath("//div[@class='categories-sublist']/ul/li/a/@href") if not p == "http://"]
     url_bagni += url_bagni_new
@@ -58,7 +30,7 @@ bagni = []
 for url_bagno in url_bagni:
     logging.info("Startes parsing %s to parse list" % url_bagno)
     bagno = {}
-    bagno_page = try_open(url_bagno)
+    bagno_page = utils.try_open(url_bagno)
     parsed_bagno = soupparser.parse(bagno_page)
     bagno['name'] = parsed_bagno.xpath("//h2[@class='titolo-scheda']")[0].text.strip().capitalize()
     bagno_contacts = parsed_bagno.xpath("//div[@class='block-address']//div[@class='frame']/p/span")
@@ -119,18 +91,19 @@ for url_bagno in url_bagni:
                     import ipdb; ipdb.set_trace()
         else:
             for single_service in bagno_details_row.strip(".").strip(",").split(","):
-                service = single_service.replace(";", "").replace(".", "").lower().strip()
-                if service:
-                    if not service in SERVICES:
-                        SERVICES.append(service)
+                service_name = single_service.replace(";", "").replace(".", "").lower().strip()
+                service_list = utils.get_service_from_alias(service_name)
+                for service in service_list:
+                    if service:
+                        if not service in SERVICES:
+                            SERVICES.append(service)
                     bagno['services'].append(service)
 
     parsed_bagno.xpath("//script/text()")
     bagno['coords'] = geo_from_text.findall(" ".join(parsed_bagno.xpath("//script/text()")))
     bagni.append(bagno)
 
-with open('services.json', 'w') as services_file:
-    json.dump(SERVICES, services_file, sort_keys=True, indent=4,)
+utils.write_services(SERVICES)
 
 with open('output_cesenatico.json', 'w') as outfile:
   json.dump(bagni, outfile, sort_keys=True, indent=4,)

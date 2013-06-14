@@ -1,0 +1,4423 @@
+[
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.18069592634166", 
+                "12.426996231079101"
+            ]
+        ], 
+        "details": {
+            "cabine": 16, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 40, 
+            "lettini": 240, 
+            "ombrelloni": 120, 
+            "sdraio": 60, 
+            "superficie complessiva spiaggia": 20, 
+            "wc": 5
+        }, 
+        "name": "Bagno ad nova", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "custodia valori", 
+            "fasciatoio", 
+            "area giochi bimbi", 
+            "canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 85056"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 89", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20949573407621", 
+                "12.395968437194824"
+            ]
+        ], 
+        "details": {
+            "cabine": 33, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 38, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 130, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 19, 
+            "wc": 3
+        }, 
+        "mail": "info@bagnoadria.comhttp", 
+        "name": "Bagno adria", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "biciclette", 
+            "bocce", 
+            "custodia valori", 
+            "area giochi bimbi", 
+            "pedal\u00f2", 
+            "ping pong", 
+            "ristorazione", 
+            "solarium", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnoadria.com", 
+        "tel": "0547 82289"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17820297356707", 
+                "12.430171966552734"
+            ]
+        ], 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 34, 
+            "lavapiedi": 1, 
+            "lettini": 260, 
+            "ombrelloni": 130, 
+            "sdraio": 50, 
+            "wc": 5
+        }, 
+        "fax": "0547 86690", 
+        "mail": "info@birimbaobeach.itwww.birimbaobeach.it", 
+        "name": "Bagno adriana birimbao beach", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "giochi per bimbi", 
+            "ping pong", 
+            "sala tv", 
+            "terrazzo prendisole", 
+            "idromassaggio", 
+            "cassette di sicurezza", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "www.birimbaobeach.it", 
+        "tel": "0547 86690"
+    }, 
+    {
+        "address": "Via Pasubio", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.203989167019344", 
+                "12.404723167419433"
+            ]
+        ], 
+        "details": {
+            "cabine": 23, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 31, 
+            "lettini": 280, 
+            "ombrelloni": 120, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 26, 
+            "wc": 4
+        }, 
+        "name": "Bagno adriatico", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "custodia valori", 
+            "giornalini", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 80212"
+    }, 
+    {
+        "address": "Viale Bologna", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.199712762668085", 
+                "12.408413887023925"
+            ]
+        ], 
+        "details": {
+            "cabine": 17, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 34, 
+            "lavapiedi": 1, 
+            "lettini": 240, 
+            "ombrelloni": 120, 
+            "sdraio": 40, 
+            "superficie complessiva spiaggia": 40, 
+            "wc": 4
+        }, 
+        "fax": "0547 75758", 
+        "name": "Bagno adua", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcetto", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "nursery", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 81692"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20894202435563", 
+                "12.396140098571777"
+            ]
+        ], 
+        "details": {
+            "cabine": 19, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lettini": 160, 
+            "ombrelloni": 100, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 15, 
+            "wc": 4
+        }, 
+        "mail": "bagno.alsole@tin.it", 
+        "name": "Bagno al sole", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "area giochi bimbi", 
+            "libreria", 
+            "ping pong", 
+            "ristorazione", 
+            "biciclette", 
+            "giornalini", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 83268"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17912630169963", 
+                "12.423219680786132"
+            ]
+        ], 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 24, 
+            "lavapiedi": 2, 
+            "lettini": 170, 
+            "ombrelloni": 80, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 975, 
+            "wc": 3
+        }, 
+        "name": "Bagno alba", 
+        "services": [
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria"
+        ], 
+        "tel": "0547 85757"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17629471627438", 
+                "12.432961463928222"
+            ]
+        ], 
+        "details": {
+            "cabine": 8, 
+            "docce aperte": 5, 
+            "docce chiuse": 0, 
+            "fronte mare": 24, 
+            "lavapiedi": 0, 
+            "lettini": 210, 
+            "ombrelloni": 110, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 0, 
+            "wc": 3
+        }, 
+        "name": "Bagno alberto", 
+        "services": [
+            "bocce", 
+            "ristorazione"
+        ], 
+        "tel": "0547 86476"
+    }, 
+    {
+        "address": "Via Podgora, 35", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.18869728479014", 
+                "12.4180269241333"
+            ]
+        ], 
+        "details": {
+            "cabine": 28, 
+            "docce aperte": 3, 
+            "docce chiuse": 0, 
+            "fronte mare": 30, 
+            "lavapiedi": 1, 
+            "lettini": 240, 
+            "ombrelloni": 120, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 28, 
+            "wc": 2
+        }, 
+        "mail": "posta@bagnoambasciata.ithttp", 
+        "name": "Bagno ambasciata", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "internet point", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnoambasciata.it", 
+        "tel": "0547 82056"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.18140378260652", 
+                "12.426352500915527"
+            ]
+        ], 
+        "details": {
+            "cabine": 30, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "fronte mare": 35, 
+            "lavapiedi": 2, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 25, 
+            "superficie complessiva spiaggia": 18, 
+            "wc": 4
+        }, 
+        "fax": "0547 680022", 
+        "mail": "maui1969@libero.it", 
+        "name": "Bagno andrea", 
+        "services": [
+            "animazione", 
+            "baby sitting", 
+            "basket", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "giornalini", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 81517"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20761925228597", 
+                "12.3980712890625"
+            ]
+        ], 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 19, 
+            "lettini": 70, 
+            "ombrelloni": 50, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 817, 
+            "wc": 2
+        }, 
+        "name": "Bagno andrea doria", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "335 7604237"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci, 10", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.18060359663709", 
+                "12.42729663848877"
+            ]
+        ], 
+        "details": {
+            "cabine": 12, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lavapiedi": 2, 
+            "lettini": 200, 
+            "ombrelloni": 110, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 15, 
+            "wc": 5
+        }, 
+        "mail": "info@bagnoangelineri.itwww.bagnoangelineri.it", 
+        "name": "Bagno angeli neri", 
+        "services": [
+            "animazione", 
+            "attrezzature palestra", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "www.bagnoangelineri.it", 
+        "tel": "0547 86688 "
+    }, 
+    {
+        "address": "Viale Lungomare Ponente", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20777306451801", 
+                "12.397599220275879"
+            ]
+        ], 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "fronte mare": 27, 
+            "lettini": 100, 
+            "ombrelloni": 56, 
+            "sdraio": 6, 
+            "superficie complessiva spiaggia": 10, 
+            "wc": 3
+        }, 
+        "mail": "ivocomandini@libero.it", 
+        "name": "Bagno angelo", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 83269"
+    }, 
+    {
+        "address": "Via Isonzo", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20038962432129", 
+                "12.407727241516113"
+            ]
+        ], 
+        "details": {
+            "cabine": 14, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 26, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 30, 
+            "wc": 4
+        }, 
+        "name": "Bagno ariston", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcetto", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "biciclette", 
+            "giornalini", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 81722"
+    }, 
+    {
+        "address": "Viale Venezia", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19515912762046", 
+                "12.41231918334961"
+            ]
+        ], 
+        "details": {
+            "cabine": 14, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 22, 
+            "lettini": 160, 
+            "ombrelloni": 90, 
+            "sdraio": 25, 
+            "superficie complessiva spiaggia": 17, 
+            "wc": 3
+        }, 
+        "fax": "0547 82468", 
+        "mail": "bagnoarlecchino@libero.ithttp", 
+        "name": "Bagno arlecchino", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "libreria", 
+            "", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnoaurora-arlecchino.com", 
+        "tel": "0547 82468"
+    }, 
+    {
+        "address": "Via Montello, 24", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19442066715566", 
+                "12.413091659545898"
+            ]
+        ], 
+        "details": {}, 
+        "mail": "bagnoaurora@tiscalinet.ithttp", 
+        "name": "Bagno aurora", 
+        "services": [], 
+        "site": "http://www.bagnoaurora-arlecchino.com", 
+        "tel": "0547 83015"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17620237967769", 
+                "12.432875633239746"
+            ]
+        ], 
+        "details": {}, 
+        "fax": "0547 85784", 
+        "mail": "costaverdehotel@costaverdehotel.ithttp", 
+        "name": "Bagno bahama", 
+        "services": [], 
+        "site": "http://costaverdehotel.it", 
+        "tel": "0547 85354"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 78", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20754876205421", 
+                "12.39586245876842"
+            ]
+        ], 
+        "details": {}, 
+        "mail": "bagnobelvedere@gmail.comhttp", 
+        "name": "Bagno belvedere", 
+        "services": [], 
+        "site": "http://bagnobelvedere.com", 
+        "tel": "0547 675706 "
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17521744698319", 
+                "12.434978485107421"
+            ]
+        ], 
+        "details": {}, 
+        "name": "Bagno bertino", 
+        "services": [], 
+        "tel": "339 8195766"
+    }, 
+    {
+        "address": "Viale Venezia, 29", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19952816268587", 
+                "12.408585548400879"
+            ]
+        ], 
+        "details": {}, 
+        "mail": "info@bagnobianconero.comhttp", 
+        "name": "Bagno bianconero", 
+        "services": [], 
+        "site": "http://bagnobianconero.com", 
+        "tel": "0547 81556"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.18666627357442", 
+                "12.420172691345214"
+            ]
+        ], 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 2, 
+            "fronte mare": 20, 
+            "lettini": 80, 
+            "ombrelloni": 40, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 975, 
+            "wc": 2
+        }, 
+        "name": "Bagno blu", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "windsurf", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 83404"
+    }, 
+    {
+        "address": "Viale Carso", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.1991589609863", 
+                "12.409014701843261"
+            ]
+        ], 
+        "details": {}, 
+        "fax": "0547 82710", 
+        "mail": "p.barberini@libero.it", 
+        "name": "Bagno bologna levante", 
+        "services": [], 
+        "tel": "0547 82710"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.1754636816991", 
+                "12.434206008911132"
+            ]
+        ], 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 5, 
+            "docce chiuse": 0, 
+            "fronte mare": 34, 
+            "lavapiedi": 2, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 40, 
+            "superficie complessiva spiaggia": 16, 
+            "wc": 5
+        }, 
+        "name": "Bagno bologna villamarina", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "pedal\u00f2", 
+            "ristorazione"
+        ], 
+        "tel": "87906 "
+    }, 
+    {
+        "address": "Viale Milano, 33", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.196605252558264", 
+                "12.411460876464843"
+            ]
+        ], 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "fronte mare": 33, 
+            "lavapiedi": 3, 
+            "lettini": 290, 
+            "ombrelloni": 160, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 29, 
+            "wc": 4
+        }, 
+        "fax": "0547 83263", 
+        "mail": "praiabrasil@libero.ithttp", 
+        "name": "Bagno brasil", 
+        "services": [
+            "animazione", 
+            "baby sitting", 
+            "basket", 
+            "beach volley", 
+            "calcetto", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "servizio meteo", 
+            "libreria", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.praiabrasil.it", 
+        "tel": "0547 83263"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci, 129", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19869745560854", 
+                "12.409272193908691"
+            ]
+        ], 
+        "details": {
+            "cabine": 54, 
+            "docce aperte": 2, 
+            "docce chiuse": 16, 
+            "fronte mare": 45, 
+            "lettini": 160, 
+            "ombrelloni": 80, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 54, 
+            "wc": 4
+        }, 
+        "fax": "0547 81799", 
+        "mail": "info@hbritannia.ithttp", 
+        "name": "Bagno britannia", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "solarium", 
+            "internet point", 
+            "ping pong", 
+            "ristorazione", 
+            "calcio balilla", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.hbritannia.it", 
+        "tel": "0547 672500"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17638705272646", 
+                "12.432961463928222"
+            ]
+        ], 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 24, 
+            "lavapiedi": 1, 
+            "lettini": 225, 
+            "ombrelloni": 115, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 0, 
+            "wc": 3
+        }, 
+        "name": "Bagno bruno", 
+        "services": [
+            "attrezzature palestra", 
+            "beach volley", 
+            "calcetto", 
+            "calcio tennis", 
+            "bocce", 
+            "ristorazione"
+        ], 
+        "tel": "0547 85703"
+    }, 
+    {
+        "address": "Viale Cristoforo Colombo", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.21564771406581", 
+                "12.390217781066894"
+            ]
+        ], 
+        "details": {
+            "cabine": 12, 
+            "docce aperte": 6, 
+            "docce chiuse": 0, 
+            "fronte mare": 102, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 490, 
+            "sdraio": 0, 
+            "superficie complessiva spiaggia": 51, 
+            "wc": 7
+        }, 
+        "fax": "0547 672452", 
+        "mail": "info@cesenaticocampingvillage.comhttp", 
+        "name": "Bagno camping cesenatico", 
+        "services": [
+            "", 
+            "animazione", 
+            "baby park", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv"
+        ], 
+        "site": "http://www.cesenaticocampingvillage.com", 
+        "tel": "0547 675167"
+    }, 
+    {
+        "address": "Viale Cristoforo Colombo", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.22093790287114", 
+                "12.38609790802002"
+            ]
+        ], 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 40, 
+            "lavapiedi": 1, 
+            "lettini": 100, 
+            "ombrelloni": 50, 
+            "sdraio": 0, 
+            "superficie complessiva spiaggia": 20, 
+            "wc": 3
+        }, 
+        "fax": "0547 672802", 
+        "name": "Bagno camping zadina", 
+        "services": [
+            "", 
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione"
+        ], 
+        "site": "http://campingzadina.it", 
+        "tel": "0547 82310 "
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.181342230225226", 
+                "12.426223754882812"
+            ]
+        ], 
+        "details": {
+            "cabine": 22, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 34, 
+            "lettini": 150, 
+            "ombrelloni": 95, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 23, 
+            "wc": 3
+        }, 
+        "name": "Bagno capo nero", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "", 
+            "", 
+            "libreria", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 83046"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.18725096579468", 
+                "12.419657707214355"
+            ]
+        ], 
+        "details": {
+            "cabine": 6, 
+            "docce aperte": 1, 
+            "fronte mare": 20, 
+            "lavapiedi": 1, 
+            "lettini": 60, 
+            "ombrelloni": 35, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 769, 
+            "wc": 2
+        }, 
+        "fax": "0547 81589", 
+        "name": "Bagno casadei", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "area giochi bimbi", 
+            "ristorazione", 
+            "libreria", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 81589 "
+    }, 
+    {
+        "address": "Via Montenero, 53", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20223557112626", 
+                "12.406010627746582"
+            ]
+        ], 
+        "details": {
+            "cabine": 35, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 34, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 130, 
+            "sdraio": 16, 
+            "superficie complessiva spiaggia": 37, 
+            "wc": 5
+        }, 
+        "fax": "0547 80253", 
+        "name": "Bagno casali", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "terrazza prendisole", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 80253"
+    }, 
+    {
+        "address": "Viale Bologna", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.199589696077545", 
+                "12.40832805633545"
+            ]
+        ], 
+        "details": {
+            "cabine": 25, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 240, 
+            "ombrelloni": 120, 
+            "sdraio": 25, 
+            "superficie complessiva spiaggia": 38, 
+            "wc": 3
+        }, 
+        "fax": "0547 75758", 
+        "name": "Bagno cesena", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcetto", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "nursery", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 83172"
+    }, 
+    {
+        "address": "Viale dei Pini, 103", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.22047656811414", 
+                "12.386612892150879"
+            ]
+        ], 
+        "details": {}, 
+        "mail": "bagno.chery@libero.it", 
+        "name": "Bagno chery", 
+        "services": [], 
+        "tel": "349 0991638"
+    }, 
+    {
+        "address": "Via Isonzo", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20051268924102", 
+                "12.40781307220459"
+            ]
+        ], 
+        "details": {}, 
+        "fax": "0547 80337", 
+        "mail": "info@bagnoclaudia49.ithttp", 
+        "name": "Bagno claudia", 
+        "services": [], 
+        "site": "http://www.bagnoclaudia49.it", 
+        "tel": "0547 80337 "
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci, 4/B", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17774130407869", 
+                "12.430987358093261"
+            ]
+        ], 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "fronte mare": 33, 
+            "lettini": 240, 
+            "ombrelloni": 150, 
+            "sdraio": 80, 
+            "superficie complessiva spiaggia": 21, 
+            "wc": 3
+        }, 
+        "mail": "info.bagnoclaudio@virgilio.ithttp", 
+        "name": "Bagno claudio", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnoclaudio.it", 
+        "tel": "0547 85741"
+    }, 
+    {
+        "address": "Viale dei Pini, 100", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.21875421974842", 
+                "12.387771606445312"
+            ]
+        ], 
+        "details": {
+            "cabine": 29, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "fronte mare": 28, 
+            "lavapiedi": 2, 
+            "lettini": 150, 
+            "ombrelloni": 90, 
+            "sdraio": 16, 
+            "superficie complessiva spiaggia": 17, 
+            "wc": 4
+        }, 
+        "mail": "cristian.giovini@alice.ithttp", 
+        "name": "Bagno clipper n. 100", 
+        "services": [
+            "animazione", 
+            "baby sitting", 
+            "basket", 
+            "bocce", 
+            "area giochi bimbi", 
+            "internet point", 
+            "web cam", 
+            "biciclette", 
+            "libreria", 
+            "ping pong", 
+            "biciclette", 
+            "biliardo", 
+            "custodia valori", 
+            "ristorazione", 
+            "sala tv", 
+            "palestra", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.clipperbeach.it", 
+        "tel": "389"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17580225275465", 
+                "12.433347702026367"
+            ]
+        ], 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 4, 
+            "docce chiuse": 0, 
+            "fronte mare": 25, 
+            "lavapiedi": 1, 
+            "lettini": 260, 
+            "ombrelloni": 130, 
+            "sdraio": 200, 
+            "superficie complessiva spiaggia": 0, 
+            "wc": 3
+        }, 
+        "mail": "info@bagnocorallo.ithttp", 
+        "name": "Bagno corallo", 
+        "services": [
+            "basket", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "sala tv"
+        ], 
+        "site": "http://www.bagnocorallo.it", 
+        "tel": "0547 86670"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17561757787442", 
+                "12.433691024780273"
+            ]
+        ], 
+        "details": {
+            "cabine": 24, 
+            "docce aperte": 4, 
+            "docce chiuse": 0, 
+            "fronte mare": 0, 
+            "lavapiedi": 1, 
+            "lettini": 70, 
+            "ombrelloni": 35, 
+            "sdraio": 0, 
+            "superficie complessiva spiaggia": 0, 
+            "wc": 3
+        }, 
+        "name": "Bagno davide", 
+        "services": [], 
+        "tel": "0547 86594"
+    }, 
+    {
+        "address": "Spiaggia Zadina", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.222106601410296", 
+                "12.385153770446777"
+            ]
+        ], 
+        "details": {
+            "cabine": 17, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 28, 
+            "lettini": 150, 
+            "ombrelloni": 80, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 16, 
+            "wc": 2
+        }, 
+        "name": "Bagno delle nazioni", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 80676"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci, 4/C", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17567913623208", 
+                "12.433605194091796"
+            ]
+        ], 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 33, 
+            "lavapiedi": 1, 
+            "lettini": 320, 
+            "ombrelloni": 160, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 23, 
+            "wc": 3
+        }, 
+        "name": "Bagno denis", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "terrazza prendisole", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento", 
+            "bocce", 
+            "juke box"
+        ], 
+        "tel": "0547 85267"
+    }, 
+    {
+        "address": "Spiaggia Zadina", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.21869270637495", 
+                "12.387256622314453"
+            ]
+        ], 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lavapiedi": 1, 
+            "lettini": 100, 
+            "ombrelloni": 50, 
+            "sdraio": 0, 
+            "superficie complessiva spiaggia": 0, 
+            "wc": 1
+        }, 
+        "name": "Bagno dopolavoro p.t.", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "ristorazione"
+        ], 
+        "tel": "0547 75503"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci, 5", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.175494460966306", 
+                "12.433476448059082"
+            ]
+        ], 
+        "details": {
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 38, 
+            "lettini": 320, 
+            "ombrelloni": 170, 
+            "sdraio": 60, 
+            "superficie complessiva spiaggia": 23, 
+            "wc": 3
+        }, 
+        "fax": "0547 85132", 
+        "name": "Bagno duemila", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 85132"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17832608482015", 
+                "12.429828643798828"
+            ]
+        ], 
+        "details": {
+            "cabine": 8, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "fronte mare": 34, 
+            "lavapiedi": 2, 
+            "lettini": 200, 
+            "ombrelloni": 120, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 14, 
+            "wc": 3
+        }, 
+        "fax": "0547 85450", 
+        "mail": "casadei_elisa@libero.itfacebook", 
+        "name": "Bagno eden", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "giornalini", 
+            "biciclette", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 85450"
+    }, 
+    {
+        "address": "Viale Piave, 71", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.206234924123436", 
+                "12.40382194519043"
+            ]
+        ], 
+        "details": {
+            "cabine": 25, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 25, 
+            "lavapiedi": 1, 
+            "lettini": 140, 
+            "ombrelloni": 70, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 17, 
+            "wc": 3
+        }, 
+        "mail": "greta.pericoli@hotmail.it", 
+        "name": "Bagno europa", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "biciclette", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento", 
+            "beach volley"
+        ], 
+        "tel": "0547 80256"
+    }, 
+    {
+        "address": "Viale Bologna, 26", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.199489704283444", 
+                "12.402395009994506"
+            ]
+        ], 
+        "details": {}, 
+        "fax": "0547 81772", 
+        "mail": "info@fafin.ithttp", 
+        "name": "Bagno fafin", 
+        "services": [
+            "animazione"
+        ], 
+        "site": "http://www.fafin.it", 
+        "tel": "0547 83172"
+    }, 
+    {
+        "address": "Viale Carso, 42", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19900512626202", 
+                "12.409014701843261"
+            ]
+        ], 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lettini": 210, 
+            "ombrelloni": 120, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 33, 
+            "wc": 4
+        }, 
+        "fax": "0547 85053", 
+        "mail": "info@bagnofaustina.ithttp", 
+        "name": "Bagno faustina", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "baby room", 
+            "wc per bimbi", 
+            "cassette di sicurezza", 
+            "filodiffusione", 
+            "calcetto", 
+            "biciclette", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnofaustina.it", 
+        "tel": "0547 81372"
+    }, 
+    {
+        "address": "Viale Trento", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19811287694077", 
+                "12.410173416137695"
+            ]
+        ], 
+        "details": {
+            "cabine": 24, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "fronte mare": 28, 
+            "lavapiedi": 2, 
+            "lettini": 220, 
+            "ombrelloni": 110, 
+            "sdraio": 40, 
+            "superficie complessiva spiaggia": 26, 
+            "wc": 4
+        }, 
+        "name": "Bagno fernanda", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 81107"
+    }, 
+    {
+        "address": "Viale Carso, 43", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.1991589609863", 
+                "12.4090576171875"
+            ]
+        ], 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "fronte mare": 25, 
+            "lavapiedi": 1, 
+            "lettini": 150, 
+            "ombrelloni": 80, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 30, 
+            "wc": 4
+        }, 
+        "fax": "0547 672984", 
+        "name": "Bagno ferrara", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "baby sitting", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 672984"
+    }, 
+    {
+        "address": "Via Montegrappa, 66", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.204235281564046", 
+                "12.40429401397705"
+            ]
+        ], 
+        "details": {
+            "cabine": 38, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 25, 
+            "lavapiedi": 1, 
+            "lettini": 180, 
+            "ombrelloni": 90, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 23, 
+            "wc": 3
+        }, 
+        "name": "Bagno florida", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "biciclette", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "internet point", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 80255"
+    }, 
+    {
+        "address": "Viale Trento", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19823594661596", 
+                "12.40978717803955"
+            ]
+        ], 
+        "details": {}, 
+        "fax": "0547 80449", 
+        "mail": "info@bagnoconti.ithttp", 
+        "name": "Bagno gabbiano-conti", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "servizio meteo", 
+            "libreria", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnoconti.it", 
+        "tel": "0547 80449"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17601001130356", 
+                "12.432714700698852"
+            ]
+        ], 
+        "details": {
+            "cabine": 16, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 20, 
+            "lettini": 130, 
+            "ombrelloni": 65, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 14, 
+            "wc": 2
+        }, 
+        "fax": "0547 83420", 
+        "name": "Bagno gallia beach", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria"
+        ], 
+        "tel": "0547 83420"
+    }, 
+    {
+        "address": "Spiaggia Zadina", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.21727788104822", 
+                "12.388629913330078"
+            ]
+        ], 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "fronte mare": 45, 
+            "lettini": 250, 
+            "ombrelloni": 145, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 32, 
+            "wc": 3
+        }, 
+        "mail": "davbax105@libero.it", 
+        "name": "Bagno garden beach", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibile ai portatori", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 82350"
+    }, 
+    {
+        "address": "Viale Milano, 31", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19657448431208", 
+                "12.41128921508789"
+            ]
+        ], 
+        "details": {
+            "cabine": 14, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lavapiedi": 1, 
+            "lettini": 180, 
+            "ombrelloni": 100, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 32, 
+            "wc": 5
+        }, 
+        "fax": "0547 83055", 
+        "mail": "bastonilorenzo@tiscali.it", 
+        "name": "Bagno genova", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcetto", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 83055"
+    }, 
+    {
+        "address": "Via Podgora, 36", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19657448431208", 
+                "12.41128921508789"
+            ]
+        ], 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "fronte mare": 29, 
+            "lavapiedi": 1, 
+            "lettini": 270, 
+            "ombrelloni": 135, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 32, 
+            "wc": 3
+        }, 
+        "name": "Bagno giardino", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "cassette di sicurezza", 
+            "area giochi bimbi", 
+            "pedal\u00f2", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 80084"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.181649991489124", 
+                "12.425837516784668"
+            ]
+        ], 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lettini": 240, 
+            "ombrelloni": 120, 
+            "sdraio": 60, 
+            "superficie complessiva spiaggia": 22, 
+            "wc": 4
+        }, 
+        "mail": "bagno.giorgio@alice.it", 
+        "name": "Bagno giorgio", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "biciclette", 
+            "ristorazione", 
+            "giornalini", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 85832"
+    }, 
+    {
+        "address": "Via Montenero, 55", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20223557112626", 
+                "12.405753135681152"
+            ]
+        ], 
+        "details": {
+            "cabine": 12, 
+            "docce aperte": 2, 
+            "docce chiuse": 0, 
+            "fronte mare": 16, 
+            "lavapiedi": 1, 
+            "lettini": 110, 
+            "ombrelloni": 55, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 17, 
+            "wc": 3
+        }, 
+        "fax": "0547 673856", 
+        "mail": "info@bagnoveneziacesenatico.com", 
+        "name": "Bagno giuliana", 
+        "services": [
+            "animazione", 
+            "attrezzature palestra", 
+            "baby sitting", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "cassette di sicurezza", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento", 
+            "vendita abbigliamento", 
+            "biglietteria", 
+            "massaggi", 
+            "internet point"
+        ], 
+        "tel": "0547 80252"
+    }, 
+    {
+        "address": "Piazza Andrea Costa, 1", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20226633641635", 
+                "12.405881881713867"
+            ]
+        ], 
+        "details": {
+            "docce chiuse": 2, 
+            "fronte mare": 40, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 41, 
+            "wc": 2
+        }, 
+        "fax": "0547 80270", 
+        "mail": "info@grandhotel.cesenatico.fo.ithttp", 
+        "name": "Bagno grand hotel", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.grandhotel.cesenatico.fo.it", 
+        "tel": "0547 80012"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.18232706061467", 
+                "12.424871921539306"
+            ]
+        ], 
+        "details": {
+            "docce aperte": 9, 
+            "docce chiuse": 1, 
+            "fronte mare": 90, 
+            "lettini": 560, 
+            "ombrelloni": 280, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 58, 
+            "wc": 4
+        }, 
+        "mail": "info@bagnohawaii.com", 
+        "name": "Bagno hawaii", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcetto", 
+            "cassette di sicurezza", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 85039"
+    }, 
+    {
+        "address": "Viale Ferrara, 7", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20315852283985", 
+                "12.40506649017334"
+            ]
+        ], 
+        "details": {
+            "cabine": 71, 
+            "docce aperte": 1, 
+            "docce chiuse": 2, 
+            "fronte mare": 37, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "superficie complessiva spiaggia": 38, 
+            "wc": 2
+        }, 
+        "mail": "bagno4venti@gmail.com", 
+        "name": "Bagno i 4 venti", 
+        "services": [
+            "animazione", 
+            "baby sitting", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "terrazza prendisole", 
+            "piscina", 
+            "acquascivolo", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 75567"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17590997950103", 
+                "12.43278980255127"
+            ]
+        ], 
+        "details": {
+            "cabine": 6, 
+            "docce aperte": 3, 
+            "docce chiuse": 4, 
+            "fronte mare": 35, 
+            "lavapiedi": 1, 
+            "lettini": 440, 
+            "ombrelloni": 223, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 0, 
+            "wc": 3
+        }, 
+        "name": "Bagno ideal", 
+        "services": [
+            "animazione", 
+            "piccola ristorazione", 
+            "beach volley", 
+            "calcetto", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "sala tv"
+        ], 
+        "tel": "0547 86645"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17590997950103", 
+                "12.43278980255127"
+            ]
+        ], 
+        "details": {
+            "cabine": 8, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "fronte mare": 34, 
+            "lavapiedi": 1, 
+            "lettini": 540, 
+            "ombrelloni": 270, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 20, 
+            "wc": 4
+        }, 
+        "fax": "0547 87510", 
+        "mail": "mattvince@libero.it", 
+        "name": "Bagno ines", 
+        "services": [
+            "animazione", 
+            "beach-volley", 
+            "calcetto", 
+            "calcio", 
+            "tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ristorazione", 
+            "sala tv", 
+            "cassette di sicurezza", 
+            "ping pong", 
+            "fitness", 
+            "pedal\u00f2"
+        ], 
+        "tel": "0547 86662"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 88", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20780382691624", 
+                "12.397749423980713"
+            ]
+        ], 
+        "details": {
+            "cabine": 21, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 40, 
+            "lavapiedi": 1, 
+            "lettini": 240, 
+            "ombrelloni": 150, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 20, 
+            "wc": 3
+        }, 
+        "name": "Bagno internazionale ponente", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "terrazza prendisole", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnointernazionale.com", 
+        "tel": "0547 82475"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17804908413925", 
+                "12.427961826324463"
+            ]
+        ], 
+        "details": {
+            "cabine": 5, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 25, 
+            "lavapiedi": 1, 
+            "lettini": 380, 
+            "ombrelloni": 189, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 17, 
+            "wc": 3
+        }, 
+        "name": "Bagno internazionale villamarina", 
+        "services": [
+            "animazione", 
+            "calcetto", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ristorazione", 
+            "sala tv", 
+            "terrazza prendisole"
+        ], 
+        "tel": "0547 85779"
+    }, 
+    {
+        "address": "Viale Piave, 67", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "0", 
+                "0"
+            ]
+        ], 
+        "details": {
+            "cabine": 38, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "fronte mare": 30, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 25, 
+            "superficie complessiva spiaggia": 30, 
+            "wc": 4
+        }, 
+        "mail": "bagnoitalia@yahoo.it", 
+        "name": "Bagno italia levante", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "biciclette", 
+            "libreria", 
+            "ristorazione", 
+            "sala tv", 
+            "", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 80202"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.176186990230875", 
+                "12.430622577667236"
+            ]
+        ], 
+        "details": {
+            "cabine": 7, 
+            "docce aperte": 3, 
+            "docce chiuse": 0, 
+            "fronte mare": 0, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 6, 
+            "superficie complessiva spiaggia": 0, 
+            "wc": 3
+        }, 
+        "name": "Bagno italia villamarina", 
+        "services": [
+            "area giochi bimbi", 
+            "bocce"
+        ], 
+        "tel": "0547 86447"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 76", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20818835553829", 
+                "12.399895191192627"
+            ]
+        ], 
+        "details": {
+            "cabine": 22, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 29, 
+            "lettini": 170, 
+            "ombrelloni": 90, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 12, 
+            "wc": 3
+        }, 
+        "name": "Bagno levante", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcio tennis", 
+            "cassette di sicurezza", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "biciclette", 
+            "palestra", 
+            "", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento", 
+            "lettino massaggiante"
+        ], 
+        "tel": "0547 81828"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.175556019452486", 
+                "12.432103157043457"
+            ]
+        ], 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 37, 
+            "lavapiedi": 2, 
+            "lettini": 240, 
+            "ombrelloni": 120, 
+            "sdraio": 40, 
+            "superficie complessiva spiaggia": 18, 
+            "wc": 3
+        }, 
+        "fax": "0547 85450", 
+        "mail": "bagnoluca@libero.it", 
+        "name": "Bagno luca", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "area giochi bimbi", 
+            "beach volley", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "giornalini", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 85767"
+    }, 
+    {
+        "address": "Viale Trento", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.1974513730326", 
+                "12.407727241516113"
+            ]
+        ], 
+        "details": {
+            "cabine": 17, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 39, 
+            "lavapiedi": 1, 
+            "lettini": 320, 
+            "ombrelloni": 130, 
+            "sdraio": 40, 
+            "superficie complessiva spiaggia": 39, 
+            "wc": 3
+        }, 
+        "fax": "0547 81018", 
+        "mail": "info@bagnolucia.ithttp", 
+        "name": "Bagno lucia", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcetto", 
+            "bocce", 
+            "area giochi bimbi", 
+            "nursery", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "biciclette", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnolucia.it", 
+        "tel": "0547 81018"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17951101748748", 
+                "12.428669929504394"
+            ]
+        ], 
+        "details": {
+            "cabine": 4, 
+            "docce aperte": 2, 
+            "fronte mare": 24, 
+            "lettini": 142, 
+            "ombrelloni": 82, 
+            "sdraio": 24, 
+            "superficie complessiva spiaggia": 0, 
+            "wc": 2
+        }, 
+        "fax": "0547 87305", 
+        "name": "Bagno luigi", 
+        "services": [
+            "pedal\u00f2", 
+            "canoe", 
+            "area giochi bimbi", 
+            "ristorazione", 
+            "piscina", 
+            "sala tv"
+        ], 
+        "tel": "0547 87070"
+    }, 
+    {
+        "address": "Viale Camillo Benso Cavour, 91", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.207019380743276", 
+                "12.40032434463501"
+            ]
+        ], 
+        "details": {
+            "cabine": 5, 
+            "docce aperte": 5, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 6, 
+            "superficie complessiva spiaggia": 18, 
+            "wc": 5
+        }, 
+        "fax": "0547 83468", 
+        "mail": "info@bagnoluna.ithttp", 
+        "name": "Bagno luna", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "moscone", 
+            "canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnoluna.it", 
+        "tel": "0547 83468"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17524822637892", 
+                "12.431588172912597"
+            ]
+        ], 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 34, 
+            "lavapiedi": 1, 
+            "lettini": 230, 
+            "ombrelloni": 120, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 16, 
+            "wc": 3
+        }, 
+        "mail": "info@maebabeach.comhttp", 
+        "name": "Bagno maeba", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.maebabeach.com", 
+        "tel": "0547 85838"
+    }, 
+    {
+        "address": "Viale Piave", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20583500104184", 
+                "12.402534484863281"
+            ]
+        ], 
+        "details": {
+            "cabine": 22, 
+            "docce aperte": 2, 
+            "docce chiuse": 6, 
+            "fronte mare": 25, 
+            "lettini": 100, 
+            "ombrelloni": 50, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 17, 
+            "wc": 5
+        }, 
+        "name": "Bagno magnani", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "terrazza prendisole", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnomagnani.it", 
+        "tel": "0547 81874"
+    }, 
+    {
+        "address": "Piazza Ginesio Marconi", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19313603158808", 
+                "12.413992881774902"
+            ]
+        ], 
+        "details": {
+            "cabine": 70, 
+            "docce aperte": 8, 
+            "docce chiuse": 3, 
+            "fronte mare": 133, 
+            "lavapiedi": 1, 
+            "lettini": 12, 
+            "ombrelloni": 600, 
+            "sdraio": 100, 
+            "superficie complessiva spiaggia": 104, 
+            "wc": 9
+        }, 
+        "fax": "0547 674371", 
+        "mail": "info@bagnomarconi.comhttp", 
+        "name": "Bagno marconi", 
+        "services": [
+            "", 
+            "", 
+            "animazione", 
+            "palestra", 
+            "baby sitting", 
+            "beach-volley", 
+            "calcetto", 
+            "calcio", 
+            "tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2", 
+            "canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "servizio meteo", 
+            "libreria", 
+            "internet", 
+            "terrazza prendisole", 
+            "baby parking", 
+            "cabina fasciatoio"
+        ], 
+        "site": "http://bagnomarconi.com", 
+        "tel": "0547 80272"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci, 19", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.175817642301894", 
+                "12.433197498321533"
+            ]
+        ], 
+        "details": {
+            "cabine": 18, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 40, 
+            "lavapiedi": 1, 
+            "lettini": 230, 
+            "ombrelloni": 130, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 16, 
+            "wc": 4
+        }, 
+        "mail": "bagno.matteo@virgilio.it", 
+        "name": "Bagno matteo", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "biciclette", 
+            "giornalini", 
+            "libreria", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 80571"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 83", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20757310853805", 
+                "12.397685050964355"
+            ]
+        ], 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 32, 
+            "lavapiedi": 2, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 13, 
+            "wc": 3
+        }, 
+        "fax": "0547 81335", 
+        "name": "Bagno medusa", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "terrazza prendisole", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento", 
+            "cassette di sicurezza"
+        ], 
+        "tel": "0547 81335"
+    }, 
+    {
+        "address": "Viale Milano, 34", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19657448431208", 
+                "12.411096096038818"
+            ]
+        ], 
+        "details": {
+            "cabine": 29, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lettini": 190, 
+            "ombrelloni": 120, 
+            "sdraio": 40, 
+            "superficie complessiva spiaggia": 28, 
+            "wc": 3
+        }, 
+        "fax": "0547 83250", 
+        "mail": "info@bagnomeridiano.ithttp", 
+        "name": "Bagno meridiano", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnomeridiano.it", 
+        "tel": "0547 83250"
+    }, 
+    {
+        "address": "Piazza Andrea Costa, 7", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20116646731679", 
+                "12.406729459762573"
+            ]
+        ], 
+        "details": {
+            "cabine": 30, 
+            "docce aperte": 5, 
+            "docce chiuse": 4, 
+            "fronte mare": 40, 
+            "lavapiedi": 1, 
+            "lettini": 320, 
+            "ombrelloni": 160, 
+            "sdraio": 60, 
+            "superficie complessiva spiaggia": 44, 
+            "wc": 7
+        }, 
+        "fax": "0547 673171", 
+        "mail": "info@bagnomilano.com", 
+        "name": "Bagno milano levante", 
+        "services": [
+            "animazione", 
+            "attrezzature palestra", 
+            "baby sitting", 
+            "basket", 
+            "beach volley", 
+            "calcetto", 
+            "bocce", 
+            "area giochi bimbi", 
+            "wc bimbi", 
+            "internet point", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "biciclette", 
+            "custodia valori", 
+            "scuola nuoto", 
+            "idromassaggio", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "servizio meteo", 
+            "terrazza prendisole", 
+            "idromassaggio", 
+            "lettino massaggiante"
+        ], 
+        "tel": "0547 80139"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17595614804636", 
+                "12.432875633239746"
+            ]
+        ], 
+        "details": {
+            "cabine": 11, 
+            "docce aperte": 4, 
+            "docce chiuse": 0, 
+            "fronte mare": 26, 
+            "lavapiedi": 1, 
+            "lettini": 350, 
+            "ombrelloni": 170, 
+            "sdraio": 40, 
+            "superficie complessiva spiaggia": 16, 
+            "wc": 4
+        }, 
+        "name": "Bagno milano villamarina", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcetto", 
+            "calcio", 
+            "tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "canoe", 
+            "cassette di sicurezza"
+        ], 
+        "tel": "0547 85185"
+    }, 
+    {
+        "address": "Viale dei Pini, 97", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.221983581603936", 
+                "12.38510012626648"
+            ]
+        ], 
+        "details": {
+            "cabine": 8, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 28, 
+            "lavapiedi": 1, 
+            "lettini": 240, 
+            "ombrelloni": 120, 
+            "sdraio": 15, 
+            "superficie complessiva spiaggia": 26, 
+            "wc": 3
+        }, 
+        "mail": "info@bagnomundial.ithttp", 
+        "name": "Bagno mundial 82", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "internet point", 
+            "giornalini", 
+            "", 
+            "libreria"
+        ], 
+        "site": "http://www.bagnomundial.it", 
+        "tel": "0547 81545 "
+    }, 
+    {
+        "address": "Viale Venezia,  28", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.1760484850286", 
+                "12.432940006256103"
+            ]
+        ], 
+        "details": {
+            "cabine": 30, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 27, 
+            "lavapiedi": 2, 
+            "lettini": 220, 
+            "ombrelloni": 110, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 22, 
+            "wc": 4
+        }, 
+        "mail": "bagnonettuno28@alice.it", 
+        "name": "Bagno nettuno levante", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv"
+        ], 
+        "tel": "0547 83208"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.195243742291126", 
+                "12.412029504776001"
+            ]
+        ], 
+        "details": {
+            "cabine": 6, 
+            "docce aperte": 3, 
+            "docce chiuse": 0, 
+            "fronte mare": 30, 
+            "lavapiedi": 1, 
+            "lettini": 160, 
+            "ombrelloni": 80, 
+            "sdraio": 0, 
+            "superficie complessiva spiaggia": 11, 
+            "wc": 3
+        }, 
+        "name": "Bagno nettuno villamarina", 
+        "services": [
+            "area giochi bimbi", 
+            "piccola ristorazione"
+        ], 
+        "tel": "0547 85495"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.17601001130356", 
+                "12.432671785354614"
+            ]
+        ], 
+        "details": {
+            "cabine": 5, 
+            "docce aperte": 4, 
+            "docce chiuse": 0, 
+            "fronte mare": 24, 
+            "lavapiedi": 0, 
+            "lettini": 180, 
+            "ombrelloni": 90, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 0, 
+            "wc": 3
+        }, 
+        "name": "Bagno oriano", 
+        "services": [
+            "bocce", 
+            "sala tv", 
+            "", 
+            "piccola ristorazione"
+        ], 
+        "tel": "0547 87304"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 87", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20760387104068", 
+                "12.397749423980713"
+            ]
+        ], 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "fronte mare": 40, 
+            "lettini": 220, 
+            "ombrelloni": 100, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 18, 
+            "wc": 2
+        }, 
+        "mail": "info@bagnoparadiso.ithttp", 
+        "name": "Bagno paradiso", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "terrazza prendisole"
+        ], 
+        "site": "http://www.bagnoparadiso.it", 
+        "tel": "0547 80069"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 77", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20727317329535", 
+                "12.398360967636108"
+            ]
+        ], 
+        "details": {
+            "cabine": 19, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 45, 
+            "lavapiedi": 3, 
+            "lettini": 150, 
+            "ombrelloni": 90, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 15, 
+            "wc": 3
+        }, 
+        "name": "Bagno pasquina", 
+        "services": [
+            "animazione", 
+            "sala tv", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "giornalini"
+        ], 
+        "tel": "0547 700012"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.175786863203385", 
+                "12.433004379272461"
+            ]
+        ], 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 34, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 110, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 16, 
+            "wc": 3
+        }, 
+        "fax": "0547 85787", 
+        "mail": "bagno.piera@virgilio.it", 
+        "name": "Bagno piera", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "custodia valori", 
+            "fasciatoio"
+        ], 
+        "tel": "0547 85787"
+    }, 
+    {
+        "address": "Viale dei Pini, 99", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.219446240771695", 
+                "12.386258840560913"
+            ]
+        ], 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 28, 
+            "lettini": 140, 
+            "ombrelloni": 80, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 16, 
+            "wc": 2
+        }, 
+        "name": "Bagno pineta", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "terrazza prendisole", 
+            "basket"
+        ], 
+        "tel": "0547 81228"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 85", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20743467707735", 
+                "12.397942543029785"
+            ]
+        ], 
+        "details": {
+            "cabine": 12, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lavapiedi": 0, 
+            "lettini": 150, 
+            "ombrelloni": 70, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 12, 
+            "wc": 3
+        }, 
+        "fax": "0547 83081", 
+        "mail": "bagno.pinguino@libero.ithttp", 
+        "name": "Bagno pinguino", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv"
+        ], 
+        "site": "http://www.bagnopinguino.it", 
+        "tel": "0547 83081"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17602540079659", 
+                "12.432703971862793"
+            ]
+        ], 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 34, 
+            "lavapiedi": 1, 
+            "lettini": 290, 
+            "ombrelloni": 155, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 19, 
+            "wc": 4
+        }, 
+        "fax": "0547 87864", 
+        "mail": "info@bagnopippo.ithttp", 
+        "name": "Bagno pippo", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "sea volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "internet point", 
+            "scuola di ballo", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv satellite", 
+            "videogiochi", 
+            "solarium", 
+            "servizio libri", 
+            "", 
+            "custodia valori"
+        ], 
+        "site": "http://www.bagnopippo.it", 
+        "tel": "0547 85797"
+    }, 
+    {
+        "address": "Spiaggia Zadina", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.20757310853805", 
+                "12.397352457046508"
+            ]
+        ], 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 28, 
+            "lavapiedi": 1, 
+            "lettini": 150, 
+            "ombrelloni": 30, 
+            "sdraio": 0, 
+            "superficie complessiva spiaggia": 17, 
+            "wc": 3
+        }, 
+        "mail": "p.ponente102@libero.it", 
+        "name": "Bagno ponente 102", 
+        "services": [
+            "animazione", 
+            "attrezzature palestra", 
+            "basket", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "terrazza prendisole"
+        ], 
+        "tel": "0547 82624"
+    }, 
+    {
+        "address": "Via Pasubio", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.204119915499255", 
+                "12.404487133026123"
+            ]
+        ], 
+        "details": {
+            "cabine": 38, 
+            "docce aperte": 3, 
+            "docce chiuse": 0, 
+            "fronte mare": 31, 
+            "lavapiedi": 1, 
+            "lettini": 180, 
+            "ombrelloni": 130, 
+            "sdraio": 40, 
+            "superficie complessiva spiaggia": 33, 
+            "wc": 4
+        }, 
+        "mail": "bagnorenata@bagnorenata.ithttp", 
+        "name": "Bagno renata", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcetto", 
+            "area giochi bimbi", 
+            "internet point", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv"
+        ], 
+        "site": "http://www.bagnorenata.it", 
+        "tel": "0547 80327 "
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.175809947528755", 
+                "12.433058023452758"
+            ]
+        ], 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 3, 
+            "docce chiuse": 7, 
+            "fronte mare": 25, 
+            "lavapiedi": 1, 
+            "lettini": 324, 
+            "ombrelloni": 160, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 15, 
+            "wc": 4
+        }, 
+        "fax": "0547 86346", 
+        "name": "Bagno roberto", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "area giochi bimbi", 
+            "animazione per bambini", 
+            "pedal\u00f2", 
+            "canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "servizio meteo", 
+            "solarium", 
+            "terrazza prendisole"
+        ], 
+        "tel": "0547 680300"
+    }, 
+    {
+        "address": "Via Montenero, 54", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20219711449107", 
+                "12.405763864517212"
+            ]
+        ], 
+        "details": {
+            "cabine": 35, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 28, 
+            "lavapiedi": 1, 
+            "lettini": 230, 
+            "ombrelloni": 130, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 22, 
+            "wc": 3
+        }, 
+        "fax": "0547 80262", 
+        "mail": "info@bagnoroma.ithttp", 
+        "name": "Bagno roma", 
+        "services": [
+            "animazione", 
+            "baby sitting", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "fasciatoio", 
+            "racchettoni", 
+            "biciclette", 
+            "cassette di sicurezza", 
+            "internet point", 
+            "libreria", 
+            ""
+        ], 
+        "site": "http://www.bagnoroma.it", 
+        "tel": "0547 80262 "
+    }, 
+    {
+        "address": "Via Isonzo, 48", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.2003588580512", 
+                "12.407362461090088"
+            ]
+        ], 
+        "details": {
+            "cabine": 34, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "fronte mare": 34, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 140, 
+            "sdraio": 70, 
+            "superficie complessiva spiaggia": 36, 
+            "wc": 5
+        }, 
+        "mail": "bagnochinoromagna48@alice.it", 
+        "name": "Bagno romagna levante", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcio tennis", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv"
+        ], 
+        "tel": "0547 672337"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci, 6/A", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17583303184512", 
+                "12.433068752288818"
+            ]
+        ], 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 33, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 150, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 24, 
+            "wc": 4
+        }, 
+        "name": "Bagno romagna valverde", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ristorazione"
+        ], 
+        "tel": "0547 85834"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 79", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.208542119653494", 
+                "12.396386861801147"
+            ]
+        ], 
+        "details": {
+            "cabine": 13, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lavapiedi": 1, 
+            "lettini": 130, 
+            "ombrelloni": 70, 
+            "sdraio": 8, 
+            "superficie complessiva spiaggia": 840, 
+            "wc": 2
+        }, 
+        "mail": "info@bagnoromana.ithttp", 
+        "name": "Bagno romana", 
+        "services": [
+            "animazione", 
+            "baby sitting", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "internet point", 
+            "giornalini", 
+            "servizio libri", 
+            "sala tv"
+        ], 
+        "site": "http://www.bagnoromana.it", 
+        "tel": "0547 83262"
+    }, 
+    {
+        "address": "Via Spiaggia Levante, 64/65", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20393532932563", 
+                "12.404208183288574"
+            ]
+        ], 
+        "details": {
+            "cabine": 38, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "fronte mare": 40, 
+            "lettini": 300, 
+            "ombrelloni": 180, 
+            "sdraio": 40, 
+            "superficie complessiva spiaggia": 36, 
+            "wc": 7
+        }, 
+        "mail": "info@bagnoromeo.comhttp", 
+        "name": "Bagno romeo", 
+        "services": [
+            "animazione", 
+            "baby sitting", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "biciclette", 
+            "custodia valori", 
+            "", 
+            "area giochi bimbi", 
+            "giornalini", 
+            "internet point", 
+            "servizio libri"
+        ], 
+        "site": "http://www.bagnoromeo.com", 
+        "tel": "0547 82193"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci,17", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.18666627357442", 
+                "12.420430183410644"
+            ]
+        ], 
+        "details": {
+            "docce aperte": 1, 
+            "fronte mare": 20, 
+            "lavapiedi": 1, 
+            "lettini": 80, 
+            "ombrelloni": 40, 
+            "superficie complessiva spiaggia": 930, 
+            "wc": 2
+        }, 
+        "mail": "info@bagnoschiuma.it", 
+        "name": "Bagno schiuma", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "biciclette", 
+            "internet point", 
+            "windsurf", 
+            "kitesurf", 
+            "ristorazione", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 672703"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17584072661521", 
+                "12.432918548583984"
+            ]
+        ], 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 38, 
+            "lavapiedi": 1, 
+            "lettini": 280, 
+            "ombrelloni": 150, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 25, 
+            "wc": 3
+        }, 
+        "fax": "0547 85257", 
+        "mail": "info@bagnoselene.comhttp", 
+        "name": "Bagno selene", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "servizio meteo", 
+            "terrazza prendisole", 
+            "custodia valori", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnoselene.com", 
+        "tel": "0547 85257"
+    }, 
+    {
+        "address": "Viale Piave, 69", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.200220409637", 
+                "12.407845258712768"
+            ]
+        ], 
+        "details": {
+            "cabine": 40, 
+            "docce aperte": 4, 
+            "docce chiuse": 4, 
+            "fronte mare": 43, 
+            "lettini": 600, 
+            "ombrelloni": 240, 
+            "superficie complessiva spiaggia": 51, 
+            "wc": 6
+        }, 
+        "mail": "info@riviera69.comhttp", 
+        "name": "Bagno sessantanove", 
+        "services": [
+            "animazione per bambini", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2", 
+            "zona relax", 
+            "lettini fronte mare", 
+            "ping pong", 
+            "piccola ristorazione", 
+            "vendita articoli spiaggia", 
+            "maxischermo tv plasma", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://riviera69.com", 
+        "tel": "0547 80254"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17584072661521", 
+                "12.432918548583984"
+            ]
+        ], 
+        "details": {
+            "cabine": 7, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 34, 
+            "lavapiedi": 2, 
+            "lettini": 260, 
+            "ombrelloni": 130, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 19, 
+            "wc": 4
+        }, 
+        "name": "Bagno snoopy", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "giornalini", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento", 
+            "deposito materassini", 
+            "calcio balilla", 
+            "docce calde"
+        ], 
+        "tel": "0547 85019"
+    }, 
+    {
+        "address": "Viale Piave, 70", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.205627347601634", 
+                "12.403864860534668"
+            ]
+        ], 
+        "details": {
+            "cabine": 25, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 22, 
+            "lavapiedi": 1, 
+            "lettini": 100, 
+            "ombrelloni": 40, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 15, 
+            "wc": 3
+        }, 
+        "mail": "info@bagnosport70.ithttp", 
+        "name": "Bagno sport 70", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "fasciatoio", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "internet point", 
+            "giornalini biciclette", 
+            "srvizio fax", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnosport70.it", 
+        "tel": "0547 80402"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17567913623208", 
+                "12.433218955993652"
+            ]
+        ], 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 33, 
+            "lavapiedi": 3, 
+            "lettini": 280, 
+            "ombrelloni": 160, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 22, 
+            "wc": 4
+        }, 
+        "fax": "0547 87446", 
+        "mail": "info@hroyal.it", 
+        "name": "Bagno stella", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 85172"
+    }, 
+    {
+        "address": "Piazza Ginesio Marconi, 21", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.1924898570047", 
+                "12.413220405578613"
+            ]
+        ], 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "fronte mare": 36, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 150, 
+            "sdraio": 100, 
+            "superficie complessiva spiaggia": 27, 
+            "wc": 5
+        }, 
+        "fax": "0547 75217", 
+        "name": "Bagno tahiti", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "www.bagnotahiticesenatico.it", 
+        "tel": "0547 83637"
+    }, 
+    {
+        "address": "Via Sabotino", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19654371604982", 
+                "12.410827875137329"
+            ]
+        ], 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 26, 
+            "lavapiedi": 1, 
+            "lettini": 220, 
+            "ombrelloni": 110, 
+            "sdraio": 80, 
+            "superficie complessiva spiaggia": 23, 
+            "wc": 3
+        }, 
+        "fax": "0547 678679", 
+        "mail": "info@bagnotitanus.comhttp", 
+        "name": "Bagno titanus", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "basket", 
+            "bocce", 
+            "area giochi bimbi", 
+            "canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento", 
+            "biciclette"
+        ], 
+        "site": "http://www.bagnotitanus.com", 
+        "tel": "0547 81082"
+    }, 
+    {
+        "address": "Spiaggia Zadina", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.20816528389175", 
+                "12.396955490112304"
+            ]
+        ], 
+        "details": {
+            "cabine": 18, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 28, 
+            "lavapiedi": 1, 
+            "lettini": 160, 
+            "ombrelloni": 80, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 16, 
+            "wc": 3
+        }, 
+        "mail": "topstory@gesturist.comwww.cesenaticocampingvillage.com", 
+        "name": "Bagno top story", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "www.cesenaticocampingvillage.com", 
+        "tel": "0547 81749"
+    }, 
+    {
+        "address": "Viale Venezia", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19519758884946", 
+                "12.412179708480835"
+            ]
+        ], 
+        "details": {
+            "cabine": 30, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 24, 
+            "lettini": 140, 
+            "ombrelloni": 90, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 20, 
+            "wc": 4
+        }, 
+        "name": "Bagno torino levante", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "beach basket", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "custodia valori", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 83244"
+    }, 
+    {
+        "address": "Spiaggia Villamarina", 
+        "city": "Cesenatico Villamarina", 
+        "coords": [
+            [
+                "44.175594493473724", 
+                "12.433208227157592"
+            ]
+        ], 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 25, 
+            "lavapiedi": 1, 
+            "lettini": 180, 
+            "ombrelloni": 70, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 450, 
+            "wc": 3
+        }, 
+        "fax": "0547 680686", 
+        "name": "Bagno torino villamarina", 
+        "services": [
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "sala tv", 
+            "terrazza prendisole"
+        ], 
+        "tel": "0547 86855"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 84", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20737315187929", 
+                "12.398135662078857"
+            ]
+        ], 
+        "details": {
+            "cabine": 11, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 30, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 12, 
+            "wc": 3
+        }, 
+        "mail": "info@hotelcrocedelsud.itwww.hotelcroceselsud.it", 
+        "name": "Bagno tosca", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ping pong", 
+            "ristorazione", 
+            "giornalini", 
+            "sala tv", 
+            "terrazza prendisole", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "www.hotelcroceselsud.it", 
+        "tel": "0547 83615"
+    }, 
+    {
+        "address": "Viale Venezia, 26", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19517451211508", 
+                "12.412276268005371"
+            ]
+        ], 
+        "details": {
+            "cabine": 24, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 24, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 22, 
+            "wc": 3
+        }, 
+        "fax": "0547 80694", 
+        "name": "Bagno trieste", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "giornalini", 
+            "canoe", 
+            "servizio libri", 
+            "custodia valori", 
+            "sala tv", 
+            "accessibile ai portatori handicap cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 80694"
+    }, 
+    {
+        "address": "Via Montello, 22", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.19472836014061", 
+                "12.412662506103515"
+            ]
+        ], 
+        "details": {
+            "cabine": 39, 
+            "docce aperte": 4, 
+            "fronte mare": 51, 
+            "lavapiedi": 1, 
+            "lettini": 440, 
+            "ombrelloni": 220, 
+            "sdraio": 50, 
+            "superficie complessiva spiaggia": 39, 
+            "wc": 4
+        }, 
+        "name": "Bagno tropical", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 82309"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20695785511141", 
+                "12.39883303642273"
+            ]
+        ], 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "fronte mare": 27, 
+            "lettini": 110, 
+            "ombrelloni": 65, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 891, 
+            "wc": 3
+        }, 
+        "mail": "progettoulisse82@gmail.com", 
+        "name": "Bagno ulisse", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "terrazza prendisole", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 1864481"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20695785511141", 
+                "12.39883303642273"
+            ]
+        ], 
+        "details": {
+            "cabine": 13, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "fronte mare": 27, 
+            "lettini": 130, 
+            "ombrelloni": 65, 
+            "sdraio": 15, 
+            "superficie complessiva spiaggia": 10, 
+            "wc": 3
+        }, 
+        "mail": "ivocomandini@libero.it", 
+        "name": "Bagno universale", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "biciclette", 
+            "giornalini", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 83269"
+    }, 
+    {
+        "address": "Viale Ferrara", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.203058537102564", 
+                "12.405152320861816"
+            ]
+        ], 
+        "details": {
+            "cabine": 27, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "fronte mare": 20, 
+            "lavapiedi": 1, 
+            "lettini": 130, 
+            "ombrelloni": 80, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 21, 
+            "wc": 3
+        }, 
+        "mail": "info@bagnovally.comwww.bagnovally.com", 
+        "name": "Bagno vally", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "nursery", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "biciclette", 
+            "giornalini", 
+            "noleggio pedalo", 
+            "custodia valori", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "www.bagnovally.com", 
+        "tel": "0547 83273"
+    }, 
+    {
+        "address": "Viale Giosu\u00e8 Carducci", 
+        "city": "Cesenatico Valverde", 
+        "coords": [
+            [
+                "44.17547907133471", 
+                "12.433551549911499"
+            ]
+        ], 
+        "details": {
+            "cabine": 17, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "fronte mare": 35, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdraio": 70, 
+            "superficie complessiva spiaggia": 20, 
+            "wc": 2
+        }, 
+        "mail": "ladyenric@yahoo.it", 
+        "name": "Bagno valverde", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "racchettoni", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 83271"
+    }, 
+    {
+        "address": "Viale Milano", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.196620636675334", 
+                "12.410988807678222"
+            ]
+        ], 
+        "details": {
+            "cabine": 26, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 34, 
+            "lavapiedi": 1, 
+            "lettini": 240, 
+            "ombrelloni": 135, 
+            "sdraio": 40, 
+            "superficie complessiva spiaggia": 34, 
+            "wc": 5
+        }, 
+        "fax": "0547 83202", 
+        "name": "Bagno varazze", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 83202"
+    }, 
+    {
+        "address": "Spiaggia Zadina", 
+        "city": "Cesenatico Zadina", 
+        "coords": [], 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 28, 
+            "lettini": 170, 
+            "ombrelloni": 100, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 17, 
+            "wc": 5
+        }, 
+        "name": "Bagno vega", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "biciclette", 
+            "calcetto", 
+            "bocce", 
+            "fasciatoio", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "libreria", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 82127 "
+    }, 
+    {
+        "address": "Piazza Andrea Costa, 1", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.20144335937368", 
+                "12.406504154205322"
+            ]
+        ], 
+        "details": {
+            "cabine": 35, 
+            "docce aperte": 4, 
+            "fronte mare": 37, 
+            "lavapiedi": 1, 
+            "lettini": 320, 
+            "ombrelloni": 148, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 33, 
+            "wc": 4
+        }, 
+        "mail": "bagnoveneto@virgilio.itwww.bagnoveneto.it", 
+        "name": "Bagno veneto", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcio tennis", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "web cam", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "www.bagnoveneto.it", 
+        "tel": "0547 80208 "
+    }, 
+    {
+        "address": "Viale Ferrara, 56", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.203050845884974", 
+                "12.405152320861816"
+            ]
+        ], 
+        "details": {
+            "cabine": 17, 
+            "docce aperte": 2, 
+            "docce chiuse": 5, 
+            "fronte mare": 30, 
+            "lavapiedi": 1, 
+            "lettini": 230, 
+            "ombrelloni": 115, 
+            "sdraio": 10, 
+            "superficie complessiva spiaggia": 24, 
+            "wc": 3
+        }, 
+        "fax": "0547 673856", 
+        "mail": "info@bagnoveneziacesenatico.com", 
+        "name": "Bagno venezia", 
+        "services": [
+            "animazione", 
+            "baby sitting", 
+            "basket", 
+            "beach volley", 
+            "bocce", 
+            "cassette di sicurezza", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento", 
+            "massaggi", 
+            "vendita abbigliamento", 
+            "bigiotteria", 
+            "internet point"
+        ], 
+        "tel": "0547 80252"
+    }, 
+    {
+        "address": "Viale Ludovico de Varthema, 4", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.21685496470414", 
+                "12.38882303237915"
+            ]
+        ], 
+        "details": {}, 
+        "mail": "giorgio@villaceleste.euwww.villaceleste.eu", 
+        "name": "Bagno villa celeste", 
+        "services": [], 
+        "site": "www.villaceleste.eu", 
+        "tel": "327 7769950"
+    }, 
+    {
+        "address": "Viale Lungomare Ponente, 75", 
+        "city": "Cesenatico Ponente", 
+        "coords": [
+            [
+                "44.20695785511141", 
+                "12.39883303642273"
+            ]
+        ], 
+        "details": {
+            "cabine": 12, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 55, 
+            "lavapiedi": 2, 
+            "lettini": 200, 
+            "ombrelloni": 110, 
+            "sdraio": 20, 
+            "superficie complessiva spiaggia": 22, 
+            "wc": 3
+        }, 
+        "name": "Bagno wanda", 
+        "services": [
+            "animazione", 
+            "racchettoni", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "site": "http://www.bagnowanda.com", 
+        "tel": "338 8233494"
+    }, 
+    {
+        "address": "Spiaggia Zadina", 
+        "city": "Cesenatico Zadina", 
+        "coords": [
+            [
+                "44.20816528389175", 
+                "12.396955490112304"
+            ]
+        ], 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 2, 
+            "fronte mare": 28, 
+            "lettini": 150, 
+            "ombrelloni": 80, 
+            "sala tv": 0, 
+            "sdraio": 30, 
+            "superficie complessiva spiaggia": 17, 
+            "wc": 2
+        }, 
+        "name": "Bagno zadina", 
+        "services": [
+            "animazione", 
+            "bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "giornalini", 
+            "ristorazione", 
+            "sala tv", 
+            "accessibilit\u00e0 ai disabili", 
+            "cassetta pronto soccorso", 
+            "servizio salvamento"
+        ], 
+        "tel": "0547 82728"
+    }, 
+    {
+        "address": "Via Montello, 23", 
+        "city": "Cesenatico Centro", 
+        "coords": [
+            [
+                "44.194712975529505", 
+                "12.412651777267456"
+            ]
+        ], 
+        "details": {
+            "cabine": 43, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "fronte mare": 33, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 150, 
+            "sdraio": 100, 
+            "superficie complessiva spiaggia": 25, 
+            "wc": 4
+        }, 
+        "fax": "0547 673558", 
+        "mail": "bagnozara@libero.it", 
+        "name": "Bagno zara", 
+        "services": [
+            "animazione", 
+            "basket", 
+            "beach volley", 
+            "bocce", 
+            "area giochi bimbi", 
+            "pedal\u00f2/canoe", 
+            "ping pong", 
+            "biciclette", 
+            "ristorazione", 
+            "servizio libri", 
+            "custodia valori", 
+            "sala tv", 
+            "terrazza prendisole"
+        ], 
+        "tel": "0547 80251"
+    }
+]

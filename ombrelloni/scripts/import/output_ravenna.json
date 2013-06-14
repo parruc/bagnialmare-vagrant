@@ -1,0 +1,5713 @@
+[
+    {
+        "address": "Via Spallazzi Giovanni", 
+        "city": "Casal Borsetti", 
+        "details": {
+            "docce aperte": 4, 
+            "lettini": 230, 
+            "ombrelloni": 100, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 445123", 
+        "name": "Bagno Adria", 
+        "services": [
+            "beach volley", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 445123"
+    }, 
+    {
+        "address": "Via Leggero, 14/b", 
+        "city": "Casal Borsetti", 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 1, 
+            "docce chiuse": 3, 
+            "lavapiedi": 2, 
+            "lettini": 300, 
+            "ombrelloni": 100, 
+            "sdrai": 20, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnoadriatico.it", 
+        "name": "Bagno Adriatico", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://bagnoadriatico.it", 
+        "tel": "0544 445275"
+    }, 
+    {
+        "address": "Via Delle Rose, 43", 
+        "city": "Casal Borsetti", 
+        "details": {
+            "docce aperte": 1, 
+            "lettini": 250, 
+            "ombrelloni": 49, 
+            "sdrai": 20, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Bamboo", 
+        "services": [
+            "beach volley", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "339 1473019"
+    }, 
+    {
+        "address": "Via Ciceruacchio, 18", 
+        "city": "Casal Borsetti", 
+        "details": {
+            "cabine": 8, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 220, 
+            "ombrelloni": 126, 
+            "sdrai": 30, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Calipso (Kalipso)", 
+        "services": [
+            "animazione", 
+            "calcetto", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "karaoke", 
+            "nuoto", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 445400"
+    }, 
+    {
+        "address": "Via al Mare, 8", 
+        "city": "Casal Borsetti", 
+        "details": {
+            "cabine": 5, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 70, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 445208", 
+        "mail": "conchiglia08@gmail.com", 
+        "name": "Bagno Conchiglia", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "bar", 
+            "parcheggio"
+        ], 
+        "tel": "0544 445208"
+    }, 
+    {
+        "address": "Viale Lungomare, 27 - arenile demaniale", 
+        "city": "Casal Borsetti", 
+        "details": {
+            "cabine": 7, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 100, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "andrew-power@libero.it", 
+        "name": "Bagno Girasole", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "nuoto", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bagno-girasole.com", 
+        "tel": "0544 445297"
+    }, 
+    {
+        "address": "Via Casalborsetti, 199", 
+        "city": "Casal Borsetti", 
+        "details": {
+            "cabine": 7, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 350, 
+            "ombrelloni": 96, 
+            "sdrai": 4, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Molo", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "cene a tema", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 445088"
+    }, 
+    {
+        "address": "Via Leggero, 12", 
+        "city": "Casal Borsetti", 
+        "details": {
+            "cabine": 6, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 80, 
+            "sdrai": 10, 
+            "wc": 2, 
+            "wc disabili": 2
+        }, 
+        "name": "Bagno Oasi", 
+        "services": [
+            "beach volley", 
+            "happy hour", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 445226 - 338 4194627 - 338 7312784"
+    }, 
+    {
+        "address": "Via Ortolani Stefano, 1", 
+        "city": "Casal Borsetti", 
+        "details": {
+            "cabine": 7, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lettini": 350, 
+            "ombrelloni": 96, 
+            "sdrai": 7, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 445282", 
+        "mail": "info@overbeach.it", 
+        "name": "Bagno Overbeach (Mare e Vento)", 
+        "services": [
+            "beach volley", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.overbeach.it/", 
+        "tel": "0544 445600"
+    }, 
+    {
+        "address": "Via delle Ortensie, 15", 
+        "city": "CasalBorsetti", 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 280, 
+            "ombrelloni": 90, 
+            "sdrai": 10, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "fetsabfar@gmail.com", 
+        "name": "Bagno Palm Beach", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "ristorazione"
+        ], 
+        "tel": "388 1696820"
+    }, 
+    {
+        "address": "Via Delle Ortensie, 12", 
+        "city": "Casalborsetti", 
+        "details": {
+            "cabine": 21, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lettini": 300, 
+            "ombrelloni": 100, 
+            "sdrai": 40, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 445015", 
+        "mail": "info@bagno-romeo.it", 
+        "name": "Bagno Romeo", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "pallacanestro", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "serata a degustazione", 
+            "zona relax", 
+            "cabina per surf e windsurf"
+        ], 
+        "site": "http://www.bagno-romeo.it", 
+        "tel": "0544 445015"
+    }, 
+    {
+        "address": "Via Spazzoli Tonino, 3", 
+        "city": "Casal Borsetti", 
+        "details": {
+            "cabine": 6, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lettini": 140, 
+            "ombrelloni": 45, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Sole Luna (Fabio's Beach)", 
+        "services": [], 
+        "tel": "348 3403237"
+    }, 
+    {
+        "address": "Via delle Gardenie, 25", 
+        "city": "CasalBorsetti", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 450, 
+            "ombrelloni": 162, 
+            "sdrai": 20, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 445201", 
+        "mail": "riccardo.ventaglio@alice.it", 
+        "name": "Bagno Ventaglio", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 445201"
+    }, 
+    {
+        "address": "Viale Italia, 32", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 27, 
+            "cabine disabili": 1, 
+            "docce aperte": 5, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 120, 
+            "sdrai": 20, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446142", 
+        "mail": "alberto@alohabeach.it", 
+        "name": "Bagno Aloha Beach (Medusa)", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "nuoto", 
+            "nursery room", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "rimessaggio barche", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "windsurf", 
+            "wi-fi", 
+            "area cani attrezzata comprensiva di 26 ombrelloni", 
+            "servizio tender a bordo delle imbarcazioni con corsia preferenziale."
+        ], 
+        "site": "http://www.alohabeach.it", 
+        "tel": "0544 446142"
+    }, 
+    {
+        "address": "Viale Italia, 18 (155)", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 30, 
+            "cabine disabili": 1, 
+            "docce aperte": 8, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 600, 
+            "ombrelloni": 150, 
+            "sdrai": 40, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446207", 
+        "mail": "bagno-azzurro@libero.it", 
+        "name": "Bagno Azzurro", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calciotennis", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "nursery room", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "site": "http://www.bagnoazzurro.it", 
+        "tel": "0544 446207"
+    }, 
+    {
+        "address": "Viale Italia, 301", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 5, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "lavapiedi": 1, 
+            "lettini": 280, 
+            "ombrelloni": 24, 
+            "wc": 8, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446932", 
+        "mail": "info@bocabarranca.it", 
+        "name": "Bagno Boca Barranca (Corto Maltese)", 
+        "services": [
+            "aperitivi", 
+            "cene tipiche", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.bocabarranca.it/", 
+        "tel": "0544 447858"
+    }, 
+    {
+        "address": "Viale Italia, 10", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 230, 
+            "ombrelloni": 58, 
+            "sdrai": 10, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 448502", 
+        "mail": "barbaratassi@alice.it", 
+        "name": "Bagno Carolina", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigliate di carne", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 446520"
+    }, 
+    {
+        "address": "Piazza Italia, 115", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 32, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 700, 
+            "ombrelloni": 230, 
+            "sdrai": 50, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446399", 
+        "mail": "info@bagnocorallobeach.it", 
+        "name": "Bagno Corallo Beach", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "palestra", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "site": "http://www.bagnocorallobeach.it", 
+        "tel": "0544 446399"
+    }, 
+    {
+        "address": "Viale Italia, 167", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 15, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 234, 
+            "ombrelloni": 72, 
+            "sdrai": 2, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446439", 
+        "mail": "info@bagnocostaazzurra.it", 
+        "name": "Bagno Costa Azzurra", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "nursery room", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "windsurf"
+        ], 
+        "site": "http://www.bagnocostaazzurra.it/", 
+        "tel": "0544 446439"
+    }, 
+    {
+        "address": "Viale Italia, 165", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 26, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 3, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 120, 
+            "sdrai": 10, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446235", 
+        "mail": "bagnomeridiana@alice.it", 
+        "name": "Bagno da Stefano (Meridiana)", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "ping pong", 
+            "racchettoni", 
+            "rimessaggio barche", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 446235"
+    }, 
+    {
+        "address": "Viale Italia, 42", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 47, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 145, 
+            "sdrai": 30, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446370", 
+        "name": "Bagno Delfino", 
+        "services": [
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 446370"
+    }, 
+    {
+        "address": "Viale Italia, 287", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnodiana@gmail.com", 
+        "name": "Bagno Diana", 
+        "services": [
+            "aperitivi", 
+            "ristorazione", 
+            "cocktail bar", 
+            "surf"
+        ], 
+        "tel": "0544 446064"
+    }, 
+    {
+        "address": "Viale Italia, 44", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 23, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 200, 
+            "sdrai": 30, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnograziella.com", 
+        "name": "Bagno Graziella", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "karaoke", 
+            "nursery room", 
+            "pallacanestro", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "site": "http://www.bagnograziella.com", 
+        "tel": "0544 446296 - 335 6003061"
+    }, 
+    {
+        "address": "Viale Italia, 105", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 43, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 580, 
+            "ombrelloni": 180, 
+            "sdrai": 30, 
+            "wc": 7, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446114", 
+        "mail": "hawaybeach@libero.it", 
+        "name": "Bagno Haway", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nursery room", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 446114"
+    }, 
+    {
+        "address": "Viale Italia, 52", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 6, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 340, 
+            "ombrelloni": 119, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 44783", 
+        "name": "Bagno Luisa", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://web.tiscali.it/bagnoluisa", 
+        "tel": "0544 447333"
+    }, 
+    {
+        "address": "Viale Italia, 87", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 8, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lettini": 300, 
+            "ombrelloni": 140, 
+            "sdrai": 10, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "infomalaika@libero.it", 
+        "name": "Bagno Malaika (Kimba)", 
+        "services": [
+            "aperitivi", 
+            "cene a tema", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 446368"
+    }, 
+    {
+        "address": "Viale Italia, 48 (85)", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 15, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 450, 
+            "ombrelloni": 114, 
+            "sdrai": 20, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446854", 
+        "mail": "bagno.marisa@alice.it", 
+        "name": "Bagno Marisa", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nuoto", 
+            "nursery room", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "accessibilit\u00e0 disabili in spiaggia", 
+            "noleggio pedal\u00f2", 
+            "canoe e surf", 
+            "lezioni di beach tennis", 
+            "laboratori creativi per bambini. acquisito nel 2008 il marchio di qualit\u00e0."
+        ], 
+        "site": "http://www.bagnomarisa48.it", 
+        "tel": "0544 446854"
+    }, 
+    {
+        "address": "Viale Italia, 289", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 50, 
+            "sdrai": 2, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnomercurio@gmail.com", 
+        "name": "Bagno Mercurio", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "calciotennis", 
+            "cene a tema", 
+            "nursery room", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 446256"
+    }, 
+    {
+        "address": "Viale Italia, 143", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 45, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 450, 
+            "ombrelloni": 140, 
+            "sdrai": 50, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "filobagno22@libero.it", 
+        "name": "Bagno Moderno", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nursery room", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "rimessaggio barche", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "windsurf"
+        ], 
+        "site": "http://www.bagnomoderno22.it", 
+        "tel": "0544 446052"
+    }, 
+    {
+        "address": "Viale Italia, 153", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 50, 
+            "cabine disabili": 1, 
+            "docce aperte": 6, 
+            "docce chiuse": 2, 
+            "lavapiedi": 3, 
+            "lettini": 550, 
+            "ombrelloni": 160, 
+            "sdrai": 50, 
+            "wc": 7, 
+            "wc disabili": 1
+        }, 
+        "mail": "nevemare@bagnonettuno20.it", 
+        "name": "Bagno Nettuno", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nursery room", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "rimessaggio barche", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "windsurf"
+        ], 
+        "tel": "0544 446126"
+    }, 
+    {
+        "address": "Viale Italia, 169", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 240, 
+            "ombrelloni": 90, 
+            "sdrai": 25, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0545 33493", 
+        "mail": "info@bagnopaolo.it", 
+        "name": "Bagno Paolo", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bagnopaolo.it", 
+        "tel": "0544 446190"
+    }, 
+    {
+        "address": "viale Italia, 50", 
+        "city": "Marina Romea", 
+        "details": {
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 440, 
+            "ombrelloni": 132, 
+            "sdrai": 2, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446606", 
+        "mail": "info@papirriki.it", 
+        "name": "Bagno Papirriki", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "campi bocce", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "karaoke", 
+            "nuoto", 
+            "nursery room", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "bancomat", 
+            "carta di credito", 
+            "accessibilit\u00e0 disabili in spiaggia", 
+            "deposito caschi", 
+            "rilevatori no-alcol", 
+            "cabina spogliatoio", 
+            "cabina fasciatoio", 
+            "libreria", 
+            "videoteca", 
+            "giochi da tavolo/ludoteca", 
+            "quotidiani e riviste", 
+            "tavolo da gioco", 
+            "biciclette  di servizio", 
+            "amache  amazonas", 
+            "tv/schermo gigante", 
+            "veranda", 
+            "parco giochi", 
+            "piscina", 
+            "deposito giochi", 
+            "palloni", 
+            "racchette", 
+            "canoe", 
+            "area  attrezzata per cani", 
+            "free internet access (wi-fi gratuito)"
+        ], 
+        "site": "http://www.papirriki.it", 
+        "tel": "0544 446606"
+    }, 
+    {
+        "address": "Viale Italia, 101", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 25, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 150, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446009", 
+        "mail": "info@sirenetta-paradiso.net", 
+        "name": "Bagno Paradiso", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "area giochi bimbi", 
+            "nuoto", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "pizzeria"
+        ], 
+        "site": "http://www.sirenetta-paradiso.net", 
+        "tel": "0544 446380 - 0544 446009"
+    }, 
+    {
+        "address": "Viale Italia, 131", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 39, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 134, 
+            "sdrai": 15, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnopineta.it", 
+        "name": "Bagno Pineta", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "karaoke", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.bagnopineta.it", 
+        "tel": "0544 446344"
+    }, 
+    {
+        "address": "Viale Italia, 129", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 450, 
+            "ombrelloni": 150, 
+            "sdrai": 50, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnoromea.com", 
+        "name": "Bagno Romea", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "nuoto", 
+            "nursery room", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "site": "http://www.bagnoromea.com", 
+        "tel": "0544 446081"
+    }, 
+    {
+        "address": "Viale Italia, 103", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 40, 
+            "cabine disabili": 1, 
+            "docce aperte": 7, 
+            "docce chiuse": 3, 
+            "lavapiedi": 2, 
+            "lettini": 500, 
+            "ombrelloni": 200, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446009", 
+        "mail": "info@sirenetta-paradiso.net", 
+        "name": "Bagno Sirenetta", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "area giochi bimbi", 
+            "nuoto", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "pizzeria"
+        ], 
+        "site": "http://www.sirenetta-paradiso.net", 
+        "tel": "0544 446009 - 0544 446380"
+    }, 
+    {
+        "address": "Viale Italia, 30 (127)", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 39, 
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 370, 
+            "ombrelloni": 140, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "faridah@hotmail.it", 
+        "name": "Bagno Solidea", 
+        "services": [
+            "calciotennis", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "nursery room", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 446165"
+    }, 
+    {
+        "address": "Viale Italia, 24", 
+        "city": "Marina Romea", 
+        "details": {
+            "cabine": 40, 
+            "cabine disabili": 1, 
+            "docce aperte": 6, 
+            "docce chiuse": 3, 
+            "lavapiedi": 2, 
+            "lettini": 350, 
+            "ombrelloni": 100, 
+            "sdrai": 100, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "enea2081@libero.it", 
+        "name": "Bagno Susy", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 446091"
+    }, 
+    {
+        "address": "Via Guerra Teseo, 33", 
+        "city": "Porto Corsini", 
+        "details": {
+            "cabine": 20, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 130, 
+            "ombrelloni": 46, 
+            "sdrai": 5, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno da Buco", 
+        "services": [
+            "beach volley", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 446463"
+    }, 
+    {
+        "address": "Via Guerra Teseo, 27", 
+        "city": "Porto Corsini", 
+        "details": {
+            "cabine": 16, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 120, 
+            "sdrai": 10, 
+            "wc": 4, 
+            "wc disabili": 2
+        }, 
+        "fax": "0544 446255", 
+        "mail": "info@bagnomara.it", 
+        "name": "Bagno Mara", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 446255"
+    }, 
+    {
+        "address": "Via T. Guerra, 35", 
+        "city": "Porto Corsini", 
+        "details": {
+            "cabine": 3, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 68, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446859", 
+        "mail": "gabristella1958@libero.it", 
+        "name": "Bagno Tarifa", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 446859"
+    }, 
+    {
+        "address": "Via T. Guerra, 31", 
+        "city": "Porto Corsini", 
+        "details": {
+            "cabine": 4, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "lavapiedi": 2, 
+            "lettini": 300, 
+            "ombrelloni": 150, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 446107", 
+        "mail": "bagnovillaggiodelsole@yahoo.it", 
+        "name": "Bagno Villaggio del Sole", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "sport", 
+            "pedal\u00f2"
+        ], 
+        "site": "http://www.bagnovillaggiodelsole.webs.com", 
+        "tel": "346 0010963"
+    }, 
+    {
+        "address": "Via Guerra Teseo, 8", 
+        "city": "Porto Corsini", 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 70, 
+            "sdrai": 30, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "jeffyele@hotmail.com", 
+        "name": "Bango Mama Rumba", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 446170"
+    }, 
+    {
+        "address": "Viale della Pace, 474", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 11, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 3, 
+            "lavapiedi": 2, 
+            "lettini": 500, 
+            "ombrelloni": 150, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "aiasravenna@virgilio.it", 
+        "name": "Bagno ai Tamerici", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "nursery room", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "accessibilit\u00e0 disabili in spiaggia", 
+            "stabilimento balneare senza barriere architettoniche", 
+            "percorsi per carrozzine fino al mare", 
+            "fornitura carrozzina per disabili", 
+            "noleggio pedal\u00f2."
+        ], 
+        "tel": "0544 538953"
+    }, 
+    {
+        "address": "Viale delle Nazioni", 
+        "city": "Marina di Ravenna", 
+        "details": {}, 
+        "name": "Bagno Associazione Nazionale Marinai d'Italia (A.N.M.I.)", 
+        "services": []
+    }, 
+    {
+        "address": "Viale dell Nazioni, 66/B", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 40, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 80, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Astoria", 
+        "services": [
+            "beach volley", 
+            "calciotennis", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 530185"
+    }, 
+    {
+        "address": "Viale Lungomare, 16", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 26, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 148, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530544", 
+        "mail": "info@bigmamabeach.it", 
+        "name": "Bagno Big Mama", 
+        "services": [
+            "animazione", 
+            "beach basket", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bigmamabeach.it", 
+        "tel": "0544 530544"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 78", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 18, 
+            "cabine disabili": 1, 
+            "docce aperte": 6, 
+            "lettini": 400, 
+            "ombrelloni": 60, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@charliebeach.it", 
+        "name": "Bagno Charlie", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.charliebeach.it/", 
+        "tel": "0544 531081"
+    }, 
+    {
+        "address": "Viale Delle Nazioni, 42", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 29, 
+            "docce aperte": 7, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdrai": 20, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 536021", 
+        "mail": "jmcbar@tiscali.it", 
+        "name": "Bagno CocoLoco", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "cene a tema", 
+            "area giochi bimbi", 
+            "nursery room", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "windsurf"
+        ], 
+        "site": "http://www.coco-loco.it", 
+        "tel": "0544 530251"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 70", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 18, 
+            "cabine disabili": 4000, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Corallo", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 530659"
+    }, 
+    {
+        "address": "Via dell Pace, 62", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 20, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 430, 
+            "ombrelloni": 50, 
+            "sdrai": 15, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 531426", 
+        "mail": "info@dolcelucia.com", 
+        "name": "Bagno Dolce Lucia", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach basket", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "nuoto", 
+            "nursery room", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "baby club", 
+            "tornei di racchettoni", 
+            "basket e beach volley", 
+            "grill self-service."
+        ], 
+        "site": "http://www.dolcelucia.com", 
+        "tel": "0544 530546"
+    }, 
+    {
+        "address": "Viale delle Nazioni", 
+        "city": "Marina di Ravenna", 
+        "details": {}, 
+        "name": "Bagno Dolce Vita", 
+        "services": []
+    }, 
+    {
+        "address": "viale delle Nazioni, 262", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 126, 
+            "cabine disabili": 1, 
+            "docce aperte": 42, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 800, 
+            "ombrelloni": 200, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530017", 
+        "mail": "mare@spiaggiadonnarosa.com", 
+        "name": "Bagno Donna Rosa", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "serate danzanti (marted\u00ec e venerd\u00ec)", 
+            "concertini (domenica)", 
+            "serate a tema per bimbi (al luned\u00ec con burattini e spettacoli vari)", 
+            "corso beach tennis", 
+            "pomeriggi benessere (yoga", 
+            "pilates", 
+            "massaggi etc)", 
+            "gazebo con barbecue."
+        ], 
+        "site": "http://www.spiaggiadonnarosa.com", 
+        "tel": "0544 530026"
+    }, 
+    {
+        "address": "Viale della Pace, 60", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "wc": 6, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530548", 
+        "mail": "dunaorsi@gmail.com", 
+        "name": "Bagno Duna degli Orsi", 
+        "services": [
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "ristorazione", 
+            "area cani (a richiesta)", 
+            "wi-fi gratuito", 
+            "ristorante biologico"
+        ], 
+        "site": "http://www.dunadegliorsi.com", 
+        "tel": "0544 530548"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 72", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 14, 
+            "cabine disabili": 1, 
+            "docce aperte": 6, 
+            "docce chiuse": 2, 
+            "lavapiedi": 6, 
+            "lettini": 500, 
+            "ombrelloni": 180, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bronsonproduzioni.com", 
+        "name": "Bagno Hana Bi", 
+        "services": [
+            "calcetto", 
+            "calciotennis", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "noleggio surf", 
+            "calcio balilla", 
+            "concerti", 
+            "dj set"
+        ], 
+        "site": "http://bronsonproduzioni.com", 
+        "tel": "333 2097141"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 32 (250)", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 32, 
+            "cabine disabili": 1, 
+            "docce aperte": 5, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 600, 
+            "ombrelloni": 180, 
+            "sdrai": 20, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@hookipa.it", 
+        "name": "Bagno Hookipa", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "nursery room", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "musica dal vivo", 
+            "massaggi orientali", 
+            "docce calde", 
+            "banco degli aromi", 
+            "lounge caff\u00e8", 
+            "prenotazioni on line sul sito."
+        ], 
+        "site": "Bagno Hookipa", 
+        "tel": "0544 531788"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 24", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 18, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 60, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnokiaorana@yahoo.it", 
+        "name": "Bagno Kia Orana", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calciotennis", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "american bar", 
+            "freesbee ultimate."
+        ], 
+        "tel": "0544 538840"
+    }, 
+    {
+        "address": "Viale della Pace, 452/C", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 26, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 120, 
+            "ombrelloni": 45, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "v.montironi@yahoo.it", 
+        "name": "Bagno Kon-Tiki", 
+        "services": [], 
+        "site": "http://www.bagnokontiki.com", 
+        "tel": "0544 530508"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 6", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 20, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 100, 
+            "sdrai": 20, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "rickydezordo@gmail.com", 
+        "name": "Bagno Luana Beach", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nursery room", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 531156"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 40/B", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 3, 
+            "lettini": 300, 
+            "ombrelloni": 1000, 
+            "sdrai": 40, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnolucciola.it", 
+        "name": "Bagno Lucciola", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nuoto", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "pizzeria", 
+            "noleggio mosconi", 
+            "venerd\u00ec sera festa del ballo scalza"
+        ], 
+        "site": "http://www.bagnolucciola.it/", 
+        "tel": "0544 530186"
+    }, 
+    {
+        "address": "viale delle Nazioni, 82", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 20, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 110, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@marinamore.it", 
+        "name": "Bagno Marinamore", 
+        "services": [
+            "beach volley", 
+            "calciotennis", 
+            "nursery room", 
+            "racchettoni", 
+            "ristorazione", 
+            "accessibilit\u00e0 disabili in spiaggia"
+        ], 
+        "site": "http://www.marinamore.it", 
+        "tel": "0544 531426"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 74", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 2, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 97, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@marisol74.it", 
+        "name": "Bagno Marisol", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "pizzeria"
+        ], 
+        "site": "http://www.marisol74.it", 
+        "tel": "366 5408812"
+    }, 
+    {
+        "address": "Via Lungo Mare, 76", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 80, 
+            "sdrai": 15, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "tavernamolino@libero.it", 
+        "name": "Bagno Maverick", 
+        "services": [
+            "area giochi bimbi", 
+            "ristorazione", 
+            "pizzeria", 
+            "bar", 
+            "area sport", 
+            "parcheggio"
+        ], 
+        "tel": "0544 539185"
+    }, 
+    {
+        "address": "Viale della Pace, 456", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lettini": 300, 
+            "ombrelloni": 60, 
+            "sdrai": 20, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnomiocapitano@libero.it", 
+        "name": "Bagno Mio Capitano", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione", 
+            "musica", 
+            "eventi", 
+            "spazio benessere."
+        ], 
+        "tel": "0544 530060"
+    }, 
+    {
+        "address": "viale delle Nazioni, 28 (242/C)", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 35, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 4, 
+            "lettini": 600, 
+            "ombrelloni": 190, 
+            "sdrai": 1015, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@marinamitu.it", 
+        "name": "Bagno Mit\u00f9 C.R.A.L.P.T.", 
+        "services": [
+            "mercoled\u00ec sera: paella carne e pesce", 
+            "tapas e sangria 14\u20ac; sabato sera: musica dal vivo; domenica sera: grigliata di carne e verdure 12\u20ac", 
+            "aperitivi", 
+            "beach volley", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "palestra", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "site": "http://www.marinamitu.it", 
+        "tel": "0544 530113"
+    }, 
+    {
+        "address": "Via Lungomare, 4", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 50, 
+            "docce aperte": 8, 
+            "docce chiuse": 10, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 300, 
+            "wc": 6, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Mokambo", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 530676"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 30", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 15, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 300, 
+            "ombrelloni": 80, 
+            "sdrai": 40, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 536028", 
+        "mail": "info@molotrezero.it", 
+        "name": "Bagno Molo Tre Zero", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.molotrezero.it", 
+        "tel": "0544 530793"
+    }, 
+    {
+        "address": "viale delle Nazioni, 20 (194)", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 1, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 60, 
+            "wc": 6, 
+            "wc disabili": 1
+        }, 
+        "mail": "mosquito-coast@hotmail.it", 
+        "name": "Bagno Mosquito", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "cene a tema", 
+            "cene tipiche", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "nursery room", 
+            "palestra", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "corso di capoeira", 
+            "corsi di yoga", 
+            "corsi di balli brasiliani"
+        ], 
+        "tel": "0544 530854"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 80 (462)", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 29, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 3, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 175, 
+            "sdrai": 10, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530768", 
+        "mail": "luminob.luminob@alice.it", 
+        "name": "Bagno Oasi", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach basket", 
+            "beach volley", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nursery room", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 530768"
+    }, 
+    {
+        "address": "viale delle Nazioni, 204", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "ombrelloni": 80, 
+            "wc": 6, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530167", 
+        "mail": "info@bagnoobelix.it - luca@bagnoobelix.it", 
+        "name": "Bagno Obelix", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calciotennis", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "cocktail bar", 
+            "zona relax con vasca idromassaggio", 
+            "ampio parco giochi per bambini", 
+            "possibilit\u00e0 di cene/pranzi con menu personalizzati", 
+            "zona barbecue a disposizione dei clienti", 
+            "corsi di beach tennis tenuti dalla scuola \"argentina\"", 
+            "corsi di beach volley tenuti dalla scuola \"a.costa\"", 
+            "spa."
+        ], 
+        "site": "http://www.bagnoobelix.it", 
+        "tel": "0544 530167"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 44", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 11, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 190, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "iorio@racine.ra.it", 
+        "name": "Bagno Paradiso", 
+        "services": [
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 538944"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 181", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 40, 
+            "docce aperte": 6, 
+            "docce chiuse": 4, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530430", 
+        "mail": "parkhotelravenna@geturhotels.com", 
+        "name": "Bagno Park Hotel", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.parkhotelravenna.it", 
+        "tel": "0544 531743"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 36 (260)", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 22, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 400, 
+            "ombrelloni": 80, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530402", 
+        "mail": "info@peterpan36.com", 
+        "name": "Bagno Peter Pan", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nursery room", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.peterpan36.com", 
+        "tel": "0544 530402"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 242/b", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 5, 
+            "cabine disabili": 1, 
+            "docce aperte": 9, 
+            "docce chiuse": 1, 
+            "lettini": 700, 
+            "ombrelloni": 200, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@singita.it", 
+        "name": "Bagno Singita Miracle Beach", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "calciotennis", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "pizzeria", 
+            "cocktail bar", 
+            "organizzazione feste private (matrimoni e ricorrenze)", 
+            "area benessere", 
+            "animazione per bambini tutti i fine settimana"
+        ], 
+        "site": "http://www.singita.it", 
+        "tel": "0544 538851"
+    }, 
+    {
+        "address": "Viale Delle Nazioni, 54", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 8, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lettini": 300, 
+            "ombrelloni": 176, 
+            "sdrai": 10, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 264499", 
+        "mail": "info@sottomarino54.com", 
+        "name": "Bagno Sottomarino Rivaverde", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach basket", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "nursery room", 
+            "pallacanestro", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "acquagym", 
+            "dodgeball", 
+            "yoga", 
+            "animazione per bambini durante la mattina"
+        ], 
+        "site": "http://www.sottomarino54.com", 
+        "tel": "0544 530785"
+    }, 
+    {
+        "address": "Viale Delle Nazioni, 46 (278)", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 27, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 3, 
+            "lettini": 550, 
+            "ombrelloni": 150, 
+            "wc": 6, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnotaormina.it", 
+        "name": "Bagno Taormina", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "karaoke", 
+            "nursery room", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "site": "http://www.bagnotaormina.it", 
+        "tel": "0544 530194"
+    }, 
+    {
+        "address": "Viale Delle Nazioni, 48 (284)", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 15, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lettini": 300, 
+            "ombrelloni": 90, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530789", 
+        "mail": "info@bagnotequila.com", 
+        "name": "Bagno Tequila", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach basket", 
+            "beach volley", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "pallacanestro", 
+            "racchettoni", 
+            "rimessaggio barche", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 530789"
+    }, 
+    {
+        "address": "Viale delle Nazioni, 442", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine disabili": 1, 
+            "docce aperte": 6, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 500, 
+            "ombrelloni": 90, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530945", 
+        "mail": "info@tikoa.it", 
+        "name": "Bagno Tikoa", 
+        "services": [
+            "ristorazione", 
+            "pizzeria", 
+            "paninoteca", 
+            "feste danzanti"
+        ], 
+        "site": "http://www.tikoa.it", 
+        "tel": "0544 530945"
+    }, 
+    {
+        "address": "Viale dell Nazioni, 64", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 24, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lettini": 700, 
+            "ombrelloni": 250, 
+            "wc": 6, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530547", 
+        "mail": "toto@toto-beach.it", 
+        "name": "Bagno Toto Beach Bar", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione", 
+            "solarium"
+        ], 
+        "site": "http://www.totobeach.it", 
+        "tel": "0544 530547 - 347 1039916"
+    }, 
+    {
+        "address": "Via Lungo Mare, 78", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagno.ulisse@alice.it", 
+        "name": "Bagno Ulisse", 
+        "services": [
+            "beach volley", 
+            "cene a tema", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 530515 - 345 6195483"
+    }, 
+    {
+        "address": "Viale dell Nazioni, 14", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 40, 
+            "docce aperte": 5, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 114, 
+            "sdrai": 80, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 530521", 
+        "mail": "info@bagnowaimea.it", 
+        "name": "Bagno Waimea", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nursery room", 
+            "pallacanestro", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "site": "http://www.bagnowaimea.it/", 
+        "tel": "0544 530521"
+    }, 
+    {
+        "address": "Viale Delle Nazioni, 440", 
+        "city": "Marina di Ravenna", 
+        "details": {}, 
+        "name": "Bagno Zanzibar", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "parcheggio privato", 
+            "ristorante pesce e cucina romagnola (anche per celiaci)", 
+            "pizzeria forno a legna (anche per celiaci)", 
+            "doccia calda gratis", 
+            "disco club (sabato sera dalle 20.00 alle 24.00)", 
+            "disco aperitivo (domenica dalle 18.30 alle 21.00)"
+        ], 
+        "site": "http://www.zanzibarbeach.it/", 
+        "tel": "0544 530418 - 347 2583525"
+    }, 
+    {
+        "address": "Viale dell Nazioni, 10/12", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 16, 
+            "docce aperte": 12, 
+            "docce chiuse": 3, 
+            "lettini": 1000, 
+            "ombrelloni": 220, 
+            "sdrai": 100, 
+            "wc": 12, 
+            "wc disabili": 3
+        }, 
+        "fax": "0544 536063", 
+        "mail": "info@marinabay.it", 
+        "name": "Bangno Marina Bay", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "palestra", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "fitness", 
+            "aquagym", 
+            "tennis", 
+            "bar marinabay: prime colazioni", 
+            "pranzi e cene", 
+            "self service nel fine settimana. la braciolata: zona barbeque con servizio macelleria. il chiringuito: bar sulla spiaggia per freschi cocktails", 
+            "aperitivi", 
+            "gelati e frutta fresca. play park: area bimbi. club dei mini: servizio di baby club attivo tutta l\u2019estate con animatori qualificati. gioveragazzi: gioved\u00ec dedicato interamente ai piccini", 
+            "con spettacoli di artisti di strada e cena a tema con i genitori."
+        ], 
+        "site": "http://www.marinabay.it", 
+        "tel": "0544 530440"
+    }, 
+    {
+        "address": "Viale Delle Nazioni, 50", 
+        "city": "Marina di Ravenna", 
+        "details": {
+            "cabine": 8, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 80, 
+            "wc": 6, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 539461", 
+        "mail": "info@mambocafe.it", 
+        "name": "Bango Mambo Caf\u00e9", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 539461 - 340 8993040"
+    }, 
+    {
+        "address": "Lungomare C. Colombo, 67", 
+        "city": "Punta Marina terme", 
+        "details": {
+            "cabine": 26, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 350, 
+            "ombrelloni": 136, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 438726", 
+        "mail": "riccardo75@email.it", 
+        "name": "Bagno 4 Venti", 
+        "services": [
+            "beach volley", 
+            "calciotennis", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate per bambini", 
+            "musica dal vivo"
+        ], 
+        "tel": "0544 438726"
+    }, 
+    {
+        "address": "Viale Lungo Mare, 42", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 220, 
+            "ombrelloni": 100, 
+            "sdrai": 25, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "mava@bagnibologna.it", 
+        "name": "Bagno Angolo B", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "cene tipiche", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.bagnibologna.it", 
+        "tel": "0544 438666"
+    }, 
+    {
+        "address": "Lungomare Colombo Cristoforo, 171", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 5, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 500, 
+            "ombrelloni": 200, 
+            "wc": 5, 
+            "wc disabili": 2
+        }, 
+        "mail": "info@bbkbeach.com", 
+        "name": "Bagno B. B. King", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "nursery room", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione", 
+            "servizio navetto", 
+            "solarium", 
+            "baby sitter", 
+            "discoteca"
+        ], 
+        "site": "http://www.bbkbeach.com", 
+        "tel": "0544 438494 - 338 6509800"
+    }, 
+    {
+        "address": "Viale Lungomare, 14", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 22, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 100, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 437022", 
+        "mail": "baroni.g@libero.it", 
+        "name": "Bagno Baloo", 
+        "services": [
+            "animazione", 
+            "beach basket", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "happy hour", 
+            "nuoto", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 437022"
+    }, 
+    {
+        "address": "Via della Fontana, 70/B", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 26, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 100, 
+            "wc": 1, 
+            "wc disabili": 1
+        }, 
+        "mail": "daniele.patrick@aliceposta.it", 
+        "name": "Bagno Bellavista", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "cene a tema", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 437289"
+    }, 
+    {
+        "address": "Lungomare Colombo Cristoforo, 38 - 40", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 24, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 100, 
+            "sdrai": 30, 
+            "wc": 6, 
+            "wc disabili": 1
+        }, 
+        "mail": "mava@bagnibologna.it", 
+        "name": "Bagno Bologna", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "aquagym", 
+            "noleggio canoe"
+        ], 
+        "site": "http://www.bagnibologna.it", 
+        "tel": "0544 438666"
+    }, 
+    {
+        "address": "Lungomare Colombo Cristoforo, 38", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 24, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 100, 
+            "sdrai": 30, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "mava@bagnibologna.it", 
+        "name": "Bagno Bolognino", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "aquagym", 
+            "noleggio canoe"
+        ], 
+        "site": "http://www.bagnibologna.it", 
+        "tel": "0544  437327"
+    }, 
+    {
+        "address": "Via della Fontana, 1", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 5, 
+            "docce aperte": 2, 
+            "lavapiedi": 1, 
+            "lettini": 160, 
+            "ombrelloni": 105, 
+            "sdrai": 10, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "(+39 0544 438510", 
+        "mail": "info@adrianocampingvillage.com", 
+        "name": "Bagno Camping Adriano", 
+        "services": [
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.campingadriano.com", 
+        "tel": "0544 437230"
+    }, 
+    {
+        "address": "Piazza Saffi Aurelio, 11", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 22, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 350, 
+            "ombrelloni": 160, 
+            "sdrai": 50, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@chiccobeach54.it", 
+        "name": "Bagno Chicco Beach", 
+        "services": [
+            "beach volley", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.chiccobeach54.it", 
+        "tel": "0544 437442"
+    }, 
+    {
+        "address": "Viale Lungomare, 69", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 35, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 300, 
+            "ombrelloni": 160, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 438326", 
+        "mail": "derisbeach@gmail.com", 
+        "name": "Bagno Deris", 
+        "services": [
+            "beach volley", 
+            "calcetto", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 437718"
+    }, 
+    {
+        "address": "Viale Lungomare, 44", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 12, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 150, 
+            "ombrelloni": 90, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnoettore@libero.it", 
+        "name": "Bagno Ettore", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "barbecue", 
+            "musica dal vivo", 
+            "dj-set", 
+            "buffet vegetariani", 
+            "concerti e cinema in spiaggia."
+        ], 
+        "tel": "328 7844140"
+    }, 
+    {
+        "address": "Viale Lungomare, 22", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 20, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 350, 
+            "ombrelloni": 100, 
+            "sdrai": 10, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 437445", 
+        "mail": "info@bagnofederico.com", 
+        "name": "Bagno Federico", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.bagnofederico.com/", 
+        "tel": "0544 437445"
+    }, 
+    {
+        "address": "Viale Lungomare, 50/B", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Gianni", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 438245"
+    }, 
+    {
+        "address": "Via della Fontana, 62", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdrai": 50, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnoildavid.it", 
+        "name": "Bagno Il David", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "karaoke", 
+            "pallacanestro", 
+            "piano bar", 
+            "racchettoni", 
+            "serate a tema", 
+            "laboratori di ceramica", 
+            "corsi di lingua inglese con madrelingua", 
+            "angolo lettura", 
+            "giochi senza frontiere", 
+            "elezione di miss/mr bambino", 
+            "corrida"
+        ], 
+        "tel": "328 0360188"
+    }, 
+    {
+        "address": "Viale Lungomare, 157", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lettini": 200, 
+            "ombrelloni": 70, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Kamala", 
+        "services": [
+            "beach volley", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 437251"
+    }, 
+    {
+        "address": "Via della Fontana, 64", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 8, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 120, 
+            "ombrelloni": 60, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnokiribati@libero.it", 
+        "name": "Bagno Kiribati", 
+        "services": [
+            "beach volley", 
+            "cene a tema", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 437288"
+    }, 
+    {
+        "address": "Lungomare Colombo Cristoforo, 6", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 18, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 110, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@kuta.it", 
+        "name": "Bagno Kuta Mare (Sangria)", 
+        "services": [
+            "animazione", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.kuta.it", 
+        "tel": "0544 437864"
+    }, 
+    {
+        "address": "Viale Lungomare, 16/B", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 30, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 280, 
+            "ombrelloni": 99, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Mapa Beach", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "happy hour", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 437373"
+    }, 
+    {
+        "address": "Viale Lungomare, 18/B", 
+        "city": "Punta Marina Terme", 
+        "details": {}, 
+        "name": "Bagno Mare Blu", 
+        "services": [], 
+        "tel": "0544 437755"
+    }, 
+    {
+        "address": "Via della Fontana, 54", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 16, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 340, 
+            "ombrelloni": 120, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Marina Power Beach", 
+        "services": [
+            "animazione", 
+            "campi bocce", 
+            "cene a tema", 
+            "area giochi bimbi", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.bagnofederico.com", 
+        "tel": "0544 439146"
+    }, 
+    {
+        "address": "Via della Fontana, 56", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lettini": 220, 
+            "ombrelloni": 90, 
+            "sdrai": 40, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Massimo", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 437124"
+    }, 
+    {
+        "address": "Via della Fontana, 40", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 140, 
+            "ombrelloni": 60, 
+            "sdrai": 3, 
+            "wc": 1, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnomerida.it", 
+        "name": "Bagno Merida", 
+        "services": [
+            "sabato: serate con forumula party e intrattenimento (giugno-luglio-agosto)domenica: animazione (giugno-luglio-agosto)serate a sorpresa infrasettimanali (luglio-agosto)gran gal\u00e0 di ferragosto con cena", 
+            "musica dal vivo torta gigante per tutti e fuochi d'artificio.organizzazione tornei beach tennis e beach volley con premi. organizzazione tornei di mah-jong e carte.", 
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "karaoke", 
+            "nursery room", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "noleggio canoe", 
+            "bagnino di salvataggio davanti allo stabilimento", 
+            "locale privo di barriere architettoniche", 
+            "ampio parcheggio gratuito", 
+            "circolo velico a 100 m", 
+            "spazio bimbi con animazione nei week-end", 
+            "campeggio a 200 mt"
+        ], 
+        "site": "http://www.bagnomerida.it/", 
+        "tel": "0544 437164"
+    }, 
+    {
+        "address": "Via della Fontana, 78", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 140, 
+            "ombrelloni": 80, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "ladybeach@live.it", 
+        "name": "Bagno Meridiana", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "calcetto", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "karaoke", 
+            "nuoto", 
+            "nursery room", 
+            "palestra", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 437024"
+    }, 
+    {
+        "address": "Piazza Saffi Aurelio, 10", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 20, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 108, 
+            "sdrai": 10, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Miramare Lido", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 437121 - 331 9893116"
+    }, 
+    {
+        "address": "Via della Fontana, 74", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 20, 
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 140, 
+            "ombrelloni": 60, 
+            "sdrai": 20, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Mirella", 
+        "services": [
+            "da pasqua a settembre e nel periodo invernale: venerd\u00ec", 
+            "sabato e domenica dal pomeriggio alle 24.00", 
+            "aperitivi", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "happy hour", 
+            "karaoke", 
+            "nursery room", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium", 
+            "accettazione piccoli animali domestici"
+        ], 
+        "tel": "0544 437461"
+    }, 
+    {
+        "address": "Viale Lungomare, 159", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 24, 
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 120, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 437858", 
+        "mail": "info@nariz.it", 
+        "name": "Bagno Nariz", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "cene a tema", 
+            "grigliate di carne", 
+            "racchettoni", 
+            "serate a tema", 
+            "servizio navetto", 
+            "accessibilit\u00e0 disabili in spiaggia", 
+            "barbecue per gruppi", 
+            "box di sicurezza con presa di corrente per cellulari"
+        ], 
+        "site": "http://www.nariz.it", 
+        "tel": "0544 437858"
+    }, 
+    {
+        "address": "Lungomare Colombo Cristoforo, 36", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 19, 
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 134, 
+            "sdrai": 20, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnonautilus@gmail.com", 
+        "name": "Bagno Nautilus Beach", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "cene a tema", 
+            "grigliate di carne", 
+            "happy hour", 
+            "karaoke", 
+            "piano bar", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "servizio navetto", 
+            "solarium"
+        ], 
+        "tel": "0544 437136"
+    }, 
+    {
+        "address": "Viale Lungomare", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 30, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 100, 
+            "sdrai": 30, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnopelo@libero.it", 
+        "name": "Bagno Pelo", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bagnopelo.it/", 
+        "tel": "0544 437090"
+    }, 
+    {
+        "address": "Viale Lungomare, 34", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 30, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lettini": 500, 
+            "ombrelloni": 120, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 437470", 
+        "mail": "info@bagnoperla.it", 
+        "name": "Bagno Perla", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.bagnoperla.it/", 
+        "tel": "0544 437470 - 347 4670672"
+    }, 
+    {
+        "address": "Via della Fontana, 72", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 12, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 3, 
+            "lavapiedi": 2, 
+            "lettini": 200, 
+            "ombrelloni": 80, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Re di Denari", 
+        "services": [
+            "aperitivi", 
+            "beach volley", 
+            "cene a tema", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nursery room", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "solarium"
+        ], 
+        "tel": "0544 437051"
+    }, 
+    {
+        "address": "Via della Fontana, 68", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 31, 
+            "cabine disabili": 1, 
+            "docce aperte": 6, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 230, 
+            "ombrelloni": 110, 
+            "sdrai": 80, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnorivaverde.it", 
+        "name": "Bagno Rivaverde", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "karaoke", 
+            "nursery room", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.bagnorivaverde.it", 
+        "tel": "0544 437761"
+    }, 
+    {
+        "address": "Viale Lungomare, 2", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 18, 
+            "docce aperte": 6, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 90, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 400812", 
+        "mail": "ruvido@ruvido.org", 
+        "name": "Bagno Ruvido Beach", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.ruvido.org", 
+        "tel": "0544 438400"
+    }, 
+    {
+        "address": "Via Della Fontana, 60", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 1, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 100, 
+            "sdrai": 20, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnosaintropez.it", 
+        "name": "Bagno Saint Tropez", 
+        "services": [
+            "animazione", 
+            "karaoke", 
+            "ping pong", 
+            "racchettoni", 
+            "oasi verde", 
+            "jukebox", 
+            "bocce", 
+            "canoe", 
+            "kick boxing", 
+            "ampio parcheggio"
+        ], 
+        "site": "http://www.bagnosaintropez.it/", 
+        "tel": "0544 437478"
+    }, 
+    {
+        "address": "Via della Fontana, 60", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 1, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 100, 
+            "sdrai": 20, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnosaintropez.it", 
+        "name": "Bagno Saint Tropez Beach", 
+        "services": [
+            "campi bocce", 
+            "karaoke", 
+            "ping pong", 
+            "racchettoni", 
+            "canoe", 
+            "kick boxing", 
+            "jukebox", 
+            "parcheggio privato"
+        ], 
+        "site": "www.bagnosaintropez.it", 
+        "tel": "0544 437478"
+    }, 
+    {
+        "address": "Via Della Fontana, 10", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 27, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 240, 
+            "ombrelloni": 100, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnosusanna.it", 
+        "name": "Bagno Susanna", 
+        "services": [
+            "animazione", 
+            "aperitivi", 
+            "beach volley", 
+            "campi bocce", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "karaoke", 
+            "nursery room", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "internet", 
+            "spinning", 
+            "susanniadi (giochi per bambini)", 
+            "canoe e pedal\u00f2", 
+            "giochi per adulti"
+        ], 
+        "site": "http://www.bagnosusanna.it", 
+        "tel": "0544 439212"
+    }, 
+    {
+        "address": "Viale Lungomare, 161", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 36, 
+            "docce aperte": 6, 
+            "docce chiuse": 2, 
+            "lettini": 300, 
+            "ombrelloni": 146, 
+            "wc": 6, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@termepuntamarina.com", 
+        "name": "Bagno Terme", 
+        "services": [
+            "beach volley", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.termepuntamarina.it", 
+        "tel": "0544 43740336"
+    }, 
+    {
+        "address": "Lungomare Colombo Cristoforo, 19/a", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 3, 
+            "lettini": 300, 
+            "ombrelloni": 150, 
+            "sdrai": 60, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 437425", 
+        "mail": "bagno.tiziano@teletu.it", 
+        "name": "Bagno Tiziano", 
+        "services": [
+            "beach volley", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "tv al plasma", 
+            "deposito giochi", 
+            "doccia calda", 
+            "parcheggio auto comunale gratuito"
+        ], 
+        "tel": "0544 437425 - 338 7023848"
+    }, 
+    {
+        "address": "Lungomare C. Colombo, 141", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 30, 
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 420, 
+            "ombrelloni": 172, 
+            "sdrai": 30, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Tre Pini", 
+        "services": [], 
+        "tel": "0544 437453"
+    }, 
+    {
+        "address": "Viale Lungomare, 24", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 25, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 16, 
+            "lavapiedi": 2, 
+            "lettini": 400, 
+            "ombrelloni": 200, 
+            "sdrai": 30, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 082400", 
+        "mail": "bagnovela@inwind.it", 
+        "name": "Bagno Vela", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "nursery room", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "servizio navetto", 
+            "solarium"
+        ], 
+        "site": "http://www.bagnovela.it", 
+        "tel": "0544 438789"
+    }, 
+    {
+        "address": "Via della Fontana, 66/B", 
+        "details": {
+            "cabine": 40, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 120, 
+            "sdrai": 30, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnokiribati@libero.it", 
+        "name": "Bagno Ventaglio", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 437467"
+    }, 
+    {
+        "address": "Lungomare Colombo Cristoforo, 26 - 28", 
+        "city": "Punta Marina Terme", 
+        "details": {}, 
+        "mail": "bagnowave@libero.it", 
+        "name": "Bagno Wave", 
+        "services": [], 
+        "site": "http://www.bagnowave.com", 
+        "tel": "0544 439247 - 0544 437353"
+    }, 
+    {
+        "address": "Viale Lungomare, 28", 
+        "city": "Punta Marina Terme", 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 230, 
+            "ombrelloni": 100, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Wave Life 2", 
+        "services": [
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ]
+    }, 
+    {
+        "address": "Viale Petrarca, 240", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 16, 
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 200, 
+            "sdrai": 20, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "beach007@libero.it", 
+        "name": "Bagno 007", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "happy hour", 
+            "nursery room", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.007beach.it", 
+        "tel": "0544 494451"
+    }, 
+    {
+        "address": "Viale Botticelli, 131", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 24, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 350, 
+            "ombrelloni": 120, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Alessandra", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "nursery room", 
+            "racchettoni", 
+            "ristorazione", 
+            "accessibilit\u00e0 disabili in spiaggia"
+        ], 
+        "tel": "0544 526411"
+    }, 
+    {
+        "address": "Viale Petrarca, 358", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 3, 
+            "docce chiuse": 6, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 220, 
+            "sdrai": 40, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 494228", 
+        "mail": "info@bagnoarcobaleno.it", 
+        "name": "Bagno Arcobaleno", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bagnoarcobaleno.it/", 
+        "tel": "0544 494228"
+    }, 
+    {
+        "address": "Viale Petrarca, 402", 
+        "city": "Lido Adriano", 
+        "details": {
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 210, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagniazzura.it", 
+        "name": "Bagno Azzurra", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "nuoto", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bagniazzurra.it", 
+        "tel": "0544 495447"
+    }, 
+    {
+        "address": "Viale Petrarca, 222/B", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 15, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 150, 
+            "sdrai": 20, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 61138", 
+        "mail": "aledalia@hotmail.com", 
+        "name": "Bagno Caesar", 
+        "services": [
+            "beach volley", 
+            "cene a tema", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "windsurf", 
+            "canoe", 
+            "acquagym"
+        ], 
+        "tel": "0544 495272"
+    }, 
+    {
+        "address": "Viale Petrarca, 344", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 150, 
+            "ombrelloni": 120, 
+            "sdrai": 20, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 494534", 
+        "mail": "info@bagnocalipso.com", 
+        "name": "Bagno Calipso", 
+        "services": [
+            "animazione", 
+            "calcetto", 
+            "area giochi bimbi", 
+            "karaoke", 
+            "nuoto", 
+            "pallacanestro", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "site": "http://www.bagnocalipso.com", 
+        "tel": "0544 494534"
+    }, 
+    {
+        "address": "Viale Petrarca, 472", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lettini": 400, 
+            "ombrelloni": 200, 
+            "sdrai": 30, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Corallo", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 495183"
+    }, 
+    {
+        "address": "Viale Virgilio Publio Marone, 1", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 2, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "sdrai": 20, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Cristallo", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "nuoto", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 494056"
+    }, 
+    {
+        "address": "Viale Petrarca, 468/B", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 700, 
+            "ombrelloni": 160, 
+            "sdrai": 20, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Giada", 
+        "services": [
+            "da marzo a ottobre", 
+            "week-end invernali", 
+            "animazione", 
+            "beach volley", 
+            "calciotennis", 
+            "area giochi bimbi", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "karaoke", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 496087"
+    }, 
+    {
+        "address": "Viale Virgilio Publio Marone, 1/B", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 160, 
+            "wc": 3
+        }, 
+        "name": "Bagno Granchio", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 494064"
+    }, 
+    {
+        "address": "Viale Petrarca, 348", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 24, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 120, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 495742", 
+        "name": "Bagno La Plage", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.lidolaplage.it/home/", 
+        "tel": "0544 495742"
+    }, 
+    {
+        "address": "Via Donizetti, 6", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "lettini": 120, 
+            "ombrelloni": 60, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnolongbeach@libero.it", 
+        "name": "Bagno Le Vele", 
+        "services": [
+            "ristorazione", 
+            "serate a tema", 
+            "pizzeria"
+        ], 
+        "site": "http://ristorantelevele.oneminutesite.it/", 
+        "tel": "0544 494032"
+    }, 
+    {
+        "address": "Viale Petrarca, 6", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 12, 
+            "docce aperte": 3, 
+            "lettini": 350, 
+            "ombrelloni": 150, 
+            "sdrai": 60, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Long Beach", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 495046"
+    }, 
+    {
+        "address": "Viale Petrarca", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 2, 
+            "docce aperte": 1, 
+            "docce chiuse": 2, 
+            "lettini": 150, 
+            "ombrelloni": 90, 
+            "wc": 2
+        }, 
+        "name": "Bagno Luna", 
+        "services": [
+            "beach volley", 
+            "nuoto", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 495055"
+    }, 
+    {
+        "address": "Viale Petrarca, 464", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 135, 
+            "sdrai": 20, 
+            "wc": 2
+        }, 
+        "name": "Bagno Marina Beach", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "piano bar", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 494147"
+    }, 
+    {
+        "address": "Viale Petrarca, 220", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 30, 
+            "docce aperte": 2, 
+            "docce chiuse": 3, 
+            "lavapiedi": 2, 
+            "lettini": 350, 
+            "ombrelloni": 240, 
+            "sdrai": 100, 
+            "wc": 6, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagno-oasi.it", 
+        "name": "Bagno Oasi", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bagno-oasi.it", 
+        "tel": "0544 1930667- 333 2905056"
+    }, 
+    {
+        "address": "Viale Petrarca, 466", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 8, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 300, 
+            "ombrelloni": 250, 
+            "sdrai": 100, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 494340", 
+        "name": "Bagno Sabbia d'Oro", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "ristorazione"
+        ], 
+        "tel": "0544 494340"
+    }, 
+    {
+        "address": "Viale Petrarca, 234", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 3, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 180, 
+            "sdrai": 50, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Sole", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 494106"
+    }, 
+    {
+        "address": "Viale Verdi, 128", 
+        "city": "Lido Adriano", 
+        "details": {
+            "cabine disabili": 11, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 130, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 493501", 
+        "name": "Bagno Tiramis\u00f9", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "acquagym", 
+            "aperitivi nel week-end"
+        ], 
+        "tel": "0544 493501"
+    }, 
+    {
+        "address": "Via Paolo e Francesca", 
+        "city": "Lido di Dante", 
+        "details": {
+            "cabine": 9, 
+            "docce aperte": 3, 
+            "docce chiuse": 3, 
+            "lavapiedi": 1, 
+            "lettini": 220, 
+            "ombrelloni": 70, 
+            "sdrai": 20, 
+            "wc": 4
+        }, 
+        "mail": "info@bagnoclasse.it", 
+        "name": "Bagno Classe", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bagnoclasse.it", 
+        "tel": "0544 1954133 - 0544 494932"
+    }, 
+    {
+        "address": "Viale Matelda, 4", 
+        "city": "Lido di Dante", 
+        "details": {
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lettini": 700, 
+            "ombrelloni": 300, 
+            "sdrai": 30, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnopassatore@hotmail.it", 
+        "name": "Bagno Passatore", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calciotennis", 
+            "cene a tema", 
+            "cene tipiche", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione", 
+            "solarium", 
+            "pizzeria", 
+            "paninoteca", 
+            "fast-food", 
+            "piadineria", 
+            "serate con musica dal vivo"
+        ], 
+        "site": "http://www.bagnopassatore.it", 
+        "tel": "0544 494432"
+    }, 
+    {
+        "address": "Viale Matelda, 2/B", 
+        "city": "Lido di Dante", 
+        "details": {
+            "cabine": 6, 
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 120, 
+            "ombrelloni": 50, 
+            "sdrai": 5, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "tarroni.barbara@virgilio.it", 
+        "name": "Bagno Smeraldo", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "ristorazione", 
+            "solarium"
+        ], 
+        "site": "http://www.bagnosmeraldo.it", 
+        "tel": "0544 494107"
+    }, 
+    {
+        "address": "Viale Matelda, 2/A", 
+        "city": "Lido di Dante", 
+        "details": {
+            "cabine": 6, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 280, 
+            "ombrelloni": 120, 
+            "sdrai": 10, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnopassatore@hotmail.it", 
+        "name": "Bagno Susy", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione"
+        ], 
+        "tel": "0544 494164"
+    }, 
+    {
+        "address": "Via Pessagno Emanuele, 54", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 20, 
+            "cabine disabili": 1, 
+            "docce aperte": 6, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 400, 
+            "ombrelloni": 150, 
+            "sdrai": 20, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 939434", 
+        "name": "Bagno 2000", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calciotennis", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "happy hour", 
+            "nuoto", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "ginnastica per bambini e adulti", 
+            "feste serali", 
+            "musica", 
+            "noleggio pedal\u00f2 e canoe", 
+            "videogiochi"
+        ], 
+        "tel": "0544 939434"
+    }, 
+    {
+        "address": "Via A. Cadamosto, 100", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 600, 
+            "ombrelloni": 180, 
+            "sdrai": 20, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnoalbatros.it", 
+        "name": "Bagno Albatros", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "grigliate di carne", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "rete elastica", 
+            "noleggio pedal\u00f2"
+        ], 
+        "site": "http://www.bagnoalbatros.it", 
+        "tel": "0544 939650"
+    }, 
+    {
+        "address": "Viale Caboto, 32", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 16, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 550, 
+            "ombrelloni": 200, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 939407", 
+        "mail": "simocayman@alice.it", 
+        "name": "Bagno Cayman", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "videogiochi", 
+            "sala tv", 
+            "ginnastica con animatore per bambini", 
+            "pranzi/cene di lavoro", 
+            "feste per compleanni", 
+            "matrimoni e battesimi."
+        ], 
+        "tel": "0544 939407 - 338 2855028"
+    }, 
+    {
+        "address": "Via Da Noli Antonio, 57", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 3, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 2, 
+            "lettini": 400, 
+            "ombrelloni": 150, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnocayoloco@libero.it", 
+        "name": "Bagno Cayo Loco", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "grigiate di pesce", 
+            "grigliate di carne", 
+            "racchettoni", 
+            "ristorazione", 
+            "acquagym", 
+            "noleggio pedal\u00f2", 
+            "feste", 
+            "area cani", 
+            "baby park", 
+            "ristorazione self-service"
+        ], 
+        "site": "http://www.bagnocayoloco.it", 
+        "tel": "335 6827722"
+    }, 
+    {
+        "address": "Via Bering Vitus, 105", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 12, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 80, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bagnogogo.it", 
+        "name": "Bagno GoGo", 
+        "services": [
+            "beach volley", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bagnogogo.it", 
+        "tel": "0544 939211 - 345 5023510"
+    }, 
+    {
+        "address": "Via Bering Vitus, 107", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 8, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 45, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Jamaica Beach", 
+        "services": [
+            "animazione", 
+            "ristorazione"
+        ], 
+        "tel": "334 2614747"
+    }, 
+    {
+        "address": "Viale Caboto, 88", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 9, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 200, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 949470", 
+        "mail": "info@korasol.it", 
+        "name": "Bagno Korasol", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.korasol.it/", 
+        "tel": "0544 949470"
+    }, 
+    {
+        "address": "Viale Caboto, 26/B", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 7, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 230, 
+            "ombrelloni": 100, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Marta", 
+        "services": [
+            "beach volley", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 939210"
+    }, 
+    {
+        "address": "Via Marignolli Giovanni, 6", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 5, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 650, 
+            "ombrelloni": 220, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Mattley Beach", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "happy hour", 
+            "nuoto", 
+            "nursery room", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema"
+        ], 
+        "tel": "0544 939232"
+    }, 
+    {
+        "address": "Viale Caboto, 20", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 40, 
+            "cabine disabili": 1, 
+            "docce aperte": 6, 
+            "docce chiuse": 20, 
+            "lavapiedi": 3, 
+            "lettini": 700, 
+            "ombrelloni": 250, 
+            "sdrai": 50, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 949425", 
+        "name": "Bagno Playa Pura Vida", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calciotennis", 
+            "happy hour", 
+            "racchettoni", 
+            "ristorazione", 
+            "musica dal vivo", 
+            "feste serali", 
+            "tv satellitare", 
+            "noleggio pedal\u00f2"
+        ], 
+        "tel": "0544 939427"
+    }, 
+    {
+        "address": "Via Cadamosto Alvise, 104", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 15, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 350, 
+            "ombrelloni": 50, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "mail": "lubro1990@libero.it", 
+        "name": "Bagno Torakiki", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "balli", 
+            "ginnastica"
+        ], 
+        "tel": "0544 939321"
+    }, 
+    {
+        "address": "Viale Caboto, 28", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 22, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 440, 
+            "ombrelloni": 150, 
+            "sdrai": 20, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagno.vanni@libero.it", 
+        "name": "Bagno Vanni", 
+        "services": [
+            "beach volley", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bagnovanni.com", 
+        "tel": "0544 939536"
+    }, 
+    {
+        "address": "Via Cadamosto Alvise, 49", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 115, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Vela Top Fun", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "happy hour", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 939506"
+    }, 
+    {
+        "address": "Viale Caboto, 4", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 8, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 500, 
+            "ombrelloni": 210, 
+            "sdrai": 28, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 939422", 
+        "name": "Bagno Venere", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "racchettoni"
+        ], 
+        "tel": "0544 939422"
+    }, 
+    {
+        "address": "Via Pessagno, 16", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 15, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 700, 
+            "ombrelloni": 240, 
+            "sdrai": 10, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "waikikibeach16@gmail.com", 
+        "name": "Bagno Waikiki", 
+        "services": [
+            "ristorazione", 
+            "pizzeria", 
+            "ristorante self-service", 
+            "bar"
+        ], 
+        "site": "http://www.bagnowaikikibeach.it", 
+        "tel": "331 1657565"
+    }, 
+    {
+        "address": "Viale Caboto, 94", 
+        "city": "Lido di Classe", 
+        "details": {
+            "cabine": 20, 
+            "cabine disabili": 1, 
+            "docce aperte": 6, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 600, 
+            "ombrelloni": 250, 
+            "sdrai": 50, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "cristinagaroia@gmail.com", 
+        "name": "Spiaggia 30", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "ristorazione"
+        ], 
+        "site": "http://www.lidodiclasse.com/spiaggia30", 
+        "tel": "0544 939107"
+    }, 
+    {
+        "address": "Viale Romagna, 191", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 12, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 180, 
+            "ombrelloni": 80, 
+            "wc": 2
+        }, 
+        "mail": "acapulco.posa@libero.it", 
+        "name": "Bagno Acapulco", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "pallacanestro", 
+            "ping pong", 
+            "ristorazione"
+        ], 
+        "tel": "0544 949404"
+    }, 
+    {
+        "address": "Via Bagnara, 1", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine disabili": 5, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 150, 
+            "sdrai": 10, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 949306", 
+        "mail": "azzurrospiaggia@alice.it", 
+        "name": "Bagno Azzurro", 
+        "services": [
+            "beach volley", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione", 
+            "pizzeria"
+        ], 
+        "site": "http://web.tiscali.it/bagnoazzurro", 
+        "tel": "0544 949306"
+    }, 
+    {
+        "address": "Via Verghereto, 348", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 90, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@bananabeach.it", 
+        "name": "Bagno Banana Beach", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bananabeach.it", 
+        "tel": "0544 949078 - 0544 082169"
+    }, 
+    {
+        "address": "Viale Romagna, 978/b", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 12, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lettini": 300, 
+            "ombrelloni": 100, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Beach Volley", 
+        "services": [
+            "beach volley", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "windsurf"
+        ], 
+        "tel": "0544 948994"
+    }, 
+    {
+        "address": "Via Bagnacavallo, 1", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 9, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 4, 
+            "lavapiedi": 1, 
+            "lettini": 515, 
+            "ombrelloni": 180, 
+            "sdrai": 10, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Belvedere", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "ristorazione", 
+            "rimessaggio barche", 
+            "rete elastica", 
+            "parcheggio auto"
+        ], 
+        "tel": "0544 948137"
+    }, 
+    {
+        "address": "Via Forl\u00ec, 0/b", 
+        "city": "Lido di Savio", 
+        "details": {
+            "docce aperte": 1, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 160, 
+            "ombrelloni": 80, 
+            "wc": 2
+        }, 
+        "mail": "ali_popescu@yahoo.com", 
+        "name": "Bagno Cavallino", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://facebook.com/bagnocavallinonuovagestione", 
+        "tel": "388 3554577"
+    }, 
+    {
+        "address": "Viale Romagna, 379", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 20, 
+            "cabine disabili": 2, 
+            "docce aperte": 5, 
+            "docce chiuse": 2, 
+            "lavapiedi": 3, 
+            "lettini": 400, 
+            "ombrelloni": 200, 
+            "wc": 5, 
+            "wc disabili": 2
+        }, 
+        "fax": "0544 949409", 
+        "name": "Bagno Coco Beach", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "ristorazione", 
+            "pizzeria"
+        ], 
+        "tel": "0544 949409"
+    }, 
+    {
+        "address": "Via Bertinoro , 2", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 6, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 340, 
+            "ombrelloni": 150, 
+            "sdrai": 10, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnodera@libero.it", 
+        "name": "Bagno Dera", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "piano bar", 
+            "ristorazione", 
+            "parcheggio privato", 
+            "noleggio pedal\u00f2"
+        ], 
+        "tel": "0544 939055"
+    }, 
+    {
+        "address": "Via Meldola, 19", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 2, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 240, 
+            "ombrelloni": 100, 
+            "sdrai": 20, 
+            "wc": 6, 
+            "wc disabili": 2
+        }, 
+        "mail": "bagnoelioeroby@libero.it", 
+        "name": "Bagno Elio & Roby", 
+        "services": [
+            "rimessaggio barche", 
+            "ristorazione"
+        ], 
+        "tel": "0544 939408"
+    }, 
+    {
+        "address": "Via Modigliana, 20 - 22", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 2, 
+            "docce aperte": 7, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 300, 
+            "ombrelloni": 150, 
+            "wc": 4, 
+            "wc disabili": 2
+        }, 
+        "mail": "eziogallina@hotmail.it", 
+        "name": "Bagno Giada", 
+        "services": [
+            "parcheggio", 
+            "bar", 
+            "scuola nuoto f.i.n.", 
+            "wi-fi", 
+            "trampolino", 
+            "gonfiabile"
+        ], 
+        "tel": "339 4049770"
+    }, 
+    {
+        "address": "Viale Ravenna, 350", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 17, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lettini": 350, 
+            "ombrelloni": 150, 
+            "sdrai": 10, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Gino", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 949045"
+    }, 
+    {
+        "address": "Via Modigliana, 20", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 2, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lettini": 200, 
+            "ombrelloni": 90, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "eziogallina@hotmail.it", 
+        "name": "Bagno Gloria", 
+        "services": [], 
+        "tel": "333 3425210"
+    }, 
+    {
+        "address": "Viale Romagna, 217", 
+        "city": "Lido di Savio", 
+        "details": {}, 
+        "fax": "544 949110", 
+        "mail": "hotelasiago@libero.it", 
+        "name": "Bagno Hotel Asiago", 
+        "services": [], 
+        "tel": "388 3554577"
+    }, 
+    {
+        "address": "Viale Romagna, 270", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 5, 
+            "lettini": 150, 
+            "ombrelloni": 70
+        }, 
+        "fax": "0544 948154", 
+        "mail": "info@hotelsanfrancisco.info", 
+        "name": "Bagno Hotel San Francisco", 
+        "services": [], 
+        "site": "http://www.hotelsanfrancisco.info", 
+        "tel": "0544 948154"
+    }, 
+    {
+        "address": "Via Massalombarda, 365", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 35, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 270, 
+            "ombrelloni": 130, 
+            "sdrai": 25, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Internazionale", 
+        "services": [
+            "campi bocce", 
+            "ping pong", 
+            "ristorazione"
+        ], 
+        "tel": "0544 949476"
+    }, 
+    {
+        "address": "Via Ravenna, 351", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 350, 
+            "ombrelloni": 121, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 949167", 
+        "name": "Bagno Kilauea", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "cene a tema", 
+            "area giochi bimbi", 
+            "nuoto", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://kilaueasummerbeach.it/", 
+        "tel": "0544 949167"
+    }, 
+    {
+        "address": "Via Bagnacavallo", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 10, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 115, 
+            "sdrai": 30, 
+            "wc": 2
+        }, 
+        "name": "Bagno Lara", 
+        "services": [
+            "beach volley", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 948038"
+    }, 
+    {
+        "address": "Via Castrocaro, 2", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 3, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 3, 
+            "lavapiedi": 1, 
+            "lettini": 220, 
+            "ombrelloni": 130, 
+            "sdrai": 10, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnolescogliere@pec.it", 
+        "name": "Bagno Le Scogliere", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "calcetto", 
+            "campi bocce", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://www.bagnolescogliere.com/", 
+        "tel": "0544 949407"
+    }, 
+    {
+        "address": "Via Marradi, 369", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 14, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 170, 
+            "ombrelloni": 88, 
+            "sdrai": 10, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagnolevante@libero.it", 
+        "name": "Bagno Levante", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "ping pong", 
+            "ristorazione", 
+            "sala tv", 
+            "al pomeriggio laboratorio per bambini"
+        ], 
+        "tel": "0544 949450"
+    }, 
+    {
+        "address": "Via Meldola, 363/b", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 20, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 300, 
+            "ombrelloni": 120, 
+            "sdrai": 20, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "mail": "barby.dani@libero.it", 
+        "name": "Bagno Lido", 
+        "services": [
+            "area giochi bimbi", 
+            "ristorazione", 
+            "canoe", 
+            "wi-fi gratuita"
+        ], 
+        "tel": "0544 949348"
+    }, 
+    {
+        "address": "Via Lugo, 372", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 250, 
+            "ombrelloni": 110, 
+            "sdrai": 9, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 949048", 
+        "name": "Bagno Margarita", 
+        "services": [
+            "animazione", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "karaoke", 
+            "racchettoni", 
+            "ristorazione", 
+            "angolo relax con massaggio", 
+            "parcheggio auto"
+        ], 
+        "tel": "0544 949048"
+    }, 
+    {
+        "address": "Via Ravenna, 353", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 40, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 3, 
+            "lettini": 500, 
+            "ombrelloni": 130, 
+            "sdrai": 20, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 949201", 
+        "mail": "matisse.beachvillage@libero.it", 
+        "name": "Bagno Matisse", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 949201"
+    }, 
+    {
+        "address": "Via Modigliana, 21", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 25, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "lavapiedi": 1, 
+            "lettini": 200, 
+            "ombrelloni": 100, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 949527", 
+        "mail": "clararavaglia@alice.it", 
+        "name": "Bagno Mediterraneo", 
+        "services": [
+            "beach volley", 
+            "campi bocce", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "site": "http://hotel-mediterraneo.com", 
+        "tel": "0544 948014"
+    }, 
+    {
+        "address": "Via Verghereto, 42", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 7, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 134, 
+            "sdrai": 10, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 948040", 
+        "mail": "kontiki_beach@hotmail.com", 
+        "name": "Bagno Milano (Ristorante Kontiki)", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "area giochi bimbi", 
+            "pallacanestro", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione", 
+            "biciclettate", 
+            "presentazioni di libri e autori", 
+            "conferenze gastronomiche e salutiste", 
+            "incontri con associazione italiana sommelier", 
+            "domeniche con unicef (raccolta fondi)", 
+            "feste musicali", 
+            "concorso di disegno per bambini", 
+            "calcio balilla"
+        ], 
+        "site": "http://www.kontiki.fan-club.it/", 
+        "tel": "0544 948040"
+    }, 
+    {
+        "address": "Via Verghereto", 
+        "city": "Lido di Savio", 
+        "details": {}, 
+        "name": "Bagno Nettuno", 
+        "services": [], 
+        "tel": "0544 949284"
+    }, 
+    {
+        "address": "Via Verghereto, 343", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 16, 
+            "cabine disabili": 1, 
+            "docce aperte": 2, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 320, 
+            "ombrelloni": 130, 
+            "sdrai": 12, 
+            "wc": 4, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 975671", 
+        "mail": "roberto.albertarelli@fastwebnet.it", 
+        "name": "Bagno Oscar", 
+        "services": [
+            "beach volley", 
+            "area giochi bimbi", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 949153"
+    }, 
+    {
+        "address": "Via Lugo, 371", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 6, 
+            "cabine disabili": 1, 
+            "docce aperte": 1, 
+            "docce chiuse": 2, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 120, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@palacelidohotel.it", 
+        "name": "Bagno Palace Lido", 
+        "services": [
+            "animazione", 
+            "campi bocce", 
+            "ping pong", 
+            "ristorazione", 
+            "ginnastica", 
+            "giochi in spiaggia"
+        ], 
+        "site": "http://www.palacelidohotel.it/", 
+        "tel": "0544 949223"
+    }, 
+    {
+        "address": "Via Bertinoro, 2", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 12, 
+            "docce aperte": 1, 
+            "wc": 2
+        }, 
+        "name": "Bagno Paloma", 
+        "services": [
+            "beach volley", 
+            "pallacanestro", 
+            "ristorazione"
+        ], 
+        "tel": "0544 949443"
+    }, 
+    {
+        "address": "Via Castrocaro, 1", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 2, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "lavapiedi": 1, 
+            "lettini": 400, 
+            "ombrelloni": 200, 
+            "sdrai": 15, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "ipauo@yahoo.it", 
+        "name": "Bagno Paolo", 
+        "services": [
+            "animazione", 
+            "area giochi bimbi", 
+            "ristorazione", 
+            "sport", 
+            "wi-fi"
+        ], 
+        "site": "http://www.bagnopaolo.110mb.com", 
+        "tel": "0544 949321"
+    }, 
+    {
+        "address": "Via Lavezzola, 2/X", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 1, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 320, 
+            "ombrelloni": 116, 
+            "sdrai": 3, 
+            "wc": 1, 
+            "wc disabili": 1
+        }, 
+        "mail": "simontemaurizio@libero.it", 
+        "name": "Bagno Rapa Nui", 
+        "services": [
+            "beach volley", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 939701"
+    }, 
+    {
+        "address": "Via Lavezzola, 2/X", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 1, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 320, 
+            "ombrelloni": 116, 
+            "sdrai": 3, 
+            "wc": 1, 
+            "wc disabili": 1
+        }, 
+        "mail": "simontemaurizio@libero.it", 
+        "name": "Bagno Rapa Nui", 
+        "services": [
+            "beach volley", 
+            "ping pong", 
+            "racchettoni", 
+            "ristorazione"
+        ], 
+        "tel": "0544 939701"
+    }, 
+    {
+        "address": "Via Cesena, 18", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 15, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 300, 
+            "ombrelloni": 120, 
+            "sdrai": 20, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Riviera", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "campi bocce", 
+            "ping pong", 
+            "ristorazione", 
+            "ginnastica", 
+            "baby-garden"
+        ], 
+        "tel": "0544 949478"
+    }, 
+    {
+        "address": "Via Cotignola", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 10, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "lavapiedi": 2, 
+            "lettini": 250, 
+            "ombrelloni": 180, 
+            "sdrai": 70, 
+            "wc": 2, 
+            "wc disabili": 1
+        }, 
+        "name": "Bagno Riviera Sole Luna", 
+        "services": [
+            "animazione", 
+            "beach volley", 
+            "grigiate di pesce", 
+            "pallacanestro", 
+            "racchettoni", 
+            "ristorazione", 
+            "ginnastica", 
+            "baby-garden", 
+            "aquagym", 
+            "musica"
+        ], 
+        "tel": "0544 949478"
+    }, 
+    {
+        "address": "Viale Romagna, 199", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 2, 
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 2, 
+            "lavapiedi": 3, 
+            "lettini": 30, 
+            "ombrelloni": 30, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "fax": "0544 939029", 
+        "mail": "info@vistamaresuite.com", 
+        "name": "Bagno RTA Vista Mare", 
+        "services": [
+            "palestra", 
+            "ristorazione", 
+            "piscina", 
+            "wi-fi"
+        ], 
+        "site": "http://www.vistamaresuite.com", 
+        "tel": "0544 949405"
+    }, 
+    {
+        "address": "Via Marradi, 367", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine disabili": 1, 
+            "docce aperte": 3, 
+            "docce chiuse": 1, 
+            "lavapiedi": 1, 
+            "lettini": 300, 
+            "ombrelloni": 100, 
+            "sdrai": 10, 
+            "wc": 5, 
+            "wc disabili": 1
+        }, 
+        "mail": "info@salsedine367.it", 
+        "name": "Bagno Salsedine 367", 
+        "services": [
+            "beach volley", 
+            "nursery room", 
+            "racchettoni", 
+            "ristorazione", 
+            "serate a tema", 
+            "wi-fi", 
+            "musica dal vivo", 
+            "tv satellitare"
+        ], 
+        "site": "http://www.salsedine367.it", 
+        "tel": "0544 949400"
+    }, 
+    {
+        "address": "Via Cotignola", 
+        "city": "Lido di Savio", 
+        "details": {
+            "cabine": 3, 
+            "cabine disabili": 1, 
+            "docce aperte": 4, 
+            "docce chiuse": 1, 
+            "lavapiedi": 2, 
+            "lettini": 600, 
+            "ombrelloni": 110, 
+            "sdrai": 30, 
+            "wc": 3, 
+            "wc disabili": 1
+        }, 
+        "mail": "bagno.soleluna@libero.it", 
+        "name": "Bagno SoleLuna", 
+        "services": [], 
+        "tel": "0544 949447"
+    }
+]
