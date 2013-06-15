@@ -1,2 +1,2 @@
 *.pyc
-ombrelloni/scraping/html_dump/*
+ombrelloni/scripts/scraping/html_dump/*
