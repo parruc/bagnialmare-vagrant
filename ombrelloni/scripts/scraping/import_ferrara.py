@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-from lxml.html import soupparser
 import utils
-import json
+import simplejson
 import logging
 import re
 
@@ -13,13 +12,11 @@ coords_from_url = re.compile(".*/maps\?q=([0-9.]+), ([0-9.]+)")
 name_from_title = re.compile("(.+?)\.? (.+)")
 
 bagni = []
-page = utils.try_open(URL)
-parsed_page = soupparser.parse(page)
+parsed_page = utils.try_open_file_or_url(url=URL, name="ferrara", count=1)
 url_bagni = parsed_page.xpath("//div[@class='results']/ul/li/a/@href")
-for url_bagno in url_bagni:
+for i, url_bagno in enumerate(url_bagni, start=1):
     bagno = {}
-    bagno_page = utils.try_open(url_bagno)
-    parsed_bagno = soupparser.parse(bagno_page)
+    parsed_bagno = utils.try_open_file_or_url(url=url_bagno, name="ferrara_bagno", count=i)
     bagno_title = parsed_bagno.xpath("//h2[@class='detail-name']")[0].text.strip()
     match = name_from_title.match(bagno_title)
     if not match:
@@ -43,7 +40,7 @@ for url_bagno in url_bagni:
         bagno['site'] = bagno_details[4].text_content().strip()
     if len(bagno_details) > 5:
         import ipdb; ipdb.set_trace()
-    bagno_services = []
+    bagno['services'] = []
     service_tds = parsed_bagno.xpath("//fieldset[@class='detail-facilities']//td")
     for service_td in service_tds:
         service_name = service_td.text.strip().lower()
@@ -52,8 +49,8 @@ for url_bagno in url_bagni:
             if service:
                 if not service in SERVICES:
                     SERVICES.append(service)
-                bagno_services.append(service)
-    bagno['services'] = bagno_services
+                if not service in bagno['services']:
+                    bagno['services'].append(service)
     bagno_geolink = parsed_bagno.xpath("//p[@class='geoRefLink']//a/@href")
     match = coords_from_url.match(bagno_geolink[0])
     if not match:
@@ -64,4 +61,4 @@ for url_bagno in url_bagni:
 utils.write_services(SERVICES)
 
 with open('output_ferrara.json', 'w') as outfile:
-  json.dump(bagni, outfile, sort_keys=True, indent=4,)
+  simplejson.dump(bagni, outfile, sort_keys=True, indent=4,)

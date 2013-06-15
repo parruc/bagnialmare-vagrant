@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
+from lxml.html import soupparser
 import urllib2
+import os
 import socket
 import logging
 import time
 import types
-import json
+import simplejson
 
 TIMEOUT = 5
 MAX_RETRIES = 3
@@ -16,7 +18,7 @@ opener.addheaders = [('User-agent', "Mozilla/4.0 (compatible; MSIE 7.0; Windows 
 def read_aliases():
     try:
         with open('aliases.json', 'r') as aliases_file:
-            return json.load(aliases_file)
+            return simplejson.load(aliases_file)
     except IOError:
         return []
 
@@ -32,13 +34,13 @@ def get_service_from_alias(service_name):
 def read_services():
     try:
         with open('services.json', 'r') as services_file:
-            return json.load(services_file)
+            return simplejson.load(services_file)
     except IOError:
         return []
 
 def write_services(services):
-    with open('services.json', 'a') as services_file:
-        json.dump(services, services_file, sort_keys=True, indent=4,)
+    with open('services.json', 'w') as services_file:
+        simplejson.dump(services, services_file, sort_keys=True, indent=4,)
 
 def urlopen_logging(url, timeout=TIMEOUT):
     try:
@@ -50,12 +52,27 @@ def urlopen_logging(url, timeout=TIMEOUT):
         logging.warning("%s timed out opening url %s" % (e.message, url))
         return ""
 
-def try_open(url, ret=MAX_RETRIES, sleep=SLEEPTIME):
+def try_open_file_or_url(url, name=None, count=None, ret=MAX_RETRIES, sleep=SLEEPTIME):
+    if name and count:
+        file_name = "html_dump/%s_%d.html" % (name, count)
+        if os.path.exists(file_name):
+            with open(file_name, 'r') as html_file:
+                return soupparser.parse(html_file)
+        return try_open_url(url=url, file_name=file_name, ret=ret, sleep=sleep)
+    return try_open_url(url=url, ret=ret, sleep=sleep)
+
+
+def try_open_url(url, file_name=None, ret=MAX_RETRIES, sleep=SLEEPTIME):
     page = urlopen_logging(url)
     while not page and ret:
         page = urlopen_logging(url)
         ret -= 1
         time.sleep(sleep)
     if page:
-        return page
+        html_string = page.read()
+        if file_name:
+            with open(file_name, 'w') as html_file:
+                html_file.write(html_string)
+        return soupparser.fromstring(html_string)
     raise urllib2.URLError("max retries reached for url %s" % url)
+

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-from lxml.html import soupparser
-import json
+import simplejson
 import logging
 import re
 import utils
@@ -20,18 +19,16 @@ number_from_detail = re.compile("[^0-9]*([0-9]+[.,]{,1}[0-9]{,1})[^0-9]*")
 
 url_bagni = []
 for page_number in range(1,14):
-    page = utils.try_open(URL + str(page_number))
-    parsed_page = soupparser.parse(page)
+    parsed_page = utils.try_open_file_or_url(url=URL + str(page_number), name="cesenatico_paging", count=page_number)
     url_bagni_new = [BASE_URL + p.replace(" ", "%20") for p in parsed_page.xpath("//div[@class='categories-sublist']/ul/li/a/@href") if not p == "http://"]
     url_bagni += url_bagni_new
     logging.info("Added %d elements to parse list for page %d" % (len(url_bagni_new), page_number, ))
 
 bagni = []
-for url_bagno in url_bagni:
+for i, url_bagno in enumerate(url_bagni, start=1):
     logging.info("Startes parsing %s to parse list" % url_bagno)
     bagno = {}
-    bagno_page = utils.try_open(url_bagno)
-    parsed_bagno = soupparser.parse(bagno_page)
+    parsed_bagno = utils.try_open_file_or_url(url=url_bagno, name="cesenatico_bagno", count=i)
     bagno['name'] = parsed_bagno.xpath("//h2[@class='titolo-scheda']")[0].text.strip().capitalize()
     bagno_contacts = parsed_bagno.xpath("//div[@class='block-address']//div[@class='frame']/p/span")
     bagno['address'] = bagno_contacts[0].text.strip()
@@ -97,7 +94,8 @@ for url_bagno in url_bagni:
                     if service:
                         if not service in SERVICES:
                             SERVICES.append(service)
-                    bagno['services'].append(service)
+                        if not service in bagno['services']:
+                            bagno['services'].append(service)
 
     parsed_bagno.xpath("//script/text()")
     bagno['coords'] = geo_from_text.findall(" ".join(parsed_bagno.xpath("//script/text()")))
@@ -106,4 +104,4 @@ for url_bagno in url_bagni:
 utils.write_services(SERVICES)
 
 with open('output_cesenatico.json', 'w') as outfile:
-  json.dump(bagni, outfile, sort_keys=True, indent=4,)
+  simplejson.dump(bagni, outfile, sort_keys=True, indent=4,)
