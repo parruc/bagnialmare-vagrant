@@ -28,6 +28,7 @@ for i, tr in enumerate(trs, start=1):
                 import ipdb; ipdb.set_trace()
             bagno['number'] = match.group(1).strip()
             bagno['name'] = match.group(2).strip()
+
             bagno_url = td.xpath("./a/@href")[0].replace("../../../..", BASE_URL)
             parsed_bagno = utils.try_open_file_or_url(url=bagno_url, name="cervia_bagno", count=i)
         elif column in ["mail", "site"]:
@@ -44,11 +45,18 @@ for i, tr in enumerate(trs, start=1):
     bagno['details'] = {}
     for field in fields:
         field_name = field.text.replace(":", "").strip().lower()
-        field_values = field.xpath("./following-sibling::*/text()")
-        if len(field_values) == 0:
-            field_values = field.xpath("./following-sibling::text()")
+        field_values = field.xpath("./following-sibling::text()")
+        if len(field_values) and len("".join(field_values).strip()) > 0:
+            field_values = " ".join(field_values).strip()
+        else:
+            field_values = field.xpath("./following-sibling::*[not(@class='bold blu')]")
+            if len(field_values) > 0:
+                field_values = field_values[0].text_content()
+            else:
+                field_values = ""
+
         if field_name == "servizi offerti":
-            for field_value in field_values[0].split("-"):
+            for field_value in field_values.split("-"):
                 matches = numbers_from_text.findall(field_value)
                 if matches:
                     for match in matches:
@@ -64,7 +72,11 @@ for i, tr in enumerate(trs, start=1):
                             import ipdb; ipdb.set_trace()
                             pass
                 else:
-                    service_list = utils.get_service_from_alias(field_value.strip().lower())
+                    service_list = field_value.strip().lower()
+                    service_list = re.sub(u' n?°?\.? ?[0-9]?$', '', service_list)
+                    service_list = re.sub(u'[0-9]', '', service_list)
+                    service_list = service_list.strip()
+                    service_list = utils.get_service_from_alias(service_list)
                     for service in service_list:
                         if service:
                             if not service in SERVICES:
@@ -73,18 +85,24 @@ for i, tr in enumerate(trs, start=1):
                                 bagno['services'].append(service)
 
         elif field_name == u"attività":
-            field_value = " ".join(field_values).replace(":", "").strip().lower()
-            for field_value in field_value.split("\n"):
-                service_list = utils.get_service_from_alias(field_value.strip().lower())
+            field_value = field_values.replace(":", "").strip().strip(".").lower()
+            for field_value in re.split("\n|-|\.", field_value):
+                service_list = field_value.strip().lower()
+                service_list = re.sub(u' n?°?\.? ?[0-9]?$', '', service_list)
+                service_list = re.sub(u'[0-9]', '', service_list)
+                service_list = service_list.strip()
+                service_list = utils.get_service_from_alias(service_list)
                 for service in service_list:
                     if service:
+                        if service.startswith("giochi per bambini"):
+                            service = "baby park"
                         if not service in SERVICES:
                             SERVICES.append(service)
                         if not service in bagno['services']:
                             bagno['services'].append(service)
 
         elif not field_name in ['associazione di riferimento', 'tariffe', 'come arrivare', 'periodo di apertura']:
-            field_value = " ".join(field_values).replace(":", "").strip().lower()
+            field_value = field_values.replace(":", "").strip().lower()
             matches = numbers_from_text.findall(field_name + field_value)
             if matches:
                 for match in matches:
@@ -101,14 +119,30 @@ for i, tr in enumerate(trs, start=1):
                         pass
             else:
                 if not field_name in ['associazione di riferimento', 'tariffe', 'come arrivare', 'periodo di apertura']:
-                    service_name = field_name + field_value
-                    service_list = utils.get_service_from_alias(service_name.strip())
-                    for service in service_list:
-                        if service:
-                            if not service in SERVICES:
-                                SERVICES.append(service)
-                            if not service in bagno['services']:
-                                bagno['services'].append(service)
+                    service_names = field_name + field_value
+                    if service_names.startswith("giochi per bambini"):
+                        service_names = "baby park"
+                    elif service_names.startswith("ristorazionepiccola"):
+                        service_names = "piccola ristorazione"
+                    elif service_names.startswith("animazionemini"):
+                        if "feste a tema" in service_names:
+                            service_names = "feste a tema\nanimazione per bambini"
+                        else:
+                            service_names = "animazione per bambini"
+                    elif service_names.startswith("dotazioni sportive"):
+                        service_names = field_value.replace(",", "\n")
+                    for service_name in re.split("\n|\.", service_names.strip(".")):
+                        service_list = service_name.strip().lower()
+                        service_list = re.sub(u' n?°?\.? ?[0-9]?$', '', service_list)
+                        service_list = re.sub(u'[0-9]', '', service_list)
+                        service_list = service_list.strip()
+                        service_list = utils.get_service_from_alias(service_list)
+                        for service in service_list:
+                            if service:
+                                if not service in SERVICES:
+                                    SERVICES.append(service)
+                                if not service in bagno['services']:
+                                    bagno['services'].append(service)
     bagni.append(bagno)
 
 utils.write_services(SERVICES)
