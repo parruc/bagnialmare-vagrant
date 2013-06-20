@@ -15,16 +15,16 @@ SLEEPTIME = 5
 opener = urllib2.build_opener()
 opener.addheaders = [('User-agent', "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)")]
 
-def read_aliases():
+def read_service_aliases():
     try:
-        with open('aliases.json', 'r') as aliases_file:
+        with open('services_aliases.json', 'r') as aliases_file:
             return simplejson.load(aliases_file)
     except IOError:
         return []
 
 def get_service_from_alias(service_name):
     service_list = [service_name, ]
-    ALIASES = read_aliases()
+    ALIASES = read_service_aliases()
     if service_name in ALIASES:
         service_list = ALIASES[service_name]
         if isinstance(service_list, types.StringTypes):
@@ -40,6 +40,30 @@ def read_services():
 
 def write_services(services):
     with open('services.json', 'w') as services_file:
+        simplejson.dump(services, services_file, sort_keys=True, indent=4,)
+
+def read_details():
+    try:
+        with open('details.json', 'r') as services_file:
+            return simplejson.load(services_file)
+    except IOError:
+        return []
+
+def read_details_aliases():
+    try:
+        with open('details_aliases.json', 'r') as aliases_file:
+            return simplejson.load(aliases_file)
+    except IOError:
+        return []
+
+def get_detail_from_alias(detail_name):
+    ALIASES = read_details_aliases()
+    if detail_name in ALIASES:
+        return ALIASES[detail_name]
+    return detail_name
+
+def write_details(services):
+    with open('details.json', 'w') as services_file:
         simplejson.dump(services, services_file, sort_keys=True, indent=4,)
 
 def urlopen_logging(url, timeout=TIMEOUT):

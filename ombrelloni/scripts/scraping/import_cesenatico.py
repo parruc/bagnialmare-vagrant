@@ -7,6 +7,7 @@ import utils
 BASE_URL = "http://web.comune.cesenatico.fc.it/turismo/"
 URL = BASE_URL + "elenco_schede.asp?ambiente=DIVERTIMENTO%20E%20RELAX&famiglia=SULLA%20SPIAGGIA&sottofamiglia=STABILIMENTI%20BALNEARI&p="
 SERVICES = utils.read_services()
+DETAILS = utils.read_details()
 logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', level=logging.WARNING)
 tel_from_text = re.compile("Tel: ([0-9 ]+)")
 fax_from_text = re.compile("Fax: ([0-9 ]+)")
@@ -14,7 +15,7 @@ mail_from_text = re.compile("[a-zA-z]{1}[\w.-]+@[\w.-]+")
 site_from_text = re.compile("(?:http://www\.|http://|www\.)[\w.\-]+\.[\w]{,3}")
 city_from_text = re.compile("[0-9]+ (\w+)[ ]+- (\w+) \(FC\)")
 geo_from_text = re.compile("LatLng\(([0-9.]+),([0-9.]+)\);")
-number_from_detail = re.compile("[^0-9]*([0-9]+[.,]{,1}[0-9]{,1})[^0-9]*")
+number_from_detail = re.compile("[^0-9]*([0-9]+[0-9.,]*)[^0-9]*")
 
 
 url_bagni = []
@@ -83,8 +84,13 @@ for i, url_bagno in enumerate(url_bagni, start=1):
                 else:
                     detail_value = match.group(1).replace(".", "").strip(",").replace(",", ".").strip()
                 try:
-                    bagno['details'][detail_name] = int(float(detail_value))
-                except:
+                    detail_name = utils.get_detail_from_alias(detail_name)
+                    if detail_name:
+                        if not detail_name in DETAILS:
+                            DETAILS.append(detail_name)
+                        if not detail_name in bagno['details']:
+                            bagno['details'][detail_name] = int(float(detail_value))
+                except Exception:
                     import ipdb; ipdb.set_trace()
         else:
             for single_service in bagno_details_row.strip(".").strip(",").split(","):
@@ -102,6 +108,7 @@ for i, url_bagno in enumerate(url_bagni, start=1):
     bagni.append(bagno)
 
 utils.write_services(SERVICES)
+utils.write_details(DETAILS)
 
 with open('output_cesenatico.json', 'w') as outfile:
   simplejson.dump(bagni, outfile, sort_keys=True, indent=4,)

@@ -7,6 +7,7 @@ import re
 BASE_URL = "http://www.turismo.ra.it"
 URL = BASE_URL + "/ita/Divertimento-e-relax/Sulla-spiaggia/Stabilimenti-balneari"
 SERVICES = utils.read_services()
+DETAILS = utils.read_details()
 logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', level=logging.WARNING)
 localita = []
 bagni = []
@@ -49,7 +50,12 @@ for i, url_localita in enumerate(urls_localita[:-2], start=1):
                 p_name, p_value = p_content.split(u"n°")
                 p_name = p_name.lower().strip()
                 p_value = int(re.sub("[^0-9]", "", p_value.lower().strip()))
-                bagno['details'][p_name] = p_value
+                detail_name = utils.get_detail_from_alias(p_name)
+                if detail_name:
+                    if not detail_name in DETAILS:
+                        DETAILS.append(detail_name)
+                    if not detail_name in bagno['details']:
+                        bagno['details'][detail_name] = int(p_value)
             elif "," in p_content and not "frazione a" in p_content:
                 for service_name in  [s.strip() for s in p_content.split(",")]:
                     service_list = utils.get_service_from_alias(service_name)
@@ -63,6 +69,7 @@ for i, url_localita in enumerate(urls_localita[:-2], start=1):
         bagni.append(bagno)
 
 utils.write_services(SERVICES)
+utils.write_details(DETAILS)
 
 with open('output_ravenna.json', 'w') as outfile:
     simplejson.dump(bagni, outfile, sort_keys=True, indent=4,)

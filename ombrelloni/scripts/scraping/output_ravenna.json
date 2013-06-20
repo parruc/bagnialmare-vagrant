@@ -868,7 +868,7 @@
             "accessibilit\u00e0 ai disabili",
             "deposito caschi",
             "rilevatori no-alcol",
-            "cabina fasciatoio",
+            "fasciatoio",
             "libreria",
             "videoteca",
             "giochi da tavolo/ludoteca",
@@ -1753,7 +1753,7 @@
             "accessibilit\u00e0 ai disabili",
             "deposito caschi",
             "rilevatori no-alcol",
-            "cabina fasciatoio",
+            "fasciatoio",
             "libreria",
             "videoteca",
             "giochi da tavolo/ludoteca",
@@ -2034,12 +2034,11 @@
             "ristorazione",
             "cocktail bar",
             "idromassaggio",
-            "ampio parco giochi per bambini",
-            "possibilit\u00e0 di cene/pranzi con menu personalizzati",
+            "baby park",
             "barbecue",
             "corso di racchettoni",
             "corso di beach volley",
-            "spa."
+            "massaggi"
         ],
         "site": "http://www.bagnoobelix.it",
         "tel": "0544 530167"
@@ -2159,9 +2158,9 @@
             "serate a tema",
             "pizzeria",
             "cocktail bar",
-            "organizzazione feste private (matrimoni e ricorrenze)",
+            "disponibile per feste private",
             "area benessere",
-            "animazione per bambini tutti i fine settimana"
+            "animazione per bambini"
         ],
         "site": "http://www.singita.it",
         "tel": "0544 538851"
@@ -2205,7 +2204,7 @@
             "acquagym",
             "dodgeball",
             "yoga",
-            "animazione per bambini durante la mattina"
+            "animazione per bambini"
         ],
         "site": "http://www.sottomarino54.com",
         "tel": "0544 530785"
@@ -2410,10 +2409,10 @@
             "racchettoni",
             "ristorazione",
             "parcheggio",
-            "ristorante pesce e cucina romagnola (anche per celiaci)",
-            "pizzeria forno a legna (anche per celiaci)",
-            "doccia calda gratis",
-            "disco club (sabato sera dalle 20.00 alle 24.00)",
+            "celiaci",
+            "pizzeria",
+            "docce calde",
+            "discoteca",
             "aperitivi"
         ],
         "site": "http://www.zanzibarbeach.it/",
@@ -3037,7 +3036,7 @@
             "accessibilit\u00e0 ai disabili",
             "deposito caschi",
             "rilevatori no-alcol",
-            "cabina fasciatoio",
+            "fasciatoio",
             "libreria",
             "videoteca",
             "giochi da tavolo/ludoteca",
@@ -3318,12 +3317,11 @@
             "ristorazione",
             "cocktail bar",
             "idromassaggio",
-            "ampio parco giochi per bambini",
-            "possibilit\u00e0 di cene/pranzi con menu personalizzati",
+            "baby park",
             "barbecue",
             "corso di racchettoni",
             "corso di beach volley",
-            "spa."
+            "massaggi"
         ],
         "site": "http://www.bagnoobelix.it",
         "tel": "0544 530167"
@@ -3443,9 +3441,9 @@
             "serate a tema",
             "pizzeria",
             "cocktail bar",
-            "organizzazione feste private (matrimoni e ricorrenze)",
+            "disponibile per feste private",
             "area benessere",
-            "animazione per bambini tutti i fine settimana"
+            "animazione per bambini"
         ],
         "site": "http://www.singita.it",
         "tel": "0544 538851"
@@ -3489,7 +3487,7 @@
             "acquagym",
             "dodgeball",
             "yoga",
-            "animazione per bambini durante la mattina"
+            "animazione per bambini"
         ],
         "site": "http://www.sottomarino54.com",
         "tel": "0544 530785"
@@ -3694,10 +3692,10 @@
             "racchettoni",
             "ristorazione",
             "parcheggio",
-            "ristorante pesce e cucina romagnola (anche per celiaci)",
-            "pizzeria forno a legna (anche per celiaci)",
-            "doccia calda gratis",
-            "disco club (sabato sera dalle 20.00 alle 24.00)",
+            "celiaci",
+            "pizzeria",
+            "docce calde",
+            "discoteca",
             "aperitivi"
         ],
         "site": "http://www.zanzibarbeach.it/",
@@ -4342,7 +4340,7 @@
             "accessibilit\u00e0 ai disabili",
             "deposito caschi",
             "rilevatori no-alcol",
-            "cabina fasciatoio",
+            "fasciatoio",
             "libreria",
             "videoteca",
             "giochi da tavolo/ludoteca",
@@ -5440,7 +5438,7 @@
             "accessibilit\u00e0 ai disabili",
             "deposito caschi",
             "rilevatori no-alcol",
-            "cabina fasciatoio",
+            "fasciatoio",
             "libreria",
             "videoteca",
             "giochi da tavolo/ludoteca",
@@ -5721,12 +5719,11 @@
             "ristorazione",
             "cocktail bar",
             "idromassaggio",
-            "ampio parco giochi per bambini",
-            "possibilit\u00e0 di cene/pranzi con menu personalizzati",
+            "baby park",
             "barbecue",
             "corso di racchettoni",
             "corso di beach volley",
-            "spa."
+            "massaggi"
         ],
         "site": "http://www.bagnoobelix.it",
         "tel": "0544 530167"
@@ -5846,9 +5843,9 @@
             "serate a tema",
             "pizzeria",
             "cocktail bar",
-            "organizzazione feste private (matrimoni e ricorrenze)",
+            "disponibile per feste private",
             "area benessere",
-            "animazione per bambini tutti i fine settimana"
+            "animazione per bambini"
         ],
         "site": "http://www.singita.it",
         "tel": "0544 538851"
@@ -5892,7 +5889,7 @@
             "acquagym",
             "dodgeball",
             "yoga",
-            "animazione per bambini durante la mattina"
+            "animazione per bambini"
         ],
         "site": "http://www.sottomarino54.com",
         "tel": "0544 530785"

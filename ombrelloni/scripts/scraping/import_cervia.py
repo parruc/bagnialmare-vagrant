@@ -7,13 +7,15 @@ import re
 BASE_URL = "http://www.turismo.comunecervia.it"
 URL = BASE_URL + "/divertimento_relax/sulla_spiaggia/stabilimenti_balneari/"
 SERVICES = utils.read_services()
-logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', level=logging.WARNING)
+DETAILS = utils.read_details()
+logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', level=logging.INFO)
 bagni = []
 name_from_title = re.compile("([0-9\-/]+) (.+)")
-
+numbers_from_text = re.compile("([^0-9^-^(^)]+)([0-9][0-9,.-]*)")
 parsed_page = utils.try_open_file_or_url(url=URL, name="cervia", count=1)
 trs = parsed_page.xpath("//table/tbody/tr")
 columns = ["name", "address", "city", "tel", "fax", "mail", "site"]
+
 for i, tr in enumerate(trs, start=1):
     parsed_bagno = None
     bagno = {}
@@ -27,17 +29,90 @@ for i, tr in enumerate(trs, start=1):
             bagno['number'] = match.group(1).strip()
             bagno['name'] = match.group(2).strip()
             bagno_url = td.xpath("./a/@href")[0].replace("../../../..", BASE_URL)
-            parsed_bagno = utils.try_open_file_or_url(url=bagno_url, name="cervia", count=i)
+            parsed_bagno = utils.try_open_file_or_url(url=bagno_url, name="cervia_bagno", count=i)
         elif column in ["mail", "site"]:
-            bagno_url = td.xpath("./a/@href")
-            if len(bagno_url):
-                bagno[column] = bagno_url[0].replace("mailto:", "")
+            href = td.xpath("./a/@href")
+            if len(href):
+                bagno[column] = href[0].replace("mailto:", "")
         else:
             bagno[column] = td_content
-    if not parsed_bagno:
+    logging.info("Parsing cervia number %d name %s" % (i, bagno['name']))
+    if parsed_bagno is None:
         import ipdb; ipdb.set_trace()
-    fields = [u"servizi offerti", u"ristorazione", u"attività"]
-    import ipdb; ipdb.set_trace()
-    for field_name in fields:
-        field_value = parsed_bagno.xpath("//div[@class='div_testo']//*[@class='bold blu][text()='" + field_name + "']/following-sibling::text()")
+    fields = parsed_bagno.xpath("//*[@class='bold blu']")
+    bagno['services'] = []
+    bagno['details'] = {}
+    for field in fields:
+        field_name = field.text.replace(":", "").strip().lower()
+        field_values = field.xpath("./following-sibling::*/text()")
+        if len(field_values) == 0:
+            field_values = field.xpath("./following-sibling::text()")
+        if field_name == "servizi offerti":
+            for field_value in field_values[0].split("-"):
+                matches = numbers_from_text.findall(field_value)
+                if matches:
+                    for match in matches:
+                        try:
+                            detail_name = utils.get_detail_from_alias(match[0].strip().strip("numero").strip("n.").strip("mq").strip("m").strip("n").strip().strip(":").strip(".").strip().lower())
+                            detail_value = int(float(match[1].replace(".", "").replace(",", ".").strip()))
+                            if detail_name:
+                                if not detail_name in DETAILS:
+                                    DETAILS.append(detail_name)
+                                if not detail_name in bagno['details']:
+                                    bagno['details'][detail_name] = detail_value
+                        except Exception:
+                            import ipdb; ipdb.set_trace()
+                            pass
+                else:
+                    service_list = utils.get_service_from_alias(field_value.strip().lower())
+                    for service in service_list:
+                        if service:
+                            if not service in SERVICES:
+                                SERVICES.append(service)
+                            if not service in bagno['services']:
+                                bagno['services'].append(service)
 
+        elif field_name == u"attività":
+            field_value = " ".join(field_values).replace(":", "").strip().lower()
+            for field_value in field_value.split("\n"):
+                service_list = utils.get_service_from_alias(field_value.strip().lower())
+                for service in service_list:
+                    if service:
+                        if not service in SERVICES:
+                            SERVICES.append(service)
+                        if not service in bagno['services']:
+                            bagno['services'].append(service)
+
+        elif not field_name in ['associazione di riferimento', 'tariffe', 'come arrivare', 'periodo di apertura']:
+            field_value = " ".join(field_values).replace(":", "").strip().lower()
+            matches = numbers_from_text.findall(field_name + field_value)
+            if matches:
+                for match in matches:
+                    try:
+                        detail_name = utils.get_detail_from_alias(match[0].strip()).strip("numero").strip("n.").strip("mq").strip("m").strip("n").strip().strip(":").strip(".").strip().lower()
+                        detail_value = int(float(match[1].replace(".", "").replace(",", ".").strip()))
+                        if detail_name:
+                            if not detail_name in DETAILS:
+                                DETAILS.append(detail_name)
+                            if not detail_name in bagno['details']:
+                                bagno['details'][detail_name] = detail_value
+                    except Exception:
+                        import ipdb; ipdb.set_trace()
+                        pass
+            else:
+                if not field_name in ['associazione di riferimento', 'tariffe', 'come arrivare', 'periodo di apertura']:
+                    service_name = field_name + field_value
+                    service_list = utils.get_service_from_alias(service_name.strip())
+                    for service in service_list:
+                        if service:
+                            if not service in SERVICES:
+                                SERVICES.append(service)
+                            if not service in bagno['services']:
+                                bagno['services'].append(service)
+    bagni.append(bagno)
+
+utils.write_services(SERVICES)
+utils.write_details(DETAILS)
+
+with open('output_cervia.json', 'w') as outfile:
+  simplejson.dump(bagni, outfile, sort_keys=True, indent=4,)
