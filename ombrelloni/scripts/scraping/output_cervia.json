@@ -1,0 +1,3913 @@
+[
+    {
+        "address": "Lungomare Grazia Deledda - Arenile demaniale 146",
+        "city": "Cervia",
+        "details": {
+            "docce aperte": 3,
+            "docce chiuse": 9,
+            "fronte mare": 20,
+            "superficie complessiva spiaggia": 2143,
+            "wc": 2
+        },
+        "fax": "",
+        "mail": "info@hotelmajor.com",
+        "name": "Bagno Medusa",
+        "number": "146",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "servizio salvamento",
+            "piccola ristorazione",
+            "area giochi bimbi",
+            "beach volley",
+            "videogiochi",
+            "calcio balilla",
+            "animazione per bambini",
+            "sala tv"
+        ],
+        "tel": "0544 972346 - 972765"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - Arenile demaniale 148",
+        "city": "Cervia",
+        "details": {
+            "con acqua calda a pagamento docce aperte": 2,
+            "docce chiuse": 2,
+            "fronte mare": 22,
+            "lavapiedi wc": 2
+        },
+        "fax": "",
+        "mail": "a.farnedi@libero.it",
+        "name": "Bagno Tino",
+        "number": "148",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione",
+            "giochi per bambini giostrina, scivolo, bilico, moto",
+            "bocce",
+            "ping pong",
+            "videogiochi",
+            "calcio balilla",
+            "musica all'esterno",
+            "animazione",
+            "sala tv"
+        ],
+        "tel": "0544 72396"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - Arenile demaniale 149",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Olimpia",
+        "number": "149",
+        "services": [
+            "piccola ristorazione",
+            "area giochi bimbi",
+            "beach volley",
+            "bocce",
+            "videogiochi",
+            "animazione per bambini",
+            "sala tv",
+            "ping pong",
+            "calcio balilla"
+        ],
+        "tel": "0544 72399"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - Arenile demaniale 150",
+        "city": "Cervia",
+        "details": {
+            "docce aperte": 2,
+            "fronte mare": 40,
+            "sdraio wc": 6,
+            "superficie complessiva spiaggia": 4200
+        },
+        "fax": "0544 72398",
+        "name": "Bagno Luigi",
+        "number": "150",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie"
+        ],
+        "tel": "0544 72398"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - Arenile demaniale 152",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Saretina",
+        "number": "152",
+        "services": [
+            "area giochi bimbi",
+            "beach volley",
+            "bocce",
+            "ping pong",
+            "videogiochi",
+            "calcio balilla",
+            "musica all'esterno",
+            "sala tv"
+        ],
+        "tel": "0544 970255"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - Arenile demaniale 153",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "fabiocantelli@alice.it",
+        "name": "Bagno Casadei",
+        "number": "153",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 71681 - 338 1358231"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - Arenile demaniale 155",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "info@balmor.it",
+        "name": "Bagno Balmor",
+        "number": "155",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.balmor.it",
+        "tel": "0544 972183"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - Arenile demaniale 159",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "info@isola159.it",
+        "name": "Bagno Isola",
+        "number": "159",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.isola159.it",
+        "tel": "0544 71313"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 160",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "info@bagnobologna.it;%20ridolfimauro@libero.it",
+        "name": "Bagno Bologna",
+        "number": "160",
+        "services": [
+            "piccola ristorazione",
+            "area giochi bimbi",
+            "beach volley",
+            "bocce",
+            "beach basket",
+            "racchettoni",
+            "racchettoni a disposizione",
+            "ping pong",
+            "videogiochi",
+            "calcio balilla",
+            "animazione baby club - beach dance - fitness",
+            "sala tv"
+        ],
+        "site": "http://www.bagnobologna.it",
+        "tel": "0544 971275"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 162",
+        "city": "Cervia",
+        "details": {
+            "cabi": 20,
+            "campi beach socc": 1,
+            "campi beach tennis": 1,
+            "campi beach volley": 1,
+            "docce apert": 3,
+            "docce aperte con acqua calda": 1,
+            "docce chius": 3,
+            "docce chiuse con acqua calda": 2,
+            "docce chiuse con acqua calda a pagament": 2,
+            "fronte mare metri": 20,
+            "lavapiedi": 1,
+            "lettini": 220,
+            "lettini per disabili": 3,
+            "ombrelloni": 110,
+            "parcheggio riservat": 50,
+            "sdrai": 20,
+            "sedi": 40,
+            "superficie complessiva spiaggia": 1000,
+            "wc": 5,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 970139",
+        "name": "Bagno Gianni",
+        "number": "162",
+        "services": [
+            "adesione al progetto passpartout",
+            "televisionetv sat",
+            "piccola ristorazione",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce, noleggio pedal\u00f2, noleggio canoe",
+            "animazionefeste a tema",
+            "spazio giochi all'aperto",
+            "giochi per bambinigiostrina, scivolo",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "tel": "0544 970139"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 163",
+        "city": "Cervia",
+        "details": {
+            "con acqua calda a pagamento docce aperte": 2,
+            "docce chiuse": 2,
+            "fronte mare": 20,
+            "superficie complessiva spiaggia": 2000,
+            "wc": 4
+        },
+        "fax": "",
+        "name": "Bagno Martini",
+        "number": "163",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "ristorazione",
+            "area giochi bimbi",
+            "bocce",
+            "beach basket",
+            "videogiochi",
+            "animazione baby club, beach dance e fitness",
+            "sala tv",
+            "ping pong",
+            "pedal\u00f2",
+            "calcio balilla"
+        ],
+        "tel": "0544 971248"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 164",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "magnani@bagnorenato.it",
+        "name": "Bagno Renato",
+        "number": "164",
+        "services": [
+            "ristorazione"
+        ],
+        "site": "http://www.bagnorenato.it",
+        "tel": "0544 72059"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 165",
+        "city": "Cervia",
+        "details": {
+            "cabi": 75,
+            "campi beach tennis": 2,
+            "campi beach volley": 2,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 6,
+            "docce aperte con acqua calda": 4,
+            "docce chius": 2,
+            "docce chiuse con acqua calda": 2,
+            "fronte mare metri": 40,
+            "lavapiedi": 2,
+            "lettini": 500,
+            "ombrelloni": 150,
+            "parcheggio riservat": 80,
+            "sdrai": 10,
+            "sedi": 10,
+            "spazio giochi all'aperto": 100,
+            "superficie complessiva spiaggia": 4000,
+            "wc": 8,
+            "wc accessibili ai disabili": 2
+        },
+        "fax": "0544 976422",
+        "mail": "info@bagnosoleluna.it",
+        "name": "Bagno Soleluna",
+        "number": "165",
+        "services": [
+            "adesione al progetto passpartout",
+            "sala tv",
+            "ristorazione",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo",
+            "animazionemini club, tutti i giorni tranne la domenica, feste a tema",
+            "giochi per bambinialtalena, scivolo",
+            "tariffe  come arrivare",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.bagnosoleluna.it",
+        "tel": "0544 971030"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 167",
+        "city": "Cervia",
+        "details": {},
+        "fax": "0544 971087",
+        "mail": "sergino411@libero.it",
+        "name": "Bagno Montanari - Praia do Jacar\u00e8",
+        "number": "167",
+        "services": [
+            "piccola ristorazione",
+            "giochi per bambini giostrina - scivolo - altalena - giochi vari",
+            "beach volley",
+            "bocce",
+            "ping pong",
+            "animazione baby club - beach dance - fitness",
+            "calcio balilla"
+        ],
+        "tel": "0544 971148"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 168",
+        "city": "Cervia",
+        "details": {
+            "doccia chiusa con acqua calda a pagamento docce aperte": 2,
+            "fronte mare": 20,
+            "superficie complessiva spiaggia": 2300,
+            "wc": 2
+        },
+        "fax": "",
+        "name": "Bagno Souvenir",
+        "number": "168",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "ristorazione",
+            "giochi per bambini casetta",
+            "campo da beach-volley",
+            "bocce",
+            "beach basket",
+            "animazione baby club, beach dance e fitness",
+            "sala tv",
+            "ping pong",
+            "calcio balilla",
+            "racchettoni a disposizione",
+            "feste a tema tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\".",
+            "25/07/2012"
+        ],
+        "tel": "0544 972769 - 3455936577"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 169",
+        "city": "Cervia",
+        "details": {
+            "campi beach volley": 2,
+            "con acqua calda a pagamento docce aperte": 6,
+            "doccie chiuse": 2,
+            "fronte mare": 43,
+            "superficie complessiva spiaggia": 4678,
+            "wc": 3
+        },
+        "fax": "",
+        "mail": "info@bagno169.com",
+        "name": "Bagno Centosessantanove",
+        "number": "169",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "sala tv",
+            "internet",
+            "connessione internet wi-fi",
+            "ristorazionecompleta",
+            "palestra attrezzata",
+            "dotazioni sportiveracchettoni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "giochi per bambinireti elastiche, altalena, videogiochi, giostrina, scivolo"
+        ],
+        "site": "http://www.bagno169.com",
+        "tel": "0544 973417"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 172/173",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "bagnoromagnolo@summerdream.it",
+        "name": "Bagno Romagnolo",
+        "number": "172/173",
+        "services": [
+            "piccola ristorazione",
+            "giochi per bambini altalena - scivolo - piccolo parco",
+            "n 3 campi beach volley",
+            "campo beach tennis",
+            "bocce",
+            "ping pong",
+            "racchettoni a disposizione",
+            "beach basket",
+            "videogiochi",
+            "calcio balilla",
+            "animazione baby club - beach dance - fitness",
+            "sala tv"
+        ],
+        "site": "http://www.cervia.com/Turismo/Strutture/16",
+        "tel": "0544 71700"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 174",
+        "city": "Cervia",
+        "details": {
+            "con acqua calda a pagamento docce aperte": 5,
+            "docce chiuse": 4,
+            "fronte mare": 38,
+            "lavapiedi wc": 5,
+            "superficie complesssiva spiaggia": 4195
+        },
+        "fax": "",
+        "name": "Bagno I Figli del Sole",
+        "number": "174",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 71461"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 175/176",
+        "city": "Cervia",
+        "details": {
+            "con acqua calda gratuita docce aperte": 3,
+            "docce chiuse": 1,
+            "fronte mare": 32,
+            "lavapiedi wc": 3
+        },
+        "fax": "0544 72079",
+        "mail": "info@bagnodover.com",
+        "name": "Bagno Dover",
+        "number": "175/176",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "ristorazione"
+        ],
+        "site": "http://www.bagnodover.com",
+        "tel": "0544 72079 - 71358"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 177/178",
+        "city": "Cervia",
+        "details": {},
+        "fax": "0544 973037",
+        "mail": "bagnosauro177@inwind.it",
+        "name": "Bagno Sauro",
+        "number": "177/178",
+        "services": [
+            ": s\u00ec",
+            "ristorazione",
+            "giochi per bambini altalena e scivolo. casa chicco",
+            "bocce",
+            "videogiochi",
+            "animazione baby club,  beach dance e fitness",
+            "sala tv",
+            "ping pong",
+            "calcio balilla",
+            "racchettoni a disposizione",
+            "beach basket",
+            "beach volley",
+            "racchettoni tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\"."
+        ],
+        "site": "http://www.bagnosauro177.it",
+        "tel": "0544 72394"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 179/182",
+        "city": "Cervia",
+        "details": {
+            "con acqua calda a pagamento docce aperte": 8,
+            "docce chiuse": 3,
+            "fronte mare": 60,
+            "lavapiedi wc": 5
+        },
+        "fax": "0544 975757",
+        "mail": "info@fantiniclub.com",
+        "name": "Bagno Fantini Club",
+        "number": "179/182",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione"
+        ],
+        "site": "http://www.fantiniclub.com",
+        "tel": "0544 956519 - 72236"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 183",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "enricobedeschi@alice.it",
+        "name": "Bagno Dallara",
+        "number": "183",
+        "services": [
+            ": s\u00ec",
+            "ristorazione"
+        ],
+        "tel": "0544 72220"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 184",
+        "city": "Cervia",
+        "details": {
+            "doccia chiusa con acqua calda gratuita docce aperte": 2,
+            "fronte mare": 26,
+            "superficie complessiva spiaggia": 2756,
+            "wc": 3
+        },
+        "fax": "",
+        "name": "Bagno Marco",
+        "number": "184",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 72201"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 185",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "bagnoconchiglia@alice.it",
+        "name": "Bagno Conchiglia Lido",
+        "number": "185",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 973230 - 973478"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 187",
+        "city": "Cervia",
+        "details": {
+            "doccia chiusa con acqua calda gratuita docce aperte": 3,
+            "fronte mare": 20,
+            "lavapiedi wc": 3,
+            "superficie complessiva spiaggia": 2328
+        },
+        "fax": "0543 440947",
+        "mail": "bagnolina187@virgilio.it",
+        "name": "Bagno Lina",
+        "number": "187",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "servizio salvamento",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo -  jumping",
+            "bocce",
+            "ping pong",
+            "videogiochi",
+            "calcio balilla",
+            "feste a tema",
+            "sala tv"
+        ],
+        "tel": "0544 71454"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 188",
+        "city": "Cervia",
+        "details": {
+            "docce aperte": 4,
+            "fronte mare": 35,
+            "superficie complessiva spiaggia": 3834,
+            "wc": 5
+        },
+        "fax": "",
+        "name": "Bagno Anna",
+        "number": "188",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo",
+            "bocce",
+            "ping pong",
+            "campo beach basket",
+            "calcio balilla",
+            "feste a tema",
+            "animazione baby club - beach dance",
+            "sala tv",
+            "musica"
+        ],
+        "tel": "0544 71625"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 190",
+        "city": "Cervia",
+        "details": {
+            "doccia chiusa con acqua calda a pagamento docce aperte": 4,
+            "fronte mare": 37,
+            "superficie complessiva spiaggia": 4077,
+            "wc": 5
+        },
+        "fax": "",
+        "mail": "roberto_gianesi3@hotmail.com",
+        "name": "Bagno Anita",
+        "number": "190",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "servizio salvamento",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo",
+            "beach volley",
+            "bocce",
+            "ping pong",
+            "racchettoni a disposizione",
+            "pedal\u00f2",
+            "canoe",
+            "calcio balilla",
+            "animazione baby club",
+            "sala tv",
+            "tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\". per conoscere le tariffe praticate nella spiaggia di cervia occorre contattare i singoli bagni\". come arrivare"
+        ],
+        "tel": "0544 973091 - 349 8529819"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 191",
+        "city": "Cervia",
+        "details": {
+            "doccia chiusa con acqua calda a pagamento docce aperte": 6,
+            "fronte mare": 18,
+            "lavapiedi wc": 4,
+            "superficie complessiva spiaggia": 2162
+        },
+        "fax": "",
+        "mail": "bagnobenito191@libero.it",
+        "name": "Bagno Ben",
+        "number": "191",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo",
+            "ping pong",
+            "baby-sitting",
+            "pedal\u00f2",
+            "canoe",
+            "calcio balilla",
+            "animazione baby  club - beach dance - fitness",
+            "libreria",
+            "giochi di societ\u00e0 tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\"."
+        ],
+        "tel": "0544 973728"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 194",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "staff@obaobabeach.it",
+        "name": "Bagno Oba Oba Beach",
+        "number": "194",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.obaobabeach.it",
+        "tel": "0544 71546"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 195/196",
+        "city": "Cervia",
+        "details": {
+            "campi basket": 1,
+            "campi beach socc": 1,
+            "campi beach tennis": 3,
+            "campi beach volley": 3,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 6,
+            "docce aperte con acqua calda": 4,
+            "docce chius": 2,
+            "docce chiuse con acqua calda a pagament": 2,
+            "fronte mare metri": 50,
+            "lavapiedi": 2,
+            "superficie complessiva spiaggia": 5500,
+            "wc": 4,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "mail": "bagnoulisse195@hotmail.it",
+        "name": "Bagno Ulisse",
+        "number": "195/196",
+        "services": [
+            "adesione al progetto passpartout",
+            "servizio salvamento",
+            "sala tv",
+            "ristorazionepiccola ristorazione (panini/insalate/piatti freddi e pronti)",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionemini club e junior club tutti i giorni, feste a tema",
+            "spazio giochi all'apertoaltri giochi",
+            "giochi per bambinialtalena, giostrina, scivolo",
+            "27/06/2012",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "tel": "0544 1848196"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 197/198",
+        "city": "Cervia",
+        "details": {
+            "cabi": 47,
+            "campi basket": 1,
+            "campi beach socc": 2,
+            "campi beach tennis": 2,
+            "campi beach volley": 2,
+            "docce apert": 5,
+            "docce aperte con acqua calda": 3,
+            "docce chius": 3,
+            "docce chiuse con acqua calda": 3,
+            "fronte ma": 42,
+            "lavapiedi": 2,
+            "lettini": 500,
+            "ombrelloni": 200,
+            "sdrai": 20,
+            "sedi": 20,
+            "superficie complessiva spiaggia": 4200,
+            "wc": 8,
+            "wc accessibili ai disabili": 2
+        },
+        "fax": "0544 973353",
+        "mail": "danielebeach@hotmail.it",
+        "name": "Bagno Daniele",
+        "number": "197/198",
+        "services": [
+            "adesione al progetto passpartout",
+            "servizio salvamento",
+            "televisionetv sat",
+            "ristorazionepiccola ristorazione ( panini, insalate, piatti freddi e pronti )",
+            "parcheggio riservato",
+            "parcheggio moto e bici riservato",
+            "palestra attrezzata",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionemini club e junior club tutti i giorni, feste a tema",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, videogiochi, giostrina, scivolo"
+        ],
+        "tel": "0544 973353 - 973466"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 199",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Anna",
+        "number": "199",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 71460"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 200",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Flores",
+        "number": "200",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 973057"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 201",
+        "city": "Cervia",
+        "details": {
+            "fronte mare": 20,
+            "superficie complessiva spiaggia": 2460,
+            "wc": 3
+        },
+        "fax": "",
+        "name": "Bagno Savini",
+        "number": "201",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "giochi per bambini altalena - giostrina - scivolo",
+            "bocce",
+            "ping pong",
+            "calcio balilla",
+            "feste a tema",
+            "animazione baby club - beach dance - fitness",
+            "sala tv"
+        ],
+        "tel": "0544 71493"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 202",
+        "city": "Cervia",
+        "details": {},
+        "fax": "0544 973155",
+        "mail": "info@bagnosilverio.it",
+        "name": "Bagno Silverio",
+        "number": "202",
+        "services": [
+            "piccola ristorazione",
+            "giochi per bambini altalena - scivolo - castello e vari animali a dondolo",
+            "campo beach - volley",
+            "bocce",
+            "beach soccer",
+            "racchettoni",
+            "ping pong",
+            "racchettoni a disposizione",
+            "calcio balilla",
+            "animazione baby club - beach dance - fitness",
+            "sala tv"
+        ],
+        "site": "http://www.bagnosilverio.it",
+        "tel": "0544 971183"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 203",
+        "city": "Cervia",
+        "details": {
+            "con acqua calda gratuita docce aperte": 2,
+            "docce chiuse": 2,
+            "fronte mare": 20,
+            "lavapiedi wc": 3,
+            "superficie complesssiva spiaggia": 2700
+        },
+        "fax": "",
+        "mail": "info@bagnosolosole.com",
+        "name": "Bagno Solo Sole",
+        "number": "203",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione",
+            "25/07/2012"
+        ],
+        "site": "http://www.bagnosolosole.com",
+        "tel": "347 0758959 Valeria - 333 2265915 Massimo  - 0544 973376"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 204",
+        "city": "Cervia",
+        "details": {
+            "con acqua calda docce aperte": 3,
+            "docce chiuse": 8,
+            "fronte mare": 20,
+            "superficie complessiva spiaggia": 2400,
+            "wc": 3
+        },
+        "fax": "",
+        "mail": "bagnomercuriali@libero.it",
+        "name": "Bagno Mercuriali",
+        "number": "204",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "servizio salvamento",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 973563"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 205",
+        "city": "Cervia",
+        "details": {},
+        "fax": "0543 740451",
+        "mail": "maicol23@libero.it",
+        "name": "Bagno Bar A Onda",
+        "number": "205",
+        "services": [
+            "piccola ristorazione",
+            "per conoscere le tariffe praticate nella spiaggia di cervia occorre contattare i singoli bagni\".  come arrivare"
+        ],
+        "tel": "0544 72091"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 206",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Sirtaki",
+        "number": "206",
+        "services": [
+            "piccola ristorazione",
+            "giochi per bambini parco bimbi",
+            "beach volley",
+            "bocce",
+            "ping pong",
+            "animazione baby club - beach dance - fitness",
+            "sala tv",
+            "calcio balilla",
+            "racchettoni",
+            "racchettoni a disposizione",
+            "feste a tema",
+            "pedal\u00f2",
+            "noleggio canoe tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\"."
+        ],
+        "tel": "0544 71409"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 207",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Keko Beach",
+        "number": "207",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 71684"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 208",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Aurora",
+        "number": "208",
+        "services": [
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo e vari altri",
+            "bocce",
+            "ping pong",
+            "calcio balilla",
+            "sala tv"
+        ],
+        "tel": "0544 72086"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Miluna Beach",
+        "number": "209",
+        "services": [
+            "cabine",
+            "ombrelloni",
+            "lettini",
+            "sedie sdraio servizio di salvataggio a cura della cooperativa bagnini"
+        ],
+        "tel": "0544 72242"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 210",
+        "city": "Cervia",
+        "details": {
+            "con acqua calda gratuita docce aperte": 2,
+            "docce chiuse": 2,
+            "fronte mare": 33,
+            "wc": 4
+        },
+        "fax": "",
+        "mail": "info@grandhotelcervia.com",
+        "name": "Bagno Cervia",
+        "number": "210",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "piccola ristorazione",
+            "08/10/2012"
+        ],
+        "site": "http://www.grandhotelcervia.com",
+        "tel": "0544 973104"
+    },
+    {
+        "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 211",
+        "city": "Cervia",
+        "details": {
+            "animazionemini club ogni": 2,
+            "cabi": 30,
+            "campi beach tennis": 1,
+            "campi beach volley": 1,
+            "docce apert": 6,
+            "docce aperte con acqua calda": 1,
+            "docce chius": 1,
+            "docce chiuse con acqua calda": 1,
+            "fronte ma": 19,
+            "lavapiedi": 1,
+            "lettini": 300,
+            "lettini per disabili": 5,
+            "ombrelloni": 130,
+            "sdrai": 30,
+            "sedi": 30,
+            "superficie complessiva spiaggia": 2300,
+            "wc": 4,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "mail": "info@bagnoitalia211.com",
+        "name": "Bagno Italia",
+        "number": "211",
+        "services": [
+            "servizio salvamento",
+            "sala tv",
+            "ristorazionepiccola ristorazione ( panini/ insalate/ piatti freddi e pronti )",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, giostrina, scivolo",
+            "per conoscere le tariffe praticate nella spiaggia di cervia occorre contattare i singoli bagni\". come arrivare   5",
+            "25/07/2012",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.bagnoitalia211.com",
+        "tel": "0544 72205 - 331 7734385 - 333 6459058"
+    },
+    {
+        "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 212",
+        "city": "Cervia",
+        "details": {
+            "docce aperte": 5,
+            "superficie complessiva spiaggia": 3279,
+            "wc": 5
+        },
+        "fax": "",
+        "mail": "info@bagnoimperiale.com",
+        "name": "Bagno Imperiale",
+        "number": "212",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini e privata"
+        ],
+        "site": "http://www.bagnoimperiale.com",
+        "tel": "0544 71436"
+    },
+    {
+        "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 213/214",
+        "city": "Cervia",
+        "details": {},
+        "fax": "0544 972082",
+        "mail": "bagnoazzurro@libero.it",
+        "name": "Bagno Azzurro",
+        "number": "213/214",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnoazzurro.com",
+        "tel": "0544 71783"
+    },
+    {
+        "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 215",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "bagnomoreno@libero.it",
+        "name": "Bagno Moreno",
+        "number": "215",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 71739"
+    },
+    {
+        "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 216",
+        "city": "Cervia",
+        "details": {
+            "cabi": 20,
+            "campi basket": 1,
+            "campi beach tennis": 1,
+            "campi beach volley": 1,
+            "docce apert": 2,
+            "docce aperte con acqua calda": 2,
+            "docce chius": 2,
+            "docce chiuse con acqua calda": 2,
+            "fronte mare metri": 20,
+            "lavapiedi": 1,
+            "lettini": 240,
+            "ombrelloni": 100,
+            "sdrai": 20,
+            "sedi": 20,
+            "superficie complessiva spiaggia": 2000,
+            "wc": 3,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 972711",
+        "mail": "bagnogildo@agenzialewa.com",
+        "name": "Bagno Gildo",
+        "number": "216",
+        "services": [
+            "servizio salvamento",
+            "sala tv",
+            "internet",
+            "ristorazionepiccola ristorazione ( panini / insalate / piatti freddi e pronti )",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce, noleggio pedal\u00f2, noleggio canoe",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, giostrina, scivolo",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.agenzialewa.com/BagnoGildo/default.asp?Lang=ITALIANO",
+        "tel": "0544 973687"
+    },
+    {
+        "address": "Lungomare Grazia Deledda - arenile demaniale 217/218",
+        "city": "Cervia",
+        "details": {},
+        "fax": "0544 973707",
+        "mail": "info@playacaribe.it",
+        "name": "Bagno Playa Caribe",
+        "number": "217/218",
+        "services": [
+            "servizio salvamento",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo - ampio parco giochi campi beach volley n\u00b0 3 campo bocce n\u00b0 1 ping pong racchettoni a disposizione beach tennis beach basket noleggio  tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\"."
+        ],
+        "site": "http://www.playacaribe.it",
+        "tel": "0544 973783"
+    },
+    {
+        "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 219",
+        "city": "Cervia",
+        "details": {
+            "cabi": 31,
+            "campi basket": 1,
+            "campi beach socc": 3,
+            "campi beach tennis": 3,
+            "campi beach volley": 3,
+            "docce apert": 6,
+            "docce aperte con acqua calda": 5,
+            "docce chius": 11,
+            "docce chiuse con acqua calda": 11,
+            "docce chiuse con acqua calda a pagament": 11,
+            "fronte mare metri": 76,
+            "lavapiedi": 5,
+            "lettini": 500,
+            "ombrelloni": 250,
+            "sdrai": 20,
+            "sedi": 50,
+            "spazio giochi all'aperto": 500,
+            "superficie complessiva spiaggia": 9000,
+            "wc": 6,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 973915",
+        "mail": "info@lidobeachcervia.com",
+        "name": "Bagno Lido Beach",
+        "number": "219",
+        "services": [
+            "sala tv",
+            "connessione internet wi-fi",
+            "ristorazione",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "giochi per bambinireti elastiche, altalena, videogiochi, giostrina, scivolo",
+            "tariffe  come arrivare",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.lidobeachcervia.com",
+        "tel": "0544 973915"
+    },
+    {
+        "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 220/221",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Franco",
+        "number": "220/221",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 71692"
+    },
+    {
+        "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 222/226",
+        "city": "Cervia",
+        "details": {
+            "con acqua calda a pagamento docce aperte": 2,
+            "docce chiuse": 3,
+            "fronte mare": 20,
+            "superficie complessiva spiaggia": 2320
+        },
+        "fax": "",
+        "mail": "info@cerviamare.com",
+        "name": "Bagno Cerviamare",
+        "number": "222/226",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "ristorazione",
+            "25/07/2012"
+        ],
+        "site": "http://www.cerviamare.com",
+        "tel": "0544 971286 - 973014 - 1848223"
+    },
+    {
+        "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 228/229",
+        "city": "Cervia",
+        "details": {},
+        "fax": "",
+        "mail": "info@bagnosorriso.it",
+        "name": "Bagno Sorriso",
+        "number": "228/229",
+        "services": [
+            "tariffe"
+        ],
+        "tel": "0544 971098"
+    },
+    {
+        "address": "Viale Arrigo Boito - arenile demaniale 235",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Angela",
+        "number": "235",
+        "services": [
+            "piccola ristorazione",
+            "giochi per bambini scivolo",
+            "ping pong",
+            "racchettoni a disposizione",
+            "calcio balilla",
+            "musica all'esterno",
+            "animazione baby club - beach dance - fitness",
+            "sala tv"
+        ],
+        "tel": "0544 974359"
+    },
+    {
+        "address": "Viale Arrigo Boito - arenile demaniale 236",
+        "city": "Milano Marittima",
+        "details": {
+            "all": 1200,
+            "animazionemini club dal lunedi al venerdi dall": 1000,
+            "campi beach tennis": 1,
+            "campi beach volley": 1,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "dall": 1600,
+            "docce apert": 4,
+            "docce chius": 2,
+            "docce chiuse con acqua calda": 2,
+            "fronte mare metri": 23,
+            "lavapiedi": 2,
+            "parcheggio riservat": 14,
+            "wc": 4,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "mail": "mosquito236@hotmail.it",
+        "name": "Bagno Mosquito Beach",
+        "number": "236",
+        "services": [
+            "televisionetv sat sky",
+            "connessione internet wi-fi",
+            "ristorazionepiccola ristorazione ( panini/ insalate/ piatti freddi e pronti )",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione",
+            "spazio giochi all'aperto",
+            "giochi per bambiniscivolo"
+        ],
+        "tel": "0544 974351"
+    },
+    {
+        "address": "Viale Arrigo Boito - arenile demaniale 237",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda gratuita docce aperte": 2,
+            "docce chiuse": 1,
+            "fronte mare": 29,
+            "lavapiedi wc": 5,
+            "superfice complessiva spiaggia": 2958
+        },
+        "fax": "",
+        "name": "Bagno Le Saline",
+        "number": "237",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 974346"
+    },
+    {
+        "address": "Viale Arrigo Boito - arenile demaniale 238",
+        "city": "Milano Marittima",
+        "details": {
+            "doccia chiusa con acqua calda gratuita docce aperte": 3,
+            "fronte mare": 29,
+            "lavapiedi wc": 4
+        },
+        "fax": "",
+        "mail": "icapanni.lido238@libero.it",
+        "name": "Bagno Cortesi",
+        "number": "238",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 974347"
+    },
+    {
+        "address": "Viale Pietro Mascagni - arenile demaniale 239",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "mail": "htonnitorri@cervia.com",
+        "name": "Bagno Tonni",
+        "number": "239",
+        "services": [],
+        "site": "http://www.tonnitorrihotels.com",
+        "tel": "0544 974343"
+    },
+    {
+        "address": "Viale Pietro Mascagni - arenile demaniale 240",
+        "city": "Milano Marittima",
+        "details": {
+            "docce aperte": 3,
+            "fronte mare": 18,
+            "lavapiedi docce chiuse": 2
+        },
+        "fax": "",
+        "mail": "htonnitorri@cervia.com",
+        "name": "Bagno Gilberto",
+        "number": "240",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio"
+        ],
+        "site": "http://www.tonnitorrihotels.com",
+        "tel": "0544 974352"
+    },
+    {
+        "address": "Viale Pietro Mascagni - arenile demaniale 241",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "mail": "zanetti-fo@libero.it",
+        "name": "Bagno Stefano Beach",
+        "number": "241",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 974349"
+    },
+    {
+        "address": "Viale Pietro Mascagni - arenile demaniale 242",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "0544 917593",
+        "name": "Bagno Paparazzi",
+        "number": "242",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.paparazzibeach.it",
+        "tel": "0544 975614 - 954019 - 339 4725333"
+    },
+    {
+        "address": "Viale Pietro Mascagni - arenile demaniale 242",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "bis Bagno Sesto",
+        "number": "242",
+        "services": [
+            "piccola ristorazione",
+            "per conoscere le tariffe praticate nella spiaggia di cervia occorre contattare i singoli bagni \". come arrivare"
+        ],
+        "tel": "0544 972333"
+    },
+    {
+        "address": "Viale Due Giugno - arenile demaniale 243",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda gratuita docce aperte": 3,
+            "docce chiuse": 2,
+            "fronte mare": 20,
+            "sdraio wc": 6
+        },
+        "fax": "0544 972773",
+        "mail": "aurelia@selecthotels.it",
+        "name": "Bagno Aurelia",
+        "number": "243",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "piccola ristorazione",
+            "area giochi bimbi",
+            "beach volley",
+            "campo beach tennis",
+            "ping pong",
+            "videogiochi",
+            "calcio balilla",
+            "animazione baby club tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\"."
+        ],
+        "tel": "0544 975451"
+    },
+    {
+        "address": "Viale Nicol\u00f2 Paganini - arenile demaniale 245",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "mail": "info@bagnopeppino.it",
+        "name": "Bagno Peppino",
+        "number": "245",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnopeppino.it",
+        "tel": "0544 975389"
+    },
+    {
+        "address": "Viale Amilcare Ponchielli - arenile demaniale 246",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda gratuita docce aperte": 3,
+            "docce chiuse": 4,
+            "fronte mare": 23,
+            "superficie complessiva spiaggia": 2557,
+            "wc": 6
+        },
+        "fax": "",
+        "name": "Bagno Doge",
+        "number": "246",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 975613"
+    },
+    {
+        "address": "Viale Amilcare Ponchielli - arenile demaniale 247",
+        "city": "Milano Marittima",
+        "details": {
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 4,
+            "docce aperte con acqua calda": 3,
+            "docce chius": 1,
+            "docce chiuse con acqua calda a pagament": 1,
+            "fronte ma": 20,
+            "lavapiedi": 1,
+            "spazio giochi all'aperto": 30,
+            "superficie complessiva spiaggia": 2305,
+            "wc": 3,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 975615",
+        "mail": "bagnogiuliano@bagnogiuliano.com",
+        "name": "Bagno Giuliano",
+        "number": "247",
+        "services": [
+            "televisionetv sat e sky",
+            "ristorazionepiccola ristorazione (panini/ insalate/ piatti freddi e pronti)",
+            "parcheggio riservato",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionemini club, feste a tema tutti i giorni",
+            "giochi per bambinialtalena, scivolo",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.bagnogiuliano.com",
+        "tel": "0544 975615"
+    },
+    {
+        "address": "Viale Domenico Cimarosa - arenile demaniale 248",
+        "city": "Milano Marittima",
+        "details": {
+            "docce aperte": 4,
+            "fronte mare": 150,
+            "sdraio wc": 5,
+            "superficie complessiva spiaggia": 6000
+        },
+        "fax": "0544 992739",
+        "mail": "gianni@selecthotels.it",
+        "name": "Bagno Mare Pineta",
+        "number": "248",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "animazione baby club tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\"."
+        ],
+        "tel": "0544 992262"
+    },
+    {
+        "address": "Viale Domenico Cimarosa - arenile demaniale 250",
+        "city": "Milano Marittima",
+        "details": {
+            "cabi": 40,
+            "campi basket": 1,
+            "campi beach tennis": 2,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 8,
+            "docce chius": 4,
+            "docce chiuse con acqua calda": 4,
+            "fronte mare metri": 73,
+            "lavapiedi": 2,
+            "lettini": 800,
+            "ombrelloni": 300,
+            "sdrai": 50,
+            "sedi": 40,
+            "superficie complessiva spiaggia": 8123,
+            "wc": 7,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 995293",
+        "mail": "info@bagnoreste.com",
+        "name": "Bagno Oreste",
+        "number": "250",
+        "services": [
+            "televisionesky",
+            "ristorazionepiccola ristorazione",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo",
+            "animazionemini club",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, scivolo"
+        ],
+        "site": "http://www.bagnoreste.com",
+        "tel": "0544 995293 - 992467"
+    },
+    {
+        "address": "Viale Gaspare Spontini - arenile demaniale 251/252",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Dino",
+        "number": "251/252",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 993741"
+    },
+    {
+        "address": "Viale Francesco Baracca - arenile demaniale 253",
+        "city": "Milano Marittima",
+        "details": {
+            "cabi": 26,
+            "campi beach tennis": 1,
+            "campi beach volley": 1,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 2,
+            "docce aperte con acqua calda": 2,
+            "docce chius": 2,
+            "docce chiuse con acqua calda": 2,
+            "docce chiuse con acqua calda a pagament": 2,
+            "fronte mare metri": 33,
+            "idromassaggi": 4,
+            "lavapiedi": 4,
+            "lettini": 400,
+            "ombrelloni": 170,
+            "sdrai": 20,
+            "sedi": 20,
+            "superficie complessiva spiaggia": 3045,
+            "wc": 7,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 992101",
+        "mail": "staff@attiliobeach.it",
+        "name": "Bagno Attilio",
+        "number": "253",
+        "services": [
+            "televisionetv, tv sat",
+            "connessione internet wi-fi",
+            "ristorazione",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, noleggio pedal\u00f2",
+            "animazionemini club tutti i giorni",
+            "giochi per bambinicastello, casetta, altalena, giostrina, scivolo",
+            "tariffe  come arrivare",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.attiliobeach.it",
+        "tel": "0544 992101"
+    },
+    {
+        "address": "Viale Francesco Baracca - arenile demaniale 254",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Umberto",
+        "number": "254",
+        "services": [
+            "piccola ristorazione",
+            "12/12/2012"
+        ],
+        "tel": "0544 992103"
+    },
+    {
+        "address": "Viale Francesco Baracca - arenile deamaniale 255",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda a pagamento docce aperte": 2,
+            "fronte mare": 32,
+            "lavapiedi wc docce chiuse": 4,
+            "superficie complessiva spiaggia": 2531
+        },
+        "fax": "",
+        "name": "Bagno Palace Beach",
+        "number": "255",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 994210"
+    },
+    {
+        "address": "Viale Enrico Toti - arenile demaniale 258",
+        "city": "Milano Marittima",
+        "details": {
+            "docce aperte": 3,
+            "docce chiuse": 5,
+            "fronte mare": 33,
+            "superficie complessiva spiaggia": 3473,
+            "wc": 5
+        },
+        "fax": "",
+        "mail": "enzomalusi258@tele2.it",
+        "name": "Bagno Malusi Enzo",
+        "number": "258",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnoenzomalusi.com",
+        "tel": "0544 994683"
+    },
+    {
+        "address": "Viale Enrico Toti - arenile demaniale 258",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "mail": "cugino@libero.it",
+        "name": "bis Bagno Malusi Giorgio",
+        "number": "258",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 993654"
+    },
+    {
+        "address": "Viale Cadorna - arenile demaniale 259",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "mail": "casta_uno@libero.it",
+        "name": "Bagno Castagnoli Beach",
+        "number": "259",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 991110"
+    },
+    {
+        "address": "Viale Cadorna - arenile demaniale 260",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Giulianini",
+        "number": "260",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 993432"
+    },
+    {
+        "address": "Viale Cadorna - arenile demaniale 261",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda gratuita docce aperte": 2,
+            "docce chiuse": 1,
+            "fronte mare": 21,
+            "wc": 5
+        },
+        "fax": "",
+        "mail": "bussolalido@tin.it",
+        "name": "Bagno Bussola Lido",
+        "number": "261",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo - castello campo beach volley ping pong racchettoni a disposizione noleggio pedal\u00f2 noleggio surf calcio balilla feste a tema televisione tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\".",
+            "25/07/2012"
+        ],
+        "tel": "0544 993370 - 335 7586456 - 0544 993487"
+    },
+    {
+        "address": "Viale Corsica  - arenile demaniale 262",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "mail": "bagnotonino@libero.it",
+        "name": "Bagno Tonino",
+        "number": "262",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 993396"
+    },
+    {
+        "address": "Viale Corsica - arenile demaniale 263",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda a pagamento docce aperte": 6,
+            "docce chiuse": 13,
+            "fronte mare": 35,
+            "superficie complessiva spiaggia": 2000,
+            "wc": 5
+        },
+        "fax": "",
+        "name": "Bagno Adriatico",
+        "number": "263",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo - 2 giochi componibili",
+            "beach volley",
+            "racchettoni",
+            "ping pong",
+            "calcio balilla",
+            "animazione baby club",
+            "televisione - satellite per ricezione canali stranieri"
+        ],
+        "tel": "0544 991023"
+    },
+    {
+        "address": "Viale Zara - arenile demaniale 265",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno La Barcaccia",
+        "number": "265",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 991039"
+    },
+    {
+        "address": "Viale Zara - arenile demaniale 266",
+        "city": "Milano Marittima",
+        "details": {
+            "doccia chiusa con acqua calda a pagamento docce aperte": 3,
+            "fronte mare": 20,
+            "lavapiedi wc": 5,
+            "superficie complessiva spiaggia": 2277
+        },
+        "fax": "0541 942122",
+        "mail": "bastonimariaelena@libero.it",
+        "name": "Bagno Carla",
+        "number": "266",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo",
+            "ping pong",
+            "calcio balilla",
+            "animazione",
+            "sala tv"
+        ],
+        "tel": "0544 991072"
+    },
+    {
+        "address": "Viale Forli - arenile demaniale 267",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Ancora",
+        "number": "267",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 994565"
+    },
+    {
+        "address": "Viale Forli - arenile demaniale 268",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "mail": "massimoferrari@hotmail.com",
+        "name": "Bagno Zefiro",
+        "number": "268",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 991752"
+    },
+    {
+        "address": "Viale Forli - arenile demaniale 269",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Roma",
+        "number": "269",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://alemasorf@aruba.it",
+        "tel": "0544 991206"
+    },
+    {
+        "address": "Viale Forli - arenile demaniale 270",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Sogno del Mare",
+        "number": "270",
+        "services": [
+            ": s\u00ec",
+            "ristorazione",
+            "giochi per bambini altalena",
+            "campo beach-volley n.2",
+            "animazione baby club, beach dance, fitness",
+            "sala tv",
+            "calcio balilla",
+            "racchettoni",
+            "racchettoni a disposizione"
+        ],
+        "tel": "0544 992513"
+    },
+    {
+        "address": "Viale Forli - arenile demaniale 271",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Albacore",
+        "number": "271",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 993709"
+    },
+    {
+        "address": "Viale Spalato - arenile demaniale 272",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno MI.MA. Beach",
+        "number": "272",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 992074"
+    },
+    {
+        "address": "Viale Spalato - arenile demaniale 273",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda gratuita\r\ndocce aperte": 6,
+            "docce chiuse": 2,
+            "fronte mare": 42,
+            "lavapiedi\r\nwc": 5
+        },
+        "fax": "0544 993608",
+        "mail": "info@agenzieriunite.com",
+        "name": "Bagno Milano",
+        "number": "273",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 994335"
+    },
+    {
+        "address": "Viale Spalato - arenile demaniale 274",
+        "city": "Milano Marittima",
+        "details": {
+            "docce aperte": 2,
+            "docce chiuse": 2,
+            "fronte mare": 24,
+            "lavapiedi wc n": 5,
+            "superficie complessiva spiaggia": 2570
+        },
+        "fax": "",
+        "name": "Bagno La Spiaggetta",
+        "number": "274",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "ristorazione"
+        ],
+        "tel": "0544 994601"
+    },
+    {
+        "address": "Viale Spalato - arenile demaniale 275",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Samuele",
+        "number": "275",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 994601-9"
+    },
+    {
+        "address": "Viale Spalato - arenile demaniale 276",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Bicio Papao",
+        "number": "276",
+        "services": [
+            "servizio salvamento"
+        ],
+        "site": "http://www.biciopapao.it",
+        "tel": "0544 1889051 - 335 6362372"
+    },
+    {
+        "address": "Viale Due Giugno - arenile demaniale 277",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda a pagamento docce aperte": 2,
+            "docce chiuse": 6,
+            "fronte mare": 40,
+            "superficie complessiva spiaggia": 4248,
+            "wc": 5
+        },
+        "fax": "",
+        "mail": "massari.ciarly@libero.it",
+        "name": "Bagno Ippocampo",
+        "number": "277",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 991442"
+    },
+    {
+        "address": "II Traversa - arenile demaniale 278",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Tre Gemelli",
+        "number": "278",
+        "services": [
+            "tariffe"
+        ],
+        "tel": "0544 994334"
+    },
+    {
+        "address": "II Traversa - arenile demaniale 279",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda a pagamento docce aperte": 3,
+            "docce chiuse": 2,
+            "sdraio wc": 3,
+            "superficie complessiva spiaggia": 1760
+        },
+        "fax": "",
+        "mail": "info@corallobeach279.it",
+        "name": "Bagno Corallo",
+        "number": "279",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "ristorazioneristorazione ridotta"
+        ],
+        "site": "http://www.corallobeach279.it",
+        "tel": "0544 991033"
+    },
+    {
+        "address": "III Traversa - arenile demaniale 280",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "0544 976488",
+        "mail": "info@rougehotel.it",
+        "name": "Bagno Rouge",
+        "number": "280",
+        "services": [
+            "12/12/2012"
+        ],
+        "tel": "0544 991310\r\n335 5228867"
+    },
+    {
+        "address": "III Traversa - arenile demaniale 280/281",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "0544 992033",
+        "mail": "info@papeetebeach.com",
+        "name": "bis/281 Bagno Papeete Beach",
+        "number": "280",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.papeetebeach.com",
+        "tel": "0544 991208 - 991108"
+    },
+    {
+        "address": "III Traversa - arenile demaniale 282",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "mail": "info@hotelmiamibeach.com",
+        "name": "Bagno Miami",
+        "number": "282",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 991628"
+    },
+    {
+        "address": "IV Traversa - arenile demaniale 283",
+        "city": "Milano Marittima",
+        "details": {
+            "accessibile ai portatori di handicap docce chiuse": 3,
+            "con acqua calda a pagamento docce aperte": 2,
+            "fronte mare": 17,
+            "wc": 1
+        },
+        "fax": "",
+        "mail": "pdp23@libero.it",
+        "name": "Bagno Flamingo Beach",
+        "number": "283",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 994507"
+    },
+    {
+        "address": "IV Traversa - arenile demaniale 284",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Oasi's",
+        "number": "284",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 992531"
+    },
+    {
+        "address": "IV Traversa - arenile demaniale 285",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "0544 994487",
+        "mail": "pinobeach@libero.it",
+        "name": "Bagno Pino Beach",
+        "number": "285",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 994487"
+    },
+    {
+        "address": "V Traversa - arenile demaniale 286",
+        "city": "Milano Marittima",
+        "details": {
+            "animazionemini club tutti i giorni, feste a tema ogni": 15,
+            "cabi": 34,
+            "docce apert": 4,
+            "docce aperte con acqua calda": 3,
+            "docce chius": 1,
+            "docce chiuse con acqua calda a pagament": 1,
+            "fronte ma": 23,
+            "lavapiedi": 2,
+            "lettini": 240,
+            "ombrelloni": 96,
+            "parcheggio riservat": 5,
+            "sdrai": 8,
+            "sedi": 8,
+            "superficie complessiva spiaggia": 1200,
+            "wc": 5,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "mail": "info@286.it",
+        "name": "Bagno Sauro",
+        "number": "286",
+        "services": [
+            "televisionetv sat",
+            "internet",
+            "connessione internet wi-fi",
+            "ristorazioneristorazione completa",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, scivolo",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.286.it",
+        "tel": "0544 994358"
+    },
+    {
+        "address": "V Traversa - arenile demaniale 287",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Gallia",
+        "number": "287",
+        "services": [],
+        "tel": "0544 992191"
+    },
+    {
+        "address": "Piazzale Torino - arenile demaniale 288",
+        "city": "Milano Marittima",
+        "details": {
+            "cabi": 60,
+            "docce apert": 4,
+            "docce chius": 7,
+            "docce chiuse con acqua calda": 7,
+            "docce chiuse con acqua calda a pagament": 2,
+            "fronte ma": 24,
+            "lavapiedi": 1,
+            "lettini": 230,
+            "ombrelloni": 110,
+            "sdrai": 50,
+            "sedi": 50,
+            "superficie complessiva spiaggia": 1400,
+            "wc": 5,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 992668",
+        "mail": "info@lidohotel.it",
+        "name": "Bagno Lido",
+        "number": "288",
+        "services": [
+            "servizio salvamento",
+            "ristorazionepiccola ristorazione ( panini/ insalate/ piatti freddi e pronti )",
+            "parcheggio moto e bici riservato",
+            "piscinapiscina per bambini presso l'hotel lido",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionemini club tutti i giorni tranne la domenica",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, giostrina, scivolo",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.lidohotel.it",
+        "tel": "0544 991249"
+    },
+    {
+        "address": "V Traversa - arenile demaniale 289",
+        "city": "Milano Marittima",
+        "details": {
+            "docce apert": 3,
+            "docce chius": 1,
+            "docce chiuse con acqua calda a pagament": 1,
+            "fronte ma": 14,
+            "lavapiedi": 1,
+            "wc": 3,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "mail": "royalbeach@live.com",
+        "name": "Bagno Royal Beach",
+        "number": "289",
+        "services": [
+            "sala tv",
+            "ristorazionepiccola ristorazione (panini/ insalate/ piatti freddi e pronti)",
+            "parcheggio moto e bici riservato",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, scivolo",
+            "25/07/2012"
+        ],
+        "tel": "331 2165532 - 0544 995152"
+    },
+    {
+        "address": "VI Traversa - arenile demaniale 290",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "0544 991362",
+        "mail": "info@bagnomarilena.it",
+        "name": "Bagno Marilena",
+        "number": "290",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnomarilena.it",
+        "tel": "0544 991764"
+    },
+    {
+        "address": "VI Traversa - arenile demaniale 291",
+        "city": "Milano Marittima",
+        "details": {
+            "docce apert": 6,
+            "docce aperte con acqua calda": 6,
+            "docce chius": 1,
+            "docce chiuse con acqua calda": 1,
+            "fronte mare metri": 26,
+            "idromassaggiovasca idromassaggio": 9,
+            "lavapiedi": 2,
+            "lettini": 300,
+            "ombrelloni": 116,
+            "sdrai": 15,
+            "sedi": 15,
+            "superficie complessiva spiaggia": 1200,
+            "wc": 5,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 993833",
+        "mail": "info@acapulcohotels.it",
+        "name": "Bagno Piccadilly",
+        "number": "291",
+        "services": [
+            "sala tv",
+            "ristorazionepiccola ristorazione ( panini / insalate / piatti freddi e pronti )",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportivecalcio balilla, tennis tavolo, campo da bocce, noleggio canoe, noleggio surf",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.acapulcohotels.it",
+        "tel": "0544 993155 - 0544 992396"
+    },
+    {
+        "address": "VI Traversa - arenile demaniale 292",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Promenade",
+        "number": "292",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 992022 - 333 6168795"
+    },
+    {
+        "address": "VI Traversa - arenile demaniale 293",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Touring",
+        "number": "293",
+        "services": [
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo campo beach soccer campo bocce ping pong campo beach basket noleggio pedal\u00f2 videogiochi calcio balilla feste a tema animazione baby club - beach dance televisione tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\"."
+        ],
+        "tel": "0544 991753"
+    },
+    {
+        "address": "VII Traversa - arenile demaniale 294",
+        "city": "Milano Marittima",
+        "details": {
+            "docce aperte": 4,
+            "fronte mare": 22,
+            "lavapiedi wc": 4,
+            "superficie complessiva spiaggia": 2247
+        },
+        "fax": "",
+        "name": "Bagno La Palma",
+        "number": "294",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio"
+        ],
+        "tel": "0544 991753"
+    },
+    {
+        "address": "VII Traversa - arenile demaniale 295",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Principe",
+        "number": "295",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 991530"
+    },
+    {
+        "address": "VII Traversa - arenile demaniale 296",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Premier Palm Beach",
+        "number": "296",
+        "services": [
+            ": s\u00ec",
+            "ristorazione",
+            "tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\". per conoscere le tariffe praticate nella spiaggia di cervia occorre contattare i singoli bagni\". come arrivare"
+        ],
+        "tel": "0544 994661"
+    },
+    {
+        "address": "VIII Traversa - arenile demaniale 297",
+        "city": "Milano Marittima",
+        "details": {
+            "docce aperte": 1,
+            "docce chiuse": 2,
+            "fronte mare": 22,
+            "wc": 6
+        },
+        "fax": "0544 998161",
+        "mail": "info@bellettinihotel.it",
+        "name": "Bagno Spiaggia 297",
+        "number": "297",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione",
+            "giochi per bambini scivolo",
+            "beach volley",
+            "ping pong",
+            "racchettoni a disposizione",
+            "pedal\u00f2",
+            "televisione tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\". per conoscere le tariffe praticate nella spiaggia di cervia occorre contattare i singoli bagni\". come arrivare",
+            "12/12/2012"
+        ],
+        "site": "http://www.bellettinihotel.it",
+        "tel": "335 5629944"
+    },
+    {
+        "address": "VIII Traversa - arenile demaniale 298",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Oscar",
+        "number": "298",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 992598"
+    },
+    {
+        "address": "IX Traversa - arenile demaniale 299",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "0544 975822",
+        "mail": "virtualbeach299@yahoo.it",
+        "name": "Bagno Virtual Beach",
+        "number": "299",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 994326"
+    },
+    {
+        "address": "IX Traversa - arenile demaniale 300",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Ernani",
+        "number": "300",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 992202"
+    },
+    {
+        "address": "IX Traversa - arenile demaniale 301",
+        "city": "Milano Marittima",
+        "details": {
+            "doccia chiusa con acqua calda a pagamento docce aperte": 4,
+            "fronte mare": 23,
+            "wc": 4
+        },
+        "fax": "",
+        "mail": "marcellosama@virgilio.it",
+        "name": "Bagno Arcobaleno",
+        "number": "301",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo",
+            "bocce",
+            "ping pong",
+            "racchettoni a disposizione",
+            "calcio balilla",
+            "animazione beach dance - fitness"
+        ],
+        "tel": "0544 993331"
+    },
+    {
+        "address": "X traversa - arenile demaniale 302",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Azzurra",
+        "number": "302",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 994205"
+    },
+    {
+        "address": "XI traversa - arenile demaniale 302",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "bis Bagno Rosen Beach",
+        "number": "302",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "339 8926106"
+    },
+    {
+        "address": "XI traversa - arenile demaniale 304/305",
+        "city": "Milano Marittima",
+        "details": {
+            "cabi": 40,
+            "campi beach socc": 1,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 3,
+            "docce chius": 4,
+            "docce chiuse con acqua calda": 4,
+            "fronte ma": 64,
+            "lavapiedi": 3,
+            "lettini": 360,
+            "ombrelloni": 180,
+            "sdrai": 20,
+            "sedi": 30,
+            "wc": 3,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "mail": "info@peperittima.it",
+        "name": "Bagno Peperittima Beach Club",
+        "number": "304/305",
+        "services": [
+            "adesione al progetto passpartout",
+            "televisionetv sat",
+            "internet",
+            "connessione internet wi-fi",
+            "ristorazionepiccola ristorazione (panini/insalate/piatti freddi e pronti)",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportivepalloni a disposizione, calcio balilla, tennis tavolo, campo da bocce, noleggio canoe, noleggio surf",
+            "animazionemini club, junior club, feste a tema dal luned\u00ec al venerd\u00ec",
+            "spazio giochi all'aperto",
+            "giochi per bambinicastello",
+            "servizio baby sitting a pagamento",
+            "04/07/2012",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.peperittima.it",
+        "tel": "0544 994420 - 366 3448657"
+    },
+    {
+        "address": "XI - XII traversa - arenile demaniale 305",
+        "city": "Milano Marittima",
+        "details": {
+            "cabi": 36,
+            "campi beach volley": 1,
+            "docce apert": 7,
+            "docce aperte con acqua calda": 1,
+            "docce chius": 4,
+            "docce chiuse con acqua calda a pagament": 2,
+            "fronte mare metri": 105,
+            "idromassaggi": 8,
+            "lavapiedi": 4,
+            "lettini": 800,
+            "ombrelloni": 370,
+            "parcheggio riservat": 15,
+            "piscina": 250,
+            "sdrai": 40,
+            "sedi": 40,
+            "wc": 8,
+            "wc accessibili ai disabili": 2
+        },
+        "fax": "0544 991330",
+        "mail": "staff@bagnoholidayvillage.it",
+        "name": "bis/306 Bagno Holiday",
+        "number": "305",
+        "services": [
+            "televisionesky",
+            "ristorazionepiccola ristorazione ( panini/ insalate/ piatti freddi e pronti )",
+            "dotazioni sportivepalloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionemini club tutti i giorni tranne la domenica, feste a tema",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, giostrina, scivolo",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.bagnoholidayvillage.it",
+        "tel": "0544 991330 - 0544 993118"
+    },
+    {
+        "address": "XII traversa - arenile demaniale 307",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda gratuita docce aperte": 2,
+            "docce chiuse": 1,
+            "fronte mare": 30,
+            "lavapiedi wc": 5,
+            "superficie complesssiva spiaggia": 2000
+        },
+        "fax": "",
+        "name": "Bagno Katia",
+        "number": "307",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 991148"
+    },
+    {
+        "address": "XIII traversa - arenile demaniale 308",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Targhini",
+        "number": "308",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 994602"
+    },
+    {
+        "address": "XIII traversa - arenile demaniale 309",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda gratuita docce aperte": 2,
+            "docce chiuse": 3,
+            "fronte mare": 35,
+            "lavapiedi wc n": 7
+        },
+        "fax": "",
+        "name": "Bagno Deanna",
+        "number": "309",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo",
+            "animatore per bambini",
+            "ping pong",
+            "racchettoni a disposizione",
+            "pedal\u00f2",
+            "videogiochi",
+            "calcio balilla",
+            "feste a tema",
+            "animazione baby club - beach dance",
+            "sala tv"
+        ],
+        "tel": "0544 991267"
+    },
+    {
+        "address": "XV traversa - arenile demaniale 310",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno King's",
+        "number": "310",
+        "services": [
+            "cabine",
+            "ombrelloni",
+            "lettini",
+            "sedie sdraio servizio di salvataggio a cura della cooperativa bagnini"
+        ],
+        "tel": "0544 71125"
+    },
+    {
+        "address": "XV traversa - arenile demaniale 311",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua gratuita docce aperte": 2,
+            "docce chiuse": 2,
+            "fronte mare": 37,
+            "lavapiedi wc": 5,
+            "superficie complessiva spiaggia": 2072
+        },
+        "fax": "",
+        "name": "Bagno Gabbiano",
+        "number": "311",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 994329"
+    },
+    {
+        "address": "XV traversa - arenile demaniale 312",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda gratuita docce aperte": 6,
+            "docce chiuse": 2,
+            "lavapiedi wc": 3,
+            "superficie complessiva spiaggia": 2056
+        },
+        "fax": "",
+        "mail": "info@bagnodelpino.it",
+        "name": "Bagno Del Pino",
+        "number": "312",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione",
+            "giochi per bambini giostrina e scivolo",
+            "animazione per bambini",
+            "sala tv",
+            "ping pong",
+            "calcio balilla",
+            "feste a tema tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\"."
+        ],
+        "site": "http://www.bagnodelpino.it",
+        "tel": "0544 994372"
+    },
+    {
+        "address": "XVI traversa - arenile demaniale 313/316",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda a pagamento docce aperte": 16,
+            "docce chiuse": 13,
+            "fronte mare": 100,
+            "lavapiedi wc": 8,
+            "superficie complessiva spiaggia": 8000
+        },
+        "fax": "0544 994572",
+        "mail": "info@bagnidario.it",
+        "name": "Bagno Dario",
+        "number": "313/316",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione",
+            "25/07/2012"
+        ],
+        "site": "http://www.bagnidario.it",
+        "tel": "0544 994572 - 991273"
+    },
+    {
+        "address": "XVII traversa - arenile demaniale 318",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda docce aperte": 4,
+            "docce chiuse": 9,
+            "fronte mare": 34,
+            "superficie complessiva spiaggia": 1500,
+            "wc": 3
+        },
+        "fax": "0544 991187",
+        "mail": "info@bagnodelpino.it",
+        "name": "Bagno Del Pino",
+        "number": "317/318",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione",
+            "giochi per bambini altalena - giostrina - scivolo",
+            "campo bocce -",
+            "ping pong",
+            "beach basket",
+            "palestra",
+            "calcio balilla",
+            "feste a tema - aperitivi",
+            "animazione baby club - beach dance - fitness",
+            "sala tv"
+        ],
+        "site": "http://www.bagnodelpino.it",
+        "tel": "0544 991187"
+    },
+    {
+        "address": "XVIII traversa - arenile demaniale 320",
+        "city": "Milano Marittima",
+        "details": {
+            "cabi": 20,
+            "docce aperte con acqua calda": 2,
+            "fronte mare metri": 24,
+            "lavapiedi": 1,
+            "spazio giochi all'aperto": 70,
+            "superficie complessiva spiaggia": 980,
+            "wc": 5,
+            "wc accessibili ai disabili": 1,
+            "x": 40
+        },
+        "fax": "",
+        "name": "Bagno Colombina",
+        "number": "320",
+        "services": [
+            "servizio salvamento",
+            "ristorazionepiccola ristorazione",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportivecalcio balilla, tennis tavolo",
+            "animazionetutti i giorni",
+            "giochi per bambinialtalena, scivolo"
+        ],
+        "tel": "348 7759502"
+    },
+    {
+        "address": "XVIII traversa - arenile demaniale 321",
+        "city": "Milano Marittima",
+        "details": {
+            "con acqua calda a pagamneto docce aperte": 4,
+            "docce chiuse": 2,
+            "fronte mare": 23,
+            "superficie complessiva spiaggia": 1514,
+            "wc": 3
+        },
+        "fax": "0544 994336",
+        "mail": "info@beachotels.it;%20massimozoli@beachotels.it",
+        "name": "Bagno Beachotels",
+        "number": "321",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio lavapiedi",
+            "piccola ristorazione",
+            "area giochi bimbi",
+            "beach volley",
+            "ping pong",
+            "racchettoni a disposizione",
+            "calcio balilla",
+            "animazione baby club tariffe  \"le tariffe degli stabilimenti balneari del comune di cervia, cos\u00ec come quelle di tutti i comuni, non possono pi\u00f9 essere uguali fra loro in conseguenza delle disposizioni della legge conosciuta come \"antitrust\"."
+        ],
+        "site": "http://www.beachotels.it",
+        "tel": "0544 994233"
+    },
+    {
+        "address": "XIX traversa - arenile demaniale 323",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Patty",
+        "number": "323",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 994330"
+    },
+    {
+        "address": "XXIV traversa - arenile demaniale 332",
+        "city": "Milano Marittima",
+        "details": {
+            "docce aperte": 2,
+            "fronte mare": 82,
+            "lavapiedi wc": 3,
+            "superficie complesssiva spiaggia": 2500
+        },
+        "fax": "",
+        "name": "Bagno Biondi",
+        "number": "332",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "sdraio",
+            "piccola ristorazione",
+            "giochi per bambini altalena, giostrina, scivolo",
+            "campo volley",
+            "beach basket",
+            "videogiochi",
+            "animazione per bambini",
+            "sala tv",
+            "ping pong"
+        ],
+        "tel": "0544 949338"
+    },
+    {
+        "address": "XXV traversa - arenile demaniale 337",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Pineta Beach",
+        "number": "337",
+        "services": [],
+        "tel": "0544 949091"
+    },
+    {
+        "address": "XXVI traversa - arenile demaniale 339",
+        "city": "Milano Marittima",
+        "details": {
+            "doccia chiusa con acqua calda a pagamento docce aperte": 3,
+            "fronte mare": 50,
+            "superficie complessiva spiaggia": 1678,
+            "wc": 4
+        },
+        "fax": "",
+        "name": "Bagno Haiti",
+        "number": "339",
+        "services": [
+            "ombrelloni",
+            "lettini",
+            "sedie",
+            "lavapiedi",
+            "moto",
+            "auto servizio di salvataggio a cura della cooperativa bagnini",
+            "piccola ristorazione"
+        ],
+        "tel": "0544 949344"
+    },
+    {
+        "address": "XXVII traversa - arenile demaniale 340",
+        "city": "Milano Marittima",
+        "details": {},
+        "fax": "",
+        "mail": "bagno340@gmail.com",
+        "name": "Bagno 340",
+        "number": "340",
+        "services": [],
+        "site": "http://www.bagno340.it",
+        "tel": "345 0638088"
+    },
+    {
+        "address": "Arenile demaniale 59",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Cinquantanove mar y sol",
+        "number": "59",
+        "services": [
+            "25/07/2012"
+        ],
+        "tel": "0544 987428 - 348 2632368"
+    },
+    {
+        "address": "Arenile demaniale 60",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Vanilla",
+        "number": "60",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 987643"
+    },
+    {
+        "address": "Arenile demaniale 64",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Bruno",
+        "number": "64",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnobruno.it",
+        "tel": "0544 987916"
+    },
+    {
+        "address": "Arenile Demaniale 65",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Mediterraneo",
+        "number": "65",
+        "services": [],
+        "tel": "0544 987594 - 339 4595362"
+    },
+    {
+        "address": "Arenile demaniale 66",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "0544 987911",
+        "name": "Bagno Lux",
+        "number": "66",
+        "services": [
+            "piccola ristorazione",
+            "25/07/2012"
+        ],
+        "tel": "0544 987703 - 339 3680500 - 338 3350912"
+    },
+    {
+        "address": "Arenile demaniale 67",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "eneacom@tin.it",
+        "name": "Bagno Oasi",
+        "number": "67",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 987999"
+    },
+    {
+        "address": "Arenile demaniale 68",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "info@anteahotel.it",
+        "name": "Bagno Lido Le Vele",
+        "number": "68",
+        "services": [],
+        "tel": "347 3002005"
+    },
+    {
+        "address": "Arenile demaniale 69",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Alta Marea",
+        "number": "69",
+        "services": [],
+        "tel": "0544 987615 - 348 0675934"
+    },
+    {
+        "address": "Arenile demaniale 70/71",
+        "city": "Pinarella",
+        "details": {
+            "cabi": 40,
+            "docce chius": 2,
+            "docce chiuse con acqua calda": 2,
+            "docce chiuse con acqua calda a pagament": 2,
+            "fronte ma": 40,
+            "lavapiedi": 4,
+            "lettini": 500,
+            "ombrelloni": 180,
+            "sdrai": 30,
+            "sedi": 30,
+            "spazio giochi all'aperto": 200,
+            "superficie complessiva spiaggia": 3814,
+            "wc": 6,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "mail": "info@bagnofranco.it",
+        "name": "Bagno Franco",
+        "number": "70/71",
+        "services": [
+            "televisionetv sat",
+            "ristorazionepiccola ristorazione",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionemini club, junior club tutti i giorni e feste a tema",
+            "giochi per bambinialtalena, videogiochi, giostrina, scivolo",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.bagnofranco.it",
+        "tel": "0544 987558"
+    },
+    {
+        "address": "arenile demaniale 72/73",
+        "city": "Pinarella",
+        "details": {
+            "campi beach tennis": 4,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 4,
+            "docce aperte con acqua calda": 4,
+            "docce chius": 3,
+            "docce chiuse con acqua calda a pagament": 3,
+            "fronte mare metri": 40,
+            "superficie complessiva spiaggia": 4140,
+            "wc": 6,
+            "wc accessibili ai disabili": 2
+        },
+        "fax": "0544 988148",
+        "mail": "bagnogiardino@fastwebmail.it",
+        "name": "Bagno Giardino",
+        "number": "72/73",
+        "services": [
+            "televisionetv sat",
+            "ristorazionepiccola ristorazione (panini/piatti freddi e pronti)",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo",
+            "spazio giochi all'aperto"
+        ],
+        "tel": "0544 988148"
+    },
+    {
+        "address": "Arenile demaniale 74",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Endas Moorea",
+        "number": "74",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 988822 - 980075"
+    },
+    {
+        "address": "Arenile demaniale 76",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "bagno7bello@libero.it",
+        "name": "Bagno Settebello",
+        "number": "76",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 987935"
+    },
+    {
+        "address": "Arenile demaniale 77/78",
+        "city": "Pinarella",
+        "details": {
+            "campi basket": 1,
+            "campi beach tennis": 1,
+            "campi beach volley": 1,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce chius": 4,
+            "docce chiuse con acqua calda": 2,
+            "fronte ma": 34,
+            "lavapiedi": 3,
+            "spazio giochi all'apert": 250,
+            "superficie complessiva spiaggia": 3429,
+            "wc": 4,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 987451",
+        "mail": "b.stella77@libero.it",
+        "name": "Bagno Stella",
+        "number": "77/78",
+        "services": [
+            "televisionesky",
+            "ristorazionepiccola ristorazione",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionemini club e baby room tutti i giorni (tranne sabato e domenica), feste a tema con musica una volta al mese",
+            "giochi per bambinialtalena, videogiochi, giostrina, scivolo",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "tel": "0544 987451"
+    },
+    {
+        "address": "Arenile Demaniale 79",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "castroby@libero.it;%20info@bagnojolly.it",
+        "name": "Bagno Jolly",
+        "number": "79",
+        "services": [],
+        "site": "http://www.bagnojolly.it",
+        "tel": "0544 987840"
+    },
+    {
+        "address": "Arenile Demaniale 80",
+        "city": "Pinarella",
+        "details": {
+            "campi beach volley": 1,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 2,
+            "docce chius": 1,
+            "docce chiuse con acqua calda": 1,
+            "fronte mare metri": 20,
+            "lavapiedi": 1,
+            "lettini": 200,
+            "ombrelloni": 90,
+            "sedi": 8,
+            "superficie complessiva spiaggia": 2070,
+            "wc": 3,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "mail": "dellamorerenzo@libero.it",
+        "name": "Bagno Tre Stelle",
+        "number": "80",
+        "services": [
+            "sala tv",
+            "ristorazionepiccola ristorazione",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, giostrina, scivolo"
+        ],
+        "tel": "0544 987856"
+    },
+    {
+        "address": "Arenile Demaniale 81 - 82",
+        "city": "Pinarella",
+        "details": {
+            "cabi": 20,
+            "campi beach tennis": 1,
+            "campi beach volley": 1,
+            "docce chius": 3,
+            "docce chiuse con acqua calda": 3,
+            "fronte ma": 40,
+            "lavapiedi": 1,
+            "lettini": 400,
+            "ombrelloni": 150,
+            "sedi": 100,
+            "spazio giochi all'aperto": 300,
+            "wc": 5,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "name": "- 82 Bagno Solaris",
+        "number": "81",
+        "services": [
+            "televisionetv sat",
+            "ristorazione",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionefeste a tema, sala lettura, piccola biblioteca",
+            "giochi per bambiniscivolo"
+        ],
+        "site": "http://www.hotelthomas.com",
+        "tel": "0544 988061"
+    },
+    {
+        "address": "Arenile Demaniale 83",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Andrea",
+        "number": "83",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "339 3085097 - 334 1224270"
+    },
+    {
+        "address": "Arenile Demaniale 84",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "simonegriffi@hotmail.com",
+        "name": "Bagno Playa del Carmen",
+        "number": "84",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 987746 - 392 7928231"
+    },
+    {
+        "address": "Arenile Demaniale 85/86",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "partesotti@libero.it",
+        "name": "Bagno Margherita",
+        "number": "85/86",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 987548"
+    },
+    {
+        "address": "Arenile demaniale 87/88",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Palm Beach",
+        "number": "87/88",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "335 1415391 - 347 4624446"
+    },
+    {
+        "address": "Arenile demaniale 89/90",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "0544 987620",
+        "mail": "severihotels@cervia.com",
+        "name": "Bagno Garden - Le Lid\u00f2",
+        "number": "89/90",
+        "services": [
+            ": veloce",
+            "piccola ristorazione"
+        ],
+        "site": "http://www.severihotels.it/spiaggia.asp",
+        "tel": "0544 987996"
+    },
+    {
+        "address": "Arenile demaniale 93",
+        "city": "Pinarella",
+        "details": {
+            "cabi": 6,
+            "campi beach volley": 1,
+            "docce apert": 3,
+            "docce aperte con acqua calda": 3,
+            "docce chius": 6,
+            "docce chiuse con acqua calda": 6,
+            "lettini": 200,
+            "ombrelloni": 100,
+            "sdrai": 50,
+            "sedi": 50,
+            "wc": 10,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 987734",
+        "mail": "info@severihotels.com",
+        "name": "Bagno Green Beach Bamby",
+        "number": "93",
+        "services": [
+            "televisionetv sat",
+            "piccola ristorazione",
+            "parcheggio moto e bici riservato",
+            "palestra attrezzata",
+            "idromassaggio",
+            "animazioneminiclub tutti i giorni",
+            "spazio giochi all'aperto",
+            "giochi per bambinigiostrina, scivolo",
+            "servizio baby sitting a pagamento"
+        ],
+        "site": "http://www.severihotels.com/green_beach.php",
+        "tel": "0544 986180"
+    },
+    {
+        "address": "arenile demaniale 94/95/96",
+        "city": "Pinarella",
+        "details": {
+            "campi beach volley": 1,
+            "docce apert": 12,
+            "docce aperte con acqua calda": 6,
+            "docce chius": 2,
+            "docce chiuse con acqua calda": 2,
+            "fronte mare metri": 60,
+            "lavapiedi": 1,
+            "superficie complessiva spiaggia": 5400,
+            "wc": 9,
+            "wc accessibili ai disabili": 2
+        },
+        "fax": "0544 980110",
+        "mail": "info@agenziainternazionale.com",
+        "name": "Bagno Anna",
+        "number": "94/95/96",
+        "services": [
+            "sala tv",
+            "ristorazionepiccola ristorazione ( panini/insalate/piatti freddi e pronti )",
+            "palestra attrezzata",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce, noleggio pedal\u00f2, noleggio canoe, noleggio surf",
+            "animazionemini club e junior club tutti i giorni, feste a tema",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, gonfiabili, videogiochi, giostrina, scivolo",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.agenziainternazionale.com/bagnoanna.html",
+        "tel": "0544 987498"
+    },
+    {
+        "address": "Arenile demaniale 98",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "informazioni@bagnoeverest.it",
+        "name": "Bagno Everest",
+        "number": "98",
+        "services": [
+            "tariffe"
+        ],
+        "site": "http://www.bagnoeverest.it/",
+        "tel": "0544 988026"
+    },
+    {
+        "address": "Arenile demaniale 99",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Boca Chica",
+        "number": "99",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 988011"
+    },
+    {
+        "address": "Arenile Demaniale 100",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Renata",
+        "number": "100",
+        "services": [
+            ": s\u00ec",
+            "ristorazione"
+        ],
+        "tel": "0544 987925"
+    },
+    {
+        "address": "Arenile demaniale 101",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "0547 59454",
+        "mail": "artedecor@libero.it",
+        "name": "Bagno Kiwengwa",
+        "number": "101",
+        "services": [
+            ": s\u00ec",
+            "ristorazione"
+        ],
+        "tel": "0544 988249"
+    },
+    {
+        "address": "Arenile demaniale 103",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Dombachi",
+        "number": "103",
+        "services": [],
+        "tel": "0544 986299"
+    },
+    {
+        "address": "Arenile demaniale 104",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Safari",
+        "number": "104",
+        "services": [
+            "piccola ristorazione",
+            "25/07/2012"
+        ],
+        "tel": "0544 988348 - 0544 986299"
+    },
+    {
+        "address": "Arenile demaniale 105",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "0544 982070",
+        "mail": "bagnostefano@libero.it",
+        "name": "Bagno Stefano",
+        "number": "105",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnostefano.com/",
+        "tel": "0544 980707"
+    },
+    {
+        "address": "Arenile Demaniale 106",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Admiral",
+        "number": "106",
+        "services": [
+            ": s\u00ec",
+            "ristorazione"
+        ],
+        "tel": "0544 980707"
+    },
+    {
+        "address": "Arenile demaniale 107",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "b.andreucci@libero.it",
+        "name": "Bagno Andreucci",
+        "number": "107",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.andreuccibeach.it",
+        "tel": "0544 987194"
+    },
+    {
+        "address": "Arenile demaniale 111",
+        "city": "Pinarella",
+        "details": {
+            "campi basket": 1,
+            "campi beach socc": 2,
+            "campi beach tennis": 1,
+            "campi beach volley": 1,
+            "docce apert": 6,
+            "docce chius": 4,
+            "docce chiuse con acqua calda": 4,
+            "docce chiuse con acqua calda a pagament": 4,
+            "fronte ma": 80,
+            "lavapiedi": 4,
+            "lettini": 800,
+            "ombrelloni": 300,
+            "sdrai": 50,
+            "sedi": 50,
+            "spazio giochi all'aperto": 200,
+            "superficie complessiva spiaggia": 7813,
+            "wc": 6,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "mail": "info@bagnoadriasol.it",
+        "name": "Bagno Adriasol",
+        "number": "111",
+        "services": [
+            "televisionetv sat",
+            "connessione internet wi-fi",
+            "ristorazionepiccola ristorazione",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, noleggio canoe, noleggio surf",
+            "animazionemini club tutti i giorni, feste a tema",
+            "giochi per bambinigonfiabili, videogiochi, giostrina",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.bagnoadriasol.it",
+        "tel": "0544 988587"
+    },
+    {
+        "address": "Arenile demaniale 114",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "guido.bonetti@gmail.com",
+        "name": "Bagno Sara Beach",
+        "number": "114",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.sarabeach.it",
+        "tel": "0544 987323"
+    },
+    {
+        "address": "Arenile demaniale 115/116/117",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Sole",
+        "number": "115/116/117",
+        "services": [
+            ": s\u00ec",
+            "ristorazione"
+        ],
+        "tel": "0544 988013"
+    },
+    {
+        "address": "Arenile Demaniale 118",
+        "city": "Pinarella",
+        "details": {
+            "cabi": 40,
+            "campi basket": 1,
+            "campi beach volley": 2,
+            "docce apert": 2,
+            "docce chius": 2,
+            "docce chiuse con acqua calda a pagament": 2,
+            "fronte mare metri": 35,
+            "lavapiedi": 1,
+            "lettini": 350,
+            "ombrelloni": 128,
+            "sdrai": 40,
+            "sedi": 40,
+            "superficie complessiva spiaggia": 3650,
+            "wc": 4,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 987496",
+        "mail": "info@villabeach.it",
+        "name": "Bagno La Villa Beach",
+        "number": "118",
+        "services": [
+            "televisionetv sat",
+            "connessione internet wi-fi",
+            "ristorazionepiccola ristorazione (panini/insalate/piatti freddi e pronti)",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionetutti i giorni",
+            "spazio giochi all'aperto",
+            "giochi per bambinireti elastiche, altalena, giostrina, scivolo",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.villabeach.it",
+        "tel": "0544 987496"
+    },
+    {
+        "address": "Arenile demaniale 119",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "bagnoangela119@libero.it",
+        "name": "Bagno Angela",
+        "number": "119",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnoangela119.it",
+        "tel": "0544 987365"
+    },
+    {
+        "address": "Arenile demaniale 120",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "pinetabeach@libero.it%20",
+        "name": "Bagno Franco",
+        "number": "120",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnopineta.com",
+        "tel": "0544 987150"
+    },
+    {
+        "address": "Arenile demaniale 120",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "pinetabeach@libero.it%20",
+        "name": "bis Bagno Pineta",
+        "number": "120",
+        "services": [
+            ": s\u00ec",
+            "ristorazione"
+        ],
+        "site": "http://www.bagnopineta.com",
+        "tel": "0544 987150"
+    },
+    {
+        "address": "Arenile demaniale 121",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "info@Bagnoitaliagiuliana.it",
+        "name": "Bagno Giuliana",
+        "number": "121",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnoitaliagiuliana.it",
+        "tel": "0544 980081"
+    },
+    {
+        "address": "Arenile demaniale 122",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "0544 987204",
+        "mail": "info@Bagnoitaliagiuliana.it",
+        "name": "Bagno Italia",
+        "number": "122",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnoitaliagiuliana.it",
+        "tel": "0544 980081"
+    },
+    {
+        "address": "Arenile demaniale 124",
+        "city": "Pinarella",
+        "details": {
+            "docce apert": 3,
+            "docce chiuse con acqua calda": 8,
+            "fronte ma": 40,
+            "wc": 5,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 987171",
+        "mail": "bvittorio@cervia.com",
+        "name": "Bagno Vittorio",
+        "number": "124",
+        "services": [
+            "sala tv",
+            "ristorazionepiccola ristorazione (panini/insalate/piatti freddi e pronti)",
+            "dotazioni sportiveracchettoni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "giochi per bambinialtalena, videogiochi, giostrina, scivolo",
+            "tariffe  come arrivare"
+        ],
+        "site": "http://www.cervia.com/Turismo/Strutture/16",
+        "tel": "0544 987171"
+    },
+    {
+        "address": "Arenile demaniale 125",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "",
+        "mail": "info@hotelamarcord.com",
+        "name": "Bagno Centrale",
+        "number": "125",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "tel": "0544 987120"
+    },
+    {
+        "address": "Arenile demaniale 125",
+        "city": "Pinarella",
+        "details": {
+            "cabi": 40,
+            "campi basket": 1,
+            "campi beach socc": 1,
+            "campi beach tennis": 1,
+            "campi beach volley": 1,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 3,
+            "docce aperte con acqua calda": 2,
+            "docce chius": 2,
+            "docce chiuse con acqua calda": 2,
+            "docce chiuse con acqua calda a pagament": 1,
+            "fronte ma": 28,
+            "lavapiedi": 1,
+            "lettini": 360,
+            "ombrelloni": 150,
+            "sdrai": 10,
+            "sedi": 20,
+            "wc": 4,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "0544 1848125",
+        "mail": "lerri23@libero.it",
+        "name": "bis Bagno Bianchi",
+        "number": "125",
+        "services": [
+            "adesione al progetto passpartout",
+            "televisionetv sat",
+            "internet",
+            "connessione internet wi-fi",
+            "ristorazionepiccola ristorazione (panini/insalate/piatti freddi e pronti)",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionemini club, junior club, tutti i giorni, feste a tema con zucchero filato",
+            "spazio giochi all'aperto",
+            "giochi per bambinialtalena, gonfiabili, giostrina, scivolo",
+            "tariffe  come arrivare",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.bagnobianchi.it",
+        "tel": "0544 1848125"
+    },
+    {
+        "address": "Arenile demaniale 126",
+        "city": "Pinarella",
+        "details": {
+            "cabi": 43,
+            "campi basket": 1,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 4,
+            "docce aperte con acqua calda": 3,
+            "docce chius": 1,
+            "docce chiuse con acqua calda a pagament": 1,
+            "fronte ma": 30,
+            "lavapiedi": 1,
+            "lettini": 340,
+            "ombrelloni": 160,
+            "sdrai": 20,
+            "sedi": 20,
+            "spazio giochi all'aperto": 200,
+            "superficie complessiva spiaggia": 3010,
+            "wc": 5,
+            "wc accessibili ai disabili": 1
+        },
+        "fax": "",
+        "name": "Bagno Paola",
+        "number": "126",
+        "services": [
+            "adesione al progetto passpartout",
+            "televisionetv sat",
+            "connessione internet wi-fi",
+            "ristorazioneristorazione (panini/insalate/piatti freddi e pronti)",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionemini club, junior club tutti i giorni, feste a tema",
+            "giochi per bambinireti elastiche, altalena, gonfiabili, giostrina, scivolo",
+            "25/07/2012",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "tel": "0544 987409 - 0544 1848128"
+    },
+    {
+        "address": "Arenile demaniale 131",
+        "city": "Pinarella",
+        "details": {},
+        "fax": "0544 916721",
+        "mail": "info@bagnodelfino.com",
+        "name": "Bagno Delfino",
+        "number": "131",
+        "services": [
+            "piccola ristorazione",
+            "08/10/2012"
+        ],
+        "site": "http://www.bagnodelfino.com",
+        "tel": "0544 970975 - 0544 972855 - 0544 987104"
+    },
+    {
+        "address": "Arenile demaniale 3",
+        "city": "Tagliata",
+        "details": {
+            "cabi": 20,
+            "campi basket": 1,
+            "campi beach socc": 1,
+            "campi beach tennis": 1,
+            "campi beach volley": 1,
+            "docce apert": 6,
+            "docce chius": 4,
+            "docce chiuse con acqua calda": 4,
+            "docce chiuse con acqua calda a pagament": 4,
+            "fronte ma": 59,
+            "lavapiedi": 2,
+            "lettini": 400,
+            "ombrelloni": 200,
+            "sdrai": 100,
+            "sedi": 100,
+            "superficie complessiva spiaggia": 1260,
+            "wc": 6,
+            "wc accessibili ai disabili": 2
+        },
+        "fax": "0544 988529",
+        "mail": "info@fuorionda.eu",
+        "name": "Bagno Sabrina - Fuorionda",
+        "number": "3",
+        "services": [
+            "adesione al progetto passpartout",
+            "sala tv",
+            "connessione internet wi-fi",
+            "ristorazionepiccola ristorazione ( panini/ insalate/ piatti freddi e pronti )",
+            "parcheggio riservato",
+            "parcheggio moto e bici riservato",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce",
+            "animazionemini club, junior club tutti i giorni, feste a tema.",
+            "spazio giochi all'aperto",
+            "giochi per bambinireti elastiche, castello, altalena, gonfiabili, videogiochi, giostrina, scivolo"
+        ],
+        "site": "http://www.fuorionda.eu",
+        "tel": "0544 988060"
+    },
+    {
+        "address": "Arenile demaniale 4",
+        "city": "Tagliata",
+        "details": {},
+        "fax": "",
+        "mail": "nadir.cesaretti@libero.it",
+        "name": "Bagno Picnic - Fuorionda",
+        "number": "4",
+        "services": [
+            "servizio salvamento"
+        ],
+        "site": "http://www.fuorionda.eu",
+        "tel": "0544 987982"
+    },
+    {
+        "address": "Arenile demaniale 7/8/9",
+        "city": "Tagliata",
+        "details": {
+            "campi basket": 1,
+            "campi beach tennis": 2,
+            "campi beach volley": 2,
+            "certificazione di qualit\u00e0 uni is": 9001,
+            "docce apert": 5,
+            "docce chius": 2,
+            "docce chiuse con acqua calda a pagament": 2,
+            "fronte ma": 86,
+            "lavapiedi": 4,
+            "ombrelloni": 275,
+            "superficie complessiva spiaggia": 5000,
+            "wc": 6,
+            "wc accessibili ai disabili": 2
+        },
+        "fax": "",
+        "mail": "bianconero@fuorionda.eu",
+        "name": "Bagno Bianconero - Fuorionda",
+        "number": "7/8/9",
+        "services": [
+            "adesione al progetto passpartout",
+            "televisionetv sat",
+            "connessione internet wi-fi",
+            "ristorazionepiccola ristorazione ( panini/ insalate/ piatti freddi e pronti )",
+            "dotazioni sportiveracchettoni a disposizione, palloni a disposizione, calcio balilla, tennis tavolo, campo da bocce, noleggio canoe",
+            "trattamenti estetici",
+            "animazionemini club, junior club dal lunedi al venerdi, feste a tema",
+            "spazio giochi all'aperto",
+            "accessibilit\u00e0 ai disabili"
+        ],
+        "site": "http://www.fuorionda.eu",
+        "tel": "0544 987752"
+    },
+    {
+        "address": "Arenile demaniale 10",
+        "city": "Tagliata",
+        "details": {},
+        "fax": "",
+        "mail": "info@lepalmebeach.com",
+        "name": "Bagno Le Palme",
+        "number": "10",
+        "services": [],
+        "site": "http://www.lepalmebeach.com",
+        "tel": "0544 988101"
+    },
+    {
+        "address": "Arenile dmaniale 12",
+        "city": "Tagliata",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Focaccia",
+        "number": "12",
+        "services": [
+            "servizio salvamento"
+        ],
+        "tel": "0544 987749"
+    },
+    {
+        "address": "Arenile demaniale 16",
+        "city": "Tagliata",
+        "details": {},
+        "fax": "",
+        "name": "Bagno Jolly",
+        "number": "16",
+        "services": [
+            ": s\u00ec",
+            "ristorazione"
+        ],
+        "site": "http://www.bagnojolly16tagliata.it",
+        "tel": "347 5435887"
+    },
+    {
+        "address": "Arenile demaniale 18",
+        "city": "Tagliata",
+        "details": {},
+        "fax": "",
+        "mail": "info@bagnorocchi.it",
+        "name": "Bagno Rocchi",
+        "number": "18",
+        "services": [],
+        "site": "http://www.bagnorocchi.it",
+        "tel": "0544 987831"
+    },
+    {
+        "address": "Arenile demaniale 20",
+        "city": "Tagliata",
+        "details": {},
+        "fax": "0544 987517",
+        "mail": "bbenvxx@tin.it",
+        "name": "Bagno Benvenuti",
+        "number": "20",
+        "services": [
+            "piccola ristorazione"
+        ],
+        "site": "http://www.bagnobenvenuti.com",
+        "tel": "0544 987517"
+    }
+]
