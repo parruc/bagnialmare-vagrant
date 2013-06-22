@@ -1,5 +1,6 @@
 BeautifulSoup==3.2.1
 Django==1.5.1
+django-autoslug==1.6.1
 ipdb==0.7
 ipython==0.13.2
 lxml==3.2.1
