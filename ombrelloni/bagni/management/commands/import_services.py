@@ -13,10 +13,10 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         services = []
         try:
-            with open('../../../scripts/scraping/services.json', 'r') as services_file:
-                services = simplejson.load(services_file)
+            with open('scripts/scraping/services.json', 'r') as services_file:
+                services += simplejson.load(services_file)
         except IOError:
-            raise CommandError("cannot open '../../../scripts/scraping/services.json' Have you generated it?")
+            raise CommandError("cannot open 'scripts/scraping/services.json' Have you generated it?")
 
         if options['limit'] and options['limit'] > len(services):
             services = services[:options['limit']]

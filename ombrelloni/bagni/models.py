@@ -13,15 +13,15 @@ class Bagno(models.Model):
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"))
-    number = models.CharField(max_length=10, blank=True)
+    number = models.CharField(max_length=20, blank=True)
     services = models.ManyToManyField("Service", blank=True)
     address = models.CharField(max_length=100, blank=True)
     city = models.CharField(max_length=50, blank=True)
-    mail = models.CharField(max_length=50, blank=True)
-    tel = models.CharField(max_length=50, blank=True)
-    fax = models.CharField(max_length=50, blank=True)
-    site = models.URLField(max_length=50, blank=True)
-    point = models.PointField()
+    mail = models.CharField(max_length=100, blank=True)
+    tel = models.CharField(max_length=100, blank=True)
+    fax = models.CharField(max_length=100, blank=True)
+    site = models.URLField(max_length=100, blank=True)
+    point = models.PointField(blank=True)
 
     objects = models.GeoManager()
 
