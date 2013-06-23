@@ -3,10 +3,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.18069592634166",
-                "12.426996231079101"
-            ]
+            "44.18069592634166",
+            "12.426996231079101"
         ],
         "details": {
             "cabine": 16,
@@ -41,10 +39,8 @@
         "address": "Viale Lungomare Ponente, 89",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20949573407621",
-                "12.395968437194824"
-            ]
+            "44.20949573407621",
+            "12.395968437194824"
         ],
         "details": {
             "cabine": 33,
@@ -58,7 +54,7 @@
             "superficie complessiva spiaggia": 1900,
             "wc": 3
         },
-        "mail": "info@bagnoadria.comhttp",
+        "mail": "info@bagnoadria.com",
         "name": "Bagno adria",
         "services": [
             "animazione",
@@ -83,10 +79,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17820297356707",
-                "12.430171966552734"
-            ]
+            "44.17820297356707",
+            "12.430171966552734"
         ],
         "details": {
             "cabine": 9,
@@ -100,7 +94,7 @@
             "wc": 5
         },
         "fax": "0547 86690",
-        "mail": "info@birimbaobeach.itwww.birimbaobeach.it",
+        "mail": "info@birimbaobeach.it",
         "name": "Bagno adriana birimbao beach",
         "services": [
             "animazione",
@@ -122,10 +116,8 @@
         "address": "Via Pasubio",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.203989167019344",
-                "12.404723167419433"
-            ]
+            "44.203989167019344",
+            "12.404723167419433"
         ],
         "details": {
             "cabine": 23,
@@ -160,10 +152,8 @@
         "address": "Viale Bologna",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.199712762668085",
-                "12.408413887023925"
-            ]
+            "44.199712762668085",
+            "12.408413887023925"
         ],
         "details": {
             "cabine": 17,
@@ -203,10 +193,8 @@
         "address": "Viale Lungomare Ponente",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20894202435563",
-                "12.396140098571777"
-            ]
+            "44.20894202435563",
+            "12.396140098571777"
         ],
         "details": {
             "cabine": 19,
@@ -241,10 +229,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17912630169963",
-                "12.423219680786132"
-            ]
+            "44.17912630169963",
+            "12.423219680786132"
         ],
         "details": {
             "cabine": 10,
@@ -275,10 +261,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17629471627438",
-                "12.432961463928222"
-            ]
+            "44.17629471627438",
+            "12.432961463928222"
         ],
         "details": {
             "cabine": 8,
@@ -303,10 +287,8 @@
         "address": "Via Podgora, 35",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.18869728479014",
-                "12.4180269241333"
-            ]
+            "44.18869728479014",
+            "12.4180269241333"
         ],
         "details": {
             "cabine": 28,
@@ -320,7 +302,7 @@
             "superficie complessiva spiaggia": 2850,
             "wc": 2
         },
-        "mail": "posta@bagnoambasciata.ithttp",
+        "mail": "posta@bagnoambasciata.it",
         "name": "Bagno ambasciata",
         "services": [
             "animazione",
@@ -346,10 +328,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.18140378260652",
-                "12.426352500915527"
-            ]
+            "44.18140378260652",
+            "12.426352500915527"
         ],
         "details": {
             "cabine": 30,
@@ -388,10 +368,8 @@
         "address": "Viale Lungomare Ponente",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20761925228597",
-                "12.3980712890625"
-            ]
+            "44.20761925228597",
+            "12.3980712890625"
         ],
         "details": {
             "cabine": 9,
@@ -421,10 +399,8 @@
         "address": "Viale Giosu\u00e8 Carducci, 10",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.18060359663709",
-                "12.42729663848877"
-            ]
+            "44.18060359663709",
+            "12.42729663848877"
         ],
         "details": {
             "cabine": 12,
@@ -438,7 +414,7 @@
             "superficie complessiva spiaggia": 1560,
             "wc": 5
         },
-        "mail": "info@bagnoangelineri.itwww.bagnoangelineri.it",
+        "mail": "info@bagnoangelineri.it",
         "name": "Bagno angeli neri",
         "services": [
             "animazione",
@@ -462,10 +438,8 @@
         "address": "Viale Lungomare Ponente",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20777306451801",
-                "12.397599220275879"
-            ]
+            "44.20777306451801",
+            "12.397599220275879"
         ],
         "details": {
             "cabine": 20,
@@ -500,10 +474,8 @@
         "address": "Via Isonzo",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20038962432129",
-                "12.407727241516113"
-            ]
+            "44.20038962432129",
+            "12.407727241516113"
         ],
         "details": {
             "cabine": 14,
@@ -541,10 +513,8 @@
         "address": "Viale Venezia",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19515912762046",
-                "12.41231918334961"
-            ]
+            "44.19515912762046",
+            "12.41231918334961"
         ],
         "details": {
             "cabine": 14,
@@ -558,7 +528,7 @@
             "wc": 3
         },
         "fax": "0547 82468",
-        "mail": "bagnoarlecchino@libero.ithttp",
+        "mail": "bagnoarlecchino@libero.it",
         "name": "Bagno arlecchino",
         "services": [
             "animazione",
@@ -579,13 +549,11 @@
         "address": "Via Montello, 24",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19442066715566",
-                "12.413091659545898"
-            ]
+            "44.19442066715566",
+            "12.413091659545898"
         ],
         "details": {},
-        "mail": "bagnoaurora@tiscalinet.ithttp",
+        "mail": "bagnoaurora@tiscalinet.it",
         "name": "Bagno aurora",
         "services": [],
         "site": "http://www.bagnoaurora-arlecchino.com",
@@ -595,14 +563,12 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17620237967769",
-                "12.432875633239746"
-            ]
+            "44.17620237967769",
+            "12.432875633239746"
         ],
         "details": {},
         "fax": "0547 85784",
-        "mail": "costaverdehotel@costaverdehotel.ithttp",
+        "mail": "costaverdehotel@costaverdehotel.it",
         "name": "Bagno bahama",
         "services": [],
         "site": "http://costaverdehotel.it",
@@ -612,13 +578,11 @@
         "address": "Viale Lungomare Ponente, 78",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20754876205421",
-                "12.39586245876842"
-            ]
+            "44.20754876205421",
+            "12.39586245876842"
         ],
         "details": {},
-        "mail": "bagnobelvedere@gmail.comhttp",
+        "mail": "bagnobelvedere@gmail.com",
         "name": "Bagno belvedere",
         "services": [],
         "site": "http://bagnobelvedere.com",
@@ -628,10 +592,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17521744698319",
-                "12.434978485107421"
-            ]
+            "44.17521744698319",
+            "12.434978485107421"
         ],
         "details": {},
         "name": "Bagno bertino",
@@ -642,13 +604,11 @@
         "address": "Viale Venezia, 29",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19952816268587",
-                "12.408585548400879"
-            ]
+            "44.19952816268587",
+            "12.408585548400879"
         ],
         "details": {},
-        "mail": "info@bagnobianconero.comhttp",
+        "mail": "info@bagnobianconero.com",
         "name": "Bagno bianconero",
         "services": [],
         "site": "http://bagnobianconero.com",
@@ -658,10 +618,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.18666627357442",
-                "12.420172691345214"
-            ]
+            "44.18666627357442",
+            "12.420172691345214"
         ],
         "details": {
             "cabine": 10,
@@ -692,10 +650,8 @@
         "address": "Viale Carso",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.1991589609863",
-                "12.409014701843261"
-            ]
+            "44.1991589609863",
+            "12.409014701843261"
         ],
         "details": {},
         "fax": "0547 82710",
@@ -708,10 +664,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.1754636816991",
-                "12.434206008911132"
-            ]
+            "44.1754636816991",
+            "12.434206008911132"
         ],
         "details": {
             "cabine": 20,
@@ -738,10 +692,8 @@
         "address": "Viale Milano, 33",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.196605252558264",
-                "12.411460876464843"
-            ]
+            "44.196605252558264",
+            "12.411460876464843"
         ],
         "details": {
             "cabine": 20,
@@ -756,7 +708,7 @@
             "wc": 4
         },
         "fax": "0547 83263",
-        "mail": "praiabrasil@libero.ithttp",
+        "mail": "praiabrasil@libero.it",
         "name": "Bagno brasil",
         "services": [
             "animazione",
@@ -783,10 +735,8 @@
         "address": "Viale Giosu\u00e8 Carducci, 129",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19869745560854",
-                "12.409272193908691"
-            ]
+            "44.19869745560854",
+            "12.409272193908691"
         ],
         "details": {
             "cabine": 54,
@@ -800,7 +750,7 @@
             "wc": 4
         },
         "fax": "0547 81799",
-        "mail": "info@hbritannia.ithttp",
+        "mail": "info@hbritannia.it",
         "name": "Bagno britannia",
         "services": [
             "animazione",
@@ -822,10 +772,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17638705272646",
-                "12.432961463928222"
-            ]
+            "44.17638705272646",
+            "12.432961463928222"
         ],
         "details": {
             "cabine": 15,
@@ -854,10 +802,8 @@
         "address": "Viale Cristoforo Colombo",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.21564771406581",
-                "12.390217781066894"
-            ]
+            "44.21564771406581",
+            "12.390217781066894"
         ],
         "details": {
             "cabine": 12,
@@ -872,7 +818,7 @@
             "wc": 7
         },
         "fax": "0547 672452",
-        "mail": "info@cesenaticocampingvillage.comhttp",
+        "mail": "info@cesenaticocampingvillage.com",
         "name": "Bagno camping cesenatico",
         "services": [
             "animazione",
@@ -892,10 +838,8 @@
         "address": "Viale Cristoforo Colombo",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.22093790287114",
-                "12.38609790802002"
-            ]
+            "44.22093790287114",
+            "12.38609790802002"
         ],
         "details": {
             "cabine": 10,
@@ -927,10 +871,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.181342230225226",
-                "12.426223754882812"
-            ]
+            "44.181342230225226",
+            "12.426223754882812"
         ],
         "details": {
             "cabine": 22,
@@ -966,10 +908,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.18725096579468",
-                "12.419657707214355"
-            ]
+            "44.18725096579468",
+            "12.419657707214355"
         ],
         "details": {
             "cabine": 6,
@@ -1000,10 +940,8 @@
         "address": "Via Montenero, 53",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20223557112626",
-                "12.406010627746582"
-            ]
+            "44.20223557112626",
+            "12.406010627746582"
         ],
         "details": {
             "cabine": 35,
@@ -1039,10 +977,8 @@
         "address": "Viale Bologna",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.199589696077545",
-                "12.40832805633545"
-            ]
+            "44.199589696077545",
+            "12.40832805633545"
         ],
         "details": {
             "cabine": 25,
@@ -1081,10 +1017,8 @@
         "address": "Viale dei Pini, 103",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.22047656811414",
-                "12.386612892150879"
-            ]
+            "44.22047656811414",
+            "12.386612892150879"
         ],
         "details": {},
         "mail": "bagno.chery@libero.it",
@@ -1096,14 +1030,12 @@
         "address": "Via Isonzo",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20051268924102",
-                "12.40781307220459"
-            ]
+            "44.20051268924102",
+            "12.40781307220459"
         ],
         "details": {},
         "fax": "0547 80337",
-        "mail": "info@bagnoclaudia49.ithttp",
+        "mail": "info@bagnoclaudia49.it",
         "name": "Bagno claudia",
         "services": [],
         "site": "http://www.bagnoclaudia49.it",
@@ -1113,10 +1045,8 @@
         "address": "Viale Giosu\u00e8 Carducci, 4/B",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17774130407869",
-                "12.430987358093261"
-            ]
+            "44.17774130407869",
+            "12.430987358093261"
         ],
         "details": {
             "cabine": 9,
@@ -1129,7 +1059,7 @@
             "superficie complessiva spiaggia": 2188,
             "wc": 3
         },
-        "mail": "info.bagnoclaudio@virgilio.ithttp",
+        "mail": "info.bagnoclaudio@virgilio.it",
         "name": "Bagno claudio",
         "services": [
             "animazione",
@@ -1149,10 +1079,8 @@
         "address": "Viale dei Pini, 100",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.21875421974842",
-                "12.387771606445312"
-            ]
+            "44.21875421974842",
+            "12.387771606445312"
         ],
         "details": {
             "cabine": 29,
@@ -1166,7 +1094,7 @@
             "superficie complessiva spiaggia": 1736,
             "wc": 4
         },
-        "mail": "cristian.giovini@alice.ithttp",
+        "mail": "cristian.giovini@alice.it",
         "name": "Bagno clipper n. 100",
         "services": [
             "animazione",
@@ -1195,10 +1123,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17580225275465",
-                "12.433347702026367"
-            ]
+            "44.17580225275465",
+            "12.433347702026367"
         ],
         "details": {
             "cabine": 10,
@@ -1212,7 +1138,7 @@
             "superficie complessiva spiaggia": 0,
             "wc": 3
         },
-        "mail": "info@bagnocorallo.ithttp",
+        "mail": "info@bagnocorallo.it",
         "name": "Bagno corallo",
         "services": [
             "basket",
@@ -1228,10 +1154,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17561757787442",
-                "12.433691024780273"
-            ]
+            "44.17561757787442",
+            "12.433691024780273"
         ],
         "details": {
             "cabine": 24,
@@ -1253,10 +1177,8 @@
         "address": "Spiaggia Zadina",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.222106601410296",
-                "12.385153770446777"
-            ]
+            "44.222106601410296",
+            "12.385153770446777"
         ],
         "details": {
             "cabine": 17,
@@ -1289,10 +1211,8 @@
         "address": "Viale Giosu\u00e8 Carducci, 4/C",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17567913623208",
-                "12.433605194091796"
-            ]
+            "44.17567913623208",
+            "12.433605194091796"
         ],
         "details": {
             "cabine": 9,
@@ -1328,10 +1248,8 @@
         "address": "Spiaggia Zadina",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.21869270637495",
-                "12.387256622314453"
-            ]
+            "44.21869270637495",
+            "12.387256622314453"
         ],
         "details": {
             "cabine": 10,
@@ -1357,10 +1275,8 @@
         "address": "Viale Giosu\u00e8 Carducci, 5",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.175494460966306",
-                "12.433476448059082"
-            ]
+            "44.175494460966306",
+            "12.433476448059082"
         ],
         "details": {
             "docce aperte": 3,
@@ -1390,10 +1306,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17832608482015",
-                "12.429828643798828"
-            ]
+            "44.17832608482015",
+            "12.429828643798828"
         ],
         "details": {
             "cabine": 8,
@@ -1434,10 +1348,8 @@
         "address": "Viale Piave, 71",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.206234924123436",
-                "12.40382194519043"
-            ]
+            "44.206234924123436",
+            "12.40382194519043"
         ],
         "details": {
             "cabine": 25,
@@ -1474,14 +1386,12 @@
         "address": "Viale Bologna, 26",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.199489704283444",
-                "12.402395009994506"
-            ]
+            "44.199489704283444",
+            "12.402395009994506"
         ],
         "details": {},
         "fax": "0547 81772",
-        "mail": "info@fafin.ithttp",
+        "mail": "info@fafin.it",
         "name": "Bagno fafin",
         "services": [
             "animazione"
@@ -1493,10 +1403,8 @@
         "address": "Viale Carso, 42",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19900512626202",
-                "12.409014701843261"
-            ]
+            "44.19900512626202",
+            "12.409014701843261"
         ],
         "details": {
             "cabine": 15,
@@ -1510,7 +1418,7 @@
             "wc": 4
         },
         "fax": "0547 85053",
-        "mail": "info@bagnofaustina.ithttp",
+        "mail": "info@bagnofaustina.it",
         "name": "Bagno faustina",
         "services": [
             "animazione",
@@ -1539,10 +1447,8 @@
         "address": "Viale Trento",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19811287694077",
-                "12.410173416137695"
-            ]
+            "44.19811287694077",
+            "12.410173416137695"
         ],
         "details": {
             "cabine": 24,
@@ -1576,10 +1482,8 @@
         "address": "Viale Carso, 43",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.1991589609863",
-                "12.4090576171875"
-            ]
+            "44.1991589609863",
+            "12.4090576171875"
         ],
         "details": {
             "cabine": 15,
@@ -1616,10 +1520,8 @@
         "address": "Via Montegrappa, 66",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.204235281564046",
-                "12.40429401397705"
-            ]
+            "44.204235281564046",
+            "12.40429401397705"
         ],
         "details": {
             "cabine": 38,
@@ -1655,14 +1557,12 @@
         "address": "Viale Trento",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19823594661596",
-                "12.40978717803955"
-            ]
+            "44.19823594661596",
+            "12.40978717803955"
         ],
         "details": {},
         "fax": "0547 80449",
-        "mail": "info@bagnoconti.ithttp",
+        "mail": "info@bagnoconti.it",
         "name": "Bagno gabbiano-conti",
         "services": [
             "animazione",
@@ -1685,10 +1585,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17601001130356",
-                "12.432714700698852"
-            ]
+            "44.17601001130356",
+            "12.432714700698852"
         ],
         "details": {
             "cabine": 16,
@@ -1719,10 +1617,8 @@
         "address": "Spiaggia Zadina",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.21727788104822",
-                "12.388629913330078"
-            ]
+            "44.21727788104822",
+            "12.388629913330078"
         ],
         "details": {
             "cabine": 15,
@@ -1755,10 +1651,8 @@
         "address": "Viale Milano, 31",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19657448431208",
-                "12.41128921508789"
-            ]
+            "44.19657448431208",
+            "12.41128921508789"
         ],
         "details": {
             "cabine": 14,
@@ -1797,10 +1691,8 @@
         "address": "Via Podgora, 36",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19657448431208",
-                "12.41128921508789"
-            ]
+            "44.19657448431208",
+            "12.41128921508789"
         ],
         "details": {
             "cabine": 20,
@@ -1835,10 +1727,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.181649991489124",
-                "12.425837516784668"
-            ]
+            "44.181649991489124",
+            "12.425837516784668"
         ],
         "details": {
             "cabine": 15,
@@ -1874,10 +1764,8 @@
         "address": "Via Montenero, 55",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20223557112626",
-                "12.405753135681152"
-            ]
+            "44.20223557112626",
+            "12.405753135681152"
         ],
         "details": {
             "cabine": 12,
@@ -1919,10 +1807,8 @@
         "address": "Piazza Andrea Costa, 1",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20226633641635",
-                "12.405881881713867"
-            ]
+            "44.20226633641635",
+            "12.405881881713867"
         ],
         "details": {
             "docce chiuse": 2,
@@ -1934,7 +1820,7 @@
             "wc": 2
         },
         "fax": "0547 80270",
-        "mail": "info@grandhotel.cesenatico.fo.ithttp",
+        "mail": "info@grandhotel.cesenatico.fo.it",
         "name": "Bagno grand hotel",
         "services": [
             "animazione",
@@ -1954,10 +1840,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.18232706061467",
-                "12.424871921539306"
-            ]
+            "44.18232706061467",
+            "12.424871921539306"
         ],
         "details": {
             "docce aperte": 9,
@@ -1991,10 +1875,8 @@
         "address": "Viale Ferrara, 7",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20315852283985",
-                "12.40506649017334"
-            ]
+            "44.20315852283985",
+            "12.40506649017334"
         ],
         "details": {
             "cabine": 71,
@@ -2033,10 +1915,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17590997950103",
-                "12.43278980255127"
-            ]
+            "44.17590997950103",
+            "12.43278980255127"
         ],
         "details": {
             "cabine": 6,
@@ -2067,10 +1947,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17590997950103",
-                "12.43278980255127"
-            ]
+            "44.17590997950103",
+            "12.43278980255127"
         ],
         "details": {
             "cabine": 8,
@@ -2108,10 +1986,8 @@
         "address": "Viale Lungomare Ponente, 88",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20780382691624",
-                "12.397749423980713"
-            ]
+            "44.20780382691624",
+            "12.397749423980713"
         ],
         "details": {
             "cabine": 21,
@@ -2150,10 +2026,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17804908413925",
-                "12.427961826324463"
-            ]
+            "44.17804908413925",
+            "12.427961826324463"
         ],
         "details": {
             "cabine": 5,
@@ -2185,10 +2059,8 @@
         "address": "Viale Piave, 67",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "0",
-                "0"
-            ]
+            "0",
+            "0"
         ],
         "details": {
             "cabine": 38,
@@ -2226,10 +2098,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.176186990230875",
-                "12.430622577667236"
-            ]
+            "44.176186990230875",
+            "12.430622577667236"
         ],
         "details": {
             "cabine": 7,
@@ -2254,10 +2124,8 @@
         "address": "Viale Lungomare Ponente, 76",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20818835553829",
-                "12.399895191192627"
-            ]
+            "44.20818835553829",
+            "12.399895191192627"
         ],
         "details": {
             "cabine": 22,
@@ -2296,10 +2164,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.175556019452486",
-                "12.432103157043457"
-            ]
+            "44.175556019452486",
+            "12.432103157043457"
         ],
         "details": {
             "cabine": 9,
@@ -2338,10 +2204,8 @@
         "address": "Viale Trento",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.1974513730326",
-                "12.407727241516113"
-            ]
+            "44.1974513730326",
+            "12.407727241516113"
         ],
         "details": {
             "cabine": 17,
@@ -2356,7 +2220,7 @@
             "wc": 3
         },
         "fax": "0547 81018",
-        "mail": "info@bagnolucia.ithttp",
+        "mail": "info@bagnolucia.it",
         "name": "Bagno lucia",
         "services": [
             "animazione",
@@ -2383,10 +2247,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17951101748748",
-                "12.428669929504394"
-            ]
+            "44.17951101748748",
+            "12.428669929504394"
         ],
         "details": {
             "cabine": 4,
@@ -2414,10 +2276,8 @@
         "address": "Viale Camillo Benso Cavour, 91",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.207019380743276",
-                "12.40032434463501"
-            ]
+            "44.207019380743276",
+            "12.40032434463501"
         ],
         "details": {
             "cabine": 5,
@@ -2432,7 +2292,7 @@
             "wc": 5
         },
         "fax": "0547 83468",
-        "mail": "info@bagnoluna.ithttp",
+        "mail": "info@bagnoluna.it",
         "name": "Bagno luna",
         "services": [
             "animazione",
@@ -2455,10 +2315,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17524822637892",
-                "12.431588172912597"
-            ]
+            "44.17524822637892",
+            "12.431588172912597"
         ],
         "details": {
             "cabine": 10,
@@ -2472,7 +2330,7 @@
             "superficie complessiva spiaggia": 1659,
             "wc": 3
         },
-        "mail": "info@maebabeach.comhttp",
+        "mail": "info@maebabeach.com",
         "name": "Bagno maeba",
         "services": [
             "animazione",
@@ -2495,10 +2353,8 @@
         "address": "Viale Piave",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20583500104184",
-                "12.402534484863281"
-            ]
+            "44.20583500104184",
+            "12.402534484863281"
         ],
         "details": {
             "cabine": 22,
@@ -2533,10 +2389,8 @@
         "address": "Piazza Ginesio Marconi",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19313603158808",
-                "12.413992881774902"
-            ]
+            "44.19313603158808",
+            "12.413992881774902"
         ],
         "details": {
             "cabine": 70,
@@ -2551,7 +2405,7 @@
             "wc": 9
         },
         "fax": "0547 674371",
-        "mail": "info@bagnomarconi.comhttp",
+        "mail": "info@bagnomarconi.com",
         "name": "Bagno marconi",
         "services": [
             "animazione",
@@ -2581,10 +2435,8 @@
         "address": "Viale Giosu\u00e8 Carducci, 19",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.175817642301894",
-                "12.433197498321533"
-            ]
+            "44.175817642301894",
+            "12.433197498321533"
         ],
         "details": {
             "cabine": 18,
@@ -2620,10 +2472,8 @@
         "address": "Viale Lungomare Ponente, 83",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20757310853805",
-                "12.397685050964355"
-            ]
+            "44.20757310853805",
+            "12.397685050964355"
         ],
         "details": {
             "cabine": 20,
@@ -2662,10 +2512,8 @@
         "address": "Viale Milano, 34",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19657448431208",
-                "12.411096096038818"
-            ]
+            "44.19657448431208",
+            "12.411096096038818"
         ],
         "details": {
             "cabine": 29,
@@ -2678,7 +2526,7 @@
             "wc": 3
         },
         "fax": "0547 83250",
-        "mail": "info@bagnomeridiano.ithttp",
+        "mail": "info@bagnomeridiano.it",
         "name": "Bagno meridiano",
         "services": [
             "animazione",
@@ -2701,10 +2549,8 @@
         "address": "Piazza Andrea Costa, 7",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20116646731679",
-                "12.406729459762573"
-            ]
+            "44.20116646731679",
+            "12.406729459762573"
         ],
         "details": {
             "cabine": 30,
@@ -2752,10 +2598,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17595614804636",
-                "12.432875633239746"
-            ]
+            "44.17595614804636",
+            "12.432875633239746"
         ],
         "details": {
             "cabine": 11,
@@ -2791,10 +2635,8 @@
         "address": "Viale dei Pini, 97",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.221983581603936",
-                "12.38510012626648"
-            ]
+            "44.221983581603936",
+            "12.38510012626648"
         ],
         "details": {
             "cabine": 8,
@@ -2808,7 +2650,7 @@
             "superficie complessiva spiaggia": 2660,
             "wc": 3
         },
-        "mail": "info@bagnomundial.ithttp",
+        "mail": "info@bagnomundial.it",
         "name": "Bagno mundial 82",
         "services": [
             "animazione",
@@ -2831,10 +2673,8 @@
         "address": "Viale Venezia,  28",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.1760484850286",
-                "12.432940006256103"
-            ]
+            "44.1760484850286",
+            "12.432940006256103"
         ],
         "details": {
             "cabine": 30,
@@ -2865,10 +2705,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.195243742291126",
-                "12.412029504776001"
-            ]
+            "44.195243742291126",
+            "12.412029504776001"
         ],
         "details": {
             "cabine": 6,
@@ -2893,10 +2731,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.17601001130356",
-                "12.432671785354614"
-            ]
+            "44.17601001130356",
+            "12.432671785354614"
         ],
         "details": {
             "cabine": 5,
@@ -2922,10 +2758,8 @@
         "address": "Viale Lungomare Ponente, 87",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20760387104068",
-                "12.397749423980713"
-            ]
+            "44.20760387104068",
+            "12.397749423980713"
         ],
         "details": {
             "cabine": 10,
@@ -2938,7 +2772,7 @@
             "superficie complessiva spiaggia": 1800,
             "wc": 2
         },
-        "mail": "info@bagnoparadiso.ithttp",
+        "mail": "info@bagnoparadiso.it",
         "name": "Bagno paradiso",
         "services": [
             "animazione",
@@ -2960,10 +2794,8 @@
         "address": "Viale Lungomare Ponente, 77",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20727317329535",
-                "12.398360967636108"
-            ]
+            "44.20727317329535",
+            "12.398360967636108"
         ],
         "details": {
             "cabine": 19,
@@ -2994,10 +2826,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.175786863203385",
-                "12.433004379272461"
-            ]
+            "44.175786863203385",
+            "12.433004379272461"
         ],
         "details": {
             "cabine": 9,
@@ -3034,10 +2864,8 @@
         "address": "Viale dei Pini, 99",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.219446240771695",
-                "12.386258840560913"
-            ]
+            "44.219446240771695",
+            "12.386258840560913"
         ],
         "details": {
             "cabine": 20,
@@ -3066,10 +2894,8 @@
         "address": "Viale Lungomare Ponente, 85",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20743467707735",
-                "12.397942543029785"
-            ]
+            "44.20743467707735",
+            "12.397942543029785"
         ],
         "details": {
             "cabine": 12,
@@ -3084,7 +2910,7 @@
             "wc": 3
         },
         "fax": "0547 83081",
-        "mail": "bagno.pinguino@libero.ithttp",
+        "mail": "bagno.pinguino@libero.it",
         "name": "Bagno pinguino",
         "services": [
             "animazione",
@@ -3102,10 +2928,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17602540079659",
-                "12.432703971862793"
-            ]
+            "44.17602540079659",
+            "12.432703971862793"
         ],
         "details": {
             "cabine": 9,
@@ -3120,7 +2944,7 @@
             "wc": 4
         },
         "fax": "0547 87864",
-        "mail": "info@bagnopippo.ithttp",
+        "mail": "info@bagnopippo.it",
         "name": "Bagno pippo",
         "services": [
             "animazione",
@@ -3145,10 +2969,8 @@
         "address": "Spiaggia Zadina",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.20757310853805",
-                "12.397352457046508"
-            ]
+            "44.20757310853805",
+            "12.397352457046508"
         ],
         "details": {
             "cabine": 20,
@@ -3184,10 +3006,8 @@
         "address": "Via Pasubio",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.204119915499255",
-                "12.404487133026123"
-            ]
+            "44.204119915499255",
+            "12.404487133026123"
         ],
         "details": {
             "cabine": 38,
@@ -3201,7 +3021,7 @@
             "superficie complessiva spiaggia": 3308,
             "wc": 4
         },
-        "mail": "bagnorenata@bagnorenata.ithttp",
+        "mail": "bagnorenata@bagnorenata.it",
         "name": "Bagno renata",
         "services": [
             "animazione",
@@ -3221,10 +3041,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.175809947528755",
-                "12.433058023452758"
-            ]
+            "44.175809947528755",
+            "12.433058023452758"
         ],
         "details": {
             "cabine": 20,
@@ -3260,10 +3078,8 @@
         "address": "Via Montenero, 54",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20219711449107",
-                "12.405763864517212"
-            ]
+            "44.20219711449107",
+            "12.405763864517212"
         ],
         "details": {
             "cabine": 35,
@@ -3278,7 +3094,7 @@
             "wc": 3
         },
         "fax": "0547 80262",
-        "mail": "info@bagnoroma.ithttp",
+        "mail": "info@bagnoroma.it",
         "name": "Bagno roma",
         "services": [
             "animazione",
@@ -3303,10 +3119,8 @@
         "address": "Via Isonzo, 48",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.2003588580512",
-                "12.407362461090088"
-            ]
+            "44.2003588580512",
+            "12.407362461090088"
         ],
         "details": {
             "cabine": 34,
@@ -3340,10 +3154,8 @@
         "address": "Viale Giosu\u00e8 Carducci, 6/A",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17583303184512",
-                "12.433068752288818"
-            ]
+            "44.17583303184512",
+            "12.433068752288818"
         ],
         "details": {
             "cabine": 10,
@@ -3370,10 +3182,8 @@
         "address": "Viale Lungomare Ponente, 79",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.208542119653494",
-                "12.396386861801147"
-            ]
+            "44.208542119653494",
+            "12.396386861801147"
         ],
         "details": {
             "cabine": 13,
@@ -3387,7 +3197,7 @@
             "superficie complessiva spiaggia": 840,
             "wc": 2
         },
-        "mail": "info@bagnoromana.ithttp",
+        "mail": "info@bagnoromana.it",
         "name": "Bagno romana",
         "services": [
             "animazione",
@@ -3409,10 +3219,8 @@
         "address": "Via Spiaggia Levante, 64/65",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20393532932563",
-                "12.404208183288574"
-            ]
+            "44.20393532932563",
+            "12.404208183288574"
         ],
         "details": {
             "cabine": 38,
@@ -3425,7 +3233,7 @@
             "superficie complessiva spiaggia": 3600,
             "wc": 7
         },
-        "mail": "info@bagnoromeo.comhttp",
+        "mail": "info@bagnoromeo.com",
         "name": "Bagno romeo",
         "services": [
             "animazione",
@@ -3449,10 +3257,8 @@
         "address": "Viale Giosu\u00e8 Carducci,17",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.18666627357442",
-                "12.420430183410644"
-            ]
+            "44.18666627357442",
+            "12.420430183410644"
         ],
         "details": {
             "docce aperte": 1,
@@ -3485,10 +3291,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17584072661521",
-                "12.432918548583984"
-            ]
+            "44.17584072661521",
+            "12.432918548583984"
         ],
         "details": {
             "cabine": 9,
@@ -3503,7 +3307,7 @@
             "wc": 3
         },
         "fax": "0547 85257",
-        "mail": "info@bagnoselene.comhttp",
+        "mail": "info@bagnoselene.com",
         "name": "Bagno selene",
         "services": [
             "animazione",
@@ -3528,10 +3332,8 @@
         "address": "Viale Piave, 69",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.200220409637",
-                "12.407845258712768"
-            ]
+            "44.200220409637",
+            "12.407845258712768"
         ],
         "details": {
             "cabine": 40,
@@ -3543,7 +3345,7 @@
             "superficie complessiva spiaggia": 5160,
             "wc": 6
         },
-        "mail": "info@riviera69.comhttp",
+        "mail": "info@riviera69.com",
         "name": "Bagno sessantanove",
         "services": [
             "animazione per bambini",
@@ -3568,10 +3370,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17584072661521",
-                "12.432918548583984"
-            ]
+            "44.17584072661521",
+            "12.432918548583984"
         ],
         "details": {
             "cabine": 7,
@@ -3608,10 +3408,8 @@
         "address": "Viale Piave, 70",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.205627347601634",
-                "12.403864860534668"
-            ]
+            "44.205627347601634",
+            "12.403864860534668"
         ],
         "details": {
             "cabine": 25,
@@ -3625,7 +3423,7 @@
             "superficie complessiva spiaggia": 1540,
             "wc": 3
         },
-        "mail": "info@bagnosport70.ithttp",
+        "mail": "info@bagnosport70.it",
         "name": "Bagno sport 70",
         "services": [
             "animazione",
@@ -3655,10 +3453,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17567913623208",
-                "12.433218955993652"
-            ]
+            "44.17567913623208",
+            "12.433218955993652"
         ],
         "details": {
             "cabine": 9,
@@ -3694,10 +3490,8 @@
         "address": "Piazza Ginesio Marconi, 21",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.1924898570047",
-                "12.413220405578613"
-            ]
+            "44.1924898570047",
+            "12.413220405578613"
         ],
         "details": {
             "cabine": 10,
@@ -3732,10 +3526,8 @@
         "address": "Via Sabotino",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19654371604982",
-                "12.410827875137329"
-            ]
+            "44.19654371604982",
+            "12.410827875137329"
         ],
         "details": {
             "cabine": 20,
@@ -3750,7 +3542,7 @@
             "wc": 3
         },
         "fax": "0547 678679",
-        "mail": "info@bagnotitanus.comhttp",
+        "mail": "info@bagnotitanus.com",
         "name": "Bagno titanus",
         "services": [
             "animazione",
@@ -3774,10 +3566,8 @@
         "address": "Spiaggia Zadina",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.20816528389175",
-                "12.396955490112304"
-            ]
+            "44.20816528389175",
+            "12.396955490112304"
         ],
         "details": {
             "cabine": 18,
@@ -3791,7 +3581,7 @@
             "superficie complessiva spiaggia": 1680,
             "wc": 3
         },
-        "mail": "topstory@gesturist.comwww.cesenaticocampingvillage.com",
+        "mail": "topstory@gesturist.com",
         "name": "Bagno top story",
         "services": [
             "animazione",
@@ -3813,10 +3603,8 @@
         "address": "Viale Venezia",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19519758884946",
-                "12.412179708480835"
-            ]
+            "44.19519758884946",
+            "12.412179708480835"
         ],
         "details": {
             "cabine": 30,
@@ -3850,10 +3638,8 @@
         "address": "Spiaggia Villamarina",
         "city": "Cesenatico Villamarina",
         "coords": [
-            [
-                "44.175594493473724",
-                "12.433208227157592"
-            ]
+            "44.175594493473724",
+            "12.433208227157592"
         ],
         "details": {
             "cabine": 10,
@@ -3883,10 +3669,8 @@
         "address": "Viale Lungomare Ponente, 84",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20737315187929",
-                "12.398135662078857"
-            ]
+            "44.20737315187929",
+            "12.398135662078857"
         ],
         "details": {
             "cabine": 11,
@@ -3900,7 +3684,7 @@
             "superficie complessiva spiaggia": 1290,
             "wc": 3
         },
-        "mail": "info@hotelcrocedelsud.itwww.hotelcroceselsud.it",
+        "mail": "info@hotelcrocedelsud.it",
         "name": "Bagno tosca",
         "services": [
             "animazione",
@@ -3924,10 +3708,8 @@
         "address": "Viale Venezia, 26",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19517451211508",
-                "12.412276268005371"
-            ]
+            "44.19517451211508",
+            "12.412276268005371"
         ],
         "details": {
             "cabine": 24,
@@ -3965,10 +3747,8 @@
         "address": "Via Montello, 22",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.19472836014061",
-                "12.412662506103515"
-            ]
+            "44.19472836014061",
+            "12.412662506103515"
         ],
         "details": {
             "cabine": 39,
@@ -4003,10 +3783,8 @@
         "address": "Viale Lungomare Ponente",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20695785511141",
-                "12.39883303642273"
-            ]
+            "44.20695785511141",
+            "12.39883303642273"
         ],
         "details": {
             "cabine": 15,
@@ -4042,10 +3820,8 @@
         "address": "Viale Lungomare Ponente",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20695785511141",
-                "12.39883303642273"
-            ]
+            "44.20695785511141",
+            "12.39883303642273"
         ],
         "details": {
             "cabine": 13,
@@ -4079,10 +3855,8 @@
         "address": "Viale Ferrara",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.203058537102564",
-                "12.405152320861816"
-            ]
+            "44.203058537102564",
+            "12.405152320861816"
         ],
         "details": {
             "cabine": 27,
@@ -4096,7 +3870,7 @@
             "superficie complessiva spiaggia": 2150,
             "wc": 3
         },
-        "mail": "info@bagnovally.comwww.bagnovally.com",
+        "mail": "info@bagnovally.com",
         "name": "Bagno vally",
         "services": [
             "animazione",
@@ -4123,10 +3897,8 @@
         "address": "Viale Giosu\u00e8 Carducci",
         "city": "Cesenatico Valverde",
         "coords": [
-            [
-                "44.17547907133471",
-                "12.433551549911499"
-            ]
+            "44.17547907133471",
+            "12.433551549911499"
         ],
         "details": {
             "cabine": 17,
@@ -4159,10 +3931,8 @@
         "address": "Viale Milano",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.196620636675334",
-                "12.410988807678222"
-            ]
+            "44.196620636675334",
+            "12.410988807678222"
         ],
         "details": {
             "cabine": 26,
@@ -4197,7 +3967,10 @@
     {
         "address": "Spiaggia Zadina",
         "city": "Cesenatico Zadina",
-        "coords": [],
+        "coords": [
+            "44.20816528389175",
+            "12.396955490112304"
+        ],
         "details": {
             "cabine": 15,
             "docce aperte": 2,
@@ -4233,10 +4006,8 @@
         "address": "Piazza Andrea Costa, 1",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.20144335937368",
-                "12.406504154205322"
-            ]
+            "44.20144335937368",
+            "12.406504154205322"
         ],
         "details": {
             "cabine": 35,
@@ -4249,7 +4020,7 @@
             "superficie complessiva spiaggia": 3330,
             "wc": 4
         },
-        "mail": "bagnoveneto@virgilio.itwww.bagnoveneto.it",
+        "mail": "bagnoveneto@virgilio.it",
         "name": "Bagno veneto",
         "services": [
             "animazione",
@@ -4274,10 +4045,8 @@
         "address": "Viale Ferrara, 56",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.203050845884974",
-                "12.405152320861816"
-            ]
+            "44.203050845884974",
+            "12.405152320861816"
         ],
         "details": {
             "cabine": 17,
@@ -4321,13 +4090,11 @@
         "address": "Viale Ludovico de Varthema, 4",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.21685496470414",
-                "12.38882303237915"
-            ]
+            "44.21685496470414",
+            "12.38882303237915"
         ],
         "details": {},
-        "mail": "giorgio@villaceleste.euwww.villaceleste.eu",
+        "mail": "giorgio@villaceleste.eu",
         "name": "Bagno villa celeste",
         "services": [],
         "site": "www.villaceleste.eu",
@@ -4337,10 +4104,8 @@
         "address": "Viale Lungomare Ponente, 75",
         "city": "Cesenatico Ponente",
         "coords": [
-            [
-                "44.20695785511141",
-                "12.39883303642273"
-            ]
+            "44.20695785511141",
+            "12.39883303642273"
         ],
         "details": {
             "cabine": 12,
@@ -4375,10 +4140,8 @@
         "address": "Spiaggia Zadina",
         "city": "Cesenatico Zadina",
         "coords": [
-            [
-                "44.20816528389175",
-                "12.396955490112304"
-            ]
+            "44.20816528389175",
+            "12.396955490112304"
         ],
         "details": {
             "cabine": 20,
@@ -4399,7 +4162,6 @@
             "ping pong",
             "giornalini",
             "ristorazione",
-            "sala tv",
             "accessibilit\u00e0 ai disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
@@ -4410,10 +4172,8 @@
         "address": "Via Montello, 23",
         "city": "Cesenatico Centro",
         "coords": [
-            [
-                "44.194712975529505",
-                "12.412651777267456"
-            ]
+            "44.194712975529505",
+            "12.412651777267456"
         ],
         "details": {
             "cabine": 43,

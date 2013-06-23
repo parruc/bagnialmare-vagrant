@@ -14,8 +14,9 @@ fax_from_text = re.compile("Fax: ([0-9 ]+)")
 mail_from_text = re.compile("[a-zA-z]{1}[\w.-]+@[\w.-]+")
 site_from_text = re.compile("(?:http://www\.|http://|www\.)[\w.\-]+\.[\w]{,3}")
 city_from_text = re.compile("[0-9]+ (\w+)[ ]+- (\w+) \(FC\)")
-geo_from_text = re.compile("LatLng\(([0-9.]+),([0-9.]+)\);")
+geo_from_text = re.compile("LatLng\(([0-9.]+) *, *([0-9.]+)\);")
 number_from_detail = re.compile("[^0-9]*([0-9]+[0-9.,]*)[^0-9]*")
+clean_email = re.compile("(http|www).*")
 
 
 url_bagni = []
@@ -54,7 +55,8 @@ for i, url_bagno in enumerate(url_bagni, start=1):
     else:
         missing.append("fax")
     if len(mail):
-        bagno['mail'] = mail[0]
+        mail = clean_email.sub("", mail[0])
+        bagno['mail'] = mail
     else:
         missing.append("mail")
     if len(site):
@@ -79,7 +81,9 @@ for i, url_bagno in enumerate(url_bagni, start=1):
                 match = number_from_detail.match(detail_value)
                 if not match:
                     if not "-" in detail_value:
-                        import ipdb; ipdb.set_trace()
+                        if "Sala tv" in detail_value:
+                            bagno['services'].append("sala tv")
+                            continue
                     detail_value = "0"
                 else:
                     detail_value = match.group(1).replace(".", "").strip(",").replace(",", ".").strip()
@@ -104,7 +108,11 @@ for i, url_bagno in enumerate(url_bagni, start=1):
                             bagno['services'].append(service)
 
     parsed_bagno.xpath("//script/text()")
-    bagno['coords'] = geo_from_text.findall(" ".join(parsed_bagno.xpath("//script/text()")))
+    coords = geo_from_text.findall(" ".join(parsed_bagno.xpath("//script/text()")))
+    if len(coords):
+        bagno['coords'] = coords[0]
+    else:
+        import ipdb; ipdb.set_trace()
     bagni.append(bagno)
 
 utils.write_services(SERVICES)

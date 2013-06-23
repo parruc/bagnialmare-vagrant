@@ -12,6 +12,7 @@ logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', level=loggin
 bagni = []
 name_from_title = re.compile("([0-9\-/]+) (.+)")
 numbers_from_text = re.compile("([^0-9^-^(^)]+)([0-9][0-9,.-]*)")
+arernile_demaniale = re.compile(" - Arenile demaniale [0-9]+")
 parsed_page = utils.try_open_file_or_url(url=URL, name="cervia", count=1)
 trs = parsed_page.xpath("//table/tbody/tr")
 columns = ["name", "address", "city", "tel", "fax", "mail", "site"]
@@ -37,6 +38,8 @@ for i, tr in enumerate(trs, start=1):
                 bagno[column] = href[0].replace("mailto:", "")
         else:
             bagno[column] = td_content
+    if "address" in bagno:
+        bagno['address'] = arernile_demaniale.sub("", bagno['address'])
     logging.info("Parsing cervia number %d name %s" % (i, bagno['name']))
     if parsed_bagno is None:
         import ipdb; ipdb.set_trace()
