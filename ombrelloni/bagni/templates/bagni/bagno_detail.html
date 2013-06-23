@@ -8,7 +8,7 @@
 </h1>
 
 {% if object.services.all %}
-    {% regroup object.services.all by category as categorized_services %}
+    {% regroup object.services.all by get_category_display as categorized_services %}
     <h2>{% trans Services %}</h2>
     <ul>
     {% for categorized_service in categorized_services %}
