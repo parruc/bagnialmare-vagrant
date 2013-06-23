@@ -25,20 +25,21 @@ class Command(BaseCommand):
         if options['limit'] and options['limit'] > len(bagni):
             bagni = bagni[:options['limit']]
         for bagno in bagni:
-            b = Bagno(name=bagno['name'])
-            for field in fields:
-                if field in bagno:
-                    setattr(b, field, bagno[field])
-            if "coords" in bagno and len(bagno['coords']) == 2:
-                b.point = Point(bagno['coords'])
-            #XX PORCATA TEMPORANEA finche non riesco a togliere NOT NULL da point
-            else:
-                b.point = Point(0,0)
-            b.save()
-            if "services" in bagno:
-                for service in bagno['services']:
-                    s = Service.objects.filter(name=service)
-                    if s:
-                        b.services.add(s[0])
+            try:
+                b = Bagno(name=bagno['name'])
+                for field in fields:
+                    if field in bagno:
+                        setattr(b, field, bagno[field])
+                if "coords" in bagno:
+                    b.point = Point([float(coord) for coord in bagno['coords']])
+                b.save()
+                if "services" in bagno:
+                    for service in bagno['services']:
+                        s = Service.objects.filter(name=service)
+                        if s:
+                            b.services.add(s[0])
 
-            b.save()
+                b.save()
+            except Exception as e:
+                print e
+                import ipdb; ipdb.set_trace()
