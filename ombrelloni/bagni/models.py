@@ -12,16 +12,17 @@ class Bagno(models.Model):
     name = models.CharField(max_length=50)
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
-                                  verbose_name=_("Slug"))
-    number = models.CharField(max_length=20, blank=True)
+                                  verbose_name=_("Slug"),
+                                  unique=True)
+    number = models.CharField(max_length=15, blank=True)
     services = models.ManyToManyField("Service", blank=True)
     address = models.CharField(max_length=100, blank=True)
     city = models.CharField(max_length=50, blank=True)
-    mail = models.CharField(max_length=100, blank=True)
-    tel = models.CharField(max_length=100, blank=True)
-    fax = models.CharField(max_length=100, blank=True)
-    site = models.URLField(max_length=100, blank=True)
-    point = models.PointField(blank=True)
+    mail = models.EmailField(max_length=50, blank=True)
+    tel = models.CharField(max_length=75, blank=True)
+    fax = models.CharField(max_length=50, blank=True)
+    site = models.URLField(max_length=75, blank=True)
+    point = models.PointField(blank=True, null=True)
 
     objects = models.GeoManager()
 
@@ -51,7 +52,8 @@ class Service(models.Model):
     name = models.CharField(max_length=50)
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
-                                  verbose_name=_("Slug"))
+                                  verbose_name=_("Slug"),
+                                  unique=True)
     category = models.CharField(max_length=50,
                                 blank=True,
                                 choices=SERVICE_CATEGORIES,
