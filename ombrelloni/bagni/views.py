@@ -4,7 +4,8 @@ from django.views.generic.list import ListView
 from models import Bagno, Service
 
 class BagniView(ListView):
-
+    """View for a list of bagni
+    """
     model = Bagno
 
     def get_context_data(self, **kwargs):
@@ -12,7 +13,8 @@ class BagniView(ListView):
         return context
 
 class BagnoView(DetailView):
-
+    """Detail view for a single bagno
+    """
     model = Bagno
 
     def get_context_data(self, **kwargs):
@@ -20,7 +22,8 @@ class BagnoView(DetailView):
         return context
 
 class ServiceView(DetailView):
-
+    """Detail view for a single service
+    """
     model = Service
 
     def get_context_data(self, **kwargs):
