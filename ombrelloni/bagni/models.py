@@ -5,6 +5,8 @@ import autoslug
 # Create your models here.
 
 class Bagno(models.Model):
+    """ The model for Bagno object
+    """
     class Meta:
         verbose_name = _('Bagno')
         verbose_name_plural = _('Bagni')
@@ -34,6 +36,8 @@ class Bagno(models.Model):
         return ("bagno", [self.slug, ])
 
 class Service(models.Model):
+    """ The model for Service object
+    """
     class Meta:
         verbose_name = _('Service')
         verbose_name_plural = _('Services')
