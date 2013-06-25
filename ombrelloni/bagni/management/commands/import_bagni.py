@@ -31,7 +31,7 @@ class Command(BaseCommand):
                     if field in bagno:
                         setattr(b, field, bagno[field])
                 if "coords" in bagno:
-                    b.point = Point([float(coord) for coord in bagno['coords']])
+                    b.point = Point([float(coord) for coord in reversed(bagno['coords'])])
                 b.save()
                 if "services" in bagno:
                     for service in bagno['services']:
