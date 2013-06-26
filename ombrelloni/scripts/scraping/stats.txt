@@ -1,0 +1,7 @@
+totale bagni estratti:	649
+totale nomi unici:	603
+totale indirizzi mail unici:	422
+totale indirizzi mail validi:	410
+totale indirizzi mail hotel:	23
+totale bagni con sito internet:	287
+totale bagni con coordinate:	259
