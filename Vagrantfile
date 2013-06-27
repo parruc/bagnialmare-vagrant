@@ -5,10 +5,10 @@ Vagrant.configure("2") do |config|
 
     config.vm.box = "vagrant-debian-wheezy"
     config.vm.box_url = "vagrant-debian-wheezy.box"
+    config.ssh.private_key_path = "keys/id_rsa"
 
     # Webserver
     config.vm.network :forwarded_port, guest: 80, host: 8080
-
     config.vm.provider "virtualbox" do |v|
         v.customize ["modifyvm", :id, "--memory", "512"]
     end
