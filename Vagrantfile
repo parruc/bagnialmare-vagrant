@@ -3,8 +3,8 @@
 
 Vagrant.configure("2") do |config|
 
-    config.vm.box = "vagrant-debian-wheezy"
-    config.vm.box_url = "vagrant-debian-wheezy.box"
+    config.vm.box = "vagrant-wheezy32"
+    config.vm.box_url = "vagrant-wheezy32.box"
     config.ssh.private_key_path = "keys/id_rsa"
 
     # Webserver
