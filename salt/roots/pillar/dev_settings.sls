@@ -1,3 +1,4 @@
+path : /opt/django
 dbengine: django.db.backends.postgresql_psycopg2
 dbname: ombrelloni
 dbuser: ombrelloni

@@ -1,4 +1,4 @@
-postgres_dependecise:
+postgres_reqs:
     pkg:
         - installed
         - names:
@@ -7,21 +7,25 @@ postgres_dependecise:
             - postgresql-contrib-9.1
             - postgresql-9.1-postgis
     service.running:
+        - name: postgresql
         - enabled: True
         - watch:
             - file: /etc/postgresql/9.1/main/pg_hba.conf
 
-{{ pillar["dbuser"] }}:
-    postgres_user:
-        - present
-        - user: {{ pillar["dbuser"] }}
+postgres_ombrelloni_user:
+    postgres_user.present:
+        - name: {{ pillar["dbuser"] }}
         - password: {{ pillar["dbpassword"] }}
         - runas: postgres
+    require:
+        - pkg: postgres_reqs
 
-{{ pillar["dbname"] }}
-    postgres_database:
-        - present
+postgres_ombrelloni_db:
+    postgres_database.present:
         - name: {{ pillar["dbname"] }}
+        - template: template0
         - encoding: UTF-8
         - runas: postgres
         - owner: {{ pillar["dbuser"] }}
+    require:
+        - pkg: postgres_ombrelloni_user

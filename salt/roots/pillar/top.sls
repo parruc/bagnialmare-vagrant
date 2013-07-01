@@ -1,3 +1,5 @@
 base:
     '*':
-        - settings
+        - prod_settings
+    'dev':
+        - dev_settings
