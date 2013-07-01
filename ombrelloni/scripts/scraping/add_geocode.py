@@ -9,7 +9,7 @@ def coords_from_address(addr, region="it"):
         coords = list(gc.geocode(addr, region)[1])
     except:
         logging.error("cannot find: " + addr)
-        raise
+        #raise
     return coords
 
 if __name__ == "__main__":
