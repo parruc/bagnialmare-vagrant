@@ -1,5 +1,7 @@
 # Django settings for ombrelloni project.
 
+import os
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -9,8 +11,15 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
+     },
+}
+
 DATABASES = {
-    'dev': {
+    'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'ombrelloni',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
@@ -136,6 +145,7 @@ INSTALLED_APPS = (
      'django.contrib.gis',
      'south',
      'autoslug',
+     'haystack',
      'bagni',
 )
 
