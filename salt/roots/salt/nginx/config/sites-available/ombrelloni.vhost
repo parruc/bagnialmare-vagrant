@@ -54,7 +54,7 @@ server {
         internal;
     }
     error_log {{ host.error_log }};
-    access_log {{ access.error_log }} combined;
+    access_log {{ host.access_log }} combined;
 
     ## Disable .htaccess and other hidden files
     location ~ /\. {
@@ -73,7 +73,7 @@ server {
         log_not_found off;
         access_log off;
     }
-{% if host.static }}
+{% if host.static  %}
     location /static/ {
         gzip_static on;
         gzip_disable "MSIE [1-6]\.(?!.*SV1)";
@@ -93,11 +93,8 @@ server {
     # location = / { rewrite ^ /i18n/setlang/ permanent; }
     location / {
         include uwsgi_params;
-        uwsgi_pass unix:/tmp/uwsgi_{{ host.name }}.sock;
+        uwsgi_pass unix:/tmp/uwsgi_{{ host_name }}.sock;
     #    proxy_pass http://localhost:8000;
     }
     proxy_intercept_errors on;
-
-    
-    
-    
+}

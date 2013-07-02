@@ -80,6 +80,9 @@ nginx_site_{{ host_name }}:
         - name: /etc/nginx/sites-available/{{ host_name }}.vhost
         - source: salt://nginx/config/sites-available/{{ host_name }}.vhost
         - template: jinja
+        - context:
+            host: {{ host }}
+            host_name: {{ host_name }}
         - user: root
         - group: root
         - file_mode: 644
