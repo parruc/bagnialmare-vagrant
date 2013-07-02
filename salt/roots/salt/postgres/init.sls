@@ -6,26 +6,85 @@ postgres_reqs:
             - postgresql-server-dev-9.1
             - postgresql-contrib-9.1
             - postgresql-9.1-postgis
+
+postgres_group:
+    group.present:
+        - name: {{ pillar['pg'].group }}
+
+postgres_user:
+    user.present:
+        - name: {{ pillar['pg'].user }}
+        - password: {{ pillar['pg'].pass }}
+        - groups:
+            - {{ pillar['pg'].group }}
+        - shell: /bin/bash
+        - home: False
+        - system: True
+        - require:
+            - group: postgres_group
+
+postgres_service:
     service.running:
         - name: postgresql
-        - enabled: True
+        - enable: True
+        - reload: True
+        - require:
+            - user: postgres_user
+            - pkg: postgres_reqs
         - watch:
-            - file: /etc/postgresql/9.1/main/pg_hba.conf
+            - file: postgresql_conf
+            - file: pg_hba_conf
 
-postgres_ombrelloni_user:
+postgresql_conf:
+    file.managed:
+        - source: salt://postgres/postgresql.conf
+        - name: /etc/postgresql/9.1/main/postgresql.conf
+        - template: jinja
+        - user: {{ pillar['pg'].user }}
+        - group: {{ pillar['pg'].group }}
+        - mode: 644
+        - require:
+            - user: postgres_user
+            - pkg: postgres_reqs
+
+pg_hba_conf:
+    file.managed:
+        - source: salt://postgres/pg_hba.conf
+        - name: /etc/postgresql/9.1/main/pg_hba.conf
+        - template: jinja
+        - user: {{ pillar['pg'].user }}
+        - group: {{ pillar['pg'].group }}
+        - mode: 644
+        - require:
+            - user: postgres_user
+            - pkg: postgres_reqs
+
+{% for db_name, db in pillar['pg'].dbs.iteritems() %}
+postgres_user_{{ db.owner }}:
     postgres_user.present:
-        - name: {{ pillar["dbuser"] }}
-        - password: {{ pillar["dbpassword"] }}
-        - runas: postgres
-    require:
-        - pkg: postgres_reqs
+        - name: {{ db.owner }}
+        - password: {{ db.password }}
+        - runas: {{ pillar['pg'].user }}
+        - require:
+            - user: postgres_user
+            - service: postgres_service
 
-postgres_ombrelloni_db:
+postgresql_database_{{ db_name }}:
     postgres_database.present:
-        - name: {{ pillar["dbname"] }}
+        - name: {{ db_name }}
+        - owner: {{ db.owner }}
         - template: template0
-        - encoding: UTF-8
-        - runas: postgres
-        - owner: {{ pillar["dbuser"] }}
-    require:
-        - pkg: postgres_ombrelloni_user
+        - runas: {{ pillar['pg'].user }}
+        - require:
+            - postgres_user: postgres_user_{{ db.owner }}
+
+{% if custom_psql in db %}
+postgres_custom_psql_{{ db_name }}:
+    cmd.run:
+        - name: psql {{ db_name }} -c '{{ db.custom_psql }}'
+        - runas: {{ pillar['pg'].user }}
+        - require:
+            - postgresql_database_{{ db_name }}
+{% endif %}
+
+{% endfor %}

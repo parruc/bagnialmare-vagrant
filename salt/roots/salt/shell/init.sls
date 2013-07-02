@@ -4,6 +4,8 @@ shell_reqs:
         - names:
             - vim
             - less
+            - screen
+            - locate
 
 /home/vagrant/.vimrc:
     file:

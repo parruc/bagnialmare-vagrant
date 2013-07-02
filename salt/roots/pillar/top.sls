@@ -1,5 +1,6 @@
 base:
     '*':
-        - prod_settings
-    'dev':
-        - dev_settings
+        - git
+        - nginx
+        - django
+        - postgres

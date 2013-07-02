@@ -3,12 +3,13 @@ git_reqs:
         - installed
         - names:
             - git
-
-git_ombrelloni:
+{% for repo_name, repo in pillar['pg'].repos.iteritems() %}
+git_{{ repo_name }}:
     git.latest:
-        - name: https://parruc@bitbucket.org/flyingfrog/4hm.git
-        - rev: {{ pillar["git_branch"] }}
-        - target: {{ pillar["django_path"] }}
+        - name: {{ repo.url }}
+        - rev: {{ repo.branch }}
+        - target: {{ repo.path }}
         - force: True
     require:
         - pkg: git_reqs
+{% endfor %}

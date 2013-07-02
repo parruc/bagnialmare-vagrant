@@ -1,11 +1,11 @@
 base:
     '*':
-        - git
-        - lib
-        - nginx
         - postgres
-        - python
-        - shell
-        - ssh
-        - uwsgi
-        - virtualenv
+#        - git
+#        - lib
+        - nginx
+#        - python
+#        - shell
+#        - ssh
+#        - uwsgi
+#        - virtualenv
