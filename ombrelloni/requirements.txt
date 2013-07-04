@@ -1,5 +1,6 @@
 BeautifulSoup==3.2.1
 Django==1.5.1
+Fabric==1.6.1
 Jinja2==2.7
 MarkupSafe==0.18
 Pillow==2.0.0
@@ -9,12 +10,15 @@ Sphinx==1.2b1
 argparse==1.2.1
 django-autoslug==1.6.1
 docutils==0.10
+-e hg+https://parruc@bitbucket.org/parruc/whoosh#egg=Whoosh
+-e git://github.com/parruc/django-haystack.git#egg=django-haystack
 ipdb==0.7
 ipython==0.13.2
 lxml==3.2.1
 paramiko==1.10.1
 psycopg2==2.5
 pycrypto==2.6
+python-ptrace==0.6.5
 simplejson==3.3.0
 sorl-thumbnail==11.12
 wsgiref==0.1.2

@@ -23,7 +23,7 @@
                     <dd><a href="{{ request.get_full_path }}&amp;selected_facets=service_exact:{{ service.0|urlencode }}">{{ service.0 }}</a> ({{ service.1 }})</dd>
                 {% endfor %}
             {% else %}
-                <p>No author facets.</p>
+                <p>No service facets.</p>
             {% endif %}
         </dl>
     </div>

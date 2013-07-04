@@ -20,7 +20,7 @@ class Migration(SchemaMigration):
             ('tel', self.gf('django.db.models.fields.CharField')(max_length=50, blank=True)),
             ('fax', self.gf('django.db.models.fields.CharField')(max_length=50, blank=True)),
             ('site', self.gf('django.db.models.fields.URLField')(max_length=50, blank=True)),
-            ('point', self.gf('django.contrib.gis.db.models.fields.PointField')()),
+            ('point', self.gf('django.contrib.gis.db.models.fields.PointField')(blank=True, null=True)),
         ))
         db.send_create_signal(u'bagni', ['Bagno'])
 
