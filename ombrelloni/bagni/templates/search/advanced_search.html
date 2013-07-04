@@ -16,7 +16,7 @@
     <h2>By Service</h2>
 
     <div>
-        <dl><h2>{{facets}}</h2>
+        <dl>
             {% for facet_name, facet in facets.fields.items %}
                 <dt>{% trans facet_name %}</dt>
                 {% for facet_value in facet %}
