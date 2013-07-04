@@ -1,3 +1,4 @@
+{% load i18n %}
 <form method="get" action=".">
     <table>
         <tbody>
@@ -15,16 +16,16 @@
     <h2>By Service</h2>
 
     <div>
-        <dl>
-            {% if facets.fields.services %}
-                <dt>Service</dt>
-                {# Provide only the top 5 authors #}
-                {% for service in facets.fields.services|slice:":5" %}
-                    <dd><a href="{{ request.get_full_path }}&amp;selected_facets=service_exact:{{ service.0|urlencode }}">{{ service.0 }}</a> ({{ service.1 }})</dd>
+        <dl><h2>{{facets}}</h2>
+            {% for facet_name, facet in facets.fields.items %}
+                <dt>{% trans facet_name %}</dt>
+                {% for facet_value in facet %}
+                    <dd><a href="{{ request.get_full_path }}&amp;selected_facets={{ facet_name }}_exact:{{ facet_value.0|urlencode }}">{{ facet_value.0 }}</a> ({{ facet_value.1 }})</dd>
                 {% endfor %}
-            {% else %}
-                <p>No service facets.</p>
-            {% endif %}
+                {% if not facet %}
+                    <p>No {{ facet_name }} facets.</p>
+                {% endif %}
+            {% endfor %}
         </dl>
     </div>
     <!-- End faceting -->
