@@ -11,11 +11,12 @@ class BagnoIndex(indexes.SearchIndex, indexes.Indexable):
     # Other field definitions
 
 
-    def prepare_services(self, object):
-        values = list()
-        for service in object.services.all():
-            values.append(service.name)
-        return values
+    def prepare(self, obj):
+        data = super(BagnoIndex, self).prepare(obj)
+        data['services'] = list()
+        for service in obj.services.all():
+            data['services'].append(service.name)
+        return data
 
     def get_model(self):
         return Bagno
