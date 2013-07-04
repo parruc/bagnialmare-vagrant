@@ -4,6 +4,7 @@ import autoslug
 
 # Create your models here.
 
+
 class Bagno(models.Model):
     """ The model for Bagno object
     """
@@ -24,7 +25,7 @@ class Bagno(models.Model):
     tel = models.CharField(max_length=75, blank=True)
     fax = models.CharField(max_length=50, blank=True)
     site = models.URLField(max_length=75, blank=True)
-    point = models.PointField(blank=True, null=True)
+    point = models.PointField(null=True, blank=True)
 
     objects = models.GeoManager()
 
@@ -34,6 +35,7 @@ class Bagno(models.Model):
     @models.permalink
     def get_absolute_url(self):
         return ("bagno", [self.slug, ])
+
 
 class Service(models.Model):
     """ The model for Service object
