@@ -4,7 +4,6 @@ base:
         - git
         - lib
         - nginx
-        - python
         - shell
-#        - uwsgi
+        - uwsgi
 #        - virtualenv

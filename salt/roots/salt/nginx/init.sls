@@ -78,7 +78,7 @@ nginx_{{ host_name }}_static_dir:
 nginx_site_{{ host_name }}:
     file.managed:
         - name: /etc/nginx/sites-available/{{ host_name }}.vhost
-        - source: salt://nginx/config/sites-available/{{ host_name }}.vhost
+        - source: salt://nginx/config/sites-available/host.vhost
         - template: jinja
         - context:
             host: {{ host }}

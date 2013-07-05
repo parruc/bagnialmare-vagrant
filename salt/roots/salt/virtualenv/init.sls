@@ -1,23 +1,51 @@
-virtualenv_req:
+venv_reqs:
     pkg:
         - installed
         - names:
-            - python-virtualenv
+            - python2.7
+            - python2.7-dev
             - python-pip
+            - python-virtualenv
+            - hg #For pip checkout
+            - git #For pip checkout
+            - svn #For pip checkout
+            - supervisor
     pip:
         - installed
         - names:
             - virtualenvwrapper
 
-virtualenv_ombrelloni:
+{% for venv_name, venv in pillar['venv'].venvs.iteritems() %}
+venv_group_{{ venv_name }}:
+    group.present:
+        - name: {{ venv.group }}
+
+venv_user_{{ venv_name }}:
+    user.present:
+        - name: {{ venv.user }}
+        - password: {{ venv.pass }}
+        - groups:
+            - {{ venv.group }}
+        - shell: /bin/bash
+        - home: True
+        - system: True
+        - require:
+            - group: venv_group_{{ venv_name }}
+
+venv_{{ venv_name }}:
     virtualenv.managed:
-        - name: {{ pillar["django_path"] }}/venv
+        - name: {{ venv.path }}
         - no_site_packages: True
-        - requirements: salt://virtualenv/ombrelloni_requirements.txt
+        - packages: {{ venv.packages }}
+        - user: {{ venv.user }}
+        - group: {{ venv.group }}
+        - file_mode: 640
+        - replace: True
     require:
         - pkg: lib_reqs
-        - pkg: virtualenv_req
-        - pkg: postgres_ombrelloni_db
+        - pkg: virtualenv_reqs
+        - pkg: postgres_req
         - pkg: python_reqs
-        - pkg: git_ombrelloni
-        - pkg: nginx_ombrelloni
+        - pkg: git_reqs
+        - user: venv_user
+{% endfor %}
