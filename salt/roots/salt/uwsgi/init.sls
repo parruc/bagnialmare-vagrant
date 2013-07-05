@@ -19,8 +19,8 @@ uwsgi_conf_{{ uwsgi_name }}:
     file.managed:
         - name: {{ uwsgi.django_path }}/uwsgi.ini
         - source: salt://uwsgi/uwsgi.ini
-        - user: {{ venv.user }}
-        - group: {{ venv.group }}
+        - user: {{ uwsgi.user }}
+        - group: {{ uwsgi.group }}
         - file_mode: 640
         - replace: True
         - makedirs: True
@@ -52,8 +52,8 @@ uwsgi_supervisor_conf_{{ uwsgi_name }}:
 uwsgi_logs_{{ uwsgi_name }}:
     file.managed:
         - name: {{ uwsgi.home_path }}/log/uwsgi.log
-        - user: {{ venv.user }}
-        - group: {{ venv.group }}
+        - user: {{ uwsgi.user }}
+        - group: {{ uwsgi.group }}
         - replace: True
         - makedirs: True
         - file_mode: 640

@@ -4,7 +4,7 @@ venv:
             path : '/home/ombrelloni/venv'
             user: 'ombrelloni'
             group: 'ombrelloni'
-            password: 'cha*$YAd^th$sp+ca=Ew;tr2bru-Rs'
+            pass: 'cha*$YAd^th$sp+ca=Ew;tr2bru-Rs'
             packages:
                 - 'BeautifulSoup==3.2.1'
                 - 'Django==1.5.1'
