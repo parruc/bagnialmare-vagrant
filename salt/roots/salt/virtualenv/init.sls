@@ -6,9 +6,9 @@ venv_reqs:
             - python2.7-dev
             - python-pip
             - python-virtualenv
-            - hg #For pip checkout
+            - mercurial #For pip checkout
             - git #For pip checkout
-            - svn #For pip checkout
+            - subversion #For pip checkout
             - supervisor
     pip:
         - installed
@@ -42,10 +42,6 @@ venv_{{ venv_name }}:
         - file_mode: 640
         - replace: True
     require:
-        - pkg: lib_reqs
-        - pkg: virtualenv_reqs
-        - pkg: postgres_req
-        - pkg: python_reqs
-        - pkg: git_reqs
+        - pkg: venv_reqs
         - user: venv_user
 {% endfor %}

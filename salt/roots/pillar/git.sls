@@ -2,5 +2,5 @@ git:
     repos:
         ombrelloni:
             url: 'git@bitbucket.org:flyingfrog/4hm.git'
-            path: '/opt/django'
+            path: '/home/ombrelloni/django'
             branch: 'master'

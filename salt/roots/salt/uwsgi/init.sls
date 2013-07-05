@@ -36,15 +36,14 @@ uwsgi_supervisor_conf_{{ uwsgi_name }}:
     file.managed:
         - name: /etc/supervisor/conf.d/{{ uwsgi_name }}.conf
         - source: salt://uwsgi/supervisor.conf
+        - temlpate: jinja
+        - context:
+            uwsgi: {{ uwsgi }}
+            uwsgi_name: {{ uwsgi_name }}
         - user: root
         - group: root
         - file_mode: 640
         - replace: True
-        - makedirs: True
-        - temlpate: jinja
-        - context:
-            uwsgi_name: {{ uwsgi_name }}
-            uwsgi: {{ uwsgi }}
     require:
         - pkg: uwsgi_reqs
         - user: uwsgi_user_{{ uwsgi_name }}
@@ -54,9 +53,9 @@ uwsgi_logs_{{ uwsgi_name }}:
         - name: {{ uwsgi.home_path }}/log/uwsgi.log
         - user: {{ uwsgi.user }}
         - group: {{ uwsgi.group }}
+        - file_mode: 640
         - replace: True
         - makedirs: True
-        - file_mode: 640
 
 uwsgi_supervisor_{{ uwsgi_name }}:
     supervisord:
@@ -65,6 +64,5 @@ uwsgi_supervisor_{{ uwsgi_name }}:
             - file: uwsgi_supervisor_conf_{{ uwsgi_name }}
             - file: uwsgi_conf_{{ uwsgi_name }}
         - require:
-            - file:
-                uwsgi_logs_{{ uwsgi_name }}
+            - file: uwsgi_logs_{{ uwsgi_name }}
 {% endfor %}
