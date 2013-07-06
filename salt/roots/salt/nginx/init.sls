@@ -1,24 +1,9 @@
+{% set user = pillar['users'].nginx %}
 nginx_reqs:
     pkg:
         - installed
         - names:
             - nginx
-
-nginx_group:
-    group.present:
-        - name: {{ pillar['nginx'].group }}
-
-nginx_user:
-    user.present:
-        - name: {{ pillar['nginx'].user }}
-        - password: {{ pillar['nginx'].pass }}
-        - groups:
-            - {{ pillar['nginx'].group }}
-        - shell: /bin/bash
-        - home: False
-        - system: True
-        - require:
-            - group: nginx_group
 
 nginx_service:
     service.running:
@@ -26,30 +11,28 @@ nginx_service:
         - enabled: True
         - require:
             - pkg: nginx_reqs
-            - user: nginx_user
+            - user: user_nginx
         - watch:
             - file: /etc/nginx/*
 
 nginx_remove_default:
     file.absent:
         - name: /etc/nginx/sites-enabled/default
-    require:
-        - service: nginx_service
 
 {% for host_name, host in pillar['nginx'].hosts.iteritems() %}
 nginx_{{ host_name }}_error_log:
     file.touch:
         - name: {{ host.error_log }}
-        - user: {{ pillar['nginx'].user }}
-        - group: {{ pillar['nginx'].group }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - file_mode: 640
         - makedirs: True
 
 nginx_{{ host_name }}_access_log:
     file.touch:
         - name: {{ host.access_log }}
-        - user: {{ pillar['nginx'].user }}
-        - group: {{ pillar['nginx'].group }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - file_mode: 640
         - makedirs: True
 
@@ -58,8 +41,8 @@ nginx_{{ host_name }}_access_log:
 nginx_{{ host_name }}_media_dir:
     file.directory:
         - name: {{ host.media }}
-        - user: {{ pillar['nginx'].user }}
-        - group: {{ pillar['nginx'].group }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - mode: 755
         - makedirs: True
 {% endif %}
@@ -69,8 +52,8 @@ nginx_{{ host_name }}_media_dir:
 nginx_{{ host_name }}_static_dir:
     file.directory:
         - name: {{ host.static }}
-        - user: {{ pillar['nginx'].user }}
-        - group: {{ pillar['nginx'].group }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - mode: 755
         - makedirs: True
 {% endif %}
@@ -86,9 +69,8 @@ nginx_site_{{ host_name }}:
         - user: root
         - group: root
         - file_mode: 644
+        - makedirs: True
         - replace: True
-    require:
-        - service: nginx_service
 
 nginx_{{ host_name }}:
     file.symlink:

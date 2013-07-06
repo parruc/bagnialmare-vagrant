@@ -4,5 +4,7 @@ base:
         - nginx
         - django
         - postgres
+        - supervisor
+        - users
         - uwsgi
         - virtualenv

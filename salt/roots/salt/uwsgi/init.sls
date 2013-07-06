@@ -1,26 +1,19 @@
 {% for uwsgi_name, uwsgi in pillar['uwsgi'].uwsgis.iteritems() %}
-uwsgi_group_{{ uwsgi_name }}:
-    group.present:
-        - name: {{ uwsgi.group }}
+{% set user = pillar['users'][uwsgi_name] %}
 
-uwsgi_user_{{ uwsgi_name }}:
-    user.present:
-        - name: {{ uwsgi.user }}
-        - password: {{ uwsgi.pass }}
-        - groups:
-            - {{ uwsgi.group }}
-        - shell: /bin/bash
-        - home: True
-        - system: True
+uwsgi_reqs:
+    pip.installed:
+        - name: uwsgi
+        - bin_env: {{ uwsgi.venv_path }}/bin/pip
         - require:
-            - group: uwsgi_group_{{ uwsgi_name }}
+            - virtualenv: venv_{{ uwsgi_name }}
 
 uwsgi_conf_{{ uwsgi_name }}:
     file.managed:
         - name: {{ uwsgi.django_path }}/uwsgi.ini
         - source: salt://uwsgi/uwsgi.ini
-        - user: {{ uwsgi.user }}
-        - group: {{ uwsgi.group }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - file_mode: 640
         - replace: True
         - makedirs: True
@@ -28,41 +21,18 @@ uwsgi_conf_{{ uwsgi_name }}:
         - context:
             uwsgi_name: {{ uwsgi_name }}
             uwsgi: {{ uwsgi }}
-    require:
-        - pkg: uwsgi_reqs
-        - user: uwsgi_user_{{ uwsgi_name }}
-
-uwsgi_supervisor_conf_{{ uwsgi_name }}:
-    file.managed:
-        - name: /etc/supervisor/conf.d/{{ uwsgi_name }}.conf
-        - source: salt://uwsgi/supervisor.conf
-        - temlpate: jinja
-        - context:
-            uwsgi: {{ uwsgi }}
-            uwsgi_name: {{ uwsgi_name }}
-        - user: root
-        - group: root
-        - file_mode: 640
-        - replace: True
-    require:
-        - pkg: uwsgi_reqs
-        - user: uwsgi_user_{{ uwsgi_name }}
+            user: {{ user }}
+        - require:
+            - user: user_{{ uwsgi_name }}
 
 uwsgi_logs_{{ uwsgi_name }}:
     file.managed:
-        - name: {{ uwsgi.home_path }}/log/uwsgi.log
-        - user: {{ uwsgi.user }}
-        - group: {{ uwsgi.group }}
+        - name: /var/log/{{ uwsgi_name }}.log
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - file_mode: 640
-        - replace: True
         - makedirs: True
-
-uwsgi_supervisor_{{ uwsgi_name }}:
-    supervisord:
-        - running
-        - watch:
-            - file: uwsgi_supervisor_conf_{{ uwsgi_name }}
-            - file: uwsgi_conf_{{ uwsgi_name }}
         - require:
-            - file: uwsgi_logs_{{ uwsgi_name }}
+            - user: user_{{ uwsgi_name }}
+
 {% endfor %}

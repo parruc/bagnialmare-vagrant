@@ -11,6 +11,7 @@ git_key:
         - user: root
         - group: root
         - mode: 600
+        - makedirs: True
         - replace: True
 
 known_hosts:
@@ -20,6 +21,7 @@ known_hosts:
         - group: root
         - mode: 700
         - makedirs: True
+        - replace: True
 
 known_bitbucket:
     ssh_known_hosts:
@@ -27,8 +29,8 @@ known_bitbucket:
         - present
         - user: root
         - fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
-    require:
-        - file: known_hosts
+        - require:
+            - file: known_hosts
 
 
 {% for repo_name, repo in pillar['git'].repos.iteritems() %}
@@ -39,8 +41,8 @@ git_{{ repo_name }}:
         - target: {{ repo.path }}
         - force: True
         - identity: /root/.ssh/git_key
-    require:
-        - pkg: git_reqs
-        - file: git_key
-        - ssh_known_hosts: known_bitboucket
+        - require:
+            - pkg: git_reqs
+            - file: git_key
+            - ssh_known_hosts: known_bitbucket
 {% endfor %}

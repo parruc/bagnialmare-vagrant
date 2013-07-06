@@ -1,7 +1,4 @@
 nginx:
-    user: 'www-data'
-    group: 'www-data'
-    pass: '31xV#GHw7xH"vOov=Aer0fhJ7p5ojB'
     hosts:
         ombrelloni:
             server_name : 'ombrelloni.it'

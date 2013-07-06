@@ -5,5 +5,7 @@ base:
         - lib
         - nginx
         - shell
+        - supervisor
+        - users
         - uwsgi
         - virtualenv

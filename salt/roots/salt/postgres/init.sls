@@ -1,3 +1,5 @@
+{% set user = pillar['users'].postgres %}
+
 postgres_reqs:
     pkg:
         - installed
@@ -7,29 +9,13 @@ postgres_reqs:
             - postgresql-contrib-9.1
             - postgresql-9.1-postgis
 
-postgres_group:
-    group.present:
-        - name: {{ pillar['pg'].group }}
-
-postgres_user:
-    user.present:
-        - name: {{ pillar['pg'].user }}
-        - password: {{ pillar['pg'].pass }}
-        - groups:
-            - {{ pillar['pg'].group }}
-        - shell: /bin/bash
-        - home: False
-        - system: True
-        - require:
-            - group: postgres_group
-
 postgres_service:
     service.running:
         - name: postgresql
         - enable: True
-        - reload: True
+        - sig: postgresql
         - require:
-            - user: postgres_user
+            - user: user_postgres
             - pkg: postgres_reqs
         - watch:
             - file: postgresql_conf
@@ -40,11 +26,15 @@ postgresql_conf:
         - source: salt://postgres/postgresql.conf
         - name: /etc/postgresql/9.1/main/postgresql.conf
         - template: jinja
-        - user: {{ pillar['pg'].user }}
-        - group: {{ pillar['pg'].group }}
+        - context:
+            pg: {{ pillar['pg'] }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - mode: 644
+        - makedirs: True
+        - replace: True
         - require:
-            - user: postgres_user
+            - user: user_postgres
             - pkg: postgres_reqs
 
 pg_hba_conf:
@@ -52,11 +42,13 @@ pg_hba_conf:
         - source: salt://postgres/pg_hba.conf
         - name: /etc/postgresql/9.1/main/pg_hba.conf
         - template: jinja
-        - user: {{ pillar['pg'].user }}
-        - group: {{ pillar['pg'].group }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - mode: 644
+        - makedirs: True
+        - replace: True
         - require:
-            - user: postgres_user
+            - user: user_postgres
             - pkg: postgres_reqs
 
 {% for db_name, db in pillar['pg'].dbs.iteritems() %}
@@ -64,9 +56,9 @@ postgres_user_{{ db.owner }}:
     postgres_user.present:
         - name: {{ db.owner }}
         - password: {{ db.password }}
-        - runas: {{ pillar['pg'].user }}
+        - runas: {{ user.name }}
         - require:
-            - user: postgres_user
+            - user: user_postgres
             - service: postgres_service
 
 postgresql_database_{{ db_name }}:
@@ -74,7 +66,7 @@ postgresql_database_{{ db_name }}:
         - name: {{ db_name }}
         - owner: {{ db.owner }}
         - template: template0
-        - runas: {{ pillar['pg'].user }}
+        - runas: {{ user.name }}
         - require:
             - postgres_user: postgres_user_{{ db.owner }}
 
@@ -82,7 +74,7 @@ postgresql_database_{{ db_name }}:
 postgres_custom_psql_{{ db_name }}:
     cmd.run:
         - name: psql {{ db_name }} -c '{{ db.custom_psql }}'
-        - runas: {{ pillar['pg'].user }}
+        - runas: {{ user.name }}
         - require:
             - postgresql_database_{{ db_name }}
 {% endif %}

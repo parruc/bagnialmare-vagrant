@@ -8,8 +8,9 @@ shell_reqs:
             - locate
 
 /home/vagrant/.vimrc:
-    file:
-        - managed
+    file.managed:
         - source: salt://shell/vimrc
-    require:
-        - pkg: shell_reqs
+        - makedirs: True
+        - replace: True
+        - require:
+            - pkg: shell_reqs

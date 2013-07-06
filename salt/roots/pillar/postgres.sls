@@ -1,7 +1,5 @@
 pg:
-    user: 'postgres'
-    group: 'postgres'
-    pass: 'mU(.he)_ZH^APpeBFW7t^%szC24$]**Z{n74K'
+    ssl: 'false'
     dbs:
         ombrelloni:
             owner: 'ombrelloni'
