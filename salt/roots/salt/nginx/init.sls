@@ -45,6 +45,8 @@ nginx_{{ host_name }}_media_dir:
         - group: {{ user.group }}
         - mode: 755
         - makedirs: True
+        - require:
+            - pkg: nginx_reqs
 {% endif %}
 
 #TODO DA CREARE CON LO STESSO UTENTE DI DJANGO
@@ -56,6 +58,8 @@ nginx_{{ host_name }}_static_dir:
         - group: {{ user.group }}
         - mode: 755
         - makedirs: True
+        - require:
+            - pkg: nginx_reqs
 {% endif %}
 
 nginx_site_{{ host_name }}:
@@ -71,6 +75,8 @@ nginx_site_{{ host_name }}:
         - file_mode: 644
         - makedirs: True
         - replace: True
+        - require:
+            - pkg: nginx_reqs
 
 nginx_{{ host_name }}:
     file.symlink:
@@ -80,7 +86,9 @@ nginx_{{ host_name }}:
         - group: root
         - file_mode: 644
         - force: True
+        - makedirs: True
         - require:
+            - pkg: nginx_reqs
             - file: nginx_site_{{ host_name }}
             - file: nginx_{{ host_name }}_error_log
             - file: nginx_{{ host_name }}_access_log
