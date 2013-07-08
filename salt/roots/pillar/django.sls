@@ -1,10 +1,38 @@
 django:
-    settings:
+    djangos:
         ombrelloni:
-            dbengine: 'django.db.backends.postgresql_psycopg2'
-            dbname: 'ombrelloni'
-            dbuser: 'ombrelloni'
-            dbpassword: 'z?;YQcg-{*aL;ZZHeS"m9gJ}>c;d[m,aGD;e9y3a'
-            dbhost: 'localhost'
-            dbport: '5432'
-            secret_key: '0454a4c9fb8414f8208ef1ef31d3ca7c'
+            settings: 'settings'
+            path: '/home/ombrelloni/django'
+            db_engine: 'django.contrib.gis.db.backends.postgis'
+            db_host: 'localhost'
+            db_port: '5432'
+            debug: 'True'
+            installed_apps:
+                - 'django.contrib.auth'
+                - 'django.contrib.contenttypes'
+                - 'django.contrib.sessions'
+                - 'django.contrib.messages'
+                - 'django.contrib.staticfiles'
+                - 'django.contrib.admin'
+                - 'django.contrib.admindocs'
+                - 'django.contrib.gis'
+                - 'south'
+                - 'autoslug'
+                - 'haystack'
+                - 'bagni'
+            secret_key: 'u)-#(7qe0o9=+ez%ay0=vi#oc52*&4np3x5^m!!c6u$@yr5eud'
+            middleware:
+                - 'django.middleware.common.CommonMiddleware'
+                - 'django.contrib.sessions.middleware.SessionMiddleware'
+                - 'django.middleware.csrf.CsrfViewMiddleware'
+                - 'django.contrib.auth.middleware.AuthenticationMiddleware'
+                - 'django.contrib.messages.middleware.MessageMiddleware'
+            template_loaders:
+                - 'django.template.loaders.filesystem.Loader'
+                - 'django.template.loaders.app_directories.Loader'
+            staticfiles_finders:
+                - 'django.contrib.staticfiles.finders.FileSystemFinder'
+                - 'django.contrib.staticfiles.finders.AppDirectoriesFinder'
+            staticfiles_dirs: []
+
+
