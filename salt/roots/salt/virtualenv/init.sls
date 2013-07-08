@@ -9,7 +9,9 @@ venv_reqs:
             - git #For pip checkout
             - subversion #For pip checkout
     pip.installed:
-        - name: virtualenv
+        - names:
+            - virtualenv
+            - virtualenvwrapper
         - require:
             - pkg: venv_reqs
 
