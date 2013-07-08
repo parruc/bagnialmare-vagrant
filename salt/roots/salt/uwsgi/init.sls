@@ -1,5 +1,7 @@
 {% for uwsgi_name, uwsgi in pillar['uwsgi'].uwsgis.iteritems() %}
+{% set host = pillar['nginx']['hosts'][uwsgi_name] %}
 {% set user = pillar['users'][uwsgi_name] %}
+
 
 uwsgi_reqs:
     pip.installed:
@@ -17,21 +19,12 @@ uwsgi_conf_{{ uwsgi_name }}:
         - file_mode: 640
         - replace: True
         - makedirs: True
-        - temlpate: jinja
+        - template: jinja
         - context:
             uwsgi_name: {{ uwsgi_name }}
             uwsgi: {{ uwsgi }}
             user: {{ user }}
-        - require:
-            - user: user_{{ uwsgi_name }}
-
-uwsgi_logs_{{ uwsgi_name }}:
-    file.managed:
-        - name: /var/log/{{ uwsgi_name }}.log
-        - user: {{ user.name }}
-        - group: {{ user.group }}
-        - file_mode: 640
-        - makedirs: True
+            host: {{ host }}
         - require:
             - user: user_{{ uwsgi_name }}
 

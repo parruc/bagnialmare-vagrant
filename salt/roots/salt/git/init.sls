@@ -4,45 +4,57 @@ git_reqs:
         - names:
             - git
 
-git_key:
+{% for repo_name, repo in pillar['git'].repos.iteritems() %}
+{% set user = pillar['users'][repo_name] %}
+
+git_key_{{ repo_name }}:
     file.managed:
-        - name: /root/.ssh/git_key
+        - name: {{ user.home_path }}/.ssh/git_key
         - source: salt://git/id_rsa
-        - user: root
-        - group: root
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - mode: 600
         - makedirs: True
         - replace: True
 
-known_hosts:
+known_hosts_{{ repo_name }}:
     file.managed:
-        - name: /root/.ssh/known_hosts
-        - user: root
-        - group: root
+        - name: {{ user.home_path }}/.ssh/known_hosts
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - mode: 700
         - makedirs: True
         - replace: True
 
-known_bitbucket:
+known_bitbucket_{{ repo_name }}:
     ssh_known_hosts:
         - name: bitbucket.org
         - present
-        - user: root
+        - user: {{ user.name }}
         - fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
         - require:
-            - file: known_hosts
+            - file: known_hosts_{{ repo_name }}
 
+known_github_{{ repo_name }}:
+    ssh_known_hosts:
+        - name: github.com
+        - present
+        - user: {{ user.name }}
+        - fingerprint: 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48
+        - require:
+            - file: known_hosts_{{ repo_name }}
 
-{% for repo_name, repo in pillar['git'].repos.iteritems() %}
 git_{{ repo_name }}:
     git.latest:
         - name: {{ repo.url }}
         - rev: {{ repo.branch }}
         - target: {{ repo.path }}
         - force: True
-        - identity: /root/.ssh/git_key
+        - runas: {{ user.name }}
+        - identity: {{ user.home_path }}/.ssh/git_key
         - require:
             - pkg: git_reqs
-            - file: git_key
-            - ssh_known_hosts: known_bitbucket
+            - file: git_key_{{ repo_name }}
+            - ssh_known_hosts: known_bitbucket_{{ repo_name }}
+            - ssh_known_hosts: known_github_{{ repo_name }}
 {% endfor %}

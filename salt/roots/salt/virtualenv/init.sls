@@ -23,15 +23,26 @@ venv_{{ venv_name }}:
     virtualenv.managed:
         - name: {{ venv.path }}
         - no_site_packages: True
-        - packages: {{ venv.packages }}
         - python: python2.7
         - runas: {{ user.name }}
         - require:
             - pkg: venv_reqs
             - pip: venv_reqs
             - user: user_{{ venv_name }}
-{% endfor %}
 
+venv_pip_{{ venv_name }}:
+    pip.installed:
+        - names:
+    {% for package in venv.packages %}
+            - {{ package }}
+    {% endfor %}
+        - bin_env: {{ venv.path }}/bin/pip
+        - timeout: 3
+        - user: {{ user.name }}
+        - require:
+            - virtualenv: venv_{{ venv_name }}
+
+{% endfor %}
 
 venv_wrapper:
     cmd.run:

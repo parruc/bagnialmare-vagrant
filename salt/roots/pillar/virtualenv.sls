@@ -5,7 +5,6 @@ venv:
             packages:
                 - 'BeautifulSoup==3.2.1'
                 - 'Django==1.5.1'
-                - 'Fabric==1.6.1'
                 - 'Jinja2==2.7'
                 - 'MarkupSafe==0.18'
                 - 'Pillow==2.0.0'
@@ -15,8 +14,8 @@ venv:
                 - 'argparse==1.2.1'
                 - 'django-autoslug==1.6.1'
                 - 'docutils==0.10'
-                - '-e hg+https://parruc@bitbucket.org/mchaput/whoosh#egg=Whoosh'
-                - '-e git://github.com/parruc/django-haystack.git#egg=django-haystack'
+                - 'hg+https://bitbucket.org/mchaput/whoosh#egg=Whoosh'
+                - 'git+https://github.com/parruc/django-haystack.git#egg=django-haystack'
                 - 'ipdb==0.7'
                 - 'ipython==0.13.2'
                 - 'lxml==3.2.1'

@@ -4,7 +4,7 @@ server {
 
     server_name {{ host.server_name }} www.{{ host.server_name }};
 
-    root   {{ host.root }};
+    root   {{ host.web }};
 
 
 
@@ -78,7 +78,7 @@ server {
         gzip_static on;
         gzip_disable "MSIE [1-6]\.(?!.*SV1)";
         gzip_types application/x-javascript text/css;
-        alias {{ host.root }}/static/;
+        alias {{ host.static }};
     }
 {% endif %}
 {% if host.media %}
@@ -86,7 +86,7 @@ server {
         gzip_static on;
         gzip_disable "MSIE [1-6]\.(?!.*SV1)";
         gzip_types application/x-javascript text/css;
-        alias {{ host.root }}/media/;
+        alias {{ host.media }};
     }
 {% endif %}
 
