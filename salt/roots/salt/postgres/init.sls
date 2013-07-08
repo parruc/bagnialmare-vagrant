@@ -55,7 +55,7 @@ pg_hba_conf:
 postgres_user_{{ db.owner }}:
     postgres_user.present:
         - name: {{ db.owner }}
-        - password: {{ db.password }}
+        - password: {{ db.pass }}
         - runas: {{ user.name }}
         - require:
             - user: user_postgres
@@ -63,7 +63,7 @@ postgres_user_{{ db.owner }}:
 
 postgresql_database_{{ db_name }}:
     postgres_database.present:
-        - name: {{ db_name }}
+        - name: {{ db.name }}
         - owner: {{ db.owner }}
         - template: template0
         - runas: {{ user.name }}
@@ -73,7 +73,7 @@ postgresql_database_{{ db_name }}:
 {% if custom_psql in db %}
 postgres_custom_psql_{{ db_name }}:
     cmd.run:
-        - name: psql {{ db_name }} -c '{{ db.custom_psql }}'
+        - name: psql {{ db.name }} -c '{{ db.custom_psql }}'
         - runas: {{ user.name }}
         - require:
             - postgresql_database_{{ db_name }}

@@ -31,3 +31,10 @@ venv_{{ venv_name }}:
             - pip: venv_reqs
             - user: user_{{ venv_name }}
 {% endfor %}
+
+
+venv_wrapper:
+    cmd.run:
+        - name: source /usr/local/bin/virtualenvwrapper.sh
+        - require:
+            - pip: venv_reqs

@@ -1,9 +1,10 @@
 base:
     '*':
-        - postgres
+        - django
         - git
         - lib
         - nginx
+        - postgres
         - shell
         - supervisor
         - users

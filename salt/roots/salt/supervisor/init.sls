@@ -1,39 +1,43 @@
-{% for sup_name, sup in pillar['sup'].sups.iteritems() %}
-{% set user = pillar['users'][sup_name] %}
+sup_reqs:
+    pkg:
+        - installed
+        - names:
+            - supervisor
 
-sup_reqs_{{ sup_name }}:
-    pip.installed:
-        - name: supervisor
-        - bin_env: {{ sup.venv_path }}/bin/pip
+sup_service:
+    service.running:
+        - name: supervisord
+        - watch:
+            - file: /etc/supervisor/*
+        - require:
+            - pkg: sup_reqs
+
+{% for sup_name, sup in pillar['sup'].sups.iteritems() %}
 
 sup_conf_{{ sup_name }}:
     file.managed:
-        - name: {{ sup.venv_path }}/{{ sup_name }}.conf
+        - name: /etc/supervisor/conf.d/{{ sup_name }}.conf
         - source: salt://supervisor/supervisor.conf
-        - temlpate: jinja
+        - template: jinja
         - context:
             sup: {{ sup }}
             sup_name: {{ sup_name }}
-        - user: {{ user.name }}
-        - group: {{ user.group }}
         - file_mode: 640
         - replace: True
         - makedirs: True
         - require:
-            - pip: sup_reqs_{{ sup_name }}
+            - pkg: sup_reqs
 
 sup_service_{{ sup_name }}:
     supervisord.running:
         - name: {{ sup_name }}
-        - bin_env: {{ sup.venv_path }}
-        - conf_file: {{ sup.venv_path }}/{{ sup_name }}.conf
-        - runas: {{ user.name }}
+        - conf_file: /etc/supervisor/conf.d/{{ sup_name }}.conf
         - watch:
-            - file: sup_conf_{{ sup_name }}
             - file: uwsgi_conf_{{ sup_name }}
         - require:
+            - service: sup_service
+            - file: sup_conf_{{ sup_name }}
             - file: uwsgi_logs_{{ sup_name }}
-            - pip: uwsgi_reqs
-
 
 {% endfor %}
+
