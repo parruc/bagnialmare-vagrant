@@ -27,18 +27,18 @@ known_hosts_{{ repo_name }}:
         - replace: True
 
 known_bitbucket_{{ repo_name }}:
-    ssh_known_hosts:
+    ssh_known_hosts.present:
         - name: bitbucket.org
-        - present
         - user: {{ user.name }}
+        - config: {{ user.home_path }}/.ssh/known_hosts
         - fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
         - require:
             - file: known_hosts_{{ repo_name }}
 
 known_github_{{ repo_name }}:
-    ssh_known_hosts:
+    ssh_known_hosts.present:
         - name: github.com
-        - present
+        - config: {{ user.home_path }}/.ssh/known_hosts
         - user: {{ user.name }}
         - fingerprint: 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48
         - require:
@@ -49,7 +49,6 @@ git_{{ repo_name }}:
         - name: {{ repo.url }}
         - rev: {{ repo.branch }}
         - target: {{ repo.path }}
-        - force: True
         - runas: {{ user.name }}
         - identity: {{ user.home_path }}/.ssh/git_key
         - require:
