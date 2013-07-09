@@ -2,7 +2,7 @@ django:
     djangos:
         ombrelloni:
             settings: 'settings'
-            path: '/home/ombrelloni/django'
+            path: '/var/www/ombrelloni.it/django'
             db_engine: 'django.contrib.gis.db.backends.postgis'
             db_host: 'localhost'
             db_port: '5432'

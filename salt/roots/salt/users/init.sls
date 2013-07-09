@@ -1,3 +1,12 @@
+user_reqs:
+    pkg:
+        - installed
+        - names:
+            - vim
+            - less
+            - screen
+            - locate
+
 {% for user_name, user in pillar['users'].iteritems() %}
 
 group_{{ user_name }}:
@@ -11,15 +20,28 @@ user_{{ user_name }}:
         - groups:
             - {{ user.group }}
         - shell: /bin/bash
-{% if 'home_path' in user %}
-        - home: {{ user.home_path }}
-        - create_home: True
-{% endif %}
         - system: True
         - require:
             - group: group_{{ user_name }}
 
-{% if 'home_path' in user %}
+    {% if 'home_path' in user %}
+user_home_{{ user_name }}:
+    file.directory:
+        - name: {{ user.home_path }}
+        - makedirs: True
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - require:
+            - user: user_{{ user_name }}
+
+user_with_home_{{ user_name }}:
+    user.present:
+        - name: {{ user.name }}
+        - home: {{ user.home_path }}
+        - require:
+            - user: user_{{ user_name }}
+            - file: user_home_{{ user_name }}
+
 bashrc_{{ user_name }}:
     file.managed:
         - name: {{ user.home_path }}/.bashrc
@@ -31,5 +53,15 @@ bashrc_{{ user_name }}:
         - makedirs: True
         - require:
             - user: user_{{ user_name }}
-{% endif %}
+
+vimrc_{{ user_name }}:
+    file.managed:
+        - name: {{ user.home_path }}/.vimrc
+        - source: salt://users/.vimrc
+        - makedirs: True
+        - replace: True
+        - require:
+            - pkg: user_reqs
+            - user: user_{{ user_name }}
+    {% endif %}
 {% endfor %}

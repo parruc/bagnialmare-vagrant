@@ -26,9 +26,10 @@ venv_{{ venv_name }}:
         - python: python2.7
         - runas: {{ user.name }}
         - require:
+            - pkg: lib_reqs
             - pkg: venv_reqs
             - pip: venv_reqs
-            - user: user_{{ venv_name }}
+            - user: user_with_home_{{ venv_name }}
 
 venv_pip_{{ venv_name }}:
     pip.installed:

@@ -26,6 +26,20 @@ uwsgi_conf_{{ uwsgi_name }}:
             user: {{ user }}
             host: {{ host }}
         - require:
-            - user: user_{{ uwsgi_name }}
+            - git: git_{{ uwsgi_name }}
+            - user: user_with_home_{{ uwsgi_name }}
+            - file: uwsgi_logs_{{ uwsgi_name }}
+
+uwsgi_logs_{{ uwsgi_name }}:
+    file.managed:
+        - name: {{ host.root }}/log/uwsgi.log
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - file_mode: 640
+        - makedirs: True
+        - replace: True
+        - require:
+            - user: user_with_home_{{ uwsgi_name }}
+
 
 {% endfor %}

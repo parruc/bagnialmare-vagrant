@@ -3,5 +3,5 @@ git:
         ombrelloni:
             name: 'ombrelloni'
             url: 'git@bitbucket.org:flyingfrog/4hm.git'
-            path: '/home/ombrelloni/django'
+            path: '/var/www/ombrelloni.it/django'
             branch: 'master'

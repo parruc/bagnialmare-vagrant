@@ -16,7 +16,7 @@ django_wsgi_{{ django_name }}:
             django_name: {{ django_name }}
         - require:
             - virtualenv: venv_{{ django_name }}
-            - user: user_{{ django_name }}
+            - user: user_with_home_{{ django_name }}
 
 django_settings_{{ django_name }}:
     file.managed:
@@ -33,7 +33,7 @@ django_settings_{{ django_name }}:
             django_name: {{ django_name }}
         - require:
             - virtualenv: venv_{{ django_name }}
-            - user: user_{{ django_name }}
+            - user: user_with_home_{{ django_name }}
 
 {% endfor %}
 

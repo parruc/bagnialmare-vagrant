@@ -1,4 +1,3 @@
-{% set user = pillar['users'].nginx %}
 nginx_reqs:
     pkg:
         - installed
@@ -20,23 +19,43 @@ nginx_remove_default:
         - name: /etc/nginx/sites-enabled/default
 
 {% for host_name, host in pillar['nginx'].hosts.iteritems() %}
+{% set user = pillar['users'][host_name] %}
+
+nginx_{{ host_name }}_error_pages:
+    file.recurse:
+        - name: {{ host.error_pages }}
+        - source: salt://nginx/error
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - file_mode: 640
+        - dir_mode: 755
+        - template: jinja
+        - context:
+            host: {{ host }}
+        - makedirs: True
+        - require:
+            - user: user_with_home_{{ host_name }}
+
 nginx_{{ host_name }}_error_log:
-    file.touch:
+    file.managed:
         - name: {{ host.error_log }}
         - user: {{ user.name }}
         - group: {{ user.group }}
         - file_mode: 640
         - makedirs: True
+        - require:
+            - user: user_with_home_{{ host_name }}
 
 nginx_{{ host_name }}_access_log:
-    file.touch:
+    file.managed:
         - name: {{ host.access_log }}
         - user: {{ user.name }}
         - group: {{ user.group }}
         - file_mode: 640
         - makedirs: True
+        - require:
+            - user: user_with_home_{{ host_name }}
 
-#TODO DA CREARE CON LO STESSO UTENTE DI DJANGO
 {% if host.media %}
 nginx_{{ host_name }}_media_dir:
     file.directory:
@@ -46,10 +65,10 @@ nginx_{{ host_name }}_media_dir:
         - mode: 755
         - makedirs: True
         - require:
+            - user: user_with_home_{{ host_name }}
             - pkg: nginx_reqs
 {% endif %}
 
-#TODO DA CREARE CON LO STESSO UTENTE DI DJANGO
 {% if host.static %}
 nginx_{{ host_name }}_static_dir:
     file.directory:
@@ -59,6 +78,7 @@ nginx_{{ host_name }}_static_dir:
         - mode: 755
         - makedirs: True
         - require:
+            - user: user_with_home_{{ host_name }}
             - pkg: nginx_reqs
 {% endif %}
 

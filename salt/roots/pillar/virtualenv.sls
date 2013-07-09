@@ -1,7 +1,7 @@
 venv:
     venvs:
         ombrelloni:
-            path : '/home/ombrelloni/venv'
+            path : '/var/www/ombrelloni.it/venv'
             packages:
                 - 'BeautifulSoup==3.2.1'
                 - 'Django==1.5.1'

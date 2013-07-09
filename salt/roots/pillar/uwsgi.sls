@@ -1,8 +1,8 @@
 uwsgi:
     uwsgis:
         ombrelloni:
-            venv_path : '/home/ombrelloni/venv'
-            django_path: '/home/ombrelloni/django'
+            venv_path : '/var/www/ombrelloni.it/venv'
+            django_path: '/var/www/ombrelloni.it/django'
             socket_owner: 'www-data'
             processes: 2
 

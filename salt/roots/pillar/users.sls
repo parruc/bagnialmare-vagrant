@@ -7,7 +7,7 @@ users:
         name: 'ombrelloni'
         group: 'ombrelloni'
         pass: 'cha*$YAd^th$sp+ca=Ew;tr2bru-Rs'
-        home_path: '/home/ombrelloni'
+        home_path: '/var/www/ombrelloni.it'
     nginx:
         name: 'www-data'
         group: 'www-data'

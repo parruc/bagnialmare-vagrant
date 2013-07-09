@@ -1,6 +1,6 @@
 sup:
     sups:
         ombrelloni:
-            venv_path: '/home/ombrelloni/venv'
-            django_path: '/home/ombrelloni/django'
+            venv_path: '/var/www/ombrelloni.it/venv'
+            django_path: '/var/www/ombrelloni.it/django'
 

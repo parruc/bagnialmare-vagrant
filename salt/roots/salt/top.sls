@@ -5,7 +5,6 @@ base:
         - lib
         - nginx
         - postgres
-        - shell
         - supervisor
         - users
         - uwsgi

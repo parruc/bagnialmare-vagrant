@@ -44,6 +44,7 @@ sup_service_{{ sup_name }}:
             - service: sup_service
             - file: sup_conf_{{ sup_name }}
             - file: sup_logs_{{ sup_name }}
+            - git: git_{{ sup_name }}
 
 sup_logs_{{ sup_name }}:
     file.managed:
@@ -54,7 +55,7 @@ sup_logs_{{ sup_name }}:
         - makedirs: True
         - replace: True
         - require:
-            - user: user_{{ sup_name }}
+            - user: user_with_home_{{ sup_name }}
 
 {% endfor %}
 
