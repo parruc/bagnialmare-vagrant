@@ -2,13 +2,13 @@ lib_reqs:
     pkg:
         - installed
         - names:
-            - libjpeg62
-            - libjpeg-dev
+            - libjpeg8
+            - libjpeg8-dev
             - libxml2
             - libxml2-dev
             - libxslt1.1
             - libxslt-dev
-            - libtiff5
-            - libtiff-dev
+            - libtiff4
+            - libtiff4-dev
             - libzip2
             - libzip-dev
