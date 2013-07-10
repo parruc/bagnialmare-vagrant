@@ -27,12 +27,13 @@ nginx_{{ host_name }}_error_pages:
         - source: salt://nginx/error
         - user: {{ user.name }}
         - group: {{ user.group }}
-        - file_mode: 640
+        - file_mode: 644
         - dir_mode: 755
         - template: jinja
         - context:
             host: {{ host }}
         - makedirs: True
+        - replace: True
         - require:
             - user: user_with_home_{{ host_name }}
 

@@ -1,8 +1,5 @@
 # Django settings for ombrelloni project.
 
-{% set db = pillar['pg']['dbs'][django_name] %}
-{% set host = pillar['nginx']['hosts'][django_name] %}
-
 import os
 
 DEBUG = {{ django.debug }}

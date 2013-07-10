@@ -27,4 +27,5 @@ venv:
                 - 'sorl-thumbnail==11.12'
                 - 'uWSGI==1.9.13'
                 - 'wsgiref==0.1.2'
+                - 'Paste==1.7.5.1'
 

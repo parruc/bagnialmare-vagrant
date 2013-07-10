@@ -14,12 +14,14 @@ sup_service:
             - pkg: sup_reqs
 
 {% for sup_name, sup in pillar['sup'].sups.iteritems() %}
-{% set host = pillar['nginx']['hosts'][sup_name] %}
+{% set host = pillar['nginx'].hosts[sup_name] %}
 {% set user = pillar['users'][sup_name] %}
+{% set django = pillar['django'].djangos[sup_name] %}
+{% set venv = pillar['venv'].venvs[sup_name] %}
 
 sup_conf_{{ sup_name }}:
     file.managed:
-        - name: /etc/supervisor/conf.d/{{ sup_name }}.conf
+        - name: {{ sup.conf }}
         - source: salt://supervisor/supervisor.conf
         - user: root
         - group: root
@@ -27,7 +29,9 @@ sup_conf_{{ sup_name }}:
         - context:
             sup: {{ sup }}
             sup_name: {{ sup_name }}
+            django: {{ django }}
             host: {{ host }}
+            venv: {{ venv }}
         - file_mode: 640
         - replace: True
         - makedirs: True

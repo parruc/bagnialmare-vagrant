@@ -51,6 +51,28 @@ pg_hba_conf:
             - user: user_postgres
             - pkg: postgres_reqs
 
+postgres_postgis_add_script:
+    file.managed:
+        - source: salt://postgres/create_template_postgis-debian.sh
+        - name: /tmp/create_template_postgis-debian.sh
+        - mode: 700
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - makedirs: True
+        - replace: True
+        - require:
+            - user: user_postgres
+            - service: postgres_service
+
+postgres_postgis_create_template:
+    cmd.run:
+        - name: /tmp/create_template_postgis-debian.sh
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - unless: psql -c "SELECT postgis_lib_version();" template_postgis
+        - require:
+            - file: postgres_postgis_add_script
+
 {% for db_name, db in pillar['pg'].dbs.iteritems() %}
 postgres_user_{{ db.owner }}:
     postgres_user.present:
@@ -65,18 +87,19 @@ postgresql_database_{{ db_name }}:
     postgres_database.present:
         - name: {{ db.name }}
         - owner: {{ db.owner }}
-        - template: template0
+        - template: template_postgis
         - runas: {{ user.name }}
         - require:
             - postgres_user: postgres_user_{{ db.owner }}
 
-{% if custom_psql in db %}
+{% if 'custom_psql' in db %}
 postgres_custom_psql_{{ db_name }}:
     cmd.run:
         - name: psql {{ db.name }} -c '{{ db.custom_psql }}'
-        - runas: {{ user.name }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
         - require:
-            - postgresql_database_{{ db_name }}
+            - postgres_database: postgresql_database_{{ db_name }}
 {% endif %}
 
 {% endfor %}
