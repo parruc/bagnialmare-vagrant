@@ -1,2 +1,5 @@
 {{ object.name }}
 {{ object.city }}
+{% for object_service in object.services.all %}
+    {{ object_service.name }}
+{% endfor %}
