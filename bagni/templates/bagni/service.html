@@ -1,20 +1,15 @@
-{% extends "base.html" %}
+{% load thumbnail i18n %}
 
-{% load i18n %}
+<h1>
+    {{ object.name }}
+</h1>
 
-{% block main_content %}
-    {% with object.bagno_set.all as bagni %}
-        <ul>
-        {% for bagno in bagni %}
-            <li><a href="{{ bagno.get_absolute_url }}">{{ bagno.name }}</a></li>
-        {% empty %}
-            <li>{% trans Nessun bagno ha questo servizio%}</li>
-        {% endfor %}
-        </ul>
-    {% endwith %}
-{% endblock main_content %}
-
-
-{% block title %}{{ object.name }}{% endblock title %}
-
-{% block pagetitle %}{{ object.name }}{% endblock pagetitle %}
+{% with object.bagno_set.all as bagni %}
+    <ul>
+    {% for bagno in bagni %}
+        <li><a href="{{ bagno.get_absolute_url }}">{{ bagno.name }}</a></li>
+    {% empty %}
+        <li>{% trans Nessun bagno ha questo servizio%}</li>
+    {% endfor %}
+    </ul>
+{% endwith %}
