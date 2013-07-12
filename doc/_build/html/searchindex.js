@@ -1,0 +1,1 @@
+Search.setIndex({envversion:42,terms:{index:0,search:0,modul:0,content:0,model:0,page:0,view:0},objtypes:{},objnames:{},filenames:["index","modules/models","modules/views"],titles:["Welcome to Ombrelloni&#8217;s documentation!","Models","Views"],objects:{},titleterms:{ombrelloni:0,welcom:0,indic:0,tabl:0,model:1,document:0,view:2}})
