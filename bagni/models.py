@@ -1,5 +1,6 @@
 from django.contrib.gis.db import models
 from django.utils.translation import ugettext_lazy as _
+from sorl.thumbnail import ImageField
 import autoslug
 
 # Create your models here.
@@ -73,3 +74,18 @@ class Service(models.Model):
     def __unicode__(self):
         return self.name
 
+
+class Image(models.Model):
+    """
+    """
+    class Meta:
+        verbose_name = _('Image')
+        verbose_name_plural = _('Images')
+
+    name = models.CharField(max_length=50)
+    slug = autoslug.AutoSlugField(max_length=50,
+                                  populate_from='name',
+                                  verbose_name=_("Slug"),
+                                  unique=True)
+    image = ImageField(upload_to="images/bagni", verbose_name=_("Image"))
+    bagno = models.ForeignKey(Bagno, verbose_name=_("Bagno"))

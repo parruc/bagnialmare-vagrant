@@ -3,3 +3,4 @@ import models
 
 admin.site.register(models.Bagno, admin.GeoModelAdmin)
 admin.site.register(models.Service, admin.GeoModelAdmin)
+admin.site.register(models.Image, admin.GeoModelAdmin)

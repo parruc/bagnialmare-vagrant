@@ -7,6 +7,16 @@
     {{ object.name }}
 </h1>
 
+{% with object.image_set.all|first as bagno_image %}
+    {% thumbnail bagno_image.image "200x200" crop="center" as thumb %}
+        <img class="bagno-image"
+            width="{{thumb.width}}"
+            height="{{thumb.height}}"
+            src="{{ thumb.url }}"
+            alt="{{ bagno_image.image.title }}" />
+    {% endthumbnail %}
+{% endwith %}
+
 {% if object.services.all %}
     {% regroup object.services.all by get_category_display as categorized_services %}
     <h2>{% trans Services %}</h2>
