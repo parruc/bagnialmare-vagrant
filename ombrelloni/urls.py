@@ -10,7 +10,7 @@ from haystack.views import FacetedSearchView
 from django.contrib.gis import admin
 admin.autodiscover()
 
-sqs = SearchQuerySet().facet('services')
+sqs = SearchQuerySet().facet('services').facet('city')
 
 urlpatterns = i18n_patterns('',
     #Bagni urls

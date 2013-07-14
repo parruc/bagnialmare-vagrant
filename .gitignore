@@ -1,4 +1,7 @@
 *.pyc
-ombrelloni/scripts/scraping/html_dump/*.html
-ombrelloni/doc/_*
+scripts/scraping/html_dump/*.html
+doc/_*
 ombrelloni/whoosh_index
+ombrelloni/settings.py
+uwsgi.ini
+wsgi.py
