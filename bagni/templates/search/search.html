@@ -2,7 +2,7 @@
 
 {% load i18n %}
 
-{% block maincontent %}
+{% block main_content %}
     <form method="get" action=".">
         <table>
             {{ form.as_table }}
@@ -36,7 +36,7 @@
             {# Show some example queries to run, maybe query syntax, something else? #}
         {% endif %}
     </form>
-{% endblock maincontent %}
+{% endblock main_content %}
 
 {% block title %}
     {% trans "Search" %}

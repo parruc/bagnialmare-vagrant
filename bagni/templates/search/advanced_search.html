@@ -2,7 +2,7 @@
 
 {% load i18n %}
 
-{% block maincontent %}
+{% block main_content %}
     <form method="get" action=".">
         <table>
             <tbody>
@@ -17,13 +17,13 @@
 
     {% if query %}
         <!-- Begin faceting. -->
-        <h2>{% trans "By Service" %}</h2>
+        <h2>{% trans "Restrict results" %}</h2>
 
         <div class="span3">
             <dl>
                 {% for facet_name, facet in facets.fields.items %}
                     <dt>{% trans facet_name %}</dt>
-                    {% for facet_value in facet %}
+                    {% for facet_value in facet|slice:":10" %}
                         <dd><a href="{{ request.get_full_path }}&amp;selected_facets={{ facet_name }}_exact:{{ facet_value.0|urlencode }}">{{ facet_value.0 }}</a> ({{ facet_value.1 }})</dd>
                     {% endfor %}
                     {% if not facet %}
@@ -47,7 +47,7 @@
             {% endfor %}
         </div>
     {% endif %}
-{% endblock maincontent %}
+{% endblock main_content %}
 
 {% block title %}
     {% trans "Advanced Search" %}
