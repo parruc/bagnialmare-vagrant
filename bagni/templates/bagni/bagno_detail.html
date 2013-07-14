@@ -1,8 +1,20 @@
 {% extends "base.html" %}
 
-{% load i18n %}
+{% load i18n thumbnail %}
 
 {% block main_content %}
+
+    {% with object.image_set.all|first as bagno_image %}
+        {% thumbnail bagno_image.image "200x200" crop="center" as thumb %}
+            <img class="bagno-image"
+                width="{{thumb.width}}"
+                height="{{thumb.height}}"
+                src="{{ thumb.url }}"
+                alt="{{ bagno_image.image.title }}" />
+        {% endthumbnail %}
+    {% endwith %}
+
+
     {% if object.services.all %}
         {% regroup object.services.all by get_category_display as categorized_services %}
         <h2>{% trans Services %}</h2>
@@ -35,39 +47,6 @@
     {{ object.name }}
 {% endblock pagetitle %}
 
-{% with object.image_set.all|first as bagno_image %}
-    {% thumbnail bagno_image.image "200x200" crop="center" as thumb %}
-        <img class="bagno-image"
-            width="{{thumb.width}}"
-            height="{{thumb.height}}"
-            src="{{ thumb.url }}"
-            alt="{{ bagno_image.image.title }}" />
-    {% endthumbnail %}
-{% endwith %}
-
-{% if object.services.all %}
-    {% regroup object.services.all by get_category_display as categorized_services %}
-    <h2>{% trans Services %}</h2>
-    <ul>
-    {% for categorized_service in categorized_services %}
-        <li>{{ categorized_service.grouper }}
-        <ul>
-            {% for service in categorized_service.list %}
-              <li>{{ service.name }}</li>
-            {% endfor %}
-        </ul>
-        </li>
-    {% endfor %}
-    </ul>
-{% endif %}
-
-<h2>{% trans Contacts %}</h2>
-<p>{{ object.address }} - {{ object.city }}</p>
-<p>{{ object.mail }}</p>
-<p>{{ object.tel }}</p>
-<p>{{ object.fax }}</p>
-<p>{{ object.site }}</p>
-<p>{{ object.point }}</p>
 {% block title %}
     {% if object.number %}
         {{ object.number }} -
