@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% load i18n thumbnail %}
+{% load l10n i18n thumbnail %}
 
 {% block main_content %}
 
@@ -37,8 +37,23 @@
     <p>{{ object.tel }}</p>
     <p>{{ object.fax }}</p>
     <p>{{ object.site }}</p>
-    <p>{{ object.point }}</p>
+    <div id="bagno_map" style="width: 600px; height: 400px"></div>
 {% endblock main_content %}
+
+{% block specific_js %}
+    <script type="text/javascript">
+    var map
+    $(function() {
+        map = L.map('bagno_map').setView([{{ object.point.y|unlocalize }}, {{ object.point.x|unlocalize }}], 13);
+        L.tileLayer('http://{s}.tile.cloudmade.com/8def8118b32e4f8eaba97e1e68ebd068/997/256/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
+        }).addTo(map);
+        var marker = L.marker([{{ object.point.y|unlocalize }}, {{ object.point.x|unlocalize }}]).addTo(map);
+        marker.bindPopup("<strong>{{ object.name }}</strong><em>{{ object.address }}</em><br>").openPopup();
+    });
+    </script>
+{% endblock specific_js %}
 
 {% block pagetitle %}
     {% if object.number %}
