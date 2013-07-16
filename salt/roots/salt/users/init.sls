@@ -68,6 +68,7 @@ vimrc_{{ user_name }}:
         - require:
             - file: user_with_home_{{ user_name }}
 
+        {% if grains['configuration'] == 'local' %}
 keys_{{ user_name }}:
     cmd.run:
         - name: "cp /home/vagrant/.ssh/authorized_keys {{ user.home_path }}/.ssh/authorized_keys"
@@ -83,7 +84,7 @@ keys-permission_{{ user_name }}:
         - file_mode: 700
         - require:
             - cmd: keys_{{ user_name }}
-
+        {% endif %}
     {% else %}
 user_{{ user_name }}:
     user.present:
