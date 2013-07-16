@@ -39,11 +39,16 @@ ALLOWED_HOSTS = []
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Europe/Rome'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'it' #default lnguage?!?
+
+LANGUAGES = [
+    ('en', 'English'),
+    ('it', 'Italiano'),
+]
 
 SITE_ID = 1
 
@@ -115,6 +120,12 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+FIXTURE_DIRS = (
+    {% for fixture_dir in django.fixture_dirs %}
+        os.path.join(os.path.dirname(__file__), '{{ fixture_dir }}'),
+    {% endfor %}
+)
+
 ROOT_URLCONF = '{{ django_name }}.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
@@ -124,6 +135,9 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    {% for template_dir in django.template_dirs %}
+        os.path.join(os.path.dirname(__file__), '{{ template_dir }}'),
+    {% endfor %}
 )
 
 INSTALLED_APPS = (

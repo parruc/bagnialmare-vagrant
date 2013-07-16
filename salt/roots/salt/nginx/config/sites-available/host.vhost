@@ -78,7 +78,7 @@ server {
         gzip_static on;
         gzip_disable "MSIE [1-6]\.(?!.*SV1)";
         gzip_types application/x-javascript text/css;
-        alias {{ host.static }};
+        root {{ host.web }};
     }
 {% endif %}
 {% if host.media %}
@@ -86,7 +86,7 @@ server {
         gzip_static on;
         gzip_disable "MSIE [1-6]\.(?!.*SV1)";
         gzip_types application/x-javascript text/css;
-        alias {{ host.media }};
+        root {{ host.web }};
     }
 {% endif %}
 
@@ -94,7 +94,12 @@ server {
     location / {
         include uwsgi_params;
         uwsgi_pass unix:/tmp/uwsgi_{{ host_name }}.sock;
-    #    proxy_pass http://localhost:8000;
+    }
+    location /debug/ {
+        rewrite ^/debug/(.*)$  /$1  break;
+        include uwsgi_params;
+        proxy_pass http://localhost:8000;
+        proxy_intercept_errors off;
     }
     proxy_intercept_errors on;
 }

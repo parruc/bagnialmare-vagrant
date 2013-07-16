@@ -59,7 +59,7 @@ sup_logs_{{ sup_name }}:
         - makedirs: True
         - replace: True
         - require:
-            - user: user_with_home_{{ sup_name }}
+            - file: user_with_home_{{ sup_name }}
 
 {% endfor %}
 

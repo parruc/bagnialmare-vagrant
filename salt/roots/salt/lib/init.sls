@@ -7,7 +7,7 @@ lib_reqs:
             - libxml2
             - libxml2-dev
             - libxslt1.1
-            - libxslt-dev
+            - libxslt1-dev
             - libtiff4
             - libtiff4-dev
             - libzip2

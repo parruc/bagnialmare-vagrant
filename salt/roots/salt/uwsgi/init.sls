@@ -31,7 +31,7 @@ uwsgi_conf_{{ uwsgi_name }}:
             venv: {{ venv }}
         - require:
             - git: git_{{ uwsgi_name }}
-            - user: user_with_home_{{ uwsgi_name }}
+            - file: user_with_home_{{ uwsgi_name }}
             - file: uwsgi_logs_{{ uwsgi_name }}
 
 uwsgi_logs_{{ uwsgi_name }}:
@@ -43,7 +43,7 @@ uwsgi_logs_{{ uwsgi_name }}:
         - makedirs: True
         - replace: True
         - require:
-            - user: user_with_home_{{ uwsgi_name }}
+            - file: user_with_home_{{ uwsgi_name }}
 
 
 {% endfor %}

@@ -15,11 +15,11 @@ git_ssh_folder_{{ repo_name }}:
         - dir_mode: 700
         - makedirs: True
         - require:
-            - user: user_with_home_{{ repo_name }}
+            - file: user_with_home_{{ repo_name }}
 
 git_key_{{ repo_name }}:
     file.managed:
-        - name: {{ user.home_path }}/.ssh/git_key
+        - name: {{ user.home_path }}/.ssh/id_rsa
         - source: salt://git/id_rsa
         - user: {{ user.name }}
         - group: {{ user.group }}
@@ -27,7 +27,20 @@ git_key_{{ repo_name }}:
         - makedirs: True
         - replace: True
         - require:
-            - user: user_with_home_{{ repo_name }}
+            - file: user_with_home_{{ repo_name }}
+            - file: git_ssh_folder_{{ repo_name }}
+
+git_pub_key_{{ repo_name }}:
+    file.managed:
+        - name: {{ user.home_path }}/.ssh/id_rsa.pub
+        - source: salt://git/id_rsa.pub
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - mode: 600
+        - makedirs: True
+        - replace: True
+        - require:
+            - file: user_with_home_{{ repo_name }}
             - file: git_ssh_folder_{{ repo_name }}
 
 known_hosts_{{ repo_name }}:
@@ -39,7 +52,7 @@ known_hosts_{{ repo_name }}:
         - makedirs: True
         - replace: True
         - require:
-            - user: user_with_home_{{ repo_name }}
+            - file: user_with_home_{{ repo_name }}
             - file: git_ssh_folder_{{ repo_name }}
 
 known_bitbucket_{{ repo_name }}:
@@ -49,7 +62,7 @@ known_bitbucket_{{ repo_name }}:
         - config: {{ user.home_path }}/.ssh/known_hosts
         - fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
         - require:
-            - user: user_with_home_{{ repo_name }}
+            - file: user_with_home_{{ repo_name }}
             - file: known_hosts_{{ repo_name }}
 
 known_github_{{ repo_name }}:
@@ -59,7 +72,7 @@ known_github_{{ repo_name }}:
         - user: {{ user.name }}
         - fingerprint: 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48
         - require:
-            - user: user_with_home_{{ repo_name }}
+            - file: user_with_home_{{ repo_name }}
             - file: known_hosts_{{ repo_name }}
 
 git_{{ repo_name }}:
@@ -68,7 +81,7 @@ git_{{ repo_name }}:
         - rev: {{ repo.branch }}
         - target: {{ repo.path }}
         - runas: {{ user.name }}
-        - identity: {{ user.home_path }}/.ssh/git_key
+        - identity: {{ user.home_path }}/.ssh/id_rsa
         - force: True
         - require:
             - pkg: git_reqs

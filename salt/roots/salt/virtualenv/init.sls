@@ -29,7 +29,7 @@ venv_{{ venv_name }}:
             - pkg: lib_reqs
             - pkg: venv_reqs
             - pip: venv_reqs
-            - user: user_with_home_{{ venv_name }}
+            - file: user_with_home_{{ venv_name }}
 
 venv_pip_{{ venv_name }}:
     pip.installed:
@@ -44,9 +44,3 @@ venv_pip_{{ venv_name }}:
             - virtualenv: venv_{{ venv_name }}
 
 {% endfor %}
-
-venv_wrapper:
-    cmd.run:
-        - name: source /usr/local/bin/virtualenvwrapper.sh
-        - require:
-            - pip: venv_reqs

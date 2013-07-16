@@ -8,6 +8,7 @@ venv:
                 - 'Jinja2==2.7'
                 - 'MarkupSafe==0.18'
                 - 'Pillow==2.0.0'
+                - 'django-compressor==1.3'
                 - 'Pygments==1.6'
                 - 'South==0.8.1'
                 - 'Sphinx==1.2b1'

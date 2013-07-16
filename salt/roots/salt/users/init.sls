@@ -7,12 +7,84 @@ user_reqs:
             - screen
             - locate
 
+user_container:
+    file.directory:
+        - name: /var/www
+        - user: root
+        - group: root
+
 {% for user_name, user in pillar['users'].iteritems() %}
 
 group_{{ user_name }}:
     group.present:
         - name: {{ user.group }}
 
+
+    {% if 'home_path' in user %}
+
+user_{{ user_name }}:
+    user.present:
+        - name: {{ user.name }}
+        - password: {{ user.pass }}
+        - home: {{ user.home_path }}
+        - groups:
+            - {{ user.group }}
+        - shell: /bin/bash
+        - system: True
+        - require:
+            - file: user_container
+            - group: group_{{ user_name }}
+
+user_with_home_{{ user_name }}:
+    file.directory:
+        - name: {{ user.home_path }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - recurse:
+            - user
+            - group
+        - require:
+            - user: user_{{ user_name }}
+
+
+bash_profile_{{ user_name }}:
+    file.managed:
+        - name: {{ user.home_path }}/.bash_profile
+        - source: salt://users/.bash_profile
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - file_mode: 640
+        - replace: True
+        - makedirs: True
+        - require:
+            - file: user_with_home_{{ user_name }}
+
+vimrc_{{ user_name }}:
+    file.managed:
+        - name: {{ user.home_path }}/.vimrc
+        - source: salt://users/.vimrc
+        - makedirs: True
+        - replace: True
+        - require:
+            - file: user_with_home_{{ user_name }}
+
+keys_{{ user_name }}:
+    cmd.run:
+        - name: "cp /home/vagrant/.ssh/authorized_keys {{ user.home_path }}/.ssh/authorized_keys"
+        - user: root
+        - require:
+            - file: user_with_home_{{ user_name }}
+
+keys-permission_{{ user_name }}:
+    file.managed:
+        - name: {{ user.home_path }}/.ssh/authorized_keys
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - file_mode: 700
+        - require:
+            - cmd: keys_{{ user_name }}
+
+    {% else %}
 user_{{ user_name }}:
     user.present:
         - name: {{ user.name }}
@@ -23,45 +95,5 @@ user_{{ user_name }}:
         - system: True
         - require:
             - group: group_{{ user_name }}
-
-    {% if 'home_path' in user %}
-user_home_{{ user_name }}:
-    file.directory:
-        - name: {{ user.home_path }}
-        - makedirs: True
-        - user: {{ user.name }}
-        - group: {{ user.group }}
-        - require:
-            - user: user_{{ user_name }}
-
-user_with_home_{{ user_name }}:
-    user.present:
-        - name: {{ user.name }}
-        - home: {{ user.home_path }}
-        - require:
-            - user: user_{{ user_name }}
-            - file: user_home_{{ user_name }}
-
-bashrc_{{ user_name }}:
-    file.managed:
-        - name: {{ user.home_path }}/.bashrc
-        - source: salt://users/.bashrc
-        - user: {{ user.name }}
-        - group: {{ user.group }}
-        - file_mode: 640
-        - replace: True
-        - makedirs: True
-        - require:
-            - user: user_{{ user_name }}
-
-vimrc_{{ user_name }}:
-    file.managed:
-        - name: {{ user.home_path }}/.vimrc
-        - source: salt://users/.vimrc
-        - makedirs: True
-        - replace: True
-        - require:
-            - pkg: user_reqs
-            - user: user_{{ user_name }}
     {% endif %}
 {% endfor %}

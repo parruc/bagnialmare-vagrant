@@ -35,7 +35,7 @@ nginx_{{ host_name }}_error_pages:
         - makedirs: True
         - replace: True
         - require:
-            - user: user_with_home_{{ host_name }}
+            - file: user_with_home_{{ host_name }}
 
 nginx_{{ host_name }}_error_log:
     file.managed:
@@ -45,7 +45,7 @@ nginx_{{ host_name }}_error_log:
         - file_mode: 640
         - makedirs: True
         - require:
-            - user: user_with_home_{{ host_name }}
+            - file: user_with_home_{{ host_name }}
 
 nginx_{{ host_name }}_access_log:
     file.managed:
@@ -55,7 +55,7 @@ nginx_{{ host_name }}_access_log:
         - file_mode: 640
         - makedirs: True
         - require:
-            - user: user_with_home_{{ host_name }}
+            - file: user_with_home_{{ host_name }}
 
 {% if host.media %}
 nginx_{{ host_name }}_media_dir:
@@ -66,7 +66,7 @@ nginx_{{ host_name }}_media_dir:
         - mode: 755
         - makedirs: True
         - require:
-            - user: user_with_home_{{ host_name }}
+            - file: user_with_home_{{ host_name }}
             - pkg: nginx_reqs
 {% endif %}
 
@@ -79,7 +79,7 @@ nginx_{{ host_name }}_static_dir:
         - mode: 755
         - makedirs: True
         - require:
-            - user: user_with_home_{{ host_name }}
+            - file: user_with_home_{{ host_name }}
             - pkg: nginx_reqs
 {% endif %}
 

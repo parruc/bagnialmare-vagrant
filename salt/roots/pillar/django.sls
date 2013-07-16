@@ -16,9 +16,11 @@ django:
                 - 'django.contrib.admin'
                 - 'django.contrib.admindocs'
                 - 'django.contrib.gis'
+                - 'compressor'
                 - 'south'
                 - 'autoslug'
                 - 'haystack'
+                - 'sorl.thumbnail'
                 - 'bagni'
             secret_key: 'u)-#(7qe0o9=+ez%ay0=vi#oc52*&4np3x5^m!!c6u$@yr5eud'
             middleware:
@@ -33,6 +35,9 @@ django:
             staticfiles_finders:
                 - 'django.contrib.staticfiles.finders.FileSystemFinder'
                 - 'django.contrib.staticfiles.finders.AppDirectoriesFinder'
+                - 'compressor.finders.CompressorFinder'
             staticfiles_dirs: []
-
-
+            fixture_dirs:
+                - 'ombrelloni/fixtures'
+            template_dirs:
+                - 'templates'
