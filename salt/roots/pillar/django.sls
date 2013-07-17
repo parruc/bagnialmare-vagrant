@@ -40,7 +40,8 @@ django:
                 - 'django.contrib.staticfiles.finders.FileSystemFinder'
                 - 'django.contrib.staticfiles.finders.AppDirectoriesFinder'
                 - 'compressor.finders.CompressorFinder'
-            staticfiles_dirs: []
+            staticfiles_dirs:
+                - 'ombrelloni/static'
             fixture_dirs:
                 - 'ombrelloni/fixtures'
             template_dirs:
