@@ -21,7 +21,7 @@ django:
                 - 'django.contrib.admin'
                 - 'django.contrib.admindocs'
                 - 'django.contrib.gis'
-                - 'compressor'
+#                - 'compressor'
                 - 'south'
                 - 'autoslug'
                 - 'haystack'
