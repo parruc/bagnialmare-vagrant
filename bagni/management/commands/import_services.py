@@ -11,6 +11,7 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
+        Service.objects.all().delete()
         services = []
         try:
             with open('scripts/scraping/services.json', 'r') as services_file:

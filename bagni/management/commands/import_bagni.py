@@ -12,6 +12,7 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
+        Bagno.objects.all().delete()
         bagni = []
         cities = ["cervia", "cesenatico", "ferrara", "ravenna"]
         fields = ["name", "number", "address", "city", "tel", "fax", "site", "mail"]
