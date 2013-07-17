@@ -16,7 +16,7 @@ urlpatterns = patterns('',
         BagnoView.as_view(),
         name="bagno"
     ),
-    url(r'^(?P<slug>[-\w]+)/$',
+    url(r'^servizi/(?P<slug>[-\w]+)/$',
         ServiceView.as_view(),
         name="service"
     ),
