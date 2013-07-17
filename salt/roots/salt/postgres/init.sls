@@ -74,7 +74,7 @@ postgres_postgis_create_template:
             - file: postgres_postgis_add_script
 
 {% for db_name, db in pillar['pg'].dbs.iteritems() %}
-postgres_user_{{ db.owner }}:
+postgres_user_{{ db_name }}:
     postgres_user.present:
         - name: {{ db.owner }}
         - password: {{ db.pass }}

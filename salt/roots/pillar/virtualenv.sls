@@ -1,14 +1,14 @@
+{% set dev = grains['configuration'] in ['local', 'dev'] %}
 venv:
     venvs:
         ombrelloni:
-            path : '/var/www/ombrelloni.it/venv'
+            path: '/var/www/ombrelloni.it/venv'
             packages:
                 - 'BeautifulSoup==3.2.1'
                 - 'Django==1.5.1'
                 - 'Jinja2==2.7'
                 - 'MarkupSafe==0.18'
                 - 'Pillow==2.0.0'
-                - 'django-compressor==1.3'
                 - 'Pygments==1.6'
                 - 'South==0.8.1'
                 - 'Sphinx==1.2b1'
@@ -29,4 +29,7 @@ venv:
                 - 'uWSGI==1.9.13'
                 - 'wsgiref==0.1.2'
                 - 'Paste==1.7.5.1'
-
+            {% if dev %}
+                - django-debug-toolbar
+                - uwsgitop
+            {% endif %}

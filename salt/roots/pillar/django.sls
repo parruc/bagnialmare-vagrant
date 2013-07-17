@@ -1,3 +1,4 @@
+{% set dev = grains['configuration'] in ['local', 'dev'] %}
 django:
     djangos:
         ombrelloni:
@@ -6,11 +7,11 @@ django:
             db_engine: 'django.contrib.gis.db.backends.postgis'
             db_host: 'localhost'
             db_port: '5432'
-            {% if grains['configuration'] in ['local', 'dev'] %}
+        {% if dev %}
             debug: 'True'
-            {% else %}
+        {% else %}
             debug: 'False'
-            {% endif %}
+        {% endif %}
             installed_apps:
                 - 'django.contrib.auth'
                 - 'django.contrib.contenttypes'
@@ -26,6 +27,9 @@ django:
                 - 'haystack'
                 - 'sorl.thumbnail'
                 - 'bagni'
+        {% if dev %}
+                - 'debug_toolbar'
+        {% endif %}
             secret_key: 'u)-#(7qe0o9=+ez%ay0=vi#oc52*&4np3x5^m!!c6u$@yr5eud'
             middleware:
                 - 'django.middleware.common.CommonMiddleware'
@@ -33,6 +37,9 @@ django:
                 - 'django.middleware.csrf.CsrfViewMiddleware'
                 - 'django.contrib.auth.middleware.AuthenticationMiddleware'
                 - 'django.contrib.messages.middleware.MessageMiddleware'
+        {% if dev %}
+                - 'debug_toolbar.middleware.DebugToolbarMiddleware'
+        {% endif %}
             template_loaders:
                 - 'django.template.loaders.filesystem.Loader'
                 - 'django.template.loaders.app_directories.Loader'
@@ -41,8 +48,8 @@ django:
                 - 'django.contrib.staticfiles.finders.AppDirectoriesFinder'
                 - 'compressor.finders.CompressorFinder'
             staticfiles_dirs:
-                - 'ombrelloni/static'
+                - 'static'
             fixture_dirs:
-                - 'ombrelloni/fixtures'
+                - 'fixtures'
             template_dirs:
                 - 'templates'

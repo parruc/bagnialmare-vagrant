@@ -75,10 +75,13 @@ django_loaddata_script_{{ django_name }}:
 django_loaddata_{{ django_name }}:
     cmd.run:
         - name: /tmp/prepare_data.sh
+        #- unless:
         - user: {{ user.name }}
         - cwd: {{ django.path }}
         - group: {{ user.group }}
         - require:
+            - file: django_settings_{{ django_name }}
+            - file: nginx_{{ django_name }}_static_dir
             - file: django_loaddata_script_{{ django_name }}
 
 {% endfor %}
