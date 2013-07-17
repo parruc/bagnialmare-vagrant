@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-{% load compress i18n %}
+{% load i18n %}
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="{{LANGUAGE_CODE}}" xml:lang="{{LANGUAGE_CODE}}">
     <head>
@@ -12,23 +12,23 @@
         <link rel="icon" type="image/png" href="{{ STATIC_URL }}img/favicon.png" />
         <link rel="shortcut icon" type="image/png" href="{{ STATIC_URL }}img/favicon.png" />
         <!-- link href='http://fonts.googleapis.com/css?family=Henny+Penny&amp;subset=latin-ext' rel='stylesheet' type='text/css' /-->
-        {% compress js %}
+
             <script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.10.2.js"></script>
             <script type="text/javascript" src="{{ STATIC_URL }}js/leaflet.js"></script>
             <!--script type="text/javascript" src="{{ STATIC_URL }}js/OpenLayers.light.js"></script-->
-        {% endcompress %}
 
-        {% compress js %}
+
+
             {% block specific_js %}
 
             {% endblock specific_js %}
-        {% endcompress %}
 
-        {% compress css %}
+
+
             <link type="text/css" href="{{ STATIC_URL }}css/bootstrap.css" rel="Stylesheet" />
             <link type="text/css" href="{{ STATIC_URL }}css/bootstrap-responsive.css" rel="Stylesheet" />
             <link type="text/css" href="{{ STATIC_URL }}css/leaflet.css" rel="Stylesheet" />
-        {% endcompress %}
+
         <!--[if lte IE 8]><link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.ie.css" /><![endif]-->
     </head>
     <body>
