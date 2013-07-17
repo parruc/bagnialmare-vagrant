@@ -41,7 +41,6 @@ sup_conf_{{ sup_name }}:
 sup_service_{{ sup_name }}:
     supervisord.running:
         - name: {{ sup_name }}
-        - conf_file: /etc/supervisor/conf.d/{{ sup_name }}.conf
         - watch:
             - file: uwsgi_conf_{{ sup_name }}
         - require:
