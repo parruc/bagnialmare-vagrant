@@ -88,7 +88,7 @@ STATICFILES_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
     {% for staticfiles_dir in django.staticfiles_dirs %}
-        '{{ staticfiles_dirs }}',
+        '{{ staticfiles_dir }}',
     {% endfor %}
 )
 
