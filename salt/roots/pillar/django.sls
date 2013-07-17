@@ -6,7 +6,7 @@ django:
             db_engine: 'django.contrib.gis.db.backends.postgis'
             db_host: 'localhost'
             db_port: '5432'
-            {% if grains['configuration'] in ['local', 'dev']
+            {% if grains['configuration'] in ['local', 'dev'] %}
             debug: 'True'
             {% else %}
             debug: 'False'
