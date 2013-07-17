@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
 
     config.vm.box = "vagrant-wheezy32"
-    config.vm.box_url = "http://www.matteoparrucci.it/it/vagrant-wheezy32.box"
+    config.vm.box_url = "http://www.matteoparrucci.it/vagrant-wheezy32.box"
     config.ssh.private_key_path = "keys/id_rsa"
 
     # Webserver
