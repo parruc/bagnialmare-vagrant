@@ -33,6 +33,14 @@ class Bagno(models.Model):
     def __unicode__(self):
         return self.name
 
+
+    def index_text(self):
+        elems = (self.name, self.index_services(), self.city)
+        return unicode("%s %s %s" % elems)
+
+    def index_services(self, sep=" "):
+        return unicode(sep.join([s.name for s in self.services]))
+
     @models.permalink
     def get_absolute_url(self):
         return ("bagno", [self.slug, ])
