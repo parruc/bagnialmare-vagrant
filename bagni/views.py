@@ -5,7 +5,7 @@ from django.contrib import messages
 from django.utils.translation import ugettext as _
 
 from models import Bagno, Service
-from search_index import search
+from search import search
 
 class BagniView(ListView):
     """View for a list of bagni
