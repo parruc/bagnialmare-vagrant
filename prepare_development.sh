@@ -1,10 +1,17 @@
 #!/bin/bash
+
+#change this to your username in bitbucket
 GIT_USER=flyingfrog
-VAGRANT_DIR=$HOME/Projects/4hm/vm
-REPO_DIR=$VAGRANT_DIR/django
-echo "repo dir: $REPO_DIR"
-sshfs vagrant-ombrelloni:/var/www/ombrelloni.it $VAGRANT_DIR -o uid=$(id -u) -o gid=$(id -g) -o defer_permissions
-cd $REPO_DIR
+
+#change this to project directory on your machine
+HOST_DIR=$HOME/Projects/4hm/vm
+
+GUEST_DIR=vagrant-ombrelloni:/var/www/ombrelloni.it
+
+echo "mounting $GUST_DIR to $HOST_DIR"
+sshfs $GUEST_DIR $HOST_DIR -o uid=$(id -u) -o gid=$(id -g) -o defer_permissions
+echo "changing git credentials for your user: $GIT_USER"
+cd $HOST_DIR/django
 #git config --global user.email "parruc@gmail.com"
 #git config --global user.name "Matteo Parrucci"
 git remote rm origin
