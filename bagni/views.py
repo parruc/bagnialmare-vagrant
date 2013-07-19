@@ -1,4 +1,3 @@
-
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 from django.views.generic import TemplateView
@@ -6,7 +5,7 @@ from django.contrib import messages
 from django.utils.translation import ugettext as _
 
 from models import Bagno, Service
-from search_indexes import search
+from search_index import search
 
 class BagniView(ListView):
     """View for a list of bagni
@@ -45,13 +44,20 @@ class SearchView(TemplateView):
     template_name = "bagni/search.html"
 
     def get_context_data(self, **kwargs):
-        import ipdb; ipdb.set_trace()
         context = super(SearchView, self).get_context_data(**kwargs)
-        query = self.request.GET.get('q', None)
-        filters = self.request.GET.get('f', None)
         facets = ['city', 'services']
-        if query or filters:
-            context['hits'], context['query'] = search(query, facets, filters)
+        q = self.request.GET.get('q', None)
+        #fs = self.request.GET.getlist('f', None)
+        fs = self.request.GET.getlist('f', None)
+        filters = []
+        for f in fs:
+            filters.append(f.split(":",1))
+        if q:
+            query = q.replace('+', ' AND ').replace(' -', ' NOT ')
+            context['hits'], context['facets'] = search(query, filters, facets)
+            context['query'] = q
+            context['filtered'] = fs
+            context['old_qs'] = self.request.GET.urlencode(safe=":")
             return context
         messages.add_message(self.request, messages.WARNING,
                              _("Inserisci del testo nel box di ricerca"))

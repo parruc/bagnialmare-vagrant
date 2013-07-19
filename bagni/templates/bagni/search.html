@@ -7,4 +7,21 @@
         <input type="text" id="search_q" name="q" value="{{ query|default_if_none:"" }}" />
         <input type="submit" value="{% trans "Search" %}"/>
     </form>
+    {%  for hit in hits %}
+        <div>{{ hit.name }}</div>
+    {% endfor %}
+
+    {% for facet_title, facet_values in facets %}
+        <h3>{{ facet_title }}</h3>
+        {% for facet_name, facet_value in facet_values %}
+            <div>
+                <a href="?{{ old_qs }}&f={{ facet_title }}:{{ facet_name }}">{{ facet_name }}</a>
+                {% if facet_title|add:':'|add:facet_name in filtered %}
+                    <a href="TODO: TOGLIERE QUESTO FILTRO">X</a>
+                {% else %}
+                    ({{ facet_value }})
+                {% endif %}
+            </div>
+        {% endfor %}
+    {% endfor %}
 {% endblock %}
