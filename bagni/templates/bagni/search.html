@@ -7,6 +7,7 @@
         <input type="text" id="search_q" name="q" value="{{ query|default_if_none:"" }}" />
         <input type="submit" value="{% trans "Search" %}"/>
     </form>
+    <bold>{{ count }} {% trans "results" %}</bold>
     {%  for hit in hits %}
         <div>{{ hit.name }}</div>
     {% endfor %}

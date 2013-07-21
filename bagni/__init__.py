@@ -1,2 +1,2 @@
-import search_indexes
-search_indexes #pyflakse
+import search
+search #pyflakse

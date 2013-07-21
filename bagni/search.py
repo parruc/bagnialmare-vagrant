@@ -1,4 +1,5 @@
 import os
+import shutil
 import operator
 import re
 
@@ -6,7 +7,6 @@ from django.db.models import signals
 from django.conf import settings
 
 from whoosh import fields, index, qparser, sorting, query
-from whoosh.filedb.filestore import FileStorage
 
 from bagni.models import Bagno
 
@@ -14,21 +14,29 @@ WHOOSH_SCHEMA = fields.Schema(id=fields.ID(stored=True, unique=True),
                               name=fields.TEXT(stored=True),
                               text=fields.TEXT,
                               city=fields.ID(stored=True, ),
-                              services=fields.IDLIST(stored=True, expression=re.compile("#")),
+                              services=fields.IDLIST(stored=True, expression=re.compile(r"[^#]+")),
                             )
 
 def create_index(sender=None, **kwargs):
     if not os.path.exists(settings.WHOOSH_INDEX):
         os.mkdir(settings.WHOOSH_INDEX)
-        storage = FileStorage(settings.WHOOSH_INDEX)
-        return index.Index(storage, schema=WHOOSH_SCHEMA, create=True)
+        return index.create_in(settings.WHOOSH_INDEX, schema=WHOOSH_SCHEMA)
 
-signals.post_syncdb.connect(create_index)
+def delete_index(sender=None, **kwargs):
+    if os.path.exists(settings.WHOOSH_INDEX):
+        shutil.rmtree(settings.WHOOSH_INDEX)
 
-def update_index(sender, obj, created, **kwargs):
+def recreate_index(sender=None, **kwargs):
+    delete_index(sender=sender, **kwargs)
+    create_index(sender=sender, **kwargs)
+
+signals.post_syncdb.connect(recreate_index)
+
+def update_index(sender, **kwargs):
     ix = index.open_dir(settings.WHOOSH_INDEX)
     writer = ix.writer()
-    if created:
+    obj = kwargs['instance']
+    if kwargs['created']:
         writer.add_document(id=unicode(obj.slug), name=unicode(obj.name),
                             text=obj.index_text(), city=unicode(obj.city),
                             services=unicode(obj.index_services(sep="#")),
@@ -41,6 +49,20 @@ def update_index(sender, obj, created, **kwargs):
     writer.commit()
 
 signals.post_save.connect(update_index, sender=Bagno)
+
+def recreate_data(sender=None, **kwargs):
+    ix = index.open_dir(settings.WHOOSH_INDEX)
+    writer = ix.writer()
+    for obj in Bagno.objects.all():
+        writer.add_document(id=unicode(obj.slug), name=unicode(obj.name),
+                            text=obj.index_text(), city=unicode(obj.city),
+                            services=unicode(obj.index_services(sep="#")),
+        )
+    writer.commit()
+
+def rebuild_index(sender=None, **kwargs):
+    recreate_index(sender=sender, **kwargs)
+    recreate_data(sender=sender, **kwargs)
 
 def search(q, filters, groups, query_string, max_facets=10):
     ix = index.open_dir(settings.WHOOSH_INDEX)

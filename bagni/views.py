@@ -58,6 +58,6 @@ class SearchView(TemplateView):
 
             hits, facets = search(q=query, filters=filters, groups=groups,
                                   query_string=new_query_string)
-            context.update({'query': q, 'facets': facets, 'hits': hits})
+            context.update({'query': q, 'facets': facets, 'hits': hits, 'count': len(hits)})
             return context
         return {}
