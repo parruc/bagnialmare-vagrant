@@ -23,7 +23,6 @@ django:
                 - 'django.contrib.gis'
                 - 'south'
                 - 'autoslug'
-                - 'haystack'
                 - 'sorl.thumbnail'
                 - 'bagni'
         {% if dev %}

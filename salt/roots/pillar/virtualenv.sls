@@ -16,7 +16,6 @@ venv:
                 - 'django-autoslug==1.6.1'
                 - 'docutils==0.10'
                 - '--editable=hg+https://bitbucket.org/mchaput/whoosh#egg=Whoosh'
-                - '--editable=git+https://github.com/parruc/django-haystack.git#egg=django-haystack'
                 - 'ipdb==0.7'
                 - 'ipython==0.13.2'
                 - 'lxml==3.2.1'
