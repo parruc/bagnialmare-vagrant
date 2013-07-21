@@ -71,7 +71,10 @@ def search(q, filters, groups, query_string, max_facets=10):
     og = qparser.OrGroup.factory(0.9)
     parser = qparser.QueryParser("text", schema=ix.schema, group=og)
     parser.remove_plugin_class(qparser.WildcardPlugin)
-
+    parser.add_plugin(qparser.FuzzyTermPlugin())
+    fuzzy = "~1/2 "
+    q = fuzzy.join(q.split(" ")) + fuzzy
+    print q
     try:
         q = parser.parse(q)
     except:
