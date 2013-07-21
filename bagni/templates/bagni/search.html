@@ -11,16 +11,12 @@
         <div>{{ hit.name }}</div>
     {% endfor %}
 
-    {% for facet_title, facet_values in facets %}
+    {% for facet_title, facet_values in facets.items %}
         <h3>{{ facet_title }}</h3>
-        {% for facet_name, facet_value in facet_values %}
+        {% for facet in facet_values %}
             <div>
-                <a href="?{{ old_qs }}&f={{ facet_title }}:{{ facet_name }}">{{ facet_name }}</a>
-                {% if facet_title|add:':'|add:facet_name in filtered %}
-                    <a href="TODO: TOGLIERE QUESTO FILTRO">X</a>
-                {% else %}
-                    ({{ facet_value }})
-                {% endif %}
+                <a class="{{ facet.class }}" href="?{{ facet.url }}">{{ facet.name }}</a>
+                    ({{ facet.count }})
             </div>
         {% endfor %}
     {% endfor %}

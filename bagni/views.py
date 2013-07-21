@@ -45,20 +45,19 @@ class SearchView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(SearchView, self).get_context_data(**kwargs)
-        facets = ['city', 'services']
+        groups = ['city', 'services']
         q = self.request.GET.get('q', None)
-        #fs = self.request.GET.getlist('f', None)
-        fs = self.request.GET.getlist('f', None)
-        filters = []
-        for f in fs:
-            filters.append(f.split(":",1))
-        if q:
-            query = q.replace('+', ' AND ').replace(' -', ' NOT ')
-            context['hits'], context['facets'] = search(query, filters, facets)
-            context['query'] = q
-            context['filtered'] = fs
-            context['old_qs'] = self.request.GET.urlencode(safe=":")
-            return context
-        messages.add_message(self.request, messages.WARNING,
+        filters = self.request.GET.getlist('f', [])
+        new_query_string = self.request.GET.copy()
+        if q == '':
+            messages.add_message(self.request, messages.WARNING,
                              _("Inserisci del testo nel box di ricerca"))
+            return {}
+        if q is not None:
+            query = q.replace('+', ' AND ').replace(' -', ' NOT ')
+
+            hits, facets = search(q=query, filters=filters, groups=groups,
+                                  query_string=new_query_string)
+            context.update({'query': q, 'facets': facets, 'hits': hits})
+            return context
         return {}
