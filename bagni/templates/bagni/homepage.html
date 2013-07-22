@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block main_content %}
+    <form action="{% url 'search' %}" method="get">
+        <input type="text" id="search_q" name="q" value="{{ query|default_if_none:"" }}" />
+        <input type="submit" value="{% trans "Search" %}"/>
+    </form>
+{% endblock %}
+
+{% block title %}{% trans "Homepage" %}{% endblock title %}
+
+{% block pagetitle %}{% trans "Homepage" %}{% endblock pagetitle %}
