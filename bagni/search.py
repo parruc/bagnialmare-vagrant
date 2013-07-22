@@ -37,15 +37,9 @@ def update_index(sender, **kwargs):
     writer = ix.writer()
     obj = kwargs['instance']
     if kwargs['created']:
-        writer.add_document(id=unicode(obj.slug), name=unicode(obj.name),
-                            text=obj.index_text(), city=unicode(obj.city),
-                            services=unicode(obj.index_services(sep="#")),
-        )
+        writer.add_document(**obj.index_features())
     else:
-        writer.update_document(id=unicode(obj.slug), name=unicode(obj.name),
-                            text=obj.index_text(), city=unicode(obj.city),
-                            services=unicode(obj.index_services(sep="#")),
-        )
+        writer.update_document(**obj.index_features())
     writer.commit()
 
 signals.post_save.connect(update_index, sender=Bagno)
@@ -54,10 +48,7 @@ def recreate_data(sender=None, **kwargs):
     ix = index.open_dir(settings.WHOOSH_INDEX)
     writer = ix.writer()
     for obj in Bagno.objects.all():
-        writer.add_document(id=unicode(obj.slug), name=unicode(obj.name),
-                            text=obj.index_text(), city=unicode(obj.city),
-                            services=unicode(obj.index_services(sep="#")),
-        )
+        writer.add_document(**obj.index_features())
     writer.commit()
 
 def rebuild_index(sender=None, **kwargs):

@@ -75,6 +75,7 @@ class SearchView(TemplateView):
      * f is the list of active filters narrowing the search
     """
 
+    #FIXME: i would move this into urls.py - but maybe I'm wrong
     template_name = "bagni/search.html"
 
     def get_context_data(self, **kwargs):
