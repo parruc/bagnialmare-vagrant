@@ -32,20 +32,23 @@ def recreate_index(sender=None, **kwargs):
 
 signals.post_syncdb.connect(recreate_index)
 
+def _obj_features(obj):
+    return dict(
+        id = unicode(obj.slug),
+        name = unicode(obj.name),
+        text = obj.index_text(),
+        city = unicode(obj.city),
+        services = unicode(obj.index_services(sep="#")),
+    )
+
 def update_index(sender, **kwargs):
     ix = index.open_dir(settings.WHOOSH_INDEX)
     writer = ix.writer()
     obj = kwargs['instance']
     if kwargs['created']:
-        writer.add_document(id=unicode(obj.slug), name=unicode(obj.name),
-                            text=obj.index_text(), city=unicode(obj.city),
-                            services=unicode(obj.index_services(sep="#")),
-        )
+        writer.add_document(**_obj_features(obj))
     else:
-        writer.update_document(id=unicode(obj.slug), name=unicode(obj.name),
-                            text=obj.index_text(), city=unicode(obj.city),
-                            services=unicode(obj.index_services(sep="#")),
-        )
+        writer.update_document(**_obj_features(obj))
     writer.commit()
 
 signals.post_save.connect(update_index, sender=Bagno)
