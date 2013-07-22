@@ -1,3 +1,4 @@
+from django.core.urlresolvers import reverse
 from django.contrib.gis.db import models
 from django.utils.translation import ugettext_lazy as _
 from sorl.thumbnail import ImageField
@@ -39,13 +40,11 @@ class Bagno(models.Model):
         return unicode(sep.join([s.name for s in self.services.all()]))
 
     def index_features(self, sep="#"):
-        return dict(
-            id = unicode(self.slug),
-            name = unicode(self.name),
-            text = self.index_text(),
-            city = unicode(self.city),
-            services = unicode(self.index_services(sep="#")),
-        )
+        return dict(id=unicode(self.id),
+                    text=self.index_text(),
+                    city=unicode(self.city),
+                    services=unicode(self.index_services(sep="#")),
+                    )
 
     @models.permalink
     def get_absolute_url(self):
@@ -84,6 +83,9 @@ class Service(models.Model):
     @models.permalink
     def get_absolute_url(self):
         return ("service", [self.slug, ])
+
+    def get_filtered_search_url(self):
+        return reverse("search") + "?f=services:" + self.name
 
     def __unicode__(self):
         return self.name

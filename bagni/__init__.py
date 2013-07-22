@@ -1,2 +1,2 @@
 import search
-search #pyflakse
+search #pyflakes

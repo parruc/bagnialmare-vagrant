@@ -90,11 +90,10 @@ class SearchView(TemplateView):
             messages.add_message(self.request, messages.WARNING,
                                  _("Inserisci del testo nel box di ricerca"))
             return {}
-        if q is not None:
-            query = q.replace('+', ' AND ').replace(' -', ' NOT ')
-
-            hits, facets = search(q=query, filters=filters, groups=groups,
-                                  query_string=new_query_string)
-            context.update({'query': q, 'facets': facets, 'hits': hits, 'count': len(hits)})
-            return context
+        hits, facets = search(q=q, filters=filters, groups=groups,
+                              query_string=new_query_string)
+        hits = Bagno.objects.filter(id__in=[h['id'] for h in hits])
+        has_get = self.request.method == 'GET'
+        context.update({'query': q, 'facets': facets, 'hits': hits, 'count': len(hits), 'has_get': has_get})
+        return context
         return {}
