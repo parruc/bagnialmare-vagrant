@@ -24,7 +24,7 @@ urlpatterns = patterns(
         ServiceView.as_view(),
         name="service"
         ),
-    url(_(r'^city/(?P<slug>[-\w]+)/$'),
+    url(_(r'^city/(?P<city>[-\w]+)/$'),
         CityView.as_view(),
         name="city"
         ),

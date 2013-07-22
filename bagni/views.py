@@ -46,16 +46,19 @@ class CityView(ListView):
     model = Bagno
     allow_empty = False
 
+    def _get_city(self):
+        return self.kwargs.get('city', "")
+
     def get_queryset(self):
-        try:
-            city = self.kwargs['city']
-        except KeyError:
-            raise Http404(_("No city specified"))
-        return self.model.objects.filter(city=city)
+        city = self._get_city()
+        if city:
+            return self.model.objects.filter(city=city)
+        raise Http404(_("No city specified"))
 
     def get_context_data(self, **kwargs):
         context = super(CityView, self).get_context_data(**kwargs)
-        return context.extend({'city': city})
+        context.update({'city': self._get_city()})
+        return context
 
 
 class HomepageView(TemplateView):
