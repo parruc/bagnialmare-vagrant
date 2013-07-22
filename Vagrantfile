@@ -9,6 +9,7 @@ Vagrant.configure("2") do |config|
 
     # Webserver
     config.vm.network :forwarded_port, guest: 80, host: 8080
+    config.vm.network :forwarded_port, guest: 8000, host: 8000
     config.vm.provider "virtualbox" do |v|
         v.customize ["modifyvm", :id, "--memory", "512"]
     end

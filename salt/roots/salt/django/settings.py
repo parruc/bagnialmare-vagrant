@@ -11,13 +11,7 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-HAYSTACK_CONNECTIONS = {
-    'default':
-    {
-        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
-        'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
-    },
-}
+WHOOSH_INDEX = os.path.join(os.path.dirname(__file__), 'whoosh_index')
 
 DATABASES = {
     'default': {

@@ -21,10 +21,8 @@ django:
                 - 'django.contrib.admin'
                 - 'django.contrib.admindocs'
                 - 'django.contrib.gis'
-#                - 'compressor'
                 - 'south'
                 - 'autoslug'
-                - 'haystack'
                 - 'sorl.thumbnail'
                 - 'bagni'
         {% if dev %}
@@ -46,7 +44,6 @@ django:
             staticfiles_finders:
                 - 'django.contrib.staticfiles.finders.FileSystemFinder'
                 - 'django.contrib.staticfiles.finders.AppDirectoriesFinder'
-                - 'compressor.finders.CompressorFinder'
             staticfiles_dirs:
                 - 'static'
             fixture_dirs:
