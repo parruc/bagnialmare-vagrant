@@ -32,8 +32,6 @@ def recreate_index(sender=None, **kwargs):
     delete_index(sender=sender, **kwargs)
     create_index(sender=sender, **kwargs)
 
-signals.post_syncdb.connect(recreate_index)
-
 
 def update_index(sender, **kwargs):
     ix = index.open_dir(settings.WHOOSH_INDEX)
@@ -59,6 +57,8 @@ def recreate_data(sender=None, **kwargs):
 def rebuild_index(sender=None, **kwargs):
     recreate_index(sender=sender, **kwargs)
     recreate_data(sender=sender, **kwargs)
+
+signals.post_syncdb.connect(rebuild_index)
 
 
 def search(q, filters, groups, query_string, max_facets=10):
