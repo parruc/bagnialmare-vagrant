@@ -41,6 +41,7 @@ class SearchView(TemplateView):
     Use something like ?q=this+is+the+serch+term
     """
 
+    #FIXME: i would move this into urls.py - but maybe I'm wrong
     template_name = "bagni/search.html"
 
     def get_context_data(self, **kwargs):
