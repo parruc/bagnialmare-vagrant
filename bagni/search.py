@@ -57,10 +57,7 @@ def recreate_data(sender=None, **kwargs):
     ix = index.open_dir(settings.WHOOSH_INDEX)
     writer = ix.writer()
     for obj in Bagno.objects.all():
-        writer.add_document(id=unicode(obj.slug), name=unicode(obj.name),
-                            text=obj.index_text(), city=unicode(obj.city),
-                            services=unicode(obj.index_services(sep="#")),
-        )
+        writer.add_document(_obj_features(obj))
     writer.commit()
 
 def rebuild_index(sender=None, **kwargs):
