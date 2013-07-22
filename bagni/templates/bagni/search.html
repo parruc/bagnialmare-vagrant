@@ -7,18 +7,29 @@
         <input type="text" id="search_q" name="q" value="{{ query|default_if_none:"" }}" />
         <input type="submit" value="{% trans "Search" %}"/>
     </form>
-    <bold>{{ count }} {% trans "results" %}</bold>
-    {%  for hit in hits %}
-        <div>{{ hit.name }}</div>
-    {% endfor %}
+    <div class="row-fluid">
+        <div class="span4">
+            {% for facet_title, facet_values in facets.items %}
+                <h3>{{ facet_title }}</h3>
+                {% for facet in facet_values %}
+                    <div>
+                        <a class="{{ facet.class }}" href="?{{ facet.url }}">{{ facet.name }}</a>
+                            ({{ facet.count }})
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+        <div class="span8">
+            <h2>{% trans "Results for" %} {{ query }}</h2>
+            {%  for hit in hits %}
+                <div><a href="{{ hit.id }}">{{ hit.name }}</a></div>
+            {% empty %}
+                <div>{% trans "No results for the given search" %}</div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endblock %}
 
-    {% for facet_title, facet_values in facets.items %}
-        <h3>{{ facet_title }}</h3>
-        {% for facet in facet_values %}
-            <div>
-                <a class="{{ facet.class }}" href="?{{ facet.url }}">{{ facet.name }}</a>
-                    ({{ facet.count }})
-            </div>
-        {% endfor %}
-    {% endfor %}
-{% endblock %}
+{% block title %}{% trans "Search" %}{% endblock title %}
+
+{% block pagetitle %}{% trans "Search" %}{% endblock pagetitle %}
