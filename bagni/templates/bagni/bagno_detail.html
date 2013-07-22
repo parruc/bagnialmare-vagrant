@@ -51,7 +51,7 @@
             maxZoom: 18
         }).addTo(map);
         var marker = L.marker([{{ object.point.y|unlocalize }}, {{ object.point.x|unlocalize }}]).addTo(map);
-        marker.bindPopup("<strong>{{ object.name }}</strong><em>{{ object.address }}</em><br>").openPopup();
+        marker.bindPopup("<strong>{{ object.name }}</strong> <em>{{ object.address }}</em><br>").openPopup();
     });
     </script>
 {% endblock specific_js %}
