@@ -21,134 +21,85 @@ for i, tr in enumerate(trs, start=1):
     bagno = {}
     td = tr.xpath(".//td")[0]
     bagno_name = td.text_content().strip()
-    import ipdb; ipdb.set_trace()
     match = name_and_number_from_title.match(bagno_name)
+    if match:
+        if match.group(3) and match.group(5):
+            bagno['number'] = match.group(3)
+            bagno['name'] = match.group(5)
+        else:
+            bagno['name'] = match.group(0)
+    else:
+        import ipdb; ipdb.set_trace()
+    bagno_url = td.xpath("./a/@href")[0]
+    parsed_bagno = utils.try_open_file_or_url(url=bagno_url, name="rimini_bagno", count=i)
+    if parsed_bagno is None:
+        import ipdb; ipdb.set_trace()
 
-#     bagno_url = td.xpath("./a/@href")[0]
+    bagno_address = parsed_bagno.xpath("//div[@id='sviluppo']//p[@class='sottotitolo_content']")
+    if bagno_address:
+        bagno['address'] = bagno_address[0].text_content().strip()
+    sviluppo = parsed_bagno.xpath("//div[@id='sviluppo']")[0]
+    bagno_details = sviluppo.xpath("./div[@class='linea1']|./div[@class='linea2']")
+    bagno['services'] = []
+    bagno['details'] = {}
+    for bagno_detail in bagno_details:
+        titoletto = bagno_detail.xpath("./span[@class='titoletto']")
+        if len(titoletto) > 0:
+            titoletto = titoletto[0]
+            titoletto_text = titoletto.text_content().strip()
+            detail_text = bagno_detail.text_content().replace(titoletto_text, "", 1).replace(":", "")
+            if titoletto_text == u"Telefono":
+                bagno['tel'] = detail_text
+            elif titoletto_text == u"Indirizzo":
+                bagno['address'] = detail_text
+            elif titoletto_text == u"Fax":
+                bagno['fax'] = detail_text
+            elif titoletto_text == u"Località":
+                bagno['city'] = detail_text
+            elif titoletto_text == u"Email":
+                bagno['mail'] = detail_text
+            elif titoletto_text == u"www":
+                bagno['site'] = bagno_detail.xpath("./a/@href")[0]
+            elif titoletto_text == u"Numero Ombrelloni":
+                detail_num = detail_text.split("/")[0].replace("Per clienti", "").strip(" -")
+                bagno['details']['ombrelloni'] = int(detail_num)
+            elif titoletto_text == u"Numero Cabine":
+                detail_num = detail_text.split("/")[0].replace("Per clienti", "").strip(" -")
+                bagno['details']['cabine'] = int(detail_num)
+            elif titoletto_text == u"Servizi offerti":
+                service_list = utils.get_service_from_alias(detail_text)
+                for service in service_list:
+                    if service:
+                        if not service in SERVICES:
+                            SERVICES.append(service)
+                        if not service in bagno['services']:
+                            bagno['services'].append(service)
+            elif titoletto_text == u"Ristorazione":
+                if "ristorazione" not in bagno['services']:
+                    bagno['services'].append("Ristorazionezione")
+            elif titoletto_text in ["Orario feriale", "Orario festivo", "Data ultimo aggiornamento", "Come arrivare", "Periodo di apertura", "Chiusura settimanale"]:
+                pass
+            elif detail_text.strip().replace("-", "").strip() in ["Non accettano carte di credito", "Non si accettano carte di credito"]:
+                pass
+            else:
+                print "WARNING titoletto '%s' with text '%s' for bagno '%s'" % (titoletto_text, detail_text, bagno['name'])
+        else:
+            print "ERROR titoletto '%s' with text '%s' for bagno '%s'" % (titoletto_text, detail_text, bagno['name'])
+    bagno_services = sviluppo.xpath("./fieldset/div[@class='linea1']|/div[@class='linea2']")
+    for bagno_service in bagno_services:
+        service_list = utils.get_service_from_alias(bagno_service.text_content().strip())
+        for service in service_list:
+            if service:
+                if not service in SERVICES:
+                    SERVICES.append(service)
+                if not service in bagno['services']:
+                    bagno['services'].append(service)
 
-#             bagno['number'] = match.group(1).strip()
-#             bagno['name'] = match.group(2).strip()
 
-#             bagno_url = td.xpath("./a/@href")[0].replace("../../../..", BASE_URL)
-#             parsed_bagno = utils.try_open_file_or_url(url=bagno_url, name="cervia_bagno", count=i)
-#         elif column in ["mail", "site"]:
-#             href = td.xpath("./a/@href")
-#             if len(href):
-#                 bagno[column] = href[0].replace("mailto:", "")
-#         else:
-#             bagno[column] = td_content
-#     if "address" in bagno:
-#         bagno['address'] = arernile_demaniale.sub("", bagno['address'])
-#     logging.info("Parsing cervia number %d name %s" % (i, bagno['name']))
-#     if parsed_bagno is None:
-#         import ipdb; ipdb.set_trace()
-#     fields = parsed_bagno.xpath("//*[@class='bold blu']")
-#     bagno['services'] = []
-#     bagno['details'] = {}
-#     for field in fields:
-#         field_name = field.text.replace(":", "").strip().lower()
-#         field_values = field.xpath("./following-sibling::text()")
-#         if len(field_values) and len("".join(field_values).strip()) > 0:
-#             field_values = " ".join(field_values).strip()
-#         else:
-#             field_values = field.xpath("./following-sibling::*[not(@class='bold blu')]")
-#             if len(field_values) > 0:
-#                 field_values = field_values[0].text_content()
-#             else:
-#                 field_values = ""
+    bagni.append(bagno)
 
-#         if field_name == "servizi offerti":
-#             for field_value in field_values.split("-"):
-#                 matches = numbers_from_text.findall(field_value)
-#                 if matches:
-#                     for match in matches:
-#                         try:
-#                             detail_name = utils.get_detail_from_alias(match[0].strip().strip("numero").strip("n.").strip("mq").strip("m").strip("n").strip().strip(":").strip(".").strip().lower())
-#                             detail_value = int(float(match[1].replace(".", "").replace(",", ".").strip()))
-#                             if detail_name:
-#                                 if not detail_name in DETAILS:
-#                                     DETAILS.append(detail_name)
-#                                 if not detail_name in bagno['details']:
-#                                     bagno['details'][detail_name] = detail_value
-#                         except Exception:
-#                             import ipdb; ipdb.set_trace()
-#                             pass
-#                 else:
-#                     service_list = field_value.strip().lower()
-#                     service_list = re.sub(u' n?°?\.? ?[0-9]?$', '', service_list)
-#                     service_list = re.sub(u'[0-9]', '', service_list)
-#                     service_list = service_list.strip()
-#                     service_list = utils.get_service_from_alias(service_list)
-#                     for service in service_list:
-#                         if service:
-#                             if not service in SERVICES:
-#                                 SERVICES.append(service)
-#                             if not service in bagno['services']:
-#                                 bagno['services'].append(service)
-
-#         elif field_name == u"attività":
-#             field_value = field_values.replace(":", "").strip().strip(".").lower()
-#             for field_value in re.split("\n|-|\.", field_value):
-#                 service_list = field_value.strip().lower()
-#                 service_list = re.sub(u' n?°?\.? ?[0-9]?$', '', service_list)
-#                 service_list = re.sub(u'[0-9]', '', service_list)
-#                 service_list = service_list.strip()
-#                 service_list = utils.get_service_from_alias(service_list)
-#                 for service in service_list:
-#                     if service:
-#                         if service.startswith("giochi per bambini"):
-#                             service = "baby park"
-#                         if not service in SERVICES:
-#                             SERVICES.append(service)
-#                         if not service in bagno['services']:
-#                             bagno['services'].append(service)
-
-#         elif not field_name in ['associazione di riferimento', 'tariffe', 'come arrivare', 'periodo di apertura']:
-#             field_value = field_values.replace(":", "").strip().lower()
-#             matches = numbers_from_text.findall(field_name + field_value)
-#             if matches:
-#                 for match in matches:
-#                     try:
-#                         detail_name = utils.get_detail_from_alias(match[0].strip()).strip("numero").strip("n.").strip("mq").strip("m").strip("n").strip().strip(":").strip(".").strip().lower()
-#                         detail_value = int(float(match[1].replace(".", "").replace(",", ".").strip()))
-#                         if detail_name:
-#                             if not detail_name in DETAILS:
-#                                 DETAILS.append(detail_name)
-#                             if not detail_name in bagno['details']:
-#                                 bagno['details'][detail_name] = detail_value
-#                     except Exception:
-#                         import ipdb; ipdb.set_trace()
-#                         pass
-#             else:
-#                 if not field_name in ['associazione di riferimento', 'tariffe', 'come arrivare', 'periodo di apertura']:
-#                     service_names = field_name + field_value
-#                     if service_names.startswith("giochi per bambini"):
-#                         service_names = "baby park"
-#                     elif service_names.startswith("ristorazionepiccola"):
-#                         service_names = "piccola ristorazione"
-#                     elif service_names.startswith("animazionemini"):
-#                         if "feste a tema" in service_names:
-#                             service_names = "feste a tema\nanimazione per bambini"
-#                         else:
-#                             service_names = "animazione per bambini"
-#                     elif service_names.startswith("dotazioni sportive"):
-#                         service_names = field_value.replace(",", "\n")
-#                     for service_name in re.split("\n|\.", service_names.strip(".")):
-#                         service_list = service_name.strip().lower()
-#                         service_list = re.sub(u' n?°?\.? ?[0-9]?$', '', service_list)
-#                         service_list = re.sub(u'[0-9]', '', service_list)
-#                         service_list = service_list.strip()
-#                         service_list = utils.get_service_from_alias(service_list)
-#                         for service in service_list:
-#                             if service:
-#                                 if not service in SERVICES:
-#                                     SERVICES.append(service)
-#                                 if not service in bagno['services']:
-#                                     bagno['services'].append(service)
-#     bagni.append(bagno)
-
-# utils.write_services(SERVICES)
-# utils.write_details(DETAILS)
+utils.write_services(SERVICES)
+utils.write_details(DETAILS)
 
 with open('output_rimini.json', 'w') as outfile:
   simplejson.dump(bagni, outfile, sort_keys=True, indent=4,)
