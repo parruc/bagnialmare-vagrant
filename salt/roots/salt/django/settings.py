@@ -8,7 +8,9 @@ TEMPLATE_DEBUG = {{ django.debug }}
 {% if django.debug %}
 def show_toolbar(request):
     return True
-SHOW_TOOLBAR_CALLBACK = show_toolbar
+DEBUG_TOOLBAR_CONFIG = {
+    'SHOW_TOOLBAR_CALLBACK': show_toolbar
+}
 {% endif %}
 
 ADMINS = (
