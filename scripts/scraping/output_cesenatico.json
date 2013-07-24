@@ -686,7 +686,7 @@
             "pedal\u00f2",
             "ristorazione"
         ],
-        "tel": "87906 "
+        "tel": "0547 86284"
     },
     {
         "address": "Viale Milano, 33",
@@ -1476,7 +1476,7 @@
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
-        "tel": "0547 81107"
+        "tel": "0547 673103"
     },
     {
         "address": "Viale Carso, 43",
@@ -2410,7 +2410,7 @@
         "services": [
             "animazione",
             "palestra",
-            "baby sitting",
+            "baby-sitting",
             "beach volley",
             "calcetto",
             "calcio",
@@ -3353,12 +3353,11 @@
             "bocce",
             "giochi bimbi",
             "pedal\u00f2",
-            "zona relax",
             "lettini fronte mare",
             "ping pong",
             "piccola ristorazione",
             "vendita articoli spiaggia",
-            "maxischermo tv plasma",
+            "sala tv",
             "accessibilit\u00e0 ai disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
@@ -4149,7 +4148,6 @@
             "fronte mare": 28,
             "lettini": 150,
             "ombrelloni": 80,
-            "sala tv": 0,
             "sdraio": 30,
             "superficie complessiva spiaggia": 1736,
             "wc": 2
@@ -4162,6 +4160,7 @@
             "ping pong",
             "giornalini",
             "ristorazione",
+            "sala tv",
             "accessibilit\u00e0 ai disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"

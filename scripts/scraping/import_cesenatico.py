@@ -90,10 +90,19 @@ for i, url_bagno in enumerate(url_bagni, start=1):
                 try:
                     detail_name = utils.get_detail_from_alias(detail_name)
                     if detail_name:
-                        if not detail_name in DETAILS:
-                            DETAILS.append(detail_name)
-                        if not detail_name in bagno['details']:
-                            bagno['details'][detail_name] = int(float(detail_value))
+                        if detail_name.startswith("service:"):
+                            service_list = utils.get_service_from_alias(detail_name.replace("service:", ""))
+                            for service in service_list:
+                                if service:
+                                    if not service in SERVICES:
+                                        SERVICES.append(service)
+                                    if not service in bagno['services']:
+                                        bagno['services'].append(service)
+                        else:
+                            if not detail_name in DETAILS:
+                                DETAILS.append(detail_name)
+                            if not detail_name in bagno['details']:
+                                bagno['details'][detail_name] = int(float(detail_value))
                 except Exception:
                     import ipdb; ipdb.set_trace()
         else:

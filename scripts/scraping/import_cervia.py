@@ -65,12 +65,21 @@ for i, tr in enumerate(trs, start=1):
                     for match in matches:
                         try:
                             detail_name = utils.get_detail_from_alias(match[0].strip().strip("numero").strip("n.").strip("mq").strip("m").strip("n").strip().strip(":").strip(".").strip().lower())
-                            detail_value = int(float(match[1].replace(".", "").replace(",", ".").strip()))
-                            if detail_name:
-                                if not detail_name in DETAILS:
-                                    DETAILS.append(detail_name)
-                                if not detail_name in bagno['details']:
-                                    bagno['details'][detail_name] = detail_value
+                            if detail_name.startswith("service:"):
+                                service_list = utils.get_service_from_alias(detail_name.replace("service:", ""))
+                                for service in service_list:
+                                    if service:
+                                        if not service in SERVICES:
+                                            SERVICES.append(service)
+                                        if not service in bagno['services']:
+                                            bagno['services'].append(service)
+                            else:
+                                detail_value = int(float(match[1].replace(".", "").replace(",", ".").strip()))
+                                if detail_name:
+                                    if not detail_name in DETAILS:
+                                        DETAILS.append(detail_name)
+                                    if not detail_name in bagno['details']:
+                                        bagno['details'][detail_name] = detail_value
                         except Exception:
                             import ipdb; ipdb.set_trace()
                             pass
@@ -110,13 +119,22 @@ for i, tr in enumerate(trs, start=1):
             if matches:
                 for match in matches:
                     try:
-                        detail_name = utils.get_detail_from_alias(match[0].strip()).strip("numero").strip("n.").strip("mq").strip("m").strip("n").strip().strip(":").strip(".").strip().lower()
-                        detail_value = int(float(match[1].replace(".", "").replace(",", ".").strip()))
-                        if detail_name:
-                            if not detail_name in DETAILS:
-                                DETAILS.append(detail_name)
-                            if not detail_name in bagno['details']:
-                                bagno['details'][detail_name] = detail_value
+                        detail_name = utils.get_detail_from_alias(match[0].strip().strip("numero").strip("n.").strip("mq").strip("m").strip("n").strip().strip(":").strip(".").strip().lower())
+                        if detail_name.startswith("service:"):
+                                service_list = utils.get_service_from_alias(detail_name.replace("service:", ""))
+                                for service in service_list:
+                                    if service:
+                                        if not service in SERVICES:
+                                            SERVICES.append(service)
+                                        if not service in bagno['services']:
+                                            bagno['services'].append(service)
+                        else:
+                            detail_value = int(float(match[1].replace(".", "").replace(",", ".").strip()))
+                            if detail_name:
+                                if not detail_name in DETAILS:
+                                    DETAILS.append(detail_name)
+                                if not detail_name in bagno['details']:
+                                    bagno['details'][detail_name] = detail_value
                     except Exception:
                         import ipdb; ipdb.set_trace()
                         pass

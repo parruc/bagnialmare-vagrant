@@ -23,6 +23,7 @@ for i, url_bagno in enumerate(url_bagni, start=1):
         import ipdb; ipdb.set_trace()
     bagno['number'] = match.group(1)
     bagno['name'] = match.group(2)
+    logging.info("Parsing %s" % bagno['name'])
     for bad in parsed_bagno.xpath("//div[@class='detail-contact']/div[strong[text()='fax']]"):
         bad.drop_tree()
     for bad in parsed_bagno.xpath("//div[@class='detail-contact']/div//strong"):

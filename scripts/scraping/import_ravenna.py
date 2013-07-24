@@ -27,6 +27,7 @@ for i, url_localita in enumerate(urls_localita[:-2], start=1):
         parsed_bagno = utils.try_open_file_or_url(url=BASE_URL + url_bagno, name="ravenna_bagno", count=j)
 
         bagno['name'] = parsed_bagno.xpath("//h2[@id='contenutoPagina']/text()")[0].strip()
+        logging.info("Parsing %s" % bagno['name'])
         available_names = {"indirizzo":"address", "telefono": "tel" , "telefax": "fax", "email": "mail", "link": "site", "sito web": "site"}
         recapito = parsed_bagno.xpath("//div[@class='sectionRight']//dl[@class='recapito']")[0]
         names = [n.strip().strip(":").lower() for n in recapito.xpath("./dt/text()")]
@@ -55,10 +56,19 @@ for i, url_localita in enumerate(urls_localita[:-2], start=1):
                 p_value = int(re.sub("[^0-9]", "", p_value.lower().strip()))
                 detail_name = utils.get_detail_from_alias(p_name)
                 if detail_name:
-                    if not detail_name in DETAILS:
-                        DETAILS.append(detail_name)
-                    if not detail_name in bagno['details']:
-                        bagno['details'][detail_name] = int(p_value)
+                    if detail_name.startswith("service:"):
+                        service_list = utils.get_service_from_alias(detail_name.replace("service:", ""))
+                        for service in service_list:
+                            if service:
+                                if not service in SERVICES:
+                                    SERVICES.append(service)
+                                if not service in bagno['services']:
+                                    bagno['services'].append(service)
+                    else:
+                        if not detail_name in DETAILS:
+                            DETAILS.append(detail_name)
+                        if not detail_name in bagno['details']:
+                            bagno['details'][detail_name] = int(p_value)
             elif "," in p_content and not "frazione a" in p_content:
                 for service_name in  [s.strip() for s in p_content.split(",")]:
                     service_list = utils.get_service_from_alias(service_name)
