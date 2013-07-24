@@ -273,7 +273,6 @@
             "feste a tema",
             "solarium",
             "serata a degustazione",
-            "zona relax",
             "cabina per surf e windsurf"
         ],
         "site": "http://www.bagno-romeo.it",
@@ -359,8 +358,7 @@
             "solarium",
             "windsurf",
             "wi-fi",
-            "accettazione cani",
-            "servizio tender a bordo delle imbarcazioni con corsia preferenziale."
+            "accettazione cani"
         ],
         "site": "http://www.alohabeach.it",
         "tel": "0544 446142"
@@ -1291,7 +1289,6 @@
             "ping pong",
             "racchettoni",
             "ristorazione",
-            "sport",
             "pedal\u00f2"
         ],
         "site": "http://www.bagnovillaggiodelsole.webs.com",
@@ -1451,7 +1448,7 @@
             "feste a tema"
         ],
         "site": "http://www.charliebeach.it/",
-        "tel": "0544 531081"
+        "tel": "0544 539435"
     },
     {
         "address": "Viale Delle Nazioni, 42",
@@ -1546,9 +1543,8 @@
             "feste a tema",
             "solarium",
             "animazione per bambini",
-            "tornei di racchettoni",
-            "basket",
-            "grill self-service."
+            "tornei sportivi",
+            "basket"
         ],
         "site": "http://www.dolcelucia.com",
         "tel": "0544 530546"
@@ -1585,7 +1581,7 @@
             "ristorazione",
             "feste a tema",
             "solarium",
-            "serate danzanti (marted\u00ec e venerd\u00ec)",
+            "animazione serale",
             "concerti",
             "animazione per bambini",
             "corso di racchettoni",
@@ -1616,11 +1612,37 @@
             "pallacanestro",
             "ristorazione",
             "accettazione cani",
-            "wi-fi",
-            "ristorante biologico"
+            "wi-fi"
         ],
         "site": "http://www.dunadegliorsi.com",
         "tel": "0544 530548"
+    },
+    {
+        "address": "Viale Delle Nazioni, 286",
+        "city": "Marina di Ravenna",
+        "details": {
+            "cabine": 8,
+            "cabine disabili": 1,
+            "docce aperte": 3,
+            "docce chiuse": 2,
+            "lavapiedi": 1,
+            "lettini": 400,
+            "ombrelloni": 80,
+            "wc": 6,
+            "wc disabili": 1
+        },
+        "mail": "fandangobeach@libero.it",
+        "name": "Bagno Fandango",
+        "services": [
+            "animazione",
+            "beach volley",
+            "baby park",
+            "pallacanestro",
+            "racchettoni",
+            "ristorazione"
+        ],
+        "site": "http://www.fandangobeach.it/",
+        "tel": "0544 1880062 - 393 6736052"
     },
     {
         "address": "Viale delle Nazioni, 72",
@@ -1648,7 +1670,7 @@
             "surf",
             "calcio balilla",
             "concerti",
-            "dj set"
+            "dj-set"
         ],
         "site": "http://bronsonproduzioni.com",
         "tel": "333 2097141"
@@ -1684,11 +1706,9 @@
             "ristorazione",
             "feste a tema",
             "solarium",
-            "musica dal vivo",
+            "concerti",
             "massaggi",
-            "docce calde",
-            "banco degli aromi",
-            "lounge caff\u00e8"
+            "docce calde"
         ],
         "site": "Bagno Hookipa",
         "tel": "0544 531788"
@@ -1717,7 +1737,7 @@
             "ristorazione",
             "feste a tema",
             "cocktail bar",
-            "freesbee ultimate."
+            "freesbee"
         ],
         "tel": "0544 538840"
     },
@@ -1815,6 +1835,49 @@
         "tel": "0544 530186"
     },
     {
+        "address": "Viale dell Nazioni, 10/12",
+        "city": "Marina di Ravenna",
+        "details": {
+            "cabine": 16,
+            "docce aperte": 12,
+            "docce chiuse": 3,
+            "lettini": 1000,
+            "ombrelloni": 220,
+            "sdraio": 100,
+            "wc": 12,
+            "wc disabili": 3
+        },
+        "fax": "0544 536063",
+        "mail": "info@marinabay.it",
+        "name": "Bagno Marinabay",
+        "services": [
+            "animazione",
+            "aperitivi",
+            "beach volley",
+            "calcetto",
+            "calciotennis",
+            "cene a tema",
+            "cene tipiche",
+            "baby park",
+            "grigiate di pesce",
+            "grigliate di carne",
+            "palestra",
+            "piano bar",
+            "racchettoni",
+            "ristorazione",
+            "feste a tema",
+            "solarium",
+            "fitness",
+            "aquagym",
+            "tennis",
+            "piccola ristorazione",
+            "cocktail bar",
+            "animazione per bambini"
+        ],
+        "site": "http://www.marinabay.it",
+        "tel": "0544 531780 / 338 4169930 / 348 1549496"
+    },
+    {
         "address": "viale delle Nazioni, 82",
         "city": "Marina di Ravenna",
         "details": {
@@ -1899,7 +1962,6 @@
             "ristorazione",
             "pizzeria",
             "bar",
-            "area sport",
             "parcheggio"
         ],
         "tel": "0544 539185"
@@ -1927,7 +1989,6 @@
             "racchettoni",
             "ristorazione",
             "musica",
-            "eventi",
             "massaggi"
         ],
         "tel": "0544 530060"
@@ -2057,9 +2118,7 @@
             "ristorazione",
             "feste a tema",
             "solarium",
-            "corso di capoeira",
-            "corsi di yoga",
-            "corsi di balli brasiliani"
+            "yoga"
         ],
         "tel": "0544 530854"
     },
@@ -2510,76 +2569,6 @@
         "tel": "0544 530418 - 347 2583525"
     },
     {
-        "address": "Viale dell Nazioni, 10/12",
-        "city": "Marina di Ravenna",
-        "details": {
-            "cabine": 16,
-            "docce aperte": 12,
-            "docce chiuse": 3,
-            "lettini": 1000,
-            "ombrelloni": 220,
-            "sdraio": 100,
-            "wc": 12,
-            "wc disabili": 3
-        },
-        "fax": "0544 536063",
-        "mail": "info@marinabay.it",
-        "name": "Bangno Marina Bay",
-        "services": [
-            "animazione",
-            "aperitivi",
-            "beach volley",
-            "calcetto",
-            "calciotennis",
-            "cene a tema",
-            "cene tipiche",
-            "baby park",
-            "grigiate di pesce",
-            "grigliate di carne",
-            "palestra",
-            "piano bar",
-            "racchettoni",
-            "ristorazione",
-            "feste a tema",
-            "solarium",
-            "fitness",
-            "aquagym",
-            "tennis",
-            "piccola ristorazione",
-            "cocktail bar",
-            "animazione per bambini"
-        ],
-        "site": "http://www.marinabay.it",
-        "tel": "0544 530440"
-    },
-    {
-        "address": "Viale Delle Nazioni, 50",
-        "city": "Marina di Ravenna",
-        "details": {
-            "cabine": 8,
-            "cabine disabili": 1,
-            "docce aperte": 3,
-            "docce chiuse": 2,
-            "lavapiedi": 1,
-            "lettini": 400,
-            "ombrelloni": 80,
-            "wc": 6,
-            "wc disabili": 1
-        },
-        "fax": "0544 539461",
-        "mail": "info@mambocafe.it",
-        "name": "Bango Mambo Caf\u00e9",
-        "services": [
-            "animazione",
-            "beach volley",
-            "baby park",
-            "pallacanestro",
-            "racchettoni",
-            "ristorazione"
-        ],
-        "tel": "0544 539461 - 340 8993040"
-    },
-    {
         "address": "Lungomare C. Colombo, 67",
         "city": "Punta Marina terme",
         "details": {
@@ -2601,8 +2590,8 @@
             "baby park",
             "racchettoni",
             "ristorazione",
-            "serate per bambini",
-            "musica dal vivo"
+            "animazione per bambini",
+            "concerti"
         ],
         "tel": "0544 438726"
     },
@@ -2662,9 +2651,8 @@
             "pallacanestro",
             "racchettoni",
             "ristorazione",
-            "servizio navetto",
             "solarium",
-            "baby sitter",
+            "baby-sitting",
             "discoteca"
         ],
         "site": "http://www.bbkbeach.com",
@@ -2891,10 +2879,8 @@
             "ristorazione",
             "feste a tema",
             "barbecue",
-            "musica dal vivo",
-            "dj set",
-            "buffet vegetariani",
-            "concerti"
+            "concerti",
+            "dj set"
         ],
         "tel": "328 7844140"
     },
@@ -2981,12 +2967,8 @@
             "piano bar",
             "racchettoni",
             "feste a tema",
-            "laboratori di ceramica",
-            "corsi di lingua inglese con madrelingua",
-            "angolo lettura",
-            "giochi senza frontiere",
-            "animazione per bambini",
-            "corrida"
+            "libreria",
+            "animazione per bambini"
         ],
         "tel": "328 0360188"
     },
@@ -3314,7 +3296,6 @@
             "grigliate di carne",
             "racchettoni",
             "feste a tema",
-            "servizio navetto",
             "accessibilit\u00e0 ai disabili",
             "barbecue",
             "custodia valori"
@@ -3350,7 +3331,6 @@
             "racchettoni",
             "ristorazione",
             "feste a tema",
-            "servizio navetto",
             "solarium"
         ],
         "tel": "0544 437136"
@@ -3525,11 +3505,10 @@
             "karaoke",
             "ping pong",
             "racchettoni",
-            "oasi verde",
-            "jukebox",
+            "musica",
             "bocce",
             "canoe",
-            "kick boxing",
+            "kick boxking",
             "parcheggio"
         ],
         "site": "http://www.bagnosaintropez.it/",
@@ -3557,8 +3536,8 @@
             "ping pong",
             "racchettoni",
             "canoe",
-            "kick boxing",
-            "jukebox",
+            "kick boxking",
+            "musica",
             "parcheggio"
         ],
         "site": "www.bagnosaintropez.it",
@@ -3600,8 +3579,7 @@
             "spinning",
             "animazione per bambini",
             "pedal\u00f2",
-            "canoe",
-            "giochi per adulti"
+            "canoe"
         ],
         "site": "http://www.bagnosusanna.it",
         "tel": "0544 439212"
@@ -3653,9 +3631,8 @@
             "ping pong",
             "racchettoni",
             "ristorazione",
-            "tv al plasma",
+            "sala tv",
             "deposito giochi",
-            "doccia calda",
             "parcheggio"
         ],
         "tel": "0544 437425 - 338 7023848"
@@ -3710,7 +3687,6 @@
             "racchettoni",
             "ristorazione",
             "feste a tema",
-            "servizio navetto",
             "solarium"
         ],
         "site": "http://www.bagnovela.it",
@@ -4310,8 +4286,7 @@
             "solarium",
             "pizzeria",
             "paninoteca",
-            "fast-food",
-            "piadineria",
+            "piccola ristorazione",
             "concerti"
         ],
         "site": "http://www.bagnopassatore.it",
@@ -4397,9 +4372,10 @@
             "racchettoni",
             "ristorazione",
             "ginnastica",
-            "feste serali",
+            "animazione serale",
             "musica",
-            "noleggio pedal\u00f2 e canoe",
+            "canoe",
+            "pedal\u00f2",
             "videogiochi"
         ],
         "tel": "0544 939434"
@@ -4463,7 +4439,6 @@
             "sala tv",
             "ginnastica",
             "animazione per bambini",
-            "pranzi/cene di lavoro",
             "disponibile per feste private"
         ],
         "tel": "0544 939407 - 338 2855028"
@@ -4493,7 +4468,6 @@
             "ristorazione",
             "acquagym",
             "pedal\u00f2",
-            "feste",
             "accettazione cani",
             "baby park"
         ],
@@ -4653,8 +4627,8 @@
             "happy hour",
             "racchettoni",
             "ristorazione",
-            "musica dal vivo",
-            "feste serali",
+            "concerti",
+            "animazione serale",
             "sala tv",
             "pedal\u00f2"
         ],
@@ -4682,7 +4656,6 @@
             "baby park",
             "racchettoni",
             "ristorazione",
-            "balli",
             "ginnastica"
         ],
         "tel": "0544 939321"
@@ -5060,7 +5033,6 @@
             "bar",
             "corsi di nuoto",
             "wi-fi",
-            "trampolino",
             "baby park"
         ],
         "tel": "339 4049770"
@@ -5395,7 +5367,6 @@
             "ping pong",
             "racchettoni",
             "ristorazione",
-            "biciclettate",
             "animazione serale",
             "calcio balilla"
         ],
@@ -5457,8 +5428,7 @@
             "bocce",
             "ping pong",
             "ristorazione",
-            "ginnastica",
-            "giochi in spiaggia"
+            "ginnastica"
         ],
         "site": "http://www.palacelidohotel.it/",
         "tel": "0544 949223"
@@ -5499,7 +5469,6 @@
             "animazione",
             "baby park",
             "ristorazione",
-            "sport",
             "wi-fi"
         ],
         "site": "http://www.bagnopaolo.110mb.com",
@@ -5660,7 +5629,7 @@
             "ristorazione",
             "feste a tema",
             "wi-fi",
-            "musica dal vivo",
+            "concerti",
             "sala tv"
         ],
         "site": "http://www.salsedine367.it",

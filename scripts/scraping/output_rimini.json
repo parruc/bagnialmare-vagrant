@@ -1041,6 +1041,7 @@
     },
     {
         "address": "",
+        "city": "Rimini",
         "details": {},
         "name": "Vittorio",
         "number": "63",
@@ -1446,6 +1447,7 @@
     },
     {
         "address": "Lungomare di Vittorio",
+        "city": "Rimini",
         "description": "Servizi offerti area accoglienza animali domestici",
         "details": {},
         "name": "Bagno 84 sud",
@@ -3666,6 +3668,7 @@
     },
     {
         "address": "Via San Salvador",
+        "city": "Rimini",
         "description": "Servizi offerti tornei di pallavolo e carte",
         "details": {
             "cabine": 18,

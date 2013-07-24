@@ -31,6 +31,7 @@ for i, tr in enumerate(trs, start=1):
             bagno['name'] = match.group(0)
     else:
         import ipdb; ipdb.set_trace()
+    logging.info("Parsing %s" % bagno['name'])
     bagno_url = td.xpath("./a/@href")[0]
     parsed_bagno = utils.try_open_file_or_url(url=bagno_url, name="rimini_bagno", count=i)
     if parsed_bagno is None:
@@ -113,7 +114,8 @@ for i, tr in enumerate(trs, start=1):
                     SERVICES.append(service)
                 if not service in bagno['services']:
                     bagno['services'].append(service)
-
+    if not "city" in bagno:
+        bagno["city"] = "Rimini"
     bagni.append(bagno)
 
 

@@ -34,10 +34,10 @@
         "address": "Lungomare Grazia Deledda",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 2,
             "fronte mare": 22,
-            "lavapiedi wc": 2
+            "wc": 2
         },
         "fax": "",
         "mail": "a.farnedi@libero.it",
@@ -64,11 +64,11 @@
         "address": "Lungomare Grazia Deledda",
         "city": "Cervia",
         "details": {
-            "con acqua calda gratuita docce aperte": 4,
+            "docce aperte": 4,
             "docce chiuse": 2,
             "fronte mare": 40,
-            "sdraio wc": 4,
-            "superficie complesssiva spiaggia": 4600
+            "superficie complessiva spiaggia": 4600,
+            "wc": 4
         },
         "fax": "",
         "name": "Bagno Olimpia",
@@ -96,8 +96,8 @@
         "details": {
             "docce aperte": 2,
             "fronte mare": 40,
-            "sdraio wc": 6,
-            "superficie complessiva spiaggia": 4200
+            "superficie complessiva spiaggia": 4200,
+            "wc": 6
         },
         "fax": "0544 72398",
         "name": "Bagno Luigi",
@@ -128,11 +128,11 @@
         "address": "Lungomare Grazia Deledda",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 2,
             "fronte mare": 40,
-            "sdraio wc": 4,
-            "superficie complessiva spiaggia": 4475
+            "superficie complessiva spiaggia": 4475,
+            "wc": 4
         },
         "fax": "",
         "name": "Bagno Saretina",
@@ -169,7 +169,7 @@
         "address": "Lungomare Grazia Deledda",
         "city": "Cervia",
         "details": {
-            "con acqua calda gratuita docce aperte": 12,
+            "docce aperte": 12,
             "docce chiuse": 2,
             "fronte mare": 90,
             "superficie complessiva spiaggia": 10000,
@@ -208,7 +208,7 @@
         "address": "Lungomare Grazia Deledda",
         "city": "Cervia",
         "details": {
-            "con acqua calda gratuita docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 2,
             "fronte mare": 30,
             "superficie complessiva spiaggia": 3000,
@@ -252,7 +252,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 160",
         "city": "Cervia",
         "details": {
-            "doccia chiusa con acqua calda gratuitadocce aperte": 6,
+            "docce aperte": 6,
             "fronte mare": 40,
             "superficie complessiva spiaggia": 4611,
             "wc": 5
@@ -290,26 +290,17 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 162",
         "city": "Cervia",
         "details": {
-            "cabi": 20,
-            "campi beach socc": 1,
-            "campi beach tennis": 1,
-            "campi beach volley": 1,
-            "docce apert": 3,
-            "docce aperte con acqua calda": 1,
-            "docce chius": 3,
-            "docce chiuse con acqua calda": 2,
-            "docce chiuse con acqua calda a pagament": 2,
-            "fronte mare metri": 20,
+            "cabine": 20,
+            "docce aperte": 3,
+            "docce chiuse": 3,
+            "fronte mare": 20,
             "lavapiedi": 1,
             "lettini": 220,
-            "lettini per disabili": 3,
             "ombrelloni": 110,
-            "parcheggio riservat": 50,
-            "sdrai": 20,
-            "sedi": 40,
+            "sdraio": 20,
             "superficie complessiva spiaggia": 1000,
             "wc": 5,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 970139",
         "name": "Bagno Gianni",
@@ -318,6 +309,9 @@
             "servizio salvamento",
             "sala tv",
             "piccola ristorazione",
+            "parcheggio",
+            "beach volley",
+            "beach soccer",
             "racchettoni",
             "palloni a disposizione",
             "calcio balilla",
@@ -339,7 +333,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 163",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 2,
             "fronte mare": 20,
             "superficie complessiva spiaggia": 2000,
@@ -373,7 +367,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 164",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 2,
             "fronte mare": 19,
             "superficie complessiva spiaggia": 2294,
@@ -412,25 +406,17 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 165",
         "city": "Cervia",
         "details": {
-            "cabi": 75,
-            "campi beach tennis": 2,
-            "campi beach volley": 2,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 6,
-            "docce aperte con acqua calda": 4,
-            "docce chius": 2,
-            "docce chiuse con acqua calda": 2,
-            "fronte mare metri": 40,
+            "cabine": 75,
+            "docce aperte": 6,
+            "docce chiuse": 2,
+            "fronte mare": 40,
             "lavapiedi": 2,
             "lettini": 500,
             "ombrelloni": 150,
-            "parcheggio riservat": 80,
-            "sdrai": 10,
-            "sedi": 10,
-            "spazio giochi all'aperto": 100,
+            "sdraio": 10,
             "superficie complessiva spiaggia": 4000,
             "wc": 8,
-            "wc accessibili ai disabili": 2
+            "wc disabili": 2
         },
         "fax": "0544 976422",
         "mail": "info@bagnosoleluna.it",
@@ -440,6 +426,8 @@
             "servizio salvamento",
             "sala tv",
             "ristorazione",
+            "parcheggio",
+            "beach volley",
             "racchettoni",
             "palloni a disposizione",
             "calcio balilla",
@@ -459,7 +447,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 167",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 1,
             "fronte mare": 20,
             "superficie complessiva spiaggia": 2223,
@@ -494,7 +482,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 168",
         "city": "Cervia",
         "details": {
-            "doccia chiusa con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
             "fronte mare": 20,
             "superficie complessiva spiaggia": 2300,
             "wc": 2
@@ -528,9 +516,8 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 169",
         "city": "Cervia",
         "details": {
-            "campi beach volley": 2,
-            "con acqua calda a pagamento docce aperte": 6,
-            "doccie chiuse": 2,
+            "docce aperte": 6,
+            "docce chiuse": 2,
             "fronte mare": 43,
             "superficie complessiva spiaggia": 4678,
             "wc": 3
@@ -550,6 +537,7 @@
             "wi-fi",
             "ristorazione",
             "palestra",
+            "beach volley",
             "racchettoni",
             "calcio balilla",
             "ping pong",
@@ -568,7 +556,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 172/173",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 2,
             "wc": 6
         },
@@ -606,11 +594,11 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 174",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 5,
+            "docce aperte": 5,
             "docce chiuse": 4,
             "fronte mare": 38,
-            "lavapiedi wc": 5,
-            "superficie complesssiva spiaggia": 4195
+            "superficie complessiva spiaggia": 4195,
+            "wc": 5
         },
         "fax": "",
         "name": "Bagno I Figli del Sole",
@@ -639,10 +627,10 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 175/176",
         "city": "Cervia",
         "details": {
-            "con acqua calda gratuita docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 1,
             "fronte mare": 32,
-            "lavapiedi wc": 3
+            "wc": 3
         },
         "fax": "0544 72079",
         "mail": "info@bagnodover.com",
@@ -675,7 +663,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 177/178",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 6,
+            "docce aperte": 6,
             "docce chiuse": 10,
             "fronte mare": 66,
             "superficie complessiva spiaggia": 7314,
@@ -712,10 +700,10 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 179/182",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 8,
+            "docce aperte": 8,
             "docce chiuse": 3,
             "fronte mare": 60,
-            "lavapiedi wc": 5
+            "wc": 5
         },
         "fax": "0544 975757",
         "mail": "info@fantiniclub.com",
@@ -750,10 +738,10 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 183",
         "city": "Cervia",
         "details": {
-            "doccia chiusa con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
             "fronte mare": 21,
-            "lavapiedi wc": 4,
-            "superficie complessiva spiaggia": 2426
+            "superficie complessiva spiaggia": 2426,
+            "wc": 4
         },
         "fax": "",
         "mail": "enricobedeschi@alice.it",
@@ -786,7 +774,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 184",
         "city": "Cervia",
         "details": {
-            "doccia chiusa con acqua calda gratuita docce aperte": 2,
+            "docce aperte": 2,
             "fronte mare": 26,
             "superficie complessiva spiaggia": 2756,
             "wc": 3
@@ -834,10 +822,10 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 187",
         "city": "Cervia",
         "details": {
-            "doccia chiusa con acqua calda gratuita docce aperte": 3,
+            "docce aperte": 3,
             "fronte mare": 20,
-            "lavapiedi wc": 3,
-            "superficie complessiva spiaggia": 2328
+            "superficie complessiva spiaggia": 2328,
+            "wc": 3
         },
         "fax": "0543 440947",
         "mail": "bagnolina187@virgilio.it",
@@ -899,7 +887,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 190",
         "city": "Cervia",
         "details": {
-            "doccia chiusa con acqua calda a pagamento docce aperte": 4,
+            "docce aperte": 4,
             "fronte mare": 37,
             "superficie complessiva spiaggia": 4077,
             "wc": 5
@@ -933,10 +921,10 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 191",
         "city": "Cervia",
         "details": {
-            "doccia chiusa con acqua calda a pagamento docce aperte": 6,
+            "docce aperte": 6,
             "fronte mare": 18,
-            "lavapiedi wc": 4,
-            "superficie complessiva spiaggia": 2162
+            "superficie complessiva spiaggia": 2162,
+            "wc": 4
         },
         "fax": "",
         "mail": "bagnobenito191@libero.it",
@@ -967,7 +955,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 194",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 7,
+            "docce aperte": 7,
             "docce chiuse": 2,
             "fronte mare": 46,
             "superficie complessiva spiaggia": 5580,
@@ -1008,20 +996,13 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 195/196",
         "city": "Cervia",
         "details": {
-            "campi basket": 1,
-            "campi beach socc": 1,
-            "campi beach tennis": 3,
-            "campi beach volley": 3,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 6,
-            "docce aperte con acqua calda": 4,
-            "docce chius": 2,
-            "docce chiuse con acqua calda a pagament": 2,
-            "fronte mare metri": 50,
+            "docce aperte": 6,
+            "docce chiuse": 2,
+            "fronte mare": 50,
             "lavapiedi": 2,
             "superficie complessiva spiaggia": 5500,
             "wc": 4,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "mail": "bagnoulisse195@hotmail.it",
@@ -1031,7 +1012,10 @@
             "servizio salvamento",
             "sala tv",
             "piccola ristorazione",
+            "beach volley",
+            "beach soccer",
             "racchettoni",
+            "basket",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -1048,36 +1032,32 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 197/198",
         "city": "Cervia",
         "details": {
-            "cabi": 47,
-            "campi basket": 1,
-            "campi beach socc": 2,
-            "campi beach tennis": 2,
-            "campi beach volley": 2,
-            "docce apert": 5,
-            "docce aperte con acqua calda": 3,
-            "docce chius": 3,
-            "docce chiuse con acqua calda": 3,
-            "fronte ma": 42,
+            "cabine": 47,
+            "docce aperte": 5,
+            "docce chiuse": 3,
+            "fronte mare": 42,
             "lavapiedi": 2,
             "lettini": 500,
             "ombrelloni": 200,
-            "sdrai": 20,
-            "sedi": 20,
+            "sdraio": 20,
             "superficie complessiva spiaggia": 4200,
             "wc": 8,
-            "wc accessibili ai disabili": 2
+            "wc disabili": 2
         },
         "fax": "0544 973353",
-        "mail": "danielebeach@hotmail.it",
+        "mail": "bagnodaniele@libero.it",
         "name": "Bagno Daniele",
         "number": "197/198",
         "services": [
             "servizio salvamento",
             "sala tv",
-            "piccola ristorazione",
+            "ristorazione",
             "parcheggio",
             "palestra",
+            "beach volley",
+            "beach soccer",
             "racchettoni",
+            "basket",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -1151,11 +1131,11 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 202",
         "city": "Cervia",
         "details": {
-            "con acqua calda gratuita docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 1,
             "fronte mare": 20,
-            "lavapiedi wc": 2,
-            "superfice complessiva spiaggia": 2600
+            "superficie complessiva spiaggia": 2600,
+            "wc": 2
         },
         "fax": "0544 973155",
         "mail": "info@bagnosilverio.it",
@@ -1186,11 +1166,11 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 203",
         "city": "Cervia",
         "details": {
-            "con acqua calda gratuita docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 2,
             "fronte mare": 20,
-            "lavapiedi wc": 3,
-            "superficie complesssiva spiaggia": 2700
+            "superficie complessiva spiaggia": 2700,
+            "wc": 3
         },
         "fax": "",
         "mail": "info@bagnosolosole.com",
@@ -1225,7 +1205,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 204",
         "city": "Cervia",
         "details": {
-            "con acqua calda docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 8,
             "fronte mare": 20,
             "superficie complessiva spiaggia": 2400,
@@ -1262,7 +1242,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 205",
         "city": "Cervia",
         "details": {
-            "doccia chiusa con acqua calda gratuita docce aperte": 3,
+            "docce aperte": 3,
             "fronte mare": 24,
             "superficie complessiva spiaggia": 2400,
             "wc": 5
@@ -1304,7 +1284,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 206",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 2,
             "fronte mare": 20,
             "superficie complessiva spiaggia": 2200,
@@ -1353,7 +1333,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 208",
         "city": "Cervia",
         "details": {
-            "doccia chiusa con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
             "fronte mare": 20,
             "superficie complessiva spiaggia": 1400,
             "wc": 3
@@ -1396,7 +1376,7 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 210",
         "city": "Cervia",
         "details": {
-            "con acqua calda gratuita docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 2,
             "fronte mare": 33,
             "wc": 4
@@ -1426,24 +1406,17 @@
         "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 211",
         "city": "Cervia",
         "details": {
-            "animazionemini club ogni": 2,
-            "cabi": 30,
-            "campi beach tennis": 1,
-            "campi beach volley": 1,
-            "docce apert": 6,
-            "docce aperte con acqua calda": 1,
-            "docce chius": 1,
-            "docce chiuse con acqua calda": 1,
-            "fronte ma": 19,
+            "cabine": 30,
+            "docce aperte": 6,
+            "docce chiuse": 1,
+            "fronte mare": 19,
             "lavapiedi": 1,
             "lettini": 300,
-            "lettini per disabili": 5,
             "ombrelloni": 130,
-            "sdrai": 30,
-            "sedi": 30,
+            "sdraio": 30,
             "superficie complessiva spiaggia": 2300,
             "wc": 4,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "mail": "info@bagnoitalia211.com",
@@ -1453,10 +1426,12 @@
             "servizio salvamento",
             "sala tv",
             "piccola ristorazione",
+            "beach volley",
             "racchettoni",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
+            "animazione per bambini",
             "baby park",
             "animazione",
             "beach dance",
@@ -1512,10 +1487,10 @@
         "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 213/214",
         "city": "Cervia",
         "details": {
-            "accessibile ai portatori di handicap docce chiuse": 1,
-            "con acqua calda gratuita docce aperte": 5,
+            "docce aperte": 5,
+            "docce chiuse": 1,
             "fronte mare": 47,
-            "superfice complessiva spiaggia": 5500,
+            "superficie complessiva spiaggia": 5500,
             "wc": 4
         },
         "fax": "0544 972082",
@@ -1565,23 +1540,17 @@
         "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 216",
         "city": "Cervia",
         "details": {
-            "cabi": 20,
-            "campi basket": 1,
-            "campi beach tennis": 1,
-            "campi beach volley": 1,
-            "docce apert": 2,
-            "docce aperte con acqua calda": 2,
-            "docce chius": 2,
-            "docce chiuse con acqua calda": 2,
-            "fronte mare metri": 20,
+            "cabine": 20,
+            "docce aperte": 2,
+            "docce chiuse": 2,
+            "fronte mare": 20,
             "lavapiedi": 1,
             "lettini": 240,
             "ombrelloni": 100,
-            "sdrai": 20,
-            "sedi": 20,
+            "sdraio": 20,
             "superficie complessiva spiaggia": 2000,
             "wc": 3,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 972711",
         "mail": "bagnogildo@agenzialewa.com",
@@ -1592,7 +1561,9 @@
             "sala tv",
             "internet",
             "piccola ristorazione",
+            "beach volley",
             "racchettoni",
+            "basket",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -1639,26 +1610,17 @@
         "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 219",
         "city": "Cervia",
         "details": {
-            "cabi": 31,
-            "campi basket": 1,
-            "campi beach socc": 3,
-            "campi beach tennis": 3,
-            "campi beach volley": 3,
-            "docce apert": 6,
-            "docce aperte con acqua calda": 5,
-            "docce chius": 11,
-            "docce chiuse con acqua calda": 11,
-            "docce chiuse con acqua calda a pagament": 11,
-            "fronte mare metri": 76,
+            "cabine": 31,
+            "docce aperte": 6,
+            "docce chiuse": 11,
+            "fronte mare": 76,
             "lavapiedi": 5,
             "lettini": 500,
             "ombrelloni": 250,
-            "sdrai": 20,
-            "sedi": 50,
-            "spazio giochi all'aperto": 500,
+            "sdraio": 20,
             "superficie complessiva spiaggia": 9000,
             "wc": 6,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 973915",
         "mail": "info@lidobeachcervia.com",
@@ -1670,7 +1632,10 @@
             "sala tv",
             "wi-fi",
             "ristorazione",
+            "beach volley",
+            "beach soccer",
             "racchettoni",
+            "basket",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -1700,7 +1665,7 @@
         "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 222/226",
         "city": "Cervia",
         "details": {
-            "con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 3,
             "fronte mare": 20,
             "superficie complessiva spiaggia": 2320
@@ -1782,20 +1747,12 @@
         "address": "Viale Arrigo Boito - arenile demaniale 236",
         "city": "Milano Marittima",
         "details": {
-            "all": 1200,
-            "animazionemini club dal lunedi al venerdi dall": 1000,
-            "campi beach tennis": 1,
-            "campi beach volley": 1,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "dall": 1600,
-            "docce apert": 4,
-            "docce chius": 2,
-            "docce chiuse con acqua calda": 2,
-            "fronte mare metri": 23,
+            "docce aperte": 4,
+            "docce chiuse": 2,
+            "fronte mare": 23,
             "lavapiedi": 2,
-            "parcheggio riservat": 14,
             "wc": 4,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "mail": "mosquito236@hotmail.it",
@@ -1806,8 +1763,11 @@
             "sala tv",
             "wi-fi",
             "piccola ristorazione",
+            "parcheggio",
+            "beach volley",
             "racchettoni",
             "palloni a disposizione",
+            "animazione per bambini",
             "baby park",
             "animazione",
             "ginnastica",
@@ -1824,11 +1784,11 @@
         "address": "Viale Arrigo Boito - arenile demaniale 237",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda gratuita docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 1,
             "fronte mare": 29,
-            "lavapiedi wc": 5,
-            "superfice complessiva spiaggia": 2958
+            "superficie complessiva spiaggia": 2958,
+            "wc": 5
         },
         "fax": "",
         "name": "Bagno Le Saline",
@@ -1858,9 +1818,9 @@
         "address": "Viale Arrigo Boito - arenile demaniale 238",
         "city": "Milano Marittima",
         "details": {
-            "doccia chiusa con acqua calda gratuita docce aperte": 3,
+            "docce aperte": 3,
             "fronte mare": 29,
-            "lavapiedi wc": 4
+            "wc": 4
         },
         "fax": "",
         "mail": "icapanni.lido238@libero.it",
@@ -1889,7 +1849,7 @@
         "address": "Viale Pietro Mascagni - arenile demaniale 239",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda gratuita. docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 2,
             "fronte mare": 17,
             "superficie complessiva spiaggia": 1765,
@@ -1923,8 +1883,8 @@
         "city": "Milano Marittima",
         "details": {
             "docce aperte": 3,
-            "fronte mare": 18,
-            "lavapiedi docce chiuse": 2
+            "docce chiuse": 2,
+            "fronte mare": 18
         },
         "fax": "",
         "mail": "htonnitorri@cervia.com",
@@ -1955,8 +1915,8 @@
         "details": {
             "docce aperte": 2,
             "fronte mare": 23,
-            "lavapiedi wc": 3,
-            "superficie complessiva spiaggia": 1500
+            "superficie complessiva spiaggia": 1500,
+            "wc": 3
         },
         "fax": "",
         "mail": "zanetti-fo@libero.it",
@@ -1991,7 +1951,7 @@
         "address": "Viale Pietro Mascagni - arenile demaniale 242",
         "city": "Milano Marittima",
         "details": {
-            "doccia chiusa con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
             "fronte mare": 25,
             "superficie complessiva spiaggia": 2849,
             "wc": 3
@@ -2056,10 +2016,10 @@
         "address": "Viale Due Giugno - arenile demaniale 243",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda gratuita docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 2,
             "fronte mare": 20,
-            "sdraio wc": 6
+            "wc": 6
         },
         "fax": "0544 972773",
         "mail": "aurelia@selecthotels.it",
@@ -2123,7 +2083,7 @@
         "address": "Viale Amilcare Ponchielli - arenile demaniale 246",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda gratuita docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 4,
             "fronte mare": 23,
             "superficie complessiva spiaggia": 2557,
@@ -2152,17 +2112,13 @@
         "address": "Viale Amilcare Ponchielli - arenile demaniale 247",
         "city": "Milano Marittima",
         "details": {
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 4,
-            "docce aperte con acqua calda": 3,
-            "docce chius": 1,
-            "docce chiuse con acqua calda a pagament": 1,
-            "fronte ma": 20,
+            "docce aperte": 4,
+            "docce chiuse": 1,
+            "fronte mare": 20,
             "lavapiedi": 1,
-            "spazio giochi all'aperto": 30,
             "superficie complessiva spiaggia": 2305,
             "wc": 3,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 975615",
         "mail": "bagnogiuliano@bagnogiuliano.com",
@@ -2191,8 +2147,8 @@
         "details": {
             "docce aperte": 4,
             "fronte mare": 150,
-            "sdraio wc": 5,
-            "superficie complessiva spiaggia": 6000
+            "superficie complessiva spiaggia": 6000,
+            "wc": 5
         },
         "fax": "0544 992739",
         "mail": "gianni@selecthotels.it",
@@ -2212,22 +2168,17 @@
         "address": "Viale Domenico Cimarosa - arenile demaniale 250",
         "city": "Milano Marittima",
         "details": {
-            "cabi": 40,
-            "campi basket": 1,
-            "campi beach tennis": 2,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 8,
-            "docce chius": 4,
-            "docce chiuse con acqua calda": 4,
-            "fronte mare metri": 73,
+            "cabine": 40,
+            "docce aperte": 8,
+            "docce chiuse": 4,
+            "fronte mare": 73,
             "lavapiedi": 2,
             "lettini": 800,
             "ombrelloni": 300,
-            "sdrai": 50,
-            "sedi": 40,
+            "sdraio": 50,
             "superficie complessiva spiaggia": 8123,
             "wc": 7,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 995293",
         "mail": "info@bagnoreste.com",
@@ -2238,6 +2189,7 @@
             "sala tv",
             "piccola ristorazione",
             "racchettoni",
+            "basket",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -2263,25 +2215,18 @@
         "address": "Viale Francesco Baracca - arenile demaniale 253",
         "city": "Milano Marittima",
         "details": {
-            "cabi": 26,
-            "campi beach tennis": 1,
-            "campi beach volley": 1,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 2,
-            "docce aperte con acqua calda": 2,
-            "docce chius": 2,
-            "docce chiuse con acqua calda": 2,
-            "docce chiuse con acqua calda a pagament": 2,
-            "fronte mare metri": 33,
-            "idromassaggi": 4,
+            "cabine": 26,
+            "docce aperte": 2,
+            "docce chiuse": 2,
+            "fronte mare": 33,
+            "idromassaggio": 4,
             "lavapiedi": 4,
             "lettini": 400,
             "ombrelloni": 170,
-            "sdrai": 20,
-            "sedi": 20,
+            "sdraio": 20,
             "superficie complessiva spiaggia": 3045,
             "wc": 7,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 992101",
         "mail": "staff@attiliobeach.it",
@@ -2292,6 +2237,7 @@
             "sala tv",
             "wi-fi",
             "ristorazione",
+            "beach volley",
             "racchettoni",
             "palloni a disposizione",
             "calcio balilla",
@@ -2332,6 +2278,7 @@
             "animazione per bambini",
             "sala tv",
             "beach basket",
+            "basket",
             "pedal\u00f2",
             "racchettoni",
             "palestra",
@@ -2344,9 +2291,9 @@
         "address": "Viale Francesco Baracca - arenile deamaniale 255",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
+            "docce chiuse": 4,
             "fronte mare": 32,
-            "lavapiedi wc docce chiuse": 4,
             "superficie complessiva spiaggia": 2531
         },
         "fax": "",
@@ -2451,7 +2398,7 @@
         "address": "Viale Cadorna - arenile demaniale 261",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda gratuita docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 1,
             "fronte mare": 21,
             "wc": 5
@@ -2517,7 +2464,7 @@
         "address": "Viale Corsica - arenile demaniale 263",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda a pagamento docce aperte": 6,
+            "docce aperte": 6,
             "docce chiuse": 13,
             "fronte mare": 35,
             "superficie complessiva spiaggia": 2000,
@@ -2552,8 +2499,8 @@
             "docce aperte": 4,
             "docce chiuse": 4,
             "fronte mare": 26,
-            "lavapiedi wc": 4,
-            "superficie complesssiva spiaggia": 2860
+            "superficie complessiva spiaggia": 2860,
+            "wc": 4
         },
         "fax": "",
         "name": "Bagno La Barcaccia",
@@ -2583,10 +2530,10 @@
         "address": "Viale Zara - arenile demaniale 266",
         "city": "Milano Marittima",
         "details": {
-            "doccia chiusa con acqua calda a pagamento docce aperte": 3,
+            "docce aperte": 3,
             "fronte mare": 20,
-            "lavapiedi wc": 5,
-            "superficie complessiva spiaggia": 2277
+            "superficie complessiva spiaggia": 2277,
+            "wc": 5
         },
         "fax": "0541 942122",
         "mail": "bastonimariaelena@libero.it",
@@ -2678,8 +2625,8 @@
         "details": {
             "docce aperte": 3,
             "fronte mare": 17,
-            "lavapiedi wc": 2,
-            "superficie complessiva spiaggia": 1700
+            "superficie complessiva spiaggia": 1700,
+            "wc": 2
         },
         "fax": "",
         "name": "Bagno Sogno del Mare",
@@ -2729,10 +2676,10 @@
         "address": "Viale Spalato - arenile demaniale 273",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda gratuita\r\ndocce aperte": 6,
+            "docce aperte": 6,
             "docce chiuse": 2,
             "fronte mare": 42,
-            "lavapiedi\r\nwc": 5
+            "wc": 5
         },
         "fax": "0544 993608",
         "mail": "info@agenzieriunite.com",
@@ -2762,8 +2709,8 @@
             "docce aperte": 2,
             "docce chiuse": 2,
             "fronte mare": 24,
-            "lavapiedi wc n": 5,
-            "superficie complessiva spiaggia": 2570
+            "superficie complessiva spiaggia": 2570,
+            "wc": 5
         },
         "fax": "",
         "name": "Bagno La Spiaggetta",
@@ -2789,7 +2736,7 @@
         "city": "Milano Marittima",
         "details": {
             "docce aperte": 4,
-            "doccia chiuse": 2,
+            "docce chiuse": 2,
             "fronte mare": 26,
             "superficie complessiva spiaggia": 2856,
             "wc": 3
@@ -2828,7 +2775,7 @@
         "address": "Viale Due Giugno - arenile demaniale 277",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 6,
             "fronte mare": 40,
             "superficie complessiva spiaggia": 4248,
@@ -2871,7 +2818,7 @@
         "city": "Milano Marittima",
         "details": {
             "docce aperte": 2,
-            "superficie complesssiva spiaggia": 3206,
+            "superficie complessiva spiaggia": 3206,
             "wc": 2
         },
         "fax": "",
@@ -2893,10 +2840,10 @@
         "address": "II Traversa - arenile demaniale 279",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda a pagamento docce aperte": 3,
+            "docce aperte": 3,
             "docce chiuse": 2,
-            "sdraio wc": 3,
-            "superficie complessiva spiaggia": 1760
+            "superficie complessiva spiaggia": 1760,
+            "wc": 3
         },
         "fax": "",
         "mail": "info@corallobeach279.it",
@@ -2959,7 +2906,7 @@
             "docce aperte": 8,
             "docce chiuse": 10,
             "fronte mare": 63,
-            "superficie complesssiva spiaggia": 5246,
+            "superficie complessiva spiaggia": 5246,
             "wc": 8
         },
         "fax": "0544 992033",
@@ -3016,8 +2963,8 @@
         "address": "IV Traversa - arenile demaniale 283",
         "city": "Milano Marittima",
         "details": {
-            "accessibile ai portatori di handicap docce chiuse": 3,
-            "con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
+            "docce chiuse": 3,
             "fronte mare": 17,
             "wc": 1
         },
@@ -3049,7 +2996,7 @@
             "docce aperte": 3,
             "docce chiuse": 13,
             "fronte mare": 22,
-            "superfice complessiva spiaggia": 2052,
+            "superficie complessiva spiaggia": 2052,
             "wc": 4
         },
         "fax": "",
@@ -3078,7 +3025,7 @@
         "city": "Milano Marittima",
         "details": {
             "docce aperte": 4,
-            "sdraio wc": 7
+            "wc": 7
         },
         "fax": "0544 994487",
         "mail": "pinobeach@libero.it",
@@ -3111,22 +3058,17 @@
         "address": "V Traversa - arenile demaniale 286",
         "city": "Milano Marittima",
         "details": {
-            "animazionemini club tutti i giorni, feste a tema ogni": 15,
-            "cabi": 34,
-            "docce apert": 4,
-            "docce aperte con acqua calda": 3,
-            "docce chius": 1,
-            "docce chiuse con acqua calda a pagament": 1,
-            "fronte ma": 23,
+            "cabine": 34,
+            "docce aperte": 4,
+            "docce chiuse": 1,
+            "fronte mare": 23,
             "lavapiedi": 2,
             "lettini": 240,
             "ombrelloni": 96,
-            "parcheggio riservat": 5,
-            "sdrai": 8,
-            "sedi": 8,
+            "sdraio": 8,
             "superficie complessiva spiaggia": 1200,
             "wc": 5,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "mail": "info@286.it",
@@ -3138,10 +3080,12 @@
             "internet",
             "wi-fi",
             "ristorazione",
+            "parcheggio",
             "racchettoni",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
+            "animazione per bambini",
             "baby park",
             "animazione",
             "ginnastica",
@@ -3154,7 +3098,7 @@
         "address": "V Traversa - arenile demaniale 287",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda a pagamento docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 2,
             "fronte mare": 40,
             "superficie complessiva spiaggia": 3600,
@@ -3182,20 +3126,17 @@
         "address": "Piazzale Torino - arenile demaniale 288",
         "city": "Milano Marittima",
         "details": {
-            "cabi": 60,
-            "docce apert": 4,
-            "docce chius": 7,
-            "docce chiuse con acqua calda": 7,
-            "docce chiuse con acqua calda a pagament": 2,
-            "fronte ma": 24,
+            "cabine": 60,
+            "docce aperte": 4,
+            "docce chiuse": 7,
+            "fronte mare": 24,
             "lavapiedi": 1,
             "lettini": 230,
             "ombrelloni": 110,
-            "sdrai": 50,
-            "sedi": 50,
+            "sdraio": 50,
             "superficie complessiva spiaggia": 1400,
             "wc": 5,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 992668",
         "mail": "info@lidohotel.it",
@@ -3225,13 +3166,12 @@
         "address": "V Traversa - arenile demaniale 289",
         "city": "Milano Marittima",
         "details": {
-            "docce apert": 3,
-            "docce chius": 1,
-            "docce chiuse con acqua calda a pagament": 1,
-            "fronte ma": 14,
+            "docce aperte": 3,
+            "docce chiuse": 1,
+            "fronte mare": 14,
             "lavapiedi": 1,
             "wc": 3,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "mail": "royalbeach@live.com",
@@ -3250,11 +3190,11 @@
         "address": "VI Traversa - arenile demaniale 290",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda a pagamento docce aperte": 4,
+            "docce aperte": 4,
             "docce chiuse": 3,
             "fronte mare": 32,
-            "sdraio wc": 5,
-            "superficie complesssiva spiaggia": 3000
+            "superficie complessiva spiaggia": 3000,
+            "wc": 5
         },
         "fax": "0544 991362",
         "mail": "info@bagnomarilena.it",
@@ -3285,20 +3225,17 @@
         "address": "VI Traversa - arenile demaniale 291",
         "city": "Milano Marittima",
         "details": {
-            "docce apert": 6,
-            "docce aperte con acqua calda": 6,
-            "docce chius": 1,
-            "docce chiuse con acqua calda": 1,
-            "fronte mare metri": 26,
-            "idromassaggiovasca idromassaggio": 9,
+            "docce aperte": 6,
+            "docce chiuse": 1,
+            "fronte mare": 26,
+            "idromassaggio": 9,
             "lavapiedi": 2,
             "lettini": 300,
             "ombrelloni": 116,
-            "sdrai": 15,
-            "sedi": 15,
+            "sdraio": 15,
             "superficie complessiva spiaggia": 1200,
             "wc": 5,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 993833",
         "mail": "info@acapulcohotels.it",
@@ -3335,7 +3272,7 @@
         "address": "VI Traversa - arenile demaniale 293",
         "city": "Milano Marittima",
         "details": {
-            "doccia chiusa con acqua calda a pagamento docce aperte": 6,
+            "docce aperte": 6,
             "fronte mare": 19,
             "superficie complessiva spiaggia": 1955,
             "wc": 4
@@ -3374,8 +3311,8 @@
         "details": {
             "docce aperte": 4,
             "fronte mare": 22,
-            "lavapiedi wc": 4,
-            "superficie complessiva spiaggia": 2247
+            "superficie complessiva spiaggia": 2247,
+            "wc": 4
         },
         "fax": "",
         "name": "Bagno La Palma",
@@ -3482,7 +3419,7 @@
         "city": "Milano Marittima",
         "details": {
             "docce aperte": 3,
-            "doccia chiusa": 1,
+            "docce chiuse": 1,
             "fronte mare": 42,
             "wc": 5
         },
@@ -3517,7 +3454,7 @@
             "docce aperte": 4,
             "docce chiuse": 1,
             "fronte mare": 37,
-            "superfice complessiva spiaggia": 3179,
+            "superficie complessiva spiaggia": 3179,
             "wc": 5
         },
         "fax": "0544 975822",
@@ -3561,7 +3498,7 @@
         "address": "IX Traversa - arenile demaniale 301",
         "city": "Milano Marittima",
         "details": {
-            "doccia chiusa con acqua calda a pagamento docce aperte": 4,
+            "docce aperte": 4,
             "fronte mare": 23,
             "wc": 4
         },
@@ -3605,7 +3542,6 @@
         "address": "XI traversa - arenile demaniale 302",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda a pagamento e": 1,
             "docce aperte": 3,
             "docce chiuse": 4,
             "fronte mare": 64,
@@ -3641,20 +3577,16 @@
         "address": "XI traversa - arenile demaniale 304/305",
         "city": "Milano Marittima",
         "details": {
-            "cabi": 40,
-            "campi beach socc": 1,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 3,
-            "docce chius": 4,
-            "docce chiuse con acqua calda": 4,
-            "fronte ma": 64,
+            "cabine": 40,
+            "docce aperte": 3,
+            "docce chiuse": 4,
+            "fronte mare": 64,
             "lavapiedi": 3,
             "lettini": 360,
             "ombrelloni": 180,
-            "sdrai": 20,
-            "sedi": 30,
+            "sdraio": 20,
             "wc": 3,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "mail": "info@peperittima.it",
@@ -3666,6 +3598,7 @@
             "internet",
             "wi-fi",
             "piccola ristorazione",
+            "beach soccer",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -3686,23 +3619,18 @@
         "address": "XI - XII traversa - arenile demaniale 305",
         "city": "Milano Marittima",
         "details": {
-            "cabi": 36,
-            "campi beach volley": 1,
-            "docce apert": 7,
-            "docce aperte con acqua calda": 1,
-            "docce chius": 4,
-            "docce chiuse con acqua calda a pagament": 2,
-            "fronte mare metri": 105,
-            "idromassaggi": 8,
+            "cabine": 36,
+            "docce aperte": 7,
+            "docce chiuse": 4,
+            "fronte mare": 105,
+            "idromassaggio": 8,
             "lavapiedi": 4,
             "lettini": 800,
             "ombrelloni": 370,
-            "parcheggio riservat": 15,
             "piscina": 250,
-            "sdrai": 40,
-            "sedi": 40,
+            "sdraio": 40,
             "wc": 8,
-            "wc accessibili ai disabili": 2
+            "wc disabili": 2
         },
         "fax": "0544 991330",
         "mail": "staff@bagnoholidayvillage.it",
@@ -3712,6 +3640,8 @@
             "servizio salvamento",
             "sala tv",
             "piccola ristorazione",
+            "parcheggio",
+            "beach volley",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -3732,11 +3662,11 @@
         "address": "XII traversa - arenile demaniale 307",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda gratuita docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 1,
             "fronte mare": 30,
-            "lavapiedi wc": 5,
-            "superficie complesssiva spiaggia": 2000
+            "superficie complessiva spiaggia": 2000,
+            "wc": 5
         },
         "fax": "",
         "name": "Bagno Katia",
@@ -3770,8 +3700,8 @@
             "docce aperte": 4,
             "docce chiuse": 1,
             "fronte mare": 64,
-            "sdraio wc": 6,
-            "superficie complesssiva spiaggia": 4416
+            "superficie complessiva spiaggia": 4416,
+            "wc": 6
         },
         "fax": "",
         "name": "Bagno Targhini",
@@ -3800,10 +3730,10 @@
         "address": "XIII traversa - arenile demaniale 309",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda gratuita docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 3,
             "fronte mare": 35,
-            "lavapiedi wc n": 7
+            "wc": 7
         },
         "fax": "",
         "name": "Bagno Deanna",
@@ -3849,11 +3779,11 @@
         "address": "XV traversa - arenile demaniale 311",
         "city": "Milano Marittima",
         "details": {
-            "con acqua gratuita docce aperte": 2,
+            "docce aperte": 2,
             "docce chiuse": 2,
             "fronte mare": 37,
-            "lavapiedi wc": 5,
-            "superficie complessiva spiaggia": 2072
+            "superficie complessiva spiaggia": 2072,
+            "wc": 5
         },
         "fax": "",
         "name": "Bagno Gabbiano",
@@ -3884,10 +3814,10 @@
         "address": "XV traversa - arenile demaniale 312",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda gratuita docce aperte": 6,
+            "docce aperte": 6,
             "docce chiuse": 2,
-            "lavapiedi wc": 3,
-            "superficie complessiva spiaggia": 2056
+            "superficie complessiva spiaggia": 2056,
+            "wc": 3
         },
         "fax": "",
         "mail": "info@bagnodelpino.it",
@@ -3914,11 +3844,11 @@
         "address": "XVI traversa - arenile demaniale 313/316",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda a pagamento docce aperte": 16,
+            "docce aperte": 16,
             "docce chiuse": 13,
             "fronte mare": 100,
-            "lavapiedi wc": 8,
-            "superficie complessiva spiaggia": 8000
+            "superficie complessiva spiaggia": 8000,
+            "wc": 8
         },
         "fax": "0544 994572",
         "mail": "info@bagnidario.it",
@@ -3954,7 +3884,7 @@
         "address": "XVII traversa - arenile demaniale 318",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda docce aperte": 4,
+            "docce aperte": 4,
             "docce chiuse": 9,
             "fronte mare": 34,
             "superficie complessiva spiaggia": 1500,
@@ -3993,15 +3923,13 @@
         "address": "XVIII traversa - arenile demaniale 320",
         "city": "Milano Marittima",
         "details": {
-            "cabi": 20,
-            "docce aperte con acqua calda": 2,
-            "fronte mare metri": 24,
+            "cabine": 20,
+            "docce aperte": 2,
+            "fronte mare": 24,
             "lavapiedi": 1,
-            "spazio giochi all'aperto": 70,
             "superficie complessiva spiaggia": 980,
             "wc": 5,
-            "wc accessibili ai disabili": 1,
-            "x": 40
+            "wc disabili": 1
         },
         "fax": "",
         "name": "Bagno Colombina",
@@ -4021,7 +3949,7 @@
         "address": "XVIII traversa - arenile demaniale 321",
         "city": "Milano Marittima",
         "details": {
-            "con acqua calda a pagamneto docce aperte": 4,
+            "docce aperte": 4,
             "docce chiuse": 2,
             "fronte mare": 23,
             "superficie complessiva spiaggia": 1514,
@@ -4066,8 +3994,8 @@
         "details": {
             "docce aperte": 2,
             "fronte mare": 82,
-            "lavapiedi wc": 3,
-            "superficie complesssiva spiaggia": 2500
+            "superficie complessiva spiaggia": 2500,
+            "wc": 3
         },
         "fax": "",
         "name": "Bagno Biondi",
@@ -4130,7 +4058,7 @@
         "address": "XXVI traversa - arenile demaniale 339",
         "city": "Milano Marittima",
         "details": {
-            "doccia chiusa con acqua calda a pagamento docce aperte": 3,
+            "docce aperte": 3,
             "fronte mare": 50,
             "superficie complessiva spiaggia": 1678,
             "wc": 4
@@ -4321,7 +4249,7 @@
         "details": {
             "docce aperte": 2,
             "fronte mare": 20,
-            "superfice complessiva spiaggia": 2049,
+            "superficie complessiva spiaggia": 2049,
             "wc": 3
         },
         "fax": "0544 987911",
@@ -4429,20 +4357,16 @@
         "address": "Arenile demaniale 70/71",
         "city": "Pinarella",
         "details": {
-            "cabi": 40,
-            "docce chius": 2,
-            "docce chiuse con acqua calda": 2,
-            "docce chiuse con acqua calda a pagament": 2,
-            "fronte ma": 40,
+            "cabine": 40,
+            "docce chiuse": 2,
+            "fronte mare": 40,
             "lavapiedi": 4,
             "lettini": 500,
             "ombrelloni": 180,
-            "sdrai": 30,
-            "sedi": 30,
-            "spazio giochi all'aperto": 200,
+            "sdraio": 30,
             "superficie complessiva spiaggia": 3814,
             "wc": 6,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "mail": "info@bagnofranco.it",
@@ -4469,16 +4393,12 @@
         "address": "arenile demaniale 72/73",
         "city": "Pinarella",
         "details": {
-            "campi beach tennis": 4,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 4,
-            "docce aperte con acqua calda": 4,
-            "docce chius": 3,
-            "docce chiuse con acqua calda a pagament": 3,
-            "fronte mare metri": 40,
+            "docce aperte": 4,
+            "docce chiuse": 3,
+            "fronte mare": 40,
             "superficie complessiva spiaggia": 4140,
             "wc": 6,
-            "wc accessibili ai disabili": 2
+            "wc disabili": 2
         },
         "fax": "0544 988148",
         "mail": "bagnogiardino@fastwebmail.it",
@@ -4504,7 +4424,7 @@
             "docce aperte": 2,
             "docce chiuse": 1,
             "fronte mare": 20,
-            "superficie complesssiva spiaggia": 1400,
+            "superficie complessiva spiaggia": 1400,
             "wc": 2
         },
         "fax": "",
@@ -4537,7 +4457,7 @@
             "docce aperte": 3,
             "docce chiuse": 1,
             "fronte mare": 25,
-            "superficie complesssiva spiaggia": 3100,
+            "superficie complessiva spiaggia": 3100,
             "wc": 4
         },
         "fax": "",
@@ -4571,18 +4491,12 @@
         "address": "Arenile demaniale 77/78",
         "city": "Pinarella",
         "details": {
-            "campi basket": 1,
-            "campi beach tennis": 1,
-            "campi beach volley": 1,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce chius": 4,
-            "docce chiuse con acqua calda": 2,
-            "fronte ma": 34,
+            "docce chiuse": 4,
+            "fronte mare": 34,
             "lavapiedi": 3,
-            "spazio giochi all'apert": 250,
             "superficie complessiva spiaggia": 3429,
             "wc": 4,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 987451",
         "mail": "b.stella77@libero.it",
@@ -4592,7 +4506,9 @@
             "servizio salvamento",
             "sala tv",
             "piccola ristorazione",
+            "beach volley",
             "racchettoni",
+            "basket",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -4653,19 +4569,15 @@
         "address": "Arenile Demaniale 80",
         "city": "Pinarella",
         "details": {
-            "campi beach volley": 1,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 2,
-            "docce chius": 1,
-            "docce chiuse con acqua calda": 1,
-            "fronte mare metri": 20,
+            "docce aperte": 2,
+            "docce chiuse": 1,
+            "fronte mare": 20,
             "lavapiedi": 1,
             "lettini": 200,
             "ombrelloni": 90,
-            "sedi": 8,
             "superficie complessiva spiaggia": 2070,
             "wc": 3,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "mail": "dellamorerenzo@libero.it",
@@ -4675,6 +4587,7 @@
             "servizio salvamento",
             "sala tv",
             "piccola ristorazione",
+            "beach volley",
             "racchettoni",
             "palloni a disposizione",
             "calcio balilla",
@@ -4688,19 +4601,14 @@
         "address": "Arenile Demaniale 81 - 82",
         "city": "Pinarella",
         "details": {
-            "cabi": 20,
-            "campi beach tennis": 1,
-            "campi beach volley": 1,
-            "docce chius": 3,
-            "docce chiuse con acqua calda": 3,
-            "fronte ma": 40,
+            "cabine": 20,
+            "docce chiuse": 3,
+            "fronte mare": 40,
             "lavapiedi": 1,
             "lettini": 400,
             "ombrelloni": 150,
-            "sedi": 100,
-            "spazio giochi all'aperto": 300,
             "wc": 5,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "name": "- 82 Bagno Solaris",
@@ -4708,6 +4616,7 @@
         "services": [
             "sala tv",
             "ristorazione",
+            "beach volley",
             "racchettoni",
             "palloni a disposizione",
             "calcio balilla",
@@ -4775,7 +4684,7 @@
             "docce aperte": 3,
             "docce chiuse": 1,
             "fronte mare": 35,
-            "superficie complesssiva spiaggia": 3615,
+            "superficie complessiva spiaggia": 3615,
             "wc": 3
         },
         "fax": "",
@@ -4871,18 +4780,14 @@
         "address": "Arenile demaniale 93",
         "city": "Pinarella",
         "details": {
-            "cabi": 6,
-            "campi beach volley": 1,
-            "docce apert": 3,
-            "docce aperte con acqua calda": 3,
-            "docce chius": 6,
-            "docce chiuse con acqua calda": 6,
+            "cabine": 6,
+            "docce aperte": 3,
+            "docce chiuse": 6,
             "lettini": 200,
             "ombrelloni": 100,
-            "sdrai": 50,
-            "sedi": 50,
+            "sdraio": 50,
             "wc": 10,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 987734",
         "mail": "info@severihotels.com",
@@ -4892,6 +4797,7 @@
             "sala tv",
             "piccola ristorazione",
             "palestra",
+            "beach volley",
             "idromassaggio",
             "animazione per bambini",
             "baby park",
@@ -4907,16 +4813,13 @@
         "address": "arenile demaniale 94/95/96",
         "city": "Pinarella",
         "details": {
-            "campi beach volley": 1,
-            "docce apert": 12,
-            "docce aperte con acqua calda": 6,
-            "docce chius": 2,
-            "docce chiuse con acqua calda": 2,
-            "fronte mare metri": 60,
+            "docce aperte": 12,
+            "docce chiuse": 2,
+            "fronte mare": 60,
             "lavapiedi": 1,
             "superficie complessiva spiaggia": 5400,
             "wc": 9,
-            "wc accessibili ai disabili": 2
+            "wc disabili": 2
         },
         "fax": "0544 980110",
         "mail": "info@agenziainternazionale.com",
@@ -4927,6 +4830,7 @@
             "sala tv",
             "piccola ristorazione",
             "palestra",
+            "beach volley",
             "racchettoni",
             "palloni a disposizione",
             "calcio balilla",
@@ -5064,7 +4968,7 @@
             "docce aperte": 2,
             "docce chiuse": 2,
             "fronte mare": 25,
-            "superficie complesssiva spiaggia": 3000,
+            "superficie complessiva spiaggia": 3000,
             "wc": 5
         },
         "fax": "",
@@ -5209,24 +5113,16 @@
         "address": "Arenile demaniale 111",
         "city": "Pinarella",
         "details": {
-            "campi basket": 1,
-            "campi beach socc": 2,
-            "campi beach tennis": 1,
-            "campi beach volley": 1,
-            "docce apert": 6,
-            "docce chius": 4,
-            "docce chiuse con acqua calda": 4,
-            "docce chiuse con acqua calda a pagament": 4,
-            "fronte ma": 80,
+            "docce aperte": 6,
+            "docce chiuse": 4,
+            "fronte mare": 80,
             "lavapiedi": 4,
             "lettini": 800,
             "ombrelloni": 300,
-            "sdrai": 50,
-            "sedi": 50,
-            "spazio giochi all'aperto": 200,
+            "sdraio": 50,
             "superficie complessiva spiaggia": 7813,
             "wc": 6,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "mail": "info@bagnoadriasol.it",
@@ -5237,7 +5133,10 @@
             "sala tv",
             "wi-fi",
             "piccola ristorazione",
+            "beach volley",
+            "beach soccer",
             "racchettoni",
+            "basket",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -5337,21 +5236,17 @@
         "address": "Arenile Demaniale 118",
         "city": "Pinarella",
         "details": {
-            "cabi": 40,
-            "campi basket": 1,
-            "campi beach volley": 2,
-            "docce apert": 2,
-            "docce chius": 2,
-            "docce chiuse con acqua calda a pagament": 2,
-            "fronte mare metri": 35,
+            "cabine": 40,
+            "docce aperte": 2,
+            "docce chiuse": 2,
+            "fronte mare": 35,
             "lavapiedi": 1,
             "lettini": 350,
             "ombrelloni": 128,
-            "sdrai": 40,
-            "sedi": 40,
+            "sdraio": 40,
             "superficie complessiva spiaggia": 3650,
             "wc": 4,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 987496",
         "mail": "info@villabeach.it",
@@ -5362,6 +5257,8 @@
             "sala tv",
             "wi-fi",
             "piccola ristorazione",
+            "beach volley",
+            "basket",
             "racchettoni",
             "palloni a disposizione",
             "calcio balilla",
@@ -5578,11 +5475,11 @@
         "address": "Arenile demaniale 124",
         "city": "Pinarella",
         "details": {
-            "docce apert": 3,
-            "docce chiuse con acqua calda": 8,
-            "fronte ma": 40,
+            "docce aperte": 3,
+            "docce chiuse": 8,
+            "fronte mare": 40,
             "wc": 5,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 987171",
         "mail": "bvittorio@cervia.com",
@@ -5648,25 +5545,16 @@
         "address": "Arenile demaniale 125",
         "city": "Pinarella",
         "details": {
-            "cabi": 40,
-            "campi basket": 1,
-            "campi beach socc": 1,
-            "campi beach tennis": 1,
-            "campi beach volley": 1,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 3,
-            "docce aperte con acqua calda": 2,
-            "docce chius": 2,
-            "docce chiuse con acqua calda": 2,
-            "docce chiuse con acqua calda a pagament": 1,
-            "fronte ma": 28,
+            "cabine": 40,
+            "docce aperte": 3,
+            "docce chiuse": 2,
+            "fronte mare": 28,
             "lavapiedi": 1,
             "lettini": 360,
             "ombrelloni": 150,
-            "sdrai": 10,
-            "sedi": 20,
+            "sdraio": 10,
             "wc": 4,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "0544 1848125",
         "mail": "lerri23@libero.it",
@@ -5677,7 +5565,10 @@
             "internet",
             "wi-fi",
             "piccola ristorazione",
+            "beach volley",
+            "beach soccer",
             "racchettoni",
+            "basket",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -5697,23 +5588,17 @@
         "address": "Arenile demaniale 126",
         "city": "Pinarella",
         "details": {
-            "cabi": 43,
-            "campi basket": 1,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 4,
-            "docce aperte con acqua calda": 3,
-            "docce chius": 1,
-            "docce chiuse con acqua calda a pagament": 1,
-            "fronte ma": 30,
+            "cabine": 43,
+            "docce aperte": 4,
+            "docce chiuse": 1,
+            "fronte mare": 30,
             "lavapiedi": 1,
             "lettini": 340,
             "ombrelloni": 160,
-            "sdrai": 20,
-            "sedi": 20,
-            "spazio giochi all'aperto": 200,
+            "sdraio": 20,
             "superficie complessiva spiaggia": 3010,
             "wc": 5,
-            "wc accessibili ai disabili": 1
+            "wc disabili": 1
         },
         "fax": "",
         "name": "Bagno Paola",
@@ -5723,6 +5608,7 @@
             "sala tv",
             "wi-fi",
             "piccola ristorazione",
+            "basket",
             "racchettoni",
             "palloni a disposizione",
             "calcio balilla",
@@ -5777,24 +5663,17 @@
         "address": "Arenile demaniale 3",
         "city": "Tagliata",
         "details": {
-            "cabi": 20,
-            "campi basket": 1,
-            "campi beach socc": 1,
-            "campi beach tennis": 1,
-            "campi beach volley": 1,
-            "docce apert": 6,
-            "docce chius": 4,
-            "docce chiuse con acqua calda": 4,
-            "docce chiuse con acqua calda a pagament": 4,
-            "fronte ma": 59,
+            "cabine": 20,
+            "docce aperte": 6,
+            "docce chiuse": 4,
+            "fronte mare": 59,
             "lavapiedi": 2,
             "lettini": 400,
             "ombrelloni": 200,
-            "sdrai": 100,
-            "sedi": 100,
+            "sdraio": 100,
             "superficie complessiva spiaggia": 1260,
             "wc": 6,
-            "wc accessibili ai disabili": 2
+            "wc disabili": 2
         },
         "fax": "0544 988529",
         "mail": "info@fuorionda.eu",
@@ -5806,7 +5685,10 @@
             "wi-fi",
             "piccola ristorazione",
             "parcheggio",
+            "beach volley",
+            "beach soccer",
             "racchettoni",
+            "basket",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -5837,19 +5719,14 @@
         "address": "Arenile demaniale 7/8/9",
         "city": "Tagliata",
         "details": {
-            "campi basket": 1,
-            "campi beach tennis": 2,
-            "campi beach volley": 2,
-            "certificazione di qualit\u00e0 uni is": 9001,
-            "docce apert": 5,
-            "docce chius": 2,
-            "docce chiuse con acqua calda a pagament": 2,
-            "fronte ma": 86,
+            "docce aperte": 5,
+            "docce chiuse": 2,
+            "fronte mare": 86,
             "lavapiedi": 4,
             "ombrelloni": 275,
             "superficie complessiva spiaggia": 5000,
             "wc": 6,
-            "wc accessibili ai disabili": 2
+            "wc disabili": 2
         },
         "fax": "",
         "mail": "bianconero@fuorionda.eu",
@@ -5859,7 +5736,9 @@
             "sala tv",
             "wi-fi",
             "piccola ristorazione",
+            "beach volley",
             "racchettoni",
+            "basket",
             "palloni a disposizione",
             "calcio balilla",
             "ping pong",
@@ -5884,8 +5763,8 @@
             "docce aperte": 6,
             "docce chiuse": 3,
             "fronte mare": 40,
-            "lavapiedi wc": 3,
-            "superficie complesssiva spiaggia": 2890
+            "superficie complessiva spiaggia": 2890,
+            "wc": 3
         },
         "fax": "",
         "mail": "info@lepalmebeach.com",
@@ -6005,11 +5884,10 @@
         "address": "Arenile demaniale 20",
         "city": "Tagliata",
         "details": {
-            "+": 16,
             "docce aperte": 4,
             "fronte mare": 24,
-            "lavapiedi wc": 5,
-            "superficie complessiva spiaggia": 1978
+            "superficie complessiva spiaggia": 1978,
+            "wc": 5
         },
         "fax": "0544 987517",
         "mail": "bbenvxx@tin.it",
