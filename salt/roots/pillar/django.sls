@@ -25,6 +25,7 @@ django:
                 - 'autoslug'
                 - 'sorl.thumbnail'
                 - 'bagni'
+                - 'fts'
         {% if dev %}
                 - 'debug_toolbar'
         {% endif %}
