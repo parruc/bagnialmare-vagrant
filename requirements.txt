@@ -22,3 +22,4 @@ python-ptrace==0.6.5
 simplejson==3.3.0
 sorl-thumbnail==11.12
 wsgiref==0.1.2
+selenium==2.33.0
