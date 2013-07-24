@@ -1,7 +1,9 @@
 {% for django_name, django in pillar['django'].djangos.iteritems() %}
 {% set user = pillar['users'][django_name] %}
+{% set tester = pillar['users'][django_name + "_tester"] %}
 {% set host = pillar['nginx'].hosts[django_name] %}
 {% set db = pillar['pg'].dbs[django_name] %}
+{% set test_db = pillar['pg'].dbs["test_" + django_name] %}
 {% set venv = pillar['venv'].venvs[django_name] %}
 
 django_wsgi_{{ django_name }}:
@@ -38,6 +40,22 @@ django_settings_{{ django_name }}:
             django_name: {{ django_name }}
             db: {{ db }}
             host: {{ host }}
+        - require:
+            - virtualenv: venv_{{ django_name }}
+            - file: user_with_home_{{ django_name }}
+
+django_testing_{{ django_name }}:
+    file.managed:
+        - name: {{ django.path }}/{{ django_name }}/test.py
+        - source: salt://django/test.py
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - file_mode: 644
+        - makedirs: True
+        - replace: True
+        - template: jinja
+        - context:
+            db: {{ test_db }}
         - require:
             - virtualenv: venv_{{ django_name }}
             - file: user_with_home_{{ django_name }}
@@ -81,6 +99,7 @@ django_loaddata_{{ django_name }}:
         - group: {{ user.group }}
         - require:
             - file: django_settings_{{ django_name }}
+            - file: django_testing_{{ django_name }}
             - file: nginx_{{ django_name }}_static_dir
             - file: django_loaddata_script_{{ django_name }}
 
