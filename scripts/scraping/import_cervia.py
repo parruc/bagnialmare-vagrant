@@ -23,6 +23,8 @@ for i, tr in enumerate(trs, start=1):
     tds = tr.xpath("./td")
     for column, td in zip(columns, tds):
         td_content = td.text_content().strip()
+        if not td_content:
+            continue
         if column == "name":
             match = name_from_title.match(td_content)
             if not match:
@@ -36,6 +38,20 @@ for i, tr in enumerate(trs, start=1):
             href = td.xpath("./a/@href")
             if len(href):
                 bagno[column] = href[0].replace("mailto:", "")
+        elif column == "tel":
+            for tel in td_content.split("-"):
+                tel = tel.strip()
+                if tel.startswith("05"):
+                    field = "tel"
+                elif tel.startswith("3"):
+                    field = "cell"
+                else:
+                    field = "tel"
+                    tel = "0544 " + tel
+                if field in bagno:
+                    bagno[field] += " - " + tel
+                else:
+                    bagno[field] = tel
         else:
             bagno[column] = td_content
     if "address" in bagno:

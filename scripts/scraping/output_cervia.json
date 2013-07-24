@@ -9,8 +9,6 @@
             "superficie complessiva spiaggia": 2143,
             "wc": 2
         },
-        "fax": "",
-        "mail": "info@hotelmajor.com",
         "name": "Bagno Medusa",
         "number": "146",
         "services": [
@@ -28,7 +26,7 @@
             "animazione per bambini",
             "sala tv"
         ],
-        "tel": "0544 972346 - 972765"
+        "tel": "0544 972346 - 0544 972765"
     },
     {
         "address": "Lungomare Grazia Deledda",
@@ -39,8 +37,6 @@
             "fronte mare": 22,
             "wc": 2
         },
-        "fax": "",
-        "mail": "a.farnedi@libero.it",
         "name": "Bagno Tino",
         "number": "148",
         "services": [
@@ -70,7 +66,6 @@
             "superficie complessiva spiaggia": 4600,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno Olimpia",
         "number": "149",
         "services": [
@@ -134,7 +129,6 @@
             "superficie complessiva spiaggia": 4475,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno Saretina",
         "number": "152",
         "services": [
@@ -154,16 +148,15 @@
     },
     {
         "address": "Lungomare Grazia Deledda",
+        "cell": "338 1358231",
         "city": "Cervia",
         "details": {},
-        "fax": "",
-        "mail": "fabiocantelli@alice.it",
         "name": "Bagno Casadei",
         "number": "153",
         "services": [
             "servizio salvamento"
         ],
-        "tel": "0544 71681 - 338 1358231"
+        "tel": "0544 71681"
     },
     {
         "address": "Lungomare Grazia Deledda",
@@ -175,8 +168,6 @@
             "superficie complessiva spiaggia": 10000,
             "wc": 10
         },
-        "fax": "",
-        "mail": "info@balmor.it",
         "name": "Bagno Balmor",
         "number": "155",
         "services": [
@@ -201,7 +192,6 @@
             "fitness",
             "musica"
         ],
-        "site": "http://www.balmor.it",
         "tel": "0544 972183"
     },
     {
@@ -214,8 +204,6 @@
             "superficie complessiva spiaggia": 3000,
             "wc": 4
         },
-        "fax": "",
-        "mail": "info@isola159.it",
         "name": "Bagno Isola",
         "number": "159",
         "services": [
@@ -245,7 +233,6 @@
             "beach basket",
             "beach soccer"
         ],
-        "site": "http://www.isola159.it",
         "tel": "0544 71313"
     },
     {
@@ -257,8 +244,6 @@
             "superficie complessiva spiaggia": 4611,
             "wc": 5
         },
-        "fax": "",
-        "mail": "info@bagnobologna.it;%20ridolfimauro@libero.it",
         "name": "Bagno Bologna",
         "number": "160",
         "services": [
@@ -283,7 +268,6 @@
             "fitness",
             "sala tv"
         ],
-        "site": "http://www.bagnobologna.it",
         "tel": "0544 971275"
     },
     {
@@ -339,7 +323,6 @@
             "superficie complessiva spiaggia": 2000,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno Martini",
         "number": "163",
         "services": [
@@ -373,8 +356,6 @@
             "superficie complessiva spiaggia": 2294,
             "wc": 3
         },
-        "fax": "",
-        "mail": "magnani@bagnorenato.it",
         "name": "Bagno Renato",
         "number": "164",
         "services": [
@@ -399,7 +380,6 @@
             "tornei sportivi",
             "sala tv"
         ],
-        "site": "http://www.bagnorenato.it",
         "tel": "0544 72059"
     },
     {
@@ -419,7 +399,6 @@
             "wc disabili": 2
         },
         "fax": "0544 976422",
-        "mail": "info@bagnosoleluna.it",
         "name": "Bagno Soleluna",
         "number": "165",
         "services": [
@@ -440,7 +419,6 @@
             "happy hour",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.bagnosoleluna.it",
         "tel": "0544 971030"
     },
     {
@@ -454,7 +432,6 @@
             "wc": 3
         },
         "fax": "0544 971087",
-        "mail": "sergino411@libero.it",
         "name": "Bagno Montanari - Praia do Jacar\u00e8",
         "number": "167",
         "services": [
@@ -467,7 +444,6 @@
             "servizio salvamento",
             "piccola ristorazione",
             "baby park",
-            "giochi vari",
             "beach volley",
             "bocce",
             "ping pong",
@@ -480,6 +456,7 @@
     },
     {
         "address": "Lungomare Grazia Deledda - arenile demaniale 168",
+        "cell": "3455936577",
         "city": "Cervia",
         "details": {
             "docce aperte": 2,
@@ -487,7 +464,6 @@
             "superficie complessiva spiaggia": 2300,
             "wc": 2
         },
-        "fax": "",
         "name": "Bagno Souvenir",
         "number": "168",
         "services": [
@@ -510,7 +486,7 @@
             "racchettoni",
             "feste a tema"
         ],
-        "tel": "0544 972769 - 3455936577"
+        "tel": "0544 972769"
     },
     {
         "address": "Lungomare Grazia Deledda - arenile demaniale 169",
@@ -522,8 +498,6 @@
             "superficie complessiva spiaggia": 4678,
             "wc": 3
         },
-        "fax": "",
-        "mail": "info@bagno169.com",
         "name": "Bagno Centosessantanove",
         "number": "169",
         "services": [
@@ -549,7 +523,6 @@
             "calcetto",
             "calcio"
         ],
-        "site": "http://www.bagno169.com",
         "tel": "0544 973417"
     },
     {
@@ -560,8 +533,6 @@
             "docce chiuse": 2,
             "wc": 6
         },
-        "fax": "",
-        "mail": "bagnoromagnolo@summerdream.it",
         "name": "Bagno Romagnolo",
         "number": "172/173",
         "services": [
@@ -587,7 +558,6 @@
             "fitness",
             "sala tv"
         ],
-        "site": "http://www.cervia.com/Turismo/Strutture/16",
         "tel": "0544 71700"
     },
     {
@@ -600,7 +570,6 @@
             "superficie complessiva spiaggia": 4195,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno I Figli del Sole",
         "number": "174",
         "services": [
@@ -633,7 +602,6 @@
             "wc": 3
         },
         "fax": "0544 72079",
-        "mail": "info@bagnodover.com",
         "name": "Bagno Dover",
         "number": "175/176",
         "services": [
@@ -656,8 +624,7 @@
             "feste a tema",
             "sala tv"
         ],
-        "site": "http://www.bagnodover.com",
-        "tel": "0544 72079 - 71358"
+        "tel": "0544 72079 - 0544 71358"
     },
     {
         "address": "Lungomare Grazia Deledda - arenile demaniale 177/178",
@@ -670,7 +637,6 @@
             "wc": 6
         },
         "fax": "0544 973037",
-        "mail": "bagnosauro177@inwind.it",
         "name": "Bagno Sauro",
         "number": "177/178",
         "services": [
@@ -693,7 +659,6 @@
             "beach basket",
             "beach volley"
         ],
-        "site": "http://www.bagnosauro177.it",
         "tel": "0544 72394"
     },
     {
@@ -706,7 +671,6 @@
             "wc": 5
         },
         "fax": "0544 975757",
-        "mail": "info@fantiniclub.com",
         "name": "Bagno Fantini Club",
         "number": "179/182",
         "services": [
@@ -731,8 +695,7 @@
             "beach soccer",
             "musica"
         ],
-        "site": "http://www.fantiniclub.com",
-        "tel": "0544 956519 - 72236"
+        "tel": "0544 956519 - 0544 72236"
     },
     {
         "address": "Lungomare Grazia Deledda - arenile demaniale 183",
@@ -743,8 +706,6 @@
             "superficie complessiva spiaggia": 2426,
             "wc": 4
         },
-        "fax": "",
-        "mail": "enricobedeschi@alice.it",
         "name": "Bagno Dallara",
         "number": "183",
         "services": [
@@ -779,7 +740,6 @@
             "superficie complessiva spiaggia": 2756,
             "wc": 3
         },
-        "fax": "",
         "name": "Bagno Marco",
         "number": "184",
         "services": [
@@ -790,7 +750,6 @@
             "lavapiedi",
             "piccola ristorazione",
             "baby park",
-            "giochi vari",
             "beach volley",
             "racchettoni",
             "bocce",
@@ -809,14 +768,12 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 185",
         "city": "Cervia",
         "details": {},
-        "fax": "",
-        "mail": "bagnoconchiglia@alice.it",
         "name": "Bagno Conchiglia Lido",
         "number": "185",
         "services": [
             "servizio salvamento"
         ],
-        "tel": "0544 973230 - 973478"
+        "tel": "0544 973230 - 0544 973478"
     },
     {
         "address": "Lungomare Grazia Deledda - arenile demaniale 187",
@@ -828,7 +785,6 @@
             "wc": 3
         },
         "fax": "0543 440947",
-        "mail": "bagnolina187@virgilio.it",
         "name": "Bagno Lina",
         "number": "187",
         "services": [
@@ -858,7 +814,6 @@
             "superficie complessiva spiaggia": 3834,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno Anna",
         "number": "188",
         "services": [
@@ -885,6 +840,7 @@
     },
     {
         "address": "Lungomare Grazia Deledda - arenile demaniale 190",
+        "cell": "349 8529819",
         "city": "Cervia",
         "details": {
             "docce aperte": 4,
@@ -892,8 +848,6 @@
             "superficie complessiva spiaggia": 4077,
             "wc": 5
         },
-        "fax": "",
-        "mail": "roberto_gianesi3@hotmail.com",
         "name": "Bagno Anita",
         "number": "190",
         "services": [
@@ -915,7 +869,7 @@
             "animazione per bambini",
             "sala tv"
         ],
-        "tel": "0544 973091 - 349 8529819"
+        "tel": "0544 973091"
     },
     {
         "address": "Lungomare Grazia Deledda - arenile demaniale 191",
@@ -926,8 +880,6 @@
             "superficie complessiva spiaggia": 2162,
             "wc": 4
         },
-        "fax": "",
-        "mail": "bagnobenito191@libero.it",
         "name": "Bagno Ben",
         "number": "191",
         "services": [
@@ -961,8 +913,6 @@
             "superficie complessiva spiaggia": 5580,
             "wc": 8
         },
-        "fax": "",
-        "mail": "staff@obaobabeach.it",
         "name": "Bagno Oba Oba Beach",
         "number": "194",
         "services": [
@@ -974,7 +924,6 @@
             "servizio salvamento",
             "piccola ristorazione",
             "baby park",
-            "reti elastiche",
             "beach volley",
             "beach soccer",
             "racchettoni",
@@ -989,7 +938,6 @@
             "concerti",
             "tornei sportivi"
         ],
-        "site": "http://www.obaobabeach.it",
         "tel": "0544 71546"
     },
     {
@@ -1004,8 +952,6 @@
             "wc": 4,
             "wc disabili": 1
         },
-        "fax": "",
-        "mail": "bagnoulisse195@hotmail.it",
         "name": "Bagno Ulisse",
         "number": "195/196",
         "services": [
@@ -1045,7 +991,6 @@
             "wc disabili": 2
         },
         "fax": "0544 973353",
-        "mail": "bagnodaniele@libero.it",
         "name": "Bagno Daniele",
         "number": "197/198",
         "services": [
@@ -1072,13 +1017,12 @@
             "concerti",
             "tornei sportivi"
         ],
-        "tel": "0544 973353 - 973466"
+        "tel": "0544 973353 - 0544 973466"
     },
     {
         "address": "Lungomare Grazia Deledda - arenile demaniale 199",
         "city": "Cervia",
         "details": {},
-        "fax": "",
         "name": "Bagno Anna",
         "number": "199",
         "services": [
@@ -1090,7 +1034,6 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 200",
         "city": "Cervia",
         "details": {},
-        "fax": "",
         "name": "Bagno Flores",
         "number": "200",
         "services": [
@@ -1106,7 +1049,6 @@
             "superficie complessiva spiaggia": 2460,
             "wc": 3
         },
-        "fax": "",
         "name": "Bagno Savini",
         "number": "201",
         "services": [
@@ -1138,7 +1080,6 @@
             "wc": 2
         },
         "fax": "0544 973155",
-        "mail": "info@bagnosilverio.it",
         "name": "Bagno Silverio",
         "number": "202",
         "services": [
@@ -1159,11 +1100,11 @@
             "fitness",
             "sala tv"
         ],
-        "site": "http://www.bagnosilverio.it",
         "tel": "0544 971183"
     },
     {
         "address": "Lungomare Grazia Deledda - arenile demaniale 203",
+        "cell": "347 0758959 Valeria - 333 2265915 Massimo",
         "city": "Cervia",
         "details": {
             "docce aperte": 2,
@@ -1172,8 +1113,6 @@
             "superficie complessiva spiaggia": 2700,
             "wc": 3
         },
-        "fax": "",
-        "mail": "info@bagnosolosole.com",
         "name": "Bagno Solo Sole",
         "number": "203",
         "services": [
@@ -1198,8 +1137,7 @@
             "baby room",
             "massaggi"
         ],
-        "site": "http://www.bagnosolosole.com",
-        "tel": "347 0758959 Valeria - 333 2265915 Massimo  - 0544 973376"
+        "tel": "0544 973376"
     },
     {
         "address": "Lungomare Grazia Deledda - arenile demaniale 204",
@@ -1211,8 +1149,6 @@
             "superficie complessiva spiaggia": 2400,
             "wc": 3
         },
-        "fax": "",
-        "mail": "bagnomercuriali@libero.it",
         "name": "Bagno Mercuriali",
         "number": "204",
         "services": [
@@ -1248,7 +1184,6 @@
             "wc": 5
         },
         "fax": "0543 740451",
-        "mail": "maicol23@libero.it",
         "name": "Bagno Bar A Onda",
         "number": "205",
         "services": [
@@ -1290,7 +1225,6 @@
             "superficie complessiva spiaggia": 2200,
             "wc": 3
         },
-        "fax": "",
         "name": "Bagno Sirtaki",
         "number": "206",
         "services": [
@@ -1321,7 +1255,6 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale 207",
         "city": "Cervia",
         "details": {},
-        "fax": "",
         "name": "Bagno Keko Beach",
         "number": "207",
         "services": [
@@ -1338,7 +1271,6 @@
             "superficie complessiva spiaggia": 1400,
             "wc": 3
         },
-        "fax": "",
         "name": "Bagno Aurora",
         "number": "208",
         "services": [
@@ -1360,7 +1292,6 @@
         "address": "Lungomare Grazia Deledda - arenile demaniale",
         "city": "Cervia",
         "details": {},
-        "fax": "",
         "name": "Bagno Miluna Beach",
         "number": "209",
         "services": [
@@ -1381,8 +1312,6 @@
             "fronte mare": 33,
             "wc": 4
         },
-        "fax": "",
-        "mail": "info@grandhotelcervia.com",
         "name": "Bagno Cervia",
         "number": "210",
         "services": [
@@ -1399,11 +1328,11 @@
             "feste a tema",
             "sala tv"
         ],
-        "site": "http://www.grandhotelcervia.com",
         "tel": "0544 973104"
     },
     {
         "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 211",
+        "cell": "331 7734385 - 333 6459058",
         "city": "Cervia",
         "details": {
             "cabine": 30,
@@ -1418,8 +1347,6 @@
             "wc": 4,
             "wc disabili": 1
         },
-        "fax": "",
-        "mail": "info@bagnoitalia211.com",
         "name": "Bagno Italia",
         "number": "211",
         "services": [
@@ -1440,8 +1367,7 @@
             "happy hour",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.bagnoitalia211.com",
-        "tel": "0544 72205 - 331 7734385 - 333 6459058"
+        "tel": "0544 72205"
     },
     {
         "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 212",
@@ -1451,8 +1377,6 @@
             "superficie complessiva spiaggia": 3279,
             "wc": 5
         },
-        "fax": "",
-        "mail": "info@bagnoimperiale.com",
         "name": "Bagno Imperiale",
         "number": "212",
         "services": [
@@ -1480,7 +1404,6 @@
             "custodia valori",
             "biciclette"
         ],
-        "site": "http://www.bagnoimperiale.com",
         "tel": "0544 71436"
     },
     {
@@ -1494,7 +1417,6 @@
             "wc": 4
         },
         "fax": "0544 972082",
-        "mail": "bagnoazzurro@libero.it",
         "name": "Bagno Azzurro",
         "number": "213/214",
         "services": [
@@ -1520,15 +1442,12 @@
             "feste a tema",
             "sala tv"
         ],
-        "site": "http://www.bagnoazzurro.com",
         "tel": "0544 71783"
     },
     {
         "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 215",
         "city": "Cervia",
         "details": {},
-        "fax": "",
-        "mail": "bagnomoreno@libero.it",
         "name": "Bagno Moreno",
         "number": "215",
         "services": [
@@ -1553,7 +1472,6 @@
             "wc disabili": 1
         },
         "fax": "0544 972711",
-        "mail": "bagnogildo@agenzialewa.com",
         "name": "Bagno Gildo",
         "number": "216",
         "services": [
@@ -1575,7 +1493,6 @@
             "animazione serale",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.agenzialewa.com/BagnoGildo/default.asp?Lang=ITALIANO",
         "tel": "0544 973687"
     },
     {
@@ -1583,7 +1500,6 @@
         "city": "Cervia",
         "details": {},
         "fax": "0544 973707",
-        "mail": "info@playacaribe.it",
         "name": "Bagno Playa Caribe",
         "number": "217/218",
         "services": [
@@ -1603,7 +1519,6 @@
             "feste a tema",
             "sala tv"
         ],
-        "site": "http://www.playacaribe.it",
         "tel": "0544 973783"
     },
     {
@@ -1623,7 +1538,6 @@
             "wc disabili": 1
         },
         "fax": "0544 973915",
-        "mail": "info@lidobeachcervia.com",
         "name": "Bagno Lido Beach",
         "number": "219",
         "services": [
@@ -1646,14 +1560,12 @@
             "feste a tema",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.lidobeachcervia.com",
         "tel": "0544 973915"
     },
     {
         "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 220/221",
         "city": "Cervia",
         "details": {},
-        "fax": "",
         "name": "Bagno Franco",
         "number": "220/221",
         "services": [
@@ -1670,8 +1582,6 @@
             "fronte mare": 20,
             "superficie complessiva spiaggia": 2320
         },
-        "fax": "",
-        "mail": "info@cerviamare.com",
         "name": "Bagno Cerviamare",
         "number": "222/226",
         "services": [
@@ -1694,15 +1604,12 @@
             "racchettoni",
             "feste a tema"
         ],
-        "site": "http://www.cerviamare.com",
-        "tel": "0544 971286 - 973014 - 1848223"
+        "tel": "0544 971286 - 0544 973014 - 0544 1848223"
     },
     {
         "address": "Lungomare Gabriele D'Annunzio - arenile demaniale 228/229",
         "city": "Cervia",
         "details": {},
-        "fax": "",
-        "mail": "info@bagnosorriso.it",
         "name": "Bagno Sorriso",
         "number": "228/229",
         "services": [
@@ -1719,7 +1626,6 @@
             "superficie complessiva spiaggia": 1500,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno Angela",
         "number": "235",
         "services": [
@@ -1754,8 +1660,6 @@
             "wc": 4,
             "wc disabili": 1
         },
-        "fax": "",
-        "mail": "mosquito236@hotmail.it",
         "name": "Bagno Mosquito Beach",
         "number": "236",
         "services": [
@@ -1790,7 +1694,6 @@
             "superficie complessiva spiaggia": 2958,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno Le Saline",
         "number": "237",
         "services": [
@@ -1822,8 +1725,6 @@
             "fronte mare": 29,
             "wc": 4
         },
-        "fax": "",
-        "mail": "icapanni.lido238@libero.it",
         "name": "Bagno Cortesi",
         "number": "238",
         "services": [
@@ -1855,8 +1756,6 @@
             "superficie complessiva spiaggia": 1765,
             "wc": 4
         },
-        "fax": "",
-        "mail": "htonnitorri@cervia.com",
         "name": "Bagno Tonni",
         "number": "239",
         "services": [
@@ -1875,7 +1774,6 @@
             "beach dance",
             "fitness"
         ],
-        "site": "http://www.tonnitorrihotels.com",
         "tel": "0544 974343"
     },
     {
@@ -1886,8 +1784,6 @@
             "docce chiuse": 2,
             "fronte mare": 18
         },
-        "fax": "",
-        "mail": "htonnitorri@cervia.com",
         "name": "Bagno Gilberto",
         "number": "240",
         "services": [
@@ -1906,7 +1802,6 @@
             "ping pong",
             "calcio balilla"
         ],
-        "site": "http://www.tonnitorrihotels.com",
         "tel": "0544 974352"
     },
     {
@@ -1918,8 +1813,6 @@
             "superficie complessiva spiaggia": 1500,
             "wc": 3
         },
-        "fax": "",
-        "mail": "zanetti-fo@libero.it",
         "name": "Bagno Stefano Beach",
         "number": "241",
         "services": [
@@ -1949,6 +1842,7 @@
     },
     {
         "address": "Viale Pietro Mascagni - arenile demaniale 242",
+        "cell": "339 4725333",
         "city": "Milano Marittima",
         "details": {
             "docce aperte": 2,
@@ -1975,8 +1869,7 @@
             "calcio balilla",
             "feste a tema"
         ],
-        "site": "http://www.paparazzibeach.it",
-        "tel": "0544 975614 - 954019 - 339 4725333"
+        "tel": "0544 975614 - 0544 954019"
     },
     {
         "address": "Viale Pietro Mascagni - arenile demaniale 242",
@@ -1987,7 +1880,6 @@
             "superficie complessiva spiaggia": 2860,
             "wc": 4
         },
-        "fax": "",
         "name": "bis Bagno Sesto",
         "number": "242",
         "services": [
@@ -2022,7 +1914,6 @@
             "wc": 6
         },
         "fax": "0544 972773",
-        "mail": "aurelia@selecthotels.it",
         "name": "Bagno Aurelia",
         "number": "243",
         "services": [
@@ -2049,8 +1940,6 @@
             "superficie complessiva spiaggia": 3155,
             "wc": 5
         },
-        "fax": "",
-        "mail": "info@bagnopeppino.it",
         "name": "Bagno Peppino",
         "number": "245",
         "services": [
@@ -2076,7 +1965,6 @@
             "beach dance",
             "sala tv"
         ],
-        "site": "http://www.bagnopeppino.it",
         "tel": "0544 975389"
     },
     {
@@ -2089,7 +1977,6 @@
             "superficie complessiva spiaggia": 2557,
             "wc": 6
         },
-        "fax": "",
         "name": "Bagno Doge",
         "number": "246",
         "services": [
@@ -2121,7 +2008,6 @@
             "wc disabili": 1
         },
         "fax": "0544 975615",
-        "mail": "bagnogiuliano@bagnogiuliano.com",
         "name": "Bagno Giuliano",
         "number": "247",
         "services": [
@@ -2138,7 +2024,6 @@
             "baby park",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.bagnogiuliano.com",
         "tel": "0544 975615"
     },
     {
@@ -2151,7 +2036,6 @@
             "wc": 5
         },
         "fax": "0544 992739",
-        "mail": "gianni@selecthotels.it",
         "name": "Bagno Mare Pineta",
         "number": "248",
         "services": [
@@ -2181,7 +2065,6 @@
             "wc disabili": 1
         },
         "fax": "0544 995293",
-        "mail": "info@bagnoreste.com",
         "name": "Bagno Oreste",
         "number": "250",
         "services": [
@@ -2196,14 +2079,12 @@
             "animazione per bambini",
             "baby park"
         ],
-        "site": "http://www.bagnoreste.com",
-        "tel": "0544 995293 - 992467"
+        "tel": "0544 995293 - 0544 992467"
     },
     {
         "address": "Viale Gaspare Spontini - arenile demaniale 251/252",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno Dino",
         "number": "251/252",
         "services": [
@@ -2229,7 +2110,6 @@
             "wc disabili": 1
         },
         "fax": "0544 992101",
-        "mail": "staff@attiliobeach.it",
         "name": "Bagno Attilio",
         "number": "253",
         "services": [
@@ -2250,7 +2130,6 @@
             "musica",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.attiliobeach.it",
         "tel": "0544 992101"
     },
     {
@@ -2261,7 +2140,6 @@
             "docce chiuse": 2,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno Umberto",
         "number": "254",
         "services": [
@@ -2296,7 +2174,6 @@
             "fronte mare": 32,
             "superficie complessiva spiaggia": 2531
         },
-        "fax": "",
         "name": "Bagno Palace Beach",
         "number": "255",
         "services": [
@@ -2330,8 +2207,6 @@
             "superficie complessiva spiaggia": 3473,
             "wc": 5
         },
-        "fax": "",
-        "mail": "enzomalusi258@tele2.it",
         "name": "Bagno Malusi Enzo",
         "number": "258",
         "services": [
@@ -2344,7 +2219,6 @@
             "servizio salvamento",
             "piccola ristorazione",
             "baby park",
-            "reti elastiche",
             "beach volley",
             "bocce",
             "ping pong",
@@ -2353,15 +2227,12 @@
             "animazione",
             "sala tv"
         ],
-        "site": "http://www.bagnoenzomalusi.com",
         "tel": "0544 994683"
     },
     {
         "address": "Viale Enrico Toti - arenile demaniale 258",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
-        "mail": "cugino@libero.it",
         "name": "bis Bagno Malusi Giorgio",
         "number": "258",
         "services": [
@@ -2373,8 +2244,6 @@
         "address": "Viale Cadorna - arenile demaniale 259",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
-        "mail": "casta_uno@libero.it",
         "name": "Bagno Castagnoli Beach",
         "number": "259",
         "services": [
@@ -2386,7 +2255,6 @@
         "address": "Viale Cadorna - arenile demaniale 260",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno Giulianini",
         "number": "260",
         "services": [
@@ -2396,6 +2264,7 @@
     },
     {
         "address": "Viale Cadorna - arenile demaniale 261",
+        "cell": "335 7586456",
         "city": "Milano Marittima",
         "details": {
             "docce aperte": 2,
@@ -2403,8 +2272,6 @@
             "fronte mare": 21,
             "wc": 5
         },
-        "fax": "",
-        "mail": "bussolalido@tin.it",
         "name": "Bagno Bussola Lido",
         "number": "261",
         "services": [
@@ -2426,7 +2293,7 @@
             "feste a tema",
             "sala tv"
         ],
-        "tel": "0544 993370 - 335 7586456 - 0544 993487"
+        "tel": "0544 993370 - 0544 993487"
     },
     {
         "address": "Viale Corsica  - arenile demaniale 262",
@@ -2437,8 +2304,6 @@
             "fronte mare": 27,
             "wc": 5
         },
-        "fax": "",
-        "mail": "bagnotonino@libero.it",
         "name": "Bagno Tonino",
         "number": "262",
         "services": [
@@ -2470,7 +2335,6 @@
             "superficie complessiva spiaggia": 2000,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno Adriatico",
         "number": "263",
         "services": [
@@ -2502,7 +2366,6 @@
             "superficie complessiva spiaggia": 2860,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno La Barcaccia",
         "number": "265",
         "services": [
@@ -2536,7 +2399,6 @@
             "wc": 5
         },
         "fax": "0541 942122",
-        "mail": "bastonimariaelena@libero.it",
         "name": "Bagno Carla",
         "number": "266",
         "services": [
@@ -2558,7 +2420,6 @@
         "address": "Viale Forli - arenile demaniale 267",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno Ancora",
         "number": "267",
         "services": [
@@ -2570,8 +2431,6 @@
         "address": "Viale Forli - arenile demaniale 268",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
-        "mail": "massimoferrari@hotmail.com",
         "name": "Bagno Zefiro",
         "number": "268",
         "services": [
@@ -2588,7 +2447,6 @@
             "fronte mare": 23,
             "superficie complessiva spiaggia": 2562
         },
-        "fax": "",
         "name": "Bagno Roma",
         "number": "269",
         "services": [
@@ -2616,7 +2474,6 @@
             "biciclette",
             "pedal\u00f2"
         ],
-        "site": "http://alemasorf@aruba.it",
         "tel": "0544 991206"
     },
     {
@@ -2628,7 +2485,6 @@
             "superficie complessiva spiaggia": 1700,
             "wc": 2
         },
-        "fax": "",
         "name": "Bagno Sogno del Mare",
         "number": "270",
         "services": [
@@ -2652,7 +2508,6 @@
         "address": "Viale Forli - arenile demaniale 271",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno Albacore",
         "number": "271",
         "services": [
@@ -2664,7 +2519,6 @@
         "address": "Viale Spalato - arenile demaniale 272",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno MI.MA. Beach",
         "number": "272",
         "services": [
@@ -2682,7 +2536,6 @@
             "wc": 5
         },
         "fax": "0544 993608",
-        "mail": "info@agenzieriunite.com",
         "name": "Bagno Milano",
         "number": "273",
         "services": [
@@ -2712,7 +2565,6 @@
             "superficie complessiva spiaggia": 2570,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno La Spiaggetta",
         "number": "274",
         "services": [
@@ -2741,7 +2593,6 @@
             "superficie complessiva spiaggia": 2856,
             "wc": 3
         },
-        "fax": "",
         "name": "Bagno Samuele",
         "number": "275",
         "services": [
@@ -2756,20 +2607,19 @@
             "beach volley",
             "bocce"
         ],
-        "tel": "0544 994601-9"
+        "tel": "0544 994601 - 0544 9"
     },
     {
         "address": "Viale Spalato - arenile demaniale 276",
+        "cell": "335 6362372",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno Bicio Papao",
         "number": "276",
         "services": [
             "servizio salvamento"
         ],
-        "site": "http://www.biciopapao.it",
-        "tel": "0544 1889051 - 335 6362372"
+        "tel": "0544 1889051"
     },
     {
         "address": "Viale Due Giugno - arenile demaniale 277",
@@ -2781,8 +2631,6 @@
             "superficie complessiva spiaggia": 4248,
             "wc": 5
         },
-        "fax": "",
-        "mail": "massari.ciarly@libero.it",
         "name": "Bagno Ippocampo",
         "number": "277",
         "services": [
@@ -2821,7 +2669,6 @@
             "superficie complessiva spiaggia": 3206,
             "wc": 2
         },
-        "fax": "",
         "name": "Bagno Tre Gemelli",
         "number": "278",
         "services": [
@@ -2845,8 +2692,6 @@
             "superficie complessiva spiaggia": 1760,
             "wc": 3
         },
-        "fax": "",
-        "mail": "info@corallobeach279.it",
         "name": "Bagno Corallo",
         "number": "279",
         "services": [
@@ -2862,7 +2707,6 @@
             "racchettoni",
             "feste a tema"
         ],
-        "site": "http://www.corallobeach279.it",
         "tel": "0544 991033"
     },
     {
@@ -2910,7 +2754,6 @@
             "wc": 8
         },
         "fax": "0544 992033",
-        "mail": "info@papeetebeach.com",
         "name": "bis/281 Bagno Papeete Beach",
         "number": "280",
         "services": [
@@ -2940,18 +2783,15 @@
             "internet",
             "giochi di societ\u00e0",
             "riviste",
-            "web cam",
+            "webcam",
             "tornei sportivi"
         ],
-        "site": "http://www.papeetebeach.com",
-        "tel": "0544 991208 - 991108"
+        "tel": "0544 991208 - 0544 991108"
     },
     {
         "address": "III Traversa - arenile demaniale 282",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
-        "mail": "info@hotelmiamibeach.com",
         "name": "Bagno Miami",
         "number": "282",
         "services": [
@@ -2968,8 +2808,6 @@
             "fronte mare": 17,
             "wc": 1
         },
-        "fax": "",
-        "mail": "pdp23@libero.it",
         "name": "Bagno Flamingo Beach",
         "number": "283",
         "services": [
@@ -2999,7 +2837,6 @@
             "superficie complessiva spiaggia": 2052,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno Oasi's",
         "number": "284",
         "services": [
@@ -3028,7 +2865,6 @@
             "wc": 7
         },
         "fax": "0544 994487",
-        "mail": "pinobeach@libero.it",
         "name": "Bagno Pino Beach",
         "number": "285",
         "services": [
@@ -3070,8 +2906,6 @@
             "wc": 5,
             "wc disabili": 1
         },
-        "fax": "",
-        "mail": "info@286.it",
         "name": "Bagno Sauro",
         "number": "286",
         "services": [
@@ -3091,7 +2925,6 @@
             "ginnastica",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.286.it",
         "tel": "0544 994358"
     },
     {
@@ -3104,7 +2937,6 @@
             "superficie complessiva spiaggia": 3600,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno Gallia",
         "number": "287",
         "services": [
@@ -3139,7 +2971,6 @@
             "wc disabili": 1
         },
         "fax": "0544 992668",
-        "mail": "info@lidohotel.it",
         "name": "Bagno Lido",
         "number": "288",
         "services": [
@@ -3159,11 +2990,11 @@
             "concerti",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.lidohotel.it",
         "tel": "0544 991249"
     },
     {
         "address": "V Traversa - arenile demaniale 289",
+        "cell": "331 2165532",
         "city": "Milano Marittima",
         "details": {
             "docce aperte": 3,
@@ -3173,8 +3004,6 @@
             "wc": 3,
             "wc disabili": 1
         },
-        "fax": "",
-        "mail": "royalbeach@live.com",
         "name": "Bagno Royal Beach",
         "number": "289",
         "services": [
@@ -3184,7 +3013,7 @@
             "baby park",
             "musica"
         ],
-        "tel": "331 2165532 - 0544 995152"
+        "tel": "0544 995152"
     },
     {
         "address": "VI Traversa - arenile demaniale 290",
@@ -3197,7 +3026,6 @@
             "wc": 5
         },
         "fax": "0544 991362",
-        "mail": "info@bagnomarilena.it",
         "name": "Bagno Marilena",
         "number": "290",
         "services": [
@@ -3218,7 +3046,6 @@
             "canoe",
             "pedal\u00f2"
         ],
-        "site": "http://www.bagnomarilena.it",
         "tel": "0544 991764"
     },
     {
@@ -3238,7 +3065,6 @@
             "wc disabili": 1
         },
         "fax": "0544 993833",
-        "mail": "info@acapulcohotels.it",
         "name": "Bagno Piccadilly",
         "number": "291",
         "services": [
@@ -3253,20 +3079,19 @@
             "happy hour",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.acapulcohotels.it",
         "tel": "0544 993155 - 0544 992396"
     },
     {
         "address": "VI Traversa - arenile demaniale 292",
+        "cell": "333 6168795",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno Promenade",
         "number": "292",
         "services": [
             "servizio salvamento"
         ],
-        "tel": "0544 992022 - 333 6168795"
+        "tel": "0544 992022"
     },
     {
         "address": "VI Traversa - arenile demaniale 293",
@@ -3277,7 +3102,6 @@
             "superficie complessiva spiaggia": 1955,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno Touring",
         "number": "293",
         "services": [
@@ -3314,7 +3138,6 @@
             "superficie complessiva spiaggia": 2247,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno La Palma",
         "number": "294",
         "services": [
@@ -3341,7 +3164,6 @@
         "address": "VII Traversa - arenile demaniale 295",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno Principe",
         "number": "295",
         "services": [
@@ -3357,7 +3179,6 @@
             "fronte mare": 30,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno Premier Palm Beach",
         "number": "296",
         "services": [
@@ -3384,6 +3205,7 @@
     },
     {
         "address": "VIII Traversa - arenile demaniale 297",
+        "cell": "335 5629944",
         "city": "Milano Marittima",
         "details": {
             "docce aperte": 1,
@@ -3392,7 +3214,6 @@
             "wc": 6
         },
         "fax": "0544 998161",
-        "mail": "info@bellettinihotel.it",
         "name": "Bagno Spiaggia 297",
         "number": "297",
         "services": [
@@ -3410,9 +3231,7 @@
             "racchettoni",
             "pedal\u00f2",
             "sala tv"
-        ],
-        "site": "http://www.bellettinihotel.it",
-        "tel": "335 5629944"
+        ]
     },
     {
         "address": "VIII Traversa - arenile demaniale 298",
@@ -3423,7 +3242,6 @@
             "fronte mare": 42,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno Oscar",
         "number": "298",
         "services": [
@@ -3458,7 +3276,6 @@
             "wc": 5
         },
         "fax": "0544 975822",
-        "mail": "virtualbeach299@yahoo.it",
         "name": "Bagno Virtual Beach",
         "number": "299",
         "services": [
@@ -3486,7 +3303,6 @@
         "address": "IX Traversa - arenile demaniale 300",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno Ernani",
         "number": "300",
         "services": [
@@ -3502,8 +3318,6 @@
             "fronte mare": 23,
             "wc": 4
         },
-        "fax": "",
-        "mail": "marcellosama@virgilio.it",
         "name": "Bagno Arcobaleno",
         "number": "301",
         "services": [
@@ -3530,7 +3344,6 @@
         "address": "X traversa - arenile demaniale 302",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno Azzurra",
         "number": "302",
         "services": [
@@ -3540,6 +3353,7 @@
     },
     {
         "address": "XI traversa - arenile demaniale 302",
+        "cell": "339 8926106",
         "city": "Milano Marittima",
         "details": {
             "docce aperte": 3,
@@ -3547,7 +3361,6 @@
             "fronte mare": 64,
             "wc": 3
         },
-        "fax": "",
         "name": "bis Bagno Rosen Beach",
         "number": "302",
         "services": [
@@ -3570,11 +3383,11 @@
             "canoe",
             "feste a tema",
             "acquagym"
-        ],
-        "tel": "339 8926106"
+        ]
     },
     {
         "address": "XI traversa - arenile demaniale 304/305",
+        "cell": "366 3448657",
         "city": "Milano Marittima",
         "details": {
             "cabine": 40,
@@ -3588,8 +3401,6 @@
             "wc": 3,
             "wc disabili": 1
         },
-        "fax": "",
-        "mail": "info@peperittima.it",
         "name": "Bagno Peperittima Beach Club",
         "number": "304/305",
         "services": [
@@ -3612,8 +3423,7 @@
             "ginnastica",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.peperittima.it",
-        "tel": "0544 994420 - 366 3448657"
+        "tel": "0544 994420"
     },
     {
         "address": "XI - XII traversa - arenile demaniale 305",
@@ -3633,7 +3443,6 @@
             "wc disabili": 2
         },
         "fax": "0544 991330",
-        "mail": "staff@bagnoholidayvillage.it",
         "name": "bis/306 Bagno Holiday",
         "number": "305",
         "services": [
@@ -3655,7 +3464,6 @@
             "acquagym",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.bagnoholidayvillage.it",
         "tel": "0544 991330 - 0544 993118"
     },
     {
@@ -3668,7 +3476,6 @@
             "superficie complessiva spiaggia": 2000,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno Katia",
         "number": "307",
         "services": [
@@ -3703,7 +3510,6 @@
             "superficie complessiva spiaggia": 4416,
             "wc": 6
         },
-        "fax": "",
         "name": "Bagno Targhini",
         "number": "308",
         "services": [
@@ -3735,7 +3541,6 @@
             "fronte mare": 35,
             "wc": 7
         },
-        "fax": "",
         "name": "Bagno Deanna",
         "number": "309",
         "services": [
@@ -3763,7 +3568,6 @@
         "address": "XV traversa - arenile demaniale 310",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno King's",
         "number": "310",
         "services": [
@@ -3785,7 +3589,6 @@
             "superficie complessiva spiaggia": 2072,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno Gabbiano",
         "number": "311",
         "services": [
@@ -3819,8 +3622,6 @@
             "superficie complessiva spiaggia": 2056,
             "wc": 3
         },
-        "fax": "",
-        "mail": "info@bagnodelpino.it",
         "name": "Bagno Del Pino",
         "number": "312",
         "services": [
@@ -3837,7 +3638,6 @@
             "calcio balilla",
             "feste a tema"
         ],
-        "site": "http://www.bagnodelpino.it",
         "tel": "0544 994372"
     },
     {
@@ -3851,7 +3651,6 @@
             "wc": 8
         },
         "fax": "0544 994572",
-        "mail": "info@bagnidario.it",
         "name": "Bagno Dario",
         "number": "313/316",
         "services": [
@@ -3877,8 +3676,7 @@
             "fitness",
             "tornei sportivi"
         ],
-        "site": "http://www.bagnidario.it",
-        "tel": "0544 994572 - 991273"
+        "tel": "0544 994572 - 0544 991273"
     },
     {
         "address": "XVII traversa - arenile demaniale 318",
@@ -3891,7 +3689,6 @@
             "wc": 3
         },
         "fax": "0544 991187",
-        "mail": "info@bagnodelpino.it",
         "name": "Bagno Del Pino",
         "number": "317/318",
         "services": [
@@ -3916,11 +3713,11 @@
             "fitness",
             "sala tv"
         ],
-        "site": "http://www.bagnodelpino.it",
         "tel": "0544 991187"
     },
     {
         "address": "XVIII traversa - arenile demaniale 320",
+        "cell": "348 7759502",
         "city": "Milano Marittima",
         "details": {
             "cabine": 20,
@@ -3931,7 +3728,6 @@
             "wc": 5,
             "wc disabili": 1
         },
-        "fax": "",
         "name": "Bagno Colombina",
         "number": "320",
         "services": [
@@ -3942,8 +3738,7 @@
             "animazione",
             "baby park",
             "ginnastica"
-        ],
-        "tel": "348 7759502"
+        ]
     },
     {
         "address": "XVIII traversa - arenile demaniale 321",
@@ -3956,7 +3751,6 @@
             "wc": 3
         },
         "fax": "0544 994336",
-        "mail": "info@beachotels.it;%20massimozoli@beachotels.it",
         "name": "Bagno Beachotels",
         "number": "321",
         "services": [
@@ -3973,14 +3767,12 @@
             "calcio balilla",
             "animazione per bambini"
         ],
-        "site": "http://www.beachotels.it",
         "tel": "0544 994233"
     },
     {
         "address": "XIX traversa - arenile demaniale 323",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
         "name": "Bagno Patty",
         "number": "323",
         "services": [
@@ -3997,7 +3789,6 @@
             "superficie complessiva spiaggia": 2500,
             "wc": 3
         },
-        "fax": "",
         "name": "Bagno Biondi",
         "number": "332",
         "services": [
@@ -4027,7 +3818,6 @@
             "superficie complessiva spiaggia": 2700,
             "wc": 3
         },
-        "fax": "",
         "name": "Bagno Pineta Beach",
         "number": "337",
         "services": [
@@ -4063,7 +3853,6 @@
             "superficie complessiva spiaggia": 1678,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno Haiti",
         "number": "339",
         "services": [
@@ -4088,18 +3877,16 @@
     },
     {
         "address": "XXVII traversa - arenile demaniale 340",
+        "cell": "345 0638088",
         "city": "Milano Marittima",
         "details": {},
-        "fax": "",
-        "mail": "bagno340@gmail.com",
         "name": "Bagno 340",
         "number": "340",
-        "services": [],
-        "site": "http://www.bagno340.it",
-        "tel": "345 0638088"
+        "services": []
     },
     {
         "address": "Arenile demaniale 59",
+        "cell": "348 2632368",
         "city": "Pinarella",
         "details": {
             "docce aperte": 2,
@@ -4108,7 +3895,6 @@
             "superficie complessiva spiaggia": 1815,
             "wc": 3
         },
-        "fax": "",
         "name": "Bagno Cinquantanove mar y sol",
         "number": "59",
         "services": [
@@ -4132,7 +3918,7 @@
             "racchettoni",
             "area verde"
         ],
-        "tel": "0544 987428 - 348 2632368"
+        "tel": "0544 987428"
     },
     {
         "address": "Arenile demaniale 60",
@@ -4143,7 +3929,6 @@
             "fronte mare": 36,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno Vanilla",
         "number": "60",
         "services": [
@@ -4181,7 +3966,6 @@
             "superficie complessiva spiaggia": 3949,
             "wc": 2
         },
-        "fax": "",
         "name": "Bagno Bruno",
         "number": "64",
         "services": [
@@ -4203,11 +3987,11 @@
             "calcio balilla",
             "racchettoni"
         ],
-        "site": "http://www.bagnobruno.it",
         "tel": "0544 987916"
     },
     {
         "address": "Arenile Demaniale 65",
+        "cell": "339 4595362",
         "city": "Pinarella",
         "details": {
             "docce aperte": 3,
@@ -4215,7 +3999,6 @@
             "fronte mare": 19,
             "superficie complessiva spiaggia": 1990
         },
-        "fax": "",
         "name": "Bagno Mediterraneo",
         "number": "65",
         "services": [
@@ -4241,10 +4024,11 @@
             "pedal\u00f2",
             "surf"
         ],
-        "tel": "0544 987594 - 339 4595362"
+        "tel": "0544 987594"
     },
     {
         "address": "Arenile demaniale 66",
+        "cell": "339 3680500 - 338 3350912",
         "city": "Pinarella",
         "details": {
             "docce aperte": 2,
@@ -4274,7 +4058,7 @@
             "festa a tema",
             "sala tv"
         ],
-        "tel": "0544 987703 - 339 3680500 - 338 3350912"
+        "tel": "0544 987703"
     },
     {
         "address": "Arenile demaniale 67",
@@ -4285,8 +4069,6 @@
             "superficie complessiva spiaggia": 1000,
             "wc": 3
         },
-        "fax": "",
-        "mail": "eneacom@tin.it",
         "name": "Bagno Oasi",
         "number": "67",
         "services": [
@@ -4313,17 +4095,16 @@
     },
     {
         "address": "Arenile demaniale 68",
+        "cell": "347 3002005",
         "city": "Pinarella",
         "details": {},
-        "fax": "",
-        "mail": "info@anteahotel.it",
         "name": "Bagno Lido Le Vele",
         "number": "68",
-        "services": [],
-        "tel": "347 3002005"
+        "services": []
     },
     {
         "address": "Arenile demaniale 69",
+        "cell": "348 0675934",
         "city": "Pinarella",
         "details": {
             "docce aperte": 2,
@@ -4332,7 +4113,6 @@
             "superficie complessiva spiaggia": 1946,
             "wc": 2
         },
-        "fax": "",
         "name": "Bagno Alta Marea",
         "number": "69",
         "services": [
@@ -4351,7 +4131,7 @@
             "calcio balilla",
             "feste a tema"
         ],
-        "tel": "0544 987615 - 348 0675934"
+        "tel": "0544 987615"
     },
     {
         "address": "Arenile demaniale 70/71",
@@ -4368,8 +4148,6 @@
             "wc": 6,
             "wc disabili": 1
         },
-        "fax": "",
-        "mail": "info@bagnofranco.it",
         "name": "Bagno Franco",
         "number": "70/71",
         "services": [
@@ -4386,7 +4164,6 @@
             "baby park",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.bagnofranco.it",
         "tel": "0544 987558"
     },
     {
@@ -4401,7 +4178,6 @@
             "wc disabili": 2
         },
         "fax": "0544 988148",
-        "mail": "bagnogiardino@fastwebmail.it",
         "name": "Bagno Giardino",
         "number": "72/73",
         "services": [
@@ -4427,7 +4203,6 @@
             "superficie complessiva spiaggia": 1400,
             "wc": 2
         },
-        "fax": "",
         "name": "Bagno Endas Moorea",
         "number": "74",
         "services": [
@@ -4448,7 +4223,7 @@
             "racchettoni",
             "feste a tema"
         ],
-        "tel": "0544 988822 - 980075"
+        "tel": "0544 988822 - 0544 980075"
     },
     {
         "address": "Arenile demaniale 76",
@@ -4460,8 +4235,6 @@
             "superficie complessiva spiaggia": 3100,
             "wc": 4
         },
-        "fax": "",
-        "mail": "bagno7bello@libero.it",
         "name": "Bagno Settebello",
         "number": "76",
         "services": [
@@ -4499,7 +4272,6 @@
             "wc disabili": 1
         },
         "fax": "0544 987451",
-        "mail": "b.stella77@libero.it",
         "name": "Bagno Stella",
         "number": "77/78",
         "services": [
@@ -4533,8 +4305,6 @@
             "fronte mare": 39,
             "wc": 5
         },
-        "fax": "",
-        "mail": "castroby@libero.it;%20info@bagnojolly.it",
         "name": "Bagno Jolly",
         "number": "79",
         "services": [
@@ -4562,7 +4332,6 @@
             "fax",
             "custodia valori"
         ],
-        "site": "http://www.bagnojolly.it",
         "tel": "0544 987840"
     },
     {
@@ -4579,8 +4348,6 @@
             "wc": 3,
             "wc disabili": 1
         },
-        "fax": "",
-        "mail": "dellamorerenzo@libero.it",
         "name": "Bagno Tre Stelle",
         "number": "80",
         "services": [
@@ -4610,7 +4377,6 @@
             "wc": 5,
             "wc disabili": 1
         },
-        "fax": "",
         "name": "- 82 Bagno Solaris",
         "number": "81",
         "services": [
@@ -4628,18 +4394,17 @@
             "baby park",
             "musica"
         ],
-        "site": "http://www.hotelthomas.com",
         "tel": "0544 988061"
     },
     {
         "address": "Arenile Demaniale 83",
+        "cell": "339 3085097 - 334 1224270",
         "city": "Pinarella",
         "details": {
             "fronte mare": 20,
             "superficie complessiva spiaggia": 1914,
             "wc": 3
         },
-        "fax": "",
         "name": "Bagno Andrea",
         "number": "83",
         "services": [
@@ -4661,21 +4426,19 @@
             "calcio balilla",
             "animazione per bambini",
             "sala tv"
-        ],
-        "tel": "339 3085097 - 334 1224270"
+        ]
     },
     {
         "address": "Arenile Demaniale 84",
+        "cell": "392 7928231",
         "city": "Pinarella",
         "details": {},
-        "fax": "",
-        "mail": "simonegriffi@hotmail.com",
         "name": "Bagno Playa del Carmen",
         "number": "84",
         "services": [
             "servizio salvamento"
         ],
-        "tel": "0544 987746 - 392 7928231"
+        "tel": "0544 987746"
     },
     {
         "address": "Arenile Demaniale 85/86",
@@ -4687,8 +4450,6 @@
             "superficie complessiva spiaggia": 3615,
             "wc": 3
         },
-        "fax": "",
-        "mail": "partesotti@libero.it",
         "name": "Bagno Margherita",
         "number": "85/86",
         "services": [
@@ -4727,15 +4488,14 @@
     },
     {
         "address": "Arenile demaniale 87/88",
+        "cell": "335 1415391 - 347 4624446",
         "city": "Pinarella",
         "details": {},
-        "fax": "",
         "name": "Bagno Palm Beach",
         "number": "87/88",
         "services": [
             "servizio salvamento"
-        ],
-        "tel": "335 1415391 - 347 4624446"
+        ]
     },
     {
         "address": "Arenile demaniale 89/90",
@@ -4746,7 +4506,6 @@
             "wc": 2
         },
         "fax": "0544 987620",
-        "mail": "severihotels@cervia.com",
         "name": "Bagno Garden - Le Lid\u00f2",
         "number": "89/90",
         "services": [
@@ -4773,7 +4532,6 @@
             "animazione per bambini",
             "beach dance"
         ],
-        "site": "http://www.severihotels.it/spiaggia.asp",
         "tel": "0544 987996"
     },
     {
@@ -4790,7 +4548,6 @@
             "wc disabili": 1
         },
         "fax": "0544 987734",
-        "mail": "info@severihotels.com",
         "name": "Bagno Green Beach Bamby",
         "number": "93",
         "services": [
@@ -4806,7 +4563,6 @@
             "ginnastica",
             "musica"
         ],
-        "site": "http://www.severihotels.com/green_beach.php",
         "tel": "0544 986180"
     },
     {
@@ -4822,7 +4578,6 @@
             "wc disabili": 2
         },
         "fax": "0544 980110",
-        "mail": "info@agenziainternazionale.com",
         "name": "Bagno Anna",
         "number": "94/95/96",
         "services": [
@@ -4847,28 +4602,23 @@
             "ginnastica",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.agenziainternazionale.com/bagnoanna.html",
         "tel": "0544 987498"
     },
     {
         "address": "Arenile demaniale 98",
         "city": "Pinarella",
         "details": {},
-        "fax": "",
-        "mail": "informazioni@bagnoeverest.it",
         "name": "Bagno Everest",
         "number": "98",
         "services": [
             "servizio salvamento"
         ],
-        "site": "http://www.bagnoeverest.it/",
         "tel": "0544 988026"
     },
     {
         "address": "Arenile demaniale 99",
         "city": "Pinarella",
         "details": {},
-        "fax": "",
         "name": "Bagno Boca Chica",
         "number": "99",
         "services": [
@@ -4885,7 +4635,6 @@
             "superficie complessiva spiaggia": 2219,
             "wc": 3
         },
-        "fax": "",
         "name": "Bagno Renata",
         "number": "100",
         "services": [
@@ -4922,7 +4671,6 @@
             "wc": 3
         },
         "fax": "0547 59454",
-        "mail": "artedecor@libero.it",
         "name": "Bagno Kiwengwa",
         "number": "101",
         "services": [
@@ -4953,7 +4701,6 @@
         "address": "Arenile demaniale 103",
         "city": "Pinarella",
         "details": {},
-        "fax": "",
         "name": "Bagno Dombachi",
         "number": "103",
         "services": [
@@ -4971,7 +4718,6 @@
             "superficie complessiva spiaggia": 3000,
             "wc": 5
         },
-        "fax": "",
         "name": "Bagno Safari",
         "number": "104",
         "services": [
@@ -5005,7 +4751,6 @@
             "wc": 2
         },
         "fax": "0544 982070",
-        "mail": "bagnostefano@libero.it",
         "name": "Bagno Stefano",
         "number": "105",
         "services": [
@@ -5029,7 +4774,6 @@
             "fax",
             "internet"
         ],
-        "site": "http://www.bagnostefano.com/",
         "tel": "0544 980707"
     },
     {
@@ -5041,7 +4785,6 @@
             "superficie complessiva spiaggia": 1459,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno Admiral",
         "number": "106",
         "services": [
@@ -5074,8 +4817,6 @@
             "fronte mare": 54,
             "wc": 5
         },
-        "fax": "",
-        "mail": "b.andreucci@libero.it",
         "name": "Bagno Andreucci",
         "number": "107",
         "services": [
@@ -5106,7 +4847,6 @@
             "libreria",
             "internet"
         ],
-        "site": "http://www.andreuccibeach.it",
         "tel": "0544 987194"
     },
     {
@@ -5124,8 +4864,6 @@
             "wc": 6,
             "wc disabili": 1
         },
-        "fax": "",
-        "mail": "info@bagnoadriasol.it",
         "name": "Bagno Adriasol",
         "number": "111",
         "services": [
@@ -5152,7 +4890,6 @@
             "happy hour",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.bagnoadriasol.it",
         "tel": "0544 988587"
     },
     {
@@ -5164,8 +4901,6 @@
             "superficie complessiva spiaggia": 2094,
             "wc": 5
         },
-        "fax": "",
-        "mail": "guido.bonetti@gmail.com",
         "name": "Bagno Sara Beach",
         "number": "114",
         "services": [
@@ -5192,7 +4927,6 @@
             "fitness",
             "sala tv"
         ],
-        "site": "http://www.sarabeach.it",
         "tel": "0544 987323"
     },
     {
@@ -5205,7 +4939,6 @@
             "superficie complessiva spiaggia": 3989,
             "wc": 4
         },
-        "fax": "",
         "name": "Bagno Sole",
         "number": "115/116/117",
         "services": [
@@ -5249,7 +4982,6 @@
             "wc disabili": 1
         },
         "fax": "0544 987496",
-        "mail": "info@villabeach.it",
         "name": "Bagno La Villa Beach",
         "number": "118",
         "services": [
@@ -5270,7 +5002,6 @@
             "dj-set",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.villabeach.it",
         "tel": "0544 987496"
     },
     {
@@ -5283,8 +5014,6 @@
             "superficie complessiva spiaggia": 2400,
             "wc": 4
         },
-        "fax": "",
-        "mail": "bagnoangela119@libero.it",
         "name": "Bagno Angela",
         "number": "119",
         "services": [
@@ -5306,7 +5035,6 @@
             "fitness",
             "sala tv"
         ],
-        "site": "http://www.bagnoangela119.it",
         "tel": "0544 987365"
     },
     {
@@ -5318,8 +5046,6 @@
             "superficie complessiva spiaggia": 2949,
             "wc": 4
         },
-        "fax": "",
-        "mail": "pinetabeach@libero.it%20",
         "name": "Bagno Franco",
         "number": "120",
         "services": [
@@ -5344,7 +5070,6 @@
             "sala tv",
             "biciclette"
         ],
-        "site": "http://www.bagnopineta.com",
         "tel": "0544 987150"
     },
     {
@@ -5357,8 +5082,6 @@
             "superficie complessiva spiaggia": 3006,
             "wc": 5
         },
-        "fax": "",
-        "mail": "pinetabeach@libero.it%20",
         "name": "bis Bagno Pineta",
         "number": "120",
         "services": [
@@ -5385,7 +5108,6 @@
             "racchettoni",
             "canoe"
         ],
-        "site": "http://www.bagnopineta.com",
         "tel": "0544 987150"
     },
     {
@@ -5398,8 +5120,6 @@
             "superficie complessiva spiaggia": 4416,
             "wc": 6
         },
-        "fax": "",
-        "mail": "info@Bagnoitaliagiuliana.it",
         "name": "Bagno Giuliana",
         "number": "121",
         "services": [
@@ -5425,7 +5145,6 @@
             "feste a tema",
             "tennis"
         ],
-        "site": "http://www.bagnoitaliagiuliana.it",
         "tel": "0544 980081"
     },
     {
@@ -5439,7 +5158,6 @@
             "wc": 3
         },
         "fax": "0544 987204",
-        "mail": "info@Bagnoitaliagiuliana.it",
         "name": "Bagno Italia",
         "number": "122",
         "services": [
@@ -5468,7 +5186,6 @@
             "balli di gruppo",
             "sala tv"
         ],
-        "site": "http://www.bagnoitaliagiuliana.it",
         "tel": "0544 980081"
     },
     {
@@ -5482,7 +5199,6 @@
             "wc disabili": 1
         },
         "fax": "0544 987171",
-        "mail": "bvittorio@cervia.com",
         "name": "Bagno Vittorio",
         "number": "124",
         "services": [
@@ -5504,7 +5220,6 @@
             "feste a tema",
             "animazione"
         ],
-        "site": "http://www.cervia.com/Turismo/Strutture/16",
         "tel": "0544 987171"
     },
     {
@@ -5517,8 +5232,6 @@
             "superficie complessiva spiaggia": 2478,
             "wc": 3
         },
-        "fax": "",
-        "mail": "info@hotelamarcord.com",
         "name": "Bagno Centrale",
         "number": "125",
         "services": [
@@ -5557,7 +5270,6 @@
             "wc disabili": 1
         },
         "fax": "0544 1848125",
-        "mail": "lerri23@libero.it",
         "name": "bis Bagno Bianchi",
         "number": "125",
         "services": [
@@ -5581,7 +5293,6 @@
             "ginnastica",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.bagnobianchi.it",
         "tel": "0544 1848125"
     },
     {
@@ -5600,7 +5311,6 @@
             "wc": 5,
             "wc disabili": 1
         },
-        "fax": "",
         "name": "Bagno Paola",
         "number": "126",
         "services": [
@@ -5635,7 +5345,6 @@
             "wc": 3
         },
         "fax": "0544 916721",
-        "mail": "info@bagnodelfino.com",
         "name": "Bagno Delfino",
         "number": "131",
         "services": [
@@ -5656,7 +5365,6 @@
             "calcio balilla",
             "racchettoni"
         ],
-        "site": "http://www.bagnodelfino.com",
         "tel": "0544 970975 - 0544 972855 - 0544 987104"
     },
     {
@@ -5676,7 +5384,6 @@
             "wc disabili": 2
         },
         "fax": "0544 988529",
-        "mail": "info@fuorionda.eu",
         "name": "Bagno Sabrina - Fuorionda",
         "number": "3",
         "services": [
@@ -5698,21 +5405,17 @@
             "baby park",
             "musica"
         ],
-        "site": "http://www.fuorionda.eu",
         "tel": "0544 988060"
     },
     {
         "address": "Arenile demaniale 4",
         "city": "Tagliata",
         "details": {},
-        "fax": "",
-        "mail": "nadir.cesaretti@libero.it",
         "name": "Bagno Picnic - Fuorionda",
         "number": "4",
         "services": [
             "servizio salvamento"
         ],
-        "site": "http://www.fuorionda.eu",
         "tel": "0544 987982"
     },
     {
@@ -5728,8 +5431,6 @@
             "wc": 6,
             "wc disabili": 2
         },
-        "fax": "",
-        "mail": "bianconero@fuorionda.eu",
         "name": "Bagno Bianconero - Fuorionda",
         "number": "7/8/9",
         "services": [
@@ -5753,7 +5454,6 @@
             "ginnastica",
             "accessibilit\u00e0 ai disabili"
         ],
-        "site": "http://www.fuorionda.eu",
         "tel": "0544 987752"
     },
     {
@@ -5766,8 +5466,6 @@
             "superficie complessiva spiaggia": 2890,
             "wc": 3
         },
-        "fax": "",
-        "mail": "info@lepalmebeach.com",
         "name": "Bagno Le Palme",
         "number": "10",
         "services": [
@@ -5794,14 +5492,12 @@
             "beach soccer",
             "feste a tema"
         ],
-        "site": "http://www.lepalmebeach.com",
         "tel": "0544 988101"
     },
     {
         "address": "Arenile dmaniale 12",
         "city": "Tagliata",
         "details": {},
-        "fax": "",
         "name": "Bagno Focaccia",
         "number": "12",
         "services": [
@@ -5811,6 +5507,7 @@
     },
     {
         "address": "Arenile demaniale 16",
+        "cell": "347 5435887",
         "city": "Tagliata",
         "details": {
             "docce aperte": 2,
@@ -5818,7 +5515,6 @@
             "superficie complessiva spiaggia": 1179,
             "wc": 2
         },
-        "fax": "",
         "name": "Bagno Jolly",
         "number": "16",
         "services": [
@@ -5840,9 +5536,7 @@
             "ping pong",
             "calcio balilla",
             "feste a tema"
-        ],
-        "site": "http://www.bagnojolly16tagliata.it",
-        "tel": "347 5435887"
+        ]
     },
     {
         "address": "Arenile demaniale 18",
@@ -5854,8 +5548,6 @@
             "superficie complessiva spiaggia": 2700,
             "wc": 4
         },
-        "fax": "",
-        "mail": "info@bagnorocchi.it",
         "name": "Bagno Rocchi",
         "number": "18",
         "services": [
@@ -5877,7 +5569,6 @@
             "calcio balilla",
             "racchettoni"
         ],
-        "site": "http://www.bagnorocchi.it",
         "tel": "0544 987831"
     },
     {
@@ -5890,7 +5581,6 @@
             "wc": 5
         },
         "fax": "0544 987517",
-        "mail": "bbenvxx@tin.it",
         "name": "Bagno Benvenuti",
         "number": "20",
         "services": [
@@ -5915,7 +5605,6 @@
             "sala tv",
             "musica"
         ],
-        "site": "http://www.bagnobenvenuti.com",
         "tel": "0544 987517"
     }
 ]

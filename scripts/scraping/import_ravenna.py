@@ -43,7 +43,10 @@ for i, url_localita in enumerate(urls_localita[:-2], start=1):
                     tel = tel.strip()
                     if name == "tel" and not tel.startswith("05"):
                         name = "cell"
-                    bagno[name] = tel
+                    if name in bagno:
+                        bagno[name] += " - " + tel
+                    else:
+                        bagno[name] = tel
             else:
                 bagno[name] = content.text.strip()
         if "address" in bagno and "-" in bagno['address']:

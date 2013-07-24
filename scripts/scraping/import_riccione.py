@@ -38,7 +38,7 @@ for i, tr in enumerate(trs[1:], start=1):
             for field, name in {"tel": "tel", "fax": "fax", "cell": "cell", "winter_tel": "recapito invernale"}.items():
                 if name in telephone:
                     if field in bagno:
-                        bagno[field] += " " + num
+                        bagno[field] += " - " + num
                     else:
                         bagno[field] = num
     bagno_mail = tds[2].xpath("./a/@href")

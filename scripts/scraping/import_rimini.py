@@ -51,13 +51,14 @@ for i, tr in enumerate(trs, start=1):
             titoletto_text = titoletto.text_content().strip()
             detail_text = bagno_detail.text_content().replace(titoletto_text, "", 1).replace(":", "").strip("\r\n\t -").lower()
             if titoletto_text == u"Telefono":
-                for detail_text in detail_text.split("-"):
+                for detail_text in re.split("[o\-]", detail_text):
+                    detail_text = detail_text.strip()
                     if detail_text.startswith("05"):
                         field = "tel"
                     else:
                         field = "cell"
                     if field in bagno:
-                        bagno[field] += " " + detail_text
+                        bagno[field] += " - " + detail_text
                     else:
                         bagno[field] = detail_text
             elif titoletto_text == u"Recapito periodo invernale":

@@ -36,10 +36,16 @@ for i, url_bagno in enumerate(url_bagni, start=1):
     if len(bagno_details) > 2:
         for tel in re.split("(-|cell\.)", bagno_details[2].text.strip()):
             tel = tel.strip()
+            if tel in ["-", ""]:
+                continue
             if tel.startswith("05"):
-                bagno['tel'] = tel
+                name = "tel"
             else:
-                bagno['cell'] = tel
+                name = 'cell'
+            if name in bagno:
+                bagno[name] += " - " + tel
+            else:
+                bagno[name] = tel
     if len(bagno_details) > 3:
         bagno['mail'] = bagno_details[3].text_content().strip()
     if len(bagno_details) > 4:
