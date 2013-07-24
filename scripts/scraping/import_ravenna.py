@@ -39,7 +39,11 @@ for i, url_localita in enumerate(urls_localita[:-2], start=1):
             if name in ("site", "mail"):
                 bagno[name] = content.xpath(".//a/@href")[0].strip().replace("mailto:", "")
             elif name in ("tel", "fax"):
-                bagno[name] = content.text.replace("(+39) ", "").replace(".", " ").strip()
+                for tel in content.text.replace("(+39) ", "").replace("(+39 ", "").replace(".", " ").strip().split("-"):
+                    tel = tel.strip()
+                    if name == "tel" and not tel.startswith("05"):
+                        name = "cell"
+                    bagno[name] = tel
             else:
                 bagno[name] = content.text.strip()
         if "address" in bagno and "-" in bagno['address']:

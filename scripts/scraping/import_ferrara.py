@@ -34,7 +34,12 @@ for i, url_bagno in enumerate(url_bagni, start=1):
     if len(bagno_details) > 1:
         bagno['city'] = bagno_details[1].text.strip()
     if len(bagno_details) > 2:
-        bagno['tel'] = bagno_details[2].text.strip()
+        for tel in re.split("(-|cell\.)", bagno_details[2].text.strip()):
+            tel = tel.strip()
+            if tel.startswith("05"):
+                bagno['tel'] = tel
+            else:
+                bagno['cell'] = tel
     if len(bagno_details) > 3:
         bagno['mail'] = bagno_details[3].text_content().strip()
     if len(bagno_details) > 4:

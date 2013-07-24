@@ -14,8 +14,8 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         Bagno.objects.all().delete()
         bagni = []
-        cities = ["cervia", "cesenatico", "ferrara", "ravenna"]
-        fields = ["name", "number", "address", "city", "tel", "fax", "site", "mail"]
+        cities = ["cervia", "cesenatico", "ferrara", "ravenna", "rimini", "riccione"]
+        fields = ["name", "number", "address", "city", "tel", "cell", "winter_tel", "fax", "site", "mail"]
         for city in cities:
             try:
                 with open('scripts/scraping/output_' + city + '.json', 'r') as output_file:

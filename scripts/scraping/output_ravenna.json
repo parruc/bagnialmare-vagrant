@@ -45,6 +45,7 @@
     },
     {
         "address": "Via Delle Rose, 43",
+        "cell": "339 1473019",
         "city": "Casal Borsetti",
         "details": {
             "docce aperte": 1,
@@ -59,8 +60,7 @@
             "beach volley",
             "racchettoni",
             "ristorazione"
-        ],
-        "tel": "339 1473019"
+        ]
     },
     {
         "address": "Via Ciceruacchio, 18",
@@ -174,6 +174,7 @@
     },
     {
         "address": "Via Leggero, 12",
+        "cell": "338 7312784",
         "city": "Casal Borsetti",
         "details": {
             "cabine": 6,
@@ -194,7 +195,7 @@
             "racchettoni",
             "ristorazione"
         ],
-        "tel": "0544 445226 - 338 4194627 - 338 7312784"
+        "tel": "0544 445226"
     },
     {
         "address": "Via Ortolani Stefano, 1",
@@ -223,6 +224,7 @@
     },
     {
         "address": "Via delle Ortensie, 15",
+        "cell": "388 1696820",
         "city": "CasalBorsetti",
         "details": {
             "cabine": 9,
@@ -241,8 +243,7 @@
             "beach volley",
             "baby park",
             "ristorazione"
-        ],
-        "tel": "388 1696820"
+        ]
     },
     {
         "address": "Via Delle Ortensie, 12",
@@ -280,6 +281,7 @@
     },
     {
         "address": "Via Spazzoli Tonino, 3",
+        "cell": "348 3403237",
         "city": "Casal Borsetti",
         "details": {
             "cabine": 6,
@@ -291,8 +293,7 @@
             "wc disabili": 1
         },
         "name": "Bagno Sole Luna (Fabio's Beach)",
-        "services": [],
-        "tel": "348 3403237"
+        "services": []
     },
     {
         "address": "Via delle Gardenie, 25",
@@ -623,6 +624,7 @@
     },
     {
         "address": "Viale Italia, 44",
+        "cell": "335 6003061",
         "city": "Marina Romea",
         "details": {
             "cabine": 23,
@@ -658,7 +660,7 @@
             "solarium"
         ],
         "site": "http://www.bagnograziella.com",
-        "tel": "0544 446296 - 335 6003061"
+        "tel": "0544 446296"
     },
     {
         "address": "Viale Italia, 105",
@@ -1022,11 +1024,10 @@
             "ping pong",
             "racchettoni",
             "ristorazione",
-            "feste a tema",
-            "pizzeria"
+            "feste a tema"
         ],
         "site": "http://www.sirenetta-paradiso.net",
-        "tel": "0544 446380 - 0544 446009"
+        "tel": "0544 446009"
     },
     {
         "address": "Viale Italia, 131",
@@ -1132,11 +1133,10 @@
             "ping pong",
             "racchettoni",
             "ristorazione",
-            "feste a tema",
-            "pizzeria"
+            "feste a tema"
         ],
         "site": "http://www.sirenetta-paradiso.net",
-        "tel": "0544 446009 - 0544 446380"
+        "tel": "0544 446380"
     },
     {
         "address": "Viale Italia, 30 (127)",
@@ -1267,6 +1267,7 @@
     },
     {
         "address": "Via T. Guerra, 31",
+        "cell": "346 0010963",
         "city": "Porto Corsini",
         "details": {
             "cabine": 4,
@@ -1291,8 +1292,7 @@
             "ristorazione",
             "pedal\u00f2"
         ],
-        "site": "http://www.bagnovillaggiodelsole.webs.com",
-        "tel": "346 0010963"
+        "site": "http://www.bagnovillaggiodelsole.webs.com"
     },
     {
         "address": "Via Guerra Teseo, 8",
@@ -1619,6 +1619,7 @@
     },
     {
         "address": "Viale Delle Nazioni, 286",
+        "cell": "393 6736052",
         "city": "Marina di Ravenna",
         "details": {
             "cabine": 8,
@@ -1642,10 +1643,11 @@
             "ristorazione"
         ],
         "site": "http://www.fandangobeach.it/",
-        "tel": "0544 1880062 - 393 6736052"
+        "tel": "0544 1880062"
     },
     {
         "address": "Viale delle Nazioni, 72",
+        "cell": "333 2097141",
         "city": "Marina di Ravenna",
         "details": {
             "cabine": 14,
@@ -1672,8 +1674,7 @@
             "concerti",
             "dj-set"
         ],
-        "site": "http://bronsonproduzioni.com",
-        "tel": "333 2097141"
+        "site": "http://bronsonproduzioni.com"
     },
     {
         "address": "Viale delle Nazioni, 32 (250)",
@@ -1827,7 +1828,6 @@
             "ristorazione",
             "feste a tema",
             "solarium",
-            "pizzeria",
             "moscone",
             "animazione serale"
         ],
@@ -1906,6 +1906,7 @@
     },
     {
         "address": "Viale delle Nazioni, 74",
+        "cell": "366 5408812",
         "city": "Marina di Ravenna",
         "details": {
             "cabine": 2,
@@ -1934,11 +1935,9 @@
             "ping pong",
             "racchettoni",
             "ristorazione",
-            "feste a tema",
-            "pizzeria"
+            "feste a tema"
         ],
-        "site": "http://www.marisol74.it",
-        "tel": "366 5408812"
+        "site": "http://www.marisol74.it"
     },
     {
         "address": "Via Lungo Mare, 76",
@@ -1960,7 +1959,6 @@
         "services": [
             "baby park",
             "ristorazione",
-            "pizzeria",
             "bar",
             "parcheggio"
         ],
@@ -2306,7 +2304,6 @@
             "racchettoni",
             "ristorazione",
             "feste a tema",
-            "pizzeria",
             "cocktail bar",
             "disponibile per feste private",
             "area benessere",
@@ -2451,7 +2448,6 @@
         "name": "Bagno Tikoa",
         "services": [
             "ristorazione",
-            "pizzeria",
             "paninoteca",
             "feste danzanti"
         ],
@@ -2460,6 +2456,7 @@
     },
     {
         "address": "Viale dell Nazioni, 64",
+        "cell": "347 1039916",
         "city": "Marina di Ravenna",
         "details": {
             "cabine": 24,
@@ -2483,10 +2480,11 @@
             "solarium"
         ],
         "site": "http://www.totobeach.it",
-        "tel": "0544 530547 - 347 1039916"
+        "tel": "0544 530547"
     },
     {
         "address": "Via Lungo Mare, 78",
+        "cell": "345 6195483",
         "city": "Marina di Ravenna",
         "details": {
             "cabine disabili": 1,
@@ -2508,7 +2506,7 @@
             "racchettoni",
             "ristorazione"
         ],
-        "tel": "0544 530515 - 345 6195483"
+        "tel": "0544 530515"
     },
     {
         "address": "Viale dell Nazioni, 14",
@@ -2550,6 +2548,7 @@
     },
     {
         "address": "Viale Delle Nazioni, 440",
+        "cell": "347 2583525",
         "city": "Marina di Ravenna",
         "details": {},
         "name": "Bagno Zanzibar",
@@ -2566,7 +2565,7 @@
             "aperitivi"
         ],
         "site": "http://www.zanzibarbeach.it/",
-        "tel": "0544 530418 - 347 2583525"
+        "tel": "0544 530418"
     },
     {
         "address": "Lungomare C. Colombo, 67",
@@ -2626,6 +2625,7 @@
     },
     {
         "address": "Lungomare Colombo Cristoforo, 171",
+        "cell": "338 6509800",
         "city": "Punta Marina Terme",
         "details": {
             "cabine": 20,
@@ -2656,7 +2656,7 @@
             "discoteca"
         ],
         "site": "http://www.bbkbeach.com",
-        "tel": "0544 438494 - 338 6509800"
+        "tel": "0544 438494"
     },
     {
         "address": "Viale Lungomare, 14",
@@ -2789,7 +2789,7 @@
             "wc": 2,
             "wc disabili": 1
         },
-        "fax": "(+39 0544 438510",
+        "fax": "0544 438510",
         "mail": "info@adrianocampingvillage.com",
         "name": "Bagno Camping Adriano",
         "services": [
@@ -2852,6 +2852,7 @@
     },
     {
         "address": "Viale Lungomare, 44",
+        "cell": "328 7844140",
         "city": "Punta Marina Terme",
         "details": {
             "cabine": 12,
@@ -2881,8 +2882,7 @@
             "barbecue",
             "concerti",
             "dj set"
-        ],
-        "tel": "328 7844140"
+        ]
     },
     {
         "address": "Viale Lungomare, 22",
@@ -2941,6 +2941,7 @@
     },
     {
         "address": "Via della Fontana, 62",
+        "cell": "328 0360188",
         "city": "Punta Marina Terme",
         "details": {
             "cabine": 20,
@@ -2969,8 +2970,7 @@
             "feste a tema",
             "libreria",
             "animazione per bambini"
-        ],
-        "tel": "328 0360188"
+        ]
     },
     {
         "address": "Viale Lungomare, 157",
@@ -3212,6 +3212,7 @@
     },
     {
         "address": "Piazza Saffi Aurelio, 10",
+        "cell": "331 9893116",
         "city": "Punta Marina Terme",
         "details": {
             "cabine": 20,
@@ -3232,7 +3233,7 @@
             "ristorazione",
             "feste a tema"
         ],
-        "tel": "0544 437121 - 331 9893116"
+        "tel": "0544 437121"
     },
     {
         "address": "Via della Fontana, 74",
@@ -3365,6 +3366,7 @@
     },
     {
         "address": "Viale Lungomare, 34",
+        "cell": "347 4670672",
         "city": "Punta Marina Terme",
         "details": {
             "cabine": 30,
@@ -3391,7 +3393,7 @@
             "feste a tema"
         ],
         "site": "http://www.bagnoperla.it/",
-        "tel": "0544 437470 - 347 4670672"
+        "tel": "0544 437470"
     },
     {
         "address": "Via della Fontana, 72",
@@ -3609,6 +3611,7 @@
     },
     {
         "address": "Lungomare Colombo Cristoforo, 19/a",
+        "cell": "338 7023848",
         "city": "Punta Marina Terme",
         "details": {
             "cabine": 15,
@@ -3635,7 +3638,7 @@
             "deposito giochi",
             "parcheggio"
         ],
-        "tel": "0544 437425 - 338 7023848"
+        "tel": "0544 437425"
     },
     {
         "address": "Lungomare C. Colombo, 141",
@@ -3723,7 +3726,7 @@
         "name": "Bagno Wave",
         "services": [],
         "site": "http://www.bagnowave.com",
-        "tel": "0544 439247 - 0544 437353"
+        "tel": "0544 437353"
     },
     {
         "address": "Viale Lungomare, 28",
@@ -4060,8 +4063,7 @@
         "name": "Bagno Le Vele",
         "services": [
             "ristorazione",
-            "feste a tema",
-            "pizzeria"
+            "feste a tema"
         ],
         "site": "http://ristorantelevele.oneminutesite.it/",
         "tel": "0544 494032"
@@ -4137,6 +4139,7 @@
     },
     {
         "address": "Viale Petrarca, 220",
+        "cell": "333 2905056",
         "city": "Lido Adriano",
         "details": {
             "cabine": 30,
@@ -4159,7 +4162,7 @@
             "ristorazione"
         ],
         "site": "http://www.bagno-oasi.it",
-        "tel": "0544 1930667- 333 2905056"
+        "tel": "0544 1930667"
     },
     {
         "address": "Viale Petrarca, 466",
@@ -4256,7 +4259,7 @@
             "ristorazione"
         ],
         "site": "http://www.bagnoclasse.it",
-        "tel": "0544 1954133 - 0544 494932"
+        "tel": "0544 494932"
     },
     {
         "address": "Viale Matelda, 4",
@@ -4284,7 +4287,6 @@
             "racchettoni",
             "ristorazione",
             "solarium",
-            "pizzeria",
             "paninoteca",
             "piccola ristorazione",
             "concerti"
@@ -4412,6 +4414,7 @@
     },
     {
         "address": "Viale Caboto, 32",
+        "cell": "338 2855028",
         "city": "Lido di Classe",
         "details": {
             "cabine": 16,
@@ -4441,10 +4444,11 @@
             "animazione per bambini",
             "disponibile per feste private"
         ],
-        "tel": "0544 939407 - 338 2855028"
+        "tel": "0544 939407"
     },
     {
         "address": "Via Da Noli Antonio, 57",
+        "cell": "335 6827722",
         "city": "Lido di Classe",
         "details": {
             "cabine": 3,
@@ -4471,11 +4475,11 @@
             "accettazione cani",
             "baby park"
         ],
-        "site": "http://www.bagnocayoloco.it",
-        "tel": "335 6827722"
+        "site": "http://www.bagnocayoloco.it"
     },
     {
         "address": "Via Bering Vitus, 105",
+        "cell": "345 5023510",
         "city": "Lido di Classe",
         "details": {
             "cabine": 12,
@@ -4497,10 +4501,11 @@
             "ristorazione"
         ],
         "site": "http://www.bagnogogo.it",
-        "tel": "0544 939211 - 345 5023510"
+        "tel": "0544 939211"
     },
     {
         "address": "Via Bering Vitus, 107",
+        "cell": "334 2614747",
         "city": "Lido di Classe",
         "details": {
             "cabine": 8,
@@ -4517,8 +4522,7 @@
         "services": [
             "animazione",
             "ristorazione"
-        ],
-        "tel": "334 2614747"
+        ]
     },
     {
         "address": "Viale Caboto, 88",
@@ -4739,6 +4743,7 @@
     },
     {
         "address": "Via Pessagno, 16",
+        "cell": "331 1657565",
         "city": "Lido di Classe",
         "details": {
             "cabine": 15,
@@ -4755,11 +4760,9 @@
         "name": "Bagno Waikiki",
         "services": [
             "ristorazione",
-            "pizzeria",
             "bar"
         ],
-        "site": "http://www.bagnowaikikibeach.it",
-        "tel": "331 1657565"
+        "site": "http://www.bagnowaikikibeach.it"
     },
     {
         "address": "Viale Caboto, 94",
@@ -4832,8 +4835,7 @@
             "bocce",
             "baby park",
             "racchettoni",
-            "ristorazione",
-            "pizzeria"
+            "ristorazione"
         ],
         "site": "http://web.tiscali.it/bagnoazzurro",
         "tel": "0544 949306"
@@ -4861,7 +4863,7 @@
             "ristorazione"
         ],
         "site": "http://www.bananabeach.it",
-        "tel": "0544 949078 - 0544 082169"
+        "tel": "0544 082169"
     },
     {
         "address": "Viale Romagna, 978/b",
@@ -4914,6 +4916,7 @@
     },
     {
         "address": "Via Forl\u00ec, 0/b",
+        "cell": "388 3554577",
         "city": "Lido di Savio",
         "details": {
             "docce aperte": 1,
@@ -4934,8 +4937,7 @@
             "racchettoni",
             "ristorazione"
         ],
-        "site": "http://facebook.com/bagnocavallinonuovagestione",
-        "tel": "388 3554577"
+        "site": "http://facebook.com/bagnocavallinonuovagestione"
     },
     {
         "address": "Viale Romagna, 379",
@@ -4956,8 +4958,7 @@
         "services": [
             "beach volley",
             "baby park",
-            "ristorazione",
-            "pizzeria"
+            "ristorazione"
         ],
         "tel": "0544 949409"
     },
@@ -5014,6 +5015,7 @@
     },
     {
         "address": "Via Modigliana, 20 - 22",
+        "cell": "339 4049770",
         "city": "Lido di Savio",
         "details": {
             "cabine": 10,
@@ -5034,8 +5036,7 @@
             "corsi di nuoto",
             "wi-fi",
             "baby park"
-        ],
-        "tel": "339 4049770"
+        ]
     },
     {
         "address": "Viale Ravenna, 350",
@@ -5062,6 +5063,7 @@
     },
     {
         "address": "Via Modigliana, 20",
+        "cell": "333 3425210",
         "city": "Lido di Savio",
         "details": {
             "cabine": 10,
@@ -5075,18 +5077,17 @@
         },
         "mail": "eziogallina@hotmail.it",
         "name": "Bagno Gloria",
-        "services": [],
-        "tel": "333 3425210"
+        "services": []
     },
     {
         "address": "Viale Romagna, 217",
+        "cell": "388 3554577",
         "city": "Lido di Savio",
         "details": {},
         "fax": "544 949110",
         "mail": "hotelasiago@libero.it",
         "name": "Bagno Hotel Asiago",
-        "services": [],
-        "tel": "388 3554577"
+        "services": []
     },
     {
         "address": "Viale Romagna, 270",

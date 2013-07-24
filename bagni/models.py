@@ -13,6 +13,7 @@ class Bagno(models.Model):
         verbose_name_plural = _('Bagni')
 
     name = models.CharField(max_length=60)
+    description = models.TextField(max_length=500)
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),
@@ -23,6 +24,8 @@ class Bagno(models.Model):
     city = models.CharField(max_length=50, blank=True)
     mail = models.EmailField(max_length=50, blank=True)
     tel = models.CharField(max_length=75, blank=True)
+    cell = models.CharField(max_length=75, blank=True)
+    winter_tel = models.CharField(max_length=75, blank=True)
     fax = models.CharField(max_length=50, blank=True)
     site = models.URLField(max_length=75, blank=True)
     point = models.PointField(null=True, blank=True)

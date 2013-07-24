@@ -9,8 +9,8 @@ URL = BASE_URL + "elenco_schede.asp?ambiente=DIVERTIMENTO%20E%20RELAX&famiglia=S
 SERVICES = utils.read_services()
 DETAILS = utils.read_details()
 logging.basicConfig(format='%(asctime)s %(levelname)s:%(message)s', level=logging.WARNING)
-tel_from_text = re.compile("Tel: ([0-9 ]+)")
-fax_from_text = re.compile("Fax: ([0-9 ]+)")
+tel_from_text = re.compile("Tel: ([0-9 \.]+)")
+fax_from_text = re.compile("Fax: ([0-9 \.]+)")
 mail_from_text = re.compile("[a-zA-z]{1}[\w.-]+@[\w.-]+")
 site_from_text = re.compile("(?:http://www\.|http://|www\.)[\w.\-]+\.[\w]{,3}")
 city_from_text = re.compile("[0-9]+ (\w+)[ ]+- (\w+) \(FC\)")
@@ -47,7 +47,11 @@ for i, url_bagno in enumerate(url_bagni, start=1):
     site = site_from_text.findall(contacts)
     missing = []
     if len(tel):
-        bagno['tel'] = tel[0]
+        if tel[0].startswith("05"):
+            field = "tel"
+        else:
+            field = "cell"
+        bagno[field] = tel[0]
     else:
         missing.append("tel")
     if len(fax):

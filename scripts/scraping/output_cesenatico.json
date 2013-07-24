@@ -99,7 +99,7 @@
         "services": [
             "animazione",
             "bocce",
-            "giochi per bimbi",
+            "baby park",
             "ping pong",
             "sala tv",
             "terrazza prendisole",
@@ -366,6 +366,7 @@
     },
     {
         "address": "Viale Lungomare Ponente",
+        "cell": "335 7604237",
         "city": "Cesenatico Ponente",
         "coords": [
             "44.20761925228597",
@@ -392,8 +393,7 @@
             "accessibilit\u00e0 ai disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
-        ],
-        "tel": "335 7604237"
+        ]
     },
     {
         "address": "Viale Giosu\u00e8 Carducci, 10",
@@ -590,6 +590,7 @@
     },
     {
         "address": "Viale Giosu\u00e8 Carducci",
+        "cell": "339 8195766",
         "city": "Cesenatico Valverde",
         "coords": [
             "44.17521744698319",
@@ -597,8 +598,7 @@
         ],
         "details": {},
         "name": "Bagno bertino",
-        "services": [],
-        "tel": "339 8195766"
+        "services": []
     },
     {
         "address": "Viale Venezia, 29",
@@ -1015,6 +1015,7 @@
     },
     {
         "address": "Viale dei Pini, 103",
+        "cell": "349 0991638",
         "city": "Cesenatico Zadina",
         "coords": [
             "44.22047656811414",
@@ -1023,8 +1024,7 @@
         "details": {},
         "mail": "bagno.chery@libero.it",
         "name": "Bagno chery",
-        "services": [],
-        "tel": "349 0991638"
+        "services": []
     },
     {
         "address": "Via Isonzo",
@@ -1077,6 +1077,7 @@
     },
     {
         "address": "Viale dei Pini, 100",
+        "cell": "389.7973317 ",
         "city": "Cesenatico Zadina",
         "coords": [
             "44.21875421974842",
@@ -1103,7 +1104,7 @@
             "bocce",
             "giochi bimbi",
             "internet",
-            "web cam",
+            "webcam",
             "biciclette",
             "libreria",
             "ping pong",
@@ -1116,8 +1117,7 @@
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
-        "site": "http://www.clipperbeach.it",
-        "tel": "389"
+        "site": "http://www.clipperbeach.it"
     },
     {
         "address": "Spiaggia Villamarina",
@@ -4032,7 +4032,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "web cam",
+            "webcam",
             "accessibilit\u00e0 ai disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
@@ -4087,6 +4087,7 @@
     },
     {
         "address": "Viale Ludovico de Varthema, 4",
+        "cell": "327 7769950",
         "city": "Cesenatico Ponente",
         "coords": [
             "44.21685496470414",
@@ -4096,11 +4097,11 @@
         "mail": "giorgio@villaceleste.eu",
         "name": "Bagno villa celeste",
         "services": [],
-        "site": "www.villaceleste.eu",
-        "tel": "327 7769950"
+        "site": "www.villaceleste.eu"
     },
     {
         "address": "Viale Lungomare Ponente, 75",
+        "cell": "338 8233494",
         "city": "Cesenatico Ponente",
         "coords": [
             "44.20695785511141",
@@ -4132,8 +4133,7 @@
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
-        "site": "http://www.bagnowanda.com",
-        "tel": "338 8233494"
+        "site": "http://www.bagnowanda.com"
     },
     {
         "address": "Spiaggia Zadina",
