@@ -51,8 +51,8 @@ for i, tr in enumerate(trs, start=1):
             titoletto_text = titoletto.text_content().strip()
             detail_text = bagno_detail.text_content().replace(titoletto_text, "", 1).replace(":", "").strip("\r\n\t -").lower()
             if titoletto_text == u"Telefono":
-                for detail_text in re.split("[o\-]", detail_text):
-                    detail_text = detail_text.strip()
+                for detail_text in re.split("[\-,]", detail_text):
+                    detail_text = detail_text.replace("+39", "").strip().replace("cell.", "")
                     if detail_text.startswith("05"):
                         field = "tel"
                     else:
@@ -69,7 +69,7 @@ for i, tr in enumerate(trs, start=1):
             elif titoletto_text == u"Indirizzo":
                 bagno['address'] = detail_text
             elif titoletto_text == u"Fax":
-                bagno['fax'] = detail_text
+                bagno['fax'] = detail_text.replace("informazioni e prenotazioni", "per info")
             elif titoletto_text == u"Località":
                 bagno['city'] = detail_text
             elif titoletto_text == u"Email":
