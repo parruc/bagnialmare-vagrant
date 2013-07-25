@@ -103,7 +103,7 @@ class BenveView(ListView):
     """Simple view for Service listing everyone with his bagni
     Will soon be removed
     """
-    template = "bagni/benve.html"
+    template_name = "bagni/benve.html"
     model = Service
     def get_context_data(self, **kwargs):
         context = super(BenveView, self).get_context_data(**kwargs)
