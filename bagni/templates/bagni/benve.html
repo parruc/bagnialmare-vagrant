@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block main_content %}
+    <table>
+        {% for bagno in object_list %}
+            {% for service in bagno.services.all %}
+                <tr>
+                    <td>{{ bagno.name }}</td>
+                    <td>{{ service.name }}</td>
+                    <td>{{ bagno.address }}</td>
+                    <td>{{ bagno.city }}</td>
+                </tr>
+            {% endfor %}
+        {% endfor %}
+    </table>
+{% endblock main_content %}
+
+{% block title %}{% trans 'Bagni' %}{% endblock title %}
+
+{% block pagetitle %}{% trans 'Bagni' %}{% endblock pagetitle %}

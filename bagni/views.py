@@ -97,3 +97,14 @@ class SearchView(TemplateView):
         context.update({'query': q, 'facets': facets, 'hits': hits, 'count': len(hits), 'has_get': has_get})
         return context
         return {}
+
+
+class BenveView(ListView):
+    """Simple view for Service listing everyone with his bagni
+    Will soon be removed
+    """
+    template = "bagni/benve.html"
+    model = Bagno
+    def get_context_data(self, **kwargs):
+        context = super(BenveView, self).get_context_data(**kwargs)
+        return context

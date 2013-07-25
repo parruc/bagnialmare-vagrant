@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, url
-from views import BagniView, BagnoView, ServiceView, SearchView, HomepageView, CityView
+from views import BagniView, BagnoView, ServiceView, SearchView, HomepageView, CityView, BenveView
 from django.utils.translation import ugettext_lazy as _
 
 urlpatterns = patterns(
@@ -28,4 +28,8 @@ urlpatterns = patterns(
         CityView.as_view(),
         name="city"
         ),
+
+    url(_('^benve$'),
+        BenveView.as_view(),
+        name="benve")
 )
