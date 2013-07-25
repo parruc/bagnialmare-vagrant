@@ -13,7 +13,7 @@ class Bagno(models.Model):
         verbose_name_plural = _('Bagni')
 
     name = models.CharField(max_length=60)
-    description = models.TextField(max_length=500)
+    description = models.TextField(max_length=2000)
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),
