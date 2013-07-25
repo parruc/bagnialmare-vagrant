@@ -4,8 +4,8 @@
 
 {% block main_content %}
     <table>
-        {% for bagno in object_list %}
-            {% for service in bagno.services.all %}
+        {% for service in object_list %}
+            {% for bagno in service.bagno_set.all %}
                 <tr>
                     <td>{{ bagno.name }}</td>
                     <td>{{ service.name }}</td>
