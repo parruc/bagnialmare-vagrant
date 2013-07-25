@@ -104,7 +104,7 @@ class BenveView(ListView):
     Will soon be removed
     """
     template = "bagni/benve.html"
-    model = Bagno
+    model = Service
     def get_context_data(self, **kwargs):
         context = super(BenveView, self).get_context_data(**kwargs)
         return context
