@@ -23,10 +23,10 @@ class Bagno(models.Model):
     address = models.CharField(max_length=100, blank=True)
     city = models.CharField(max_length=50, blank=True)
     mail = models.EmailField(max_length=50, blank=True)
-    tel = models.CharField(max_length=100, blank=True)
-    cell = models.CharField(max_length=100, blank=True)
+    tel = models.CharField(max_length=125, blank=True)
+    cell = models.CharField(max_length=125, blank=True)
     winter_tel = models.CharField(max_length=75, blank=True)
-    fax = models.CharField(max_length=100, blank=True)
+    fax = models.CharField(max_length=125, blank=True)
     site = models.URLField(max_length=75, blank=True)
     point = models.PointField(null=True, blank=True)
 
