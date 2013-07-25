@@ -10,6 +10,16 @@
     {% if has_get %}
         <div class="row-fluid">
             <div class="span4">
+                {% if hits %}
+                    <h2>{{ count }} {% trans "results for" %} {{ query }}</h2>
+                {% endif %}
+                {%  for hit in hits %}
+                    <div><a href="{{ hit.get_absolute_url }}">{{ hit.name }}</a></div>
+                {% empty %}
+                    <div>{% trans "No results for the given search" %}</div>
+                {% endfor %}
+            </div>
+            <div class="span8">
                 {% for facet_title, facet_values in facets.items %}
                     {% if facet_values.active or facet_values.available %}
                         <h3>{{ facet_title }}</h3>
@@ -29,16 +39,6 @@
                             ({{ facet.count }})
                         </div>
                     {% endfor %}
-                {% endfor %}
-            </div>
-            <div class="span8">
-                {% if hits %}
-                    <h2>{{ count }} {% trans "results for" %} {{ query }}</h2>
-                {% endif %}
-                {%  for hit in hits %}
-                    <div><a href="{{ hit.get_absolute_url }}">{{ hit.name }}</a></div>
-                {% empty %}
-                    <div>{% trans "No results for the given search" %}</div>
                 {% endfor %}
             </div>
         </div>
