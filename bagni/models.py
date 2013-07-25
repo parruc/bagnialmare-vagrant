@@ -26,7 +26,7 @@ class Bagno(models.Model):
     tel = models.CharField(max_length=75, blank=True)
     cell = models.CharField(max_length=75, blank=True)
     winter_tel = models.CharField(max_length=75, blank=True)
-    fax = models.CharField(max_length=50, blank=True)
+    fax = models.CharField(max_length=75, blank=True)
     site = models.URLField(max_length=75, blank=True)
     point = models.PointField(null=True, blank=True)
 
