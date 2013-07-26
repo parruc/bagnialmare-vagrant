@@ -31,6 +31,7 @@ venv:
                 - 'django_compressor'
                 - 'cssmin'
                 - 'jsmin'
+                - 'geopy'
             {% if dev %}
                 - django-debug-toolbar
                 - uwsgitop
