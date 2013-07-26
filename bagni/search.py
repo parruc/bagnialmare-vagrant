@@ -75,7 +75,6 @@ def search(q, filters, groups, query_string, max_facets=10):
     # Temporary removed fuzzy search: more pain than benefit
     #parser.add_plugin(qparser.FuzzyTermPlugin())
     #fuzzy = "~1/2 "
-    q = q and q or ''
     #q = fuzzy.join(q.split(" ")) + fuzzy
     try:
         q = parser.parse(q)

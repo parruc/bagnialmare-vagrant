@@ -1,8 +1,11 @@
 from django.http import Http404
+from django.core import paginator
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 from django.views.generic import TemplateView
 from django.contrib import messages
+from django.contrib.gis.geos import Point
+from geopy import geocoders
 from django.utils.translation import ugettext as _
 
 from models import Bagno, Service
@@ -83,20 +86,47 @@ class SearchView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(SearchView, self).get_context_data(**kwargs)
         groups = ['city', 'services']
-        q = self.request.GET.get('q', None)
+        q = self.request.GET.get('q', "")
+        page = self.request.GET.get('p', "1")
+        loc = self.request.GET.get('l', "")
+        place = point = None
+        if 'q' in self.request.GET and not q:
+            messages.add_message(self.request, messages.WARNING,
+                                 _("Cant search for empty string"))
+            return {}
+        if loc:
+            g = geocoders.GoogleV3()
+            try:
+                matches = g.geocode(loc, exactly_one=False)
+                place, (lat, lng) = matches[0]
+                point = Point(lng, lat)
+            except geocoders.google.GQueryError:
+                messages.add_message(self.request, messages.INFO,
+                                     _("Cant find place '%s', sorting by relevance" % loc))
+            except Exception:
+                #TODO: Log errror
+                messages.add_message(self.request, messages.ERROR,
+                                     _("Error in geocoding"))
+
         filters = self.request.GET.getlist('f', [])
         new_query_string = self.request.GET.copy()
-        if q == '':
-            messages.add_message(self.request, messages.WARNING,
-                                 _("Inserisci del testo nel box di ricerca"))
-            return {}
-        hits, facets = search(q=q, filters=filters, groups=groups,
-                              query_string=new_query_string)
-        hits = Bagno.objects.filter(id__in=[h['id'] for h in hits])
+        raw_hits, facets = search(q=q, filters=filters, groups=groups,
+                                  query_string=new_query_string,)
+        hits = Bagno.objects.filter(id__in=[h['id'] for h in raw_hits])
+        if point:
+            hits = hits.distance(point).order_by('distance')
+        hits_paginator = paginator.Paginator(hits, 10)
+        try:
+            hits = hits_paginator.page(page)
+        except paginator.PageNotAnInteger:
+            # If page is not an integer, deliver first page.
+            hits = hits_paginator.page(1)
+        except paginator.EmptyPage:
+            # If page is out of range (e.g. 9999), deliver last page of results.
+            hits = hits_paginator.page(hits_paginator.num_pages)
         has_get = self.request.method == 'GET'
-        context.update({'query': q, 'facets': facets, 'hits': hits, 'count': len(hits), 'has_get': has_get})
+        context.update({'q': q, 'l':loc, 'place': place, 'facets': facets, 'hits': hits, 'count': len(raw_hits), 'has_get': has_get, 'url':new_query_string})
         return context
-        return {}
 
 
 class BenveView(ListView):

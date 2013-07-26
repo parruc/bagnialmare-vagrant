@@ -3,11 +3,21 @@
 {% load i18n %}
 
 {% block main_content %}
+    {% comment %}
+        Da rifattorizzare in un template tag da usare sia qui che in search?
+    {% endcomment %}
     <form action="{% url 'search' %}" method="get">
-        <input type="text" id="search_q" name="q" value="{{ query|default_if_none:"" }}" />
-        <input type="submit" value="{% trans "Search" %}"/>
+        <label for="search_q">{% trans "What" %}</label>
+        <input type="text" id="search_q" name="q" value="{{ q }}" />
+        <label for="search_loc">{% trans "Where" %}</label>
+        <input type="text" id="search_loc" id="search_loc" name="l" value="{{ l }}" />
+        <input type="submit" id="search_submit" value="{% trans "Search" %}"/>
     </form>
 {% endblock %}
+
+{% block specific_js %}
+    <script type="text/javascript" src="{{ STATIC_URL }}js/geocode_search_form.js"></script>
+{% endblock specific_js %}
 
 {% block title %}{% trans "Homepage" %}{% endblock title %}
 

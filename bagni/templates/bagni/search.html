@@ -3,23 +3,19 @@
 {% load i18n %}
 
 {% block main_content %}
+    {% comment %}
+        Da rifattorizzare in un template tag da usare sia qui che in search?
+    {% endcomment %}
     <form action="" method="get">
-        <input type="text" id="search_q" name="q" value="{{ query|default_if_none:"" }}" />
-        <input type="submit" value="{% trans "Search" %}"/>
+        <label for="search_q">{% trans "What" %}</label>
+        <input type="text" id="search_q" name="q" value="{{ q }}" />
+        <label for="search_loc">{% trans "Where" %}</label>
+        <input type="text" id="search_loc" id="search_loc" name="l" value="{{ l }}" />
+        <input type="submit" id="search_submit" value="{% trans "Search" %}"/>
     </form>
     {% if has_get %}
         <div class="row-fluid">
-            <div class="span4">
-                {% if hits %}
-                    <h2>{{ count }} {% trans "results for" %} {{ query }}</h2>
-                {% endif %}
-                {%  for hit in hits %}
-                    <div><a href="{{ hit.get_absolute_url }}">{{ hit.name }}</a></div>
-                {% empty %}
-                    <div>{% trans "No results for the given search" %}</div>
-                {% endfor %}
-            </div>
-            <div class="span8">
+            <div class="span2">
                 {% for facet_title, facet_values in facets.items %}
                     {% if facet_values.active or facet_values.available %}
                         <h3>{{ facet_title }}</h3>
@@ -40,6 +36,57 @@
                         </div>
                     {% endfor %}
                 {% endfor %}
+            </div>
+            <div class="span10">
+                {% if hits %}
+                    <p>
+                        {{ count }} {% trans "results for" %} {{ q }}
+                        {% if place %}
+                            {% trans "near" %} {{ place }}
+                        {% endif %}
+                    </p>
+                {% endif %}
+                {%  for hit in hits %}
+                    <h3><a href="{{ hit.get_absolute_url }}">{{ hit.name }}</a>
+                        {% if hit.distance %}
+                            <span class="distance">({{hit.distance.km|floatformat:2 }}Km</span>)
+                        {% endif %}
+                    </h3>
+                    {% if hit.services.all %}
+                        {% regroup hit.services.all by get_category_display as categorized_services %}
+                        <h2>{% trans Services %}</h2>
+                        <ul>
+                        {% for categorized_service in categorized_services %}
+                            <li>{{ categorized_service.grouper }}
+                            <ul>
+                                {% for service in categorized_service.list %}
+                                  <li>{{ service.name }}</li>
+                                {% endfor %}
+                            </ul>
+                            </li>
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% empty %}
+                    <div>{% trans "No results for the given search" %}</div>
+                {% endfor %}
+                <div class="pagination">
+                    <span class="step-links">
+                        {% if hits.has_previous %}
+                            <a href="&p={{ hits.previous_page_number }}">{% trans "previous" %}</a>
+                        {% endif %}
+
+                        <span class="current">
+                            {% blocktrans %}
+                                Page {{ hits.number }} of {{ hits.paginator.num_pages }}.
+                            {% endblocktrans %}
+                        </span>
+
+                        {% if hits.has_next %}
+                            <a href="&p={{ hits.next_page_number }}">{% trans "next" %}</a>
+                        {% endif %}
+                    </span>
+                </div>
             </div>
         </div>
     {% endif %}
