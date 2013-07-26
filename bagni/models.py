@@ -28,7 +28,7 @@ class Bagno(models.Model):
     winter_tel = models.CharField(max_length=75, blank=True)
     fax = models.CharField(max_length=125, blank=True)
     site = models.URLField(max_length=75, blank=True)
-    point = models.PointField(null=True, blank=True)
+    point = models.PointField(geography=True, null=True, blank=True)
 
     objects = models.GeoManager()
 
