@@ -4,6 +4,7 @@ import os
 
 DEBUG = {{ django.debug }}
 TEMPLATE_DEBUG = {{ django.debug }}
+COMPRESS_ENABLED = not DEBUG
 
 {% if django.debug %}
 def show_toolbar(request):
@@ -32,6 +33,15 @@ DATABASES = {
         'PORT': '{{ django.db_port }}',                      # Set to empty string for default.
     },
 }
+
+COMPRESS_CSS_FILTERS = [
+    'compressor.filters.css_default.CssAbsoluteFilter',
+    'compressor.filters.cssmin.CSSMinFilter',
+]
+
+COMPRESS_JS_FILTERS = [
+    'compressor.filters.jsmin.JSMinFilter',
+]
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts

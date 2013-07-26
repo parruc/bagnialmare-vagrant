@@ -28,6 +28,9 @@ venv:
                 - 'uWSGI==1.9.13'
                 - 'wsgiref==0.1.2'
                 - 'Paste==1.7.5.1'
+                - 'django_compressor'
+                - 'cssmin'
+                - 'jsmin'
             {% if dev %}
                 - django-debug-toolbar
                 - uwsgitop

@@ -24,6 +24,7 @@ django:
                 - 'south'
                 - 'autoslug'
                 - 'sorl.thumbnail'
+                - 'compressor'
                 - 'bagni'
                 - 'fts'
         {% if dev %}
@@ -46,6 +47,7 @@ django:
             staticfiles_finders:
                 - 'django.contrib.staticfiles.finders.FileSystemFinder'
                 - 'django.contrib.staticfiles.finders.AppDirectoriesFinder'
+                - 'compressor.finders.CompressorFinder'
             staticfiles_dirs:
                 - 'static'
             fixture_dirs:
