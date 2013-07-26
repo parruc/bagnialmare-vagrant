@@ -99,16 +99,14 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    {% for staticfiles_dir in django.staticfiles_dirs %}
-        os.path.join(os.path.dirname(__file__), '{{ staticfiles_dir }}'),
+    {% for staticfiles_dir in django.staticfiles_dirs %}os.path.join(os.path.dirname(__file__), '{{ staticfiles_dir }}'),
     {% endfor %}
 )
 
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
-    {% for staticfiles_finder in django.staticfiles_finders %}
-        '{{ staticfiles_finder }}',
+    {% for staticfiles_finder in django.staticfiles_finders %}'{{ staticfiles_finder }}',
     {% endfor %}
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
@@ -118,25 +116,27 @@ SECRET_KEY = '{{ django.secret_key }}'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
-    {% for template_loader in django.template_loaders %}
-        '{{ template_loader }}',
+    {% for template_loader in django.template_loaders %}'{{ template_loader }}',
     {% endfor %}
 #     'django.template.loaders.eggs.Loader',
 )
 
 MIDDLEWARE_CLASSES = (
-    {% for middleware in django.middleware %}
-        '{{ middleware }}',
+    {% for middleware in django.middleware %}'{{ middleware }}',
     {% endfor %}
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
 FIXTURE_DIRS = (
-    {% for fixture_dir in django.fixture_dirs %}
-        os.path.join(os.path.dirname(__file__), '{{ fixture_dir }}'),
+    {% for fixture_dir in django.fixture_dirs %}os.path.join(os.path.dirname(__file__), '{{ fixture_dir }}'),
     {% endfor %}
 )
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    {% for template_context_processor int template_context_processors %}'{{ template_context_processor }}',
+    {% endfor %}
+    )
 
 ROOT_URLCONF = '{{ django_name }}.urls'
 
