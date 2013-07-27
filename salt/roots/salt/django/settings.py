@@ -134,7 +134,7 @@ FIXTURE_DIRS = (
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
-    {% for template_context_processor int template_context_processors %}'{{ template_context_processor }}',
+    {% for template_context_processor in template_context_processors %}'{{ template_context_processor }}',
     {% endfor %}
     )
 
