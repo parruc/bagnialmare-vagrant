@@ -54,3 +54,12 @@ django:
                 - 'fixtures'
             template_dirs:
                 - 'templates'
+            template_context_processors:
+                - 'django.core.context_processors.request'
+                - 'django.contrib.auth.context_processors.auth'
+                - 'django.core.context_processors.debug'
+                - 'django.core.context_processors.i18n'
+                - 'django.core.context_processors.media'
+                - 'django.core.context_processors.static'
+                - 'django.core.context_processors.tz'
+                - 'django.contrib.messages.context_processors.messages'
