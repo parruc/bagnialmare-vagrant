@@ -78,7 +78,9 @@ known_github_{{ repo_name }}:
 git_{{ repo_name }}:
     git.latest:
         - name: {{ repo.url }}
+{% if 'rev' in repo %}
         - rev: {{ repo.branch }}
+{% endif %}
         - target: {{ repo.path }}
         - runas: {{ user.name }}
         - identity: {{ user.home_path }}/.ssh/id_rsa

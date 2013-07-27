@@ -26,8 +26,8 @@ django:
                 - 'sorl.thumbnail'
                 - 'compressor'
                 - 'bagni'
-                - 'fts'
         {% if dev %}
+                - 'fts'
                 - 'debug_toolbar'
         {% endif %}
             secret_key: 'u)-#(7qe0o9=+ez%ay0=vi#oc52*&4np3x5^m!!c6u$@yr5eud'
