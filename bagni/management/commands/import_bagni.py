@@ -23,7 +23,7 @@ class Command(BaseCommand):
             except IOError:
                 raise CommandError("cannot open 'scripts/scraping/output_" + city + ".json' Have you generated it?")
 
-        if options['limit'] and options['limit'] > len(bagni):
+        if 'limit' in options and options['limit'] > len(bagni):
             bagni = bagni[:options['limit']]
         for bagno in bagni:
             try:

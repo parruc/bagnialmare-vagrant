@@ -19,7 +19,7 @@ class Command(BaseCommand):
         except IOError:
             raise CommandError("cannot open 'scripts/scraping/services.json' Have you generated it?")
 
-        if options['limit'] and options['limit'] > len(services):
+        if 'limit' in options and options['limit'] > len(services):
             services = services[:options['limit']]
         for service in services:
             s = Service(name=service)
