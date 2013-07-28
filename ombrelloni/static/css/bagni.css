@@ -1,0 +1,22 @@
+.hp-form
+{
+    text-align:  center;
+    position: relative;
+    top: 100px;
+}
+img.hp-form-image
+{
+    width: 100%;
+    display: inline-block;
+
+}
+.hp-content
+{
+    margin: 20px auto;
+    width: 90%;
+}
+
+.search
+{
+    margin-top: 20px;
+}

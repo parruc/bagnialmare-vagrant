@@ -125,7 +125,7 @@ class SearchView(TemplateView):
             # If page is out of range (e.g. 9999), deliver last page of results.
             hits = hits_paginator.page(hits_paginator.num_pages)
         has_get = self.request.method == 'GET'
-        context.update({'q': q, 'l':loc, 'place': place, 'facets': facets, 'hits': hits, 'count': len(raw_hits), 'has_get': has_get, 'url':new_query_string})
+        context.update({'q': q, 'l':loc, 'place': place, 'facets': facets, 'hits': hits, 'count': len(raw_hits), 'has_get': has_get })
         return context
 
 

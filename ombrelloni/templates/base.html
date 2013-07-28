@@ -23,17 +23,16 @@
 
         {% compress css %}
             <link type="text/css" href="{{ STATIC_URL }}css/bootstrap.css" rel="Stylesheet" />
-            <link type="text/css" href="{{ STATIC_URL }}css/bootstrap-responsive.css" rel="Stylesheet" />
             <link type="text/css" href="{{ STATIC_URL }}css/leaflet.css" rel="Stylesheet" />
+            <link type="text/css" href="{{ STATIC_URL }}css/bagni.css" rel="Stylesheet" />
         {% endcompress %}
 
         <!--[if lte IE 8]><link rel="stylesheet" href="{{ STATIC_URL }}css/leaflet.ie.css" /><![endif]-->
     </head>
     <body>
         <div id="header"></div>
-        <div id="container" class="container-fluid">
-            <div id="content-wrapper" class="row-fluid">
-                <div id="content" class="span12">
+            <div id="container" class="row">
+                <div id="content" class="col-lg-12">
                     {% if messages %}
                         <div id="messages">
                             {% for message in messages %}
@@ -46,9 +45,8 @@
                     <h1 id="content-title">{% block title %}{% endblock %}</h1>
                     <div id="content-body">{% block main_content %}{% endblock %}</div>
                 </div>
-            </div>
+                <div class="clearfix"></div>
+            <div id="footer"></div>
         </div>
-        <div class="clearfix"></div>
-        <div id="footer"></div>
     </body>
 </html>
