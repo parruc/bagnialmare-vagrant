@@ -29,7 +29,7 @@ for i, tr in enumerate(trs[1:], start=1):
         bagno['name'] += u" " + bagno['number']
     if bagno['name'] in ("Spiaggia libera", "Colonie"):
         continue
-    logging.info("Parsing %s" % bagno['name'])
+    print "Parsing %s" % bagno['name']
     telephones = re.split('[\n\r\t\-]', html.fromstring(html.tostring(tds[1]).replace("<br>", "\n")).text_content())
     for telephone in telephones:
         telephone = telephone.strip().strip(".").strip().lower()

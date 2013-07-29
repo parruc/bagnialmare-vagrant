@@ -23,13 +23,13 @@
             "beach volley",
             "bocce",
             "custodia valori",
-            "fasciatoio",
+            "cabina fasciatoio",
             "giochi bimbi",
             "canoe",
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -68,7 +68,7 @@
             "ristorazione",
             "solarium",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -105,7 +105,7 @@
             "terrazza prendisole",
             "idromassaggio",
             "custodia valori",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -139,10 +139,10 @@
             "giochi bimbi",
             "ping pong",
             "custodia valori",
-            "giornalini",
+            "riviste/giornalini",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -183,7 +183,7 @@
             "ristorazione",
             "sala tv",
             "nursery",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -219,7 +219,7 @@
             "biciclette",
             "giornalini",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -317,7 +317,7 @@
             "ristorazione",
             "sala tv",
             "libreria",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -348,7 +348,7 @@
         "name": "Bagno andrea",
         "services": [
             "animazione",
-            "baby-sitting",
+            "baby-sitter",
             "basket",
             "beach volley",
             "calcio tennis",
@@ -358,7 +358,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -390,7 +390,7 @@
             "giochi bimbi",
             "ping pong",
             "ristorazione",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ]
@@ -427,7 +427,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -464,7 +464,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -502,8 +502,8 @@
             "giornalini",
             "ping pong",
             "ristorazione",
-            "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "spazio tv",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -538,7 +538,7 @@
             "libreria",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -640,7 +640,7 @@
             "ristorazione",
             "sala tv",
             "windsurf",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -712,7 +712,7 @@
         "name": "Bagno brasil",
         "services": [
             "animazione",
-            "baby-sitting",
+            "baby-sitter",
             "basket",
             "beach volley",
             "calcetto",
@@ -724,7 +724,7 @@
             "sala tv",
             "servizio meteo",
             "libreria",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -761,7 +761,7 @@
             "ping pong",
             "ristorazione",
             "calcio balilla",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -898,7 +898,7 @@
             "ristorazione",
             "libreria",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -930,7 +930,7 @@
             "giochi bimbi",
             "ristorazione",
             "libreria",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -967,7 +967,7 @@
             "ristorazione",
             "sala tv",
             "terrazza prendisole",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1007,7 +1007,7 @@
             "ristorazione",
             "sala tv",
             "nursery",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1068,7 +1068,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1099,7 +1099,7 @@
         "name": "Bagno clipper n. 100",
         "services": [
             "animazione",
-            "baby-sitting",
+            "baby-sitter",
             "basket",
             "bocce",
             "giochi bimbi",
@@ -1113,7 +1113,7 @@
             "ristorazione",
             "sala tv",
             "palestra",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1201,7 +1201,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1236,7 +1236,7 @@
             "ristorazione",
             "sala tv",
             "terrazza prendisole",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento",
             "bocce",
@@ -1296,7 +1296,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1338,7 +1338,7 @@
             "libreria",
             "giornalini",
             "biciclette",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1375,7 +1375,7 @@
             "ristorazione",
             "sala tv",
             "biciclette",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento",
             "beach volley"
@@ -1436,7 +1436,7 @@
             "filodiffusione",
             "calcetto",
             "biciclette",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1472,7 +1472,7 @@
             "racchettoni",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1505,12 +1505,12 @@
             "calcio tennis",
             "bocce",
             "giochi bimbi",
-            "baby-sitting",
+            "baby-sitter",
             "ping pong",
             "ristorazione",
             "sala tv",
             "libreria",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1547,7 +1547,7 @@
             "ristorazione",
             "sala tv",
             "internet",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1574,7 +1574,7 @@
             "ristorazione",
             "servizio meteo",
             "libreria",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1641,7 +1641,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1681,7 +1681,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1717,7 +1717,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1754,7 +1754,7 @@
             "ristorazione",
             "giornalini",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1785,7 +1785,7 @@
         "services": [
             "animazione",
             "palestra",
-            "baby-sitting",
+            "baby-sitter",
             "beach volley",
             "giochi bimbi",
             "pedal\u00f2",
@@ -1793,7 +1793,7 @@
             "ping pong",
             "ristorazione",
             "custodia valori",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento",
             "vendita abbigliamento",
@@ -1829,7 +1829,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1865,7 +1865,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1893,7 +1893,7 @@
         "name": "Bagno i 4 venti",
         "services": [
             "animazione",
-            "baby-sitting",
+            "baby-sitter",
             "calcio tennis",
             "bocce",
             "giochi bimbi",
@@ -1905,7 +1905,7 @@
             "terrazza prendisole",
             "piscina",
             "acquascivolo",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -1974,7 +1974,7 @@
             "bocce",
             "baby park",
             "ristorazione",
-            "sala tv",
+            "spazio tv",
             "custodia valori",
             "ping pong",
             "fitness",
@@ -2015,7 +2015,7 @@
             "sala tv",
             "libreria",
             "terrazza prendisole",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -2088,7 +2088,7 @@
             "libreria",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -2153,9 +2153,8 @@
             "palestra",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
-            "servizio salvamento",
             "massaggi"
         ],
         "tel": "0547 81828"
@@ -2193,8 +2192,8 @@
             "ristorazione",
             "sala tv",
             "libreria",
-            "giornalini",
-            "accessibilit\u00e0 ai disabili",
+            "riviste/giornalini",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -2236,7 +2235,7 @@
             "biciclette",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -2268,7 +2267,7 @@
             "baby park",
             "ristorazione",
             "piscina",
-            "sala tv"
+            "spazio tv"
         ],
         "tel": "0547 87070"
     },
@@ -2299,12 +2298,12 @@
             "beach volley",
             "bocce",
             "giochi bimbi",
-            "moscone",
+            "mosconi",
             "canoe",
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -2342,7 +2341,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -2378,7 +2377,7 @@
             "ristorazione",
             "sala tv",
             "terrazza prendisole",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -2410,7 +2409,7 @@
         "services": [
             "animazione",
             "palestra",
-            "baby-sitting",
+            "baby-sitter",
             "beach volley",
             "calcetto",
             "calcio",
@@ -2421,8 +2420,7 @@
             "canoe",
             "ping pong",
             "ristorazione",
-            "sala tv",
-            "servizio meteo",
+            "spazio tv",
             "libreria",
             "internet",
             "terrazza prendisole",
@@ -2462,7 +2460,7 @@
             "libreria",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -2501,7 +2499,7 @@
             "sala tv",
             "libreria",
             "terrazza prendisole",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento",
             "custodia valori"
@@ -2538,7 +2536,7 @@
             "ristorazione",
             "sala tv",
             "libreria",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -2570,7 +2568,7 @@
         "services": [
             "animazione",
             "palestra",
-            "baby-sitting",
+            "baby-sitter",
             "basket",
             "beach volley",
             "calcetto",
@@ -2586,7 +2584,7 @@
             "corsi di nuoto",
             "idromassaggio",
             "ristorazione",
-            "sala tv",
+            "spazio tv",
             "libreria",
             "servizio meteo",
             "terrazza prendisole",
@@ -2625,7 +2623,7 @@
             "baby park",
             "ping pong",
             "ristorazione",
-            "sala tv",
+            "spazio tv",
             "canoe",
             "custodia valori"
         ],
@@ -2956,7 +2954,7 @@
             "scuola di ballo",
             "ping pong",
             "ristorazione",
-            "sala tv",
+            "spazio tv",
             "videogiochi",
             "solarium",
             "libreria",
@@ -3067,8 +3065,7 @@
             "canoe",
             "ping pong",
             "ristorazione",
-            "sala tv",
-            "servizio meteo",
+            "spazio tv",
             "solarium",
             "terrazza prendisole"
         ],
@@ -3098,7 +3095,7 @@
         "name": "Bagno roma",
         "services": [
             "animazione",
-            "baby-sitting",
+            "baby-sitter",
             "beach volley",
             "bocce",
             "giochi bimbi",
@@ -3201,7 +3198,7 @@
         "name": "Bagno romana",
         "services": [
             "animazione",
-            "baby-sitting",
+            "baby-sitter",
             "giochi bimbi",
             "pedal\u00f2",
             "canoe",
@@ -3237,7 +3234,7 @@
         "name": "Bagno romeo",
         "services": [
             "animazione",
-            "baby-sitting",
+            "baby-sitter",
             "beach volley",
             "giochi bimbi",
             "ping pong",
@@ -3281,7 +3278,7 @@
             "windsurf",
             "kitesurf",
             "ristorazione",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3321,7 +3318,7 @@
             "servizio meteo",
             "terrazza prendisole",
             "custodia valori",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3357,8 +3354,8 @@
             "ping pong",
             "piccola ristorazione",
             "vendita articoli spiaggia",
-            "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "spazio tv",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3394,7 +3391,7 @@
             "giornalini",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento",
             "deposito materassini",
@@ -3429,7 +3426,7 @@
             "beach volley",
             "calcio tennis",
             "bocce",
-            "fasciatoio",
+            "cabina fasciatoio",
             "giochi bimbi",
             "pedal\u00f2",
             "canoe",
@@ -3438,10 +3435,10 @@
             "sala tv",
             "libreria",
             "internet",
-            "giornalini",
+            "riviste/giornalini",
             "biciclette",
             "fax",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3479,7 +3476,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3514,7 +3511,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3553,7 +3550,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento",
             "biciclette"
@@ -3591,7 +3588,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3627,7 +3624,7 @@
             "ristorazione",
             "custodia valori",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3696,7 +3693,7 @@
             "giornalini",
             "sala tv",
             "terrazza prendisole",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3736,8 +3733,7 @@
             "libreria",
             "custodia valori",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
-            "cassetta pronto soccorso",
+            "disabili",
             "servizio salvamento"
         ],
         "tel": "0547 80694"
@@ -3772,7 +3768,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3809,7 +3805,7 @@
             "ristorazione",
             "sala tv",
             "terrazza prendisole",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3844,7 +3840,7 @@
             "biciclette",
             "giornalini",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3885,7 +3881,7 @@
             "custodia valori",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3920,7 +3916,7 @@
             "giochi bimbi",
             "ping pong",
             "ristorazione",
-            "sala tv",
+            "spazio tv",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3957,7 +3953,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -3989,13 +3985,13 @@
             "biciclette",
             "calcetto",
             "bocce",
-            "fasciatoio",
+            "cabina fasciatoio",
             "giochi bimbi",
             "ping pong",
             "ristorazione",
             "sala tv",
             "libreria",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -4033,7 +4029,7 @@
             "ristorazione",
             "sala tv",
             "webcam",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -4064,7 +4060,7 @@
         "name": "Bagno venezia",
         "services": [
             "animazione",
-            "baby-sitting",
+            "baby-sitter",
             "basket",
             "beach volley",
             "bocce",
@@ -4075,11 +4071,11 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento",
             "massaggi",
-            "vendita abbigliamento",
+            "abbigliamento",
             "bigiotteria",
             "internet"
         ],
@@ -4129,7 +4125,7 @@
             "ping pong",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],
@@ -4161,7 +4157,7 @@
             "giornalini",
             "ristorazione",
             "sala tv",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "cassetta pronto soccorso",
             "servizio salvamento"
         ],

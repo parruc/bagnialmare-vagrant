@@ -61,15 +61,35 @@ class Service(models.Model):
         verbose_name = _('Service')
         verbose_name_plural = _('Services')
 
-    BEACH = "BE"
+    COMFORT = "CO"
+    FOOD = "FO"
     SPORT = "SP"
+    CHILDREN = "CH"
+    TECH = "TE"
+    ENTERTAINMENT = "EN"
     RENT = "RE"
-    OTHER = "OT"
+    EVENTS = "EV"
+    ACCESSIBILITY = "AC"
+    EXTRA = "EX"
+    BEAUTY = "BE"
+    TRADE = "TR"
+    PAYMENT = "PA"
+    NOT_SET = "NS"
     SERVICE_CATEGORIES = (
-        (BEACH, _('Beach')),
-        (SPORT, _('Sport')),
-        (RENT, _('Rent')),
-        (OTHER, _('Other')),
+        (COMFORT, _('comfort & relax')),
+        (FOOD, _('food & beverage')),
+        (SPORT, _('sport & wellness')),
+        (CHILDREN, _('children')),
+        (TECH, _('technology')),
+        (ENTERTAINMENT, _('entertainment and games')),
+        (RENT, _('rent')),
+        (EVENTS, _('special events')),
+        (ACCESSIBILITY, _('accessibility')),
+        (EXTRA, _('extra services')),
+        (BEAUTY, _('beauty & spa')),
+        (TRADE, _('trade')),
+        (PAYMENT, _('payment')),
+        (NOT_SET, _('not set')),
     )
 
     name = models.CharField(max_length=50)
@@ -80,7 +100,7 @@ class Service(models.Model):
     category = models.CharField(max_length=50,
                                 blank=True,
                                 choices=SERVICE_CATEGORIES,
-                                default=OTHER)
+                                default=NOT_SET)
     free = models.BooleanField(default=True)
 
     @models.permalink

@@ -359,7 +359,7 @@
             "solarium",
             "windsurf",
             "wi-fi",
-            "accettazione cani"
+            "pet friendly"
         ],
         "site": "http://www.alohabeach.it",
         "tel": "0544 446142"
@@ -787,11 +787,11 @@
             "ristorazione",
             "feste a tema",
             "solarium",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "pedal\u00f2",
             "canoe",
             "surf",
-            "corso di racchettoni",
+            "corsi di racchettoni",
             "animazione per bambini"
         ],
         "site": "http://www.bagnomarisa48.it",
@@ -972,18 +972,18 @@
             "solarium",
             "bancomat",
             "carta di credito",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "deposito caschi",
             "rilevatori no-alcol",
-            "fasciatoio",
+            "cabina fasciatoio",
             "libreria",
             "videoteca",
             "giochi da tavolo/ludoteca",
-            "riviste",
+            "riviste/giornalini",
             "tavolo da gioco",
             "biciclette",
             "amache  amazonas",
-            "sala tv",
+            "spazio tv",
             "veranda",
             "parco giochi",
             "piscina",
@@ -991,7 +991,7 @@
             "palloni",
             "racchette",
             "canoe",
-            "accettazione cani",
+            "pet friendly",
             "wi-fi"
         ],
         "site": "http://www.papirriki.it",
@@ -1358,7 +1358,7 @@
             "ristorazione",
             "feste a tema",
             "solarium",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "pedal\u00f2"
         ],
         "tel": "0544 538953"
@@ -1582,13 +1582,13 @@
             "feste a tema",
             "solarium",
             "animazione serale",
-            "concerti",
+            "concerti live",
             "animazione per bambini",
-            "corso di racchettoni",
+            "corsi di racchettoni",
             "yoga",
             "pilates",
             "massaggi",
-            "barbecue"
+            "area barbecue"
         ],
         "site": "http://www.spiaggiadonnarosa.com",
         "tel": "0544 530026"
@@ -1611,7 +1611,7 @@
             "baby park",
             "pallacanestro",
             "ristorazione",
-            "accettazione cani",
+            "pet friendly",
             "wi-fi"
         ],
         "site": "http://www.dunadegliorsi.com",
@@ -1707,7 +1707,7 @@
             "ristorazione",
             "feste a tema",
             "solarium",
-            "concerti",
+            "concerti live",
             "massaggi",
             "docce calde"
         ],
@@ -1738,7 +1738,7 @@
             "ristorazione",
             "feste a tema",
             "cocktail bar",
-            "freesbee"
+            "ultimate freesbee"
         ],
         "tel": "0544 538840"
     },
@@ -1828,7 +1828,7 @@
             "ristorazione",
             "feste a tema",
             "solarium",
-            "moscone",
+            "mosconi",
             "animazione serale"
         ],
         "site": "http://www.bagnolucciola.it/",
@@ -1899,7 +1899,7 @@
             "nursery",
             "racchettoni",
             "ristorazione",
-            "accessibilit\u00e0 ai disabili"
+            "disabili"
         ],
         "site": "http://www.marinamore.it",
         "tel": "0544 531426"
@@ -2183,9 +2183,9 @@
             "ristorazione",
             "cocktail bar",
             "idromassaggio",
-            "barbecue",
-            "corso di racchettoni",
-            "corso di beach volley",
+            "area barbecue",
+            "corsi di racchettoni",
+            "corsi di beach volley",
             "massaggi"
         ],
         "site": "http://www.bagnoobelix.it",
@@ -2305,7 +2305,7 @@
             "ristorazione",
             "feste a tema",
             "cocktail bar",
-            "disponibile per feste private",
+            "disponibilit\u00e0 feste private",
             "area benessere",
             "animazione per bambini"
         ],
@@ -2558,11 +2558,11 @@
             "racchettoni",
             "ristorazione",
             "parcheggio",
-            "celiaci",
+            "cucina per celiaci",
             "pizzeria",
             "docce calde",
             "discoteca",
-            "aperitivi"
+            "aperitivo"
         ],
         "site": "http://www.zanzibarbeach.it/",
         "tel": "0544 530418"
@@ -2590,7 +2590,7 @@
             "racchettoni",
             "ristorazione",
             "animazione per bambini",
-            "concerti"
+            "concerti live"
         ],
         "tel": "0544 438726"
     },
@@ -2652,7 +2652,7 @@
             "racchettoni",
             "ristorazione",
             "solarium",
-            "baby-sitting",
+            "baby-sitter",
             "discoteca"
         ],
         "site": "http://www.bbkbeach.com",
@@ -2880,8 +2880,8 @@
             "ristorazione",
             "feste a tema",
             "barbecue",
-            "concerti",
-            "dj set"
+            "concerti live",
+            "dj-set"
         ]
     },
     {
@@ -3142,7 +3142,7 @@
         "mail": "info@bagnomerida.it",
         "name": "Bagno Merida",
         "services": [
-            "concerti",
+            "concerti live",
             "tornei sportivi",
             "tornei da tavolo",
             "animazione",
@@ -3162,8 +3162,7 @@
             "ristorazione",
             "feste a tema",
             "canoe",
-            "servizio salvamento",
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "parcheggio",
             "animazione per bambini"
         ],
@@ -3268,7 +3267,7 @@
             "ristorazione",
             "feste a tema",
             "solarium",
-            "accettazione cani"
+            "pet friendly"
         ],
         "tel": "0544 437461"
     },
@@ -3297,8 +3296,8 @@
             "grigliate di carne",
             "racchettoni",
             "feste a tema",
-            "accessibilit\u00e0 ai disabili",
-            "barbecue",
+            "disabili",
+            "area barbecue",
             "custodia valori"
         ],
         "site": "http://www.nariz.it",
@@ -3510,7 +3509,7 @@
             "musica",
             "bocce",
             "canoe",
-            "kick boxking",
+            "kick boxing",
             "parcheggio"
         ],
         "site": "http://www.bagnosaintropez.it/",
@@ -3538,7 +3537,7 @@
             "ping pong",
             "racchettoni",
             "canoe",
-            "kick boxking",
+            "kick boxing",
             "musica",
             "parcheggio"
         ],
@@ -3634,7 +3633,7 @@
             "ping pong",
             "racchettoni",
             "ristorazione",
-            "sala tv",
+            "spazio tv",
             "deposito giochi",
             "parcheggio"
         ],
@@ -3802,7 +3801,7 @@
             "nursery",
             "racchettoni",
             "ristorazione",
-            "accessibilit\u00e0 ai disabili"
+            "disabili"
         ],
         "tel": "0544 526411"
     },
@@ -4234,7 +4233,7 @@
             "baby park",
             "racchettoni",
             "acquagym",
-            "aperitivi"
+            "aperitivo"
         ],
         "tel": "0544 493501"
     },
@@ -4289,7 +4288,7 @@
             "solarium",
             "paninoteca",
             "piccola ristorazione",
-            "concerti"
+            "concerti live"
         ],
         "site": "http://www.bagnopassatore.it",
         "tel": "0544 494432"
@@ -4442,7 +4441,7 @@
             "sala tv",
             "ginnastica",
             "animazione per bambini",
-            "disponibile per feste private"
+            "disponibilit\u00e0 feste private"
         ],
         "tel": "0544 939407"
     },
@@ -4472,7 +4471,7 @@
             "ristorazione",
             "acquagym",
             "pedal\u00f2",
-            "accettazione cani",
+            "pet friendly",
             "baby park"
         ],
         "site": "http://www.bagnocayoloco.it"
@@ -4631,9 +4630,9 @@
             "happy hour",
             "racchettoni",
             "ristorazione",
-            "concerti",
+            "concerti live",
             "animazione serale",
-            "sala tv",
+            "spazio tv",
             "pedal\u00f2"
         ],
         "tel": "0544 939427"
@@ -5630,8 +5629,8 @@
             "ristorazione",
             "feste a tema",
             "wi-fi",
-            "concerti",
-            "sala tv"
+            "concerti live",
+            "spazio tv"
         ],
         "site": "http://www.salsedine367.it",
         "tel": "0544 949400"

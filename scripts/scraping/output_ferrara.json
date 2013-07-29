@@ -10,7 +10,7 @@
         "name": "Medusa",
         "number": "1",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -21,7 +21,7 @@
             "corsi di nuoto",
             "piscina",
             "baby park",
-            "accettazione cani",
+            "pet friendly",
             "animazione per bambini",
             "area gonfiabili",
             "scuola di tennis",
@@ -40,7 +40,7 @@
         "name": "Sayonara",
         "number": "2",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -51,7 +51,7 @@
             "corsi di nuoto",
             "piscina",
             "baby park",
-            "accettazione cani",
+            "pet friendly",
             "animazione per bambini",
             "area gonfiabili",
             "wi-fi"
@@ -70,7 +70,7 @@
         "name": "Capri",
         "number": "3",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -93,7 +93,7 @@
         "name": "Blue moon",
         "number": "4",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -117,7 +117,7 @@
         "name": "Calipso",
         "number": "5",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -149,7 +149,7 @@
         "name": "Jolly",
         "number": "6",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -182,7 +182,7 @@
         "name": "Onda blu",
         "number": "7",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -210,7 +210,7 @@
         "name": "Venere",
         "number": "8",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -235,7 +235,7 @@
         "name": "Miami beach",
         "number": "9",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -269,7 +269,7 @@
         "name": "Prey fun beach",
         "number": "10",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -281,7 +281,7 @@
             "piscina",
             "baby park",
             "accettazione gruppi scolastici",
-            "accettazione cani",
+            "pet friendly",
             "animazione per bambini",
             "yoga",
             "nursery"
@@ -300,7 +300,7 @@
         "name": "Sol levante",
         "number": "11",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -328,7 +328,7 @@
         "name": "Vela",
         "number": "12",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -337,7 +337,7 @@
             "baby park",
             "accettazione gruppi scolastici",
             "animazione per bambini",
-            "accettazione cani",
+            "pet friendly",
             "idromassaggio",
             "wi-fi"
         ],
@@ -354,7 +354,7 @@
         "name": "Astra",
         "number": "13",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -381,7 +381,7 @@
         "name": "Porto di Mare / Maremoto",
         "number": "14/15",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -408,7 +408,7 @@
         "name": "Gabbiano",
         "number": "16",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -419,7 +419,7 @@
             "baby park",
             "accettazione gruppi scolastici",
             "animazione per bambini",
-            "accettazione cani",
+            "pet friendly",
             "scuola di ballo",
             "wi-fi",
             "nursery"
@@ -438,7 +438,7 @@
         "name": "Oro",
         "number": "17",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -470,7 +470,7 @@
         "name": "Italia",
         "number": "18",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -507,7 +507,7 @@
             "racchettoni",
             "ping pong",
             "baby park",
-            "accettazione cani",
+            "pet friendly",
             "solarium",
             "wi-fi"
         ],
@@ -525,7 +525,7 @@
         "name": "Diamond",
         "number": "20",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "beach volley",
             "racchettoni",
@@ -544,7 +544,7 @@
         "name": "Marte",
         "number": "21",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -552,7 +552,7 @@
             "racchettoni",
             "calcetto",
             "baby park",
-            "accettazione cani"
+            "pet friendly"
         ],
         "site": "www.bagnotequila.it",
         "tel": "0533 328469"
@@ -567,7 +567,7 @@
         "name": "Perla",
         "number": "22",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -595,7 +595,7 @@
         "name": "Cocoa' Beach",
         "number": "23",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "beach volley",
             "racchettoni",
@@ -619,7 +619,7 @@
         "name": "Pineta",
         "number": "24",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -648,7 +648,7 @@
         "name": "Kapogiro",
         "number": "25",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "beach volley",
             "racchettoni",
@@ -671,7 +671,7 @@
         "name": "Marfisa",
         "number": "26",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -699,7 +699,7 @@
         "name": "Aragosta",
         "number": "27",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -724,7 +724,7 @@
         "name": "Vascello",
         "number": "28",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -748,7 +748,7 @@
         "name": "Aquarama",
         "number": "29",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "acquagym",
@@ -770,7 +770,7 @@
         "name": "Sagano",
         "number": "51",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -799,7 +799,7 @@
         "name": "Medusa",
         "number": "51b",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "bocce",
             "baby park"
@@ -817,7 +817,7 @@
         "name": "Delfinus",
         "number": "52",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "beach volley",
@@ -841,7 +841,7 @@
         "name": "Mattia",
         "number": "53",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "beach volley",
@@ -866,7 +866,7 @@
         "name": "Clodia",
         "number": "54",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "beach volley",
@@ -893,7 +893,7 @@
         "name": "Eden",
         "number": "55",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione serale",
             "beach volley",
@@ -917,7 +917,7 @@
         "name": "Alfiere",
         "number": "55a",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "bocce",
@@ -938,7 +938,7 @@
         "name": "Miami",
         "number": "56",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "piccola ristorazione",
             "animazione preserale",
@@ -981,7 +981,7 @@
         "name": "Pinguino",
         "number": "57",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1010,7 +1010,7 @@
         "name": "Capriccio",
         "number": "58",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1048,7 +1048,7 @@
         "name": "Vascello d'oro",
         "number": "61",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "beach volley",
             "racchettoni",
@@ -1067,7 +1067,7 @@
         "name": "Galattico",
         "number": "19",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -1098,7 +1098,7 @@
         "name": "Bar Bagno Oasi",
         "number": "20",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "baby park",
             "piccola ristorazione",
             "racchettoni",
@@ -1119,7 +1119,7 @@
         "name": "Chalet del mare",
         "number": "21",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "ristorazione",
             "animazione serale",
@@ -1146,7 +1146,7 @@
         "name": "Cristallo",
         "number": "22",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "ristorazione",
             "animazione preserale",
@@ -1167,7 +1167,7 @@
         "name": "Prestige",
         "number": "23",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "animazione serale",
             "piscina",
             "ristorazione",
@@ -1193,7 +1193,7 @@
         "name": "Lid\u00f2",
         "number": "24",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "accettazione gruppi scolastici",
@@ -1211,7 +1211,7 @@
         "name": "Serena",
         "number": "25",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "accettazione gruppi scolastici",
             "animazione preserale",
             "baby park",
@@ -1236,7 +1236,7 @@
         "name": "Orsa Minore",
         "number": "26",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "ristorazione",
             "animazione serale",
@@ -1256,7 +1256,7 @@
         "name": "Cris",
         "number": "27",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "beach volley",
             "acquagym",
@@ -1283,7 +1283,7 @@
         "name": "La Rotonda",
         "number": "28",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1316,7 +1316,7 @@
         "name": "Trinidad",
         "number": "29",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1352,7 +1352,7 @@
         "name": "Albatros",
         "number": "30",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1385,7 +1385,7 @@
         "name": "Mexico",
         "number": "31",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1417,7 +1417,7 @@
         "name": "Giada",
         "number": "32",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "beach volley",
             "racchettoni",
@@ -1447,7 +1447,7 @@
         "name": "Capo hoorn",
         "number": "33",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "bocce",
@@ -1480,7 +1480,7 @@
         "name": "Aloha",
         "number": "34",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1510,7 +1510,7 @@
         "name": "Tahiti",
         "number": "35",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "bocce",
@@ -1548,7 +1548,7 @@
         "name": "I camini",
         "number": "36",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1582,7 +1582,7 @@
         "name": "3 Moschettieri",
         "number": "37",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "beach volley",
             "bocce",
@@ -1609,7 +1609,7 @@
         "name": "Gallanti beach",
         "number": "40",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1641,7 +1641,7 @@
         "name": "Pomposa",
         "number": "41",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "accettazione gruppi scolastici",
             "baby park"
@@ -1659,7 +1659,7 @@
         "name": "Rocca's",
         "number": "42",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "baby park",
             "bocce",
@@ -1679,7 +1679,7 @@
         "name": "Serena",
         "number": "43",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "beach volley",
             "baby park",
             "ristorazione",
@@ -1702,7 +1702,7 @@
         "name": "Marisa",
         "number": "44",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione serale",
             "beach volley",
@@ -1734,7 +1734,7 @@
         "name": "Ischia",
         "number": "46",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1766,7 +1766,7 @@
         "name": "Patrizia",
         "number": "47",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1796,7 +1796,7 @@
         "name": "Nettuno",
         "number": "48",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1824,7 +1824,7 @@
         "name": "Pic nic",
         "number": "49",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1853,7 +1853,7 @@
         "name": "Playa dorada",
         "number": "50",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "beach volley",
             "racchettoni",
@@ -1873,7 +1873,7 @@
         "name": "Lido",
         "number": "30",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -1900,7 +1900,7 @@
         "name": "M 31",
         "number": "31",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1910,7 +1910,7 @@
             "baby park",
             "accettazione gruppi scolastici",
             "animazione per bambini",
-            "accettazione cani"
+            "pet friendly"
         ]
     },
     {
@@ -1924,7 +1924,7 @@
         "name": "Campo del sole",
         "number": "32",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione serale",
             "beach volley",
@@ -1946,7 +1946,7 @@
         "name": "Roma",
         "number": "33",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -1974,7 +1974,7 @@
         "name": "Faro",
         "number": "34",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2004,7 +2004,7 @@
         "name": "Hawaii",
         "number": "35",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2033,7 +2033,7 @@
         "name": "Honolulu",
         "number": "36",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2062,7 +2062,7 @@
         "name": "Haiti",
         "number": "37",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "animazione serale",
             "beach volley",
             "racchettoni",
@@ -2083,7 +2083,7 @@
         "name": "Capanna",
         "number": "38",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "animazione preserale",
             "animazione serale",
             "beach volley",
@@ -2110,7 +2110,7 @@
         "name": "Ultima Spiaggia Trocadero",
         "number": "39",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -2118,7 +2118,7 @@
             "bocce",
             "baby park",
             "accettazione gruppi scolastici",
-            "accettazione cani",
+            "pet friendly",
             "wi-fi"
         ],
         "site": "www.trocaderomare.com"
@@ -2134,7 +2134,7 @@
         "name": "San Marco",
         "number": "40",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2190,7 +2190,7 @@
         "name": "Montecarlo",
         "number": "42",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "animazione preserale",
@@ -2198,7 +2198,7 @@
             "racchettoni",
             "baby park",
             "accettazione gruppi scolastici",
-            "accettazione cani"
+            "pet friendly"
         ],
         "site": "www.bagnomontecarlo.it",
         "tel": "0533 330206"
@@ -2214,7 +2214,7 @@
         "name": "Florida Beach",
         "number": "43",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -2238,7 +2238,7 @@
         "name": "Baia di Maui",
         "number": "44",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2246,7 +2246,7 @@
             "racchettoni",
             "windsurf",
             "accettazione gruppi scolastici",
-            "accettazione cani",
+            "pet friendly",
             "canoe",
             "pedal\u00f2",
             "vela"
@@ -2265,7 +2265,7 @@
         "name": "Bussola",
         "number": "45",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2291,7 +2291,7 @@
         "name": "Corallo",
         "number": "46",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione serale",
             "beach volley",
@@ -2300,7 +2300,7 @@
             "calcetto",
             "accettazione gruppi scolastici",
             "animazione per bambini",
-            "accettazione cani"
+            "pet friendly"
         ]
     },
     {
@@ -2314,7 +2314,7 @@
         "name": "Granchio",
         "number": "47",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "beach volley",
@@ -2340,7 +2340,7 @@
         "name": "Spina",
         "number": "48",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2371,7 +2371,7 @@
         "name": "Las Vegas",
         "number": "49",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -2397,7 +2397,7 @@
         "name": "Sport",
         "number": "50",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione serale",
             "beach volley",
@@ -2420,7 +2420,7 @@
         "name": "Schiuma",
         "number": "51/52",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -2445,7 +2445,7 @@
         "name": "Eden",
         "number": "53",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "beach volley",
@@ -2478,7 +2478,7 @@
         "name": "Malua",
         "number": "54",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2486,7 +2486,7 @@
             "racchettoni",
             "baby park",
             "animazione per bambini",
-            "accettazione cani"
+            "pet friendly"
         ],
         "site": "www.malua.it"
     },
@@ -2501,7 +2501,7 @@
         "name": "Sirenetta",
         "number": "55",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "beach volley",
@@ -2527,7 +2527,7 @@
         "name": "Virna",
         "number": "56",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -2550,7 +2550,7 @@
         "name": "Mar Y Sol Bagno 57",
         "number": "57",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "beach volley",
@@ -2559,7 +2559,7 @@
             "accettazione gruppi scolastici",
             "animazione per bambini",
             "wi-fi",
-            "accettazione cani"
+            "pet friendly"
         ],
         "site": "www.marysolbagno57.it",
         "tel": "0533 333663"
@@ -2574,7 +2574,7 @@
         "name": "Patrizia",
         "number": "58",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2599,7 +2599,7 @@
         "name": "Mirko",
         "number": "59",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -2645,7 +2645,7 @@
         "name": "Kursaal",
         "number": "61",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "piccola ristorazione",
             "animazione preserale",
@@ -2674,7 +2674,7 @@
         "name": "Sabbia d'oro",
         "number": "62",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "beach volley",
             "racchettoni",
@@ -2696,7 +2696,7 @@
         "name": "Le piramidi",
         "number": "63",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -2727,7 +2727,7 @@
         "name": "Jamaica",
         "number": "64",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2750,7 +2750,7 @@
         "name": "New Age",
         "number": "2",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "animazione serale",
             "beach volley",
             "ristorazione"
@@ -2767,7 +2767,7 @@
         "name": "Franco",
         "number": "3",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -2786,7 +2786,7 @@
         "name": "Jamaica",
         "number": "4",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "acquagym",
             "beach volley",
@@ -2806,7 +2806,7 @@
         "name": "Nelson",
         "number": "5",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "bocce",
@@ -2827,7 +2827,7 @@
         "name": "Apollo",
         "number": "6",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione serale",
             "beach volley",
@@ -2853,7 +2853,7 @@
         "name": "Kelly",
         "number": "7",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -2875,7 +2875,7 @@
         "name": "La Cueva",
         "number": "8",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "beach volley",
             "racchettoni",
@@ -2898,14 +2898,14 @@
         "name": "Ristoro",
         "number": "9",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
             "scivolo alaggio barche",
             "accettazione gruppi scolastici",
             "windsurf",
-            "accettazione cani",
+            "pet friendly",
             "wi-fi",
             "canoe",
             "pedal\u00f2",
@@ -2925,7 +2925,7 @@
         "name": "Schiuma",
         "number": "10",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "racchettoni",
@@ -2946,7 +2946,7 @@
         "name": "Estense",
         "number": "11",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -2966,7 +2966,7 @@
         "name": "Azzurra",
         "number": "12",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -2989,7 +2989,7 @@
         "name": "Ipanema",
         "number": "13",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -3014,7 +3014,7 @@
         "name": "Virna",
         "number": "14",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "ginnastica",
@@ -3034,7 +3034,7 @@
         "name": "Pinguino",
         "number": "15",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -3065,7 +3065,7 @@
         "name": "Play ground beach",
         "number": "16",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -3091,7 +3091,7 @@
         "name": "Isa",
         "number": "17",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "accettazione gruppi scolastici",
             "baby park",
             "piccola ristorazione",
@@ -3115,7 +3115,7 @@
         "name": "Ippopotamus",
         "number": "62",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -3147,7 +3147,7 @@
         "name": "Flamingo",
         "number": "63",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione serale",
             "beach volley",
@@ -3174,7 +3174,7 @@
         "name": "Morris",
         "number": "64",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -3201,7 +3201,7 @@
         "name": "Astor",
         "number": "65",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -3224,7 +3224,7 @@
         "name": "Panemabeach",
         "number": "66",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -3247,7 +3247,7 @@
         "name": "Sole",
         "number": "67",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione serale",
             "beach volley",
@@ -3267,7 +3267,7 @@
         "name": "Levante",
         "number": "68",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "ristorazione",
             "beach volley",
@@ -3290,7 +3290,7 @@
         "name": "Venere Beach Family Village",
         "number": "69",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -3311,7 +3311,7 @@
         "name": "Bufalo Beach",
         "number": "70",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -3338,7 +3338,7 @@
         "name": "Europa",
         "number": "71",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -3357,7 +3357,7 @@
         "name": "Apollo",
         "number": "72",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "piccola ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -3384,7 +3384,7 @@
         "name": "Roma",
         "number": "73",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "baby park"
@@ -3402,7 +3402,7 @@
         "name": "Nettuno",
         "number": "75",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -3426,7 +3426,7 @@
         "name": "Bologna",
         "number": "76",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "calcetto",
@@ -3447,7 +3447,7 @@
         "name": "Minerva",
         "number": "77",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -3470,7 +3470,7 @@
         "name": "Esperia",
         "number": "78",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione preserale",
             "animazione serale",
@@ -3495,7 +3495,7 @@
         "name": "Due stelle",
         "number": "80",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "beach volley",
             "racchettoni",
@@ -3519,7 +3519,7 @@
         "name": "Sarah",
         "number": "81",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "animazione serale",
             "beach volley",
@@ -3547,7 +3547,7 @@
         "name": "Paradiso",
         "number": "83",
         "services": [
-            "accessibilit\u00e0 ai disabili",
+            "disabili",
             "ristorazione",
             "baby park"
         ],

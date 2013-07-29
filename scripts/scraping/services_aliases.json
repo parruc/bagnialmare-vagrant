@@ -1,9 +1,13 @@
+
+
+
+
 {
     "con": "",
     "annesso": "",
     "attivit\u00e0": "",
     "area sport": "",
-    "freesbee ultimate.": "freesbee",
+    "freesbee ultimate.": "ultimate freesbee",
     "eventi": "",
     "corso di capoeira": "",
     "adesione al progetto passpartout": "",
@@ -13,7 +17,7 @@
     "pedana": "",
     "sedie job per il bagno in mare": "",
     "trampolino": "",
-    "kick boxing": "kick boxking",
+    "kick boxing": "kick boxing",
     "oasi verde": "",
     "lounge caff\u00e8": "",
     "biciclettate": "",
@@ -85,13 +89,13 @@
     "possibilit\u00e0 di cene/pranzi con menu personalizzati": "",
     "doccia chiusa con acqua calda gratuita": "",
     "week-end invernali": "",
-    "servizio di salvataggio e a cura della cooperativa bagnini": "servizio salvamento",
-    "parcheggio: biciclette e moto servizio di salvataggio a cura della cooperativa bagnini": "servizio salvamento",
-    "tramite cooperativa bagnini": "servizio salvamento",
-    "plance servizio di salvataggio a cura della cooperativa bagnini": "servizio salvamento",
-    "servizio di salvataggio a cura della cooperativa bagnini": "servizio salvamento",
-    "disco aperitivo (domenica dalle 18.30 alle 21.00)": "aperitivi",
-    "aperitivo": "aperitivi",
+    "servizio di salvataggio e a cura della cooperativa bagnini": "",
+    "parcheggio: biciclette e moto servizio di salvataggio a cura della cooperativa bagnini": "",
+    "tramite cooperativa bagnini": "",
+    "plance servizio di salvataggio a cura della cooperativa bagnini": "",
+    "servizio di salvataggio a cura della cooperativa bagnini": "",
+    "disco aperitivo (domenica dalle 18.30 alle 21.00)": "aperitivo",
+    "aperitivo": "aperitivo",
     "panini": "piccola ristorazione",
     "pranzi/cene di lavoro": "ristorazione",
     "fast-food": "piccola ristorazione",
@@ -103,8 +107,8 @@
     "ristorazioneristorazione (panini/insalate/piatti freddi e pronti)": "piccola ristorazione",
     "insalate": "piccola ristorazione",
     "frutta di stagione": "piccola ristorazione",
-    "aperitivi nel week-end":"aperitivi",
-    "cabina fasciatoio": "fasciatoio",
+    "aperitivi nel week-end": "aperitivo",
+    "cabina fasciatoio": "cabina fasciatoio",
     "feste musicali": "animazione serale",
     "serate danzanti": "animazione serale",
     "feste serali": "animazione serale",
@@ -112,45 +116,47 @@
     "serate danzanti (marted\u00ec e venerd\u00ec)": "animazione serale",
     "giochi societ\u00e0": "giochi di societ\u00e0",
     "venerd\u00ec sera festa del ballo scalza": "animazione serale",
-    "poltrone per disabili": "accessibilit\u00e0 ai disabili",
-    "accessibile ai portatori handicap": "accessibilit\u00e0 ai disabili",
-    "accessibile ai portatori": "accessibilit\u00e0 ai disabili",
-    "accessible ai portatori handicap": "accessibilit\u00e0 ai disabili",
-    "accessibilit\u00e0 disabili in spiaggia": "accessibilit\u00e0 ai disabili",
-    "accessibilit\u00e0 ai portatori di handicap": "accessibilit\u00e0 ai disabili",
-    "accessibilit\u00e0 disabili in spiaggia": "accessibilit\u00e0 ai disabili",
-    "pedana per disabili per accedere agli ombrelloni": "accessibilit\u00e0 ai disabili",
+    "poltrone per disabili": "disabili",
+    "accessibile ai portatori handicap": "disabili",
+    "accessibilit\u00e0 ai disabili": "disabili",
+    "accessibile ai portatori": "disabili",
+    "accessible ai portatori handicap": "disabili",
+    "accessibilit\u00e0 disabili in spiaggia": "disabili",
+    "accessibilit\u00e0 ai portatori di handicap": "disabili",
+    "accessibilit\u00e0 disabili in spiaggia": "disabili",
+    "pedana per disabili per accedere agli ombrelloni": "disabili",
     "american bar": "cocktail bar",
-    "stabilimento balneare senza barriere architettoniche": "accessibilit\u00e0 ai disabili",
-    "percorsi per carrozzine fino al mare": "accessibilit\u00e0 ai disabili",
-    "fornitura carrozzina per disabili": "accessibilit\u00e0 ai disabili",
-    "adesione al progetto un bagnino per amico - poltrone per disabili": "accessibilit\u00e0 ai disabili",
+    "stabilimento balneare senza barriere architettoniche": "disabili",
+    "percorsi per carrozzine fino al mare": "disabili",
+    "fornitura carrozzina per disabili": "disabili",
+    "adesione al progetto un bagnino per amico - poltrone per disabili": "disabili",
     "ginnastica per bambini e adulti": "ginnastica",
     "ginnastica dolce, risveglio muscolare dal luned' al venerd\u00ec": "ginnastica",
     "ginanstica": "ginnastica",
     "acqua gym": "acquagym",
-    "risveglio muscolare": "ginanstica",
+    "risveglio muscolare": "ginnastica",
     "noleggio pedal\u00f2.": "pedal\u00f2",
-    "noleggio mosconi": "moscone",
+    "noleggio mosconi": "mosconi",
     "noleggio canoe": "canoe",
     "canoe gratuite": "canoe",
     "noleggio pedal\u00f2 uso gratuito": "pedal\u00f2",
     "noleggio canoe uso gratuito": "canoe",
     "angolo relax con massaggio": "massaggi",
     "spa.": "massaggi",
-    "area cani (a richiesta)": "accettazione cani",
-    "barbecue per gruppi": "barbecue",
-    "gazebo con barbecue.": "barbecue",
-    "zona barbecue a disposizione dei clienti": "barbecue",
+    "area cani (a richiesta)": "pet friendly",
+    "barbecue per gruppi": "area barbecue",
+    "gazebo con barbecue.": "area barbecue",
+    "zona barbecue a disposizione dei clienti": "area barbecue",
     "massaggi orientali": "massaggi",
     "fitness television": "fitness",
     "ginnastica aerobica": "fitness",
     "centro fitness": "fitness",
     "noleggio surf": "surf",
-    "area cani": "accettazione cani",
-    "accettazione piccoli animali domestici": "accettazione cani",
-    "area cani attrezzata comprensiva di 26 ombrelloni": "accettazione cani",
-    "area  attrezzata per cani": "accettazione cani",
+    "area cani": "pet friendly",
+    "accettazione cani": "pet friendly",
+    "accettazione piccoli animali domestici": "pet friendly",
+    "area cani attrezzata comprensiva di 26 ombrelloni": "pet friendly",
+    "area  attrezzata per cani": "pet friendly",
     "attrezzature palestra": "palestra",
     "technogym": "palestra",
     "palestra attrezzata": "palestra",
@@ -192,11 +198,11 @@
     "ampio parco giochi per bambini": "baby park",
     "baby-garden": "baby park",
     "baby parking": "baby park",
-    "baby sitting": "baby-sitting",
-    "baby sitter": "baby-sitting",
-    "servizio baby sitting a pagamento": "baby-sitting",
-    "bagnino di salvataggio davanti allo stabilimento": "servizio salvamento",
-    "moto servizio di salvataggio a cura della cooperativa bagnini": "servizio salvamento",
+    "baby sitting": "baby-sitter",
+    "baby sitter": "baby-sitter",
+    "servizio baby sitting a pagamento": "baby-sitter",
+    "bagnino di salvataggio davanti allo stabilimento": "",
+    "moto servizio di salvataggio a cura della cooperativa bagnini": "",
     "campo basket": "basket",
     "campi da basket": "basket",
     "videogiochi flipper e videogames":"videogiochi",
@@ -221,19 +227,19 @@
     "beach volleyball": "beach volley",
     "campi beach volley": "beach volley",
     "campo beach volley": "beach volley",
-    "campi da foot volley": "foot volley",
+    "campi da foot volley": "calcio tennis",
     "beach tennis": "racchettoni",
     "campi da beach tennis": "racchettoni",
     "campo beach tennis": "racchettoni",
     "racchettoni a disposizione": "racchettoni",
-    "dj-set": "dj set",
+    "dj-set": "dj-set",
     "disco club (sabato sera dalle 20.00 alle 24.00)": "discoteca",
     "campo bocce": "bocce",
     "campi bocce": "bocce",
-    "corso beach tennis": "corso di racchettoni",
-    "lezioni di beach tennis":"corso di racchettoni",
-    "corsi di beach tennis tenuti dalla scuola \"argentina\"":"corso di racchettoni",
-    "corsi di beach volley tenuti dalla scuola \"a.costa\"":"corso di beach volley",
+    "corso beach tennis": "corsi di racchettoni",
+    "lezioni di beach tennis": "corsi di racchettoni",
+    "corsi di beach tennis tenuti dalla scuola \"argentina\"": "corsi di racchettoni",
+    "corsi di beach volley tenuti dalla scuola \"a.costa\"": "corsi di beach volley",
     "mini club con personale addetto": "animazione per bambini",
     "elezione di miss/mr bambino": "animazione per bambini",
     "serate per bambini": "animazione per bambini",
@@ -242,20 +248,20 @@
     "al pomeriggio laboratorio per bambini":"animazione per bambini",
     "animazione baby  club": "animazione per bambini",
     "animazione bambini": "animazione per bambini",
-    "feste per compleanni":"disponibile per feste private",
-    "matrimoni e battesimi.":"disponibile per feste private",
-    "organizzazione feste private (matrimoni e ricorrenze)": "disponibile per feste private",
+    "feste per compleanni": "disponibilit\u00e0 feste private",
+    "matrimoni e battesimi.": "disponibilit\u00e0 feste private",
+    "organizzazione feste private (matrimoni e ricorrenze)": "disponibilit\u00e0 feste private",
     "campo da bocce": "bocce",
-    "concertini (domenica)": "concerti",
-    "musica dal vivo": "concerti",
+    "concertini (domenica)": "concerti live",
+    "musica dal vivo": "concerti live",
     "tornei": "tornei sportivi",
     "tornei di racchettoni": "tornei sportivi",
     "sportivi": "tornei sportivi",
     "tornei di beach": "tornei sportivi",
     "campo calcetto": "calcetto",
     "campi da calcetto": "calcetto",
-    "foot volley": "calcio-tennis",
-    "concerti e cinema in spiaggia.": "concerti",
+    "foot volley": "calcio tennis",
+    "concerti e cinema in spiaggia.": "concerti live",
     "servizio bici":"biciclette",
     "biciclette ad uso gratuito":"biciclette",
     "servizio biciclette": "biciclette",
@@ -283,7 +289,7 @@
     "mini club esclusivo dello stabilimento": "animazione per bambini",
     "animazione per bambini tutti i fine settimana": "animazione per bambini",
     "animazione per bambini durante la mattina": "animazione per bambini",
-    "locale privo di barriere architettoniche": "accessibilit\u00e0 ai disabili",
+    "locale privo di barriere architettoniche": "disabili",
     "tennis tavolo": "ping pong",
     "mini ristorazione": "piccola ristorazione",
     "ristorazioneveloce": "piccola ristorazione",
@@ -313,42 +319,42 @@
     "piscinapiscina per bambini presso l'hotel lido": "piscina",
     "piscina per bambini": "piscina",
     "piccola piscina": "piscina",
-    "fasciatoio bimbi": "fasciatoio",
-    "fasciatoio per bimbi": "fasciatoio",
-    "fasciatoio per neonati": "fasciatoio",
+    "fasciatoio bimbi": "cabina fasciatoio",
+    "fasciatoio per bimbi": "cabina fasciatoio",
+    "fasciatoio per neonati": "cabina fasciatoio",
     "internet point": "internet",
     "mini ristorazione e bar": "piccola ristorazione",
     "ristorazioneristorazione ridotta": "piccola ristorazione",
     "mini club": "animazione per bambini",
     "noleggio pedalo": "pedal\u00f2",
     "tapas e sangria 14\u20ac; sabato sera: musica dal vivo; domenica sera: grigliata di carne e verdure 12\u20ac": "ristorazione",
-    "sala t": "sala tv",
-    "maxischermo tv plasma": "sala tv",
-    "tv": "sala tv",
-    "satellite per ricezione canali stranieri": "sala tv",
-    "televisionetv sat sky": "sala tv",
-    "tv sat": "sala tv",
-    "televisionetv sat": "sala tv",
-    "televisione.": "sala tv",
-    "sala tv satellite": "sala tv",
-    "televisione": "sala tv",
-    "televisionetv sat, sky": "sala tv",
-    "televisionetv sat e sky": "sala tv",
-    "televisionesky": "sala tv",
-    "televisionetv, tv sat": "sala tv",
+    "sala t": "spazio tv",
+    "maxischermo tv plasma": "spazio tv",
+    "tv": "spazio tv",
+    "satellite per ricezione canali stranieri": "spazio tv",
+    "televisionetv sat sky": "spazio tv",
+    "tv sat": "spazio tv",
+    "televisionetv sat": "spazio tv",
+    "televisione.": "spazio tv",
+    "sala tv satellite": "spazio tv",
+    "televisione": "spazio tv",
+    "televisionetv sat, sky": "spazio tv",
+    "televisionetv sat e sky": "spazio tv",
+    "televisionesky": "spazio tv",
+    "televisionetv, tv sat": "spazio tv",
     "radio": "musica",
     "jukebox": "musica",
     "musica stereo": "musica",
     "musica all'esterno": "musica",
     "musica all'esterno.": "musica",
     "musica all'aperto": "musica",
-    "serate con musica dal vivo": "concerti",
-    "tv/schermo gigante": "sala tv",
+    "serate con musica dal vivo": "concerti live",
+    "tv/schermo gigante": "spazio tv",
     "spazio benessere.": "massaggi",
     "centro benessere": "massaggi",
     "massaggi etc)": "massaggi",
     "lettini massaggianti": "massaggi",
-    "tv satellitare": "sala tv",
+    "tv satellitare": "spazio tv",
     "animazioni": "animazione",
     "animazione adulti": "animazione",
     "giochi in spiaggia": "animazione",
@@ -367,7 +373,7 @@
     "servizio biblioteca": "libreria",
     "biblioteca": "libreria",
     "libri": "libreria",
-    "giornalini a disposizione": "giornalini",
+    "giornalini a disposizione": "riviste/giornalini",
     "box di sicurezza con presa di corrente per cellulari": "custodia valori",
     "cassette di sicurezza all\u0092ombrellone": "custodia valori",
     "cassette deposito": "custodia valori",
@@ -376,16 +382,16 @@
     "cassette di sicurezza": "custodia valori",
     "cassette di sicurezza gratuite": "custodia valori",
     "pranzi e cene": "ristorazione",
-    "quotidiani e riviste": "riviste",
-    "giornali a disposizione": "riviste",
+    "quotidiani e riviste": "riviste/giornalini",
+    "giornali a disposizione": "riviste/giornalini",
     "ristorazione/ristoro": "ristorazione",
     "ristorazione self-service": "ristorazione",
     "ristorante self-service": "ristorazione",
     "ristorazione/ristoro tv": "ristorazione",
     "pizzeria": "ristorazione",
-    "sala tv accessibile ai portatori handicap": "sala tv",
-    "tv al plasma": "sala tv",
-    "sala tv climatizata": "sala tv",
+    "sala tv accessibile ai portatori handicap": "spazio tv",
+    "tv al plasma": "spazio tv",
+    "sala tv climatizata": "spazio tv",
     "scuola nuoto": "corsi di nuoto",
     "scuola nuoto f.i.n.": "corsi di nuoto",
     "servizio libri": "libreria",
@@ -400,7 +406,7 @@
     "connessione internet wi-fi": "wi-fi",
     "nuoto": "corsi di nuoto",
     "nursery room":"nursery",
-    "nursery - fasciatoio":"nursery",
+    "nursery - fasciatoio": "nursery",
     "servizio nursery": "nursery",
     "srvizio fax": "fax",
     "servizio fax": "fax",
@@ -411,7 +417,7 @@
     "zona relax con vasca idromassaggio": "idromassaggio",
     "wc bimbi": "wc per bimbi",
     "toilette baby": "wc per bimbi",
-    "toilette attrezzate a norma di legge": "wc",
+    "toilette attrezzate a norma di legge": "",
     "web cam": "webcam",
     "servizio libri ristorazione/ristoro":
     [
@@ -426,7 +432,6 @@
     ],
     "servizio salvamentolettino massaggiante":
     [
-        "servizio salvamento",
         "massaggi"
     ],
     "piscina con acquascivolo":
@@ -437,7 +442,7 @@
     "servizio libri e giornalini":
     [
         "libreria",
-        "giornalini"
+        "riviste/giornalini"
     ],
     "pedal\u00f2/canoe":
 
@@ -452,7 +457,7 @@
     ],
     "moscone/canoe":
     [
-        "moscone",
+        "mosconi",
         "canoe"
     ],
         "animazioni beach volley calcetto calcio tennis campo bocce giochi bimbi ristorazione/ristoro sala tv cassette sicurezza ping pong fitness pedal\u00f2":
@@ -465,7 +470,7 @@
         "bocce",
         "baby park",
         "ristorazione",
-        "sala tv",
+        "spazio tv",
         "custodia valori",
         "ping pong",
         "fitness",
@@ -478,13 +483,13 @@
         "baby park",
         "ristorazione",
         "piscina",
-        "sala tv"
+        "spazio tv"
     ],
     "animazioni attrezzature palestra baby sitting beach volley calcetto calcio tennis campo bocce giochi bimbi pedal\u00f2/canoe ping pong ristorazione/ristoro sala tv servizio meteo servizio libri biblioteca servizio internet terrazza prendisole baby parking custodito e cabina fasciatoio":
     [
         "animazione",
         "palestra",
-        "baby-sitting",
+        "baby-sitter",
         "beach volley",
         "calcetto",
         "calcio",
@@ -495,8 +500,7 @@
         "canoe",
         "ping pong",
         "ristorazione",
-        "sala tv",
-        "servizio meteo",
+        "spazio tv",
         "libreria",
         "internet",
         "terrazza prendisole",
@@ -521,7 +525,7 @@
         "baby park",
         "ping pong",
         "ristorazione",
-        "sala tv",
+        "spazio tv",
         "canoe",
         "custodia valori"
     ],
@@ -535,8 +539,7 @@
         "canoe",
         "ping pong",
         "ristorazione",
-        "sala tv",
-        "servizio meteo",
+        "spazio tv",
         "solarium",
         "terrazza prendisole"
     ],
@@ -562,17 +565,16 @@
     ],
     "vendita abbigliamento e bigiotteria":
     [
-        "vendita abbigliamento",
+        "abbigliamento",
         "bigiotteria"
     ],
     "accessibile ai portatori handicap cassetta pronto soccorso":
     [
-        "accessibilit\u00e0 ai disabili",
-        "cassetta pronto soccorso"
+        "disabili"
     ],
     "giornalini biciclette":
     [
-        "giornalini",
+        "riviste/giornalini",
         "biciclette"
     ],
     "spazio bimbi con animazione nei week-end":
@@ -605,23 +607,23 @@
     "ristorante pesce e cucina romagnola (anche per celiaci)":
     [
         "ristorazione",
-        "celiaci"
+        "cucina per celiaci"
     ],
     "pizzeria forno a legna (anche per celiaci)":
     [
         "pizzeria",
-        "celiaci"
+        "cucina per celiaci"
     ],
     "animazione baby club - beach dance - fitness":
     [
         "fitness",
-        "beach dance",
+        "dancing",
         "animazione per bambini"
     ],
     "animazione baby club, beach dance e fitness":
     [
         "animazione per bambini",
-        "beach dance",
+        "dancing",
         "fitness"
     ],
     "animazionefeste a tema":
@@ -632,34 +634,32 @@
     "animazione baby club,  beach dance e fitness":
     [
         "animazione per bambini",
-        "beach dance",
+        "dancing",
         "fitness"
     ],
     "animazione baby  club - beach dance - fitness":
     [
         "animazione per bambini",
-        "beach dance",
+        "dancing",
         "fitness"
     ],
     "animazione baby club, beach dance":
     [
         "animazione per bambini",
-        "beach dance"
+        "dancing"
     ],
     "auto servizio di salvataggio a cura della cooperativa bagnini":
     [
-        "parcheggio",
-        "servizio salvamento"
+        "parcheggio"
     ],
     "animazione baby club - beach dance":
     [
         "animazione per bambini",
-        "beach dance"
+        "dancing"
     ],
     "sedie sdraio servizio di salvataggio a cura della cooperativa bagnini":
     [
-        "sedie sdraio",
-        "servizio salvamento"
+        ""
     ],
     "giochi per bambinireti elastiche, altalena, videogiochi, giostrina, scivolo":
     [
@@ -681,7 +681,7 @@
         "pedal\u00f2",
         "canoe",
         "surf",
-        "baby-sitting",
+        "baby-sitter",
         "animazione per bambini"
     ],
     "auto ricovero all'aperto: canoe":
@@ -702,10 +702,10 @@
     ],
     "baby sitting calcio balilla. animazione baby club, beach dance, fitness. feste a tema":
     [
-        "baby-sitting",
+        "baby-sitter",
         "calcio balilla",
         "animazione per bambini",
-        "beach dance",
+        "dancing",
         "fitness",
         "feste a tema"
     ],
@@ -717,9 +717,9 @@
         "beach basket",
         "videogiochi",
         "animazione",
-        "beach dance",
+        "dancing",
         "fitness",
-        "sala tv",
+        "spazio tv",
         "ping pong",
         "calcio balilla",
         "racchettoni",
@@ -728,13 +728,12 @@
     ],
     "sdraio lavapiedi":
     [
-        "sdraio",
         "lavapiedi"
     ],
     "musica con stereo e dal vivo, happy hour":
     [
         "musica",
-        "concerti",
+        "concerti live",
         "happy hour"
     ],
     "ginnastica dolce, risveglio muscolare, stretching, feste a tema, musica dal vivo con dj, happy hour":
@@ -753,8 +752,8 @@
     [
         "videogiochi",
         "animazione per bambini",
-        "beach dance",
-        "sala tv"
+        "dancing",
+        "spazio tv"
     ],
     "noleggio pedal\u00f2, canoe e surf.calcio balilla":
     [
@@ -765,19 +764,19 @@
     ],
     "musica dal vivo torta gigante per tutti e fuochi d'artificio.organizzazione tornei beach tennis e beach volley con premi. organizzazione tornei di mah-jong e carte.":
     [
-        "concerti",
+        "concerti live",
         "tornei sportivi",
         "tornei da tavolo"
     ],
     "tornei di racchettoni, ping pong e pallavolotelevisione con digitale terrestre":
     [
         "tornei sportivi",
-        "sala tv"
+        "spazio tv"
     ],
     "animazione baby club, televisione, tornei settimanali bocce":
     [
         "animazione per bambini",
-        "sala tv",
+        "spazio tv",
         "tornei sportivi"
     ],
     "reti elastiche. campo beach volley":
@@ -788,26 +787,26 @@
     "animazione beach dance":
     [
         "animazione",
-        "beach dance"
+        "dancing"
     ],
     "concerti e tornei":
     [
-        "concerti",
+        "concerti live",
         "tornei sportivi"
     ],
     "animazione per adulti tutti i giorni beach dance, ginnastica dolce, risveglio muscolare e stretching; feste a tema, musica dai vivo e con stereo, tornei.":
     [
         "animazione",
-        "beach dance",
-        "ginanstica",
+        "dancing",
+        "ginnastica",
         "feste a tema",
         "musica",
-        "concerti",
+        "concerti live",
         "tornei sportivi"
     ],
     "televisione animazione fitnessfeste a tema":
     [
-        "sala tv",
+        "spazio tv",
         "animazione",
         "fitness",
         "feste a tema"
@@ -837,7 +836,7 @@
         "calcio balilla",
         "musica",
         "feste a tema",
-        "concerti"
+        "concerti live"
     ],
     "giochi per bambini animazione baby club":
     [
@@ -847,14 +846,13 @@
     "animazione per adurti ogni due giorni; beach dance, ginnastica dolce; musica con stereo, happy hour":
     [
         "animazione",
-        "beach dance",
+        "dancing",
         "ginnastica",
         "musica",
         "happy hour"
     ],
     "auto servizio di salvataggio a cura della cooperativa bagnini e privata":
     [
-        "servizio di salvamento",
         "parcheggio"
     ],
     "parchi giochi campo bocce campo beach basket beach volley calcetto da spiaggia ping pong racchettoni a disposizione calcio balilla feste a tema animazione mini club":
@@ -880,7 +878,7 @@
         "racchettoni",
         "ping pong",
         "videogiochi",
-        "baby-sitting",
+        "baby-sitter",
         "pedal\u00f2",
         "canoe",
         "calcio balilla",
@@ -889,7 +887,7 @@
     "feste a tematelevisione":
     [
         "feste a tema",
-        "sala tv"
+        "spazio tv"
     ],
     "musica con stereo, feste serali consentite":
     [
@@ -916,13 +914,12 @@
     ],
     "parcheggio: biciclette, moto e auto servizio di salvataggio a cura della cooperativa bagnini":
     [
-        "parcheggio",
-        "servizio di salvamento"
+        "parcheggio"
     ],
     "animazione per adulti beach dance, ginnastica dolce, risveglio muscolare, stretching.":
     [
         "animazione",
-        "beach dance",
+        "dancing",
         "ginnastica"
     ],
     "musica stereo, laboratori didattici.":
@@ -932,7 +929,7 @@
     ],
     "tutti i giorni beach dance, ginnastica dolce, risveglio muscolare, stretching, feste a tema, musica":
     [
-        "beach dance",
+        "dancing",
         "ginnastica",
         "feste a tema",
         "musica"
@@ -940,7 +937,7 @@
     "animazione per adulti tutti i giorni, beach dance, ginnastica dolce, risveglio muscolare, stretching, feste a tema":
     [
         "animazione",
-        "beach dance",
+        "dancing",
         "ginnastica",
         "feste a tema"
     ],
@@ -956,19 +953,19 @@
         "beach basket",
         "videogiochi",
         "animazione per bambini",
-        "beach dance",
+        "dancing",
         "acquagym"
     ],
     ") televisione beach soccer ping pong":
     [
-        "sala tv",
+        "spazio tv",
         "beach soccer",
         "ping pong"
     ],
     "animazione per adulti beach dance, ginnastica dolce, risveglio muscolare, stretching":
     [
         "animazione",
-        "beach dance",
+        "dancing",
         "ginnastica"
     ],
     "ping pong rachettoni a disposizione videogiochi calcio balilla animazione baby club":
@@ -981,13 +978,13 @@
     ],
     "baby sitting calcio balilla":
     [
-        "baby-sitting",
+        "baby-sitter",
         "calcio balilla"
     ],
     "animazione baby club, beach dance, fitness":
     [
         "animazione per bambini",
-        "beach dance",
+        "dancing",
         "fitness"
     ],
     ", campo bocce beach basket videogiochi animazione beach dance, fitness televisione ping pong calcio balilla racchettoni a disposizione feste a tema beach soccer beach tennnis":
@@ -996,9 +993,9 @@
         "beach basket",
         "videogiochi",
         "animazione",
-        "beach dance",
+        "dancing",
         "fitness",
-        "sala tv",
+        "spazio tv",
         "ping pong",
         "calcio balilla",
         "racchettoni",
@@ -1009,7 +1006,7 @@
     [
         "videogiochi",
         "animazione per bambini",
-        "beach dance"
+        "dancing"
     ],
     "noleggio pedal\u00f2, canoe e surf":
     [
@@ -1020,11 +1017,11 @@
     "animazione per adulti tutti i giorni beach dance, ginnastica dolce, risveglio muscolare e stretching; feste a tema, musica dai vivo e con stereo, tornei":
     [
         "animazione",
-        "beach dance",
+        "dancing",
         "ginnastica",
         "feste a tema",
         "musica",
-        "concerti",
+        "concerti live",
         "tornei sportivi"
 
     ],
@@ -1037,8 +1034,7 @@
     ],
     "biciclette a disposizione, servizio di salvataggio a cura della cooperativa bagnini":
     [
-        "biciclette",
-        "servizio di salvamento"
+        "biciclette"
     ],
     "musica stereo, musica con dj, feste a tema, aperture serali consentite con cena":
     [
@@ -1056,7 +1052,7 @@
     [
         "animazione",
         "ginnastica",
-        "aquagym",
+        "acquagym",
         "pilates",
         "feste a tema",
         "musica",
@@ -1070,18 +1066,18 @@
     ],
     "televisionecampo da calcetto":
     [
-        "sala tv",
+        "spazio tv",
         "calcetto"
     ],
     "feste a tema televisione":
     [
         "feste a tema",
-        "sala tv"
+        "spazio tv"
     ],
     "animazione beach dance, fitness":
     [
         "animazione",
-        "beach dance",
+        "dancing",
         "fitness"
     ],
     "beach tennis videogiochi":
@@ -1111,7 +1107,7 @@
         "surf",
         "calcio balilla",
         "feste a tema",
-        "sala tv"
+        "spazio tv"
     ],
     "noleggio pedal\u00f2 noleggio canoe":
     [
@@ -1121,7 +1117,7 @@
     "animazione televisione":
     [
         "animazione",
-        "televisione"
+        "spazio tv"
     ],
     "campo beach tennis campo bocce":
     [
@@ -1136,7 +1132,7 @@
     ],
     "televisione ping pong":
     [
-        "sala tv",
+        "spazio tv",
         "ping pong"
     ],
     "campo bocce racchettoni a disposizione":
@@ -1157,7 +1153,7 @@
     "musica con stereo e dal vivo":
     [
         "musica",
-        "concerti"
+        "concerti live"
     ],
     "canoe e pedal\u00f2 solo per i clienti, gratuiti":
     [
@@ -1179,8 +1175,8 @@
     ],
     "beach dance televisione":
     [
-        "beach dance",
-        "sala tv"
+        "dancing",
+        "spazio tv"
     ],
     "campo da bocce, beach basket, videogiochi":
     [
@@ -1211,7 +1207,7 @@
     "animazione per adulti beach dance, ginnastica dolce, risveglio muscolare, stretching, acqua gym":
     [
         "animazione",
-        "beach dance",
+        "dancing",
         "ginnastica",
         "acquagym"
     ],
@@ -1224,13 +1220,13 @@
     "servizio gratuito di libri e riviste":
     [
         "libreria",
-        "riviste"
+        "riviste/giornalini"
     ],
     "animazione organizzata giornalmente dal bagno (solo per clienti del bagno)baby club, beach dance, fitness, tornei":
     [
         "animazione",
         "animazione per bambini",
-        "beach dance",
+        "dancing",
         "fitness",
         "tornei sportivi"
     ],
@@ -1273,15 +1269,15 @@
     "feste a tema, beach dance, ginnastica dolce, risveglio muscolare, stretching":
     [
         "feste a tema",
-        "beach dance",
+        "dancing",
         "ginnastica"
     ],
     "animazione baby club, beach dance, televisione, baby sitting, musica all'esterno, feste a tema, servizio biblioteca, internet":
     [
         "animazione per bambini",
-        "beach dance",
-        "sala tv",
-        "baby-sitting",
+        "dancing",
+        "spazio tv",
+        "baby-sitter",
         "musica",
         "feste a tema",
         "libreria",
@@ -1298,7 +1294,7 @@
     "animazione baby club e beach dance":
     [
         "animazione per bambini",
-        "beach dance"
+        "dancing"
     ],
     "feste a tema, musica dal vivo con dj":
     [
@@ -1317,4 +1313,3 @@
 
     ]
 }
-

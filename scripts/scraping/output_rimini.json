@@ -44,8 +44,7 @@
             "beach volley",
             "basket",
             "parco giochi",
-            "webcam",
-            "wc"
+            "webcam"
         ],
         "site": "http://www.turquoisebeachclub.com",
         "tel": "0541/22497"
@@ -74,7 +73,7 @@
     },
     {
         "address": "Lungomare Tintori, 10 a/b",
-        "cell": "cell. 347/4220557 - (recapito invernale 0541/28241)",
+        "cell": " 347/4220557 - (recapito invernale 0541/28241)",
         "city": "marina centro",
         "description": "Servizi offerti stabilimento\u00a0eco - compatibile \r\n- impianto per risparmio idrico",
         "details": {
@@ -124,7 +123,7 @@
             "docce calde",
             "custodia valori",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.comitatobagninirimini.it"
     },
@@ -172,7 +171,7 @@
             "docce calde",
             "beach volley",
             "animazione per bambini",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.comitatobagninirimini.it",
         "tel": "0541/56072"
@@ -196,7 +195,7 @@
     },
     {
         "address": "Lungomare Tintori",
-        "cell": "cell. 339 1270783 (bagno)  0541/56415 (telefono del bar del bagno n 14)",
+        "cell": " 339 1270783 (bagno)  0541/56415 (telefono del bar del bagno n 14)",
         "city": "marina centro",
         "details": {
             "cabine": 62,
@@ -222,14 +221,14 @@
         "number": "15",
         "services": [
             "beach volley",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.comitatobagninirimini.it/",
         "tel": "0541/56400"
     },
     {
         "address": "Giorgio Neri",
-        "cell": "cell. 330 773455",
+        "cell": " 330 773455",
         "city": "marina centro",
         "details": {
             "ombrelloni": 266
@@ -247,7 +246,7 @@
     },
     {
         "address": "Lungomare Tintori",
-        "cell": "cell. 339 3185137",
+        "cell": " 339 3185137",
         "city": "marina centro",
         "details": {
             "cabine": 31,
@@ -258,14 +257,14 @@
         "services": [
             "docce calde",
             "racchettoni",
-            "riviste",
+            "riviste/giornalini",
             "accettazione carte di credito"
         ],
         "site": "http://www.comitatobagninirimini.it/"
     },
     {
         "address": "",
-        "cell": "cell. 338 9838694",
+        "cell": " 338 9838694",
         "city": "marina centro",
         "description": "Bagnino ECOLOGICO - partecipa al progetto sulla gestione eco-compatibile di un stabilimento balneare, secondo i principi dello sviluppo sostenibile: ridurre i consumi energetici, contenere i consumi idrici, aumentare la sensibilit\u00e0 ambientale dei turisti e degli operatori, rifiuti recuperabili, ecc.",
         "details": {
@@ -343,10 +342,9 @@
         "services": [
             "docce calde",
             "beach volley",
-            "foot volley",
+            "calcio tennis",
             "ping pong",
-            "animazione",
-            "wc"
+            "animazione"
         ],
         "site": "http://www.bagno23.it",
         "tel": "0541/50461"
@@ -365,7 +363,7 @@
             "beach volley",
             "ping pong",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.comitatobagninirimini.it/",
         "tel": "0541/24800"
@@ -433,8 +431,7 @@
             "ping pong",
             "animazione per bambini",
             "internet",
-            "riviste",
-            "wc",
+            "riviste/giornalini",
             "baby park"
         ],
         "site": "http://www.bagno27.it"
@@ -458,7 +455,7 @@
             "palestra",
             "parco giochi",
             "animazione",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.bagnofabio28arimini.it",
         "tel": "0541/23200"
@@ -544,7 +541,7 @@
             "beach volley",
             "basket",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541/393452"
     },
@@ -561,7 +558,7 @@
     },
     {
         "address": "Lungomare Murri",
-        "cell": "cell. 347 2415404",
+        "cell": " 347 2415404",
         "city": "marina centro",
         "description": "Servizi offerti beach33 \u00e8 attrezzata per l'accoglienza dei cani\u00a0 vedi dettagli",
         "details": {
@@ -593,7 +590,7 @@
             "beach volley",
             "animazione per bambini",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541/392024"
     },
@@ -611,7 +608,7 @@
             "racchettoni",
             "animazione per bambini",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541/391922"
     },
@@ -702,7 +699,7 @@
             "beach volley",
             "ping pong",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541/392592"
     },
@@ -723,7 +720,7 @@
             "racchettoni",
             "parco giochi",
             "wi-fi",
-            "riviste",
+            "riviste/giornalini",
             "area picnic"
         ],
         "site": "http://www.bagnoquarantuno.it",
@@ -749,7 +746,7 @@
     },
     {
         "address": "Lungomare Murri",
-        "cell": "cell. 347 5398932",
+        "cell": " 347 5398932",
         "city": "marina centro",
         "description": "Servizi offerti tornei delle varie attivit\u00e0\r\n- corsi di aquagymn e ginnastica",
         "details": {
@@ -763,7 +760,7 @@
             "beach volley",
             "basket",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ]
     },
     {
@@ -784,7 +781,7 @@
     },
     {
         "address": "Lungomare Murri",
-        "cell": "cell. 335 7062750",
+        "cell": " 335 7062750",
         "city": "marina centro",
         "description": "Servizi offerti tornei di beach volley",
         "details": {
@@ -798,7 +795,7 @@
             "beach volley",
             "basket",
             "animazione per bambini",
-            "riviste",
+            "riviste/giornalini",
             "accettazione carte di credito",
             "baby park"
         ]
@@ -829,7 +826,7 @@
         "services": [
             "calcetto",
             "racchettoni",
-            "aperitivi"
+            "aperitivo"
         ],
         "site": "http://www.basilico4748.com",
         "tel": "0541/391882 (ristorante basilico)"
@@ -852,7 +849,7 @@
             "palestra",
             "animazione per bambini",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ]
     },
     {
@@ -893,7 +890,7 @@
             "beach volley",
             "ping pong",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.lidocenter.it",
         "tel": "0541/307255 - 0541/378820"
@@ -926,7 +923,7 @@
             "massaggi",
             "racchettoni",
             "animazione per bambini",
-            "riviste"
+            "riviste/giornalini"
         ]
     },
     {
@@ -1034,7 +1031,7 @@
         "services": [
             "idromassaggio",
             "docce calde",
-            "sala tv",
+            "spazio tv",
             "calcetto",
             "racchettoni",
             "palestra",
@@ -1093,7 +1090,7 @@
     },
     {
         "address": "",
-        "cell": "cell. 339 3955484",
+        "cell": " 339 3955484",
         "city": "marina centro",
         "description": "Associazione confesercenti - consorzio marina riminese Servizi offerti corso di acquagymn",
         "details": {},
@@ -1113,7 +1110,7 @@
     },
     {
         "address": "Lungomare Di Vittorio",
-        "cell": "cell. 3386370121",
+        "cell": " 3386370121",
         "city": "marina centro",
         "description": "Servizi offerti corsi di aquagymn\r\n- per i clienti pi\u00f9 fedeli e sportivi - possibilit\u00e0 di massaggio per la \"remise en forme\"\u00a0",
         "details": {
@@ -1127,7 +1124,7 @@
             "bocce",
             "basket",
             "animazione per bambini",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.bagnocarlo65.it",
         "tel": "0541/381371"
@@ -1170,7 +1167,7 @@
             "beach volley",
             "palestra",
             "animazione",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.tortugabeach.it",
         "tel": "0541/389035 (reception bagno 67) - 0541/392692 (reception bagno 66/a) - 0541/389351 (ristorante)"
@@ -1189,7 +1186,7 @@
             "basket",
             "ping pong",
             "animazione",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.riminibeach.it/rimini/stabilimenti-balneari-rimini",
         "tel": "0541/392122"
@@ -1239,7 +1236,7 @@
             "beach volley",
             "palestra",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541/391028"
     },
@@ -1256,7 +1253,7 @@
         "services": [
             "bocce",
             "animazione per bambini",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541/381783"
     },
@@ -1271,7 +1268,7 @@
             "racchettoni",
             "animazione per bambini",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541/383054"
     },
@@ -1285,7 +1282,7 @@
         "services": [
             "beach volley",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541 395862"
     },
@@ -1303,7 +1300,7 @@
             "beach volley",
             "palestra",
             "animazione per bambini",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.bulli.it",
         "tel": "0541/386006"
@@ -1343,7 +1340,7 @@
             "racchettoni",
             "ping pong",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=780&loc=rimini",
         "tel": "0541/387257"
@@ -1362,7 +1359,7 @@
             "beach volley",
             "ping pong",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=790&loc=rimini",
         "tel": "0541/388674"
@@ -1406,16 +1403,15 @@
             "custodia valori",
             "bocce",
             "beach volley",
-            "foot volley",
+            "calcio tennis",
             "ping pong",
             "parco giochi",
             "wc per bimbi",
             "baby park",
-            "pedal\u00f2",
-            "wc"
+            "pedal\u00f2"
         ],
         "site": "http://www.bagno81rimini.it",
-        "tel": "0541/388926; cell. 339 4494512"
+        "tel": "0541/388926;  339 4494512"
     },
     {
         "address": "Lungomare Di Vittorio",
@@ -1433,7 +1429,7 @@
             "palestra",
             "animazione per bambini",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541/389010"
     },
@@ -1450,7 +1446,7 @@
             "racchettoni",
             "palestra",
             "animazione per bambini",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541/382465"
     },
@@ -1486,7 +1482,7 @@
             "bocce",
             "palestra",
             "animazione per bambini",
-            "riviste",
+            "riviste/giornalini",
             "baby park"
         ],
         "site": "http://www.lucaedea.it",
@@ -1506,7 +1502,7 @@
         "services": [
             "idromassaggio",
             "docce calde",
-            "sala tv",
+            "spazio tv",
             "beach volley",
             "animazione per bambini",
             "nursery",
@@ -1533,7 +1529,7 @@
             "palestra",
             "animazione per bambini",
             "wc per bimbi",
-            "riviste"
+            "riviste/giornalini"
         ]
     },
     {
@@ -1595,8 +1591,7 @@
             "ping pong",
             "animazione per bambini",
             "animazione",
-            "area picnic",
-            "wc"
+            "area picnic"
         ],
         "tel": "0541 380655"
     },
@@ -1619,8 +1614,7 @@
             "ping pong",
             "animazione",
             "internet",
-            "biciclette",
-            "wc"
+            "biciclette"
         ],
         "site": "http://www.bellarivalido89.it",
         "tel": "0541/381769"
@@ -1640,7 +1634,7 @@
             "basket",
             "ping pong",
             "nursery",
-            "aperitivi",
+            "aperitivo",
             "biciclette"
         ],
         "site": "http://www.spiaggia90.it"
@@ -1696,7 +1690,7 @@
             "beach volley",
             "basket",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ],
         "winter_tel": "0541 370276"
     },
@@ -1757,8 +1751,7 @@
             "ping pong",
             "parco giochi",
             "baby park",
-            "area picnic",
-            "wc"
+            "area picnic"
         ],
         "site": "http://www.acquamarina.rimini.it",
         "tel": "0541 375276"
@@ -1800,7 +1793,7 @@
             "palestra",
             "animazione per bambini",
             "baby park",
-            "riviste",
+            "riviste/giornalini",
             "accettazione carte di credito"
         ],
         "site": "http://www.bagni100.com",
@@ -1843,7 +1836,7 @@
             "racchettoni",
             "animazione per bambini",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541 375321"
     },
@@ -1862,7 +1855,7 @@
             "bocce",
             "ping pong",
             "nursery",
-            "riviste",
+            "riviste/giornalini",
             "area picnic"
         ],
         "site": "http://www.spiaggiasolleone.com",
@@ -1883,7 +1876,7 @@
             "docce calde",
             "bocce",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ]
     },
     {
@@ -2008,7 +2001,7 @@
             "animazione per bambini",
             "nursery",
             "baby park",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541 377143"
     },
@@ -2027,7 +2020,7 @@
             "palestra",
             "animazione per bambini",
             "wc per bimbi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541 377896"
     },
@@ -2046,7 +2039,7 @@
             "bocce",
             "ping pong",
             "baby park",
-            "riviste",
+            "riviste/giornalini",
             "pedal\u00f2"
         ],
         "winter_tel": "0541 372610"
@@ -2199,7 +2192,7 @@
             "bocce",
             "basket",
             "ping pong",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541/377505"
     },
@@ -2220,7 +2213,7 @@
             "ping pong",
             "parco giochi",
             "wc per bimbi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541 372832"
     },
@@ -2399,7 +2392,7 @@
             "palestra",
             "parco giochi",
             "wc per bimbi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541 370365",
         "winter_tel": "0541 371727"
@@ -2439,7 +2432,7 @@
             "ping pong",
             "parco giochi",
             "baby park",
-            "riviste",
+            "riviste/giornalini",
             "accettazione carte di credito"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=1340&loc=rimini",
@@ -2455,7 +2448,7 @@
             "beach volley",
             "ping pong",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=1370&loc=rimini",
         "tel": "0541/370750 (recapito invernale tel.0541/51038)"
@@ -2477,7 +2470,7 @@
             "ping pong",
             "parco giochi",
             "baby park",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=1380&loc=rimini",
         "tel": "0541 371055"
@@ -2498,7 +2491,7 @@
             "basket",
             "animazione per bambini",
             "nursery",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541 373097"
     },
@@ -2533,7 +2526,7 @@
         "services": [
             "ping pong",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541 371188"
     },
@@ -2554,7 +2547,7 @@
             "ping pong",
             "parco giochi",
             "wc per bimbi",
-            "riviste",
+            "riviste/giornalini",
             "accettazione carte di credito"
         ],
         "site": "http://www.bagniricci.it",
@@ -2577,7 +2570,7 @@
             "ping pong",
             "parco giochi",
             "baby park",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.bagnorudy.it",
         "tel": "0541 478104"
@@ -2595,7 +2588,7 @@
             "ping pong",
             "parco giochi",
             "baby park",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=1450&loc=rimini",
         "tel": "0541 478104",
@@ -2632,7 +2625,7 @@
             "bocce",
             "ping pong",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=1470&loc=rimini",
         "tel": "0541 377082",
@@ -2655,8 +2648,7 @@
             "basket",
             "animazione per bambini",
             "nursery",
-            "riviste",
-            "wc"
+            "riviste/giornalini"
         ],
         "site": "http://www.bagnoluciano.it",
         "tel": "0541 370818"
@@ -2731,7 +2723,7 @@
             "beach volley",
             "ping pong",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=10&loc=viserba",
         "tel": "0541 24463"
@@ -2751,7 +2743,6 @@
             "racchettoni",
             "parco giochi",
             "animazione",
-            "wc",
             "baby park"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=20&loc=viserba"
@@ -2770,7 +2761,6 @@
             "racchettoni",
             "parco giochi",
             "animazione",
-            "wc",
             "baby park"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=40&loc=viserba",
@@ -2852,8 +2842,7 @@
         "services": [
             "bocce",
             "racchettoni",
-            "riviste",
-            "wc",
+            "riviste/giornalini",
             "baby park"
         ],
         "winter_tel": "0541 720638"
@@ -2875,8 +2864,7 @@
             "ping pong",
             "parco giochi",
             "animazione",
-            "riviste",
-            "wc",
+            "riviste/giornalini",
             "baby park"
         ],
         "site": "http://www.vatikaki.it",
@@ -2918,8 +2906,7 @@
             "racchettoni",
             "animazione per bambini",
             "nursery",
-            "riviste",
-            "wc"
+            "riviste/giornalini"
         ],
         "winter_tel": "0541 732696"
     },
@@ -2938,7 +2925,6 @@
             "beach volley",
             "basket",
             "parco giochi",
-            "wc",
             "baby park"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=160&loc=viserba",
@@ -2963,9 +2949,8 @@
             "ping pong",
             "parco giochi",
             "baby park",
-            "riviste",
-            "area picnic",
-            "wc"
+            "riviste/giornalini",
+            "area picnic"
         ],
         "site": "http://www.bagnocarlo17.com",
         "tel": "0541 732648"
@@ -3017,7 +3002,6 @@
             "racchettoni",
             "animazione per bambini",
             "animazione",
-            "wc",
             "baby park"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=210&loc=viserba"
@@ -3036,8 +3020,7 @@
             "bocce",
             "ping pong",
             "animazione per bambini",
-            "riviste",
-            "wc",
+            "riviste/giornalini",
             "baby park"
         ],
         "tel": "0541 735307"
@@ -3099,7 +3082,6 @@
             "racchettoni",
             "animazione per bambini",
             "internet",
-            "wc",
             "baby park"
         ],
         "site": "http://www.playatamarindo.it",
@@ -3123,7 +3105,6 @@
             "parco giochi",
             "nursery",
             "area picnic",
-            "wc",
             "baby park"
         ],
         "site": "http://www.bahiaricoscafe.it",
@@ -3147,8 +3128,7 @@
             "racchettoni",
             "animazione per bambini",
             "animazione",
-            "area picnic",
-            "wc"
+            "area picnic"
         ],
         "site": "http://www.bagnopietro37.com",
         "tel": "0541 732437"
@@ -3174,7 +3154,6 @@
             "nursery",
             "webcam",
             "area picnic",
-            "wc",
             "baby park"
         ],
         "site": "http://www.bagnoegisto38.com"
@@ -3192,7 +3171,7 @@
             "racchettoni",
             "palestra",
             "parco giochi",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.bagnocigno39.it",
         "tel": "0541 732129"
@@ -3212,8 +3191,7 @@
             "racchettoni",
             "ping pong",
             "parco giochi",
-            "riviste",
-            "wc"
+            "riviste/giornalini"
         ],
         "site": "http://www.bagnoangelo.it",
         "tel": "0541 734232"
@@ -3266,7 +3244,7 @@
         "services": [
             "bocce",
             "basket",
-            "riviste"
+            "riviste/giornalini"
         ],
         "tel": "0541 734228"
     },
@@ -3330,7 +3308,6 @@
             "ping pong",
             "parco giochi",
             "animazione",
-            "wc",
             "baby park"
         ],
         "tel": "0541 720355",
@@ -3354,7 +3331,6 @@
             "animazione per bambini",
             "animazione",
             "area picnic",
-            "wc",
             "baby park"
         ],
         "tel": "0541 720767"
@@ -3393,7 +3369,6 @@
             "palestra",
             "animazione",
             "area picnic",
-            "wc",
             "baby park"
         ]
     },
@@ -3476,7 +3451,6 @@
             "beach volley",
             "basket",
             "animazione",
-            "wc",
             "baby park"
         ]
     },
@@ -3494,8 +3468,7 @@
         "services": [
             "bocce",
             "ping pong",
-            "animazione",
-            "wc"
+            "animazione"
         ]
     },
     {
@@ -3547,8 +3520,7 @@
         "services": [
             "bocce",
             "beach volley",
-            "baby park",
-            "wc"
+            "baby park"
         ],
         "tel": "0541 721775"
     },
@@ -3605,8 +3577,7 @@
             "bocce",
             "beach volley",
             "parco giochi",
-            "animazione",
-            "wc"
+            "animazione"
         ]
     },
     {
@@ -3625,7 +3596,7 @@
             "calcetto",
             "basket",
             "animazione per bambini",
-            "riviste"
+            "riviste/giornalini"
         ],
         "site": "http://www.spiaggeoasi.it/scheda.html?id=650&loc=torrepedrera",
         "tel": "0541 720735"
@@ -3701,9 +3672,8 @@
             "racchettoni",
             "ping pong",
             "parco giochi",
-            "riviste",
-            "area picnic",
-            "wc"
+            "riviste/giornalini",
+            "area picnic"
         ],
         "site": "http://www.bagnoelio.it"
     },
@@ -3755,8 +3725,7 @@
             "calcetto",
             "racchettoni",
             "animazione per bambini",
-            "riviste",
-            "wc"
+            "riviste/giornalini"
         ],
         "tel": "0541 720959"
     },
