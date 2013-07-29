@@ -16,17 +16,19 @@
 
 
     {% if object.services.all %}
-        {% regroup object.services.all by get_category_display as categorized_services %}
+        {% regroup object.services.all by category as categorized_services %}
         <h2>{% trans Services %}</h2>
         <ul>
         {% for categorized_service in categorized_services %}
-            <li>{{ categorized_service.grouper }}
-            <ul>
-                {% for service in categorized_service.list %}
-                  <li><a href="{{ service.get_filtered_search_url }}">{{ service.name }}</a></li>
-                {% endfor %}
-            </ul>
-            </li>
+            {% for service in categorized_service.list %}
+                {% if forloop.first %}
+                    <li>{{ service.get_category_display }}<ul>
+                {% endif %}
+                <li><a href="{{ service.get_filtered_search_url }}">{{ service.name }}</a></li>
+                {% if forloop.last %}
+                    </ul></li>
+                {% endif %}
+            {% endfor %}
         {% endfor %}
         </ul>
     {% endif %}

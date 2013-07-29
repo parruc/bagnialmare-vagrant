@@ -31,6 +31,6 @@ class Command(BaseCommand):
             services = services[:options['limit']]
         for service in services:
             s = Service(name=service)
-            if service in categories:
-                s.category = categories[service]
+            if service in categories and hasattr(service, categories[service]):
+                s.category = getattr(service, categories[service])
             s.save()
