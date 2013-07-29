@@ -35,6 +35,9 @@ class Bagno(models.Model):
     def __unicode__(self):
         return self.name
 
+    def services_ordered_by_category(self):
+        return self.services.all().order_by("category")
+
     def index_text(self):
         elems = (self.name, self.index_services(), self.city)
         return unicode("%s %s %s" % elems)
