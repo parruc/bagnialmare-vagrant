@@ -52,7 +52,7 @@
                                     <ul class="list-group">
                                 {% endif %}
                                 <li class="list-group-item">
-                                    <col-lg- class="badge">{{ facet.count }}</col-lg->
+                                    <span class="badge">{{ facet.count }}</span>
                                     <a href="?{{ facet.url }}">{{ facet.name }}</a>
                                 </li>
                                 {% if forloop.last %}
@@ -103,7 +103,7 @@
                     <div class="pagination">
                         <span class="step-links">
                             {% if hits.has_previous %}
-                                <a href="{% query_string 'p={{ hits.previous_page_number }}' 'p' %}">
+                                <a href="{% query_string 'p=hits.previous_page_number' 'p' %}">
                                     {% trans "previous" %}
                                 </a>
                             {% endif %}
@@ -115,7 +115,7 @@
                             </span>
 
                             {% if hits.has_next %}
-                                <a href="{% query_string 'p={{ hits.next_page_number }}' 'p' %}">
+                                <a href="{% query_string 'p=hits.next_page_number' 'p' %}">
                                     {% trans "next" %}
                                 </a>
                             {% endif %}
