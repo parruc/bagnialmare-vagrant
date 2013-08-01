@@ -1,4 +1,4 @@
-Models
+Search
 =======
  
 .. automodule:: bagni.search
