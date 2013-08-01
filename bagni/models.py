@@ -112,12 +112,12 @@ class Service(models.Model):
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),
-                                  unique=True)
+                                  unique=True,)
     category = models.CharField(max_length=50,
                                 blank=True,
                                 choices=SERVICE_CATEGORIES,
-                                default=NOT_SET)
-    free = models.BooleanField(default=True)
+                                default=NOT_SET,)
+    free = models.BooleanField(default=True,)
 
     @models.permalink
     def get_absolute_url(self):
@@ -144,6 +144,6 @@ class Image(models.Model):
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),
-                                  unique=True)
-    image = ImageField(upload_to="images/bagni", verbose_name=_("Image"))
-    bagno = models.ForeignKey(Bagno, verbose_name=_("Bagno"))
+                                  unique=True,)
+    image = ImageField(upload_to="images/bagni", verbose_name=_("Image"),)
+    bagno = models.ForeignKey(Bagno, verbose_name=_("Bagno"),)
