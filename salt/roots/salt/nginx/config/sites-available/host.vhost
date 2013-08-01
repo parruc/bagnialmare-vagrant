@@ -90,6 +90,15 @@ server {
     }
 {% endif %}
 
+{% if host.doc %}
+    location /doc/ {
+        gzip_static on;
+        gzip_disable "MSIE [1-6]\.(?!.*SV1)";
+        gzip_types application/x-javascript text/css;
+        root {{ host.web }};
+    }
+{% endif %}
+
     # location = / { rewrite ^ /i18n/setlang/ permanent; }
     location / {
         include uwsgi_params;

@@ -16,3 +16,4 @@ nginx:
             analitycs_id: ''
             media: '/var/www/ombrelloni.it/web/media'
             static: '/var/www/ombrelloni.it/web/static'
+            doc: '/var/www/ombrelloni.it/web/doc'
