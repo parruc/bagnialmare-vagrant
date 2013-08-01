@@ -36,16 +36,29 @@ class Bagno(models.Model):
         return self.name
 
     def services_ordered_by_category(self):
+        """ Returns the list of services sorted by category.
+            Useful for regoup templatetag in templates to avoid
+            repeted items under different categories
+        """
         return self.services.all().order_by("category")
 
     def index_text(self):
+        """ Text indexed for fulltext search (the what field)
+        """
         elems = (self.name, self.index_services(), self.city)
         return unicode("%s %s %s" % elems)
 
     def index_services(self, sep=" "):
+        """ Returns a string representing all the bagno services separated by
+            the sep varr.
+            Needed to index the services as listid in whoosh and have facets
+        """
         return unicode(sep.join([s.name for s in self.services.all()]))
 
     def index_features(self, sep="#"):
+        """ Returns a dictionary representing the whoosh entry for
+            the current object in the index
+        """
         return dict(id=unicode(self.id),
                     text=self.index_text(),
                     city=unicode(self.city),
@@ -111,6 +124,8 @@ class Service(models.Model):
         return ("service", [self.slug, ])
 
     def get_filtered_search_url(self):
+        """ The search url to activate this (and only this) facet as filter
+        """
         return reverse("search") + "?f=services:" + self.name
 
     def __unicode__(self):
@@ -118,7 +133,8 @@ class Service(models.Model):
 
 
 class Image(models.Model):
-    """
+    """ Model used for the bagno images
+        TODO: inline in admin form of bagno?
     """
     class Meta:
         verbose_name = _('Image')

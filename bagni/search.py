@@ -18,22 +18,33 @@ WHOOSH_SCHEMA = fields.Schema(id=fields.ID(stored=True, unique=True),
 
 
 def create_index(sender=None, **kwargs):
+    """ Creates the index schema (no data at this point)
+    """
     if not os.path.exists(settings.WHOOSH_INDEX):
         os.mkdir(settings.WHOOSH_INDEX)
         return index.create_in(settings.WHOOSH_INDEX, schema=WHOOSH_SCHEMA)
 
 
 def delete_index(sender=None, **kwargs):
+    """ Deletes the index schema and eventually the contained data
+    """
     if os.path.exists(settings.WHOOSH_INDEX):
         shutil.rmtree(settings.WHOOSH_INDEX)
 
 
 def recreate_index(sender=None, **kwargs):
+    """ Deletes the index schema and eventually the contained data
+        and rebuilds the index schema (no data at this point)
+    """
     delete_index(sender=sender, **kwargs)
     create_index(sender=sender, **kwargs)
 
 
 def update_index(sender, **kwargs):
+    """ Adds/updates an entry in the index. It's connected with
+        the post_save signal of the Object objects so will automatically
+        index every new or modified Object
+    """
     ix = index.open_dir(settings.WHOOSH_INDEX)
     writer = ix.writer()
     obj = kwargs['instance']
@@ -47,6 +58,9 @@ signals.post_save.connect(update_index, sender=Bagno)
 
 
 def recreate_data(sender=None, **kwargs):
+    """ Readds all the Object in the index. If they already exists
+        will be duplicated
+    """
     ix = index.open_dir(settings.WHOOSH_INDEX)
     writer = ix.writer()
     for obj in Bagno.objects.all():
@@ -55,6 +69,9 @@ def recreate_data(sender=None, **kwargs):
 
 
 def recreate_all(sender=None, **kwargs):
+    """ Deletes the schema, creates it back and recreate all the data
+        Good to create from scratch or for schema/data modification
+    """
     recreate_index(sender=sender, **kwargs)
     recreate_data(sender=sender, **kwargs)
 
@@ -62,8 +79,9 @@ signals.post_syncdb.connect(recreate_all)
 
 
 def search(q, filters, groups, query_string, max_facets=10):
-    """Search for a query term and a set o filters
-    Returns a list of hits and the representation of the facets
+    """ Search for a query term and a set o filters
+        Returns a list of hits and the representation of the facets
+        TODO: Finetune of the fuzzy search
     """
     ix = index.open_dir(settings.WHOOSH_INDEX)
     hits = []

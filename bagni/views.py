@@ -13,7 +13,7 @@ from search import search
 
 
 class BagniView(ListView):
-    """View for a list of bagni
+    """ View for a list of bagni
     """
     model = Bagno
 
@@ -23,7 +23,7 @@ class BagniView(ListView):
 
 
 class BagnoView(DetailView):
-    """Detail view for a single bagno
+    """ Detail view for a single bagno
     """
     model = Bagno
 
@@ -33,7 +33,7 @@ class BagnoView(DetailView):
 
 
 class ServiceView(DetailView):
-    """Detail view for a single service
+    """ Detail view for a single service
     """
     model = Service
 
@@ -43,7 +43,7 @@ class ServiceView(DetailView):
 
 
 class CityView(ListView):
-    """Detail view for a single city
+    """ Detail view for a single city
     """
     template_name = "bagni/city.html"
     model = Bagno
@@ -65,7 +65,7 @@ class CityView(ListView):
 
 
 class HomepageView(TemplateView):
-    """Homepage view with search form that points to the SearchView
+    """ Homepage view with search form that points to the SearchView
     """
 
     template_name = "bagni/homepage.html"
@@ -75,10 +75,10 @@ class HomepageView(TemplateView):
 
 
 class SearchView(TemplateView):
-    """Simple search view, which accepts search queries via url, like google.
-    accepts 2 params:
-     * q is the full text query
-     * f is the list of active filters narrowing the search
+    """ Search view, which accepts search queries via url, like google.
+        accepts 2 params:
+        * q is the full text query
+        * f is the list of active filters narrowing the search
     """
 
     template_name = "bagni/search.html"
@@ -130,8 +130,8 @@ class SearchView(TemplateView):
 
 
 class BenveView(ListView):
-    """Simple view for Service listing everyone with his bagni
-    Will soon be removed
+    """ Simple view for Service listing everyone with his bagni
+        TODO: Will soon be removed
     """
     template_name = "bagni/benve.html"
     model = Service
