@@ -1,4 +1,5 @@
 *.pyc
+*.mo
 scripts/scraping/html_dump/*.html
 doc/_*
 ombrelloni/whoosh_index
