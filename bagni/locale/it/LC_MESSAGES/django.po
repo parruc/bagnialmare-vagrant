@@ -176,7 +176,7 @@ msgstr "Chi siamo"
 
 #: bagni/templates/bagni/homepage.html:41
 msgid "Contacts"
-msgstr "Conttti"
+msgstr "Contatti"
 
 #: bagni/templates/bagni/homepage.html:50
 msgid "Homepage"
