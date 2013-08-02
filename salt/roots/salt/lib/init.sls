@@ -2,6 +2,7 @@ lib_reqs:
     pkg:
         - installed
         - names:
+            - gettext
             - libjpeg8
             - libjpeg8-dev
             - libxml2

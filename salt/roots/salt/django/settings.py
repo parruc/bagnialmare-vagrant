@@ -57,10 +57,12 @@ TIME_ZONE = 'Europe/Rome'
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = 'it' #default lnguage?!?
 
-LANGUAGES = [
-    ('en', 'English'),
-    ('it', 'Italiano'),
-]
+gettext = lambda s: s
+
+LANGUAGES = (
+    ('en', gettext('English')),
+    ('it', gettext('Italiano')),
+)
 
 SITE_ID = 1
 
