@@ -83,13 +83,13 @@
                             </div>
                             {% if hit.services.all %}
                                 {% regroup hit.services_ordered_by_category by get_category_display as categorized_services %}
-                                <h2>{% trans Services %}</h2>
+                                <h2>{% trans "Services" %}</h2>
                                 <ul>
                                 {% for categorized_service in categorized_services %}
-                                    <li>{{ categorized_service.grouper }}
+                                    <li>{% trans categorized_service.grouper %}
                                     <ul>
                                         {% for service in categorized_service.list %}
-                                          <li>{{ service.name }}</li>
+                                          <li>{% trans service.name %}</li>
                                         {% endfor %}
                                     </ul>
                                     </li>
