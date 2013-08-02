@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 {% load i18n compress %}
-
+{% load url from future %}
 <html xmlns="http://www.w3.org/1999/xhtml" lang="{{LANGUAGE_CODE}}" xml:lang="{{LANGUAGE_CODE}}">
     <head>
     <meta name="robots" content="{% block robot %}index follow{% endblock %}" />
@@ -42,6 +42,21 @@
                             {% endfor %}
                         </div>
                     {% endif %}
+                    <form action="{% url 'django.views.i18n.set_language' %}" method="post"
+                        class="navbar-form pull-right">
+                        {% csrf_token %}
+                        <ul id="languages" class="nav">
+                            {% for lang in LANGUAGES %}
+                                {% ifnotequal lang.0 LANGUAGE_CODE %}
+                                    <li>
+                                        <button name="language" type="submit" class="btn btn-link" value="{{ lang.0 }}">
+                                            <img src="{{ STATIC_URL }}img/flag_{{ lang.0 }}.png" alt="{{ lang.1 }}" />
+                                        </button>
+                                    </li>
+                                {% endifnotequal %}
+                            {% endfor %}
+                       </ul>
+                    </form>
                     <h1 id="content-title">{% block title %}{% endblock %}</h1>
                     <div id="content-body">{% block main_content %}{% endblock %}</div>
                 </div>
