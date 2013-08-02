@@ -109,9 +109,7 @@
                             {% endif %}
 
                             <span class="current">
-                                {% blocktrans with num_pages=hits.paginator.num_pages page=hits.number %}
-                                    Page {{ page }} of {{ num_pages }}.
-                                {% endblocktrans %}
+                                {% blocktrans with num_pages=hits.paginator.num_pages page=hits.number %}Page {{ page }} of {{ num_pages }}.{% endblocktrans %}
                             </span>
 
                             {% if hits.has_next %}

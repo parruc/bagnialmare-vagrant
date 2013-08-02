@@ -8,7 +8,7 @@
         {% for bagno in bagni %}
             <li><a href="{{ bagno.get_absolute_url }}">{{ bagno.name }}</a></li>
         {% empty %}
-            <li>{% trans "Nessun bagno ha questo servizio" %}</li>
+            <li>{% trans "No bagno has this service" %}</li>
         {% endfor %}
         </ul>
     {% endwith %}
