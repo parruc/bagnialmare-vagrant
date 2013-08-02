@@ -32,7 +32,7 @@
                     {% if facet_values.active or facet_values.available %}
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3>{{ facet_title }}</h3>
+                                <h3>{% trans facet_title %}</h3>
                             </div>
                             {% for facet in facet_values.active %}
                                 {% if forloop.first %}
@@ -40,7 +40,7 @@
                                     <ul class="list-group active">
                                 {% endif %}
                                 <li class="list-group-item">
-                                    <a href="?{{ facet.url }}">{{ facet.name }}</a>
+                                    <a href="?{{ facet.url }}">{% trans facet.name %}</a>
                                 </li>
                                 {% if forloop.last %}
                                     </ul>
