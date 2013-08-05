@@ -11,6 +11,6 @@ pg:
         test_ombrelloni:
             name: 'test_ombrelloni'
             geo: True
-            owner: 'ombrelloni_tester'
+            owner: 'test_ombrelloni'
             pass: 'z?;YQcg-{*aL;ZZHeS"m9gJ}>c;d[m,aGD;e9y3a'
             can_create: True
