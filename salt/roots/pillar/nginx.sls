@@ -1,3 +1,4 @@
+{% set dev = grains['configuration'] in ['local', 'dev'] %}
 nginx:
     hosts:
         ombrelloni:
@@ -16,4 +17,7 @@ nginx:
             analitycs_id: ''
             media: '/var/www/ombrelloni.it/web/media'
             static: '/var/www/ombrelloni.it/web/static'
+            {% if dev %}
+            coverage: '/var/www/ombrelloni.it/web/coverage'
             doc: '/var/www/ombrelloni.it/web/doc'
+            {% endif %}

@@ -9,6 +9,10 @@ django:
             db_port: '5432'
         {% if dev %}
             debug: 'True'
+            coverage_command: './unittests'
+            doc_command: 'make html'
+            coverage_path: '/var/www/ombrelloni.it/django/htmlcov'
+            doc_path: '/var/www/ombrelloni.it/django/doc/_build/html'
         {% else %}
             debug: 'False'
         {% endif %}

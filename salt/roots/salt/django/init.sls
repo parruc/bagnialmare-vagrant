@@ -103,5 +103,30 @@ django_loaddata_{{ django_name }}:
             - file: nginx_{{ django_name }}_static_dir
             - file: django_loaddata_script_{{ django_name }}
 
+{% if django.coverage_command and django.coverage_path %}
+django_coverage_{{ django_name }}:
+    cmd.run:
+        - name: {{ django.coverage_command }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - cwd: {{ django.path }}
+        - require:
+            - git: git_{{ django_name }}
+            - file: django_settings_{{ django_name }}
+            - pip: venv_pip_{{ django_name }}
+{% endif %}
+
+{% if django.doc_command and django.doc_path %}
+django_doc_{{ django_name }}:
+    cmd.run:
+        - name: {{ django.doc_command }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - cwd: {{ django.path }}/doc
+        - require:
+            - git: git_{{ django_name }}
+            - file: django_settings_{{ django_name }}
+{% endif %}
+
 {% endfor %}
 

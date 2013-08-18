@@ -20,6 +20,7 @@ nginx_remove_default:
 
 {% for host_name, host in pillar['nginx'].hosts.iteritems() %}
 {% set user = pillar['users'][host_name] %}
+{% set django = pillar['django'].djangos[host_name] %}
 
 nginx_{{ host_name }}_error_pages:
     file.recurse:
@@ -81,6 +82,32 @@ nginx_{{ host_name }}_static_dir:
         - require:
             - file: user_with_home_{{ host_name }}
             - pkg: nginx_reqs
+{% endif %}
+
+{% if host.doc %}
+nginx_{{ host_name }}_doc_dir:
+    file.symlink:
+        - name: {{ host.doc }}
+        - target: {{ django.doc_path }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - force: True
+        - makedirs: True
+        - require:
+            - cmd: django_doc_{{ host_name }}
+{% endif %}
+
+{% if host.coverage %}
+nginx_{{ host_name }}_coverage_dir:
+    file.symlink:
+        - name: {{ host.coverage }}
+        - target: {{ django.coverage_path }}
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - force: True
+        - makedirs: True
+        - require:
+            - cmd: django_coverage_{{ host_name }}
 {% endif %}
 
 nginx_site_{{ host_name }}:
