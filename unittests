@@ -1,1 +1,1 @@
-python manage.py test bagni --settings=ombrelloni.test
+coverage run  manage.py test bagni --settings=ombrelloni.settings_test

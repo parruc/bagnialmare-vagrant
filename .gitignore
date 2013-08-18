@@ -2,6 +2,8 @@
 *.mo
 scripts/scraping/html_dump/*.html
 doc/_*
+.coverage
+htmlcov
 ombrelloni/whoosh_index
 ombrelloni/settings.py
 ombrelloni/settings_test.py
