@@ -4,6 +4,6 @@ scripts/scraping/html_dump/*.html
 doc/_*
 ombrelloni/whoosh_index
 ombrelloni/settings.py
-ombrelloni/test.py
+ombrelloni/settings_test.py
 uwsgi.ini
 wsgi.py
