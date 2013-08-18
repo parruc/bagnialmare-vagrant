@@ -4,4 +4,4 @@ git:
             name: 'ombrelloni'
             url: 'git@bitbucket.org:flyingfrog/4hm.git'
             path: '/var/www/ombrelloni.it/django'
-#            rev: 'master'
+            rev: 'master'

@@ -79,7 +79,7 @@ git_{{ repo_name }}:
     git.latest:
         - name: {{ repo.url }}
 {% if 'rev' in repo %}
-        - rev: {{ repo.branch }}
+        - rev: {{ repo.rev }}
 {% endif %}
         - target: {{ repo.path }}
         - runas: {{ user.name }}
