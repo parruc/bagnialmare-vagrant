@@ -35,4 +35,5 @@ venv:
             {% if dev %}
                 - django-debug-toolbar
                 - uwsgitop
+                - coverage==3.6
             {% endif %}
