@@ -99,7 +99,7 @@ django_loaddata_{{ django_name }}:
         - group: {{ user.group }}
         - require:
             - file: django_settings_{{ django_name }}
-            - file: django_settings_test{{ django_name }}
+            - file: django_settings_test_{{ django_name }}
             - file: nginx_{{ django_name }}_static_dir
             - file: django_loaddata_script_{{ django_name }}
 
