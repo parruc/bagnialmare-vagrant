@@ -17,7 +17,8 @@ class Bagno(models.Model):
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),
-                                  unique=True)
+                                  unique=True,
+                                  editable=True,)
     number = models.CharField(max_length=15, blank=True)
     services = models.ManyToManyField("Service", blank=True)
     address = models.CharField(max_length=100, blank=True)
@@ -112,7 +113,8 @@ class Service(models.Model):
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),
-                                  unique=True,)
+                                  unique=True,
+                                  editable=True,)
     category = models.CharField(max_length=50,
                                 blank=True,
                                 choices=SERVICE_CATEGORIES,
@@ -144,6 +146,7 @@ class Image(models.Model):
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),
-                                  unique=True,)
+                                  unique=True,
+                                  editable=True,)
     image = ImageField(upload_to="images/bagni", verbose_name=_("Image"),)
     bagno = models.ForeignKey(Bagno, verbose_name=_("Bagno"),)

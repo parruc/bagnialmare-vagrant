@@ -9,7 +9,7 @@ translator.register(Bagno, BagnoTranslationOptions)
 
 
 class ServiceTranslationOptions(TranslationOptions):
-    fields = ('name', 'category', 'slug',)
+    fields = ('name', 'slug',)
 
 translator.register(Service, ServiceTranslationOptions)
 
