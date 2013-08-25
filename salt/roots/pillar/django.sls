@@ -25,6 +25,7 @@ django:
                 - 'django.contrib.admin'
                 - 'django.contrib.admindocs'
                 - 'django.contrib.gis'
+                - 'modeltranslation'
                 - 'south'
                 - 'autoslug'
                 - 'sorl.thumbnail'

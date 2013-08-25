@@ -8,3 +8,4 @@
 {{ venv.path }}/bin/python manage.py import_bagni
 {{ venv.path }}/bin/python manage.py collectstatic -l --noinput
 {{ venv.path }}/bin/python manage.py compilemessages
+{{ venv.path }}/bin/python manage.py sync_translation_fields --noinput

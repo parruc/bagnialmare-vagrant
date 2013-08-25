@@ -14,6 +14,8 @@ venv:
                 - 'Sphinx==1.2b1'
                 - 'argparse==1.2.1'
                 - 'django-autoslug==1.6.1'
+                - 'django-modeltranslation'
+                - '--editable=git+https://github.com/deschler/django-modeltranslation@fdc075669826494f4b426af89bac440ee11be3d7#egg=modeltranslation'
                 - 'docutils==0.10'
                 - '--editable=hg+https://bitbucket.org/mchaput/whoosh#egg=Whoosh'
                 - 'ipdb==0.7'

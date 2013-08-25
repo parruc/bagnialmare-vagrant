@@ -7,7 +7,7 @@ nginx_reqs:
 nginx_service:
     service.running:
         - name: nginx
-        - enabled: True
+        - enable: True
         - require:
             - pkg: nginx_reqs
             - user: user_nginx
