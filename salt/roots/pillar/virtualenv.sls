@@ -18,8 +18,6 @@ venv:
                 - '--editable=git+https://github.com/deschler/django-modeltranslation@fdc075669826494f4b426af89bac440ee11be3d7#egg=modeltranslation'
                 - 'docutils==0.10'
                 - '--editable=hg+https://bitbucket.org/mchaput/whoosh#egg=Whoosh'
-                - 'ipdb==0.7'
-                - 'ipython==0.13.2'
                 - 'lxml==3.2.1'
                 - 'paramiko==1.10.1'
                 - 'psycopg2==2.5'
@@ -35,6 +33,8 @@ venv:
                 - 'jsmin'
                 - 'geopy'
             {% if dev %}
+                - 'ipdb==0.7'
+                - 'ipython==0.13.2'
                 - django-debug-toolbar
                 - uwsgitop
                 - coverage==3.6
