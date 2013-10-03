@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
 
     # SALT STACK PROVISIONING
     ## For masterless, mount your salt file root
-    config.vm.synced_folder "salt/roots", "/srv"
+    config.vm.synced_folder "salt/roots", "/srv/"
     # config.vm.synced_folder "./development", "/var/www/"
     ## Use all the defaults:
     config.vm.provision :salt do |salt|
