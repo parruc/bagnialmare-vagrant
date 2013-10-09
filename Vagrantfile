@@ -22,8 +22,7 @@ Vagrant.configure("2") do |config|
     # config.vm.synced_folder "./development", "/var/www/"
     ## Use all the defaults:
     config.vm.provision :salt do |salt|
-        salt.install_type = "git"
-        salt.install_args  = "0.16"
+        salt.install_type = "stable"
         salt.verbose = true
         salt.run_highstate = true
         ## Optional Settings:
