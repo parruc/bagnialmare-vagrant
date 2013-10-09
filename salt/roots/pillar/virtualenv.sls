@@ -14,10 +14,9 @@ venv:
                 - 'Sphinx==1.2b1'
                 - 'argparse==1.2.1'
                 - 'django-autoslug==1.6.1'
-                - 'django-modeltranslation'
-                - '--editable=git+https://github.com/deschler/django-modeltranslation@fdc075669826494f4b426af89bac440ee11be3d7#egg=modeltranslation'
+                - --editable=git+https://github.com/deschler/django-modeltranslation#egg=modeltranslation'
                 - 'docutils==0.10'
-                - '--editable=hg+https://bitbucket.org/mchaput/whoosh#egg=Whoosh'
+                - 'whoosh==2.5.4'
                 - 'lxml==3.2.1'
                 - 'paramiko==1.10.1'
                 - 'psycopg2==2.5'
@@ -28,14 +27,16 @@ venv:
                 - 'uWSGI==1.9.13'
                 - 'wsgiref==0.1.2'
                 - 'Paste==1.7.5.1'
-                - 'django_compressor'
-                - 'cssmin'
-                - 'jsmin'
-                - 'geopy'
+                - 'django_compressor==1.3'
+                - 'cssmin==0.1.4'
+                - 'jsmin==2.0.4'
+                - 'geopy==0.95.1'
             {% if dev %}
                 - 'ipdb==0.7'
                 - 'ipython==0.13.2'
-                - django-debug-toolbar
-                - uwsgitop
-                - coverage==3.6
+                - 'django-debug-toolbar==0.9.4'
+                - 'uwsgitop==0.6.2'
+                - 'coverage==3.6'
             {% endif %}
+
+{# KEEP FOR REFERENCE: TO ADD THIRD PARTY PACKAGES IN DEV MODE --editable=hg+https://bitbucket.org/mchaput/whoosh#egg=Whoosh #}

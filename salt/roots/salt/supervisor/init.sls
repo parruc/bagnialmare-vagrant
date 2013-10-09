@@ -26,7 +26,7 @@ sup_conf_{{ sup_name }}:
         - user: root
         - group: root
         - template: jinja
-        - context:
+        - defaults:
             sup: {{ sup }}
             sup_name: {{ sup_name }}
             django: {{ django }}

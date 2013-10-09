@@ -7,6 +7,7 @@ git_reqs:
 {% for repo_name, repo in pillar['git'].repos.iteritems() %}
 {% set user = pillar['users'][repo_name] %}
 
+
 git_ssh_folder_{{ repo_name }}:
     file.directory:
         - name: {{ user.home_path }}/.ssh
@@ -75,33 +76,35 @@ known_github_{{ repo_name }}:
             - file: user_with_home_{{ repo_name }}
             - file: known_hosts_{{ repo_name }}
 
-git_{{ repo_name }}:
+git_checkout_{{ repo_name }}:
     git.latest:
         - name: {{ repo.url }}
-{% if 'rev' in repo %}
-        - rev: {{ repo.rev }}
-{% endif %}
         - target: {{ repo.path }}
-        - runas: {{ user.name }}
-        - identity: {{ user.home_path }}/.ssh/id_rsa
-        - force: True
-        - require:
-            - cmd: git_upstream_{{repo_name}}
-
-git_upstream_{{repo_name}}:
-    cmd.run:
-{% if 'rev' in repo %}
-        - name: git branch --set-upstream master origin/master
-{% else %}
-        - name: git branch --set-upstream master origin/{{ repo.rev }}
-{% endif %}
         - user: {{ user.name }}
-        - cwd: {{ repo.path }}
-        - onlyif: git status {{ repo.path }}
+        - identity: {{ user.home_path }}/.ssh/id_rsa
         - require:
             - pkg: git_reqs
             - file: git_key_{{ repo_name }}
             - ssh_known_hosts: known_bitbucket_{{ repo_name }}
             - ssh_known_hosts: known_github_{{ repo_name }}
+            
+
+git_upstream_{{repo_name}}:
+    cmd.run:
+        - name: git branch --set-upstream master origin/{{ repo.rev }}
+        - user: {{ user.name }}
+        - cwd: {{ repo.path }}
+        - require:
+            - git: git_checkout_{{ repo_name }}
+            
+            
+git_{{ repo_name }}:
+    git.latest:
+        - name: {{ repo.url }}
+        - target: {{ repo.path }}
+        - user: {{ user.name }}
+        - identity: {{ user.home_path }}/.ssh/id_rsa
+        - require:
+            - cmd: git_upstream_{{repo_name}}
 
 {% endfor %}

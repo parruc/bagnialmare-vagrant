@@ -22,7 +22,7 @@ uwsgi_conf_{{ uwsgi_name }}:
         - replace: True
         - makedirs: True
         - template: jinja
-        - context:
+        - defaults:
             uwsgi_name: {{ uwsgi_name }}
             uwsgi: {{ uwsgi }}
             user: {{ user }}

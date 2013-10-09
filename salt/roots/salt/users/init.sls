@@ -27,8 +27,8 @@ user_{{ user_name }}:
         - name: {{ user.name }}
         - password: {{ user.pass }}
         - home: {{ user.home_path }}
-        - groups:
-            - {{ user.group }}
+        - createhome: False
+        - gid: {{ user.group }}
         - shell: /bin/bash
         - system: True
         - require:
@@ -72,8 +72,7 @@ user_{{ user_name }}:
     user.present:
         - name: {{ user.name }}
         - password: {{ user.pass }}
-        - groups:
-            - {{ user.group }}
+        - gid: {{ user.group }}
         - shell: /bin/bash
         - system: True
         - require:

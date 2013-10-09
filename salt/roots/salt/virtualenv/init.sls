@@ -24,7 +24,7 @@ venv_{{ venv_name }}:
         - name: {{ venv.path }}
         - no_site_packages: True
         - python: python2.7
-        - runas: {{ user.name }}
+        - user: {{ user.name }}
         - require:
             - pkg: lib_reqs
             - pkg: venv_reqs

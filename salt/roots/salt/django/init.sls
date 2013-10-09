@@ -1,6 +1,5 @@
 {% for django_name, django in pillar['django'].djangos.iteritems() %}
 {% set user = pillar['users'][django_name] %}
-{% set tester = pillar['users']["test_" + django_name] %}
 {% set host = pillar['nginx'].hosts[django_name] %}
 {% set db = pillar['pg'].dbs[django_name] %}
 {% set test_db = pillar['pg'].dbs["test_" + django_name] %}
@@ -16,7 +15,7 @@ django_wsgi_{{ django_name }}:
         - makedirs: True
         - replace: True
         - template: jinja
-        - context:
+        - defaults:
             django: {{ django }}
             django_name: {{ django_name }}
             host: {{ host }}
@@ -35,7 +34,7 @@ django_settings_{{ django_name }}:
         - makedirs: True
         - replace: True
         - template: jinja
-        - context:
+        - defaults:
             django: {{ django }}
             django_name: {{ django_name }}
             db: {{ db }}
@@ -54,7 +53,7 @@ django_settings_test_{{ django_name }}:
         - makedirs: True
         - replace: True
         - template: jinja
-        - context:
+        - defaults:
             db: {{ test_db }}
         - require:
             - virtualenv: venv_{{ django_name }}
@@ -81,7 +80,7 @@ django_loaddata_script_{{ django_name }}:
         - makedirs: True
         - replace: True
         - template: jinja
-        - context:
+        - defaults:
             django: {{ django }}
             django_name: {{ django_name }}
             venv: {{ venv }}
@@ -93,7 +92,7 @@ django_loaddata_script_{{ django_name }}:
 django_loaddata_{{ django_name }}:
     cmd.run:
         - name: /tmp/prepare_data.sh
-        #- unless:
+        {#- unless:#}
         - user: {{ user.name }}
         - cwd: {{ django.path }}
         - group: {{ user.group }}

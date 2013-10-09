@@ -31,7 +31,7 @@ nginx_{{ host_name }}_error_pages:
         - file_mode: 644
         - dir_mode: 755
         - template: jinja
-        - context:
+        - defaults:
             host: {{ host }}
         - makedirs: True
         - replace: True
@@ -115,7 +115,7 @@ nginx_site_{{ host_name }}:
         - name: /etc/nginx/sites-available/{{ host_name }}.vhost
         - source: salt://nginx/config/sites-available/host.vhost
         - template: jinja
-        - context:
+        - defaults:
             host: {{ host }}
             host_name: {{ host_name }}
         - user: root
