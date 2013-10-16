@@ -14,7 +14,7 @@ venv:
                 - 'Sphinx==1.2b1'
                 - 'argparse==1.2.1'
                 - 'django-autoslug==1.6.1'
-                - --editable=git+https://github.com/deschler/django-modeltranslation#egg=modeltranslation'
+                - 'git+https://github.com/deschler/django-modeltranslation.git#egg=django-modeltranslation'
                 - 'docutils==0.10'
                 - 'whoosh==2.5.4'
                 - 'lxml==3.2.1'
@@ -29,7 +29,7 @@ venv:
                 - 'Paste==1.7.5.1'
                 - 'django_compressor==1.3'
                 - 'cssmin==0.1.4'
-                - 'jsmin==2.0.4'
+                - 'jsmin==2.0.6'
                 - 'geopy==0.95.1'
             {% if dev %}
                 - 'ipdb==0.7'

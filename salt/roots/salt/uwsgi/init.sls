@@ -24,11 +24,6 @@ uwsgi_conf_{{ uwsgi_name }}:
         - template: jinja
         - defaults:
             uwsgi_name: {{ uwsgi_name }}
-            uwsgi: {{ uwsgi }}
-            user: {{ user }}
-            host: {{ host }}
-            django: {{ django }}
-            venv: {{ venv }}
         - require:
             - git: git_{{ uwsgi_name }}
             - file: user_with_home_{{ uwsgi_name }}

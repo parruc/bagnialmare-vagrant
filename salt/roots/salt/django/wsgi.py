@@ -1,6 +1,9 @@
 import os
 import sys
 
+{% set django = pillar['django'].djangos[django_name] %}
+{% set host = pillar['nginx'].hosts[django_name] %}
+
 sys.stdout = sys.stderr
 sys.path.append('{{ django.path}}/')
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "{{ django.settings }}")

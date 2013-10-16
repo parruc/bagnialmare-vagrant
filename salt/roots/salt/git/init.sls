@@ -59,8 +59,8 @@ known_hosts_{{ repo_name }}:
 known_bitbucket_{{ repo_name }}:
     ssh_known_hosts.present:
         - name: bitbucket.org
-        - user: {{ user.name }}
         - config: {{ user.home_path }}/.ssh/known_hosts
+        - user: {{ user.name }}
         - fingerprint: 97:8c:1b:f2:6f:14:6b:5c:3b:ec:aa:46:46:74:7c:40
         - require:
             - file: user_with_home_{{ repo_name }}
@@ -81,10 +81,11 @@ git_checkout_{{ repo_name }}:
         - name: {{ repo.url }}
         - target: {{ repo.path }}
         - user: {{ user.name }}
-        - identity: {{ user.home_path }}/.ssh/id_rsa
+        - force: True
         - require:
             - pkg: git_reqs
             - file: git_key_{{ repo_name }}
+            - file: git_pub_key_{{ repo_name }}
             - ssh_known_hosts: known_bitbucket_{{ repo_name }}
             - ssh_known_hosts: known_github_{{ repo_name }}
             

@@ -1,3 +1,5 @@
+{% set host = pillar['nginx'].hosts[host_name] %}
+
 server {
     listen *:80;
 

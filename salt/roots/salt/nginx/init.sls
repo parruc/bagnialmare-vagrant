@@ -32,7 +32,7 @@ nginx_{{ host_name }}_error_pages:
         - dir_mode: 755
         - template: jinja
         - defaults:
-            host: {{ host }}
+            analitycs_id: {{ host.analitycs_id }}
         - makedirs: True
         - replace: True
         - require:
@@ -116,7 +116,6 @@ nginx_site_{{ host_name }}:
         - source: salt://nginx/config/sites-available/host.vhost
         - template: jinja
         - defaults:
-            host: {{ host }}
             host_name: {{ host_name }}
         - user: root
         - group: root

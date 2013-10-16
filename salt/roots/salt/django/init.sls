@@ -1,9 +1,7 @@
 {% for django_name, django in pillar['django'].djangos.iteritems() %}
 {% set user = pillar['users'][django_name] %}
 {% set host = pillar['nginx'].hosts[django_name] %}
-{% set db = pillar['pg'].dbs[django_name] %}
-{% set test_db = pillar['pg'].dbs["test_" + django_name] %}
-{% set venv = pillar['venv'].venvs[django_name] %}
+
 
 django_wsgi_{{ django_name }}:
     file.managed:
@@ -16,10 +14,9 @@ django_wsgi_{{ django_name }}:
         - replace: True
         - template: jinja
         - defaults:
-            django: {{ django }}
             django_name: {{ django_name }}
-            host: {{ host }}
         - require:
+            - git: git_checkout_{{ django_name }}
             - virtualenv: venv_{{ django_name }}
             - file: user_with_home_{{ django_name }}
             - file: django_logs_{{ django_name }}
@@ -35,11 +32,9 @@ django_settings_{{ django_name }}:
         - replace: True
         - template: jinja
         - defaults:
-            django: {{ django }}
             django_name: {{ django_name }}
-            db: {{ db }}
-            host: {{ host }}
         - require:
+            - git: git_checkout_{{ django_name }}
             - virtualenv: venv_{{ django_name }}
             - file: user_with_home_{{ django_name }}
 
@@ -54,8 +49,9 @@ django_settings_test_{{ django_name }}:
         - replace: True
         - template: jinja
         - defaults:
-            db: {{ test_db }}
+            django_name: {{ django_name }}
         - require:
+            - git: git_checkout_{{ django_name }}
             - virtualenv: venv_{{ django_name }}
             - file: user_with_home_{{ django_name }}
 
@@ -81,12 +77,11 @@ django_loaddata_script_{{ django_name }}:
         - replace: True
         - template: jinja
         - defaults:
-            django: {{ django }}
             django_name: {{ django_name }}
-            venv: {{ venv }}
         - require:
             - file: user_with_home_{{ django_name }}
             - virtualenv: venv_{{ django_name }}
+            - service: postgres_service
             - git: git_{{ django_name }}
 
 django_loaddata_{{ django_name }}:

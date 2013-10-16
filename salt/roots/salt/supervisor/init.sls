@@ -16,8 +16,6 @@ sup_service:
 {% for sup_name, sup in pillar['sup'].sups.iteritems() %}
 {% set host = pillar['nginx'].hosts[sup_name] %}
 {% set user = pillar['users'][sup_name] %}
-{% set django = pillar['django'].djangos[sup_name] %}
-{% set venv = pillar['venv'].venvs[sup_name] %}
 
 sup_conf_{{ sup_name }}:
     file.managed:
@@ -27,11 +25,7 @@ sup_conf_{{ sup_name }}:
         - group: root
         - template: jinja
         - defaults:
-            sup: {{ sup }}
             sup_name: {{ sup_name }}
-            django: {{ django }}
-            host: {{ host }}
-            venv: {{ venv }}
         - file_mode: 640
         - replace: True
         - makedirs: True

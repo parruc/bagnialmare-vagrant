@@ -26,8 +26,6 @@ postgresql_conf:
         - source: salt://postgres/postgresql.conf
         - name: /etc/postgresql/9.1/main/postgresql.conf
         - template: jinja
-        - context:
-            pg: {{ pillar['pg'] }}
         - user: {{ user.name }}
         - group: {{ user.group }}
         - mode: 644
