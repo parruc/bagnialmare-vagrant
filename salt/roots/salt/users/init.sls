@@ -46,6 +46,17 @@ user_with_home_{{ user_name }}:
         - require:
             - user: user_{{ user_name }}
 
+bashrc_{{ user_name }}:
+    file.managed:
+        - name: {{ user.home_path }}/.bashrc
+        - source: salt://users/.bashrc
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - file_mode: 640
+        - replace: True
+        - makedirs: True
+        - require:
+            - file: user_with_home_{{ user_name }}
 
 bash_profile_{{ user_name }}:
     file.managed:

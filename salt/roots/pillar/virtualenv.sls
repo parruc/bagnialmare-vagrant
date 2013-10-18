@@ -32,6 +32,7 @@ venv:
                 - 'jsmin==2.0.6'
                 - 'geopy==0.95.1'
             {% if dev %}
+                - 'factory-boy==2.2.1'
                 - 'ipdb==0.7'
                 - 'ipython==0.13.2'
                 - 'django-debug-toolbar==0.9.4'
