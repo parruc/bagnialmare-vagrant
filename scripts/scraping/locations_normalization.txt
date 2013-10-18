@@ -1,0 +1,77 @@
+tagliata 
+coords primo bagno(a sud): 44.224725, 12.383232
+coords ultimo bagno: 44.227838, 12.380867
+
+pinarella
+44.233331, 12.376825
+44.246483, 12.368286
+span lat = 0.013152 span lon = 0.008539
+ipotenusa: 0.000347741  
+numero aree demaniali = 72 (primo bagno = 59, ultimo bagno = 131, non fare il tot dei bagni ma usare il loro numero, perche alcune aree demaniali sono empty) 
+incremento lat per bagno = span lat / 72 = 0.000118597222
+incremento lon per bagno = span lon / 72 = 0.000178611111
+
+cervia
+44.24885, 12.366655
+44.266162, 12.357976
+
+milano marittima
+44.26848, 12.357242
+44.299896,12.347386
+
+Tagliata
+44.224659,12.383318
+44.227857,12.380749
+
+Riccione
+43.986385, 12.688859
+44.024136,12.63243
+
+totale bagni: 982
+
+Mancano i bagni di Bellaria, Gatteo, San mauro a mare, Misano e Cattolica  (sono tutti comuni quindi non sono sotto cesenatico ne rimini)
+
+
+Tagliata 8  (di Cervia)
+CasalBorsetti 2 (Casal Borsetti)
+torre pedrera 19 ( di/- Rimini)
+Cervia 53
+viserba 13 (di/- Rimini)
+miramare 17 (di/- Rimini)
+bellariva 13 (di/- Rimini)
+Rimini 3 
+rivazzurra 22 (di/- Rimini)
+Cesenatico Ponente 19  (Cesenatico)
+Cesenatico Valverde 27 (Valverde di Cesenatico)
+Casalborsetti 1 (Casal Borsetti)
+Punta Marina Terme 40
+Lido di Volano 16 (Ferrara)
+Lido degli Estensi 28 (Ferrara)
+Porto Garibaldi 19 (Ferrara)
+Marina Romea 25
+rivabella 10 (di/- Rimini)
+Porto Corsini 5
+Casal Borsetti 10 (Casal Borsetti)
+Cesenatico Centro 48 (Cesenatico)
+marebello 12 di/-
+Lido degli Scacchi 11 (Ferrara)
+Lido di Classe 16
+Marina di Ravenna 41
+Cesenatico Villamarina 16 (Villamarina di Cesenatico)
+viserbella 13 (di/- Rimini)
+Lido di Dante 4
+Cesenatico Zadina 12 (Zadina di Cesenatico)
+marina centro 79  (Rimini)
+Milano Marittima 82
+Punta Marina terme 1
+Lido Adriano 19
+Lido di Spina 34  (Ferrara)
+Lido di Savio 36
+no_city 1   ???????????
+Pinarella 46 (Pinarella di Cervia)
+Riccione 131
+Lido di Pomposa 11 (Ferrara)
+san giuliano 1 (Rimini)
+Lido delle Nazioni 18 (Ferrara)
+
+
