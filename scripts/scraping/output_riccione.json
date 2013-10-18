@@ -1,1189 +1,1713 @@
 [
     {
-        "address": "Fontanelle Abissinia",
-        "city": "Riccione",
-        "name": "Tilde Virgilio",
+        "address": "Fontanelle Abissinia", 
+        "city": "Riccione", 
+        "coords": [
+            "43.986385", 
+            "12.688859"
+        ], 
+        "name": "Tilde Virgilio", 
         "number": "1"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "347.8889748",
-        "city": "Riccione",
-        "name": "Bagni Cesare Zona 2",
+        "address": "Fontanelle Abissinia", 
+        "cell": "347.8889748", 
+        "city": "Riccione", 
+        "coords": [
+            "43.986635", 
+            "12.6884853"
+        ], 
+        "name": "Bagni Cesare Zona 2", 
         "number": "2"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "city": "Riccione",
-        "mail": "alezona3@alice.it",
-        "name": "Bagni Ale",
-        "number": "3",
-        "site": "http://www.spiaggia3.com",
+        "address": "Fontanelle Abissinia", 
+        "city": "Riccione", 
+        "coords": [
+            "43.986885", 
+            "12.6881116"
+        ], 
+        "mail": "alezona3@alice.it", 
+        "name": "Bagni Ale", 
+        "number": "3", 
+        "site": "http://www.spiaggia3.com", 
         "tel": "0541.613776"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "333.7420935",
-        "city": "Riccione",
-        "fax": "0541.610325",
-        "mail": "info@spiaggia4riccione.com",
-        "name": "Bagni Kico",
-        "number": "4",
+        "address": "Fontanelle Abissinia", 
+        "cell": "333.7420935", 
+        "city": "Riccione", 
+        "coords": [
+            "43.987135", 
+            "12.6877379"
+        ], 
+        "fax": "0541.610325", 
+        "mail": "info@spiaggia4riccione.com", 
+        "name": "Bagni Kico", 
+        "number": "4", 
         "tel": "0541.610325"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "city": "Riccione",
-        "name": "Bagni Mario",
+        "address": "Fontanelle Abissinia", 
+        "city": "Riccione", 
+        "coords": [
+            "43.987385", 
+            "12.6873642"
+        ], 
+        "name": "Bagni Mario", 
         "number": "5"
-    },
+    }, 
     {
-        "address": "Fontanelle/Abissinia",
-        "city": "Riccione",
-        "fax": "0541.612627",
-        "mail": "bagniluca12riccione@alice.it",
-        "name": "Bagni Luca",
-        "number": "12",
+        "address": "Fontanelle/Abissinia", 
+        "city": "Riccione", 
+        "coords": [
+            "43.989135", 
+            "12.6847483"
+        ], 
+        "fax": "0541.612627", 
+        "mail": "bagniluca12riccione@alice.it", 
+        "name": "Bagni Luca", 
+        "number": "12", 
         "tel": "0541.612627"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "city": "Riccione",
-        "name": "Bagni Guerrino",
+        "address": "Fontanelle Abissinia", 
+        "city": "Riccione", 
+        "coords": [
+            "43.990135", 
+            "12.6832535"
+        ], 
+        "name": "Bagni Guerrino", 
         "number": "16"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "city": "Riccione",
-        "name": "Bagni Mario",
-        "number": "17",
+        "address": "Fontanelle Abissinia", 
+        "city": "Riccione", 
+        "coords": [
+            "43.990385", 
+            "12.6828798"
+        ], 
+        "name": "Bagni Mario", 
+        "number": "17", 
         "tel": "0541.614488"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "328.8894582",
-        "city": "Riccione",
-        "name": "Bagni Pedra del Sol",
+        "address": "Fontanelle Abissinia", 
+        "cell": "328.8894582", 
+        "city": "Riccione", 
+        "coords": [
+            "43.990635", 
+            "12.6825061"
+        ], 
+        "name": "Bagni Pedra del Sol", 
         "number": "18"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "338.2351930",
-        "city": "Riccione",
-        "name": "Bagno 19 Beach",
-        "number": "19",
+        "address": "Fontanelle Abissinia", 
+        "cell": "338.2351930", 
+        "city": "Riccione", 
+        "coords": [
+            "43.990885", 
+            "12.6821324"
+        ], 
+        "name": "Bagno 19 Beach", 
+        "number": "19", 
         "tel": "0541.612628"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "(luca)",
-        "city": "Riccione",
-        "mail": "info@bahiantigua20.it",
-        "name": "Bahia Antigua",
+        "address": "Fontanelle Abissinia", 
+        "cell": "(luca)", 
+        "city": "Riccione", 
+        "coords": [
+            "43.991135", 
+            "12.6817587"
+        ], 
+        "mail": "info@bahiantigua20.it", 
+        "name": "Bahia Antigua", 
         "number": "20"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "347.8516008",
-        "city": "Riccione",
-        "name": "Bagni Marco",
+        "address": "Fontanelle Abissinia", 
+        "cell": "347.8516008", 
+        "city": "Riccione", 
+        "coords": [
+            "43.991385", 
+            "12.681385"
+        ], 
+        "name": "Bagni Marco", 
         "number": "21"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "335.7010179",
-        "city": "Riccione",
-        "mail": "info@hoteliberty.com",
-        "name": "Bagni",
-        "number": "22",
+        "address": "Fontanelle Abissinia", 
+        "cell": "335.7010179", 
+        "city": "Riccione", 
+        "coords": [
+            "43.991635", 
+            "12.6810113"
+        ], 
+        "mail": "info@hoteliberty.com", 
+        "name": "Bagni", 
+        "number": "22", 
         "site": "http://www.hoteliberty.com/"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "331.1398546",
-        "city": "Riccione",
-        "mail": "spiaggia23riccione@email.it",
-        "name": "Bagni Malib\u00f9",
+        "address": "Fontanelle Abissinia", 
+        "cell": "331.1398546", 
+        "city": "Riccione", 
+        "coords": [
+            "43.991885", 
+            "12.6806376"
+        ], 
+        "mail": "spiaggia23riccione@email.it", 
+        "name": "Bagni Malib\u00f9", 
         "number": "23"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "city": "Riccione",
-        "fax": "0541.612717",
-        "mail": "info@bagniniriccione.it",
-        "name": "La Spiaggia 25",
-        "number": "25",
-        "site": "http://www.bagniniriccione.it/",
+        "address": "Fontanelle Abissinia", 
+        "city": "Riccione", 
+        "coords": [
+            "43.992385", 
+            "12.6798902"
+        ], 
+        "fax": "0541.612717", 
+        "mail": "info@bagniniriccione.it", 
+        "name": "La Spiaggia 25", 
+        "number": "25", 
+        "site": "http://www.bagniniriccione.it/", 
         "tel": "600483 - 0541.612717"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "338.3233969",
-        "city": "Riccione",
-        "name": "Bagni Giancarlo",
+        "address": "Fontanelle Abissinia", 
+        "cell": "338.3233969", 
+        "city": "Riccione", 
+        "coords": [
+            "43.992635", 
+            "12.6795165"
+        ], 
+        "name": "Bagni Giancarlo", 
         "number": "26"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "335.5320248",
-        "city": "Riccione",
-        "mail": "info@riccione27.com",
-        "name": "Bagni Casali",
-        "number": "27",
+        "address": "Fontanelle Abissinia", 
+        "cell": "335.5320248", 
+        "city": "Riccione", 
+        "coords": [
+            "43.992885", 
+            "12.6791428"
+        ], 
+        "mail": "info@riccione27.com", 
+        "name": "Bagni Casali", 
+        "number": "27", 
         "site": "http://www.riccione27.com"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "338.7793645",
-        "city": "Riccione",
-        "mail": "info@riccionespiaggia28.it",
-        "name": "Bagni Silvano",
-        "number": "28",
-        "site": "http://www.riccionespiaggia28.it/",
+        "address": "Fontanelle Abissinia", 
+        "cell": "338.7793645", 
+        "city": "Riccione", 
+        "coords": [
+            "43.993135", 
+            "12.6787691"
+        ], 
+        "mail": "info@riccionespiaggia28.it", 
+        "name": "Bagni Silvano", 
+        "number": "28", 
+        "site": "http://www.riccionespiaggia28.it/", 
         "tel": "0541.697720"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "333.8083063",
-        "city": "Riccione",
-        "mail": "info@spiaggia29e30riccione.com",
-        "name": "Bagni Nica",
-        "number": "29",
-        "site": "http://www.spiaggia29e30riccione.com/",
+        "address": "Fontanelle Abissinia", 
+        "cell": "333.8083063", 
+        "city": "Riccione", 
+        "coords": [
+            "43.993385", 
+            "12.6783954"
+        ], 
+        "mail": "info@spiaggia29e30riccione.com", 
+        "name": "Bagni Nica", 
+        "number": "29", 
+        "site": "http://www.spiaggia29e30riccione.com/", 
         "winter_tel": "0541.691619"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "333.8083063",
-        "city": "Riccione",
-        "mail": "info@spiaggia29e30riccione.com",
-        "name": "Bagni Lene",
-        "number": "30",
-        "site": "http://www.spiaggia29e30riccione.com/",
+        "address": "Fontanelle Abissinia", 
+        "cell": "333.8083063", 
+        "city": "Riccione", 
+        "coords": [
+            "43.993635", 
+            "12.6780217"
+        ], 
+        "mail": "info@spiaggia29e30riccione.com", 
+        "name": "Bagni Lene", 
+        "number": "30", 
+        "site": "http://www.spiaggia29e30riccione.com/", 
         "winter_tel": "0541.691619"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "333.4216921",
-        "city": "Riccione",
-        "mail": "livregg@tin.it",
-        "name": "Kiki Beach",
+        "address": "Fontanelle Abissinia", 
+        "cell": "333.4216921", 
+        "city": "Riccione", 
+        "coords": [
+            "43.993885", 
+            "12.677648"
+        ], 
+        "mail": "livregg@tin.it", 
+        "name": "Kiki Beach", 
         "number": "31"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "338.3663686",
-        "city": "Riccione",
-        "mail": "spiaggia32riccione@libero.it",
-        "name": "Bagni Secondo",
-        "number": "32",
-        "site": "http://www.spiaggia32riccione.it/",
+        "address": "Fontanelle Abissinia", 
+        "cell": "338.3663686", 
+        "city": "Riccione", 
+        "coords": [
+            "43.994135", 
+            "12.6772743"
+        ], 
+        "mail": "spiaggia32riccione@libero.it", 
+        "name": "Bagni Secondo", 
+        "number": "32", 
+        "site": "http://www.spiaggia32riccione.it/", 
         "winter_tel": "0541.604439"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "339.2971607",
-        "city": "Riccione",
-        "mail": "kitsune_e@libero.it",
-        "name": "Bagni Edo",
-        "number": "33",
-        "site": "http://www.spiaggia33riccione.it/Homepage.htm",
+        "address": "Fontanelle Abissinia", 
+        "cell": "339.2971607", 
+        "city": "Riccione", 
+        "coords": [
+            "43.994385", 
+            "12.6769006"
+        ], 
+        "mail": "kitsune_e@libero.it", 
+        "name": "Bagni Edo", 
+        "number": "33", 
+        "site": "http://www.spiaggia33riccione.it/Homepage.htm", 
         "winter_tel": "0541.605049"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "339.8595250",
-        "city": "Riccione",
-        "name": "Bagni Mario",
-        "number": "34",
-        "tel": "0541.602960",
+        "address": "Fontanelle Abissinia", 
+        "cell": "339.8595250", 
+        "city": "Riccione", 
+        "coords": [
+            "43.994635", 
+            "12.6765269"
+        ], 
+        "name": "Bagni Mario", 
+        "number": "34", 
+        "tel": "0541.602960", 
         "winter_tel": "0541.606295"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "339.5731286",
-        "city": "Riccione",
-        "fax": "0541.607489",
-        "mail": "andrea35beach@libero.it",
-        "name": "Bagni Nemo",
-        "number": "35",
+        "address": "Fontanelle Abissinia", 
+        "cell": "339.5731286", 
+        "city": "Riccione", 
+        "coords": [
+            "43.994885", 
+            "12.6761532"
+        ], 
+        "fax": "0541.607489", 
+        "mail": "andrea35beach@libero.it", 
+        "name": "Bagni Nemo", 
+        "number": "35", 
         "tel": "0541.607489"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "city": "Riccione",
-        "name": "Bagno Novaro",
-        "number": "35/b",
+        "address": "Fontanelle Abissinia", 
+        "city": "Riccione", 
+        "coords": [
+            "43.994885", 
+            "12.6761532"
+        ], 
+        "name": "Bagno Novaro", 
+        "number": "35/b", 
         "tel": "0541.601905"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "336.454521",
-        "city": "Riccione",
-        "name": "Bagni Romano",
-        "number": "36",
+        "address": "Fontanelle Abissinia", 
+        "cell": "336.454521", 
+        "city": "Riccione", 
+        "coords": [
+            "43.995135", 
+            "12.6757795"
+        ], 
+        "name": "Bagni Romano", 
+        "number": "36", 
         "tel": "0541.606618"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "city": "Riccione",
-        "mail": "info@sorayahotel.it",
-        "name": "Sawasdee",
-        "number": "37",
-        "site": "http://www.sorayahotel.it/sawasdee/gallery.php",
+        "address": "Fontanelle Abissinia", 
+        "city": "Riccione", 
+        "coords": [
+            "43.995385", 
+            "12.6754058"
+        ], 
+        "mail": "info@sorayahotel.it", 
+        "name": "Sawasdee", 
+        "number": "37", 
+        "site": "http://www.sorayahotel.it/sawasdee/gallery.php", 
         "tel": "0541.600917"
-    },
+    }, 
     {
-        "address": "Fontanelle Abissinia",
-        "cell": "340.0026973",
-        "city": "Riccione",
-        "mail": "info@spiaggia38riccione.it",
-        "name": "Bagni Anna e Marcello",
-        "number": "38",
-        "site": "http://www.spiaggia38riccione.it/",
+        "address": "Fontanelle Abissinia", 
+        "cell": "340.0026973", 
+        "city": "Riccione", 
+        "coords": [
+            "43.995635", 
+            "12.6750321"
+        ], 
+        "mail": "info@spiaggia38riccione.it", 
+        "name": "Bagni Anna e Marcello", 
+        "number": "38", 
+        "site": "http://www.spiaggia38riccione.it/", 
         "tel": "0541.606991"
-    },
+    }, 
     {
-        "address": "FontanelleAbissinia",
-        "city": "Riccione",
-        "name": "Bagni Giuseppe",
-        "number": "39",
+        "address": "FontanelleAbissinia", 
+        "city": "Riccione", 
+        "coords": [
+            "43.995885", 
+            "12.6746584"
+        ], 
+        "name": "Bagni Giuseppe", 
+        "number": "39", 
         "tel": "0541.604693"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "mail": "info@41mastrobeach.it",
-        "name": "Bagni Severino",
-        "number": "41",
-        "site": "http://www.41mastrobeach.it",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "43.996385", 
+            "12.673911"
+        ], 
+        "mail": "info@41mastrobeach.it", 
+        "name": "Bagni Severino", 
+        "number": "41", 
+        "site": "http://www.41mastrobeach.it", 
         "tel": "0541.600400"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "mail": "bagniprimo@libero.it",
-        "name": "Bagni Primo",
-        "number": "42",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "43.996635", 
+            "12.6735373"
+        ], 
+        "mail": "bagniprimo@libero.it", 
+        "name": "Bagni Primo", 
+        "number": "42", 
         "tel": "0541.604100"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "name": "Bagni Iolanda",
-        "number": "44",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "43.997135", 
+            "12.6727899"
+        ], 
+        "name": "Bagni Iolanda", 
+        "number": "44", 
         "tel": "0541.606894"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "mail": "salesvalue@libero.it",
-        "name": "Flamingo Beach",
-        "number": "45",
-        "site": "http://www.flamingobeach.it",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "43.997385", 
+            "12.6724162"
+        ], 
+        "mail": "salesvalue@libero.it", 
+        "name": "Flamingo Beach", 
+        "number": "45", 
+        "site": "http://www.flamingobeach.it", 
         "tel": "0541.602400"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "mail": "info@bagniniriviera.it",
-        "name": "La Spiaggia 46",
-        "number": "46",
-        "site": "http://www.bagniniriviera.it/",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "43.997635", 
+            "12.6720425"
+        ], 
+        "mail": "info@bagniniriviera.it", 
+        "name": "La Spiaggia 46", 
+        "number": "46", 
+        "site": "http://www.bagniniriviera.it/", 
         "tel": "0541.696538"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "mail": "info@bagniniriviera.it",
-        "name": "La spiaggia",
-        "number": "47",
-        "site": "http://www.bagniniriviera.it/",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "43.997885", 
+            "12.6716688"
+        ], 
+        "mail": "info@bagniniriviera.it", 
+        "name": "La spiaggia", 
+        "number": "47", 
+        "site": "http://www.bagniniriviera.it/", 
         "tel": "0541.696538"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "name": "Bagni Bice",
-        "number": "48",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "43.998135", 
+            "12.6712951"
+        ], 
+        "name": "Bagni Bice", 
+        "number": "48", 
         "tel": "0541.603232"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "392.3032599",
-        "city": "Riccione",
-        "mail": "info@spiaggiadelbenessere.it",
-        "name": "Spiaggia del Benessere",
-        "number": "49-50",
-        "site": "http://www.spiaggiadelbenessere.it/",
+        "address": "Riccione centro", 
+        "cell": "392.3032599", 
+        "city": "Riccione", 
+        "coords": [
+            "43.998385", 
+            "12.6709214"
+        ], 
+        "mail": "info@spiaggiadelbenessere.it", 
+        "name": "Spiaggia del Benessere", 
+        "number": "49-50", 
+        "site": "http://www.spiaggiadelbenessere.it/", 
         "tel": "0541.691050"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "389.2749726",
-        "city": "Riccione",
-        "mail": "maurizio@spiaggia51riccione.it",
-        "name": "Bagni Luigi",
-        "number": "51",
-        "site": "http://www.spiaggia51riccione.it/",
-        "tel": "0541.1831974",
+        "address": "Riccione centro", 
+        "cell": "389.2749726", 
+        "city": "Riccione", 
+        "coords": [
+            "43.998885", 
+            "12.670174"
+        ], 
+        "mail": "maurizio@spiaggia51riccione.it", 
+        "name": "Bagni Luigi", 
+        "number": "51", 
+        "site": "http://www.spiaggia51riccione.it/", 
+        "tel": "0541.1831974", 
         "winter_tel": "0541.602177"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "340.2755551",
-        "city": "Riccione",
-        "mail": "info@papayabeachvillage.it",
-        "name": "Bagni Emilio",
-        "number": "52",
-        "site": "http://www.papayabeachvillage.it/",
+        "address": "Riccione centro", 
+        "cell": "340.2755551", 
+        "city": "Riccione", 
+        "coords": [
+            "43.999135", 
+            "12.6698003"
+        ], 
+        "mail": "info@papayabeachvillage.it", 
+        "name": "Bagni Emilio", 
+        "number": "52", 
+        "site": "http://www.papayabeachvillage.it/", 
         "tel": "0541.691778"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "335.6813068",
-        "city": "Riccione",
-        "mail": "info@spiaggia53.it",
-        "name": "Bagni Luciano e Renzo",
-        "number": "53",
-        "site": "http://www.spiaggia53.it/",
+        "address": "Riccione centro", 
+        "cell": "335.6813068", 
+        "city": "Riccione", 
+        "coords": [
+            "43.999385", 
+            "12.6694266"
+        ], 
+        "mail": "info@spiaggia53.it", 
+        "name": "Bagni Luciano e Renzo", 
+        "number": "53", 
+        "site": "http://www.spiaggia53.it/", 
         "tel": "0541.691632"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "fax": "0541.600902",
-        "mail": "info@spiaggia54riccione.it",
-        "name": "Bagni Nino e Nando",
-        "number": "54",
-        "site": "http://www.spiaggia54riccione.it/",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "43.999635", 
+            "12.6690529"
+        ], 
+        "fax": "0541.600902", 
+        "mail": "info@spiaggia54riccione.it", 
+        "name": "Bagni Nino e Nando", 
+        "number": "54", 
+        "site": "http://www.spiaggia54riccione.it/", 
         "tel": "0541.600902"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "339.3549335",
-        "city": "Riccione",
-        "mail": "bagno_mulazzani@hotmail.it",
-        "name": "Bagno Mulazzani",
+        "address": "Riccione centro", 
+        "cell": "339.3549335", 
+        "city": "Riccione", 
+        "coords": [
+            "43.999885", 
+            "12.6686792"
+        ], 
+        "mail": "bagno_mulazzani@hotmail.it", 
+        "name": "Bagno Mulazzani", 
         "number": "55"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "mail": "info@spiaggia56riccione.it",
-        "name": "Bagni Renato",
-        "number": "56",
-        "site": "http://www.spiaggia56riccione.it/",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "44.000135", 
+            "12.6683055"
+        ], 
+        "mail": "info@spiaggia56riccione.it", 
+        "name": "Bagni Renato", 
+        "number": "56", 
+        "site": "http://www.spiaggia56riccione.it/", 
         "tel": "0541.606924"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "name": "Bagni Massimo",
-        "number": "57",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "44.000385", 
+            "12.6679318"
+        ], 
+        "name": "Bagni Massimo", 
+        "number": "57", 
         "tel": "0541.601057"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "340.7379762",
-        "city": "Riccione",
-        "mail": "info@bagnileo58riccione.it",
-        "name": "Bagni Leo",
-        "number": "58",
-        "site": "http://www.bagnileo58riccione.it/home.asp",
+        "address": "Riccione centro", 
+        "cell": "340.7379762", 
+        "city": "Riccione", 
+        "coords": [
+            "44.000635", 
+            "12.6675581"
+        ], 
+        "mail": "info@bagnileo58riccione.it", 
+        "name": "Bagni Leo", 
+        "number": "58", 
+        "site": "http://www.bagnileo58riccione.it/home.asp", 
         "tel": "0541.691798"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "333.2120337",
-        "city": "Riccione",
-        "mail": "silvia@ spiaggia59riccione. it",
-        "name": "Bagni Cicca",
-        "number": "59",
-        "site": "http://www.spiaggia59riccione.it",
-        "tel": "0541.690984",
+        "address": "Riccione centro", 
+        "cell": "333.2120337", 
+        "city": "Riccione", 
+        "coords": [
+            "44.000885", 
+            "12.6671844"
+        ], 
+        "mail": "silvia@ spiaggia59riccione. it", 
+        "name": "Bagni Cicca", 
+        "number": "59", 
+        "site": "http://www.spiaggia59riccione.it", 
+        "tel": "0541.690984", 
         "winter_tel": "0541.601523"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "339.2227765",
-        "city": "Riccione",
-        "mail": "info@zona60.it",
-        "name": "Bagni Giorgio",
-        "number": "60",
-        "site": "http://www.zona60.it/",
+        "address": "Riccione centro", 
+        "cell": "339.2227765", 
+        "city": "Riccione", 
+        "coords": [
+            "44.001135", 
+            "12.6668107"
+        ], 
+        "mail": "info@zona60.it", 
+        "name": "Bagni Giorgio", 
+        "number": "60", 
+        "site": "http://www.zona60.it/", 
         "tel": "0541.690534"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "fax": "0541.606720",
-        "mail": "info@spiaggia61.it",
-        "name": "Spiaggia 61",
-        "number": "61",
-        "site": "http://www.spiaggia61.it/",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "44.001385", 
+            "12.666437"
+        ], 
+        "fax": "0541.606720", 
+        "mail": "info@spiaggia61.it", 
+        "name": "Spiaggia 61", 
+        "number": "61", 
+        "site": "http://www.spiaggia61.it/", 
         "tel": "0541.606720"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "339.3737837",
-        "city": "Riccione",
-        "mail": "mauriziobarnabe@libero.it",
-        "name": "Bagni Sandrino",
-        "number": "62",
+        "address": "Riccione centro", 
+        "cell": "339.3737837", 
+        "city": "Riccione", 
+        "coords": [
+            "44.001635", 
+            "12.6660633"
+        ], 
+        "mail": "mauriziobarnabe@libero.it", 
+        "name": "Bagni Sandrino", 
+        "number": "62", 
         "tel": "0541.691684"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "348.7680643",
-        "city": "Riccione",
-        "mail": "info@spiaggia63.it",
-        "name": "Bagni Speranzino",
-        "number": "63",
-        "site": "http://www.spiaggia63.it",
+        "address": "Riccione centro", 
+        "cell": "348.7680643", 
+        "city": "Riccione", 
+        "coords": [
+            "44.001885", 
+            "12.6656896"
+        ], 
+        "mail": "info@spiaggia63.it", 
+        "name": "Bagni Speranzino", 
+        "number": "63", 
+        "site": "http://www.spiaggia63.it", 
         "tel": "0541.690914"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "347.4595225",
-        "city": "Riccione",
-        "fax": "0541.606588",
-        "mail": "bagno64riccione@gmail.com",
-        "name": "Bagni Gianni",
-        "number": "64",
-        "site": "http://www.zona64riccione.it/",
+        "address": "Riccione centro", 
+        "cell": "347.4595225", 
+        "city": "Riccione", 
+        "coords": [
+            "44.002135", 
+            "12.6653159"
+        ], 
+        "fax": "0541.606588", 
+        "mail": "bagno64riccione@gmail.com", 
+        "name": "Bagni Gianni", 
+        "number": "64", 
+        "site": "http://www.zona64riccione.it/", 
         "tel": "0541.606588"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "338.8126332",
-        "city": "Riccione",
-        "fax": "0541.603918",
-        "mail": "info@bagnimario65.it",
-        "name": "Bagni Mario",
-        "number": "65",
-        "site": "http://www.bagnimario65.it/",
+        "address": "Riccione centro", 
+        "cell": "338.8126332", 
+        "city": "Riccione", 
+        "coords": [
+            "44.002385", 
+            "12.6649422"
+        ], 
+        "fax": "0541.603918", 
+        "mail": "info@bagnimario65.it", 
+        "name": "Bagni Mario", 
+        "number": "65", 
+        "site": "http://www.bagnimario65.it/", 
         "tel": "0541.603918"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "328.3678822",
-        "city": "Riccione",
-        "mail": "info@bagnocesare66.it",
-        "name": "Bagni Cesare",
-        "number": "66",
-        "site": "http://www.bagnocesare66.it",
+        "address": "Riccione centro", 
+        "cell": "328.3678822", 
+        "city": "Riccione", 
+        "coords": [
+            "44.002635", 
+            "12.6645685"
+        ], 
+        "mail": "info@bagnocesare66.it", 
+        "name": "Bagni Cesare", 
+        "number": "66", 
+        "site": "http://www.bagnocesare66.it", 
         "tel": "0541.600813"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "349.6712451",
-        "city": "Riccione",
-        "name": "Bagni Vittorio",
-        "number": "67",
+        "address": "Riccione centro", 
+        "cell": "349.6712451", 
+        "city": "Riccione", 
+        "coords": [
+            "44.002885", 
+            "12.6641948"
+        ], 
+        "name": "Bagni Vittorio", 
+        "number": "67", 
         "tel": "0541.691584"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "fax": "0541.606537",
-        "mail": "info@spiaggia68riccione.it",
-        "name": "Bagni Ettore",
-        "number": "68",
-        "site": "http://www.spiaggia68riccione.it",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "44.003135", 
+            "12.6638211"
+        ], 
+        "fax": "0541.606537", 
+        "mail": "info@spiaggia68riccione.it", 
+        "name": "Bagni Ettore", 
+        "number": "68", 
+        "site": "http://www.spiaggia68riccione.it", 
         "tel": "0541.606537"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "338.3326003",
-        "city": "Riccione",
-        "mail": "info@spiaggia69riccione.it",
-        "name": "Bagni Stefano",
-        "number": "69",
-        "site": "http://www.spiaggia69riccione.it/",
+        "address": "Riccione centro", 
+        "cell": "338.3326003", 
+        "city": "Riccione", 
+        "coords": [
+            "44.003385", 
+            "12.6634474"
+        ], 
+        "mail": "info@spiaggia69riccione.it", 
+        "name": "Bagni Stefano", 
+        "number": "69", 
+        "site": "http://www.spiaggia69riccione.it/", 
         "tel": "0541.691594"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "6154749 - 9088650",
-        "city": "Riccione",
-        "fax": "0541.692384",
-        "mail": "info@bagno70.it",
-        "name": "Bagni Mario",
-        "number": "70",
-        "site": "http://www.bagno70.it/main.html",
+        "address": "Riccione centro", 
+        "cell": "6154749 - 9088650", 
+        "city": "Riccione", 
+        "coords": [
+            "44.003635", 
+            "12.6630737"
+        ], 
+        "fax": "0541.692384", 
+        "mail": "info@bagno70.it", 
+        "name": "Bagni Mario", 
+        "number": "70", 
+        "site": "http://www.bagno70.it/main.html", 
         "tel": "0541.692384"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "335.6321848",
-        "city": "Riccione",
-        "mail": "info@bagno71riccione.it",
-        "name": "Bagno 71",
-        "number": "71",
+        "address": "Riccione centro", 
+        "cell": "335.6321848", 
+        "city": "Riccione", 
+        "coords": [
+            "44.003885", 
+            "12.6627"
+        ], 
+        "mail": "info@bagno71riccione.it", 
+        "name": "Bagno 71", 
+        "number": "71", 
         "site": "http://www.bagno71riccione.it/"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "335.6535117",
-        "city": "Riccione",
-        "fax": "0541.643339",
-        "mail": "info@riccionebeach72.com",
-        "name": "Riccione Beach",
-        "number": "72",
-        "site": "http://www.riccionebeach72.com/",
+        "address": "Riccione centro", 
+        "cell": "335.6535117", 
+        "city": "Riccione", 
+        "coords": [
+            "44.004135", 
+            "12.6623263"
+        ], 
+        "fax": "0541.643339", 
+        "mail": "info@riccionebeach72.com", 
+        "name": "Riccione Beach", 
+        "number": "72", 
+        "site": "http://www.riccionebeach72.com/", 
         "tel": "0541.690988"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "335.5312326",
-        "city": "Riccione",
-        "mail": "info@riccionespiaggia73.com",
-        "name": "Bagni Agostino",
-        "number": "73",
-        "site": "http://www.riccionespiaggia73.com/riccionespiaggia73/home.html",
+        "address": "Riccione centro", 
+        "cell": "335.5312326", 
+        "city": "Riccione", 
+        "coords": [
+            "44.004385", 
+            "12.6619526"
+        ], 
+        "mail": "info@riccionespiaggia73.com", 
+        "name": "Bagni Agostino", 
+        "number": "73", 
+        "site": "http://www.riccionespiaggia73.com/riccionespiaggia73/home.html", 
         "winter_tel": "0541.600643"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "335.6753749",
-        "city": "Riccione",
-        "name": "Bagni Natalina",
+        "address": "Riccione centro", 
+        "cell": "335.6753749", 
+        "city": "Riccione", 
+        "coords": [
+            "44.004635", 
+            "12.6615789"
+        ], 
+        "name": "Bagni Natalina", 
         "number": "74"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "335.6352649",
-        "city": "Riccione",
-        "mail": "info@beach75riccione.it",
-        "name": "Golden Beach",
-        "number": "75",
-        "site": "http://www.beach75riccione.it/",
+        "address": "Riccione centro", 
+        "cell": "335.6352649", 
+        "city": "Riccione", 
+        "coords": [
+            "44.004885", 
+            "12.6612052"
+        ], 
+        "mail": "info@beach75riccione.it", 
+        "name": "Golden Beach", 
+        "number": "75", 
+        "site": "http://www.beach75riccione.it/", 
         "tel": "0541.605258"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "city": "Riccione",
-        "mail": "info@spiaggia76.it",
-        "name": "Bagni Guido",
-        "number": "76",
-        "site": "http://www.spiaggia76.it/",
+        "address": "Riccione centro", 
+        "city": "Riccione", 
+        "coords": [
+            "44.005135", 
+            "12.6608315"
+        ], 
+        "mail": "info@spiaggia76.it", 
+        "name": "Bagni Guido", 
+        "number": "76", 
+        "site": "http://www.spiaggia76.it/", 
         "tel": "0541.606890"
-    },
+    }, 
     {
-        "address": "Riccione centro",
-        "cell": "335.8373205",
-        "city": "Riccione",
-        "fax": "0541.601508",
-        "mail": "andrea@spiaggia77.it",
-        "name": "Spiaggia Andrea",
-        "number": "77",
-        "site": "http://www.spiaggia77.it/",
+        "address": "Riccione centro", 
+        "cell": "335.8373205", 
+        "city": "Riccione", 
+        "coords": [
+            "44.005385", 
+            "12.6604578"
+        ], 
+        "fax": "0541.601508", 
+        "mail": "andrea@spiaggia77.it", 
+        "name": "Spiaggia Andrea", 
+        "number": "77", 
+        "site": "http://www.spiaggia77.it/", 
         "tel": "0541.601508"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "335.8237709",
-        "city": "Riccione",
-        "mail": "info@bagnimauro78riccione.it",
-        "name": "Bagni Mauro",
-        "number": "78",
-        "site": "http://www.bagnimauro78riccione.it/",
-        "tel": "0541.691379",
+        "address": "Porto", 
+        "cell": "335.8237709", 
+        "city": "Riccione", 
+        "coords": [
+            "44.005635", 
+            "12.6600841"
+        ], 
+        "mail": "info@bagnimauro78riccione.it", 
+        "name": "Bagni Mauro", 
+        "number": "78", 
+        "site": "http://www.bagnimauro78riccione.it/", 
+        "tel": "0541.691379", 
         "winter_tel": "0541.690366"
-    },
+    }, 
     {
-        "address": "Porto",
-        "city": "Riccione",
-        "fax": "bagnini)",
-        "name": "Bagni Green Beach",
-        "number": "79",
+        "address": "Porto", 
+        "city": "Riccione", 
+        "coords": [
+            "44.005885", 
+            "12.6597104"
+        ], 
+        "fax": "bagnini)", 
+        "name": "Bagni Green Beach", 
+        "number": "79", 
         "tel": "0541.692632"
-    },
+    }, 
     {
-        "address": "Porto",
-        "city": "Riccione",
-        "mail": "info@spiaggia80.it",
-        "name": "Bagni Giuseppe",
-        "number": "80",
-        "site": "http://www.spiaggia80.it/",
+        "address": "Porto", 
+        "city": "Riccione", 
+        "coords": [
+            "44.006135", 
+            "12.6593367"
+        ], 
+        "mail": "info@spiaggia80.it", 
+        "name": "Bagni Giuseppe", 
+        "number": "80", 
+        "site": "http://www.spiaggia80.it/", 
         "tel": "0541.693334"
-    },
+    }, 
     {
-        "address": "Porto",
-        "city": "Riccione",
-        "mail": "info@bagnoperla81.it",
-        "name": "Bagno Perla",
-        "number": "81",
-        "site": "http://www.bagnoperla81.it/",
+        "address": "Porto", 
+        "city": "Riccione", 
+        "coords": [
+            "44.006385", 
+            "12.658963"
+        ], 
+        "mail": "info@bagnoperla81.it", 
+        "name": "Bagno Perla", 
+        "number": "81", 
+        "site": "http://www.bagnoperla81.it/", 
         "tel": "0541.1795301"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "335.6782111",
-        "city": "Riccione",
-        "mail": "bagni82riccione@alice.it",
-        "name": "Bagni Stefano e Massimo",
-        "number": "82",
-        "site": "http://spiaggia82riccione.xoom.it/",
+        "address": "Porto", 
+        "cell": "335.6782111", 
+        "city": "Riccione", 
+        "coords": [
+            "44.006635", 
+            "12.6585893"
+        ], 
+        "mail": "bagni82riccione@alice.it", 
+        "name": "Bagni Stefano e Massimo", 
+        "number": "82", 
+        "site": "http://spiaggia82riccione.xoom.it/", 
         "tel": "0541.604617"
-    },
+    }, 
     {
-        "address": "Porto",
-        "city": "Riccione",
-        "name": "Bagno Aldo",
-        "number": "83",
+        "address": "Porto", 
+        "city": "Riccione", 
+        "coords": [
+            "44.006885", 
+            "12.6582156"
+        ], 
+        "name": "Bagno Aldo", 
+        "number": "83", 
         "tel": "0541.693673"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "(fabio)",
-        "city": "Riccione",
-        "mail": "info@bagnifabio84riccione.it",
-        "name": "Bagni Fabio",
-        "number": "84",
-        "site": "http://www.bagnifabio84riccione.it/",
+        "address": "Porto", 
+        "cell": "(fabio)", 
+        "city": "Riccione", 
+        "coords": [
+            "44.007135", 
+            "12.6578419"
+        ], 
+        "mail": "info@bagnifabio84riccione.it", 
+        "name": "Bagni Fabio", 
+        "number": "84", 
+        "site": "http://www.bagnifabio84riccione.it/", 
         "tel": "0541.693138"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "339.4999540",
-        "city": "Riccione",
-        "mail": "bagnogiulia85@libero.it",
-        "name": "Bagno Giulia",
-        "number": "85",
-        "site": "http://www.bagnogiulia85.com",
+        "address": "Porto", 
+        "cell": "339.4999540", 
+        "city": "Riccione", 
+        "coords": [
+            "44.007385", 
+            "12.6574682"
+        ], 
+        "mail": "bagnogiulia85@libero.it", 
+        "name": "Bagno Giulia", 
+        "number": "85", 
+        "site": "http://www.bagnogiulia85.com", 
         "tel": "0541.693258"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "339.7023324",
-        "city": "Riccione",
-        "mail": "info@spiaggia86riccione.it",
-        "name": "La Spiaggia del Sole",
-        "number": "86",
-        "site": "http://www.spiaggia86riccione.it/",
+        "address": "Porto", 
+        "cell": "339.7023324", 
+        "city": "Riccione", 
+        "coords": [
+            "44.007635", 
+            "12.6570945"
+        ], 
+        "mail": "info@spiaggia86riccione.it", 
+        "name": "La Spiaggia del Sole", 
+        "number": "86", 
+        "site": "http://www.spiaggia86riccione.it/", 
         "tel": "0541.605413"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "339.4999540",
-        "city": "Riccione",
-        "mail": "info@spiaggia87.it",
-        "name": "La Spiaggia del Sole",
-        "number": "87",
-        "site": "http://www.spiaggia87.it/",
-        "tel": "0541.693178",
+        "address": "Porto", 
+        "cell": "339.4999540", 
+        "city": "Riccione", 
+        "coords": [
+            "44.007885", 
+            "12.6567208"
+        ], 
+        "mail": "info@spiaggia87.it", 
+        "name": "La Spiaggia del Sole", 
+        "number": "87", 
+        "site": "http://www.spiaggia87.it/", 
+        "tel": "0541.693178", 
         "winter_tel": "0541.646466"
-    },
+    }, 
     {
-        "address": "Porto",
-        "city": "Riccione",
-        "mail": "spiaggialepalme@leardinigroup.com",
-        "name": "Spiaggia Le Palme",
-        "number": "88",
-        "site": "http://www.bagni88.it/",
+        "address": "Porto", 
+        "city": "Riccione", 
+        "coords": [
+            "44.008135", 
+            "12.6563471"
+        ], 
+        "mail": "spiaggialepalme@leardinigroup.com", 
+        "name": "Spiaggia Le Palme", 
+        "number": "88", 
+        "site": "http://www.bagni88.it/", 
         "tel": "0541.693404"
-    },
+    }, 
     {
-        "address": "Porto",
-        "city": "Riccione",
-        "mail": "spiaggialepalme@leardinigroup.com",
-        "name": "Spiaggia Le Palme",
-        "number": "89",
-        "site": "http://www.bagni88.it/",
+        "address": "Porto", 
+        "city": "Riccione", 
+        "coords": [
+            "44.008385", 
+            "12.6559734"
+        ], 
+        "mail": "spiaggialepalme@leardinigroup.com", 
+        "name": "Spiaggia Le Palme", 
+        "number": "89", 
+        "site": "http://www.bagni88.it/", 
         "tel": "0541.693404"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "338.2675766",
-        "city": "Riccione",
-        "mail": "info@bagno90.com",
-        "name": "Bagni mario e Massimo",
-        "number": "90",
-        "site": "http://www.bagno90.com/",
-        "tel": "0541.692298",
+        "address": "Porto", 
+        "cell": "338.2675766", 
+        "city": "Riccione", 
+        "coords": [
+            "44.008635", 
+            "12.6555997"
+        ], 
+        "mail": "info@bagno90.com", 
+        "name": "Bagni mario e Massimo", 
+        "number": "90", 
+        "site": "http://www.bagno90.com/", 
+        "tel": "0541.692298", 
         "winter_tel": "0541.648093"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "335.5610986",
-        "city": "Riccione",
-        "mail": "info@spiaggia91riccione.it",
-        "name": "Bagni Mario",
-        "number": "91",
-        "site": "http://www.spiaggia91riccione.it/",
+        "address": "Porto", 
+        "cell": "335.5610986", 
+        "city": "Riccione", 
+        "coords": [
+            "44.008885", 
+            "12.655226"
+        ], 
+        "mail": "info@spiaggia91riccione.it", 
+        "name": "Bagni Mario", 
+        "number": "91", 
+        "site": "http://www.spiaggia91riccione.it/", 
         "tel": "0541.642804"
-    },
+    }, 
     {
-        "address": "Porto",
-        "city": "Riccione",
-        "mail": "bagni92@riccionespiaggia.com",
-        "name": "Bagni Luigi e Karin",
-        "number": "92",
-        "site": "http://www.riccionespiaggia.com",
+        "address": "Porto", 
+        "city": "Riccione", 
+        "coords": [
+            "44.009135", 
+            "12.6548523"
+        ], 
+        "mail": "bagni92@riccionespiaggia.com", 
+        "name": "Bagni Luigi e Karin", 
+        "number": "92", 
+        "site": "http://www.riccionespiaggia.com", 
         "tel": "0541.648422"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "328.3031429",
-        "city": "Riccione",
-        "mail": "info@battarraesettimio.it",
-        "name": "Bagni Battarra",
-        "number": "93",
-        "site": "http://www.spiaggia93.com/",
+        "address": "Porto", 
+        "cell": "328.3031429", 
+        "city": "Riccione", 
+        "coords": [
+            "44.009385", 
+            "12.6544786"
+        ], 
+        "mail": "info@battarraesettimio.it", 
+        "name": "Bagni Battarra", 
+        "number": "93", 
+        "site": "http://www.spiaggia93.com/", 
         "tel": "0541.647374"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "328.3031429",
-        "city": "Riccione",
-        "mail": "info@battarraesettimio.it",
-        "name": "Bagni Settimio",
-        "number": "94",
-        "site": "http://www.spiaggia94.com/",
+        "address": "Porto", 
+        "cell": "328.3031429", 
+        "city": "Riccione", 
+        "coords": [
+            "44.009635", 
+            "12.6541049"
+        ], 
+        "mail": "info@battarraesettimio.it", 
+        "name": "Bagni Settimio", 
+        "number": "94", 
+        "site": "http://www.spiaggia94.com/", 
         "tel": "0541.647374"
-    },
+    }, 
     {
-        "address": "Porto",
-        "cell": "335.8123839",
-        "city": "Riccione",
-        "mail": "fabbrimarco.mf@libero.it",
-        "name": "Bagni Marco",
-        "number": "95",
-        "site": "http://www.tintarellatest.it",
+        "address": "Porto", 
+        "cell": "335.8123839", 
+        "city": "Riccione", 
+        "coords": [
+            "44.009885", 
+            "12.6537312"
+        ], 
+        "mail": "fabbrimarco.mf@libero.it", 
+        "name": "Bagni Marco", 
+        "number": "95", 
+        "site": "http://www.tintarellatest.it", 
         "tel": "0541.648437"
-    },
+    }, 
     {
-        "address": "Alba",
-        "cell": "333.3862158",
-        "city": "Riccione",
-        "mail": "silvano@bagno96silvano.it",
-        "name": "Bagni Silvano",
-        "number": "96",
-        "site": "http://www.bagno96silvano.it/",
+        "address": "Alba", 
+        "cell": "333.3862158", 
+        "city": "Riccione", 
+        "coords": [
+            "44.010135", 
+            "12.6533575"
+        ], 
+        "mail": "silvano@bagno96silvano.it", 
+        "name": "Bagni Silvano", 
+        "number": "96", 
+        "site": "http://www.bagno96silvano.it/", 
         "tel": "0541.647327"
-    },
+    }, 
     {
-        "address": "Alba",
-        "cell": "339.8866266",
-        "city": "Riccione",
-        "fax": "0541.645275",
-        "mail": "info@laspiaggiadelledonne.it",
-        "name": "La Spiaggia delle Donne",
-        "number": "97",
-        "site": "http://www.bagniadolfo.com/",
+        "address": "Alba", 
+        "cell": "339.8866266", 
+        "city": "Riccione", 
+        "coords": [
+            "44.010385", 
+            "12.6529838"
+        ], 
+        "fax": "0541.645275", 
+        "mail": "info@laspiaggiadelledonne.it", 
+        "name": "La Spiaggia delle Donne", 
+        "number": "97", 
+        "site": "http://www.bagniadolfo.com/", 
         "tel": "0541.642502"
-    },
+    }, 
     {
-        "address": "Alba",
-        "city": "Riccione",
-        "name": "Bagni Carla",
-        "number": "98",
+        "address": "Alba", 
+        "city": "Riccione", 
+        "coords": [
+            "44.010635", 
+            "12.6526101"
+        ], 
+        "name": "Bagni Carla", 
+        "number": "98", 
         "tel": "0541.645084"
-    },
+    }, 
     {
-        "address": "Alba",
-        "city": "Riccione",
-        "mail": "info@bagnirina99.it",
-        "name": "Bagni Rina",
-        "number": "99",
-        "site": "http://www.bagnirina99.it/",
+        "address": "Alba", 
+        "city": "Riccione", 
+        "coords": [
+            "44.010885", 
+            "12.6522364"
+        ], 
+        "mail": "info@bagnirina99.it", 
+        "name": "Bagni Rina", 
+        "number": "99", 
+        "site": "http://www.bagnirina99.it/", 
         "tel": "0541.648470"
-    },
+    }, 
     {
-        "address": "Alba",
-        "cell": "347.8502895",
-        "city": "Riccione",
-        "mail": "alfredo@bagni100.it",
-        "name": "Bagni Armando",
-        "number": "100",
-        "site": "http://www.bagni100.it/",
+        "address": "Alba", 
+        "cell": "347.8502895", 
+        "city": "Riccione", 
+        "coords": [
+            "44.011135", 
+            "12.6518627"
+        ], 
+        "mail": "alfredo@bagni100.it", 
+        "name": "Bagni Armando", 
+        "number": "100", 
+        "site": "http://www.bagni100.it/", 
         "tel": "0541.645138"
-    },
+    }, 
     {
-        "address": "Alba",
-        "cell": "338.4622454",
-        "city": "Riccione",
-        "mail": "info@lidodellesirenericcione.it",
-        "name": "Lido delle Sirene",
-        "number": "101",
-        "site": "http://www.lidodellesirenericcione.it/",
+        "address": "Alba", 
+        "cell": "338.4622454", 
+        "city": "Riccione", 
+        "coords": [
+            "44.011385", 
+            "12.651489"
+        ], 
+        "mail": "info@lidodellesirenericcione.it", 
+        "name": "Lido delle Sirene", 
+        "number": "101", 
+        "site": "http://www.lidodellesirenericcione.it/", 
         "tel": "0541.643348"
-    },
+    }, 
     {
-        "address": "Alba",
-        "cell": "340.2581752",
-        "city": "Riccione",
-        "mail": "bagniroberto@libero.it",
-        "name": "Lido delle Sirene",
-        "number": "102",
-        "site": "http://www.lidodellesirenericcione.it/",
+        "address": "Alba", 
+        "cell": "340.2581752", 
+        "city": "Riccione", 
+        "coords": [
+            "44.011635", 
+            "12.6511153"
+        ], 
+        "mail": "bagniroberto@libero.it", 
+        "name": "Lido delle Sirene", 
+        "number": "102", 
+        "site": "http://www.lidodellesirenericcione.it/", 
         "tel": "0541.647166"
-    },
+    }, 
     {
-        "address": "Alba",
-        "city": "Riccione",
-        "mail": "info@103riccione.it",
-        "name": "Bagni Armando",
-        "number": "103",
-        "site": "http://www.103riccione.it/",
+        "address": "Alba", 
+        "city": "Riccione", 
+        "coords": [
+            "44.011885", 
+            "12.6507416"
+        ], 
+        "mail": "info@103riccione.it", 
+        "name": "Bagni Armando", 
+        "number": "103", 
+        "site": "http://www.103riccione.it/", 
         "tel": "0541.644254"
-    },
+    }, 
     {
-        "address": "Alba",
-        "cell": "328.1596565",
-        "city": "Riccione",
-        "mail": "andrea.spiaggia104@libero.it",
-        "name": "Bagni Rino",
-        "number": "104",
-        "site": "http://www.spiaggia104.it/",
+        "address": "Alba", 
+        "cell": "328.1596565", 
+        "city": "Riccione", 
+        "coords": [
+            "44.012135", 
+            "12.6503679"
+        ], 
+        "mail": "andrea.spiaggia104@libero.it", 
+        "name": "Bagni Rino", 
+        "number": "104", 
+        "site": "http://www.spiaggia104.it/", 
         "tel": "328.1596565"
-    },
+    }, 
     {
-        "address": "Alba",
-        "city": "Riccione",
-        "name": "Bagni Bruna",
-        "number": "105",
-        "site": "http://www.spiaggia105.it/",
+        "address": "Alba", 
+        "city": "Riccione", 
+        "coords": [
+            "44.012385", 
+            "12.6499942"
+        ], 
+        "name": "Bagni Bruna", 
+        "number": "105", 
+        "site": "http://www.spiaggia105.it/", 
         "tel": "0541.648160"
-    },
+    }, 
     {
-        "address": "Alba",
-        "cell": "338.3307091",
-        "city": "Riccione",
-        "mail": "info@bagni106paola.it",
-        "name": "Bagni Paola",
-        "number": "106",
+        "address": "Alba", 
+        "cell": "338.3307091", 
+        "city": "Riccione", 
+        "coords": [
+            "44.012635", 
+            "12.6496205"
+        ], 
+        "mail": "info@bagni106paola.it", 
+        "name": "Bagni Paola", 
+        "number": "106", 
         "tel": "0541.648016"
-    },
+    }, 
     {
-        "address": "Alba",
-        "cell": "339.2855484",
-        "city": "Riccione",
-        "name": "Bagni Augusta",
-        "number": "107",
+        "address": "Alba", 
+        "cell": "339.2855484", 
+        "city": "Riccione", 
+        "coords": [
+            "44.012885", 
+            "12.6492468"
+        ], 
+        "name": "Bagni Augusta", 
+        "number": "107", 
         "tel": "0541.645486"
-    },
+    }, 
     {
-        "address": "Alba",
-        "city": "Riccione",
-        "mail": "info@playadelsolriccione.com",
-        "name": "Playa del Sol",
-        "number": "108",
-        "site": "http://www.bagno108.com/",
+        "address": "Alba", 
+        "city": "Riccione", 
+        "coords": [
+            "44.013135", 
+            "12.6488731"
+        ], 
+        "mail": "info@playadelsolriccione.com", 
+        "name": "Playa del Sol", 
+        "number": "108", 
+        "site": "http://www.bagno108.com/", 
         "tel": "0541.647356"
-    },
+    }, 
     {
-        "address": "Alba",
-        "city": "Riccione",
-        "mail": "info@playadelsolriccione.com",
-        "name": "Playa del Sol",
-        "number": "109",
-        "site": "http://www.bagno108.com",
+        "address": "Alba", 
+        "city": "Riccione", 
+        "coords": [
+            "44.013385", 
+            "12.6484994"
+        ], 
+        "mail": "info@playadelsolriccione.com", 
+        "name": "Playa del Sol", 
+        "number": "109", 
+        "site": "http://www.bagno108.com", 
         "tel": "0541.647356"
-    },
+    }, 
     {
-        "address": "Alba",
-        "city": "Riccione",
-        "fax": "0541.641324",
-        "mail": "info@laspiaggiadelcuore.com",
-        "name": "La Spiaggia del Cuore",
-        "number": "110",
-        "site": "http://www.laspiaggiadelcuore.com/",
+        "address": "Alba", 
+        "city": "Riccione", 
+        "coords": [
+            "44.013635", 
+            "12.6481257"
+        ], 
+        "fax": "0541.641324", 
+        "mail": "info@laspiaggiadelcuore.com", 
+        "name": "La Spiaggia del Cuore", 
+        "number": "110", 
+        "site": "http://www.laspiaggiadelcuore.com/", 
         "tel": "0541.641324"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "city": "Riccione",
-        "name": "Bagni Alfredo",
-        "number": "111",
+        "address": "Fogliano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.013885", 
+            "12.647752"
+        ], 
+        "name": "Bagni Alfredo", 
+        "number": "111", 
         "tel": "0541.648002"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "city": "Riccione",
-        "name": "Bagni Maurizio e Franco",
-        "number": "112",
+        "address": "Fogliano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.014135", 
+            "12.6473783"
+        ], 
+        "name": "Bagni Maurizio e Franco", 
+        "number": "112", 
         "tel": "0541.646064"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "city": "Riccione",
-        "name": "Bagni Azzurra",
-        "number": "113",
+        "address": "Fogliano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.014385", 
+            "12.6470046"
+        ], 
+        "name": "Bagni Azzurra", 
+        "number": "113", 
         "tel": "0541.648460"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "cell": "339.3932873",
-        "city": "Riccione",
-        "mail": "info@bagninovella.it",
-        "name": "Bagni Novella",
-        "number": "114",
-        "site": "http://www.bagninovella.it/",
+        "address": "Fogliano", 
+        "cell": "339.3932873", 
+        "city": "Riccione", 
+        "coords": [
+            "44.014635", 
+            "12.6466309"
+        ], 
+        "mail": "info@bagninovella.it", 
+        "name": "Bagni Novella", 
+        "number": "114", 
+        "site": "http://www.bagninovella.it/", 
         "tel": "0541.648614"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "cell": "335.6683919 - 339.8949311",
-        "city": "Riccione",
-        "fax": "0541.645097",
-        "mail": "info@bagnielio.com",
-        "name": "Bagni Oreste",
-        "number": "115",
-        "site": "http://www.bagnioreste.it/",
+        "address": "Fogliano", 
+        "cell": "335.6683919 - 339.8949311", 
+        "city": "Riccione", 
+        "coords": [
+            "44.014885", 
+            "12.6462572"
+        ], 
+        "fax": "0541.645097", 
+        "mail": "info@bagnielio.com", 
+        "name": "Bagni Oreste", 
+        "number": "115", 
+        "site": "http://www.bagnioreste.it/", 
         "tel": "0541.645097"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "cell": "333.4916951",
-        "city": "Riccione",
-        "mail": "elioparma@virgilio.it",
-        "name": "Bagni Elio",
-        "number": "116",
-        "site": "http://www.bagnielio.com/",
+        "address": "Fogliano", 
+        "cell": "333.4916951", 
+        "city": "Riccione", 
+        "coords": [
+            "44.015135", 
+            "12.6458835"
+        ], 
+        "mail": "elioparma@virgilio.it", 
+        "name": "Bagni Elio", 
+        "number": "116", 
+        "site": "http://www.bagnielio.com/", 
         "tel": "0541.642740"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "city": "Riccione",
-        "name": "Bagni Sirio",
+        "address": "Fogliano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.015385", 
+            "12.6455098"
+        ], 
+        "name": "Bagni Sirio", 
         "number": "117"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "city": "Riccione",
-        "name": "Bagni Monica",
-        "number": "118",
+        "address": "Fogliano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.015635", 
+            "12.6451361"
+        ], 
+        "name": "Bagni Monica", 
+        "number": "118", 
         "tel": "0541.640564"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "cell": "338.1526709",
-        "city": "Riccione",
-        "mail": "bagniluciano119@libero.it",
-        "name": "Bagni Luciano",
-        "number": "119",
-        "site": "http://www.bagniluciano119.it/home_.html",
-        "tel": "0541.646056",
+        "address": "Fogliano", 
+        "cell": "338.1526709", 
+        "city": "Riccione", 
+        "coords": [
+            "44.015885", 
+            "12.6447624"
+        ], 
+        "mail": "bagniluciano119@libero.it", 
+        "name": "Bagni Luciano", 
+        "number": "119", 
+        "site": "http://www.bagniluciano119.it/home_.html", 
+        "tel": "0541.646056", 
         "winter_tel": "0541.646385"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "city": "Riccione",
-        "mail": "info@bagnimirella120.it",
-        "name": "Bagni Mirella",
-        "number": "120",
-        "site": "http://www.bagnimirella120.it/",
+        "address": "Fogliano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.016135", 
+            "12.6443887"
+        ], 
+        "mail": "info@bagnimirella120.it", 
+        "name": "Bagni Mirella", 
+        "number": "120", 
+        "site": "http://www.bagnimirella120.it/", 
         "tel": "0541.640560"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "cell": "335.5420893",
-        "city": "Riccione",
-        "mail": "cmorgav@tin.it",
-        "name": "Bagni Giovanni",
-        "number": "121",
+        "address": "Fogliano", 
+        "cell": "335.5420893", 
+        "city": "Riccione", 
+        "coords": [
+            "44.016385", 
+            "12.644015"
+        ], 
+        "mail": "cmorgav@tin.it", 
+        "name": "Bagni Giovanni", 
+        "number": "121", 
         "tel": "0541.642549"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "city": "Riccione",
-        "name": "Bagni Blue Marine",
+        "address": "Fogliano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.016635", 
+            "12.6436413"
+        ], 
+        "name": "Bagni Blue Marine", 
         "number": "122"
-    },
+    }, 
     {
-        "address": "Fogliano",
-        "cell": "347.8937437",
-        "city": "Riccione",
-        "fax": "0541.643961",
-        "mail": "info@centrovacanzericcione.it",
-        "name": "Bagno Nettuno",
-        "number": "122/a",
-        "site": "http://www.centrovacanzericcione.it",
+        "address": "Fogliano", 
+        "cell": "347.8937437", 
+        "city": "Riccione", 
+        "coords": [
+            "44.016635", 
+            "12.6436413"
+        ], 
+        "fax": "0541.643961", 
+        "mail": "info@centrovacanzericcione.it", 
+        "name": "Bagno Nettuno", 
+        "number": "122/a", 
+        "site": "http://www.centrovacanzericcione.it", 
         "tel": "0541.643961"
-    },
+    }, 
     {
-        "address": "Marano",
-        "cell": "338.2239004",
-        "city": "Riccione",
-        "name": "Elio",
+        "address": "Marano", 
+        "cell": "338.2239004", 
+        "city": "Riccione", 
+        "coords": [
+            "44.016635", 
+            "12.6436413"
+        ], 
+        "name": "Elio", 
         "number": "122/b"
-    },
+    }, 
     {
-        "address": "Marano",
-        "cell": "347.8396154",
-        "city": "Riccione",
-        "mail": "info@bagnicristianriccione.com",
-        "name": "Bagni Cristian e Marta",
-        "number": "123",
-        "site": "http://www.bagnicristianriccione.com/",
+        "address": "Marano", 
+        "cell": "347.8396154", 
+        "city": "Riccione", 
+        "coords": [
+            "44.016885", 
+            "12.6432676"
+        ], 
+        "mail": "info@bagnicristianriccione.com", 
+        "name": "Bagni Cristian e Marta", 
+        "number": "123", 
+        "site": "http://www.bagnicristianriccione.com/", 
         "tel": "0541.642527"
-    },
+    }, 
     {
-        "address": "Marano",
-        "city": "Riccione",
-        "name": "Bagni Mino",
-        "number": "124",
+        "address": "Marano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.017135", 
+            "12.6428939"
+        ], 
+        "name": "Bagni Mino", 
+        "number": "124", 
         "tel": "0541.646674"
-    },
+    }, 
     {
-        "address": "Marano",
-        "city": "Riccione",
-        "name": "Bagni Nello",
-        "number": "125",
+        "address": "Marano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.017385", 
+            "12.6425202"
+        ], 
+        "name": "Bagni Nello", 
+        "number": "125", 
         "tel": "0541.644548"
-    },
+    }, 
     {
-        "address": "Marano",
-        "cell": "339.7508449",
-        "city": "Riccione",
-        "name": "Bagni Bruno",
+        "address": "Marano", 
+        "cell": "339.7508449", 
+        "city": "Riccione", 
+        "coords": [
+            "44.017635", 
+            "12.6421465"
+        ], 
+        "name": "Bagni Bruno", 
         "number": "126"
-    },
+    }, 
     {
-        "address": "Marano",
-        "cell": "339.7418977",
-        "city": "Riccione",
-        "mail": "info@spiaggia127.it",
-        "name": "Bagni Trento",
-        "number": "127",
-        "site": "http://www.bagnitrento.it/public/ita/index.html",
+        "address": "Marano", 
+        "cell": "339.7418977", 
+        "city": "Riccione", 
+        "coords": [
+            "44.017885", 
+            "12.6417728"
+        ], 
+        "mail": "info@spiaggia127.it", 
+        "name": "Bagni Trento", 
+        "number": "127", 
+        "site": "http://www.bagnitrento.it/public/ita/index.html", 
         "tel": "0541.640241"
-    },
+    }, 
     {
-        "address": "Marano",
-        "cell": "333.1140575",
-        "city": "Riccione",
-        "mail": "francescomichelotti@email.it",
-        "name": "Bagni Marino",
-        "number": "128",
-        "site": "http://www.riccione128.net/",
-        "tel": "0541.642368",
+        "address": "Marano", 
+        "cell": "333.1140575", 
+        "city": "Riccione", 
+        "coords": [
+            "44.018135", 
+            "12.6413991"
+        ], 
+        "mail": "francescomichelotti@email.it", 
+        "name": "Bagni Marino", 
+        "number": "128", 
+        "site": "http://www.riccione128.net/", 
+        "tel": "0541.642368", 
         "winter_tel": "0541.647165"
-    },
+    }, 
     {
-        "address": "Marano",
-        "cell": "(daniele)",
-        "city": "Riccione",
-        "mail": "info@spiaggia129.it",
-        "name": "Daniele",
-        "number": "129",
-        "site": "http://www.spiaggia129.it/",
+        "address": "Marano", 
+        "cell": "(daniele)", 
+        "city": "Riccione", 
+        "coords": [
+            "44.018385", 
+            "12.6410254"
+        ], 
+        "mail": "info@spiaggia129.it", 
+        "name": "Daniele", 
+        "number": "129", 
+        "site": "http://www.spiaggia129.it/", 
         "tel": "0541.644064"
-    },
+    }, 
     {
-        "address": "Marano",
-        "city": "Riccione",
-        "mail": "info@bagniniriviera.it",
-        "name": "La Spiaggia 130",
-        "number": "130",
-        "site": "http://www.bagniniriviera.it/",
+        "address": "Marano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.018635", 
+            "12.6406517"
+        ], 
+        "mail": "info@bagniniriviera.it", 
+        "name": "La Spiaggia 130", 
+        "number": "130", 
+        "site": "http://www.bagniniriviera.it/", 
         "tel": "0541.644089"
-    },
+    }, 
     {
-        "address": "Marano",
-        "city": "Riccione",
-        "mail": "info@bagniniriviera.it",
-        "name": "La Spiaggia 131",
-        "number": "131",
-        "site": "http://www.bagniniriviera.it/",
+        "address": "Marano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.018885", 
+            "12.640278"
+        ], 
+        "mail": "info@bagniniriviera.it", 
+        "name": "La Spiaggia 131", 
+        "number": "131", 
+        "site": "http://www.bagniniriviera.it/", 
         "tel": "0541.644089"
-    },
+    }, 
     {
-        "address": "Marano",
-        "city": "Riccione",
-        "name": "Coral Beach",
-        "number": "132",
+        "address": "Marano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.019135", 
+            "12.6399043"
+        ], 
+        "name": "Coral Beach", 
+        "number": "132", 
         "tel": "0541.640196"
-    },
+    }, 
     {
-        "address": "Marano",
-        "cell": "336.460055",
-        "city": "Riccione",
-        "mail": "info@beachvillagericcione.it",
-        "name": "Beach Village",
-        "number": "134",
-        "site": "http://www.beachvillagericcione.it/",
+        "address": "Marano", 
+        "cell": "336.460055", 
+        "city": "Riccione", 
+        "coords": [
+            "44.019635", 
+            "12.6391569"
+        ], 
+        "mail": "info@beachvillagericcione.it", 
+        "name": "Beach Village", 
+        "number": "134", 
+        "site": "http://www.beachvillagericcione.it/", 
         "tel": "0541.640517"
-    },
+    }, 
     {
-        "address": "Marano",
-        "cell": "335.8016086",
-        "city": "Riccione",
-        "mail": "spiaggia136@gmail.com",
-        "name": "Marano Beach",
-        "number": "135/136",
-        "site": "http://www.maranobeach.it",
+        "address": "Marano", 
+        "cell": "335.8016086", 
+        "city": "Riccione", 
+        "coords": [
+            "44.019885", 
+            "12.6387832"
+        ], 
+        "mail": "spiaggia136@gmail.com", 
+        "name": "Marano Beach", 
+        "number": "135/136", 
+        "site": "http://www.maranobeach.it", 
         "tel": "0541.643946"
-    },
+    }, 
     {
-        "address": "Marano",
-        "cell": "329.6885263 - 339.1537753",
-        "city": "Riccione",
-        "mail": "info@mojitobeach.com",
-        "name": "Mojito Beach",
-        "number": "137",
-        "site": "http://www.mojitobeach.com",
+        "address": "Marano", 
+        "cell": "329.6885263 - 339.1537753", 
+        "city": "Riccione", 
+        "coords": [
+            "44.020385", 
+            "12.6380358"
+        ], 
+        "mail": "info@mojitobeach.com", 
+        "name": "Mojito Beach", 
+        "number": "137", 
+        "site": "http://www.mojitobeach.com", 
         "tel": "0541.646654"
-    },
+    }, 
     {
-        "address": "Marano",
-        "city": "Riccione",
-        "mail": "direzione@hakunamatataplus.it",
-        "name": "Hakuna Matata Plus",
-        "number": "138",
-        "site": "http://www.hakunamatataplus.it/",
+        "address": "Marano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.020635", 
+            "12.6376621"
+        ], 
+        "mail": "direzione@hakunamatataplus.it", 
+        "name": "Hakuna Matata Plus", 
+        "number": "138", 
+        "site": "http://www.hakunamatataplus.it/", 
         "tel": "0541.641203"
-    },
+    }, 
     {
-        "address": "Marano",
-        "city": "Riccione",
-        "fax": "0541.612717",
-        "mail": "info@bagniniriccione.it",
-        "name": "La Spiaggia 145",
-        "number": "145",
-        "site": "http://www.bagniniriccione.it/",
+        "address": "Marano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.022385", 
+            "12.6350462"
+        ], 
+        "fax": "0541.612717", 
+        "mail": "info@bagniniriccione.it", 
+        "name": "La Spiaggia 145", 
+        "number": "145", 
+        "site": "http://www.bagniniriccione.it/", 
         "tel": "0541.640561 - 0541.612717"
-    },
+    }, 
     {
-        "address": "Marano",
-        "city": "Riccione",
-        "fax": "0541.612717",
-        "mail": "info@bagniniriccione.it",
-        "name": "La Spiaggia 146",
-        "number": "146",
-        "site": "http://www.bagniniriccione.it/",
+        "address": "Marano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.022635", 
+            "12.6346725"
+        ], 
+        "fax": "0541.612717", 
+        "mail": "info@bagniniriccione.it", 
+        "name": "La Spiaggia 146", 
+        "number": "146", 
+        "site": "http://www.bagniniriccione.it/", 
         "tel": "0541.640561 - 0541.612717"
-    },
+    }, 
     {
-        "address": "Marano",
-        "city": "Riccione",
-        "fax": "0541.612717",
-        "mail": "info@bagniniriccione.it",
-        "name": "La Spiaggia 147",
-        "number": "147",
-        "site": "http://www.bagniniriccione.it/",
+        "address": "Marano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.022885", 
+            "12.6342988"
+        ], 
+        "fax": "0541.612717", 
+        "mail": "info@bagniniriccione.it", 
+        "name": "La Spiaggia 147", 
+        "number": "147", 
+        "site": "http://www.bagniniriccione.it/", 
         "tel": "0541.640561 - 0541.612717"
-    },
+    }, 
     {
-        "address": "Marano",
-        "city": "Riccione",
-        "fax": "0541.612717",
-        "mail": "info@bagniniriccione.it",
-        "name": "La Spiaggia 148",
-        "number": "148",
-        "site": "http://www.bagniniriccione.it/",
+        "address": "Marano", 
+        "city": "Riccione", 
+        "coords": [
+            "44.023135", 
+            "12.6339251"
+        ], 
+        "fax": "0541.612717", 
+        "mail": "info@bagniniriccione.it", 
+        "name": "La Spiaggia 148", 
+        "number": "148", 
+        "site": "http://www.bagniniriccione.it/", 
         "tel": "0541.640561 - 0541.612717"
-    },
+    }, 
     {
-        "address": "Marano",
-        "cell": "339.6571710",
-        "city": "Riccione",
-        "mail": "claudio@151riccione.com",
-        "name": "L'Ultima Spiaggia",
-        "number": "151",
+        "address": "Marano", 
+        "cell": "339.6571710", 
+        "city": "Riccione", 
+        "coords": [
+            "44.023885", 
+            "12.632804"
+        ], 
+        "mail": "claudio@151riccione.com", 
+        "name": "L'Ultima Spiaggia", 
+        "number": "151", 
         "site": "http://www.151riccione.com"
     }
 ]
