@@ -4346,6 +4346,10 @@
     {
         "address": "Via Pessagno Emanuele, 54",
         "city": "Lido di Classe",
+        "coords": [
+            "44.327156",
+            "12.337774"
+        ],
         "details": {
             "cabine": 20,
             "cabine disabili": 1,
@@ -4360,6 +4364,7 @@
         },
         "fax": "0544 939434",
         "name": "Bagno 2000",
+        "number": "14",	
         "services": [
             "animazione",
             "beach volley",
@@ -4384,6 +4389,10 @@
     {
         "address": "Via A. Cadamosto, 100",
         "city": "Lido di Classe",
+        "coords": [
+            "44.327647",
+            "12.33757"
+        ],
         "details": {
             "cabine": 10,
             "cabine disabili": 1,
@@ -4398,6 +4407,7 @@
         },
         "mail": "info@bagnoalbatros.it",
         "name": "Bagno Albatros",
+        "number": "12",
         "services": [
             "animazione",
             "beach volley",
@@ -4415,6 +4425,10 @@
         "address": "Viale Caboto, 32",
         "cell": "338 2855028",
         "city": "Lido di Classe",
+        "coords": [
+            "44.322701",
+            "12.340065"
+        ], 
         "details": {
             "cabine": 16,
             "cabine disabili": 1,
@@ -4429,6 +4443,7 @@
         "fax": "0544 939407",
         "mail": "simocayman@alice.it",
         "name": "Bagno Cayman",
+        "number": "32",
         "services": [
             "animazione",
             "beach volley",
@@ -4449,6 +4464,10 @@
         "address": "Via Da Noli Antonio, 57",
         "cell": "335 6827722",
         "city": "Lido di Classe",
+        "coords": [
+            "44.326247",
+            "12.3383"
+        ],
         "details": {
             "cabine": 3,
             "cabine disabili": 1,
@@ -4462,6 +4481,7 @@
         },
         "mail": "bagnocayoloco@libero.it",
         "name": "Bagno Cayo Loco",
+        "number": "18",
         "services": [
             "animazione",
             "beach volley",
@@ -4480,6 +4500,10 @@
         "address": "Via Bering Vitus, 105",
         "cell": "345 5023510",
         "city": "Lido di Classe",
+        "coords": [
+            "44.331235",
+            "12.33573"
+        ],
         "details": {
             "cabine": 12,
             "cabine disabili": 1,
@@ -4493,6 +4517,7 @@
         },
         "mail": "info@bagnogogo.it",
         "name": "Bagno GoGo",
+        "number": "2",
         "services": [
             "beach volley",
             "ping pong",
@@ -4506,6 +4531,10 @@
         "address": "Via Bering Vitus, 107",
         "cell": "334 2614747",
         "city": "Lido di Classe",
+        "coords": [
+            "44.331016",
+            "12.336921"
+        ],
         "details": {
             "cabine": 8,
             "cabine disabili": 1,
@@ -4518,6 +4547,7 @@
             "wc disabili": 1
         },
         "name": "Bagno Jamaica Beach",
+        "number": "2b",
         "services": [
             "animazione",
             "ristorazione"
@@ -4526,6 +4556,10 @@
     {
         "address": "Viale Caboto, 88",
         "city": "Lido di Classe",
+        "coords": [
+            "44.324485",
+            "12.339233"
+        ],
         "details": {
             "cabine": 9,
             "cabine disabili": 1,
@@ -4540,6 +4574,7 @@
         "fax": "0544 949470",
         "mail": "info@korasol.it",
         "name": "Bagno Korasol",
+        "number": "24",
         "services": [
             "beach volley",
             "baby park",
@@ -4551,8 +4586,43 @@
         "tel": "0544 949470"
     },
     {
+        "address": "Lungomare Via Arenile Demaniale, 22",
+        "city": "Lido di Classe",
+	"coords": [
+            "44.325053",
+            "12.338987"
+        ],
+        "details": {
+            "cabine": 7,
+            "cabine disabili": 1,
+            "docce aperte": 3,
+            "docce chiuse": 2,
+            "lavapiedi": 1,
+            "lettini": 230,
+            "ombrelloni": 100,
+            "wc": 3,
+            "wc disabili": 1
+        },
+        "name": "Bagno Rosa",
+        "number": "22",
+        "services": [
+            "beach volley",
+            "bocce",
+            "baby park",
+            "pallacanestro",
+            "ping pong",
+            "racchettoni",
+            "ristorazione"
+        ],
+        "tel": "0544 949635"
+    },
+    {
         "address": "Viale Caboto, 26/B",
         "city": "Lido di Classe",
+        "coords": [
+            "44.324147",
+            "12.339346"
+        ],
         "details": {
             "cabine": 7,
             "cabine disabili": 1,
@@ -4565,6 +4635,7 @@
             "wc disabili": 1
         },
         "name": "Bagno Marta",
+        "number": "26",
         "services": [
             "beach volley",
             "bocce",
@@ -4579,6 +4650,10 @@
     {
         "address": "Via Marignolli Giovanni, 6",
         "city": "Lido di Classe",
+        "coords": [
+            "44.329251",
+            "12.337012"
+        ],
         "details": {
             "cabine": 10,
             "cabine disabili": 1,
@@ -4590,7 +4665,8 @@
             "wc": 5,
             "wc disabili": 1
         },
-        "name": "Bagno Mattley Beach",
+        "name": "Bagno Mattley",
+        "number": "6",
         "services": [
             "animazione",
             "beach volley",
@@ -4609,6 +4685,10 @@
     {
         "address": "Viale Caboto, 20",
         "city": "Lido di Classe",
+        "coords": [
+            "44.325813",
+            "12.338536"
+        ],
         "details": {
             "cabine": 40,
             "cabine disabili": 1,
@@ -4622,7 +4702,8 @@
             "wc disabili": 1
         },
         "fax": "0544 949425",
-        "name": "Bagno Playa Pura Vida",
+        "name": "Bagno Playa Pura Vida", 
+        "number": "20",
         "services": [
             "animazione",
             "beach volley",
@@ -4640,6 +4721,10 @@
     {
         "address": "Via Cadamosto Alvise, 104",
         "city": "Lido di Classe",
+        "coords": [
+            "44.328799",
+            "12.337398"
+        ],
         "details": {
             "cabine": 15,
             "cabine disabili": 1,
@@ -4653,6 +4738,7 @@
         },
         "mail": "lubro1990@libero.it",
         "name": "Bagno Torakiki",
+        "number": "8",
         "services": [
             "animazione",
             "beach volley",
@@ -4666,6 +4752,10 @@
     {
         "address": "Viale Caboto, 28",
         "city": "Lido di Classe",
+        "coords": [
+            "44.323725",
+            "12.339555"
+        ],
         "details": {
             "cabine": 22,
             "cabine disabili": 1,
@@ -4680,6 +4770,7 @@
         },
         "mail": "bagno.vanni@libero.it",
         "name": "Bagno Vanni",
+        "number": "28",
         "services": [
             "beach volley",
             "bocce",
@@ -4693,6 +4784,10 @@
     {
         "address": "Via Cadamosto Alvise, 49",
         "city": "Lido di Classe",
+        "coords": [
+            "44.328246",
+            "12.337634"
+        ],
         "details": {
             "cabine": 10,
             "cabine disabili": 1,
@@ -4704,7 +4799,8 @@
             "wc": 4,
             "wc disabili": 1
         },
-        "name": "Bagno Vela Top Fun",
+        "name": "Bagno Vela",
+        "number": "10",
         "services": [
             "animazione",
             "beach volley",
@@ -4718,6 +4814,10 @@
     {
         "address": "Viale Caboto, 4",
         "city": "Lido di Classe",
+        "coords": [
+            "44.329804",
+            "12.336829"
+        ],
         "details": {
             "cabine": 8,
             "cabine disabili": 1,
@@ -4732,6 +4832,7 @@
         },
         "fax": "0544 939422",
         "name": "Bagno Venere",
+        "number": "4",
         "services": [
             "animazione",
             "beach volley",
@@ -4744,6 +4845,10 @@
         "address": "Via Pessagno, 16",
         "cell": "331 1657565",
         "city": "Lido di Classe",
+        "coords": [
+            "44.326699",
+            "12.338016"
+        ],
         "details": {
             "cabine": 15,
             "docce aperte": 2,
@@ -4756,7 +4861,8 @@
             "wc disabili": 1
         },
         "mail": "waikikibeach16@gmail.com",
-        "name": "Bagno Waikiki",
+        "name": "Bagno Benouse Club",
+        "number": "16",
         "services": [
             "ristorazione",
             "bar"
@@ -4766,6 +4872,10 @@
     {
         "address": "Viale Caboto, 94",
         "city": "Lido di Classe",
+        "coords": [
+            "44.323361",
+            "12.339775"
+        ],
         "details": {
             "cabine": 20,
             "cabine disabili": 1,
@@ -4780,6 +4890,7 @@
         },
         "mail": "cristinagaroia@gmail.com",
         "name": "Spiaggia 30",
+        "number": "30", 
         "services": [
             "animazione",
             "baby park",
@@ -5399,6 +5510,7 @@
         "fax": "0544 975671",
         "mail": "roberto.albertarelli@fastwebnet.it",
         "name": "Bagno Oscar",
+        "number": "343",
         "services": [
             "beach volley",
             "baby park",
