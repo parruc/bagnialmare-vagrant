@@ -4902,6 +4902,9 @@
     {
         "address": "Viale Romagna, 191",
         "city": "Lido di Savio",
+        "coords": [
+            "44.30871","12.345043"
+        ],
         "details": {
             "cabine": 12,
             "cabine disabili": 1,
@@ -4926,6 +4929,9 @@
     {
         "address": "Via Bagnara, 1",
         "city": "Lido di Savio",
+        "coords": [
+            "44.315919","12.343074"
+        ],
         "details": {
             "cabine disabili": 5,
             "docce aperte": 2,
@@ -4953,6 +4959,9 @@
     {
         "address": "Via Verghereto, 348",
         "city": "Lido di Savio",
+        "coords": [
+            "44.302245","12.346682"
+        ],
         "details": {
             "cabine disabili": 1,
             "docce aperte": 1,
@@ -4978,6 +4987,9 @@
     {
         "address": "Viale Romagna, 978/b",
         "city": "Lido di Savio",
+        "coords": [
+            "44.308027","12.345333"
+        ],
         "details": {
             "cabine": 12,
             "docce aperte": 3,
@@ -5001,6 +5013,9 @@
     {
         "address": "Via Bagnacavallo, 1",
         "city": "Lido di Savio",
+        "coords": [
+            "44.316441","12.342629"
+        ],
         "details": {
             "cabine": 9,
             "cabine disabili": 1,
@@ -5028,6 +5043,9 @@
         "address": "Via Forl\u00ec, 0/b",
         "cell": "388 3554577",
         "city": "Lido di Savio",
+         "coords": [
+            "44.310238","12.344834"
+        ],
         "details": {
             "docce aperte": 1,
             "docce chiuse": 1,
@@ -5051,6 +5069,9 @@
     },
     {
         "address": "Viale Romagna, 379",
+        "coords": [
+            "44.308027","12.345333"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 20,
@@ -5074,6 +5095,9 @@
     },
     {
         "address": "Via Bertinoro , 2",
+        "coords": [
+            "44.314913","12.343332"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 6,
@@ -5102,6 +5126,9 @@
     },
     {
         "address": "Via Meldola, 19",
+        "coords": [
+            "44.304779","12.346076"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 10,
@@ -5125,6 +5152,9 @@
     },
     {
         "address": "Via Modigliana, 20 - 22",
+        "coords": [
+            "44.30399","12.346275"
+        ],
         "cell": "339 4049770",
         "city": "Lido di Savio",
         "details": {
@@ -5150,6 +5180,9 @@
     },
     {
         "address": "Viale Ravenna, 350",
+        "coords": [
+            "44.30305","12.346519"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 17,
@@ -5173,6 +5206,9 @@
     },
     {
         "address": "Via Modigliana, 20",
+        "coords": [
+            "44.303603","12.346307"
+        ],
         "cell": "333 3425210",
         "city": "Lido di Savio",
         "details": {
@@ -5191,6 +5227,9 @@
     },
     {
         "address": "Viale Romagna, 217",
+        "coords": [
+            "44.310814","12.344587"
+        ],
         "cell": "388 3554577",
         "city": "Lido di Savio",
         "details": {},
@@ -5201,6 +5240,9 @@
     },
     {
         "address": "Viale Romagna, 270",
+        "coords": [
+            "44.306453","12.345724"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 5,
@@ -5216,6 +5258,9 @@
     },
     {
         "address": "Via Massalombarda, 365",
+        "coords": [
+            "44.305401","12.346002"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 35,
@@ -5239,6 +5284,9 @@
     },
     {
         "address": "Via Ravenna, 351",
+        "coords": [
+            "44.302887","12.346508"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 10,
@@ -5269,6 +5317,9 @@
     {
         "address": "Via Bagnacavallo",
         "city": "Lido di Savio",
+        "coords": [
+            "44.317051","12.342522"
+        ],
         "details": {
             "cabine": 10,
             "docce aperte": 2,
@@ -5290,6 +5341,9 @@
     {
         "address": "Via Castrocaro, 2",
         "city": "Lido di Savio",
+        "coords": [
+            "44.313169","12.34404"
+        ],
         "details": {
             "cabine": 3,
             "cabine disabili": 1,
@@ -5318,6 +5372,9 @@
     },
     {
         "address": "Via Marradi, 369",
+        "coords": [
+            "44.305954","12.346078"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 14,
@@ -5347,6 +5404,9 @@
     },
     {
         "address": "Via Meldola, 363/b",
+        "coords": [
+            "44.304779","12.346076"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 20,
@@ -5372,6 +5432,9 @@
     },
     {
         "address": "Via Lugo, 372",
+        "coords": [
+            "44.306829","12.345702"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 10,
@@ -5401,6 +5464,9 @@
     },
     {
         "address": "Via Ravenna, 353",
+        "coords": [
+            "44.303236","12.346513"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 40,
@@ -5428,6 +5494,9 @@
     },
     {
         "address": "Via Modigliana, 21",
+        "coords": [
+            "44.303764","12.34635"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 25,
@@ -5455,6 +5524,10 @@
     {
         "address": "Via Verghereto, 42",
         "city": "Lido di Savio",
+        "coords": [
+            "44.301648",
+            "12.346857"
+        ],
         "details": {
             "cabine": 7,
             "cabine disabili": 1,
@@ -5487,6 +5560,9 @@
     {
         "address": "Via Verghereto",
         "city": "Lido di Savio",
+        "coords": [
+            "44.302599","12.346599"
+        ],
         "details": {},
         "name": "Bagno Nettuno",
         "services": [],
@@ -5495,6 +5571,10 @@
     {
         "address": "Via Verghereto, 343",
         "city": "Lido di Savio",
+        "coords": [
+            "44.301257",
+            "12.346902"
+        ],
         "details": {
             "cabine": 16,
             "cabine disabili": 1,
@@ -5521,6 +5601,9 @@
     },
     {
         "address": "Via Lugo, 371",
+        "coords": [
+            "44.306829","12.345702"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 6,
@@ -5547,6 +5630,9 @@
     },
     {
         "address": "Via Bertinoro, 2",
+        "coords": [
+            "44.315355","12.343192"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine": 12,
@@ -5564,6 +5650,9 @@
     {
         "address": "Via Castrocaro, 1",
         "city": "Lido di Savio",
+        "coords": [
+            "44.313566","12.343893"
+        ],
         "details": {
             "cabine": 2,
             "cabine disabili": 1,
@@ -5588,31 +5677,9 @@
     },
     {
         "address": "Via Lavezzola, 2/X",
-        "city": "Lido di Savio",
-        "details": {
-            "cabine": 1,
-            "cabine disabili": 1,
-            "docce aperte": 4,
-            "docce chiuse": 1,
-            "lavapiedi": 2,
-            "lettini": 320,
-            "ombrelloni": 116,
-            "sdraio": 3,
-            "wc": 1,
-            "wc disabili": 1
-        },
-        "mail": "simontemaurizio@libero.it",
-        "name": "Bagno Rapa Nui",
-        "services": [
-            "beach volley",
-            "ping pong",
-            "racchettoni",
-            "ristorazione"
+        "coords": [
+            "44.307374","12.345668"
         ],
-        "tel": "0544 939701"
-    },
-    {
-        "address": "Via Lavezzola, 2/X",
         "city": "Lido di Savio",
         "details": {
             "cabine": 1,
@@ -5639,6 +5706,9 @@
     {
         "address": "Via Cesena, 18",
         "city": "Lido di Savio",
+        "coords": [
+            "44.312606","12.344378"
+        ],
         "details": {
             "cabine": 15,
             "cabine disabili": 1,
@@ -5666,6 +5736,9 @@
     {
         "address": "Via Cotignola",
         "city": "Lido di Savio",
+        "coords": [
+            "44.311557","12.34462"
+        ],
         "details": {
             "cabine": 10,
             "cabine disabili": 1,
@@ -5695,6 +5768,9 @@
     {
         "address": "Viale Romagna, 199",
         "city": "Lido di Savio",
+        "coords": [
+            "44.309294","12.345011"
+        ],
         "details": {
             "cabine": 2,
             "cabine disabili": 1,
@@ -5720,6 +5796,9 @@
     },
     {
         "address": "Via Marradi, 367",
+        "coords": [
+            "44.305954","12.346078"
+        ],
         "city": "Lido di Savio",
         "details": {
             "cabine disabili": 1,
@@ -5750,6 +5829,9 @@
     {
         "address": "Via Cotignola",
         "city": "Lido di Savio",
+        "coords": [
+            "44.311975","12.344504"
+        ],
         "details": {
             "cabine": 3,
             "cabine disabili": 1,
