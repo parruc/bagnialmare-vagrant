@@ -6,6 +6,7 @@
             "43.986385", 
             "12.688859"
         ], 
+        "municipality": "Riccione", 
         "name": "Tilde Virgilio", 
         "number": "1"
     }, 
@@ -17,6 +18,7 @@
             "43.98660903", 
             "12.68851057"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Cesare Zona 2", 
         "number": "2"
     }, 
@@ -28,6 +30,7 @@
             "12.68816214"
         ], 
         "mail": "alezona3@alice.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Ale", 
         "number": "3", 
         "site": "http://www.spiaggia3.com", 
@@ -43,6 +46,7 @@
         ], 
         "fax": "0541.610325", 
         "mail": "info@spiaggia4riccione.com", 
+        "municipality": "Riccione", 
         "name": "Bagni Kico", 
         "number": "4", 
         "tel": "0541.610325"
@@ -54,6 +58,7 @@
             "43.98728112", 
             "12.68746528"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Mario", 
         "number": "5"
     }, 
@@ -66,6 +71,7 @@
         ], 
         "fax": "0541.612627", 
         "mail": "bagniluca12riccione@alice.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Luca", 
         "number": "12", 
         "tel": "0541.612627"
@@ -77,6 +83,7 @@
             "43.98974545", 
             "12.68363255"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Guerrino", 
         "number": "16"
     }, 
@@ -87,6 +94,7 @@
             "43.98996948", 
             "12.68328412"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Mario", 
         "number": "17", 
         "tel": "0541.614488"
@@ -99,6 +107,7 @@
             "43.99019351", 
             "12.68293569"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Pedra del Sol", 
         "number": "18"
     }, 
@@ -110,6 +119,7 @@
             "43.99041754", 
             "12.68258726"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagno 19 Beach", 
         "number": "19", 
         "tel": "0541.612628"
@@ -123,6 +133,7 @@
             "12.68223883"
         ], 
         "mail": "info@bahiantigua20.it", 
+        "municipality": "Riccione", 
         "name": "Bahia Antigua", 
         "number": "20"
     }, 
@@ -134,6 +145,7 @@
             "43.9908656", 
             "12.6818904"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Marco", 
         "number": "21"
     }, 
@@ -146,6 +158,7 @@
             "12.68154197"
         ], 
         "mail": "info@hoteliberty.com", 
+        "municipality": "Riccione", 
         "name": "Bagni", 
         "number": "22", 
         "site": "http://www.hoteliberty.com/"
@@ -159,6 +172,7 @@
             "12.68119354"
         ], 
         "mail": "spiaggia23riccione@email.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Malib\u00f9", 
         "number": "23"
     }, 
@@ -171,6 +185,7 @@
         ], 
         "fax": "0541.612717", 
         "mail": "info@bagniniriccione.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia 25", 
         "number": "25", 
         "site": "http://www.bagniniriccione.it/", 
@@ -184,6 +199,7 @@
             "43.99198575", 
             "12.68014825"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Giancarlo", 
         "number": "26"
     }, 
@@ -196,6 +212,7 @@
             "12.67979982"
         ], 
         "mail": "info@riccione27.com", 
+        "municipality": "Riccione", 
         "name": "Bagni Casali", 
         "number": "27", 
         "site": "http://www.riccione27.com"
@@ -209,6 +226,7 @@
             "12.67945139"
         ], 
         "mail": "info@riccionespiaggia28.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Silvano", 
         "number": "28", 
         "site": "http://www.riccionespiaggia28.it/", 
@@ -223,6 +241,7 @@
             "12.67910296"
         ], 
         "mail": "info@spiaggia29e30riccione.com", 
+        "municipality": "Riccione", 
         "name": "Bagni Nica", 
         "number": "29", 
         "site": "http://www.spiaggia29e30riccione.com/", 
@@ -237,6 +256,7 @@
             "12.67875453"
         ], 
         "mail": "info@spiaggia29e30riccione.com", 
+        "municipality": "Riccione", 
         "name": "Bagni Lene", 
         "number": "30", 
         "site": "http://www.spiaggia29e30riccione.com/", 
@@ -251,6 +271,7 @@
             "12.6784061"
         ], 
         "mail": "livregg@tin.it", 
+        "municipality": "Riccione", 
         "name": "Kiki Beach", 
         "number": "31"
     }, 
@@ -263,6 +284,7 @@
             "12.67805767"
         ], 
         "mail": "spiaggia32riccione@libero.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Secondo", 
         "number": "32", 
         "site": "http://www.spiaggia32riccione.it/", 
@@ -277,6 +299,7 @@
             "12.67770924"
         ], 
         "mail": "kitsune_e@libero.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Edo", 
         "number": "33", 
         "site": "http://www.spiaggia33riccione.it/Homepage.htm", 
@@ -290,6 +313,7 @@
             "43.99377799", 
             "12.67736081"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Mario", 
         "number": "34", 
         "tel": "0541.602960", 
@@ -305,6 +329,7 @@
         ], 
         "fax": "0541.607489", 
         "mail": "andrea35beach@libero.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Nemo", 
         "number": "35", 
         "tel": "0541.607489"
@@ -316,6 +341,7 @@
             "43.99400202", 
             "12.67701238"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagno Novaro", 
         "number": "35/b", 
         "tel": "0541.601905"
@@ -328,6 +354,7 @@
             "43.99422605", 
             "12.67666395"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Romano", 
         "number": "36", 
         "tel": "0541.606618"
@@ -340,6 +367,7 @@
             "12.67631552"
         ], 
         "mail": "info@sorayahotel.it", 
+        "municipality": "Riccione", 
         "name": "Sawasdee", 
         "number": "37", 
         "site": "http://www.sorayahotel.it/sawasdee/gallery.php", 
@@ -354,6 +382,7 @@
             "12.67596709"
         ], 
         "mail": "info@spiaggia38riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Anna e Marcello", 
         "number": "38", 
         "site": "http://www.spiaggia38riccione.it/", 
@@ -366,6 +395,7 @@
             "43.99489814", 
             "12.67561866"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Giuseppe", 
         "number": "39", 
         "tel": "0541.604693"
@@ -378,6 +408,7 @@
             "12.6749218"
         ], 
         "mail": "info@41mastrobeach.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Severino", 
         "number": "41", 
         "site": "http://www.41mastrobeach.it", 
@@ -391,6 +422,7 @@
             "12.67457337"
         ], 
         "mail": "bagniprimo@libero.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Primo", 
         "number": "42", 
         "tel": "0541.604100"
@@ -402,6 +434,7 @@
             "43.99601829", 
             "12.67387651"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Iolanda", 
         "number": "44", 
         "tel": "0541.606894"
@@ -414,6 +447,7 @@
             "12.67352808"
         ], 
         "mail": "salesvalue@libero.it", 
+        "municipality": "Riccione", 
         "name": "Flamingo Beach", 
         "number": "45", 
         "site": "http://www.flamingobeach.it", 
@@ -427,6 +461,7 @@
             "12.67317965"
         ], 
         "mail": "info@bagniniriviera.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia 46", 
         "number": "46", 
         "site": "http://www.bagniniriviera.it/", 
@@ -440,6 +475,7 @@
             "12.67283122"
         ], 
         "mail": "info@bagniniriviera.it", 
+        "municipality": "Riccione", 
         "name": "La spiaggia", 
         "number": "47", 
         "site": "http://www.bagniniriviera.it/", 
@@ -452,6 +488,7 @@
             "43.99691441", 
             "12.67248279"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Bice", 
         "number": "48", 
         "tel": "0541.603232"
@@ -465,6 +502,7 @@
             "12.67213436"
         ], 
         "mail": "info@spiaggiadelbenessere.it", 
+        "municipality": "Riccione", 
         "name": "Spiaggia del Benessere", 
         "number": "49-50", 
         "site": "http://www.spiaggiadelbenessere.it/", 
@@ -479,6 +517,7 @@
             "12.6714375"
         ], 
         "mail": "maurizio@spiaggia51riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Luigi", 
         "number": "51", 
         "site": "http://www.spiaggia51riccione.it/", 
@@ -494,6 +533,7 @@
             "12.67108907"
         ], 
         "mail": "info@papayabeachvillage.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Emilio", 
         "number": "52", 
         "site": "http://www.papayabeachvillage.it/", 
@@ -508,6 +548,7 @@
             "12.67074064"
         ], 
         "mail": "info@spiaggia53.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Luciano e Renzo", 
         "number": "53", 
         "site": "http://www.spiaggia53.it/", 
@@ -522,6 +563,7 @@
         ], 
         "fax": "0541.600902", 
         "mail": "info@spiaggia54riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Nino e Nando", 
         "number": "54", 
         "site": "http://www.spiaggia54riccione.it/", 
@@ -536,6 +578,7 @@
             "12.67004378"
         ], 
         "mail": "bagno_mulazzani@hotmail.it", 
+        "municipality": "Riccione", 
         "name": "Bagno Mulazzani", 
         "number": "55"
     }, 
@@ -547,6 +590,7 @@
             "12.66969535"
         ], 
         "mail": "info@spiaggia56riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Renato", 
         "number": "56", 
         "site": "http://www.spiaggia56riccione.it/", 
@@ -559,6 +603,7 @@
             "43.99893068", 
             "12.66934692"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Massimo", 
         "number": "57", 
         "tel": "0541.601057"
@@ -572,6 +617,7 @@
             "12.66899849"
         ], 
         "mail": "info@bagnileo58riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Leo", 
         "number": "58", 
         "site": "http://www.bagnileo58riccione.it/home.asp", 
@@ -586,6 +632,7 @@
             "12.66865006"
         ], 
         "mail": "silvia@ spiaggia59riccione. it", 
+        "municipality": "Riccione", 
         "name": "Bagni Cicca", 
         "number": "59", 
         "site": "http://www.spiaggia59riccione.it", 
@@ -601,6 +648,7 @@
             "12.66830163"
         ], 
         "mail": "info@zona60.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Giorgio", 
         "number": "60", 
         "site": "http://www.zona60.it/", 
@@ -615,6 +663,7 @@
         ], 
         "fax": "0541.606720", 
         "mail": "info@spiaggia61.it", 
+        "municipality": "Riccione", 
         "name": "Spiaggia 61", 
         "number": "61", 
         "site": "http://www.spiaggia61.it/", 
@@ -629,6 +678,7 @@
             "12.66760477"
         ], 
         "mail": "mauriziobarnabe@libero.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Sandrino", 
         "number": "62", 
         "tel": "0541.691684"
@@ -642,6 +692,7 @@
             "12.66725634"
         ], 
         "mail": "info@spiaggia63.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Speranzino", 
         "number": "63", 
         "site": "http://www.spiaggia63.it", 
@@ -657,6 +708,7 @@
         ], 
         "fax": "0541.606588", 
         "mail": "bagno64riccione@gmail.com", 
+        "municipality": "Riccione", 
         "name": "Bagni Gianni", 
         "number": "64", 
         "site": "http://www.zona64riccione.it/", 
@@ -672,6 +724,7 @@
         ], 
         "fax": "0541.603918", 
         "mail": "info@bagnimario65.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Mario", 
         "number": "65", 
         "site": "http://www.bagnimario65.it/", 
@@ -686,6 +739,7 @@
             "12.66621105"
         ], 
         "mail": "info@bagnocesare66.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Cesare", 
         "number": "66", 
         "site": "http://www.bagnocesare66.it", 
@@ -699,6 +753,7 @@
             "44.00117098", 
             "12.66586262"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Vittorio", 
         "number": "67", 
         "tel": "0541.691584"
@@ -712,6 +767,7 @@
         ], 
         "fax": "0541.606537", 
         "mail": "info@spiaggia68riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Ettore", 
         "number": "68", 
         "site": "http://www.spiaggia68riccione.it", 
@@ -726,6 +782,7 @@
             "12.66516576"
         ], 
         "mail": "info@spiaggia69riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Stefano", 
         "number": "69", 
         "site": "http://www.spiaggia69riccione.it/", 
@@ -741,6 +798,7 @@
         ], 
         "fax": "0541.692384", 
         "mail": "info@bagno70.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Mario", 
         "number": "70", 
         "site": "http://www.bagno70.it/main.html", 
@@ -755,6 +813,7 @@
             "12.6644689"
         ], 
         "mail": "info@bagno71riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagno 71", 
         "number": "71", 
         "site": "http://www.bagno71riccione.it/"
@@ -769,6 +828,7 @@
         ], 
         "fax": "0541.643339", 
         "mail": "info@riccionebeach72.com", 
+        "municipality": "Riccione", 
         "name": "Riccione Beach", 
         "number": "72", 
         "site": "http://www.riccionebeach72.com/", 
@@ -783,6 +843,7 @@
             "12.66377204"
         ], 
         "mail": "info@riccionespiaggia73.com", 
+        "municipality": "Riccione", 
         "name": "Bagni Agostino", 
         "number": "73", 
         "site": "http://www.riccionespiaggia73.com/riccionespiaggia73/home.html", 
@@ -796,6 +857,7 @@
             "44.00273919", 
             "12.66342361"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Natalina", 
         "number": "74"
     }, 
@@ -808,6 +870,7 @@
             "12.66307518"
         ], 
         "mail": "info@beach75riccione.it", 
+        "municipality": "Riccione", 
         "name": "Golden Beach", 
         "number": "75", 
         "site": "http://www.beach75riccione.it/", 
@@ -821,6 +884,7 @@
             "12.66272675"
         ], 
         "mail": "info@spiaggia76.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Guido", 
         "number": "76", 
         "site": "http://www.spiaggia76.it/", 
@@ -836,6 +900,7 @@
         ], 
         "fax": "0541.601508", 
         "mail": "andrea@spiaggia77.it", 
+        "municipality": "Riccione", 
         "name": "Spiaggia Andrea", 
         "number": "77", 
         "site": "http://www.spiaggia77.it/", 
@@ -850,6 +915,7 @@
             "12.66202989"
         ], 
         "mail": "info@bagnimauro78riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Mauro", 
         "number": "78", 
         "site": "http://www.bagnimauro78riccione.it/", 
@@ -864,6 +930,7 @@
             "12.66168146"
         ], 
         "fax": "bagnini)", 
+        "municipality": "Riccione", 
         "name": "Bagni Green Beach", 
         "number": "79", 
         "tel": "0541.692632"
@@ -876,6 +943,7 @@
             "12.66133303"
         ], 
         "mail": "info@spiaggia80.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Giuseppe", 
         "number": "80", 
         "site": "http://www.spiaggia80.it/", 
@@ -889,6 +957,7 @@
             "12.6609846"
         ], 
         "mail": "info@bagnoperla81.it", 
+        "municipality": "Riccione", 
         "name": "Bagno Perla", 
         "number": "81", 
         "site": "http://www.bagnoperla81.it/", 
@@ -903,6 +972,7 @@
             "12.66063617"
         ], 
         "mail": "bagni82riccione@alice.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Stefano e Massimo", 
         "number": "82", 
         "site": "http://spiaggia82riccione.xoom.it/", 
@@ -915,6 +985,7 @@
             "44.00475546", 
             "12.66028774"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagno Aldo", 
         "number": "83", 
         "tel": "0541.693673"
@@ -928,6 +999,7 @@
             "12.65993931"
         ], 
         "mail": "info@bagnifabio84riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Fabio", 
         "number": "84", 
         "site": "http://www.bagnifabio84riccione.it/", 
@@ -942,6 +1014,7 @@
             "12.65959088"
         ], 
         "mail": "bagnogiulia85@libero.it", 
+        "municipality": "Riccione", 
         "name": "Bagno Giulia", 
         "number": "85", 
         "site": "http://www.bagnogiulia85.com", 
@@ -956,6 +1029,7 @@
             "12.65924245"
         ], 
         "mail": "info@spiaggia86riccione.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia del Sole", 
         "number": "86", 
         "site": "http://www.spiaggia86riccione.it/", 
@@ -970,6 +1044,7 @@
             "12.65889402"
         ], 
         "mail": "info@spiaggia87.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia del Sole", 
         "number": "87", 
         "site": "http://www.spiaggia87.it/", 
@@ -984,6 +1059,7 @@
             "12.65854559"
         ], 
         "mail": "spiaggialepalme@leardinigroup.com", 
+        "municipality": "Riccione", 
         "name": "Spiaggia Le Palme", 
         "number": "88", 
         "site": "http://www.bagni88.it/", 
@@ -997,6 +1073,7 @@
             "12.65819716"
         ], 
         "mail": "spiaggialepalme@leardinigroup.com", 
+        "municipality": "Riccione", 
         "name": "Spiaggia Le Palme", 
         "number": "89", 
         "site": "http://www.bagni88.it/", 
@@ -1011,6 +1088,7 @@
             "12.65784873"
         ], 
         "mail": "info@bagno90.com", 
+        "municipality": "Riccione", 
         "name": "Bagni mario e Massimo", 
         "number": "90", 
         "site": "http://www.bagno90.com/", 
@@ -1026,6 +1104,7 @@
             "12.65612"
         ], 
         "mail": "info@spiaggia91riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Mario", 
         "number": "91", 
         "site": "http://www.spiaggia91riccione.it/", 
@@ -1039,6 +1118,7 @@
             "12.65573"
         ], 
         "mail": "bagni92@riccionespiaggia.com", 
+        "municipality": "Riccione", 
         "name": "Bagni Luigi e Karin", 
         "number": "92", 
         "site": "http://www.riccionespiaggia.com", 
@@ -1053,6 +1133,7 @@
             "12.65534"
         ], 
         "mail": "info@battarraesettimio.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Battarra", 
         "number": "93", 
         "site": "http://www.spiaggia93.com/", 
@@ -1067,6 +1148,7 @@
             "12.65495"
         ], 
         "mail": "info@battarraesettimio.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Settimio", 
         "number": "94", 
         "site": "http://www.spiaggia94.com/", 
@@ -1081,6 +1163,7 @@
             "12.65456"
         ], 
         "mail": "fabbrimarco.mf@libero.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Marco", 
         "number": "95", 
         "site": "http://www.tintarellatest.it", 
@@ -1095,6 +1178,7 @@
             "12.65417"
         ], 
         "mail": "silvano@bagno96silvano.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Silvano", 
         "number": "96", 
         "site": "http://www.bagno96silvano.it/", 
@@ -1110,6 +1194,7 @@
         ], 
         "fax": "0541.645275", 
         "mail": "info@laspiaggiadelledonne.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia delle Donne", 
         "number": "97", 
         "site": "http://www.bagniadolfo.com/", 
@@ -1122,6 +1207,7 @@
             "44.00948341", 
             "12.65339"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Carla", 
         "number": "98", 
         "tel": "0541.645084"
@@ -1134,6 +1220,7 @@
             "12.653"
         ], 
         "mail": "info@bagnirina99.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Rina", 
         "number": "99", 
         "site": "http://www.bagnirina99.it/", 
@@ -1148,6 +1235,7 @@
             "12.65261"
         ], 
         "mail": "alfredo@bagni100.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Armando", 
         "number": "100", 
         "site": "http://www.bagni100.it/", 
@@ -1162,6 +1250,7 @@
             "12.65222"
         ], 
         "mail": "info@lidodellesirenericcione.it", 
+        "municipality": "Riccione", 
         "name": "Lido delle Sirene", 
         "number": "101", 
         "site": "http://www.lidodellesirenericcione.it/", 
@@ -1176,6 +1265,7 @@
             "12.65183"
         ], 
         "mail": "bagniroberto@libero.it", 
+        "municipality": "Riccione", 
         "name": "Lido delle Sirene", 
         "number": "102", 
         "site": "http://www.lidodellesirenericcione.it/", 
@@ -1189,6 +1279,7 @@
             "12.65144"
         ], 
         "mail": "info@103riccione.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Armando", 
         "number": "103", 
         "site": "http://www.103riccione.it/", 
@@ -1203,6 +1294,7 @@
             "12.65105"
         ], 
         "mail": "andrea.spiaggia104@libero.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Rino", 
         "number": "104", 
         "site": "http://www.spiaggia104.it/", 
@@ -1215,6 +1307,7 @@
             "44.01142682", 
             "12.65066"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Bruna", 
         "number": "105", 
         "site": "http://www.spiaggia105.it/", 
@@ -1229,6 +1322,7 @@
             "12.65027"
         ], 
         "mail": "info@bagni106paola.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Paola", 
         "number": "106", 
         "tel": "0541.648016"
@@ -1241,6 +1335,7 @@
             "44.01198208", 
             "12.64988"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Augusta", 
         "number": "107", 
         "tel": "0541.645486"
@@ -1253,6 +1348,7 @@
             "12.64949"
         ], 
         "mail": "info@playadelsolriccione.com", 
+        "municipality": "Riccione", 
         "name": "Playa del Sol", 
         "number": "108", 
         "site": "http://www.bagno108.com/", 
@@ -1266,6 +1362,7 @@
             "12.6491"
         ], 
         "mail": "info@playadelsolriccione.com", 
+        "municipality": "Riccione", 
         "name": "Playa del Sol", 
         "number": "109", 
         "site": "http://www.bagno108.com", 
@@ -1280,6 +1377,7 @@
         ], 
         "fax": "0541.641324", 
         "mail": "info@laspiaggiadelcuore.com", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia del Cuore", 
         "number": "110", 
         "site": "http://www.laspiaggiadelcuore.com/", 
@@ -1292,6 +1390,7 @@
             "44.0130926", 
             "12.64832"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Alfredo", 
         "number": "111", 
         "tel": "0541.648002"
@@ -1303,6 +1402,7 @@
             "44.01337023", 
             "12.64793"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Maurizio e Franco", 
         "number": "112", 
         "tel": "0541.646064"
@@ -1314,6 +1414,7 @@
             "44.01364786", 
             "12.64754"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Azzurra", 
         "number": "113", 
         "tel": "0541.648460"
@@ -1327,6 +1428,7 @@
             "12.64715"
         ], 
         "mail": "info@bagninovella.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Novella", 
         "number": "114", 
         "site": "http://www.bagninovella.it/", 
@@ -1342,6 +1444,7 @@
         ], 
         "fax": "0541.645097", 
         "mail": "info@bagnielio.com", 
+        "municipality": "Riccione", 
         "name": "Bagni Oreste", 
         "number": "115", 
         "site": "http://www.bagnioreste.it/", 
@@ -1356,6 +1459,7 @@
             "12.64637"
         ], 
         "mail": "elioparma@virgilio.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Elio", 
         "number": "116", 
         "site": "http://www.bagnielio.com/", 
@@ -1368,6 +1472,7 @@
             "44.01475838", 
             "12.64598"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Sirio", 
         "number": "117"
     }, 
@@ -1378,6 +1483,7 @@
             "44.01503601", 
             "12.64559"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Monica", 
         "number": "118", 
         "tel": "0541.640564"
@@ -1391,6 +1497,7 @@
             "12.6452"
         ], 
         "mail": "bagniluciano119@libero.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Luciano", 
         "number": "119", 
         "site": "http://www.bagniluciano119.it/home_.html", 
@@ -1405,6 +1512,7 @@
             "12.64481"
         ], 
         "mail": "info@bagnimirella120.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Mirella", 
         "number": "120", 
         "site": "http://www.bagnimirella120.it/", 
@@ -1419,6 +1527,7 @@
             "12.64442"
         ], 
         "mail": "cmorgav@tin.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Giovanni", 
         "number": "121", 
         "tel": "0541.642549"
@@ -1430,6 +1539,7 @@
             "44.01614653", 
             "12.64403"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Blue Marine", 
         "number": "122"
     }, 
@@ -1443,6 +1553,7 @@
         ], 
         "fax": "0541.643961", 
         "mail": "info@centrovacanzericcione.it", 
+        "municipality": "Riccione", 
         "name": "Bagno Nettuno", 
         "number": "122/a", 
         "site": "http://www.centrovacanzericcione.it", 
@@ -1456,6 +1567,7 @@
             "44.01614653", 
             "12.64403"
         ], 
+        "municipality": "Riccione", 
         "name": "Elio", 
         "number": "122/b"
     }, 
@@ -1468,6 +1580,7 @@
             "12.64364"
         ], 
         "mail": "info@bagnicristianriccione.com", 
+        "municipality": "Riccione", 
         "name": "Bagni Cristian e Marta", 
         "number": "123", 
         "site": "http://www.bagnicristianriccione.com/", 
@@ -1480,6 +1593,7 @@
             "44.01670179", 
             "12.64325"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Mino", 
         "number": "124", 
         "tel": "0541.646674"
@@ -1491,6 +1605,7 @@
             "44.01697942", 
             "12.64286"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Nello", 
         "number": "125", 
         "tel": "0541.644548"
@@ -1503,6 +1618,7 @@
             "44.01725705", 
             "12.64247"
         ], 
+        "municipality": "Riccione", 
         "name": "Bagni Bruno", 
         "number": "126"
     }, 
@@ -1515,6 +1631,7 @@
             "12.64208"
         ], 
         "mail": "info@spiaggia127.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Trento", 
         "number": "127", 
         "site": "http://www.bagnitrento.it/public/ita/index.html", 
@@ -1529,6 +1646,7 @@
             "12.64169"
         ], 
         "mail": "francescomichelotti@email.it", 
+        "municipality": "Riccione", 
         "name": "Bagni Marino", 
         "number": "128", 
         "site": "http://www.riccione128.net/", 
@@ -1544,6 +1662,7 @@
             "12.6413"
         ], 
         "mail": "info@spiaggia129.it", 
+        "municipality": "Riccione", 
         "name": "Daniele", 
         "number": "129", 
         "site": "http://www.spiaggia129.it/", 
@@ -1557,6 +1676,7 @@
             "12.64091"
         ], 
         "mail": "info@bagniniriviera.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia 130", 
         "number": "130", 
         "site": "http://www.bagniniriviera.it/", 
@@ -1570,6 +1690,7 @@
             "12.64052"
         ], 
         "mail": "info@bagniniriviera.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia 131", 
         "number": "131", 
         "site": "http://www.bagniniriviera.it/", 
@@ -1582,6 +1703,7 @@
             "44.01892283", 
             "12.64013"
         ], 
+        "municipality": "Riccione", 
         "name": "Coral Beach", 
         "number": "132", 
         "tel": "0541.640196"
@@ -1595,6 +1717,7 @@
             "12.63935"
         ], 
         "mail": "info@beachvillagericcione.it", 
+        "municipality": "Riccione", 
         "name": "Beach Village", 
         "number": "134", 
         "site": "http://www.beachvillagericcione.it/", 
@@ -1609,6 +1732,7 @@
             "12.63896"
         ], 
         "mail": "spiaggia136@gmail.com", 
+        "municipality": "Riccione", 
         "name": "Marano Beach", 
         "number": "135/136", 
         "site": "http://www.maranobeach.it", 
@@ -1623,6 +1747,7 @@
             "12.63818"
         ], 
         "mail": "info@mojitobeach.com", 
+        "municipality": "Riccione", 
         "name": "Mojito Beach", 
         "number": "137", 
         "site": "http://www.mojitobeach.com", 
@@ -1636,6 +1761,7 @@
             "12.63779"
         ], 
         "mail": "direzione@hakunamatataplus.it", 
+        "municipality": "Riccione", 
         "name": "Hakuna Matata Plus", 
         "number": "138", 
         "site": "http://www.hakunamatataplus.it/", 
@@ -1650,6 +1776,7 @@
         ], 
         "fax": "0541.612717", 
         "mail": "info@bagniniriccione.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia 145", 
         "number": "145", 
         "site": "http://www.bagniniriccione.it/", 
@@ -1664,6 +1791,7 @@
         ], 
         "fax": "0541.612717", 
         "mail": "info@bagniniriccione.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia 146", 
         "number": "146", 
         "site": "http://www.bagniniriccione.it/", 
@@ -1678,6 +1806,7 @@
         ], 
         "fax": "0541.612717", 
         "mail": "info@bagniniriccione.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia 147", 
         "number": "147", 
         "site": "http://www.bagniniriccione.it/", 
@@ -1692,6 +1821,7 @@
         ], 
         "fax": "0541.612717", 
         "mail": "info@bagniniriccione.it", 
+        "municipality": "Riccione", 
         "name": "La Spiaggia 148", 
         "number": "148", 
         "site": "http://www.bagniniriccione.it/", 
@@ -1706,6 +1836,7 @@
             "12.63272"
         ], 
         "mail": "claudio@151riccione.com", 
+        "municipality": "Riccione", 
         "name": "L'Ultima Spiaggia", 
         "number": "151", 
         "site": "http://www.151riccione.com"

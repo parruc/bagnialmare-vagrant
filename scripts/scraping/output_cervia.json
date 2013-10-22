@@ -13,6 +13,7 @@
             "superficie complessiva spiaggia": 2143, 
             "wc": 2
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Medusa", 
         "number": "146", 
         "services": [
@@ -43,6 +44,7 @@
             "fronte mare": 22, 
             "wc": 2
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Tino", 
         "number": "148", 
         "services": [
@@ -76,6 +78,7 @@
             "superficie complessiva spiaggia": 4600, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Olimpia", 
         "number": "149", 
         "services": [
@@ -109,6 +112,7 @@
             "wc": 6
         }, 
         "fax": "0544 72398", 
+        "municipality": "Cervia", 
         "name": "Bagno Luigi", 
         "number": "150", 
         "services": [
@@ -147,6 +151,7 @@
             "superficie complessiva spiaggia": 4475, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Saretina", 
         "number": "152", 
         "services": [
@@ -173,6 +178,7 @@
             "12.365914113"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Casadei", 
         "number": "153", 
         "services": [], 
@@ -192,6 +198,7 @@
             "superficie complessiva spiaggia": 10000, 
             "wc": 10
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Balmor", 
         "number": "155", 
         "services": [
@@ -231,6 +238,7 @@
             "superficie complessiva spiaggia": 3000, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Isola", 
         "number": "159", 
         "services": [
@@ -273,6 +281,7 @@
             "superficie complessiva spiaggia": 4611, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Bologna", 
         "number": "160", 
         "services": [
@@ -318,6 +327,7 @@
             "wc disabili": 1
         }, 
         "fax": "0544 970139", 
+        "municipality": "Cervia", 
         "name": "Bagno Gianni", 
         "number": "162", 
         "services": [
@@ -358,6 +368,7 @@
             "superficie complessiva spiaggia": 2000, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Martini", 
         "number": "163", 
         "services": [
@@ -394,6 +405,7 @@
             "superficie complessiva spiaggia": 2294, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Renato", 
         "number": "164", 
         "services": [
@@ -439,6 +451,7 @@
             "wc disabili": 2
         }, 
         "fax": "0544 976422", 
+        "municipality": "Cervia", 
         "name": "Bagno Soleluna", 
         "number": "165", 
         "services": [
@@ -475,6 +488,7 @@
             "wc": 3
         }, 
         "fax": "0544 971087", 
+        "municipality": "Cervia", 
         "name": "Bagno Montanari - Praia do Jacar\u00e8", 
         "number": "167", 
         "services": [
@@ -509,6 +523,7 @@
             "superficie complessiva spiaggia": 2300, 
             "wc": 2
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Souvenir", 
         "number": "168", 
         "services": [
@@ -546,6 +561,7 @@
             "superficie complessiva spiaggia": 4678, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Centosessantanove", 
         "number": "169", 
         "services": [
@@ -584,6 +600,7 @@
             "docce chiuse": 2, 
             "wc": 6
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Romagnolo", 
         "number": "172/173", 
         "services": [
@@ -623,6 +640,7 @@
             "superficie complessiva spiaggia": 4195, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno I Figli del Sole", 
         "number": "174", 
         "services": [
@@ -659,6 +677,7 @@
             "wc": 3
         }, 
         "fax": "0544 72079", 
+        "municipality": "Cervia", 
         "name": "Bagno Dover", 
         "number": "175/176", 
         "services": [
@@ -698,6 +717,7 @@
             "wc": 6
         }, 
         "fax": "0544 973037", 
+        "municipality": "Cervia", 
         "name": "Bagno Sauro", 
         "number": "177/178", 
         "services": [
@@ -735,6 +755,7 @@
             "wc": 5
         }, 
         "fax": "0544 975757", 
+        "municipality": "Cervia", 
         "name": "Bagno Fantini Club", 
         "number": "179/182", 
         "services": [
@@ -774,6 +795,7 @@
             "superficie complessiva spiaggia": 2426, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Dallara", 
         "number": "183", 
         "services": [
@@ -812,6 +834,7 @@
             "superficie complessiva spiaggia": 2756, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Marco", 
         "number": "184", 
         "services": [
@@ -843,6 +866,7 @@
             "12.362527201"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Conchiglia Lido", 
         "number": "185", 
         "services": [], 
@@ -862,6 +886,7 @@
             "wc": 3
         }, 
         "fax": "0543 440947", 
+        "municipality": "Cervia", 
         "name": "Bagno Lina", 
         "number": "187", 
         "services": [
@@ -894,6 +919,7 @@
             "superficie complessiva spiaggia": 3834, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Anna", 
         "number": "188", 
         "services": [
@@ -930,6 +956,7 @@
             "superficie complessiva spiaggia": 4077, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Anita", 
         "number": "190", 
         "services": [
@@ -964,6 +991,7 @@
             "superficie complessiva spiaggia": 2162, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Ben", 
         "number": "191", 
         "services": [
@@ -1000,6 +1028,7 @@
             "superficie complessiva spiaggia": 5580, 
             "wc": 8
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Oba Oba Beach", 
         "number": "194", 
         "services": [
@@ -1041,6 +1070,7 @@
             "wc": 4, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Ulisse", 
         "number": "195/196", 
         "services": [
@@ -1083,6 +1113,7 @@
             "wc disabili": 2
         }, 
         "fax": "0544 973353", 
+        "municipality": "Cervia", 
         "name": "Bagno Daniele", 
         "number": "197/198", 
         "services": [
@@ -1118,6 +1149,7 @@
             "12.361045427"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Anna", 
         "number": "199", 
         "services": [], 
@@ -1131,6 +1163,7 @@
             "12.360939586"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Flores", 
         "number": "200", 
         "services": [], 
@@ -1148,6 +1181,7 @@
             "superficie complessiva spiaggia": 2460, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Savini", 
         "number": "201", 
         "services": [
@@ -1182,6 +1216,7 @@
             "wc": 2
         }, 
         "fax": "0544 973155", 
+        "municipality": "Cervia", 
         "name": "Bagno Silverio", 
         "number": "202", 
         "services": [
@@ -1219,6 +1254,7 @@
             "superficie complessiva spiaggia": 2700, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Solo Sole", 
         "number": "203", 
         "services": [
@@ -1259,6 +1295,7 @@
             "superficie complessiva spiaggia": 2400, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Mercuriali", 
         "number": "204", 
         "services": [
@@ -1296,6 +1333,7 @@
             "wc": 5
         }, 
         "fax": "0543 740451", 
+        "municipality": "Cervia", 
         "name": "Bagno Bar A Onda", 
         "number": "205", 
         "services": [
@@ -1339,6 +1377,7 @@
             "superficie complessiva spiaggia": 2200, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Sirtaki", 
         "number": "206", 
         "services": [
@@ -1371,6 +1410,7 @@
             "12.360198699"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Keko Beach", 
         "number": "207", 
         "services": [], 
@@ -1389,6 +1429,7 @@
             "superficie complessiva spiaggia": 1400, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Aurora", 
         "number": "208", 
         "services": [
@@ -1413,6 +1454,7 @@
             "12.359987017"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Miluna Beach", 
         "number": "209", 
         "services": [
@@ -1435,6 +1477,7 @@
             "fronte mare": 33, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Cervia", 
         "number": "210", 
         "services": [
@@ -1473,6 +1516,7 @@
             "wc": 4, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Italia", 
         "number": "211", 
         "services": [
@@ -1507,6 +1551,7 @@
             "superficie complessiva spiaggia": 3279, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Imperiale", 
         "number": "212", 
         "services": [
@@ -1549,6 +1594,7 @@
             "wc": 4
         }, 
         "fax": "0544 972082", 
+        "municipality": "Cervia", 
         "name": "Bagno Azzurro", 
         "number": "213/214", 
         "services": [
@@ -1583,6 +1629,7 @@
             "12.359351971"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Moreno", 
         "number": "215", 
         "services": [], 
@@ -1609,6 +1656,7 @@
             "wc disabili": 1
         }, 
         "fax": "0544 972711", 
+        "municipality": "Cervia", 
         "name": "Bagno Gildo", 
         "number": "216", 
         "services": [
@@ -1640,6 +1688,7 @@
         ], 
         "details": {}, 
         "fax": "0544 973707", 
+        "municipality": "Cervia", 
         "name": "Bagno Playa Caribe", 
         "number": "217/218", 
         "services": [
@@ -1681,6 +1730,7 @@
             "wc disabili": 1
         }, 
         "fax": "0544 973915", 
+        "municipality": "Cervia", 
         "name": "Bagno Lido Beach", 
         "number": "219", 
         "services": [
@@ -1712,6 +1762,7 @@
             "12.358822766"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Franco", 
         "number": "220/221", 
         "services": [], 
@@ -1730,6 +1781,7 @@
             "fronte mare": 20, 
             "superficie complessiva spiaggia": 2320
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Cerviamare", 
         "number": "222/226", 
         "services": [
@@ -1761,6 +1813,7 @@
             "12.357976038"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Sorriso", 
         "number": "228/229", 
         "services": [], 
@@ -1779,7 +1832,9 @@
             "superficie complessiva spiaggia": 1500, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Angela", 
+        "neighbourhood": "Milano Marittima", 
         "number": "235", 
         "services": [
             "ombrelloni", 
@@ -1815,7 +1870,9 @@
             "wc": 4, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Mosquito Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "236", 
         "services": [
             "spazio tv", 
@@ -1852,7 +1909,9 @@
             "superficie complessiva spiaggia": 2958, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Le Saline", 
+        "neighbourhood": "Milano Marittima", 
         "number": "237", 
         "services": [
             "ombrelloni", 
@@ -1887,7 +1946,9 @@
             "fronte mare": 29, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Cortesi", 
+        "neighbourhood": "Milano Marittima", 
         "number": "238", 
         "services": [
             "ombrelloni", 
@@ -1921,7 +1982,9 @@
             "superficie complessiva spiaggia": 1765, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Tonni", 
+        "neighbourhood": "Milano Marittima", 
         "number": "239", 
         "services": [
             "cabine", 
@@ -1951,7 +2014,9 @@
             "docce chiuse": 2, 
             "fronte mare": 18
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Gilberto", 
+        "neighbourhood": "Milano Marittima", 
         "number": "240", 
         "services": [
             "ombrelloni", 
@@ -1984,7 +2049,9 @@
             "superficie complessiva spiaggia": 1500, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Stefano Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "241", 
         "services": [
             "cabine", 
@@ -2025,7 +2092,9 @@
             "wc": 3
         }, 
         "fax": "0544 917593", 
+        "municipality": "Cervia", 
         "name": "Bagno Paparazzi", 
+        "neighbourhood": "Milano Marittima", 
         "number": "242", 
         "services": [
             "ombrelloni", 
@@ -2057,7 +2126,9 @@
             "superficie complessiva spiaggia": 2860, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "bis Bagno Sesto", 
+        "neighbourhood": "Milano Marittima", 
         "number": "242", 
         "services": [
             "cabine", 
@@ -2093,7 +2164,9 @@
             "wc": 6
         }, 
         "fax": "0544 972773", 
+        "municipality": "Cervia", 
         "name": "Bagno Aurelia", 
+        "neighbourhood": "Milano Marittima", 
         "number": "243", 
         "services": [
             "ombrelloni", 
@@ -2123,7 +2196,9 @@
             "superficie complessiva spiaggia": 3155, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Peppino", 
+        "neighbourhood": "Milano Marittima", 
         "number": "245", 
         "services": [
             "cabine", 
@@ -2162,7 +2237,9 @@
             "superficie complessiva spiaggia": 2557, 
             "wc": 6
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Doge", 
+        "neighbourhood": "Milano Marittima", 
         "number": "246", 
         "services": [
             "ombrelloni", 
@@ -2195,7 +2272,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 975615", 
+        "municipality": "Cervia", 
         "name": "Bagno Giuliano", 
+        "neighbourhood": "Milano Marittima", 
         "number": "247", 
         "services": [
             "spazio tv", 
@@ -2227,7 +2306,9 @@
             "wc": 5
         }, 
         "fax": "0544 992739", 
+        "municipality": "Cervia", 
         "name": "Bagno Mare Pineta", 
+        "neighbourhood": "Milano Marittima", 
         "number": "248", 
         "services": [
             "ombrelloni", 
@@ -2259,7 +2340,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 995293", 
+        "municipality": "Cervia", 
         "name": "Bagno Oreste", 
+        "neighbourhood": "Milano Marittima", 
         "number": "250", 
         "services": [
             "spazio tv", 
@@ -2282,7 +2365,9 @@
             "12.355740128"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Dino", 
+        "neighbourhood": "Milano Marittima", 
         "number": "251/252", 
         "services": [], 
         "tel": "0544 993741"
@@ -2309,7 +2394,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 992101", 
+        "municipality": "Cervia", 
         "name": "Bagno Attilio", 
+        "neighbourhood": "Milano Marittima", 
         "number": "253", 
         "services": [
             "spazio tv", 
@@ -2342,7 +2429,9 @@
             "docce chiuse": 2, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Umberto", 
+        "neighbourhood": "Milano Marittima", 
         "number": "254", 
         "services": [
             "cabine", 
@@ -2379,7 +2468,9 @@
             "fronte mare": 32, 
             "superficie complessiva spiaggia": 2531
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Palace Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "255", 
         "services": [
             "ombrelloni", 
@@ -2416,7 +2507,9 @@
             "superficie complessiva spiaggia": 3473, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Malusi Enzo", 
+        "neighbourhood": "Milano Marittima", 
         "number": "258", 
         "services": [
             "ombrelloni", 
@@ -2444,7 +2537,9 @@
             "12.355083059"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "bis Bagno Malusi Giorgio", 
+        "neighbourhood": "Milano Marittima", 
         "number": "258", 
         "services": [], 
         "tel": "0544 993654"
@@ -2457,7 +2552,9 @@
             "12.354989192"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Castagnoli Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "259", 
         "services": [], 
         "tel": "0544 991110"
@@ -2470,7 +2567,9 @@
             "12.354895325"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Giulianini", 
+        "neighbourhood": "Milano Marittima", 
         "number": "260", 
         "services": [], 
         "tel": "0544 993432"
@@ -2489,7 +2588,9 @@
             "fronte mare": 21, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Bussola Lido", 
+        "neighbourhood": "Milano Marittima", 
         "number": "261", 
         "services": [
             "ombrelloni", 
@@ -2523,7 +2624,9 @@
             "fronte mare": 27, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Tonino", 
+        "neighbourhood": "Milano Marittima", 
         "number": "262", 
         "services": [
             "cabine", 
@@ -2557,7 +2660,9 @@
             "superficie complessiva spiaggia": 2000, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Adriatico", 
+        "neighbourhood": "Milano Marittima", 
         "number": "263", 
         "services": [
             "ombrelloni", 
@@ -2590,7 +2695,9 @@
             "superficie complessiva spiaggia": 2860, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno La Barcaccia", 
+        "neighbourhood": "Milano Marittima", 
         "number": "265", 
         "services": [
             "ombrelloni", 
@@ -2627,7 +2734,9 @@
             "wc": 5
         }, 
         "fax": "0541 942122", 
+        "municipality": "Cervia", 
         "name": "Bagno Carla", 
+        "neighbourhood": "Milano Marittima", 
         "number": "266", 
         "services": [
             "ombrelloni", 
@@ -2651,7 +2760,9 @@
             "12.354238256"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Ancora", 
+        "neighbourhood": "Milano Marittima", 
         "number": "267", 
         "services": [], 
         "tel": "0544 994565"
@@ -2664,7 +2775,9 @@
             "12.354144389"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Zefiro", 
+        "neighbourhood": "Milano Marittima", 
         "number": "268", 
         "services": [], 
         "tel": "0544 991752"
@@ -2682,7 +2795,9 @@
             "fronte mare": 23, 
             "superficie complessiva spiaggia": 2562
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Roma", 
+        "neighbourhood": "Milano Marittima", 
         "number": "269", 
         "services": [
             "cabine", 
@@ -2722,7 +2837,9 @@
             "superficie complessiva spiaggia": 1700, 
             "wc": 2
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Sogno del Mare", 
+        "neighbourhood": "Milano Marittima", 
         "number": "270", 
         "services": [
             "ombrelloni", 
@@ -2749,7 +2866,9 @@
             "12.353862788"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Albacore", 
+        "neighbourhood": "Milano Marittima", 
         "number": "271", 
         "services": [], 
         "tel": "0544 993709"
@@ -2762,7 +2881,9 @@
             "12.353768921"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno MI.MA. Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "272", 
         "services": [], 
         "tel": "0544 992074"
@@ -2781,7 +2902,9 @@
             "wc": 5
         }, 
         "fax": "0544 993608", 
+        "municipality": "Cervia", 
         "name": "Bagno Milano", 
+        "neighbourhood": "Milano Marittima", 
         "number": "273", 
         "services": [
             "ombrelloni", 
@@ -2814,7 +2937,9 @@
             "superficie complessiva spiaggia": 2570, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno La Spiaggetta", 
+        "neighbourhood": "Milano Marittima", 
         "number": "274", 
         "services": [
             "ombrelloni", 
@@ -2846,7 +2971,9 @@
             "superficie complessiva spiaggia": 2856, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Samuele", 
+        "neighbourhood": "Milano Marittima", 
         "number": "275", 
         "services": [
             "cabine", 
@@ -2870,7 +2997,9 @@
             "12.353393453"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Bicio Papao", 
+        "neighbourhood": "Milano Marittima", 
         "number": "276", 
         "services": [], 
         "tel": "0544 1889051"
@@ -2889,7 +3018,9 @@
             "superficie complessiva spiaggia": 4248, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Ippocampo", 
+        "neighbourhood": "Milano Marittima", 
         "number": "277", 
         "services": [
             "ombrelloni", 
@@ -2929,7 +3060,9 @@
             "superficie complessiva spiaggia": 3206, 
             "wc": 2
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Tre Gemelli", 
+        "neighbourhood": "Milano Marittima", 
         "number": "278", 
         "services": [
             "cabine", 
@@ -2955,7 +3088,9 @@
             "superficie complessiva spiaggia": 1760, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Corallo", 
+        "neighbourhood": "Milano Marittima", 
         "number": "279", 
         "services": [
             "ombrelloni", 
@@ -2987,7 +3122,9 @@
         }, 
         "fax": "0544 976488", 
         "mail": "info@rougehotel.it", 
+        "municipality": "Cervia", 
         "name": "Bagno Rouge", 
+        "neighbourhood": "Milano Marittima", 
         "number": "280", 
         "services": [
             "cabine", 
@@ -3024,7 +3161,9 @@
             "wc": 8
         }, 
         "fax": "0544 992033", 
+        "municipality": "Cervia", 
         "name": "bis/281 Bagno Papeete Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "280", 
         "services": [
             "cabine", 
@@ -3065,7 +3204,9 @@
             "12.352830251"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Miami", 
+        "neighbourhood": "Milano Marittima", 
         "number": "282", 
         "services": [], 
         "tel": "0544 991628"
@@ -3083,7 +3224,9 @@
             "fronte mare": 17, 
             "wc": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Flamingo Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "283", 
         "services": [
             "ombrelloni", 
@@ -3114,7 +3257,9 @@
             "superficie complessiva spiaggia": 2052, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Oasi's", 
+        "neighbourhood": "Milano Marittima", 
         "number": "284", 
         "services": [
             "cabine", 
@@ -3145,7 +3290,9 @@
             "wc": 7
         }, 
         "fax": "0544 994487", 
+        "municipality": "Cervia", 
         "name": "Bagno Pino Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "285", 
         "services": [
             "cabine", 
@@ -3189,7 +3336,9 @@
             "wc": 5, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Sauro", 
+        "neighbourhood": "Milano Marittima", 
         "number": "286", 
         "services": [
             "spazio tv", 
@@ -3223,7 +3372,9 @@
             "superficie complessiva spiaggia": 3600, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Gallia", 
+        "neighbourhood": "Milano Marittima", 
         "number": "287", 
         "services": [
             "ombrelloni", 
@@ -3259,7 +3410,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 992668", 
+        "municipality": "Cervia", 
         "name": "Bagno Lido", 
+        "neighbourhood": "Milano Marittima", 
         "number": "288", 
         "services": [
             "piccola ristorazione", 
@@ -3295,7 +3448,9 @@
             "wc": 3, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Royal Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "289", 
         "services": [
             "spazio tv", 
@@ -3320,7 +3475,9 @@
             "wc": 5
         }, 
         "fax": "0544 991362", 
+        "municipality": "Cervia", 
         "name": "Bagno Marilena", 
+        "neighbourhood": "Milano Marittima", 
         "number": "290", 
         "services": [
             "ombrelloni", 
@@ -3363,7 +3520,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 993833", 
+        "municipality": "Cervia", 
         "name": "Bagno Piccadilly", 
+        "neighbourhood": "Milano Marittima", 
         "number": "291", 
         "services": [
             "spazio tv", 
@@ -3387,7 +3546,9 @@
             "12.351891581"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Promenade", 
+        "neighbourhood": "Milano Marittima", 
         "number": "292", 
         "services": [], 
         "tel": "0544 992022"
@@ -3405,7 +3566,9 @@
             "superficie complessiva spiaggia": 1955, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Touring", 
+        "neighbourhood": "Milano Marittima", 
         "number": "293", 
         "services": [
             "cabine", 
@@ -3443,7 +3606,9 @@
             "superficie complessiva spiaggia": 2247, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno La Palma", 
+        "neighbourhood": "Milano Marittima", 
         "number": "294", 
         "services": [
             "ombrelloni", 
@@ -3473,7 +3638,9 @@
             "12.35160998"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Principe", 
+        "neighbourhood": "Milano Marittima", 
         "number": "295", 
         "services": [], 
         "tel": "0544 991530"
@@ -3490,7 +3657,9 @@
             "fronte mare": 30, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Premier Palm Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "296", 
         "services": [
             "cabine", 
@@ -3528,7 +3697,9 @@
             "wc": 6
         }, 
         "fax": "0544 998161", 
+        "municipality": "Cervia", 
         "name": "Bagno Spiaggia 297", 
+        "neighbourhood": "Milano Marittima", 
         "number": "297", 
         "services": [
             "ombrelloni", 
@@ -3558,7 +3729,9 @@
             "fronte mare": 42, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Oscar", 
+        "neighbourhood": "Milano Marittima", 
         "number": "298", 
         "services": [
             "cabine", 
@@ -3595,7 +3768,9 @@
             "wc": 5
         }, 
         "fax": "0544 975822", 
+        "municipality": "Cervia", 
         "name": "Bagno Virtual Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "299", 
         "services": [
             "cabine", 
@@ -3624,7 +3799,9 @@
             "12.351140645"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Ernani", 
+        "neighbourhood": "Milano Marittima", 
         "number": "300", 
         "services": [], 
         "tel": "0544 992202"
@@ -3641,7 +3818,9 @@
             "fronte mare": 23, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Arcobaleno", 
+        "neighbourhood": "Milano Marittima", 
         "number": "301", 
         "services": [
             "ombrelloni", 
@@ -3669,7 +3848,9 @@
             "12.350952911"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Azzurra", 
+        "neighbourhood": "Milano Marittima", 
         "number": "302", 
         "services": [], 
         "tel": "0544 994205"
@@ -3688,7 +3869,9 @@
             "fronte mare": 64, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "bis Bagno Rosen Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "302", 
         "services": [
             "cabine", 
@@ -3731,7 +3914,9 @@
             "wc": 3, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Peperittima Beach Club", 
+        "neighbourhood": "Milano Marittima", 
         "number": "304/305", 
         "services": [
             "spazio tv", 
@@ -3776,7 +3961,9 @@
             "wc disabili": 2
         }, 
         "fax": "0544 991330", 
+        "municipality": "Cervia", 
         "name": "bis/306 Bagno Holiday", 
+        "neighbourhood": "Milano Marittima", 
         "number": "305", 
         "services": [
             "spazio tv", 
@@ -3812,7 +3999,9 @@
             "superficie complessiva spiaggia": 2000, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Katia", 
+        "neighbourhood": "Milano Marittima", 
         "number": "307", 
         "services": [
             "ombrelloni", 
@@ -3850,7 +4039,9 @@
             "superficie complessiva spiaggia": 4416, 
             "wc": 6
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Targhini", 
+        "neighbourhood": "Milano Marittima", 
         "number": "308", 
         "services": [
             "cabine", 
@@ -3884,7 +4075,9 @@
             "fronte mare": 35, 
             "wc": 7
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Deanna", 
+        "neighbourhood": "Milano Marittima", 
         "number": "309", 
         "services": [
             "ombrelloni", 
@@ -3914,7 +4107,9 @@
             "12.350201975"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno King's", 
+        "neighbourhood": "Milano Marittima", 
         "number": "310", 
         "services": [
             "cabine", 
@@ -3937,7 +4132,9 @@
             "superficie complessiva spiaggia": 2072, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Gabbiano", 
+        "neighbourhood": "Milano Marittima", 
         "number": "311", 
         "services": [
             "ombrelloni", 
@@ -3973,7 +4170,9 @@
             "superficie complessiva spiaggia": 2056, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Del Pino", 
+        "neighbourhood": "Milano Marittima", 
         "number": "312", 
         "services": [
             "ombrelloni", 
@@ -4006,7 +4205,9 @@
             "wc": 8
         }, 
         "fax": "0544 994572", 
+        "municipality": "Cervia", 
         "name": "Bagno Dario", 
+        "neighbourhood": "Milano Marittima", 
         "number": "313/316", 
         "services": [
             "ombrelloni", 
@@ -4048,7 +4249,9 @@
             "wc": 3
         }, 
         "fax": "0544 991187", 
+        "municipality": "Cervia", 
         "name": "Bagno Del Pino", 
+        "neighbourhood": "Milano Marittima", 
         "number": "317/318", 
         "services": [
             "ombrelloni", 
@@ -4089,7 +4292,9 @@
             "wc": 5, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Colombina", 
+        "neighbourhood": "Milano Marittima", 
         "number": "320", 
         "services": [
             "piccola ristorazione", 
@@ -4115,7 +4320,9 @@
             "wc": 3
         }, 
         "fax": "0544 994336", 
+        "municipality": "Cervia", 
         "name": "Bagno Beachotels", 
+        "neighbourhood": "Milano Marittima", 
         "number": "321", 
         "services": [
             "ombrelloni", 
@@ -4140,7 +4347,9 @@
             "12.348981704"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Patty", 
+        "neighbourhood": "Milano Marittima", 
         "number": "323", 
         "services": [], 
         "tel": "0544 994330"
@@ -4158,7 +4367,9 @@
             "superficie complessiva spiaggia": 2500, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Biondi", 
+        "neighbourhood": "Milano Marittima", 
         "number": "332", 
         "services": [
             "ombrelloni", 
@@ -4191,7 +4402,9 @@
             "superficie complessiva spiaggia": 2700, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Pineta Beach", 
+        "neighbourhood": "Milano Marittima", 
         "number": "337", 
         "services": [
             "cabine", 
@@ -4228,7 +4441,9 @@
             "superficie complessiva spiaggia": 1678, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Haiti", 
+        "neighbourhood": "Milano Marittima", 
         "number": "339", 
         "services": [
             "ombrelloni", 
@@ -4258,7 +4473,9 @@
             "12.347385965"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno 340", 
+        "neighbourhood": "Milano Marittima", 
         "number": "340", 
         "services": []
     }, 
@@ -4277,7 +4494,9 @@
             "superficie complessiva spiaggia": 1815, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Cinquantanove mar y sol", 
+        "neighbourhood": "Pinarella", 
         "number": "59", 
         "services": [
             "cabine", 
@@ -4313,7 +4532,9 @@
             "fronte mare": 36, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Vanilla", 
+        "neighbourhood": "Pinarella", 
         "number": "60", 
         "services": [
             "cabine", 
@@ -4353,7 +4574,9 @@
             "superficie complessiva spiaggia": 3949, 
             "wc": 2
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Bruno", 
+        "neighbourhood": "Pinarella", 
         "number": "64", 
         "services": [
             "cabine", 
@@ -4389,7 +4612,9 @@
             "fronte mare": 19, 
             "superficie complessiva spiaggia": 1990
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Mediterraneo", 
+        "neighbourhood": "Pinarella", 
         "number": "65", 
         "services": [
             "cabine", 
@@ -4430,7 +4655,9 @@
             "wc": 3
         }, 
         "fax": "0544 987911", 
+        "municipality": "Cervia", 
         "name": "Bagno Lux", 
+        "neighbourhood": "Pinarella", 
         "number": "66", 
         "services": [
             "cabine", 
@@ -4464,7 +4691,9 @@
             "superficie complessiva spiaggia": 1000, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Oasi", 
+        "neighbourhood": "Pinarella", 
         "number": "67", 
         "services": [
             "cabine", 
@@ -4496,7 +4725,9 @@
             "12.375757627"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Lido Le Vele", 
+        "neighbourhood": "Pinarella", 
         "number": "68", 
         "services": []
     }, 
@@ -4515,7 +4746,9 @@
             "superficie complessiva spiaggia": 1946, 
             "wc": 2
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Alta Marea", 
+        "neighbourhood": "Pinarella", 
         "number": "69", 
         "services": [
             "ombrelloni", 
@@ -4553,7 +4786,9 @@
             "wc": 6, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Franco", 
+        "neighbourhood": "Pinarella", 
         "number": "70/71", 
         "services": [
             "spazio tv", 
@@ -4586,7 +4821,9 @@
             "wc disabili": 2
         }, 
         "fax": "0544 988148", 
+        "municipality": "Cervia", 
         "name": "Bagno Giardino", 
+        "neighbourhood": "Pinarella", 
         "number": "72/73", 
         "services": [
             "spazio tv", 
@@ -4614,7 +4851,9 @@
             "superficie complessiva spiaggia": 1400, 
             "wc": 2
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Endas Moorea", 
+        "neighbourhood": "Pinarella", 
         "number": "74", 
         "services": [
             "cabine", 
@@ -4649,7 +4888,9 @@
             "superficie complessiva spiaggia": 3100, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Settebello", 
+        "neighbourhood": "Pinarella", 
         "number": "76", 
         "services": [
             "cabine", 
@@ -4689,7 +4930,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 987451", 
+        "municipality": "Cervia", 
         "name": "Bagno Stella", 
+        "neighbourhood": "Pinarella", 
         "number": "77/78", 
         "services": [
             "spazio tv", 
@@ -4725,7 +4968,9 @@
             "fronte mare": 39, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Jolly", 
+        "neighbourhood": "Pinarella", 
         "number": "79", 
         "services": [
             "cabine", 
@@ -4771,7 +5016,9 @@
             "wc": 3, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Tre Stelle", 
+        "neighbourhood": "Pinarella", 
         "number": "80", 
         "services": [
             "spazio tv", 
@@ -4803,7 +5050,9 @@
             "wc": 5, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "- 82 Bagno Solaris", 
+        "neighbourhood": "Pinarella", 
         "number": "81", 
         "services": [
             "spazio tv", 
@@ -4835,7 +5084,9 @@
             "superficie complessiva spiaggia": 1914, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Andrea", 
+        "neighbourhood": "Pinarella", 
         "number": "83", 
         "services": [
             "cabine", 
@@ -4865,7 +5116,9 @@
             "12.373860075"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Playa del Carmen", 
+        "neighbourhood": "Pinarella", 
         "number": "84", 
         "services": [], 
         "tel": "0544 987746"
@@ -4884,7 +5137,9 @@
             "superficie complessiva spiaggia": 3615, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Margherita", 
+        "neighbourhood": "Pinarella", 
         "number": "85/86", 
         "services": [
             "cabine", 
@@ -4928,7 +5183,9 @@
             "12.373504284"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Palm Beach", 
+        "neighbourhood": "Pinarella", 
         "number": "87/88", 
         "services": []
     }, 
@@ -4945,7 +5202,9 @@
             "wc": 2
         }, 
         "fax": "0544 987620", 
+        "municipality": "Cervia", 
         "name": "Bagno Garden - Le Lid\u00f2", 
+        "neighbourhood": "Pinarella", 
         "number": "89/90", 
         "services": [
             "cabine", 
@@ -4990,7 +5249,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 987734", 
+        "municipality": "Cervia", 
         "name": "Bagno Green Beach Bamby", 
+        "neighbourhood": "Pinarella", 
         "number": "93", 
         "services": [
             "spazio tv", 
@@ -5024,7 +5285,9 @@
             "wc disabili": 2
         }, 
         "fax": "0544 980110", 
+        "municipality": "Cervia", 
         "name": "Bagno Anna", 
+        "neighbourhood": "Pinarella", 
         "number": "94/95/96", 
         "services": [
             "spazio tv", 
@@ -5057,7 +5320,9 @@
             "12.372199717"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Everest", 
+        "neighbourhood": "Pinarella", 
         "number": "98", 
         "services": [], 
         "tel": "0544 988026"
@@ -5070,7 +5335,9 @@
             "12.37208112"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Boca Chica", 
+        "neighbourhood": "Pinarella", 
         "number": "99", 
         "services": [], 
         "tel": "0544 988011"
@@ -5088,7 +5355,9 @@
             "superficie complessiva spiaggia": 2219, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Renata", 
+        "neighbourhood": "Pinarella", 
         "number": "100", 
         "services": [
             "cabine", 
@@ -5127,7 +5396,9 @@
             "wc": 3
         }, 
         "fax": "0547 59454", 
+        "municipality": "Cervia", 
         "name": "Bagno Kiwengwa", 
+        "neighbourhood": "Pinarella", 
         "number": "101", 
         "services": [
             "cabine", 
@@ -5160,7 +5431,9 @@
             "12.371606732"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Dombachi", 
+        "neighbourhood": "Pinarella", 
         "number": "103", 
         "services": [], 
         "tel": "0544 986299"
@@ -5179,7 +5452,9 @@
             "superficie complessiva spiaggia": 3000, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Safari", 
+        "neighbourhood": "Pinarella", 
         "number": "104", 
         "services": [
             "cabine", 
@@ -5215,7 +5490,9 @@
             "wc": 2
         }, 
         "fax": "0544 982070", 
+        "municipality": "Cervia", 
         "name": "Bagno Stefano", 
+        "neighbourhood": "Pinarella", 
         "number": "105", 
         "services": [
             "cabine", 
@@ -5252,7 +5529,9 @@
             "superficie complessiva spiaggia": 1459, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Admiral", 
+        "neighbourhood": "Pinarella", 
         "number": "106", 
         "services": [
             "cabine", 
@@ -5287,7 +5566,9 @@
             "fronte mare": 54, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Andreucci", 
+        "neighbourhood": "Pinarella", 
         "number": "107", 
         "services": [
             "cabine", 
@@ -5337,7 +5618,9 @@
             "wc": 6, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Adriasol", 
+        "neighbourhood": "Pinarella", 
         "number": "111", 
         "services": [
             "spazio tv", 
@@ -5377,7 +5660,9 @@
             "superficie complessiva spiaggia": 2094, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Sara Beach", 
+        "neighbourhood": "Pinarella", 
         "number": "114", 
         "services": [
             "cabine", 
@@ -5418,7 +5703,9 @@
             "superficie complessiva spiaggia": 3989, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Sole", 
+        "neighbourhood": "Pinarella", 
         "number": "115/116/117", 
         "services": [
             "cabine", 
@@ -5464,7 +5751,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 987496", 
+        "municipality": "Cervia", 
         "name": "Bagno La Villa Beach", 
+        "neighbourhood": "Pinarella", 
         "number": "118", 
         "services": [
             "spazio tv", 
@@ -5499,7 +5788,9 @@
             "superficie complessiva spiaggia": 2400, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Angela", 
+        "neighbourhood": "Pinarella", 
         "number": "119", 
         "services": [
             "cabine", 
@@ -5534,7 +5825,9 @@
             "superficie complessiva spiaggia": 2949, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Franco", 
+        "neighbourhood": "Pinarella", 
         "number": "120", 
         "services": [
             "cabine", 
@@ -5573,7 +5866,9 @@
             "superficie complessiva spiaggia": 3006, 
             "wc": 5
         }, 
+        "municipality": "Cervia", 
         "name": "bis Bagno Pineta", 
+        "neighbourhood": "Pinarella", 
         "number": "120", 
         "services": [
             "cabine", 
@@ -5614,7 +5909,9 @@
             "superficie complessiva spiaggia": 4416, 
             "wc": 6
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Giuliana", 
+        "neighbourhood": "Pinarella", 
         "number": "121", 
         "services": [
             "cabine", 
@@ -5655,7 +5952,9 @@
             "wc": 3
         }, 
         "fax": "0544 987204", 
+        "municipality": "Cervia", 
         "name": "Bagno Italia", 
+        "neighbourhood": "Pinarella", 
         "number": "122", 
         "services": [
             "cabine", 
@@ -5698,7 +5997,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 987171", 
+        "municipality": "Cervia", 
         "name": "Bagno Vittorio", 
+        "neighbourhood": "Pinarella", 
         "number": "124", 
         "services": [
             "cabine", 
@@ -5734,7 +6035,9 @@
             "superficie complessiva spiaggia": 2478, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Centrale", 
+        "neighbourhood": "Pinarella", 
         "number": "125", 
         "services": [
             "cabine", 
@@ -5775,7 +6078,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 1848125", 
+        "municipality": "Cervia", 
         "name": "bis Bagno Bianchi", 
+        "neighbourhood": "Pinarella", 
         "number": "125", 
         "services": [
             "spazio tv", 
@@ -5820,7 +6125,9 @@
             "wc": 5, 
             "wc disabili": 1
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Paola", 
+        "neighbourhood": "Pinarella", 
         "number": "126", 
         "services": [
             "spazio tv", 
@@ -5857,7 +6164,9 @@
             "wc": 3
         }, 
         "fax": "0544 916721", 
+        "municipality": "Cervia", 
         "name": "Bagno Delfino", 
+        "neighbourhood": "Pinarella", 
         "number": "131", 
         "services": [
             "cabine", 
@@ -5899,7 +6208,9 @@
             "wc disabili": 2
         }, 
         "fax": "0544 988529", 
+        "municipality": "Cervia", 
         "name": "Bagno Sabrina - Fuorionda", 
+        "neighbourhood": "Tagliata", 
         "number": "3", 
         "services": [
             "spazio tv", 
@@ -5929,7 +6240,9 @@
             "12.38317528"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Picnic - Fuorionda", 
+        "neighbourhood": "Tagliata", 
         "number": "4", 
         "services": [], 
         "tel": "0544 987982"
@@ -5951,7 +6264,9 @@
             "wc": 6, 
             "wc disabili": 2
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Bianconero - Fuorionda", 
+        "neighbourhood": "Tagliata", 
         "number": "7/8/9", 
         "services": [
             "spazio tv", 
@@ -5990,7 +6305,9 @@
             "superficie complessiva spiaggia": 2890, 
             "wc": 3
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Le Palme", 
+        "neighbourhood": "Tagliata", 
         "number": "10", 
         "services": [
             "cabine", 
@@ -6025,7 +6342,9 @@
             "12.38203352"
         ], 
         "details": {}, 
+        "municipality": "Cervia", 
         "name": "Bagno Focaccia", 
+        "neighbourhood": "Tagliata", 
         "number": "12", 
         "services": [], 
         "tel": "0544 987749"
@@ -6044,7 +6363,9 @@
             "superficie complessiva spiaggia": 1179, 
             "wc": 2
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Jolly", 
+        "neighbourhood": "Tagliata", 
         "number": "16", 
         "services": [
             "cabine", 
@@ -6080,7 +6401,9 @@
             "superficie complessiva spiaggia": 2700, 
             "wc": 4
         }, 
+        "municipality": "Cervia", 
         "name": "Bagno Rocchi", 
+        "neighbourhood": "Tagliata", 
         "number": "18", 
         "services": [
             "ombrelloni", 
@@ -6116,7 +6439,9 @@
             "wc": 5
         }, 
         "fax": "0544 987517", 
+        "municipality": "Cervia", 
         "name": "Bagno Benvenuti", 
+        "neighbourhood": "Tagliata", 
         "number": "20", 
         "services": [
             "ombrelloni", 
