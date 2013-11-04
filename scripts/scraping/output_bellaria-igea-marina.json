@@ -1,483 +1,807 @@
 [
     {
         "address": "Via Abbazzia", 
+        "coords": [
+            "44.1592126237", 
+            "12.4542241348"
+        ], 
         "name": "Bagno degli Angeli", 
         "number": "1"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1589264355", 
+            "12.4545727022"
+        ], 
         "name": "Bagno Arancio", 
         "number": "2", 
         "tel": "0541 344892"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1580678711", 
+            "12.4556184045"
+        ], 
         "name": "Bagno Gino", 
         "number": "5", 
         "tel": "0541 344217"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.157781683", 
+            "12.4559669719"
+        ], 
         "name": "Bagno Federico", 
         "number": "6", 
         "tel": "0541 344181"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1574954948", 
+            "12.4563155393"
+        ], 
         "name": "Bagno Italia", 
         "number": "7/8"
-    },  
+    }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1569231185", 
+            "12.4570126741"
+        ], 
         "name": "Bagno Marino", 
         "number": "9", 
         "tel": "0541 346811"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1566369304", 
+            "12.4573612415"
+        ], 
         "name": "Bagno Cecco", 
         "number": "10", 
         "tel": "0541 349357"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1563507422", 
+            "12.4577098089"
+        ], 
         "name": "Bagno Vip", 
         "number": "11", 
         "tel": "0541 346479"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1560645541", 
+            "12.4580583763"
+        ], 
         "name": "Bagno Antonio", 
         "number": "12", 
         "tel": "0541 346302"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1557783659", 
+            "12.4584069437"
+        ], 
         "name": "Bagno Giardino", 
         "number": "13", 
         "tel": "0541 343377"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1554921778", 
+            "12.4587555111"
+        ], 
         "name": "Bagno Fin", 
         "number": "14", 
         "tel": "0541 343333"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1552059896", 
+            "12.4591040785"
+        ], 
         "name": "Bagno Artimio", 
         "number": "15", 
         "tel": "0541 346448"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1549198015", 
+            "12.4594526459"
+        ], 
         "name": "Bagno Gori", 
         "number": "16", 
         "tel": "0541 345016"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1546336133", 
+            "12.4598012133"
+        ], 
         "name": "Bagno Romano", 
         "number": "17", 
         "tel": "0541 345065"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1543474252", 
+            "12.4601497808"
+        ], 
         "name": "Bagno Davide", 
         "number": "18", 
         "tel": "0541 345064"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.154061237", 
+            "12.4604983482"
+        ], 
         "name": "Bagno Bibi", 
         "number": "19", 
         "tel": "0541 345015"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1537750489", 
+            "12.4608469156"
+        ], 
         "name": "Bagno Isolina", 
         "number": "20", 
         "tel": "0541 349249"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1534888607", 
+            "12.461195483"
+        ], 
         "name": "Bagno Lino", 
         "number": "21", 
         "tel": "0541 344689"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1532026726", 
+            "12.4615440504"
+        ], 
         "name": "Bagno Maresciallo", 
         "number": "22", 
         "tel": "0541 349243"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1529164844", 
+            "12.4618926178"
+        ], 
         "name": "Bagno Antonio", 
         "number": "23", 
         "tel": "0541 347695"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1529164844", 
+            "12.4618926178"
+        ], 
         "name": "Bagno Carlo", 
         "number": "23", 
         "tel": "0541 347648"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1526302963", 
+            "12.4622411852"
+        ], 
         "name": "Bagno Elmo", 
         "number": "24", 
         "tel": "0541 346100"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1523441081", 
+            "12.4625897526"
+        ], 
         "name": "Bagno Gigi", 
         "number": "25", 
         "tel": "3406796034"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.15205792", 
+            "12.46293832"
+        ], 
         "name": "Bagno Playa del Sol", 
         "number": "26/27/28/29", 
         "tel": "0541 349235"
-    },  
+    }, 
     {
         "address": "Carla Renato", 
+        "coords": [
+            "44.1509131674", 
+            "12.4643325896"
+        ], 
         "name": "Via C. Colombo", 
         "number": "30"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1503407911", 
+            "12.4650297245"
+        ], 
         "name": "Bagno Pierino", 
         "number": "32", 
         "tel": "0541 345720"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.150054603", 
+            "12.4653782919"
+        ], 
         "name": "Bagno Tribidabo Beach", 
         "number": "33", 
         "tel": "0541 343273"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.150054603", 
+            "12.4653782919"
+        ], 
         "name": "Bagno Imperiale", 
         "number": "33bis", 
         "tel": "0541 343273"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1497684148", 
+            "12.4657268593"
+        ], 
         "name": "Bagno Toni", 
         "number": "34", 
         "tel": "0541 344082"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1494822267", 
+            "12.4660754267"
+        ], 
         "name": "Bagno Carlo", 
         "number": "35", 
         "tel": "0541 344029"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1491960385", 
+            "12.4664239941"
+        ], 
         "name": "Bagno Ferdinando", 
         "number": "36", 
         "tel": "0541 344096"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1489098504", 
+            "12.4667725615"
+        ], 
         "name": "Bagno Silvana", 
         "number": "37", 
         "tel": "0541 344798"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1486236622", 
+            "12.4671211289"
+        ], 
         "name": "Bagno Mario", 
         "number": "38", 
         "tel": "0541 347219"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1483374741", 
+            "12.4674696963"
+        ], 
         "name": "Paguro Beach", 
         "number": "39/40/41/42/43/44", 
         "tel": "0541 347239"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.146334157", 
+            "12.4699096682"
+        ], 
         "name": "Bagno Piciacia", 
         "number": "46", 
         "tel": "0541 344888"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1460479689", 
+            "12.4702582356"
+        ], 
         "name": "Bagno Acquario Da Leo", 
         "number": "47", 
         "tel": "0541 347330"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1457617807", 
+            "12.470606803"
+        ], 
         "name": "Bagno Giovanni", 
         "number": "48", 
         "tel": "0541 349542"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1454755926", 
+            "12.4709553704"
+        ], 
         "name": "Bagno Sergio", 
         "number": "49", 
         "tel": "0541 344330"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1451894044", 
+            "12.4713039378"
+        ], 
         "name": "Bagno Sauro", 
         "number": "50", 
         "tel": "0541 347712"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1449032163", 
+            "12.4716525052"
+        ], 
         "name": "Bagno Delfino", 
         "number": "51", 
         "tel": "0541 344491"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1446170281", 
+            "12.4720010726"
+        ], 
         "name": "Bagno Paradise", 
         "number": "52", 
         "tel": "0541 347212"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.14433084", 
+            "12.47234964"
+        ], 
         "name": "Bagno Carlo", 
         "number": "53", 
         "tel": "0541 347102"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1446170281", 
+            "12.4720010726"
+        ], 
         "name": "Bagno Wanda", 
         "number": "54", 
         "tel": "0541 347262"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1422810541", 
+            "12.4742331892"
+        ], 
         "name": "Bagno Egisto", 
         "number": "55", 
         "tel": "0541 345210"
     }, 
     {
         "address": "Via C. Colombo", 
+        "coords": [
+            "44.1422810541", 
+            "12.4742331892"
+        ], 
         "name": "Bagno Colombo", 
-        "number": "55", 
+        "number": "55bis", 
         "tel": "0541 344450"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1419181081", 
+            "12.4746563784"
+        ], 
         "name": "Bagno Piero", 
         "number": "56", 
         "tel": "0541 344046"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1415551622", 
+            "12.4750795676"
+        ], 
         "name": "Bagno Mario", 
         "number": "57", 
         "tel": "3280163615"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1411922162", 
+            "12.4755027568"
+        ], 
         "name": "Bagno N. 58 Guerrino", 
         "number": "58", 
         "tel": "0541 345891"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1408292703", 
+            "12.475925946"
+        ], 
         "name": "Bagno Gino", 
         "number": "59/59bis/60", 
         "tel": "0541 331574"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1401033784", 
+            "12.4767723243"
+        ], 
         "name": "Bagno Sandro", 
         "number": "61", 
         "tel": "0541 331572"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1397404324", 
+            "12.4771955135"
+        ], 
         "name": "Bagno Dario", 
         "number": "62", 
         "tel": "0541 331012"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1393774865", 
+            "12.4776187027"
+        ], 
         "name": "Bagno Nando", 
         "number": "63", 
         "tel": "0541 331573"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1390145405", 
+            "12.4780418919"
+        ], 
         "name": "Bagno Romolo", 
         "number": "64", 
         "tel": "0541 331361"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1386515946", 
+            "12.4784650811"
+        ], 
         "name": "Bagno Pietro", 
         "number": "65", 
         "tel": "0541 332080"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1382886487", 
+            "12.4788882703"
+        ], 
         "name": "Bagno Marco", 
         "number": "66/67", 
         "tel": "0541 330892"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1371998108", 
+            "12.4801578378"
+        ], 
         "name": "Bagno Renzo", 
         "number": "69", 
         "tel": "0541 330616"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1368368649", 
+            "12.480581027"
+        ], 
         "name": "Bagno Luca", 
         "number": "70", 
         "tel": "0541 332042"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1364739189", 
+            "12.4810042162"
+        ], 
         "name": "Bagno Mario", 
         "number": "71", 
         "tel": "0541 332022"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.136110973", 
+            "12.4814274054"
+        ], 
         "name": "Bagno Lido", 
         "number": "72", 
         "tel": "0541 331288"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.135748027", 
+            "12.4818505946"
+        ], 
         "name": "Bagno Romano", 
         "number": "73", 
         "tel": "0541 330125"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1353850811", 
+            "12.4822737838"
+        ], 
         "name": "Bagno Gino", 
         "number": "74", 
         "tel": "0541 331276"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1350221351", 
+            "12.482696973"
+        ], 
         "name": "Bagno Mario", 
         "number": "75", 
         "tel": "0541 330753"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1346591892", 
+            "12.4831201622"
+        ], 
         "name": "Bagno Alfonso", 
         "number": "76", 
         "tel": "0541 332036"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1342962432", 
+            "12.4835433514"
+        ], 
         "name": "Bagno Decio", 
         "number": "77", 
         "tel": "0541 331339"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1342962432", 
+            "12.4835433514"
+        ], 
         "name": "Bagno Andrea", 
         "number": "77bis", 
         "tel": "0541 330083"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1339332973", 
+            "12.4839665405"
+        ], 
         "name": "Bagno Antonio", 
         "number": "78", 
         "tel": "3394514765"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1339332973", 
+            "12.4839665405"
+        ], 
         "name": "Bagno Sergio", 
         "number": "78bis", 
         "tel": "0541 331634"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1335703514", 
+            "12.4843897297"
+        ], 
         "name": "Bagno Arturo E Bruno", 
         "number": "79/79bis", 
         "tel": "0541 330364"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1332074054", 
+            "12.4848129189"
+        ], 
         "name": "Bagno Primo", 
         "number": "80", 
         "tel": "0541 331120"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1328444595", 
+            "12.4852361081"
+        ], 
         "name": "Bagno Dario", 
         "number": "81", 
         "tel": "0541 330302"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1324815135", 
+            "12.4856592973"
+        ], 
         "name": "Bagno Ezio", 
         "number": "82", 
         "tel": "0541 330539"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1321185676", 
+            "12.4860824865"
+        ], 
         "name": "Bagno Mario", 
         "number": "83", 
         "tel": "0541 331153"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1317556216", 
+            "12.4865056757"
+        ], 
         "name": "Bagno Gino", 
         "number": "84", 
         "tel": "0541 331153"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1313926757", 
+            "12.4869288649"
+        ], 
         "name": "Bagno Sberlati", 
         "number": "85", 
         "tel": "0541 331558"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1310297297", 
+            "12.4873520541"
+        ], 
         "name": "Bagno Sberlati", 
         "number": "86/86bis", 
         "tel": "0541 331558"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1306667838", 
+            "12.4877752432"
+        ], 
         "name": "Bagno Toni", 
         "number": "87", 
         "tel": "0541 331704"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1303038378", 
+            "12.4881984324"
+        ], 
         "name": "Bagno Sante E Laila", 
         "number": "88", 
         "tel": "0541 330773"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1295779459", 
+            "12.4890448108"
+        ], 
         "name": "Bagno Mario", 
         "number": "90", 
         "tel": "0541 331677"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.129215", 
+            "12.489468"
+        ], 
         "name": "Bagno Crociati", 
         "number": "91", 
         "tel": "0541 332046"
     }, 
     {
         "address": "Via A. Pinzon", 
+        "coords": [
+            "44.1295779459", 
+            "12.4890448108"
+        ], 
         "name": "Bagno Dino", 
         "number": "92", 
         "tel": "0541 330231"
-    },
+    }, 
     {
         "address": "Via A. Pinzon 231", 
+        "coords": [
+            "44.126181",
+            "12.492408"
+        ], 
         "name": "Bagno da Gigi", 
         "number": "93", 
         "tel": "338 2711706"
