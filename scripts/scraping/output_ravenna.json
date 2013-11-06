@@ -2,6 +2,10 @@
     {
         "address": "Via Spallazzi Giovanni", 
         "city": "Casal Borsetti", 
+        "coords": [
+            "44.56005", 
+            "12.282089"
+        ], 
         "details": {
             "docce aperte": 4, 
             "lettini": 230, 
@@ -10,9 +14,9 @@
             "wc disabili": 1
         }, 
         "fax": "0544 445123", 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Adria", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "beach volley", 
             "racchettoni", 
@@ -22,7 +26,11 @@
     }, 
     {
         "address": "Via Leggero, 14/b", 
-        "city": "Casal Borsetti", 
+        "city": "Casal Borsetti",
+        "coords": [
+            "44.551836", 
+            "12.282773"
+        ], 
         "details": {
             "cabine": 20, 
             "docce aperte": 1, 
@@ -35,9 +43,9 @@
             "wc disabili": 1
         }, 
         "mail": "info@bagnoadriatico.it", 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Adriatico", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "beach volley", 
             "baby park", 
@@ -51,6 +59,10 @@
         "address": "Via Delle Rose, 43", 
         "cell": "339 1473019", 
         "city": "Casal Borsetti", 
+        "coords": [
+            "44.556885", 
+            "12.282859"
+        ],
         "details": {
             "docce aperte": 1, 
             "lettini": 250, 
@@ -59,9 +71,9 @@
             "wc": 2, 
             "wc disabili": 1
         }, 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Bamboo", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "beach volley", 
             "racchettoni", 
@@ -71,6 +83,11 @@
     {
         "address": "Via Ciceruacchio, 18", 
         "city": "Casal Borsetti", 
+        "coords": [
+            "44.55067", 
+            "12.282413"
+        ],
+
         "details": {
             "cabine": 8, 
             "cabine disabili": 1, 
@@ -83,9 +100,9 @@
             "wc": 2, 
             "wc disabili": 1
         }, 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Calipso (Kalipso)", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "animazione", 
             "calcetto", 
@@ -102,6 +119,10 @@
     {
         "address": "Via al Mare, 8", 
         "city": "Casal Borsetti", 
+        "coords": [
+            "44.554248", 
+            "12.283181"
+        ],
         "details": {
             "cabine": 5, 
             "cabine disabili": 1, 
@@ -115,9 +136,9 @@
         }, 
         "fax": "0544 445208", 
         "mail": "conchiglia08@gmail.com", 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Conchiglia", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "animazione", 
             "baby park", 
@@ -132,6 +153,10 @@
     {
         "address": "Viale Lungomare, 27 - arenile demaniale", 
         "city": "Casal Borsetti", 
+        "coords": [
+            "44.557803", 
+            "12.282788"
+        ],
         "details": {
             "cabine": 7, 
             "docce aperte": 2, 
@@ -143,9 +168,9 @@
             "wc disabili": 1
         }, 
         "mail": "andrew-power@libero.it", 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Girasole", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "animazione", 
             "beach volley", 
@@ -161,6 +186,10 @@
     {
         "address": "Via Casalborsetti, 199", 
         "city": "Casal Borsetti", 
+        "coords": [
+            "44.553284", 
+            "12.283165"
+        ],
         "details": {
             "cabine": 7, 
             "docce aperte": 2, 
@@ -172,9 +201,9 @@
             "wc": 4, 
             "wc disabili": 1
         }, 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Molo", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "animazione", 
             "beach volley", 
@@ -189,7 +218,11 @@
     {
         "address": "Via Leggero, 12", 
         "cell": "338 4194627 - 338 7312784", 
-        "city": "Casal Borsetti", 
+        "city": "Casal Borsetti",
+        "coords": [
+            "44.552367", 
+            "12.283095"
+        ], 
         "details": {
             "cabine": 6, 
             "docce aperte": 1, 
@@ -201,9 +234,9 @@
             "wc": 2, 
             "wc disabili": 2
         }, 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Oasi", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "beach volley", 
             "happy hour", 
@@ -215,7 +248,11 @@
     }, 
     {
         "address": "Via Ortolani Stefano, 1", 
-        "city": "Casal Borsetti", 
+        "city": "Casal Borsetti",
+        "coords": [
+            "44.549924", 
+            "12.282269"
+        ], 
         "details": {
             "cabine": 7, 
             "docce aperte": 2, 
@@ -228,9 +265,9 @@
         }, 
         "fax": "0544 445282", 
         "mail": "info@overbeach.it", 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Overbeach (Mare e Vento)", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "beach volley", 
             "pallacanestro", 
@@ -244,6 +281,10 @@
         "address": "Via delle Ortensie, 15", 
         "cell": "388 1696820", 
         "city": "CasalBorsetti", 
+        "coords": [
+            "44.55549", 
+            "12.283234"
+        ],
         "details": {
             "cabine": 9, 
             "docce aperte": 2, 
@@ -256,9 +297,9 @@
             "wc disabili": 1
         }, 
         "mail": "fetsabfar@gmail.com", 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Palm Beach", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "beach volley", 
             "baby park", 
@@ -268,6 +309,10 @@
     {
         "address": "Via Delle Ortensie, 12", 
         "city": "Casalborsetti", 
+        "coords": [
+            "44.554821", 
+            "12.283073"
+        ],
         "details": {
             "cabine": 21, 
             "docce aperte": 2, 
@@ -280,9 +325,9 @@
         }, 
         "fax": "0544 445015", 
         "mail": "info@bagno-romeo.it", 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Romeo", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": [
             "animazione", 
             "beach volley", 
@@ -304,7 +349,11 @@
     {
         "address": "Via Spazzoli Tonino, 3", 
         "cell": "348 3403237", 
-        "city": "Casal Borsetti", 
+        "city": "Casal Borsetti",
+        "coords": [
+            "44.52808", 
+            "12.279108"
+        ], 
         "details": {
             "cabine": 6, 
             "docce aperte": 3, 
@@ -314,14 +363,18 @@
             "wc": 2, 
             "wc disabili": 1
         }, 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Sole Luna (Fabio's Beach)", 
-        "neighbourhood": "Casal Borsetti", 
+        "neighbourhood": "Casalborsetti", 
         "services": []
     }, 
     {
         "address": "Via delle Gardenie, 25", 
-        "city": "CasalBorsetti", 
+        "city": "CasalBorsetti",
+        "coords": [
+            "44.55619", 
+            "12.283024"
+        ], 
         "details": {
             "cabine": 10, 
             "cabine disabili": 1, 
@@ -336,7 +389,7 @@
         }, 
         "fax": "0544 445201", 
         "mail": "riccardo.ventaglio@alice.it", 
-        "municipality": "Ferrara", 
+        "municipality": "Ravenna", 
         "name": "Bagno Ventaglio", 
         "neighbourhood": "Casal Borsetti", 
         "services": [
@@ -1370,6 +1423,10 @@
     {
         "address": "Via Guerra Teseo, 33", 
         "city": "Porto Corsini", 
+        "coords": [
+            "44.499666", 
+            "12.281168"
+        ],
         "details": {
             "cabine": 20, 
             "docce chiuse": 2, 
@@ -1392,7 +1449,11 @@
     }, 
     {
         "address": "Via Guerra Teseo, 27", 
-        "city": "Porto Corsini", 
+        "city": "Porto Corsini",
+        "coords": [
+            "44.498357", 
+            "12.281501"
+        ], 
         "details": {
             "cabine": 16, 
             "docce aperte": 4, 
@@ -1422,7 +1483,11 @@
     }, 
     {
         "address": "Via T. Guerra, 35", 
-        "city": "Porto Corsini", 
+        "city": "Porto Corsini",
+        "coords": [
+            "44.50037", 
+            "12.281082"
+        ], 
         "details": {
             "cabine": 3, 
             "docce aperte": 2, 
@@ -1450,7 +1515,11 @@
     {
         "address": "Via T. Guerra, 31", 
         "cell": "346 0010963", 
-        "city": "Porto Corsini", 
+        "city": "Porto Corsini",
+        "coords": [
+            "44.498924", 
+            "12.281286"
+        ], 
         "details": {
             "cabine": 4, 
             "cabine disabili": 1, 
@@ -1481,6 +1550,10 @@
     {
         "address": "Via Guerra Teseo, 8", 
         "city": "Porto Corsini", 
+        "coords": [
+            "44.501104", 
+            "12.281157"
+        ],
         "details": {
             "cabine": 10, 
             "docce aperte": 2, 
@@ -5038,7 +5111,11 @@
     }, 
     {
         "address": "Via Paolo e Francesca", 
-        "city": "Lido di Dante", 
+        "city": "Lido di Dante",
+        "coords": [
+            "44.385281", 
+            "12.31961"
+        ],   
         "details": {
             "cabine": 9, 
             "docce aperte": 3, 
@@ -5063,7 +5140,11 @@
     }, 
     {
         "address": "Viale Matelda, 4", 
-        "city": "Lido di Dante", 
+        "city": "Lido di Dante",
+        "coords": [
+            "44.386615", 
+            "12.319745"
+        ],
         "details": {
             "cabine disabili": 1, 
             "docce aperte": 4, 
@@ -5099,6 +5180,10 @@
     {
         "address": "Viale Matelda, 2/B", 
         "city": "Lido di Dante", 
+        "coords": [
+            "44.387209", 
+            "12.319294"
+        ],
         "details": {
             "cabine": 6, 
             "cabine disabili": 1, 
@@ -5126,7 +5211,11 @@
     }, 
     {
         "address": "Viale Matelda, 2/A", 
-        "city": "Lido di Dante", 
+        "city": "Lido di Dante",
+        "coords": [
+            "44.387888", 
+            "12.319342"
+        ], 
         "details": {
             "cabine": 6, 
             "docce aperte": 2, 
