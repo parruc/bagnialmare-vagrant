@@ -2127,9 +2127,9 @@
             "wc": 4
         }, 
         "municipality": "Cervia", 
-        "name": "bis Bagno Sesto", 
+        "name": "Bagno Sesto", 
         "neighbourhood": "Milano Marittima", 
-        "number": "242", 
+        "number": "242bis", 
         "services": [
             "cabine", 
             "ombrelloni", 
@@ -2538,9 +2538,9 @@
         ], 
         "details": {}, 
         "municipality": "Cervia", 
-        "name": "bis Bagno Malusi Giorgio", 
+        "name": "Bagno Malusi Giorgio", 
         "neighbourhood": "Milano Marittima", 
-        "number": "258", 
+        "number": "258bis", 
         "services": [], 
         "tel": "0544 993654"
     }, 
@@ -3162,9 +3162,9 @@
         }, 
         "fax": "0544 992033", 
         "municipality": "Cervia", 
-        "name": "bis/281 Bagno Papeete Beach", 
+        "name": "Bagno Papeete Beach", 
         "neighbourhood": "Milano Marittima", 
-        "number": "280", 
+        "number": "280bis/281", 
         "services": [
             "cabine", 
             "ombrelloni", 
@@ -3870,9 +3870,9 @@
             "wc": 3
         }, 
         "municipality": "Cervia", 
-        "name": "bis Bagno Rosen Beach", 
+        "name": "Bagno Rosen Beach", 
         "neighbourhood": "Milano Marittima", 
-        "number": "302", 
+        "number": "302bis", 
         "services": [
             "cabine", 
             "ombrelloni", 
@@ -3962,9 +3962,9 @@
         }, 
         "fax": "0544 991330", 
         "municipality": "Cervia", 
-        "name": "bis/306 Bagno Holiday", 
+        "name": "Bagno Holiday", 
         "neighbourhood": "Milano Marittima", 
-        "number": "305", 
+        "number": "305bis/306", 
         "services": [
             "spazio tv", 
             "piccola ristorazione", 
@@ -5867,9 +5867,9 @@
             "wc": 5
         }, 
         "municipality": "Cervia", 
-        "name": "bis Bagno Pineta", 
+        "name": "Bagno Pineta", 
         "neighbourhood": "Pinarella", 
-        "number": "120", 
+        "number": "120bis", 
         "services": [
             "cabine", 
             "ombrelloni", 
@@ -6079,9 +6079,9 @@
         }, 
         "fax": "0544 1848125", 
         "municipality": "Cervia", 
-        "name": "bis Bagno Bianchi", 
+        "name": "Bagno Bianchi", 
         "neighbourhood": "Pinarella", 
-        "number": "125", 
+        "number": "125bis", 
         "services": [
             "spazio tv", 
             "internet", 
