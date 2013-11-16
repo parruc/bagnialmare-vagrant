@@ -14,7 +14,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         Bagno.objects.all().delete()
         bagni = []
-        cities = ["cervia", "cesenatico", "ferrara", "ravenna", "rimini", "riccione"]
+        cities = ["cervia", "cesenatico", "ferrara", "ravenna", "rimini", "riccione", "bellaria-igea-marina"]
         fields = ["name", "number", "address", "city", "tel", "cell", "winter_tel", "fax", "site", "mail"]
         for city in cities:
             try:

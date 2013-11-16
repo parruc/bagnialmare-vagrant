@@ -19,7 +19,7 @@ class Bagno(models.Model):
                                   verbose_name=_("Slug"),
                                   unique=True,
                                   editable=True,)
-    number = models.CharField(max_length=15, blank=True)
+    number = models.CharField(max_length=30, blank=True)
     services = models.ManyToManyField("Service", blank=True)
     address = models.CharField(max_length=100, blank=True)
     city = models.CharField(max_length=50, blank=True)
@@ -29,7 +29,7 @@ class Bagno(models.Model):
     winter_tel = models.CharField(max_length=75, blank=True)
     fax = models.CharField(max_length=125, blank=True)
     site = models.URLField(max_length=75, blank=True)
-    point = models.PointField(geography=True, null=True, blank=True)
+    point = models.PointField(null=True, blank=True)
 
     objects = models.GeoManager()
 
