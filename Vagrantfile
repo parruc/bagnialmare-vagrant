@@ -6,9 +6,10 @@ Vagrant.configure("2") do |config|
     config.vm.box = "4hm-vagrant-wheezy32"
     config.vm.box_url = "http://www.matteoparrucci.it/vagrant-wheezy32.box"
     config.ssh.private_key_path = "keys/id_rsa"
-    config.ssh.port = 2222
+    config.ssh.port = 2202
 
     # Webserver
+    config.vm.network :forwarded_port, guest: 22, host: 2202
     config.vm.network :forwarded_port, guest: 80, host: 8081
     config.vm.network :forwarded_port, guest: 8000, host: 8000
     config.vm.provider "virtualbox" do |v|
