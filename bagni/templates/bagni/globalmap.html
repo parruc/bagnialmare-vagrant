@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% load l10n i18n thumbnail %}
+
+{% block main_content %}
+    <div id="bagno_map" style="width: 800px; height: 600px"></div>
+{% endblock main_content %}
+
+{% block specific_js %}
+        <script type="text/javascript">
+        var map
+        $(function() {
+            //map = L.map('bagno_map').setView([{{ object.point.y|unlocalize }}, {{ object.point.x|unlocalize }}], 13);
+            map = L.map('bagno_map').setView(new L.LatLng(44.09, 12.52), 13);
+            L.tileLayer('http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
+                attribution: 'Data, imagery and map information provided by <a href="http://open.mapquest.co.uk" target="_blank">MapQuest</a>, <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors.',
+                subdomains: ['otile1','otile2','otile3','otile4'],
+                maxZoom: 18
+            }).addTo(map);
+	    {% for bagno in object_list %}
+		{% if bagno.point.x and bagno.point.y %}
+                    var marker = L.marker([{{ bagno.point.y|unlocalize }}, {{ bagno.point.x|unlocalize }}]).addTo(map);
+                    marker.bindPopup("<strong>{{ bagno.name }}</strong> <em>{{ bagno.address }}</em><br>").openPopup();
+                {% endif %}
+            {% endfor %}
+        });
+        </script>
+{% endblock specific_js %}

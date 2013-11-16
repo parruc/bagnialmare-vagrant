@@ -128,6 +128,12 @@ class SearchView(TemplateView):
         context.update({'q': q, 'l':loc, 'place': place, 'facets': facets, 'hits': hits, 'count': len(raw_hits), 'has_get': has_get })
         return context
 
+class GlobalMapView(ListView):
+    template_name = "bagni/globalmap.html"
+    model = Bagno
+    def get_context_data(self, **kwargs):
+        context = super(GlobalMapView, self).get_context_data(**kwargs)
+        return context
 
 class BenveView(ListView):
     """ Simple view for Service listing everyone with his bagni
