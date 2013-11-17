@@ -49,7 +49,7 @@ user_with_home_{{ user_name }}:
 bashrc_{{ user_name }}:
     file.managed:
         - name: {{ user.home_path }}/.bashrc
-        - source: salt://users/.bashrc
+        - source: salt://users/dotted_files/.bashrc
         - user: {{ user.name }}
         - group: {{ user.group }}
         - file_mode: 640
@@ -61,7 +61,19 @@ bashrc_{{ user_name }}:
 bash_profile_{{ user_name }}:
     file.managed:
         - name: {{ user.home_path }}/.bash_profile
-        - source: salt://users/.bash_profile
+        - source: salt://users/dotted_files/.bash_profile
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - file_mode: 640
+        - replace: True
+        - makedirs: True
+        - require:
+            - file: user_with_home_{{ user_name }}
+
+bash_profile_{{ user_name }}:
+    file.managed:
+        - name: {{ user.home_path }}/.bash_aliases
+        - source: salt://users/dotted_files/.bash_aliases
         - user: {{ user.name }}
         - group: {{ user.group }}
         - file_mode: 640
@@ -73,7 +85,7 @@ bash_profile_{{ user_name }}:
 vimrc_{{ user_name }}:
     file.managed:
         - name: {{ user.home_path }}/.vimrc
-        - source: salt://users/.vimrc
+        - source: salt://users/dotted_files/.vimrc
         - makedirs: True
         - replace: True
         - require:
