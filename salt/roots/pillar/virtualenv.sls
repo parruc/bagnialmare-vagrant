@@ -5,7 +5,7 @@ venv:
             path: '/var/www/ombrelloni.it/venv'
             packages:
                 - 'BeautifulSoup==3.2.1'
-                - 'Django==1.5.1'
+                - 'Django==1.5.5'
                 - 'Jinja2==2.7'
                 - 'MarkupSafe==0.18'
                 - 'Pillow==2.0.0'
@@ -14,7 +14,7 @@ venv:
                 - 'Sphinx==1.2b1'
                 - 'argparse==1.2.1'
                 - 'django-autoslug==1.6.1'
-                - 'git+https://github.com/deschler/django-modeltranslation.git#egg=django-modeltranslation'
+                - 'django-modeltranslation==0.7.2'
                 - 'docutils==0.10'
                 - 'whoosh==2.5.4'
                 - 'lxml==3.2.1'

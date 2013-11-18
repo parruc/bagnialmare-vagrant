@@ -1,3 +1,4 @@
+{% set loc = grains['configuration'] in ['local'] %}
 base:
     '*':
         - django

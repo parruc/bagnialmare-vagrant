@@ -1,9 +1,9 @@
 #!/usr/bin/expect -f
 exp_internal 1
-spawn smbpasswd -a vagrant
+spawn smbpasswd -a {{ user }}
 expect "*?assword:*"
-send -- "vagrant\r"
+send -- "{{ user }}\r"
 expect "*?assword:*"
-send -- "vagrant\r"
+send -- "{{ user }}\r"
 expect eof
 exit 0
