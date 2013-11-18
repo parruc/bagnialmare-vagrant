@@ -1,4 +1,4 @@
-[
+{
     "piccola ristorazione": "food & beverage",
     "baby park": "bambini",
     "beach volley": "sport & wellness",
@@ -40,7 +40,7 @@
     "calcetto": "sport & wellness",
     "calcio": "sport & wellness",
     "cabine": "servizi extra",
-    "area verde"; "comfort & relax",
+    "area verde": "comfort & relax",
     "calcio tennis": "sport & wellness",
     "trampolino elastico": "intrattenimento e giochi",
     "libreria": "intrattenimento e giochi",
@@ -121,4 +121,4 @@
     "lettini matrimoniali": "comfort & relax",
     "frigoriferi": "noleggio",
     "pizzeria": "food & beverage"
-]
+}
