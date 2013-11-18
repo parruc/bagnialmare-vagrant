@@ -9,6 +9,7 @@
     "adesione al progetto passpartout": "",
     "corrida": "",
     "biberoneria": "",
+    "scalda biberon": "",
     "nebulizzazione": "",
     "pedana": "",
     "sedie job per il bagno in mare": "",
@@ -112,7 +113,7 @@
     "insalate": "piccola ristorazione",
     "frutta di stagione": "piccola ristorazione",
     "aperitivi nel week-end": "aperitivo",
-    "cabina fasciatoio": "cabina fasciatoio",
+    "cabina fasciatoio": "nursery",
     "feste musicali": "animazione serale",
     "serate danzanti": "animazione serale",
     "feste serali": "animazione serale",
@@ -130,6 +131,7 @@
 	"accessibilit\u00e0 ai disabili": "disabili",
     "pedana per disabili per accedere agli ombrelloni": "disabili",
     "american bar": "cocktail bar",
+    "bar": "piccola ristorazione",
     "stabilimento balneare senza barriere architettoniche": "disabili",
     "percorsi per carrozzine fino al mare": "disabili",
     "fornitura carrozzina per disabili": "disabili",
@@ -152,9 +154,10 @@
     "gazebo con barbecue.": "area barbecue",
     "zona barbecue a disposizione dei clienti": "area barbecue",
     "massaggi orientali": "massaggi",
-    "fitness television": "fitness",
-    "ginnastica aerobica": "fitness",
-    "centro fitness": "fitness",
+    "fitness television": "area fitness",
+    "ginnastica aerobica": "area fitness",
+    "centro fitness": "area fitness",
+    "fitness": "area fitness",
     "noleggio surf": "surf",
     "area cani": "pet friendly",
     "accettazione piccoli animali domestici": "pet friendly",
@@ -178,8 +181,9 @@
     "cavallino": "baby park",
     "cubi": "baby park",
     "forte": "baby park",
-    "elastico": "baby park",
-    "rete per saltare": "baby park",
+    "elastico": "trampolino elastico",
+    "jumping": "trampolino elastico",
+    "rete per saltare": "trampolino elastico",
     "arrampicatoio": "baby park",
     "gonfiabile": "baby park",
     "giochi per bambini mini": "baby park",
@@ -210,7 +214,7 @@
 	"aperitivi": "aperitivo",
 	"plance": "",
 	"balli di gruppo": "dancing",
-	"fasciatoio": "cabina fasciatoio",
+	"fasciatoio": "nursery",
 	"festa a tema": "feste a tema",
 	"giochi bimbi": "baby park",
 	"cassetta pronto soccorso": "",
@@ -309,7 +313,7 @@
 	"carta di credito": "carte di credito",
 	"rilevatori no-alcol": "alcohol tester",
 	"giochi da tavolo/ludoteca": "giochi da tavolo",
-	"amache  amazonas": "amache amazonas",
+	"amache  amazonas": "amache",
 	"deposito giochi": "",
 	"barbecue": "area barbecue",
 	"freesbee": "ultimate freesbee",
@@ -329,7 +333,8 @@
     "laboratori creativi per bambini. acquisito nel 2008 il marchio di qualit\u00e0.": "animazione per bambini",
     "serate a tema per bimbi (al luned\u00ec con burattini e spettacoli vari)": "animazione per bambini",
     "baby club": "animazione per bambini",
-    "babyroom": "baby room",
+    "babyroom": "nursery",
+    "baby room": "nursery",
     "animazione baby club": "animazione per bambini",
     "mini club esclusivo dello stabilimento": "animazione per bambini",
     "animazione per bambini tutti i fine settimana": "animazione per bambini",
@@ -364,9 +369,9 @@
     "piscinapiscina per bambini presso l'hotel lido": "piscina",
     "piscina per bambini": "piscina",
     "piccola piscina": "piscina",
-    "fasciatoio bimbi": "cabina fasciatoio",
-    "fasciatoio per bimbi": "cabina fasciatoio",
-    "fasciatoio per neonati": "cabina fasciatoio",
+    "fasciatoio bimbi": "nursery",
+    "fasciatoio per bimbi": "nursery",
+    "fasciatoio per neonati": "nursery",
     "internet point": "internet",
     "mini ristorazione e bar": "piccola ristorazione",
     "ristorazioneristorazione ridotta": "piccola ristorazione",
@@ -465,6 +470,7 @@
     "toilette baby": "wc per bimbi",
     "toilette attrezzate a norma di legge": "",
     "web cam": "webcam",
+    "bigiotteria": "",
     "servizio libri ristorazione/ristoro":
     [
         "libreria",
@@ -519,7 +525,7 @@
         "spazio tv",
         "custodia valori",
         "ping pong",
-        "fitness",
+        "area fitness",
         "pedal\u00f2"
     ],
     "pedal\u00f2/canoe giochi per bambini ristorazione piscina sala tv":
@@ -551,7 +557,7 @@
         "internet",
         "terrazza prendisole",
         "baby park",
-        "cabina fasciatoio"
+        "nursery"
     ],
     "terrazza prendisole vasche idromassaggio lettini massaggianti":
     [
@@ -611,8 +617,7 @@
     ],
     "vendita abbigliamento e bigiotteria":
     [
-        "abbigliamento",
-        "bigiotteria"
+        "abbigliamento"
     ],
     "accessibile ai portatori handicap cassetta pronto soccorso":
     [
@@ -662,7 +667,7 @@
     ],
     "animazione baby club - beach dance - fitness":
     [
-        "fitness",
+        "area fitness",
         "dancing",
         "animazione per bambini"
     ],
@@ -670,7 +675,7 @@
     [
         "animazione per bambini",
         "dancing",
-        "fitness"
+        "area fitness"
     ],
     "animazionefeste a tema":
     [
@@ -681,13 +686,13 @@
     [
         "animazione per bambini",
         "dancing",
-        "fitness"
+        "area fitness"
     ],
     "animazione baby  club - beach dance - fitness":
     [
         "animazione per bambini",
         "dancing",
-        "fitness"
+        "area fitness"
     ],
     "animazione baby club, beach dance":
     [
@@ -752,7 +757,7 @@
         "calcio balilla",
         "animazione per bambini",
         "dancing",
-        "fitness",
+        "area fitness",
         "feste a tema"
     ],
     "giochi per bambini altalena, scivolo, giostrina. campi beach volley n.6, campo bocce beach basket videogiochi animazione beach dance, fitness televisione ping pong calcio balilla racchettoni a disposizione feste a tema beach soccer beach tennnis":
@@ -764,7 +769,7 @@
         "videogiochi",
         "animazione",
         "dancing",
-        "fitness",
+        "area fitness",
         "spazio tv",
         "ping pong",
         "calcio balilla",
@@ -772,10 +777,8 @@
         "feste a tema",
         "beach soccer"
     ],
-    "sdraio lavapiedi":
-    [
-        "lavapiedi"
-    ],
+    "sdraio lavapiedi": "",
+    "lavapiedi": "",
     "musica con stereo e dal vivo, happy hour":
     [
         "musica",
@@ -854,7 +857,7 @@
     [
         "spazio tv",
         "animazione",
-        "fitness",
+        "area fitness",
         "feste a tema"
     ],
     "videogiochi musica all'esterno":
@@ -1031,7 +1034,7 @@
     [
         "animazione per bambini",
         "dancing",
-        "fitness"
+        "area fitness"
     ],
     ", campo bocce beach basket videogiochi animazione beach dance, fitness televisione ping pong calcio balilla racchettoni a disposizione feste a tema beach soccer beach tennnis":
     [
@@ -1040,7 +1043,7 @@
         "videogiochi",
         "animazione",
         "dancing",
-        "fitness",
+        "area fitness",
         "spazio tv",
         "ping pong",
         "calcio balilla",
@@ -1124,7 +1127,7 @@
     [
         "animazione",
         "dancing",
-        "fitness"
+        "area fitness"
     ],
     "beach tennis videogiochi":
     [
@@ -1141,7 +1144,7 @@
     "animazione baby club, fitness":
     [
         "animazione per bambini",
-        "fitness"
+        "area fitness"
     ],
     "castello campo beach volley ping pong racchettoni a disposizione noleggio pedal\u00f2 noleggio surf calcio balilla feste a tema televisione":
     [
@@ -1273,7 +1276,7 @@
         "animazione",
         "animazione per bambini",
         "dancing",
-        "fitness",
+        "area fitness",
         "tornei sportivi"
     ],
     "animazione per adulti, tutti i giorni,  risveglio muscolare":
