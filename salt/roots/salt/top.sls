@@ -9,3 +9,6 @@ base:
         - users
         - uwsgi
         - virtualenv
+        {% if loc %}
+        - samba
+        {% endif %}

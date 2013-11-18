@@ -1,0 +1,9 @@
+#!/usr/bin/expect -f
+exp_internal 1
+spawn smbpasswd -a vagrant
+expect "*?assword:*"
+send -- "vagrant\r"
+expect "*?assword:*"
+send -- "vagrant\r"
+expect eof
+exit 0
