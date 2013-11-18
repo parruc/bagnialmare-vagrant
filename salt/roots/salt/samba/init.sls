@@ -30,6 +30,13 @@ samba_user_{{ user_name }}:
 {% endif %}
 {% endfor %}
 
+samba_conf:
+    file.managed:
+        - name: /etc/samba/smb.conf
+        - source: salt://samba/smb.conf
+        - user: root
+        - mode: 644
+
 samba_process:
     service.running:
         - name: samba
@@ -42,3 +49,5 @@ samba_process:
             - cmd: samba_user_{{ user_name }}
             {% endif %}
             {% endfor %}
+        - watch:
+            - file: samba_conf

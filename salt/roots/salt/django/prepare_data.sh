@@ -2,8 +2,8 @@
 
 {% set venv = pillar.venv.venvs[django_name] %}
 
-{{ venv.path }}/bin/python manage.py syncdb --noinput
 {{ venv.path }}/bin/python manage.py migrate
+{{ venv.path }}/bin/python manage.py syncdb --noinput
 {{ venv.path }}/bin/python manage.py loaddata auth.json
 {{ venv.path }}/bin/python manage.py manage_index -o create
 {{ venv.path }}/bin/python manage.py import_services
