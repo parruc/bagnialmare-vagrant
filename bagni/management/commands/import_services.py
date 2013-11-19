@@ -30,7 +30,10 @@ class Command(BaseCommand):
         if 'limit' in options and options['limit'] > len(services):
             services = services[:options['limit']]
         for service in services:
-            s = Service(name=service)
-            if service in categories and hasattr(s, categories[service]):
-                s.category = getattr(s, categories[service])
-            s.save()
+            try:
+                s = Service(name=service)
+                if service in categories:
+                    s.category = categories.get(service, '')
+                s.save()
+            except:
+                import ipdb; ipdb.set_trace()

@@ -75,7 +75,7 @@ def recreate_all(sender=None, **kwargs):
     recreate_index(sender=sender, **kwargs)
     recreate_data(sender=sender, **kwargs)
 
-signals.post_syncdb.connect(recreate_all)
+#signals.post_syncdb.connect(recreate_all)
 
 
 def search(q, filters, groups, query_string, max_facets=10):
@@ -89,7 +89,7 @@ def search(q, filters, groups, query_string, max_facets=10):
     # Commented due to a boost error
     # og = qparser.OrGroup.factory(0.5)
     parser = qparser.QueryParser("text", schema=ix.schema, )  # group=og)
-    parser.remove_plugin_class(qparser.WildcardPlugin)
+    #parser.remove_plugin_class(qparser.WildcardPlugin)
     # Temporary removed fuzzy search: more pain than benefit
     #parser.add_plugin(qparser.FuzzyTermPlugin())
     #fuzzy = "~1/2 "
