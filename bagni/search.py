@@ -75,7 +75,7 @@ def recreate_all(sender=None, **kwargs):
     recreate_index(sender=sender, **kwargs)
     recreate_data(sender=sender, **kwargs)
 
-signals.post_syncdb.connect(recreate_all)
+#signals.post_syncdb.connect(recreate_all)
 
 
 def search(q, filters, groups, query_string, max_facets=10):
