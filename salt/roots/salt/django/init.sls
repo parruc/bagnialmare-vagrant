@@ -80,7 +80,7 @@ django_loaddata_script_{{ django_name }}:
             django_name: {{ django_name }}
         - require:
             - file: user_with_home_{{ django_name }}
-            - virtualenv: venv_{{ django_name }}
+            - pip: venv_pip_{{ django_name }}
             - service: postgres_service
             - git: git_{{ django_name }}
 

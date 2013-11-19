@@ -11,7 +11,7 @@ GUEST_DIR=vagrant-ombrelloni:/var/www/ombrelloni.it
 CWD=$(pwd)
 
 echo "mounting $GUST_DIR to $HOST_DIR"
-sshfs $GUEST_DIR $HOST_DIR -o uid=$(id -u) -o gid=$(id -g)
+sudo mount -t cifs //192.168.50.5/ombrelloni /home/creepingdeath/4hm -o username=ombrelloni,password=ombrelloni,uid=creepingdeath
 echo "changing git credentials for your user: $GIT_USER"
 cd "$HOST_DIR/django"
 git config --global user.email "parruc@gmail.com"

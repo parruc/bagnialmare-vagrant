@@ -31,7 +31,7 @@ Vagrant.configure("2") do |config|
         salt.minion_config = "salt/minion.conf"
         # salt.temp_config_dir = "/existing/folder/on/basebox/"
         # salt.salt_install_type = "git"
-        # salt.salt_install_args = "develop"
+        # salt.install_args = "develop"
 
         ## If you have a remote master setup, you can add
         ## your preseeded minion key

@@ -15,13 +15,12 @@ lib_repo_remove:
 lib_repo_add:
     pkgrepo.managed:
         - names:
-            - deb http://mi.mirror.garr.it/mirrors/debian/ wheezy main
-            - deb-src http://mi.mirror.garr.it/mirrors/debian/ wheezy main
-            - deb http://mi.mirror.garr.it/mirrors/debian/ wheezy-updates main
-            - deb-src http://mi.mirror.garr.it/mirrors/debian/ wheezy-updates main
-            - deb http://security.debian.org/ wheezy/updates main
-            - deb-src http://security.debian.org/ wheezy/updates main
-#            - deb http://apt.postgresql.org/pub/repos/apt/ wheezy-pgdg main
+            - deb http://mi.mirror.garr.it/mirrors/debian wheezy main
+            - deb-src http://mi.mirror.garr.it/mirrors/debian wheezy main
+            - deb http://mi.mirror.garr.it/mirrors/debian wheezy-updates main
+            - deb-src http://mi.mirror.garr.it/mirrors/debian wheezy-updates main
+            - deb http://security.debian.org wheezy/updates main
+            - deb-src http://security.debian.org wheezy/updates main
             - deb http://debian.saltstack.com/debian wheezy-saltstack main
         - require:
             - pkg: lib_repo_prereq
