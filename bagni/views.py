@@ -90,10 +90,11 @@ class SearchView(TemplateView):
         page = self.request.GET.get('p', "1")
         loc = self.request.GET.get('l', "")
         place = point = None
-        if 'q' in self.request.GET and not q:
-            messages.add_message(self.request, messages.WARNING,
-                                 _("Cant search for empty string"))
-            return {}
+#        if 'q' in self.request.GET and not q:
+#            q = ""
+#            messages.add_message(self.request, messages.WARNING,
+#                                 _("Cant search for empty string"))
+#            return {}
         if loc:
             g = geocoders.GoogleV3()
             try:
@@ -110,7 +111,8 @@ class SearchView(TemplateView):
 
         filters = self.request.GET.getlist('f', [])
         new_query_string = self.request.GET.copy()
-        raw_hits, facets = search(q=q, filters=filters, groups=groups,
+        query = q or "*"
+        raw_hits, facets = search(q=query, filters=filters, groups=groups,
                                   query_string=new_query_string,)
         hits = Bagno.objects.filter(id__in=[h['id'] for h in raw_hits])
         if point:
