@@ -1,8 +1,11 @@
 from django.core.management.base import BaseCommand, CommandError
 from django.contrib.gis.geos import Point
-from bagni.models import Bagno, Service
+from bagni.models import Bagno, Service, Municipality, District
 from optparse import make_option
 import simplejson
+import logging
+logging.basicConfig()
+logger = logging.getLogger(__name__)
 
 class Command(BaseCommand):
     option_list = BaseCommand.option_list + (
@@ -15,7 +18,7 @@ class Command(BaseCommand):
         Bagno.objects.all().delete()
         bagni = []
         cities = ["cervia", "cesenatico", "ferrara", "ravenna", "rimini", "riccione", "bellaria-igea-marina"]
-        fields = ["name", "number", "address", "city", "tel", "cell", "winter_tel", "fax", "site", "mail"]
+        fields = ["name", "number", "address", "tel", "cell", "winter_tel", "fax", "site", "mail",]
         for city in cities:
             try:
                 with open('scripts/scraping/output_' + city + '.json', 'r') as output_file:
@@ -26,21 +29,32 @@ class Command(BaseCommand):
         if 'limit' in options and options['limit'] > len(bagni):
             bagni = bagni[:options['limit']]
         for bagno in bagni:
-            try:
-                b = Bagno(name=bagno['name'])
-                for field in fields:
-                    if field in bagno:
-                        setattr(b, field, bagno[field])
-                if "coords" in bagno:
-                    b.point = Point([float(coord) for coord in reversed(bagno['coords'])])
-                b.save()
-                if "services" in bagno:
-                    for service in bagno['services']:
-                        s = Service.objects.filter(name=service)
-                        if s:
-                            b.services.add(s[0])
 
-                b.save()
-            except Exception as e:
-                print e
-                import ipdb; ipdb.set_trace()
+            b = Bagno(name=bagno['name'])
+            for field in fields:
+                if field in bagno:
+                    setattr(b, field, bagno[field])
+            if "coords" in bagno:
+                b.point = Point([float(coord) for coord in reversed(bagno['coords'])])
+            import ipdb; ipdb.set_trace()
+            b.save()
+            if "municipality" in bagno:
+                d = District.objects.filter(name=bagno['municipality'])
+                if not d:
+                    d = District(name=bagno['municipality'])
+                    d.save()
+                if "neighbourhood" in bagno:
+                    m = Municipality.objects.filter(name=bagno['neighbourhood'])
+                    if not m :
+                        m = Municipality(name=bagno['neighbourhood'])
+                        m.district = d
+                        m.save()
+                if m and d:
+                    b.municipality = m
+            if "services" in bagno:
+                for service in bagno['services']:
+                    s = Service.objects.filter(name=service)
+                    if s:
+                        b.services.add(s[0])
+
+            b.save()

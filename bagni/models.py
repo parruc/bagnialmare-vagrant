@@ -5,6 +5,46 @@ from sorl.thumbnail import ImageField
 import autoslug
 
 
+class District(models.Model):
+    """The model for the District object
+    """
+    class Meta:
+        verbose_name = _('District')
+        verbose_name_plural = _('Districts')
+
+    name = models.CharField(max_length=100)
+    description = models.TextField(max_length=2000, blank=True)
+    slug = autoslug.AutoSlugField(max_length=50,
+                                  populate_from='name',
+                                  verbose_name=_("Slug"),
+                                  unique=True,
+                                  editable=True,)
+    @models.permalink
+    def get_absolute_url(self):
+        return ("district", [self.slug, ])
+
+
+class Municipality(models.Model):
+    """The model for the Municipality object
+    """
+
+    class Meta:
+        verbose_name = _('Municipality')
+        verbose_name_plural = _('Municipalities')
+
+    name = models.CharField(max_length=100)
+    description = models.TextField(max_length=2000, blank=True)
+    district = models.ForeignKey(District, verbose_name=_("District"),)
+    slug = autoslug.AutoSlugField(max_length=50,
+                                  populate_from='name',
+                                  verbose_name=_("Slug"),
+                                  unique=True,
+                                  editable=True,)   
+    @models.permalink
+    def get_absolute_url(self):
+        return ("municipality", [self.slug, ])
+
+
 class Bagno(models.Model):
     """ The model for Bagno object
     """
@@ -22,7 +62,7 @@ class Bagno(models.Model):
     number = models.CharField(max_length=30, blank=True)
     services = models.ManyToManyField("Service", blank=True)
     address = models.CharField(max_length=100, blank=True)
-    city = models.CharField(max_length=50, blank=True)
+    municipality = models.ForeignKey(Municipality, verbose_name=_("Municipality"), blank=True, null=True)
     mail = models.EmailField(max_length=50, blank=True)
     tel = models.CharField(max_length=125, blank=True)
     cell = models.CharField(max_length=125, blank=True)
@@ -46,8 +86,8 @@ class Bagno(models.Model):
     def index_text(self):
         """ Text indexed for fulltext search (the what field)
         """
-        elems = (self.name, self.index_services(), self.city)
-        return unicode("%s %s %s" % elems)
+        elems = (self.name, self.index_services(), self.municipality.name, self.municipality.district.name)
+        return unicode("%s %s %s %s" % elems)
 
     def index_services(self, sep=" "):
         """ Returns a string representing all the bagno services separated by
@@ -62,7 +102,7 @@ class Bagno(models.Model):
         """
         return dict(id=unicode(self.id),
                     text=self.index_text(),
-                    city=unicode(self.city),
+                    municipality=unicode(self.municipality.name),
                     services=unicode(self.index_services(sep="#")),
                     )
 

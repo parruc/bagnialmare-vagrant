@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block main_content %}
+    {% with object.bagno_set.all as bagni %}
+        <ul>
+        {% for bagno in bagni %}
+            <li><a href="{{ bagno.get_absolute_url }}">{{ bagno.name }}</a></li>
+        {% empty %}
+            <li>{% trans "No bagno in this municipality" %}</li>
+        {% endfor %}
+        </ul>
+    {% endwith %}
+{% endblock main_content %}
+
+{% block title %}{{ object.name }}{% endblock title %}
+
+{% block pagetitle %}{{ object.name }}{% endblock pagetitle %}

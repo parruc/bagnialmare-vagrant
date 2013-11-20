@@ -2,6 +2,8 @@ from django.core.management.base import BaseCommand, CommandError
 from bagni.models import Service
 from optparse import make_option
 import simplejson
+import logging
+logger = logging.getLogger(__name__)
 
 
 class Command(BaseCommand):
@@ -34,6 +36,8 @@ class Command(BaseCommand):
                 s = Service(name=service)
                 if service in categories:
                     s.category = categories.get(service, '')
+                else:
+                    logger.warning("Service %s does not fit any category" % (service, ))
                 s.save()
-            except:
-                import ipdb; ipdb.set_trace()
+            except Exception as e:
+                logger.error("Importazione del servizio %s fallita con errore %s", (service, e))

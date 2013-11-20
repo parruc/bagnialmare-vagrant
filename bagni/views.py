@@ -1,4 +1,3 @@
-from django.http import Http404
 from django.core import paginator
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
@@ -8,7 +7,7 @@ from django.contrib.gis.geos import Point
 from geopy import geocoders
 from django.utils.translation import ugettext as _
 
-from models import Bagno, Service
+from models import Bagno, Service, District, Municipality
 from search import search
 
 
@@ -42,25 +41,23 @@ class ServiceView(DetailView):
         return context
 
 
-class CityView(ListView):
-    """ Detail view for a single city
+class MunicipalityView(DetailView):
+    """ Detail view for a single municipality
     """
-    template_name = "bagni/city.html"
-    model = Bagno
-    allow_empty = False
-
-    def _get_city(self):
-        return self.kwargs.get('city', "")
-
-    def get_queryset(self):
-        city = self._get_city()
-        if city:
-            return self.model.objects.filter(city=city)
-        raise Http404(_("No city specified"))
+    model = Municipality
 
     def get_context_data(self, **kwargs):
-        context = super(CityView, self).get_context_data(**kwargs)
-        context.update({'city': self._get_city()})
+        context = super(MunicipalityView, self).get_context_data(**kwargs)
+        return context
+
+
+class DistrictView(DetailView):
+    """ Detail view for a single district
+    """
+    model = District
+
+    def get_context_data(self, **kwargs):
+        context = super(DistrictView, self).get_context_data(**kwargs)
         return context
 
 
@@ -85,7 +82,7 @@ class SearchView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(SearchView, self).get_context_data(**kwargs)
-        groups = ['city', 'services']
+        groups = ['municipality', 'district', 'services']
         q = self.request.GET.get('q', "")
         page = self.request.GET.get('p', "1")
         loc = self.request.GET.get('l', "")

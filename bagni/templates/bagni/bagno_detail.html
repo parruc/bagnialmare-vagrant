@@ -34,7 +34,7 @@
     {% endif %}
 
     <h2>{% trans Contacts %}</h2>
-    <p>{{ object.address }} - {{ object.city }}</p>
+    <p>{{ object.address }} - {{ object.municipality.name }}</p>
     <p>{{ object.mail }}</p>
     <p>{{ object.tel }}</p>
     <p>{{ object.fax }}</p>
