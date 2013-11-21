@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand, CommandError
 from django.contrib.gis.geos import Point
-from bagni.models import Bagno, Service, Municipality, District
+from bagni.models import Bagno, Service, Municipality, District, Language
 from optparse import make_option
 import simplejson
 import logging
@@ -15,6 +15,7 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
+        logger.info("Importing Bagni, Languages, Municipalities and Districts")
         Bagno.objects.all().delete()
         bagni = []
         cities = ["cervia", "cesenatico", "ferrara", "ravenna", "rimini", "riccione", "bellaria-igea-marina"]
@@ -28,8 +29,12 @@ class Command(BaseCommand):
 
         if 'limit' in options and options['limit'] > len(bagni):
             bagni = bagni[:options['limit']]
+        languages = {}
+        for language in ['Italian', 'English', 'Franch', 'German', 'Russian']:
+            l = Language(name=language)
+            l.save()
+            languages[language] = l
         for bagno in bagni:
-
             b = Bagno(name=bagno['name'])
             for field in fields:
                 if field in bagno:
@@ -37,6 +42,8 @@ class Command(BaseCommand):
             if "coords" in bagno:
                 b.point = Point([float(coord) for coord in reversed(bagno['coords'])])
             b.save()
+            b.languages.add(languages['Italian'])
+            b.languages.add(languages['English'])
             if "municipality" in bagno:
                 d = District.objects.filter(name=bagno['municipality'])
                 m = None

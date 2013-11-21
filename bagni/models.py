@@ -69,6 +69,24 @@ class Language(models.Model):
         return self.name
 
 
+class ServiceCategory(models.Model):
+    """ List of categories available for the service
+    """
+    class Meta:
+        verbose_name = _('Service Category')
+        verbose_name_plural = _('Service Category')
+
+    name = models.CharField(max_length=100)
+    description = models.TextField(max_length=2000)
+    slug = autoslug.AutoSlugField(max_length=50,
+                                  populate_from='name',
+                                  verbose_name=_("Slug"),
+                                  unique=True,
+                                  editable=True,)
+    def __unicode__(self):
+        return self.name
+
+
 class Bagno(models.Model):
     """ The model for Bagno object
     """
@@ -107,7 +125,7 @@ class Bagno(models.Model):
             Useful for regoup templatetag in templates to avoid
             repeted items under different categories
         """
-        return self.services.all().order_by("category")
+        return self.services.all().order_by("category__name")
 
     def index_text(self):
         """ Text indexed for fulltext search (the what field)
@@ -156,47 +174,15 @@ class Service(models.Model):
         verbose_name = _('Service')
         verbose_name_plural = _('Services')
 
-    COMFORT = "CO"
-    FOOD = "FO"
-    SPORT = "SP"
-    CHILDREN = "CH"
-    TECH = "TE"
-    ENTERTAINMENT = "EN"
-    RENT = "RE"
-    EVENTS = "EV"
-    ACCESSIBILITY = "AC"
-    EXTRA = "EX"
-    BEAUTY = "BE"
-    TRADE = "TR"
-    PAYMENT = "PA"
-    NOT_SET = "NS"
-    SERVICE_CATEGORIES = (
-        (COMFORT, _('comfort & relax')),
-        (FOOD, _('food & beverage')),
-        (SPORT, _('sport & wellness')),
-        (CHILDREN, _('children')),
-        (TECH, _('technology')),
-        (ENTERTAINMENT, _('entertainment and games')),
-        (RENT, _('rent')),
-        (EVENTS, _('special events')),
-        (ACCESSIBILITY, _('accessibility')),
-        (EXTRA, _('extra services')),
-        (BEAUTY, _('beauty & spa')),
-        (TRADE, _('trade')),
-        (PAYMENT, _('payment')),
-        (NOT_SET, _('not set')),
-    )
-
     name = models.CharField(max_length=50)
+    description = models.TextField(max_length=2000, blank=True)
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),
                                   unique=True,
                                   editable=True,)
-    category = models.CharField(max_length=50,
-                                blank=True,
-                                choices=SERVICE_CATEGORIES,
-                                default=NOT_SET,)
+    # TODO: A regime mettere  obbligatorio cateogry
+    category = models.ForeignKey(ServiceCategory, verbose_name=_("Category"), blank=True, null=True)
     free = models.BooleanField(default=True,)
 
     @models.permalink
@@ -221,6 +207,7 @@ class Image(models.Model):
         verbose_name_plural = _('Images')
 
     name = models.CharField(max_length=50)
+    description = models.TextField(max_length=2000, blank=True)
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),

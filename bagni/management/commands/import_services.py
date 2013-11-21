@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand, CommandError
-from bagni.models import Service
+from bagni.models import Service, ServiceCategory
 from optparse import make_option
 import simplejson
 import logging
@@ -17,6 +17,8 @@ class Command(BaseCommand):
         Service.objects.all().delete()
         services = []
         categories = {}
+                    
+        logger.info("Importing Services and ServiceCategories")
         try:
             with open('scripts/scraping/services.json', 'r') as services_file:
                 services += simplejson.load(services_file)
@@ -35,7 +37,14 @@ class Command(BaseCommand):
             try:
                 s = Service(name=service)
                 if service in categories:
-                    s.category = categories.get(service, '')
+                    category = categories.get(service, '')
+                    c = ServiceCategory.objects.filter(name=category)
+                    if not c:
+                        c = ServiceCategory(name=category)
+                        c.save()
+                    else:
+                        c = c[0]
+                    s.category = c
                 else:
                     logger.warning("Service %s does not fit any category" % (service, ))
                 s.save()

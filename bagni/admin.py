@@ -16,6 +16,9 @@ class MunicipalityAdmin(TranslationAdmin, GeoModelAdmin):
 class ServiceAdmin(TranslationAdmin, GeoModelAdmin):
     pass
 
+class ServiceCategoryAdmin(TranslationAdmin, GeoModelAdmin):
+    pass
+
 class LanguageAdmin(TranslationAdmin, GeoModelAdmin):
     pass
 
@@ -25,6 +28,7 @@ class ImageAdmin(TranslationAdmin, GeoModelAdmin):
 
 admin.site.register(models.Bagno, BagnoAdmin)
 admin.site.register(models.Service, ServiceAdmin)
+admin.site.register(models.ServiceCategory, ServiceCategoryAdmin)
 admin.site.register(models.Image, ImageAdmin)
 admin.site.register(models.District, DistrictAdmin)
 admin.site.register(models.Municipality, MunicipalityAdmin)

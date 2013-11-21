@@ -82,11 +82,11 @@
                                 </h3>
                             </div>
                             {% if hit.services.all %}
-                                {% regroup hit.services_ordered_by_category by get_category_display as categorized_services %}
+                                {% regroup hit.services_ordered_by_category by category as categorized_services %}
                                 <h2>{% trans "Services" %}</h2>
                                 <ul>
                                 {% for categorized_service in categorized_services %}
-                                    <li>{% trans categorized_service.grouper %}
+                                    <li>{% trans categorized_service.grouper.name %}
                                     <ul>
                                         {% for service in categorized_service.list %}
                                           <li>{% trans service.name %}</li>
