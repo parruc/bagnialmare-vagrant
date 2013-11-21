@@ -10,6 +10,9 @@ from django.utils.translation import ugettext as _
 from models import Bagno, Service, District, Municipality
 from search import search
 
+import logging
+logging.basicConfig()
+logger = logging.getLogger("bagni.console")
 
 class BagniView(ListView):
     """ View for a list of bagni
@@ -82,29 +85,26 @@ class SearchView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(SearchView, self).get_context_data(**kwargs)
-        groups = ['services', 'languages']
+        groups = ['services', ] # 'languages']
         q = self.request.GET.get('q', "")
         page = self.request.GET.get('p', "1")
         loc = self.request.GET.get('l', "")
         place = point = None
-#        if 'q' in self.request.GET and not q:
-#            q = ""
-#            messages.add_message(self.request, messages.WARNING,
-#                                 _("Cant search for empty string"))
-#            return {}
         if loc:
             g = geocoders.GoogleV3()
             try:
                 matches = g.geocode(loc, exactly_one=False)
                 place, (lat, lng) = matches[0]
                 point = Point(lng, lat)
-            except geocoders.google.GQueryError:
+            except geocoders.google.GQueryError as e:
                 messages.add_message(self.request, messages.INFO,
                                      _("Cant find place '%s', sorting by relevance" % loc))
-            except Exception:
-                #TODO: Log errror
+                logger.warning("cant find %s, error " % (loc, e))
+            except Exception as e:
                 messages.add_message(self.request, messages.ERROR,
                                      _("Error in geocoding"))
+                logger.error("geocoding %s gave error %e" % (loc, e))
+
 
         filters = self.request.GET.getlist('f', [])
         new_query_string = self.request.GET.copy()

@@ -22,7 +22,7 @@
         {% for categorized_service in categorized_services %}
             {% for service in categorized_service.list %}
                 {% if forloop.first %}
-                    <li>{{ service.get_category_display }}<ul>
+                    <li>{{ service.category.name }}<ul>
                 {% endif %}
                 <li><a href="{{ service.get_filtered_search_url }}">{{ service.name }}</a></li>
                 {% if forloop.last %}

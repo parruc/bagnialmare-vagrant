@@ -5,7 +5,7 @@ from optparse import make_option
 import simplejson
 import logging
 logging.basicConfig()
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("bagni.console")
 
 class Command(BaseCommand):
     option_list = BaseCommand.option_list + (

@@ -3,7 +3,7 @@ from bagni.models import Service, ServiceCategory
 from optparse import make_option
 import simplejson
 import logging
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("bagni.console")
 
 
 class Command(BaseCommand):

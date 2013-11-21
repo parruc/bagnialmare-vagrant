@@ -143,7 +143,7 @@ class Bagno(models.Model):
             the sep val.
             Needed to index the services as listid in whoosh and have facets
         """
-        return unicode(sep.join([s.name for s in self.services.all()]))
+        return unicode(sep.join([s.name+"@"+s.category.name for s in self.services.all()]))
 
     def index_languages(self, sep=" "):
         """ Returns a string representing all the bagno spoken languages separated by

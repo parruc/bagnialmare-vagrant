@@ -88,7 +88,7 @@ def search(q, filters, groups, query_string, max_facets=10):
     facets = [sorting.FieldFacet(g, allow_overlap=True, maptype=sorting.Count) for g in groups]
     # Commented due to a boost error
     # og = qparser.OrGroup.factory(0.5)
-    parser = qparser.QueryParser("text", schema=ix.schema, )  # group=og)
+    parser = qparser.QueryParser("text", schema=ix.schema) # , group=og)
     #parser.remove_plugin_class(qparser.WildcardPlugin)
     # Temporary removed fuzzy search: more pain than benefit
     #parser.add_plugin(qparser.FuzzyTermPlugin())
@@ -123,11 +123,17 @@ def search(q, filters, groups, query_string, max_facets=10):
                     state = "available"
                 url = qs.urlencode(safe=":")
 
-                facets[group][state].append({
+                facet_dict = {
                     'name': facet_name,
                     'count': facet_value,
                     'url': url,
-                })
+                }
+                if group == 'services':
+                    facet_name, category = facet_name.split("@")
+                    facet_dict['category'] = category
+                    facet_dict['name'] = facet_name
+
+                facets[group][state].append(facet_dict)
                 if len(facets[group]['available']) >= max_facets:
                     break
     return hits, facets
