@@ -122,10 +122,17 @@ class Bagno(models.Model):
 
     def index_services(self, sep=" "):
         """ Returns a string representing all the bagno services separated by
-            the sep varr.
+            the sep val.
             Needed to index the services as listid in whoosh and have facets
         """
         return unicode(sep.join([s.name for s in self.services.all()]))
+
+    def index_languages(self, sep=" "):
+        """ Returns a string representing all the bagno spoken languages separated by
+            the sep val.
+            Needed to index the languages as listid in whoosh and have facets
+        """
+        return unicode(sep.join([l.name for l in self.languages.all()]))
 
     def index_features(self, sep="#"):
         """ Returns a dictionary representing the whoosh entry for
@@ -134,6 +141,7 @@ class Bagno(models.Model):
         return dict(id=unicode(self.id),
                     text=self.index_text(),
                     services=unicode(self.index_services(sep="#")),
+                    languages=unicode(self.index_languages(sep="#")),
                     )
 
     @models.permalink
