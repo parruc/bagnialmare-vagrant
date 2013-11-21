@@ -24,11 +24,11 @@ urlpatterns = patterns(
         ServiceView.as_view(),
         name="service"
         ),
-    url(_(r'^municipality/(?P<municipality>[-\w]+)/$'),
+    url(_(r'^municipality/(?P<slug>[-\w]+)/$'),
         MunicipalityView.as_view(),
         name="municipality"
         ),
-    url(_(r'^district/(?P<district>[-\w]+)/$'),
+    url(_(r'^district/(?P<slug>[-\w]+)/$'),
         DistrictView.as_view(),
         name="district"
         ),

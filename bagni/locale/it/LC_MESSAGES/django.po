@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-02 21:30+0200\n"
+"POT-Creation-Date: 2013-11-21 11:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,218 +18,245 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: bagni/models.py:12 bagni/models.py:149
-msgid "Bagno"
-msgstr ""
+#: models.py:12 models.py:40
+msgid "District"
+msgstr "Città"
 
-#: bagni/models.py:13 bagni/templates/bagni/bagno_list.html:15
-#: bagni/templates/bagni/bagno_list.html:17
-#: bagni/templates/bagni/benve.html:20 bagni/templates/bagni/benve.html:22
-msgid "Bagni"
-msgstr ""
+#: models.py:13
+msgid "Districts"
+msgstr "Città"
 
-#: bagni/models.py:19 bagni/models.py:114 bagni/models.py:146
+#: models.py:19 models.py:43 models.py:65 models.py:165 models.py:198
 msgid "Slug"
 msgstr ""
 
-#: bagni/models.py:77
+#: models.py:35 models.py:71
+msgid "Municipality"
+msgstr "Comune"
+
+#: models.py:36
+msgid "Municipalities"
+msgstr "Comuni"
+
+#: models.py:58 models.py:202
+msgid "Bagno"
+msgstr "Bagno"
+
+#: models.py:59 templates/bagni/bagno_list.html:15
+#: templates/bagni/bagno_list.html.py:17 templates/bagni/benve.html:20
+#: templates/bagni/benve.html.py:22
+msgid "Bagni"
+msgstr "Bagni"
+
+#: models.py:128
 msgid "Service"
 msgstr "Servizio"
 
-#: bagni/models.py:78
+#: models.py:129 templates/bagni/search.html:87
 msgid "Services"
 msgstr "Servizi"
 
-#: bagni/models.py:95
+#: models.py:146
 msgid "comfort & relax"
 msgstr "comfort e relax"
 
-#: bagni/models.py:96
+#: models.py:147
 msgid "food & beverage"
 msgstr "cibo e bevande"
 
-#: bagni/models.py:97
+#: models.py:148
 msgid "sport & wellness"
 msgstr "sport e benessere"
 
-#: bagni/models.py:98
+#: models.py:149
 msgid "children"
 msgstr "bambini"
 
-#: bagni/models.py:99
+#: models.py:150
 msgid "technology"
 msgstr "tecnologia"
 
-#: bagni/models.py:100
+#: models.py:151
 msgid "entertainment and games"
 msgstr "giochi e intrattenimento"
 
-#: bagni/models.py:101
+#: models.py:152
 msgid "rent"
 msgstr "affitto"
 
-#: bagni/models.py:102
+#: models.py:153
 msgid "special events"
 msgstr "eventi speciali"
 
-#: bagni/models.py:103
+#: models.py:154
 msgid "accessibility"
 msgstr "accessibilità"
 
-#: bagni/models.py:104
+#: models.py:155
 msgid "extra services"
 msgstr "servizi extra"
 
-#: bagni/models.py:105
+#: models.py:156
 msgid "beauty & spa"
 msgstr "bellezza e terme"
 
-#: bagni/models.py:106
+#: models.py:157
 msgid "trade"
 msgstr "vendita"
 
-#: bagni/models.py:107
+#: models.py:158
 msgid "payment"
 msgstr "pagamento"
 
-#: bagni/models.py:108
+#: models.py:159
 msgid "not set"
 msgstr "non impostata"
 
-#: bagni/models.py:140 bagni/models.py:148
+#: models.py:192 models.py:201
 msgid "Image"
 msgstr "Immagine"
 
-#: bagni/models.py:141
+#: models.py:193
 msgid "Images"
 msgstr "Immagini"
 
-#: bagni/urls.py:11
+#: urls.py:11
 msgid "^bagni/$"
 msgstr "^bagni/$"
 
-#: bagni/urls.py:15
+#: urls.py:15
 msgid "^bagno/(?P<slug>[-\\w]+)/$"
 msgstr "^bagno/(?P<slug>[-\\w]+)/$"
 
-#: bagni/urls.py:19
+#: urls.py:19
 msgid "^search/$"
 msgstr "^cerca/$"
 
-#: bagni/urls.py:23
+#: urls.py:23
 msgid "^services/(?P<slug>[-\\w]+)/$"
 msgstr "servizi/(?P<slug>[-\\w]+)/$"
 
-#: bagni/urls.py:27
-msgid "^city/(?P<city>[-\\w]+)/$"
-msgstr "^citta/(?P<city>[-\\w]+)/$"
+#: urls.py:27
+msgid "^municipality/(?P<slug>[-\\w]+)/$"
+msgstr "^comune/(?P<slug>[-\\w]+)/$"
 
-#: bagni/urls.py:32
+#: urls.py:31
+msgid "^district/(?P<slug>[-\\w]+)/$"
+msgstr "^citta/(?P<slug>[-\\w]+)/$"
+
+#: urls.py:35
+msgid "^globalmap/$"
+msgstr ""
+
+#: urls.py:39
 msgid "^benve$"
 msgstr "benve"
 
-#: bagni/views.py:59
-msgid "No city specified"
-msgstr "Nessuna città specificata"
-
-#: bagni/views.py:95
-msgid "Cant search for empty string"
-msgstr "Inserisci un testo da cercare"
-
-#: bagni/views.py:105
+#: views.py:103
 #, python-format
 msgid "Cant find place '%s', sorting by relevance"
 msgstr "Impossibile trovare il luobo '%s', ordino per rilevanza"
 
-#: bagni/views.py:109
+#: views.py:107
 msgid "Error in geocoding"
 msgstr "Errore di geocodifica"
 
-#: bagni/templates/bagni/bagno_list.html:10 bagni/templates/bagni/city.html:10
+#: templates/bagni/bagno_list.html:10
 msgid "No bagno"
 msgstr "Nessun bagno"
 
-#: bagni/templates/bagni/city.html:15 bagni/templates/bagni/city.html.py:17
-msgid "Bagni in "
-msgstr "Bagni a "
+#: templates/bagni/district_detail.html:14
+#: templates/bagni/municipality_detail.html:11
+msgid "No bagno in this municipality"
+msgstr "Nessun bagno in questo comune"
 
-#: bagni/templates/bagni/homepage.html:14 bagni/templates/bagni/search.html:14
+#: templates/bagni/homepage.html:14 templates/bagni/search.html:14
 msgid "What"
 msgstr "Cosa"
 
-#: bagni/templates/bagni/homepage.html:19 bagni/templates/bagni/search.html:19
+#: templates/bagni/homepage.html:19 templates/bagni/search.html:19
 msgid "Where"
 msgstr "Dove"
 
-#: bagni/templates/bagni/homepage.html:22 bagni/templates/bagni/search.html:22
-#: bagni/templates/bagni/search.html:131 bagni/templates/bagni/search.html:133
+#: templates/bagni/homepage.html:22 templates/bagni/search.html:22
+#: templates/bagni/search.html.py:131 templates/bagni/search.html:133
 msgid "Search"
 msgstr "Cerca"
 
-#: bagni/templates/bagni/homepage.html:33
+#: templates/bagni/homepage.html:33
 msgid "How does it work"
 msgstr "Come funziona"
 
-#: bagni/templates/bagni/homepage.html:37
+#: templates/bagni/homepage.html:37
 msgid "About us"
 msgstr "Chi siamo"
 
-#: bagni/templates/bagni/homepage.html:41
+#: templates/bagni/homepage.html:41
 msgid "Contacts"
 msgstr "Contatti"
 
-#: bagni/templates/bagni/homepage.html:50
+#: templates/bagni/homepage.html:50
 msgid "Homepage"
 msgstr "Homepage"
 
-#: bagni/templates/bagni/search.html:40
+#: templates/bagni/search.html:40
 msgid "Active filters"
 msgstr "Filtri attivi"
 
-#: bagni/templates/bagni/search.html:52
+#: templates/bagni/search.html:52
 msgid "Available filters"
 msgstr "Filtri disponibili"
 
-#: bagni/templates/bagni/search.html:70
+#: templates/bagni/search.html:70
 msgid "results for"
 msgstr "risultati per"
 
-#: bagni/templates/bagni/search.html:72
+#: templates/bagni/search.html:72
 msgid "near"
 msgstr "vicino"
 
-#: bagni/templates/bagni/search.html:100
+#: templates/bagni/search.html:100
 msgid "No service available"
 msgstr "Nessun servizio disponibile"
 
-#: bagni/templates/bagni/search.html:108
+#: templates/bagni/search.html:108
 msgid "previous"
 msgstr "precedente"
 
-#: bagni/templates/bagni/search.html:113
+#: templates/bagni/search.html:113
 #, python-format
 msgid "Page %(page)s of %(num_pages)s."
 msgstr "Pagina %(page)s di %(num_pages)s."
 
-#: bagni/templates/bagni/search.html:118
+#: templates/bagni/search.html:118
 msgid "next"
 msgstr "successivo"
 
-#: bagni/templates/bagni/search.html:124
+#: templates/bagni/search.html:124
 msgid "No results for the given search"
 msgstr "Nessun risultato"
 
-#: bagni/templates/bagni/service_detail.html:11
+#: templates/bagni/service_detail.html:11
 msgid "No bagno has this service"
 msgstr "Nessun bagno ha questi servizio"
 
-#: ombrelloni/settings.py:63
-msgid "English"
-msgstr "Inglese"
+#~ msgid "^city/(?P<city>[-\\w]+)/$"
+#~ msgstr "^citta/(?P<city>[-\\w]+)/$"
 
-#: ombrelloni/settings.py:64
-msgid "Italian"
-msgstr "Italiano"
+#~ msgid "No city specified"
+#~ msgstr "Nessuna città specificata"
+
+#~ msgid "Cant search for empty string"
+#~ msgstr "Inserisci un testo da cercare"
+
+#~ msgid "Bagni in "
+#~ msgstr "Bagni a "
+
+#~ msgid "English"
+#~ msgstr "Inglese"
+
+#~ msgid "Italian"
+#~ msgstr "Italiano"
 
 #~ msgid "Nessun bagno"
 #~ msgstr "Nessun bagno"

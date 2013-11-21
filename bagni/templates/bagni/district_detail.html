@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block main_content %}
+    {% with object.municipality_set.all as municipalities %}
+        {% for municipality in municipalities %}
+            <h2>{{ municipality.name }}</h2>
+            {% with municipality.bagno_set.all as bagni %}
+                <ul>
+                {% for bagno in bagni %}
+                    <li><a href="{{ bagno.get_absolute_url }}">{{ bagno.name }}</a></li>
+                {% empty %}
+                    <li>{% trans "No bagno in this municipality" %}</li>
+                {% endfor %}
+                </ul>
+            {% endwith %}
+        {% endfor %}
+    {% endwith %}
+{% endblock main_content %}
+
+{% block title %}{{ object.name }}{% endblock title %}
+
+{% block pagetitle %}{{ object.name }}{% endblock pagetitle %}

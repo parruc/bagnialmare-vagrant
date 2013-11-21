@@ -43,12 +43,16 @@ class Command(BaseCommand):
                 if not d:
                     d = District(name=bagno['municipality'])
                     d.save()
+                else:
+                    d = d[0]
                 if "neighbourhood" in bagno:
                     m = Municipality.objects.filter(name=bagno['neighbourhood'])
                     if not m :
                         m = Municipality(name=bagno['neighbourhood'])
                         m.district = d
                         m.save()
+                    else:
+                        m = m[0]
                 if m and d:
                     b.municipality = m
             if "services" in bagno:

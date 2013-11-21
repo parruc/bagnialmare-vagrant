@@ -23,6 +23,9 @@ class District(models.Model):
     def get_absolute_url(self):
         return ("district", [self.slug, ])
 
+    def __unicode__(self):
+        return self.name
+
 
 class Municipality(models.Model):
     """The model for the Municipality object
@@ -44,6 +47,27 @@ class Municipality(models.Model):
     def get_absolute_url(self):
         return ("municipality", [self.slug, ])
 
+    def __unicode__(self):
+        return self.name
+
+
+class Language(models.Model):
+    """ List of languages available for the spoken language field in bagno
+    """
+    class Meta:
+        verbose_name = _('Language')
+        verbose_name_plural = _('Languages')
+
+    name = models.CharField(max_length=100)
+    description = models.TextField(max_length=2000)
+    slug = autoslug.AutoSlugField(max_length=50,
+                                  populate_from='name',
+                                  verbose_name=_("Slug"),
+                                  unique=True,
+                                  editable=True,)
+    def __unicode__(self):
+        return self.name
+
 
 class Bagno(models.Model):
     """ The model for Bagno object
@@ -60,8 +84,10 @@ class Bagno(models.Model):
                                   unique=True,
                                   editable=True,)
     number = models.CharField(max_length=30, blank=True)
+    languages = models.ManyToManyField("Language", blank=True)
     services = models.ManyToManyField("Service", blank=True)
     address = models.CharField(max_length=100, blank=True)
+    # TODO: A regime mettere  obbligatorio municipality
     municipality = models.ForeignKey(Municipality, verbose_name=_("Municipality"), blank=True, null=True)
     mail = models.EmailField(max_length=50, blank=True)
     tel = models.CharField(max_length=125, blank=True)
