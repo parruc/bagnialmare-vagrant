@@ -82,7 +82,7 @@ class SearchView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(SearchView, self).get_context_data(**kwargs)
-        groups = ['municipality', 'district', 'services']
+        groups = ['services']
         q = self.request.GET.get('q', "")
         page = self.request.GET.get('p', "1")
         loc = self.request.GET.get('l', "")
