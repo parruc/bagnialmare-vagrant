@@ -36,10 +36,10 @@ class Command(BaseCommand):
                     setattr(b, field, bagno[field])
             if "coords" in bagno:
                 b.point = Point([float(coord) for coord in reversed(bagno['coords'])])
-            import ipdb; ipdb.set_trace()
             b.save()
             if "municipality" in bagno:
                 d = District.objects.filter(name=bagno['municipality'])
+                m = None
                 if not d:
                     d = District(name=bagno['municipality'])
                     d.save()

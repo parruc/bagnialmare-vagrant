@@ -39,7 +39,7 @@ class Municipality(models.Model):
                                   populate_from='name',
                                   verbose_name=_("Slug"),
                                   unique=True,
-                                  editable=True,)   
+                                  editable=True,)
     @models.permalink
     def get_absolute_url(self):
         return ("municipality", [self.slug, ])
@@ -86,7 +86,12 @@ class Bagno(models.Model):
     def index_text(self):
         """ Text indexed for fulltext search (the what field)
         """
-        elems = (self.name, self.index_services(), self.municipality.name, self.municipality.district.name)
+        municipality_name = district_name = ""
+        if self.municipality:
+            municipality_name = self.municipality.name
+            if self.municipality.district:
+                district_name = self.municipality.district.name
+        elems = (self.name, self.index_services(), municipality_name, district_name)
         return unicode("%s %s %s %s" % elems)
 
     def index_services(self, sep=" "):
@@ -102,7 +107,6 @@ class Bagno(models.Model):
         """
         return dict(id=unicode(self.id),
                     text=self.index_text(),
-                    municipality=unicode(self.municipality.name),
                     services=unicode(self.index_services(sep="#")),
                     )
 

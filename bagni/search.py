@@ -12,8 +12,6 @@ from bagni.models import Bagno
 
 WHOOSH_SCHEMA = fields.Schema(id=fields.ID(stored=True, unique=True),
                               text=fields.TEXT,
-                              municipality=fields.ID(stored=True, ),
-                              district=fields.ID(stored=True, ),
                               services=fields.IDLIST(stored=True, expression=re.compile(r"[^#]+")),
                               )
 
