@@ -4,7 +4,7 @@
 GIT_USER=parruc
 
 #change this to project directory on your machine
-HOST_DIR=$HOME/django/4hm
+HOST_DIR=$HOME/4hm
 
 GUEST_DIR=vagrant-ombrelloni:/var/www/ombrelloni.it
 
