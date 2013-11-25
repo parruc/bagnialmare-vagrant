@@ -85,7 +85,7 @@ class SearchView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(SearchView, self).get_context_data(**kwargs)
-        groups = ['services', ] # 'languages']
+        groups = ['services', 'languages']
         q = self.request.GET.get('q', "")
         page = self.request.GET.get('p', "1")
         loc = self.request.GET.get('l', "")
@@ -124,7 +124,9 @@ class SearchView(TemplateView):
             # If page is out of range (e.g. 9999), deliver last page of results.
             hits = hits_paginator.page(hits_paginator.num_pages)
         has_get = self.request.method == 'GET'
-        context.update({'q': q, 'l':loc, 'place': place, 'facets': facets, 'hits': hits, 'count': len(raw_hits), 'has_get': has_get })
+        context.update({'q': q, 'l':loc, 'place': place, 'facets': facets,
+                        'groups': groups, 'hits': hits, 'count': len(raw_hits), 
+                        'has_get': has_get })
         return context
 
 class GlobalMapView(ListView):

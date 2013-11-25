@@ -122,16 +122,18 @@ def search(q, filters, groups, query_string, max_facets=10):
                     qs.appendlist('f', filter)
                     state = "available"
                 url = qs.urlencode(safe=":")
+                
+                category = None
+                if group == 'services':
+                    facet_name, category = facet_name.split("@")
 
                 facet_dict = {
+                    'category': category,
                     'name': facet_name,
                     'count': facet_value,
                     'url': url,
                 }
-                if group == 'services':
-                    facet_name, category = facet_name.split("@")
-                    facet_dict['category'] = category
-                    facet_dict['name'] = facet_name
+
 
                 facets[group][state].append(facet_dict)
                 if len(facets[group]['available']) >= max_facets:
