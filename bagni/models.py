@@ -135,31 +135,38 @@ class Bagno(models.Model):
             municipality_name = self.municipality.name
             if self.municipality.district:
                 district_name = self.municipality.district.name
-        elems = (self.name, self.index_services(), municipality_name, district_name)
+        elems = (self.name, self.index_services_text(), municipality_name, district_name)
         return unicode("%s %s %s %s" % elems)
 
-    def index_services(self, sep=" "):
+    def index_services(self, sep="#"):
         """ Returns a string representing all the bagno services separated by
             the sep val.
             Needed to index the services as listid in whoosh and have facets
         """
-        return unicode(sep.join([s.name+"@"+s.category.name for s in self.services.all()]))
+        return unicode(sep.join([str(s.id) for s in self.services.all()]))
 
-    def index_languages(self, sep=" "):
+    def index_services_text(self, sep=" "):
+        """ Returns a string representing all the bagno services separated by
+            the sep val.
+            Needed to index the services as listid in whoosh and have facets
+        """
+        return unicode(sep.join([s.name for s in self.services.all()]))
+
+    def index_languages(self, sep="#"):
         """ Returns a string representing all the bagno spoken languages separated by
             the sep val.
             Needed to index the languages as listid in whoosh and have facets
         """
         return unicode(sep.join([l.name for l in self.languages.all()]))
 
-    def index_features(self, sep="#"):
+    def index_features(self):
         """ Returns a dictionary representing the whoosh entry for
             the current object in the index
         """
         return dict(id=unicode(self.id),
                     text=self.index_text(),
-                    services=unicode(self.index_services(sep="#")),
-                    languages=unicode(self.index_languages(sep="#")),
+                    services=unicode(self.index_services()),
+                    languages=unicode(self.index_languages()),
                     )
 
     @models.permalink

@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% load i18n custom_templatetags custom_filters %}
+{% load i18n query_string %}
 
 {% block main_content %}
     {% comment %}
@@ -28,44 +28,42 @@
     {% if has_get %}
         <div class="row search">
             <div class="col-lg-3">
-                {% for facet_title in groups %}
-                    {% with facets|get_item:facet_title as facet_values %}
-                        {% if facet_values.active or facet_values.available %}
-                            <div class="panel">
-                                <div class="panel-heading">
-                                    <h3>{% trans facet_title %}</h3>
-                                </div>
-                                {% for facet in facet_values.active %}
-                                    {% if forloop.first %}
-                                        <h4>{% trans "Active filters" %}</h4>
-                                        <ul class="list-group active">
-                                    {% endif %}
-                                    <li class="list-group-item">
-                                        <a href="?{{ facet.url }}">{% trans facet.name %}</a>
-                                    </li>
-                                    {% if forloop.last %}
-                                        </ul>
-                                    {% endif %}
-                                {% endfor %}
-                                {% regroup facet_values.available by category as categorized_facets %}
-                                {% for categorized_facet in categorized_facets %}
-                                    {% for facet in categorized_facet.list %}
-                                        {% if forloop.first %}
-                                            <h4>{% trans "Available filters for" %} {{ categorized_facet.grouper }}</h4>
-                                            <ul class="list-group">
-                                        {% endif %}
-                                        <li class="list-group-item">
-                                            <span class="badge">{{ facet.count }}</span>
-                                            <a href="?{{ facet.url }}">{{ facet.name }}</a>
-                                        </li>
-                                        {% if forloop.last %}
-                                            </ul>
-                                        {% endif %}
-                                    {% endfor %}
-                                {% endfor %}
+                {% for facet in active_facets %}
+                    {% if forloop.first %}
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3>{% trans "Active filters" %}</h3>
                             </div>
-                        {% endif %}
-                    {% endwith %}
+                            <ul class="list-group">
+                    {% endif %}
+                        <li class="list-group-item">
+                            <a href="?{{ facet.url }}">{% trans facet.group %}: {% trans facet.name %}</a>
+                        </li>
+                    {% if forloop.last %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+                {% for facet_group, facet_values in facets.items %}
+                    {% if facet_group %}
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3>{% trans facet_group %}</h3>
+                            </div>
+                            {% for facet in facet_values %}
+                                {% if forloop.first %}
+                                    <ul class="list-group">
+                                {% endif %}
+                                <li class="list-group-item">
+                                    <span class="badge">{{ facet.count }}</span>
+                                    <a href="?{{ facet.url }}">{{ facet.name }}</a>
+                                </li>
+                                {% if forloop.last %}
+                                    </ul>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
                 {% endfor %}
             </div>
             <div class="col-lg-9">
@@ -86,7 +84,7 @@
                                     {% endif %}
                                 </h3>
                             </div>
-                            {% if hit.services.exists %}
+                            {% if hit.services.all %}
                                 {% regroup hit.services_ordered_by_category by category as categorized_services %}
                                 <h2>{% trans "Services" %}</h2>
                                 <ul>

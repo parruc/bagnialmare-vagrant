@@ -2,13 +2,13 @@ import os
 import shutil
 import operator
 import re
-
+from collections import OrderedDict
 from django.db.models import signals
 from django.conf import settings
 
 from whoosh import fields, index, qparser, sorting, query
 
-from bagni.models import Bagno
+from bagni.models import Bagno, Service
 
 WHOOSH_SCHEMA = fields.Schema(id=fields.ID(stored=True, unique=True),
                               text=fields.TEXT,
@@ -78,7 +78,7 @@ def recreate_all(sender=None, **kwargs):
 #signals.post_syncdb.connect(recreate_all)
 
 
-def search(q, filters, groups, query_string, max_facets=10):
+def search(q, filters, groups, query_string, max_facets=5):
     """ Search for a query term and a set o filters
         Returns a list of hits and the representation of the facets
         TODO: Finetune of the fuzzy search
@@ -104,39 +104,42 @@ def search(q, filters, groups, query_string, max_facets=10):
             filter_name, filter_value = filter.split(":", 1)
             q = q & query.Term(filter_name, filter_value)
         hits = searcher.search(q.normalize(), groupedby=facets)
-        facets = {}
-        services_facets = {}
+        facets = OrderedDict()
+        active_facets = []
         for group in groups:
-            if group == 'services':
-                sorted_facets = sorted(hits.groups(group).items(),
-                                       key=facet_name, category = facet_name.split("@"),
-                                       reverse=True)
-                if services[category] > max_facets:  
-                    continue                
-                facets[group] = {'active': [], 'available': []}
-            else:
-                sorted_facets = sorted(hits.groups(group).items(),
-                                       key=operator.itemgetter(1, 0),
-                                       reverse=True)
-                for facet_name, facet_value in sorted_facets:
-                    if not facet_name:
-                        continue
-                    qs = query_string.copy()
-                    filter = group + ":" + facet_name
-                    if filter in filters:
-                        qs.setlist('f', [f for f in filters if f != filter])
-                        state = "active"
-                    else:
-                        qs.appendlist('f', filter)
-                        state = "available"
-                    url = qs.urlencode(safe=":")
+            sorted_facets = sorted(hits.groups(group).items(),
+                                   key=operator.itemgetter(1, 0),
+                                   reverse=True)
+            services_id = []
+            for facet_name, facet_value in sorted_facets:
+                if not facet_name:
+                    continue
+                qs = query_string.copy()
+                filter = group + ":" + facet_name
+                if filter in filters:
+                    qs.setlist('f', [f for f in filters if f != filter])
+                    state = "active"
+                else:
+                    qs.appendlist('f', filter)
+                    state = "available"
+                url = qs.urlencode(safe=":")
 
-                    facet_dict = {
-                        'name': facet_name,
-                        'count': facet_value,
-                        'url': url,
-                    }
-                    facets[group][state].append(facet_dict)
-                    if len(facets[group]['available']) > max_facets:
-                        break
-    return hits, facets
+                out_group = group
+                if group == 'services':
+                    services_id.append(facet_name)
+                    s = Service.objects.get(id=facet_name)
+                    out_group = s.category.name
+                    facet_name = s.name
+                facet_dict = {
+                    'name': facet_name,
+                    'count': facet_value,
+                    'url': url,
+                }
+                if state == 'active':
+                    facet_dict['group'] = out_group
+                    active_facets.append(facet_dict)
+                if not out_group in facets:
+                    facets[out_group] = []
+                if len(facets[out_group]) < max_facets:
+                    facets[out_group].append(facet_dict)
+    return hits, facets, active_facets

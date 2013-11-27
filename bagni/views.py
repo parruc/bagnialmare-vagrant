@@ -109,8 +109,9 @@ class SearchView(TemplateView):
         filters = self.request.GET.getlist('f', [])
         new_query_string = self.request.GET.copy()
         query = q or "*"
-        raw_hits, facets = search(q=query, filters=filters, groups=groups,
-                                  query_string=new_query_string,)
+        raw_hits, facets, active_facets = search(
+            q=query, filters=filters, groups=groups,
+            query_string=new_query_string,)
         hits = Bagno.objects.filter(id__in=[h['id'] for h in raw_hits])
         if point:
             hits = hits.distance(point).order_by('distance')
@@ -124,9 +125,8 @@ class SearchView(TemplateView):
             # If page is out of range (e.g. 9999), deliver last page of results.
             hits = hits_paginator.page(hits_paginator.num_pages)
         has_get = self.request.method == 'GET'
-        context.update({'q': q, 'l':loc, 'place': place, 'facets': facets,
-                        'groups': groups, 'hits': hits, 'count': len(raw_hits), 
-                        'has_get': has_get })
+        context.update({'q': q, 'l':loc, 'place': place, 'facets': facets, 'active_facets': active_facets,
+                        'hits': hits, 'count': len(raw_hits), 'has_get': has_get })
         return context
 
 class GlobalMapView(ListView):
