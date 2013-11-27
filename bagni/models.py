@@ -135,7 +135,7 @@ class Bagno(models.Model):
             municipality_name = self.municipality.name
             if self.municipality.district:
                 district_name = self.municipality.district.name
-        elems = (self.name, self.index_services_text(), municipality_name, district_name)
+        elems = (self.name, self.index_services(), municipality_name, district_name)
         return unicode("%s %s %s %s" % elems)
 
     def index_services(self, sep="#"):
@@ -143,14 +143,8 @@ class Bagno(models.Model):
             the sep val.
             Needed to index the services as listid in whoosh and have facets
         """
-        return unicode(sep.join([str(s.id) for s in self.services.all()]))
+        return unicode(sep.join([s.name+"@"+s.category.name for s in self.services.all()]))
 
-    def index_services_text(self, sep=" "):
-        """ Returns a string representing all the bagno services separated by
-            the sep val.
-            Needed to index the services as listid in whoosh and have facets
-        """
-        return unicode(sep.join([s.name for s in self.services.all()]))
 
     def index_languages(self, sep="#"):
         """ Returns a string representing all the bagno spoken languages separated by

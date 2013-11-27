@@ -1,4 +1,4 @@
-from django.core.management.base import BaseCommand, CommandError
+from django.core.management.base import BaseCommand
 from bagni import search
 from optparse import make_option
 
@@ -7,21 +7,30 @@ class Command(BaseCommand):
         make_option("-o", "--operation",
                     action="store", type="string",
                     dest="operation"),
+        make_option("-l", "--language",
+                    action="store", type="string",
+                    dest="language"),
         )
 
     def handle(self, *args, **options):
         if not options['operation']:
             print "-o or --operation parameter required"
+
+        if not options['language']:
+            print "applying to all active languages"
+            kwargs = {}
+        else:
+            kwargs = {'langs': [options['language']]}
         if options['operation'] == 'create':
-            search.create_index()
+            search.create_index(**kwargs)
         elif options['operation'] == 'delete':
-            search.delete_index()
+            search.delete_index(**kwargs)
         elif options['operation'] == 'recreate':
-            search.recreate_index()
+            search.recreate_index(**kwargs)
         elif options['operation'] == 'reindex':
-            search.recreate_data()
+            search.recreate_data(**kwargs)
         elif options['operation'] == 'rebuild':
-            search.recreate_all()
+            search.recreate_all(**kwargs)
         else:
             print """Choose an operation using the -o parameter:
 	            'create' to rebuild index schema (empty)

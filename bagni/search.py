@@ -5,10 +5,11 @@ import re
 from collections import OrderedDict
 from django.db.models import signals
 from django.conf import settings
+from django.utils.translation import get_language, activate
 
 from whoosh import fields, index, qparser, sorting, query
 
-from bagni.models import Bagno, Service
+from bagni.models import Bagno
 
 WHOOSH_SCHEMA = fields.Schema(id=fields.ID(stored=True, unique=True),
                               text=fields.TEXT,
@@ -16,64 +17,75 @@ WHOOSH_SCHEMA = fields.Schema(id=fields.ID(stored=True, unique=True),
                               languages=fields.IDLIST(stored=True, expression=re.compile(r"[^#]+"),),
                               )
 
+LANGS = [l[0] for l in settings.LANGUAGES]
 
-def create_index(sender=None, **kwargs):
+def index_path(lang):
+    return os.path.join(settings.WHOOSH_INDEX, lang)
+
+def create_index(sender=None, langs=LANGS, **kwargs):
     """ Creates the index schema (no data at this point)
     """
-    if not os.path.exists(settings.WHOOSH_INDEX):
-        os.mkdir(settings.WHOOSH_INDEX)
-        return index.create_in(settings.WHOOSH_INDEX, schema=WHOOSH_SCHEMA)
+    for lang in langs:
+        if not os.path.exists(index_path(lang)):
+            os.mkdir(index_path(lang))
+            index.create_in(index_path(lang), schema=WHOOSH_SCHEMA)
 
 
-def delete_index(sender=None, **kwargs):
+def delete_index(sender=None, langs=LANGS, **kwargs):
     """ Deletes the index schema and eventually the contained data
     """
-    if os.path.exists(settings.WHOOSH_INDEX):
-        shutil.rmtree(settings.WHOOSH_INDEX)
+    for lang in langs:
+        if os.path.exists(index_path(lang)):
+            shutil.rmtree(index_path(lang))
 
 
-def recreate_index(sender=None, **kwargs):
+def recreate_index(sender=None, langs=LANGS, **kwargs):
     """ Deletes the index schema and eventually the contained data
         and rebuilds the index schema (no data at this point)
     """
-    delete_index(sender=sender, **kwargs)
-    create_index(sender=sender, **kwargs)
+    delete_index(sender=sender, langs=langs, **kwargs)
+    create_index(sender=sender, langs=langs, **kwargs)
 
 
-def update_index(sender, **kwargs):
+def update_index(sender, langs=LANGS, **kwargs):
     """ Adds/updates an entry in the index. It's connected with
         the post_save signal of the Object objects so will automatically
         index every new or modified Object
     """
-    ix = index.open_dir(settings.WHOOSH_INDEX)
-    writer = ix.writer()
-    obj = kwargs['instance']
-    if kwargs['created']:
-        writer.add_document(**obj.index_features())
-    else:
-        writer.update_document(**obj.index_features())
-    writer.commit()
+    for lang in langs:
+        ix = index.open_dir(index_path(lang))
+        # TODO: Verificare se poi mi cambia lingua
+        activate(lang)
+        writer = ix.writer()
+        obj = kwargs['instance']
+        if kwargs['created']:
+            writer.add_document(**obj.index_features())
+        else:
+            writer.update_document(**obj.index_features())
+        writer.commit()
 
 signals.post_save.connect(update_index, sender=Bagno)
 
 
-def recreate_data(sender=None, **kwargs):
+def recreate_data(sender=None, langs=LANGS, **kwargs):
     """ Readds all the Object in the index. If they already exists
         will be duplicated
     """
-    ix = index.open_dir(settings.WHOOSH_INDEX)
-    writer = ix.writer()
-    for obj in Bagno.objects.all():
-        writer.add_document(**obj.index_features())
-    writer.commit()
+    for lang in langs:
+        ix = index.open_dir(index_path(lang))
+        writer = ix.writer()
+        activate(lang)
+        for obj in Bagno.objects.all():
+            writer.add_document(**obj.index_features())
+        writer.commit()
 
 
-def recreate_all(sender=None, **kwargs):
+def recreate_all(sender=None, langs=LANGS, **kwargs):
     """ Deletes the schema, creates it back and recreate all the data
         Good to create from scratch or for schema/data modification
     """
-    recreate_index(sender=sender, **kwargs)
-    recreate_data(sender=sender, **kwargs)
+    recreate_index(sender=sender, langs=langs, **kwargs)
+    recreate_data(sender=sender, langs=langs,**kwargs)
 
 #signals.post_syncdb.connect(recreate_all)
 
@@ -83,7 +95,8 @@ def search(q, filters, groups, query_string, max_facets=5):
         Returns a list of hits and the representation of the facets
         TODO: Finetune of the fuzzy search
     """
-    ix = index.open_dir(settings.WHOOSH_INDEX)
+    lang = get_language()
+    ix = index.open_dir(index_path(lang))
     hits = []
     facets = [sorting.FieldFacet(g, allow_overlap=True, maptype=sorting.Count) for g in groups]
     # Commented due to a boost error
@@ -110,7 +123,6 @@ def search(q, filters, groups, query_string, max_facets=5):
             sorted_facets = sorted(hits.groups(group).items(),
                                    key=operator.itemgetter(1, 0),
                                    reverse=True)
-            services_id = []
             for facet_name, facet_value in sorted_facets:
                 if not facet_name:
                     continue
@@ -126,10 +138,7 @@ def search(q, filters, groups, query_string, max_facets=5):
 
                 out_group = group
                 if group == 'services':
-                    services_id.append(facet_name)
-                    s = Service.objects.get(id=facet_name)
-                    out_group = s.category.name
-                    facet_name = s.name
+                    facet_name, out_group = facet_name.split("@")
                 facet_dict = {
                     'name': facet_name,
                     'count': facet_value,
