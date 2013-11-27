@@ -105,37 +105,38 @@ def search(q, filters, groups, query_string, max_facets=10):
             q = q & query.Term(filter_name, filter_value)
         hits = searcher.search(q.normalize(), groupedby=facets)
         facets = {}
+        services_facets = {}
         for group in groups:
-            facets[group] = {'active': [], 'available': []}
-            sorted_facets = sorted(hits.groups(group).items(),
-                                   key=operator.itemgetter(1, 0),
-                                   reverse=True)
-            for facet_name, facet_value in sorted_facets:
-                if not facet_name:
-                    continue
-                qs = query_string.copy()
-                filter = group + ":" + facet_name
-                if filter in filters:
-                    qs.setlist('f', [f for f in filters if f != filter])
-                    state = "active"
-                else:
-                    qs.appendlist('f', filter)
-                    state = "available"
-                url = qs.urlencode(safe=":")
-                
-                category = None
-                if group == 'services':
-                    facet_name, category = facet_name.split("@")
+            if group == 'services':
+                sorted_facets = sorted(hits.groups(group).items(),
+                                       key=facet_name, category = facet_name.split("@"),
+                                       reverse=True)
+                if services[category] > max_facets:  
+                    continue                
+                facets[group] = {'active': [], 'available': []}
+            else:
+                sorted_facets = sorted(hits.groups(group).items(),
+                                       key=operator.itemgetter(1, 0),
+                                       reverse=True)
+                for facet_name, facet_value in sorted_facets:
+                    if not facet_name:
+                        continue
+                    qs = query_string.copy()
+                    filter = group + ":" + facet_name
+                    if filter in filters:
+                        qs.setlist('f', [f for f in filters if f != filter])
+                        state = "active"
+                    else:
+                        qs.appendlist('f', filter)
+                        state = "available"
+                    url = qs.urlencode(safe=":")
 
-                facet_dict = {
-                    'category': category,
-                    'name': facet_name,
-                    'count': facet_value,
-                    'url': url,
-                }
-
-
-                facets[group][state].append(facet_dict)
-                if len(facets[group]['available']) >= max_facets:
-                    break
+                    facet_dict = {
+                        'name': facet_name,
+                        'count': facet_value,
+                        'url': url,
+                    }
+                    facets[group][state].append(facet_dict)
+                    if len(facets[group]['available']) > max_facets:
+                        break
     return hits, facets
