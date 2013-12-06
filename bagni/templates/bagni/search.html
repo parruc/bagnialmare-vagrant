@@ -85,19 +85,21 @@
                                 </h3>
                             </div>
                             {% if hit.services.all %}
-                                {% regroup hit.services_ordered_by_category by category as categorized_services %}
-                                <h2>{% trans "Services" %}</h2>
-                                <ul>
-                                {% for categorized_service in categorized_services %}
-                                    <li>{% trans categorized_service.grouper.name %}
+                                {% with hit.services.all|dictsort:"category" as services %}
+                                    {% regroup services by category as categorized_services %}
+                                    <h2>{% trans "Services" %}</h2>
                                     <ul>
-                                        {% for service in categorized_service.list %}
-                                          <li>{% trans service.name %}</li>
-                                        {% endfor %}
+                                    {% for categorized_service in categorized_services %}
+                                        <li>{% trans categorized_service.grouper.name %}
+                                        <ul>
+                                            {% for service in categorized_service.list %}
+                                              <li>{% trans service.name %}</li>
+                                            {% endfor %}
+                                        </ul>
+                                        </li>
+                                    {% endfor %}
                                     </ul>
-                                    </li>
-                                {% endfor %}
-                                </ul>
+                                {% endwith %}
                             {% else %}
                                 <div>{% trans "No service available" %}</div>
                             {% endif %}

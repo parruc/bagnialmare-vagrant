@@ -16,21 +16,23 @@
 
 
     {% if object.services.all %}
-        {% regroup object.services_ordered_by_category by category as categorized_services %}
-        <h2>{% trans Services %}</h2>
-        <ul>
-        {% for categorized_service in categorized_services %}
-            {% for service in categorized_service.list %}
-                {% if forloop.first %}
-                    <li>{{ service.category.name }}<ul>
-                {% endif %}
-                <li><a href="{{ service.get_filtered_search_url }}">{{ service.name }}</a></li>
-                {% if forloop.last %}
-                    </ul></li>
-                {% endif %}
+        {% with object.services.all|dictsort:"category" as services %}
+            {% regroup services by category as categorized_services %}
+            <h2>{% trans "Services" %}</h2>
+            <ul>
+            {% for categorized_service in categorized_services %}
+                <li>{% trans categorized_service.grouper.name %}
+                <ul>
+                    {% for service in categorized_service.list %}
+                      <li>{% trans service.name %}</li>
+                    {% endfor %}
+                </ul>
+                </li>
             {% endfor %}
-        {% endfor %}
-        </ul>
+            </ul>
+        {% endwith %}
+    {% else %}
+        <div>{% trans "No service available" %}</div>
     {% endif %}
 
     <h2>{% trans Contacts %}</h2>

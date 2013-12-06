@@ -28,6 +28,7 @@ class BagnoView(DetailView):
     """ Detail view for a single bagno
     """
     model = Bagno
+    queryset = Bagno.objects.prefetch_related("services", "services__category")
 
     def get_context_data(self, **kwargs):
         context = super(BagnoView, self).get_context_data(**kwargs)
@@ -112,7 +113,7 @@ class SearchView(TemplateView):
         raw_hits, facets, active_facets = search(
             q=query, filters=filters, groups=groups,
             query_string=new_query_string,)
-        hits = Bagno.objects.filter(id__in=[h['id'] for h in raw_hits])
+        hits = Bagno.objects.prefetch_related("services", "services__category", ).filter(id__in=[h['id'] for h in raw_hits])
         if point:
             hits = hits.distance(point).order_by('distance')
         hits_paginator = paginator.Paginator(hits, 10)

@@ -35,7 +35,6 @@ urlpatterns = patterns(
     url(_('^globalmap/$'),
         GlobalMapView.as_view(),
         name="globalmap"),
-
     url(_('^benve$'),
         BenveView.as_view(),
         name="benve")
