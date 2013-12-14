@@ -20,8 +20,8 @@ git remote rm origin
 git remote add origin https://$GIT_USER@bitbucket.org/flyingfrog/4hm.git
 
 
-cd $CWD
+#cd $CWD
 #launch selenium local server
-java -jar selenium
+#java -jar selenium
 #forward guest selenium port to host
-vagrant ssh -- -f -R 4444:localhost:4444 -N
+#vagrant ssh -- -f -R 4444:localhost:4444 -N
