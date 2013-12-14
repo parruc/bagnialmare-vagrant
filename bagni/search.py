@@ -5,7 +5,7 @@ import re
 from collections import OrderedDict
 from django.db.models import signals
 from django.conf import settings
-from django.utils.translation import get_language, activate
+from django.utils.translation import get_language, activate, deactivate
 
 from whoosh import fields, index, qparser, sorting, query
 
@@ -62,6 +62,7 @@ def update_index(sender, langs=LANGS, **kwargs):
             writer.add_document(**obj.index_features())
         else:
             writer.update_document(**obj.index_features())
+        deactivate()
         writer.commit()
 
 signals.post_save.connect(update_index, sender=Bagno)
@@ -77,6 +78,7 @@ def recreate_data(sender=None, langs=LANGS, **kwargs):
         activate(lang)
         for obj in Bagno.objects.all():
             writer.add_document(**obj.index_features())
+        deactivate()
         writer.commit()
 
 

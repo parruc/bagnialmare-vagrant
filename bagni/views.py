@@ -142,7 +142,19 @@ class BenveView(ListView):
         TODO: Will soon be removed
     """
     template_name = "bagni/benve.html"
-    model = Service
+    queryset = Service.objects.all().prefetch_related("bagni", "bagni__municipality", "category")
     def get_context_data(self, **kwargs):
         context = super(BenveView, self).get_context_data(**kwargs)
+        return context
+
+
+class Benve2View(ListView):
+    """ Simple view for Service listing everyone with his bagni
+        TODO: Will soon be removed
+    """
+    template_name = "bagni/benve2.html"
+    queryset = Bagno.objects.filter(mail="")
+
+    def get_context_data(self, **kwargs):
+        context = super(Benve2View, self).get_context_data(**kwargs)
         return context

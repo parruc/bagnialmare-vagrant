@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block main_content %}
+    <ul>
+        {% for bagno in object_list %}
+            <p><a href="/admin/bagni/bagno/{{ bagno.id }}/" >{{ bagno.name }}</a></p>
+        {% endfor %}
+    </ul>
+{% endblock main_content %}
+
+{% block title %}{% trans 'Bagni con mail vuota' %}{% endblock title %}
+
+{% block pagetitle %}{% trans 'Bagni con mail vuota' %}{% endblock pagetitle %}

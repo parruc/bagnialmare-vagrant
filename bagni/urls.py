@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, url
-from views import BagniView, BagnoView, ServiceView, SearchView, HomepageView, MunicipalityView, DistrictView, BenveView, GlobalMapView
+from views import BagniView, BagnoView, ServiceView, SearchView, HomepageView, MunicipalityView, DistrictView, BenveView, Benve2View, GlobalMapView
 from django.utils.translation import ugettext_lazy as _
 
 urlpatterns = patterns(
@@ -35,7 +35,12 @@ urlpatterns = patterns(
     url(_('^globalmap/$'),
         GlobalMapView.as_view(),
         name="globalmap"),
-    url(_('^benve$'),
+    url(_('^benve/$'),
         BenveView.as_view(),
-        name="benve")
+        name="benve"
+        ),
+    url(_('^benve2/$'),
+        Benve2View.as_view(),
+        name="benve2"
+    ),
 )

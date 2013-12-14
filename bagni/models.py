@@ -103,7 +103,7 @@ class Bagno(models.Model):
                                   editable=True,)
     number = models.CharField(max_length=30, blank=True)
     languages = models.ManyToManyField("Language", blank=True)
-    services = models.ManyToManyField("Service", blank=True)
+    services = models.ManyToManyField("Service", blank=True, related_name='bagni')
     address = models.CharField(max_length=100, blank=True)
     # TODO: A regime mettere  obbligatorio municipality
     municipality = models.ForeignKey(Municipality, verbose_name=_("Municipality"), blank=True, null=True)
