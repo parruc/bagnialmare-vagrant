@@ -78,6 +78,7 @@ class ServiceCategory(models.Model):
 
     name = models.CharField(max_length=100)
     description = models.TextField(max_length=2000)
+    image = ImageField(upload_to="images/servicecategories", verbose_name=_("Image"), blank=True, null=True )
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),
@@ -184,6 +185,7 @@ class Service(models.Model):
                                   editable=True,)
     # TODO: A regime mettere  obbligatorio cateogry
     category = models.ForeignKey(ServiceCategory, verbose_name=_("Category"), blank=True, null=True)
+    image = ImageField(upload_to="images/services", verbose_name=_("Image"), blank=True, null=True)
     free = models.BooleanField(default=True,)
 
     @models.permalink
