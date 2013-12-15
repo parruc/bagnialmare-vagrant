@@ -3,7 +3,7 @@
 {% load i18n %}
 
 {% block main_content %}
-    {% with object.bagno_set.all as bagni %}
+    {% with object.bagni.all as bagni %}
         <ul>
         {% for bagno in bagni %}
             <li><a href="{{ bagno.get_absolute_url }}">{{ bagno.name }}</a></li>
@@ -14,6 +14,6 @@
     {% endwith %}
 {% endblock main_content %}
 
-{% block title %}{{ object.name }}{% endblock title %}
+{% block title %}{% trans "Municipality" %} {{ object.name }}{% endblock title %}
 
-{% block pagetitle %}{{ object.name }}{% endblock pagetitle %}
+{% block pagetitle %}{% trans "Municipality" %} {{ object.name }}{% endblock pagetitle %}

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block main_content %}
+    <ul>
+        {% for district in object_list %}
+            <li>
+                <a href="{{ district.get_absolute_url }}">{{ district.name }}</a>
+            </li>
+        {% empty %}
+            <li>{% trans 'No districts' %}</li>
+        {% endfor %}
+    </ul>
+{% endblock main_content %}
+
+{% block title %}{% trans 'Districts' %}{% endblock title %}
+
+{% block pagetitle %}{% trans 'Districts' %}{% endblock pagetitle %}

@@ -39,9 +39,20 @@ class ServiceView(DetailView):
     """ Detail view for a single service
     """
     model = Service
+    queryset = Bagno.objects.prefetch_related("bagni", "category")
 
     def get_context_data(self, **kwargs):
         context = super(ServiceView, self).get_context_data(**kwargs)
+        return context
+
+
+class ServicesView(ListView):
+    """ List view for a the services
+    """
+    model = Service
+
+    def get_context_data(self, **kwargs):
+        context = super(ServicesView, self).get_context_data(**kwargs)
         return context
 
 
@@ -55,6 +66,16 @@ class MunicipalityView(DetailView):
         return context
 
 
+class MunicipalitiesView(ListView):
+    """ List view for the municipalities
+    """
+    model = Municipality
+
+    def get_context_data(self, **kwargs):
+        context = super(MunicipalitiesView, self).get_context_data(**kwargs)
+        return context
+
+
 class DistrictView(DetailView):
     """ Detail view for a single district
     """
@@ -62,6 +83,16 @@ class DistrictView(DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(DistrictView, self).get_context_data(**kwargs)
+        return context
+
+
+class DistrictsView(ListView):
+    """ Detail view for a single district
+    """
+    model = District
+
+    def get_context_data(self, **kwargs):
+        context = super(DistrictsView, self).get_context_data(**kwargs)
         return context
 
 

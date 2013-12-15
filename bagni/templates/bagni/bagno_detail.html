@@ -4,7 +4,7 @@
 
 {% block main_content %}
 
-    {% with object.image_set.all|first as bagno_image %}
+    {% with object.images.all|first as bagno_image %}
         {% thumbnail bagno_image.image "200x200" crop="center" as thumb %}
             <img class="bagno-image"
                 width="{{thumb.width}}"

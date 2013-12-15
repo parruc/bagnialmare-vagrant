@@ -3,7 +3,7 @@
 {% load i18n %}
 
 {% block main_content %}
-    {% with object.bagno_set.all as bagni %}
+    {% with object.bagni.all as bagni %}
         <ul>
         {% for bagno in bagni %}
             <li><a href="{{ bagno.get_absolute_url }}">{{ bagno.name }}</a></li>

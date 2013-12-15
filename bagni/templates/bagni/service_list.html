@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block main_content %}
+    <ul>
+        {% for service in object_list %}
+            <li>
+                <a href="{{ service.get_absolute_url }}">{{ service.name }}</a>
+            </li>
+        {% empty %}
+            <li>{% trans 'No service' %}</li>
+        {% endfor %}
+    </ul>
+{% endblock main_content %}
+
+{% block title %}{% trans 'Services' %}{% endblock title %}
+
+{% block pagetitle %}{% trans 'Services' %}{% endblock pagetitle %}

@@ -37,7 +37,7 @@ class Municipality(models.Model):
 
     name = models.CharField(max_length=100)
     description = models.TextField(max_length=2000, blank=True)
-    district = models.ForeignKey(District, verbose_name=_("District"),)
+    district = models.ForeignKey(District, related_name="municipalities", verbose_name=_("District"),)
     slug = autoslug.AutoSlugField(max_length=50,
                                   populate_from='name',
                                   verbose_name=_("Slug"),
@@ -103,11 +103,11 @@ class Bagno(models.Model):
                                   unique=True,
                                   editable=True,)
     number = models.CharField(max_length=30, blank=True)
-    languages = models.ManyToManyField("Language", blank=True)
+    languages = models.ManyToManyField("Language", blank=True, related_name='bagni')
     services = models.ManyToManyField("Service", blank=True, related_name='bagni')
     address = models.CharField(max_length=100, blank=True)
     # TODO: A regime mettere  obbligatorio municipality
-    municipality = models.ForeignKey(Municipality, verbose_name=_("Municipality"), blank=True, null=True)
+    municipality = models.ForeignKey(Municipality, blank=True, null=True, related_name='bagni', verbose_name=_("Municipality"), )
     mail = models.EmailField(max_length=50, blank=True)
     tel = models.CharField(max_length=125, blank=True)
     cell = models.CharField(max_length=125, blank=True)
@@ -184,7 +184,7 @@ class Service(models.Model):
                                   unique=True,
                                   editable=True,)
     # TODO: A regime mettere  obbligatorio cateogry
-    category = models.ForeignKey(ServiceCategory, verbose_name=_("Category"), blank=True, null=True)
+    category = models.ForeignKey(ServiceCategory, blank=True, null=True, related_name='services', verbose_name=_("Category"),)
     image = ImageField(upload_to="images/services", verbose_name=_("Image"), blank=True, null=True)
     free = models.BooleanField(default=True,)
 
@@ -217,4 +217,4 @@ class Image(models.Model):
                                   unique=True,
                                   editable=True,)
     image = ImageField(upload_to="images/bagni", verbose_name=_("Image"),)
-    bagno = models.ForeignKey(Bagno, verbose_name=_("Bagno"),)
+    bagno = models.ForeignKey(Bagno, related_name="images", verbose_name=_("Bagno"),)

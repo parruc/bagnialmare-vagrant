@@ -1,5 +1,6 @@
 from django.test import TestCase
 from django.contrib.gis.geos import Point
+
 from bagni.models import Bagno
 
 def create_dummy_bagno(name="bagno test"):
@@ -15,9 +16,25 @@ def create_dummy_bagno(name="bagno test"):
     return b
 
 
+
+
+        # article = Articles()
+        # article.title = "This is title"
+        # article.body = "This is body"
+        # article.save()
+
+        # articles_in_database = Articles.objects.all()
+        # self.assertEquals(len(articles_in_database), 1)
+        # only_article_in_database = articles_in_database[0]
+        # self.assertEquals(only_article_in_database, article)
+
+        # self.assertEquals(only_article_in_database.title, "This is title")
+        # self.assertEquals(only_article_in_database.body, "This is body")
+
+
 class BagnoModelTest(TestCase):
     """
-    What should we test in the models? 
+    What should we test in the models?
     """
     def setUp(self):
         """

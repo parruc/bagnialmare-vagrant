@@ -3,10 +3,10 @@
 {% load i18n %}
 
 {% block main_content %}
-    {% with object.municipality_set.all as municipalities %}
+    {% with object.municipalities.all as municipalities %}
         {% for municipality in municipalities %}
             <h2>{{ municipality.name }}</h2>
-            {% with municipality.bagno_set.all as bagni %}
+            {% with municipality.bagni.all as bagni %}
                 <ul>
                 {% for bagno in bagni %}
                     <li><a href="{{ bagno.get_absolute_url }}">{{ bagno.name }}</a></li>
@@ -15,10 +15,12 @@
                 {% endfor %}
                 </ul>
             {% endwith %}
+        {% empty %}
+            <p>{% trans "No municipality in this district" %}</p>
         {% endfor %}
     {% endwith %}
 {% endblock main_content %}
 
-{% block title %}{{ object.name }}{% endblock title %}
+{% block title %}{% trans "District" %} {{ object.name }}{% endblock title %}
 
-{% block pagetitle %}{{ object.name }}{% endblock pagetitle %}
+{% block pagetitle %}{% trans "District" %} {{ object.name }}{% endblock pagetitle %}
