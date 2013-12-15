@@ -82,13 +82,14 @@ git_checkout_{{ repo_name }}:
         - target: {{ repo.path }}
         - user: {{ user.name }}
         - force: True
+        - identity: {{ user.home_path }}/.ssh/id_rsa
         - require:
             - pkg: git_reqs
             - file: git_key_{{ repo_name }}
             - file: git_pub_key_{{ repo_name }}
             - ssh_known_hosts: known_bitbucket_{{ repo_name }}
             - ssh_known_hosts: known_github_{{ repo_name }}
-            
+
 
 git_upstream_{{repo_name}}:
     cmd.run:
@@ -97,8 +98,8 @@ git_upstream_{{repo_name}}:
         - cwd: {{ repo.path }}
         - require:
             - git: git_checkout_{{ repo_name }}
-            
-            
+
+
 git_{{ repo_name }}:
     git.latest:
         - name: {{ repo.url }}

@@ -84,6 +84,15 @@ django_loaddata_script_{{ django_name }}:
             - service: postgres_service
             - git: git_{{ django_name }}
 
+django_index_folder_{{ django_name }}:
+    file.directory:
+        - name: {{ django.path }}/{{ django_name }}/whoosh_index/
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - makedirs: True
+        - require:
+            - file: django_loaddata_script_{{ django_name }}
+
 django_loaddata_{{ django_name }}:
     cmd.run:
         - name: /tmp/prepare_data.sh
@@ -92,6 +101,7 @@ django_loaddata_{{ django_name }}:
         - cwd: {{ django.path }}
         - group: {{ user.group }}
         - require:
+            - file: django_index_folder_{{ django_name }}
             - file: django_settings_{{ django_name }}
             - file: django_settings_test_{{ django_name }}
             - file: nginx_{{ django_name }}_static_dir

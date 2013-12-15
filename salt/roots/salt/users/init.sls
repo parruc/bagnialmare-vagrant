@@ -70,7 +70,7 @@ bash_profile_{{ user_name }}:
         - require:
             - file: user_with_home_{{ user_name }}
 
-bash_profile_{{ user_name }}:
+bash_aliases_{{ user_name }}:
     file.managed:
         - name: {{ user.home_path }}/.bash_aliases
         - source: salt://users/dotted_files/.bash_aliases
