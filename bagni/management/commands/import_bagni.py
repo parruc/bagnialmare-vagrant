@@ -4,6 +4,7 @@ from bagni.models import Bagno, Service, Municipality, District, Language
 from optparse import make_option
 import simplejson
 import logging
+
 logging.basicConfig()
 logger = logging.getLogger("bagni.console")
 
@@ -64,8 +65,10 @@ class Command(BaseCommand):
                     b.municipality = m
             if "services" in bagno:
                 for service in bagno['services']:
+                    logger.info("Servizio " + service)
                     s = Service.objects.filter(name=service)
                     if s:
                         b.services.add(s[0])
-
+                    else:
+                        logger.warning("Missing service %s for bagno %s" % (service, bagno['name']), )
             b.save()

@@ -3,6 +3,7 @@ from bagni.models import Service, ServiceCategory
 from optparse import make_option
 import simplejson
 import logging
+
 logger = logging.getLogger("bagni.console")
 
 
@@ -17,7 +18,7 @@ class Command(BaseCommand):
         Service.objects.all().delete()
         services = []
         categories = {}
-                    
+
         logger.info("Importing Services and ServiceCategories")
         try:
             with open('scripts/scraping/services.json', 'r') as services_file:
