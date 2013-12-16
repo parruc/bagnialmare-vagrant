@@ -16,10 +16,10 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         Service.objects.all().delete()
+        ServiceCategory.objects.all().delete()
         services = []
         categories = {}
 
-        logger.info("Importing Services and ServiceCategories")
         try:
             with open('scripts/scraping/services.json', 'r') as services_file:
                 services += simplejson.load(services_file)

@@ -18,7 +18,12 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         logger.info("Importing Bagni, Languages, Municipalities and Districts")
         Bagno.objects.all().delete()
+        Language.objects.all().delete()
+        Municipality.objects.all().delete()
+        District.objects.all().delete()
+        Language.objects.all().delete()
         bagni = []
+        missing_services = []
         cities = ["cervia", "cesenatico", "ferrara", "ravenna", "rimini", "riccione", "bellaria-igea-marina"]
         fields = ["name", "number", "address", "tel", "cell", "winter_tel", "fax", "site", "mail",]
         for city in cities:
@@ -32,8 +37,10 @@ class Command(BaseCommand):
             bagni = bagni[:options['limit']]
         languages = {}
         for language in ['Italian', 'English', 'Franch', 'German', 'Russian']:
-            l = Language(name=language)
-            l.save()
+            l = Language.objects.filter(name=language)
+            if not l:
+                l = Language(name=language)
+                l.save()
             languages[language] = l
         for bagno in bagni:
             b = Bagno(name=bagno['name'])
@@ -65,10 +72,10 @@ class Command(BaseCommand):
                     b.municipality = m
             if "services" in bagno:
                 for service in bagno['services']:
-                    logger.info("Servizio " + service)
                     s = Service.objects.filter(name=service)
                     if s:
                         b.services.add(s[0])
-                    else:
-                        logger.warning("Missing service %s for bagno %s" % (service, bagno['name']), )
+                        if not s[0] in missing_services:
+                            missing_services.append(s[0])
             b.save()
+        logger.warning("Missing services %s" % (", ".join(missing_services)))
