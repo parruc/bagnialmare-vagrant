@@ -1,3 +1,5 @@
+{% set dev = grains['configuration'] in ['dev'] %}
+
 nginx_reqs:
     pkg:
         - installed
@@ -108,6 +110,16 @@ nginx_{{ host_name }}_coverage_dir:
         - makedirs: True
         - require:
             - cmd: django_coverage_{{ host_name }}
+{% endif %}
+
+{% if dev %}
+nginx_htpasswd_{{ host_name }}:
+    file.managed:
+        - name: /etc/nginx/htpasswd_{{ host_name }}
+        - source: salt://nginx/htpasswd_{{ host_name }}
+        - user: root
+        - group: www-data
+        - file_mode: 640
 {% endif %}
 
 nginx_site_{{ host_name }}:
