@@ -76,6 +76,6 @@ class Command(BaseCommand):
                     if s:
                         b.services.add(s[0])
                         if not s[0] in missing_services:
-                            missing_services.append(s[0])
+                            missing_services.append(s[0].name)
             b.save()
-        logger.warning("Missing services %s" % (", ".join(missing_services)))
+        logger.warning("Missing services %s" % ("\n".join(missing_services)))
