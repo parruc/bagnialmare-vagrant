@@ -75,7 +75,7 @@ class Command(BaseCommand):
                     s = Service.objects.filter(name=service)
                     if s:
                         b.services.add(s[0])
-                        if not s[0] in missing_services:
-                            missing_services.append(s[0].name)
+                    elif not service in missing_services:
+                            missing_services.append(service)
             b.save()
         logger.warning("Missing services %s" % ("\n".join(missing_services)))
