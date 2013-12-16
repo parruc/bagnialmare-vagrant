@@ -10,6 +10,7 @@ base:
         - users
         - uwsgi
         - virtualenv
+        - cronjobs
         {% if loc %}
         - samba
         {% endif %}
