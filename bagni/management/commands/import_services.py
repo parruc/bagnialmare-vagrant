@@ -19,6 +19,7 @@ class Command(BaseCommand):
         ServiceCategory.objects.all().delete()
         services = []
         categories = {}
+        aliases = {}
 
         try:
             with open('scripts/scraping/services.json', 'r') as services_file:
@@ -32,11 +33,19 @@ class Command(BaseCommand):
         except IOError:
             raise CommandError("cannot open 'scripts/scraping/services_categories.json'. Try to git pull")
 
+        try:
+            with open('scripts/scraping/services_aliases.json', 'r') as aliases_file:
+                aliases.update(simplejson.load(aliases_file))
+        except IOError:
+            raise CommandError("cannot open 'scripts/scraping/services_aliases.json'. Try to git pull")
+
         if 'limit' in options and options['limit'] > len(services):
             services = services[:options['limit']]
         for service in services:
             try:
                 s = Service(name=service)
+                if service in aliases:
+                    service = aliases[service]
                 if service in categories:
                     category = categories.get(service, '')
                     c = ServiceCategory.objects.filter(name=category)
