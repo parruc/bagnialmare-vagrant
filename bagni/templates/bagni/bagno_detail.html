@@ -3,6 +3,11 @@
 {% load l10n i18n thumbnail %}
 
 {% block main_content %}
+    {% if object.description %}
+        <h2>{% trans "Description" %}</h2>
+        {{ object.description|safe }}
+    {% endif %}
+
 
     {% with object.images.all|first as bagno_image %}
         {% thumbnail bagno_image.image "200x200" crop="center" as thumb %}

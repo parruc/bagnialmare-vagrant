@@ -78,9 +78,18 @@ class Command(BaseCommand):
                         m = m[0]
                 if m and d:
                     b.municipality = m
+            description  = ""
+            if "details" in bagno:
+                description = "<br />\n\t".join([n + ": " + str(v) for n, v in bagno["details"].items()]).strip()
+            if description:
+                description = "<h3>Details</h3>\n\t<p>" + description + "</p>"
+            if "description" in bagno and bagno["description"].strip():
+                description += "\n<p>" + bagno["description"].strip() + "</p>"
+            if description:
+                b.description = description
             if "services" in bagno:
                 for service in bagno['services']:
-                    if service in aliases:
+                    if service in aliases and aliases[service] != "":
                         service = aliases[service]
                     s = Service.objects.filter(name=service)
                     if s:
