@@ -24,6 +24,7 @@ class Command(BaseCommand):
         Language.objects.all().delete()
         bagni = []
         missing_services = []
+        aliases = {}
         cities = ["cervia", "cesenatico", "ferrara", "ravenna", "rimini", "riccione", "bellaria-igea-marina"]
         fields = ["name", "number", "address", "tel", "cell", "winter_tel", "fax", "site", "mail",]
         for city in cities:
@@ -32,6 +33,13 @@ class Command(BaseCommand):
                     bagni += simplejson.load(output_file)
             except IOError:
                 raise CommandError("cannot open 'scripts/scraping/output_" + city + ".json' Have you generated it?")
+
+        try:
+            with open('scripts/scraping/services_aliases.json', 'r') as aliases_file:
+                aliases.update(simplejson.load(aliases_file))
+        except IOError:
+            raise CommandError("cannot open 'scripts/scraping/services_aliases.json'. Try to git pull")
+
 
         if 'limit' in options and options['limit'] > len(bagni):
             bagni = bagni[:options['limit']]
@@ -72,6 +80,8 @@ class Command(BaseCommand):
                     b.municipality = m
             if "services" in bagno:
                 for service in bagno['services']:
+                    if service in aliases:
+                        service = aliases[service]
                     s = Service.objects.filter(name=service)
                     if s:
                         b.services.add(s[0])
