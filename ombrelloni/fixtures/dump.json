@@ -38653,7 +38653,7 @@
   "model": "bagni.service", 
   "fields": {
     "category": 17, 
-    "slug_en": "piscina", 
+    "slug_en": "swimming-pool", 
     "name_it": "piscina", 
     "name": "piscina", 
     "image": "", 
@@ -38661,7 +38661,7 @@
     "description_en": null, 
     "free": true, 
     "description_it": null, 
-    "name_en": "piscina", 
+    "name_en": "swimming pool", 
     "slug": "piscina", 
     "description": ""
   }
