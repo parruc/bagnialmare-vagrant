@@ -7645,41 +7645,41 @@
     "municipality": 98, 
     "number": "81", 
     "services": [
-      2188, 
-      2180, 
-      2223, 
-      2204, 
-      2189, 
-      2186, 
-      2187, 
-      2183, 
       2206, 
+      2204, 
       2195, 
+      2223, 
+      2189, 
+      2188, 
+      2187, 
+      2186, 
+      2185, 
+      2183, 
       2181, 
-      2210, 
-      2185
+      2180, 
+      2210
     ], 
-    "address_it": null, 
+    "address_it": "", 
     "address_en": "Arenile Demaniale 81 - 82", 
-    "cell": "", 
-    "slug_en": "-82-bagno-solaris", 
-    "name_it": "- 82 Bagno Solaris", 
+    "cell": "342 9477534", 
+    "slug_en": "bagno-solaris", 
+    "name_it": "Bagno Solaris", 
     "languages": [
       68, 
       69
     ], 
-    "mail": "", 
+    "mail": "info@bagnosolaris.it", 
     "fax": "", 
-    "description": "<h3>Details</h3>\n\t<p>lavapiedi: 1<br />\n\twc: 5<br />\n\tombrelloni: 150<br />\n\twc disabili: 1<br />\n\tfronte mare: 40<br />\n\tlettini: 400<br />\n\tcabine: 20<br />\n\tdocce chiuse: 3</p>", 
-    "slug_it": "-82-bagno-solaris", 
-    "description_en": "<h3>Details</h3>\n\t<p>lavapiedi: 1<br />\n\twc: 5<br />\n\tombrelloni: 150<br />\n\twc disabili: 1<br />\n\tfronte mare: 40<br />\n\tlettini: 400<br />\n\tcabine: 20<br />\n\tdocce chiuse: 3</p>", 
-    "site": "", 
+    "description": "<h3>Details</h3>\r\n\t<p>lavapiedi: 1<br />\r\n\twc: 5<br />\r\n\tombrelloni: 150<br />\r\n\twc disabili: 1<br />\r\n\tfronte mare: 40<br />\r\n\tlettini: 400<br />\r\n\tcabine: 20<br />\r\n\tdocce chiuse: 3</p>", 
+    "slug_it": "bagno-solaris", 
+    "description_en": "<h3>Details</h3>\r\n\t<p>lavapiedi: 1<br />\r\n\twc: 5<br />\r\n\tombrelloni: 150<br />\r\n\twc disabili: 1<br />\r\n\tfronte mare: 40<br />\r\n\tlettini: 400<br />\r\n\tcabine: 20<br />\r\n\tdocce chiuse: 3</p>", 
+    "site": "http://www.bagnosolaris.it/my-profile/", 
     "winter_tel": "", 
     "address": "Arenile Demaniale 81 - 82", 
-    "description_it": null, 
-    "name_en": "- 82 Bagno Solaris", 
-    "slug": "-82-bagno-solaris", 
-    "name": "- 82 Bagno Solaris"
+    "description_it": "", 
+    "name_en": "Bagno Solaris", 
+    "slug": "bagno-solaris", 
+    "name": "Bagno Solaris"
   }
 },
 {
@@ -29250,36 +29250,36 @@
   "pk": 13423, 
   "model": "bagni.bagno", 
   "fields": {
-    "tel": "0541/50244", 
+    "tel": "0541 50244", 
     "point": "POINT (12.5776294219999993 44.0750188000000023)", 
     "municipality": null, 
     "number": "13 sud", 
     "services": [
       2189, 
-      2187, 
-      2181
+      2181, 
+      2187
     ], 
-    "address_it": null, 
-    "address_en": "Lungomare Tintori", 
+    "address_it": "Lungomare Claudio Tintori, 18/B", 
+    "address_en": "Lungomare Claudio Tintori, 18/B", 
     "cell": "", 
-    "slug_en": "alcide-spiaggia", 
-    "name_it": "Alcide Spiaggia", 
+    "slug_en": "bagno-alcide-spiaggia", 
+    "name_it": "Bagno Alcide Spiaggia", 
     "languages": [
       68, 
       69
     ], 
     "mail": "", 
     "fax": "", 
-    "description": "<h3>Details</h3>\n\t<p>cabine: 40<br />\n\tombrelloni: 110</p>", 
-    "slug_it": "alcide-spiaggia", 
-    "description_en": "<h3>Details</h3>\n\t<p>cabine: 40<br />\n\tombrelloni: 110</p>", 
-    "site": "http://www.comitatobagninirimini.it", 
+    "description": "<h3>Details</h3>\r\n\t<p>cabine: 40<br />\r\n\tombrelloni: 110</p>", 
+    "slug_it": "bagno-alcide-spiaggia", 
+    "description_en": "<h3>Details</h3>\r\n\t<p>cabine: 40<br />\r\n\tombrelloni: 110</p>", 
+    "site": "http://www.comitatobagninirimini.it/", 
     "winter_tel": "", 
-    "address": "Lungomare Tintori", 
-    "description_it": null, 
-    "name_en": "Alcide Spiaggia", 
-    "slug": "alcide-spiaggia", 
-    "name": "Alcide Spiaggia"
+    "address": "Lungomare Claudio Tintori, 18/B", 
+    "description_it": "", 
+    "name_en": "Bagno Alcide Spiaggia", 
+    "slug": "bagno-alcide-spiaggia", 
+    "name": "Bagno Alcide Spiaggia"
   }
 },
 {
@@ -31192,39 +31192,39 @@
   "pk": 13475, 
   "model": "bagni.bagno", 
   "fields": {
-    "tel": "", 
+    "tel": "0541 380689", 
     "point": "POINT (12.5967561149999998 44.0574174999999997)", 
     "municipality": null, 
     "number": "66 sud", 
     "services": [
       2296, 
+      2195, 
+      2254, 
       2189, 
       2187, 
-      2195, 
-      2186, 
-      2254
+      2186
     ], 
-    "address_it": null, 
+    "address_it": "", 
     "address_en": "Lungomare Di Vittorio", 
     "cell": "338 9141157", 
     "slug_en": "alberto", 
-    "name_it": "Alberto", 
+    "name_it": "Bagno Alberto", 
     "languages": [
       68, 
       69
     ], 
-    "mail": "", 
+    "mail": "informazioni@vincenzo-nives.com", 
     "fax": "", 
-    "description": "<h3>Details</h3>\n\t<p>cabine: 60<br />\n\tombrelloni: 220</p>\n<p>Servizi offerti 2 dei 4 campi sportivi sono illuminati \r\n- corsi d\u2019aquagym</p>", 
+    "description": "<h3>Details</h3>\r\n\t<p>cabine: 60<br />\r\n\tombrelloni: 220</p>\r\n<p>Servizi offerti 2 dei 4 campi sportivi sono illuminati \r\n- corsi d\u2019aquagym</p>", 
     "slug_it": "alberto", 
-    "description_en": "<h3>Details</h3>\n\t<p>cabine: 60<br />\n\tombrelloni: 220</p>\n<p>Servizi offerti 2 dei 4 campi sportivi sono illuminati \r\n- corsi d\u2019aquagym</p>", 
-    "site": "", 
+    "description_en": "<h3>Details</h3>\r\n\t<p>cabine: 60<br />\r\n\tombrelloni: 220</p>\r\n<p>Servizi offerti 2 dei 4 campi sportivi sono illuminati \r\n- corsi d\u2019aquagym</p>", 
+    "site": "http://www.vincenzo-nives.com/", 
     "winter_tel": "", 
     "address": "Lungomare Di Vittorio", 
-    "description_it": null, 
-    "name_en": "Alberto", 
+    "description_it": "", 
+    "name_en": "Bagno Alberto", 
     "slug": "alberto", 
-    "name": "Alberto"
+    "name": "Bagno Alberto"
   }
 },
 {
@@ -46002,6 +46002,45 @@
     "change_message": "Changed name_en and slug_en.", 
     "user": 1, 
     "content_type": 10
+  }
+},
+{
+  "pk": 7, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2013-12-18T20:36:57.057Z", 
+    "object_repr": "Bagno Solaris", 
+    "object_id": "12913", 
+    "change_message": "Changed name_en, name_it, description_en, slug_en, slug_it, mail, cell and site.", 
+    "user": 1, 
+    "content_type": 9
+  }
+},
+{
+  "pk": 8, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2013-12-18T20:49:53.509Z", 
+    "object_repr": "Bagno Alberto", 
+    "object_id": "13475", 
+    "change_message": "Changed name_en, name_it, description_en, mail, tel and site.", 
+    "user": 1, 
+    "content_type": 9
+  }
+},
+{
+  "pk": 9, 
+  "model": "admin.logentry", 
+  "fields": {
+    "action_flag": 2, 
+    "action_time": "2013-12-18T20:54:35.044Z", 
+    "object_repr": "Bagno Alcide Spiaggia", 
+    "object_id": "13423", 
+    "change_message": "Changed name_en, name_it, description_en, slug_en, slug_it, address_en, address_it and tel.", 
+    "user": 1, 
+    "content_type": 9
   }
 }
 ]
