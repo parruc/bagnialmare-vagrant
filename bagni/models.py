@@ -87,6 +87,10 @@ class ServiceCategory(models.Model):
     def __unicode__(self):
         return self.name
 
+    @models.permalink
+    def get_absolute_url(self):
+        return ("service-category", [self.slug, ])
+
 
 class Bagno(models.Model):
     """ The model for Bagno object
@@ -120,13 +124,6 @@ class Bagno(models.Model):
 
     def __unicode__(self):
         return self.name
-
-    def services_ordered_by_category(self):
-        """ Returns the list of services sorted by category.
-            Useful for regoup templatetag in templates to avoid
-            repeted items under different categories
-        """
-        return self.services.all().order_by("category__name")
 
     def index_text(self):
         """ Text indexed for fulltext search (the what field)

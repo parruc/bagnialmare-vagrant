@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block main_content %}
+    <ul>
+        {% for service_category in object_list %}
+            <li>
+                <a href="{{ service_category.get_absolute_url }}">{{ service_category.name }}</a>
+                <ul>
+                    {% for service in service_category.services.all %}
+                    <li>
+                        {{ service.name }}
+                    </li>
+                    {% empty %}
+                    <li>{% trans 'No service for this category' %}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% empty %}
+            <li>{% trans 'No service categories' %}</li>
+        {% endfor %}
+    </ul>
+{% endblock main_content %}
+
+{% block title %}{% trans 'Service categories' %}{% endblock title %}
+
+{% block pagetitle %}{% trans 'Service categories' %}{% endblock pagetitle %}

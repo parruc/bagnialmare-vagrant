@@ -27,8 +27,9 @@ class Command(BaseCommand):
             search.delete_index(**kwargs)
         elif options['operation'] == 'recreate':
             search.recreate_index(**kwargs)
-        elif options['operation'] == 'reindex':
-            search.recreate_data(**kwargs)
+        ## Reindex is evil because it double all entries in the index. Use rebuild instead
+        ##elif options['operation'] == 'reindex':
+        ##    search.recreate_data(**kwargs)
         elif options['operation'] == 'rebuild':
             search.recreate_all(**kwargs)
         else:
@@ -36,6 +37,6 @@ class Command(BaseCommand):
 	            'create' to rebuild index schema (empty)
                 'delete' to remove index schema and data
                 'recreate' to delete and rebuild the index schema (empty)
-                'reindex' to reindex data in existing schema
                 'rebuild' to remove and recreate both index and data
                 """
+                #'reindex' to reindex data in existing schema
