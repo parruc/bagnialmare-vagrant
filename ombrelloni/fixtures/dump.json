@@ -154,8 +154,8 @@
   "pk": "f5mf0qdryolj2djzvjkpktbnlbf1oifz", 
   "model": "sessions.session", 
   "fields": {
-    "expire_date": "2013-12-31T22:38:35.659Z", 
-    "session_data": "Yzc3ZjlhYzliMTEwZDBhMTFlMDQ2YTZlNzliMWQ2NmFjMmQ5Y2IzOTqAAn1xAShVDV9hdXRoX3VzZXJfaWRLAVUSX2F1dGhfdXNlcl9iYWNrZW5kVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZFUPZGphbmdvX2xhbmd1YWdlWAIAAABlbnECdS4="
+    "expire_date": "2014-01-03T21:24:29.803Z", 
+    "session_data": "NTY4Nzg2NzM4ZWVjNTkzNTQyNmQ3ZTczMGYyNGM1MTZiZDhlZTIzMzqAAn1xAShVEl9hdXRoX3VzZXJfYmFja2VuZFUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmRVDV9hdXRoX3VzZXJfaWRLAVUPZGphbmdvX2xhbmd1YWdlWAIAAABpdHECdS4="
   }
 },
 {
