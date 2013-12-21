@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.core import paginator
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
@@ -139,6 +140,7 @@ class SearchView(TemplateView):
         groups = ['services', 'languages']
         q = self.request.GET.get('q', "")
         page = self.request.GET.get('p', "1")
+        per_page = int(self.request.GET.get('pp', "10"))
         loc = self.request.GET.get('l', "")
         place = point = None
         if loc:
@@ -166,7 +168,7 @@ class SearchView(TemplateView):
         hits = Bagno.objects.prefetch_related("services", "services__category", ).filter(id__in=[h['id'] for h in raw_hits])
         if point:
             hits = hits.distance(point).order_by('distance')
-        hits_paginator = paginator.Paginator(hits, 10)
+        hits_paginator = paginator.Paginator(hits, per_page)
         try:
             hits = hits_paginator.page(page)
         except paginator.PageNotAnInteger:
@@ -178,26 +180,27 @@ class SearchView(TemplateView):
         has_get = self.request.method == 'GET'
         context.update({'q': q, 'l':loc, 'place': place, 'facets': facets, 'active_facets': active_facets,
                         'hits': hits, 'count': len(raw_hits), 'has_get': has_get })
+
         return context
 
 ## VISTE TEMPORANEE
-
-class GlobalMapView(ListView):
-    template_name = "bagni/globalmap.html"
-    model = Bagno
-    def get_context_data(self, **kwargs):
-        context = super(GlobalMapView, self).get_context_data(**kwargs)
-        return context
-
-class BenveView(ListView):
-    """ Simple view for Service listing everyone with his bagni
-        TODO: Will soon be removed
-    """
-    template_name = "bagni/benve.html"
-    queryset = Service.objects.all().prefetch_related("bagni", "bagni__municipality", "category")
-    def get_context_data(self, **kwargs):
-        context = super(BenveView, self).get_context_data(**kwargs)
-        return context
+# Non servono più?!?
+#class GlobalMapView(ListView):
+#    template_name = "bagni/globalmap.html"
+#    model = Bagno
+#    def get_context_data(self, **kwargs):
+#        context = super(GlobalMapView, self).get_context_data(**kwargs)
+#        return context
+#
+#class BenveView(ListView):
+#    """ Simple view for Service listing everyone with his bagni
+#        TODO: Will soon be removed
+#    """
+#    template_name = "bagni/benve.html"
+#    queryset = Service.objects.all().prefetch_related("bagni", "bagni__municipality", "category")
+#    def get_context_data(self, **kwargs):
+#        context = super(BenveView, self).get_context_data(**kwargs)
+#        return context
 
 
 class Benve2View(ListView):

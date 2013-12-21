@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
-{% load i18n query_string %}
+{% load l10n i18n query_string %}
 
 {% block main_content %}
     {% comment %}
-        Da rifattorizzare in un template da usare sia qui che in search?
+        TODO: Da rifattorizzare in un templatetag da usare sia qui che in hp?
     {% endcomment %}
     <div class="row">
         <form class="form-inline" action="{% url 'search' %}" method="get">
@@ -69,11 +69,23 @@
             <div class="col-lg-9">
                 {% if hits %}
                     <p>
-                        {{ count }} {% trans "results for" %} {{ q }}
+                        <span class="hits-count">{{ count }}</span>
+                        {% trans "results for" %}
+                        <span class="hits-query">{{ q }}</span>
                         {% if place %}
-                            {% trans "near" %} {{ place }}
+                            {% trans "near" %} <span class="hits-query">{{ place }}</span>
                         {% endif %}
+
+                        <span class="per-page">
+                            {% trans "Show" %}
+                            <a href="{% query_string 'pp=10' 'pp' %}">10</a>
+                            <a href="{% query_string 'pp=25' 'pp' %}">25</a>
+                            <a href="{% query_string 'pp=50' 'pp' %}">50</a>
+                            <a href="{% query_string 'pp=100' 'pp' %}">100</a>
+                            {% trans "results per page" %}
+                        </span>
                     </p>
+                    <div id="bagno_map" style="width: 100%; height: 300px"></div>
                     {%  for hit in hits %}
                         <div class="panel">
                             <div class="panel-heading">
@@ -131,6 +143,30 @@
         </div>
     {% endif %}
 {% endblock %}
+
+{% block specific_js %}
+        <script type="text/javascript">
+        var map
+        $(function() {
+            map = L.map('bagno_map');
+            L.tileLayer('http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
+                attribution: 'Data, imagery and map information provided by <a href="http://open.mapquest.co.uk" target="_blank">MapQuest</a>, <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors.',
+                subdomains: ['otile1','otile2','otile3','otile4'],
+                maxZoom: 18
+            }).addTo(map);
+            var markerBounds = new L.LatLngBounds();
+            {% for bagno in hits %}
+                {% if bagno.point.x and bagno.point.y %}
+                    var p = new L.LatLng({{ bagno.point.y|unlocalize }}, {{ bagno.point.x|unlocalize }})
+                    var marker = L.marker(p).addTo(map);
+                    markerBounds.extend(p);
+                    marker.bindPopup("<strong>{{ bagno.name }}</strong> <em>{{ bagno.address }}</em><br>").openPopup();
+                {% endif %}
+            {% endfor %}
+            map.fitBounds(markerBounds);
+        });
+        </script>
+{% endblock specific_js %}
 
 {% block title %}{% trans "Search" %}{% endblock title %}
 

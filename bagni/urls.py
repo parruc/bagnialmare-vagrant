@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.conf.urls import patterns, url
 import views
 from django.utils.translation import ugettext_lazy as _
@@ -42,12 +43,12 @@ urlpatterns = patterns(
         name="districts"),
 
     # VISTE TEMPORANEE
-    url(_('^globalmap/$'),
-        views.GlobalMapView.as_view(),
-        name="globalmap"),
-    url(_('^benve/$'),
-        views.BenveView.as_view(),
-        name="benve"),
+#    url(_('^globalmap/$'),
+#        views.GlobalMapView.as_view(),
+#        name="globalmap"),
+#    url(_('^benve/$'),
+#        views.BenveView.as_view(),
+#        name="benve"),
     url(_('^benve2/$'),
         views.Benve2View.as_view(),
         name="benve2"),

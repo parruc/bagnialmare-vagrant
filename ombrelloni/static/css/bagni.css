@@ -20,3 +20,15 @@ img.hp-form-image
 {
     margin-top: 20px;
 }
+.per-page
+{
+    float: right;
+}
+.hits-count
+{
+    font-weight: bold;
+}
+.hits-query
+{
+    font-style: italic;
+}
