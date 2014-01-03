@@ -70,14 +70,17 @@
                 {% if hits %}
                     <p>
                         <span class="hits-count">{{ count }}</span>
-                        {% trans "results for" %}
-                        <span class="hits-query">{{ q }}</span>
+                        {% if q %}
+                            {% trans "results for" %} <span class="hits-query">{{ q }}</span>
+                        {% else %}
+                            {% trans "results" %}
+                        {% endif %}
                         {% if place %}
                             {% trans "near" %} <span class="hits-query">{{ place }}</span>
                         {% endif %}
 
                         <span class="per-page">
-                            {% trans "Show" %}
+                            {% trans ". Show" %}
                             <a href="{% query_string 'pp=10' 'pp' %}">10</a>
                             <a href="{% query_string 'pp=25' 'pp' %}">25</a>
                             <a href="{% query_string 'pp=50' 'pp' %}">50</a>
