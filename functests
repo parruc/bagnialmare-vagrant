@@ -1,1 +1,1 @@
-python manage.py test fts --settings=ombrelloni.test
+python manage.py test fts --settings=ombrelloni.settings_test
