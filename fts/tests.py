@@ -62,4 +62,7 @@ class HomePageTest(LiveServerTestCase):
         input.send_keys(query_text + Keys.RETURN)
         hits_query = self.browser.find_element_by_class_name("hits-query")
         self.assertIn(query_text, hits_query.text.lower())
-        
+        bagni = self.browser.find_elements_by_class_name("bagno")
+        for bagno in bagni:
+            distance = bagno.find_element_by_class_name("badge")
+            self.assertTrue(float(distance.text[:-2].strip().replace(',', '.')) > 0)
