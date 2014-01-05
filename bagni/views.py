@@ -152,11 +152,12 @@ class SearchView(TemplateView):
             except geocoders.google.GQueryError as e:
                 messages.add_message(self.request, messages.INFO,
                                      _("Cant find place '%s', sorting by relevance" % loc))
-                logger.warning("cant find %s, error " % (loc, e))
+                logger.warning("cant find %s, error %s" % (loc, e))
             except Exception as e:
                 messages.add_message(self.request, messages.ERROR,
                                      _("Error in geocoding"))
-                logger.error("geocoding %s gave error %e" % (loc, e))
+                #logger.error would point to a 500 page
+                logger.warning("geocoding %s gave error %s" % (loc, e))
 
 
         filters = self.request.GET.getlist('f', [])
