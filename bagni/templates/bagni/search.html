@@ -30,7 +30,7 @@
             <div class="col-lg-3">
                 {% for facet in active_facets %}
                     {% if forloop.first %}
-                        <div class="panel">
+                        <div class="panel active-filters">
                             <div class="panel-heading">
                                 <h3>{% trans "Active filters" %}</h3>
                             </div>
@@ -46,7 +46,7 @@
                 {% endfor %}
                 {% for facet_group, facet_values in facets.items %}
                     {% if facet_group %}
-                        <div class="panel">
+                        <div class="panel facet-group">
                             <div class="panel-heading">
                                 <h3>{% trans facet_group %}</h3>
                             </div>
@@ -90,7 +90,7 @@
                     </p>
                     <div id="bagno_map" style="width: 100%; height: 300px"></div>
                     {%  for hit in hits %}
-                        <div class="panel">
+                        <div class="panel bagno">
                             <div class="panel-heading">
                                 <h3>
                                     <a href="{{ hit.get_absolute_url }}">{{ hit.name }}</a>
