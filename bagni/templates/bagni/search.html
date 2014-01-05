@@ -80,7 +80,7 @@
                         {% endif %}
 
                         <span class="per-page">
-                            {% trans ". Show" %}
+                            {% trans "Show" %}
                             <a href="{% query_string 'pp=10' 'pp' %}">10</a>
                             <a href="{% query_string 'pp=25' 'pp' %}">25</a>
                             <a href="{% query_string 'pp=50' 'pp' %}">50</a>
@@ -163,7 +163,8 @@
                     var p = new L.LatLng({{ bagno.point.y|unlocalize }}, {{ bagno.point.x|unlocalize }})
                     var marker = L.marker(p).addTo(map);
                     markerBounds.extend(p);
-                    marker.bindPopup("<strong>{{ bagno.name }}</strong> <em>{{ bagno.address }}</em><br>").openPopup();
+                    marker.bindPopup("<strong><a href={{ bagno.get_absolute_url }}>{{ bagno.name }}</a></strong> <em>{{ bagno.address }}</em><br>").openPopup();
+                                    
                 {% endif %}
             {% endfor %}
             map.fitBounds(markerBounds);
