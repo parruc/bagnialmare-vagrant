@@ -30,7 +30,7 @@
             <div class="col-lg-3">
                 {% for facet in active_facets %}
                     {% if forloop.first %}
-                        <div class="panel">
+                        <div class="panel active-filters">
                             <div class="panel-heading">
                                 <h3>{% trans "Active filters" %}</h3>
                             </div>
@@ -46,7 +46,7 @@
                 {% endfor %}
                 {% for facet_group, facet_values in facets.items %}
                     {% if facet_group %}
-                        <div class="panel">
+                        <div class="panel facet-group">
                             <div class="panel-heading">
                                 <h3>{% trans facet_group %}</h3>
                             </div>
@@ -70,8 +70,11 @@
                 {% if hits %}
                     <p>
                         <span class="hits-count">{{ count }}</span>
-                        {% trans "results for" %}
-                        <span class="hits-query">{{ q }}</span>
+                        {% if q %}
+                            {% trans "results for" %} <span class="hits-query">{{ q }}</span>
+                        {% else %}
+                            {% trans "results" %}
+                        {% endif %}
                         {% if place %}
                             {% trans "near" %} <span class="hits-query">{{ place }}</span>
                         {% endif %}
@@ -87,7 +90,7 @@
                     </p>
                     <div id="bagno_map" style="width: 100%; height: 300px"></div>
                     {%  for hit in hits %}
-                        <div class="panel">
+                        <div class="panel bagno">
                             <div class="panel-heading">
                                 <h3>
                                     <a href="{{ hit.get_absolute_url }}">{{ hit.name }}</a>
@@ -160,7 +163,8 @@
                     var p = new L.LatLng({{ bagno.point.y|unlocalize }}, {{ bagno.point.x|unlocalize }})
                     var marker = L.marker(p).addTo(map);
                     markerBounds.extend(p);
-                    marker.bindPopup("<strong>{{ bagno.name }}</strong> <em>{{ bagno.address }}</em><br>").openPopup();
+                    marker.bindPopup("<strong><a href={{ bagno.get_absolute_url }}>{{ bagno.name }}</a></strong> <em>{{ bagno.address }}</em><br>").openPopup();
+                                    
                 {% endif %}
             {% endfor %}
             map.fitBounds(markerBounds);
