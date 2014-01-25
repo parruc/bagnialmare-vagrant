@@ -16,7 +16,7 @@ django_wsgi_{{ django_name }}:
         - defaults:
             django_name: {{ django_name }}
         - require:
-            - git: git_checkout_{{ django_name }}
+            - git: git_{{ django_name }}
             - virtualenv: venv_{{ django_name }}
             - file: user_with_home_{{ django_name }}
             - file: django_logs_{{ django_name }}
@@ -34,7 +34,7 @@ django_settings_{{ django_name }}:
         - defaults:
             django_name: {{ django_name }}
         - require:
-            - git: git_checkout_{{ django_name }}
+            - git: git_{{ django_name }}
             - virtualenv: venv_{{ django_name }}
             - file: user_with_home_{{ django_name }}
 
@@ -51,7 +51,7 @@ django_settings_test_{{ django_name }}:
         - defaults:
             django_name: {{ django_name }}
         - require:
-            - git: git_checkout_{{ django_name }}
+            - git: git_{{ django_name }}
             - virtualenv: venv_{{ django_name }}
             - file: user_with_home_{{ django_name }}
 

@@ -5,7 +5,7 @@ venv:
             path: '/var/www/ombrelloni.it/venv'
             packages:
                 - 'BeautifulSoup==3.2.1'
-                - 'Django==1.5.5'
+                - 'Django==1.6.1'
                 - 'Jinja2==2.7'
                 - 'MarkupSafe==0.18'
                 - 'Pillow==2.0.0'

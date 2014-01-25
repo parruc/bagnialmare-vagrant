@@ -96,8 +96,6 @@ git_upstream_{{repo_name}}:
         - name: git branch --set-upstream master origin/{{ repo.rev }}
         - user: {{ user.name }}
         - cwd: {{ repo.path }}
-        - require:
-            - git: git_checkout_{{ repo_name }}
 
 
 git_{{ repo_name }}:
