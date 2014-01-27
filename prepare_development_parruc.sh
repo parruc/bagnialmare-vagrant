@@ -4,14 +4,14 @@
 GIT_USER=parruc
 
 #change this to project directory on your machine
-HOST_DIR=$HOME/4hm
+HOST_DIR=$HOME/django/4hm
 
 GUEST_DIR=vagrant-ombrelloni:/var/www/ombrelloni.it
 
 CWD=$(pwd)
 
 echo "mounting $GUST_DIR to $HOST_DIR"
-sudo mount -t cifs //192.168.50.5/ombrelloni /home/creepingdeath/4hm -o username=ombrelloni,password=ombrelloni,uid=creepingdeath
+sudo mount -t cifs //192.168.50.5/ombrelloni $HOST_DIR -o username=ombrelloni,password=ombrelloni,uid=creepingdeath
 echo "changing git credentials for your user: $GIT_USER"
 cd "$HOST_DIR/django"
 if [ "$PWD"=="$HOST_DIR/django" ]; then
