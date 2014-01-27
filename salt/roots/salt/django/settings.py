@@ -12,10 +12,11 @@ COMPRESS_ENABLED = not DEBUG
 
 {% if django.debug %}
 def show_toolbar(request):
-    return True
+    return DEBUG
 DEBUG_TOOLBAR_CONFIG = {
-    'SHOW_TOOLBAR_CALLBACK': show_toolbar
+    'SHOW_TOOLBAR_CALLBACK': 'ombrelloni.settings.show_toolbar'
 }
+DEBUG_TOOLBAR_PATCH_SETTINGS = False
 {% endif %}
 
 ADMINS = (
