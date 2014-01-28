@@ -14,6 +14,7 @@ venv:
                 - 'Sphinx'
                 - 'argparse'
                 - 'django-autoslug'
+                - 'django-allauth'
                 - 'django-modeltranslation'
                 - 'docutils'
                 - 'whoosh'

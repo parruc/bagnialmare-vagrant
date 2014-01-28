@@ -25,12 +25,21 @@ django:
                 - 'django.contrib.admin'
                 - 'django.contrib.admindocs'
                 - 'django.contrib.gis'
+                - 'django.contrib.sites'
+                - 'allauth'
+                - 'allauth.account'
+                - 'allauth.socialaccount'
+                - 'allauth.socialaccount.providers.facebook'
+                - 'allauth.socialaccount.providers.google'
+                - 'allauth.socialaccount.providers.openid'
+                - 'allauth.socialaccount.providers.twitter'
                 - 'modeltranslation'
                 - 'south'
                 - 'autoslug'
                 - 'sorl.thumbnail'
                 - 'compressor'
                 - 'bagni'
+                - 'managers'
         {% if dev %}
                 - 'fts'
                 - 'debug_toolbar'
@@ -46,6 +55,9 @@ django:
         {% if dev %}
                 - 'debug_toolbar.middleware.DebugToolbarMiddleware'
         {% endif %}
+            authentication_backends:
+                - 'django.contrib.auth.backends.ModelBackend'
+                - 'allauth.account.auth_backends.AuthenticationBackend'
             template_loaders:
                 - 'django.template.loaders.filesystem.Loader'
                 - 'django.template.loaders.app_directories.Loader'
@@ -62,6 +74,8 @@ django:
             template_context_processors:
                 - 'django.core.context_processors.request'
                 - 'django.contrib.auth.context_processors.auth'
+                - 'allauth.account.context_processors.account'
+                - 'allauth.socialaccount.context_processors.socialaccount'
                 - 'django.core.context_processors.debug'
                 - 'django.core.context_processors.i18n'
                 - 'django.core.context_processors.media'
