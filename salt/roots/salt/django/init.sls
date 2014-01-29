@@ -93,6 +93,7 @@ django_index_folder_{{ django_name }}:
         - require:
             - file: django_loaddata_script_{{ django_name }}
 
+
 django_loaddata_{{ django_name }}:
     cmd.run:
         - name: /tmp/prepare_data.sh
