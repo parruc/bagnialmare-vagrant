@@ -142,6 +142,7 @@ MIDDLEWARE_CLASSES = (
 AUTHENTICATION_BACKENDS = (
     {% for authentication_backend in django.authentication_backends %}'{{ authentication_backend }}',
     {% endfor %}
+)
 
 FIXTURE_DIRS = (
     {% for fixture_dir in django.fixture_dirs %}os.path.join(os.path.dirname(__file__), '{{ fixture_dir }}'),
