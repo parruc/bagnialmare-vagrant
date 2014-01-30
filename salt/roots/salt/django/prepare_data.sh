@@ -8,7 +8,7 @@
 {% if loc %}
 {{ venv.path }}/bin/python manage.py loaddata dump.json
 {% else %}
-echo "NOT IMPORTING DATA FROM DUMP TO AVOID DATA OVERRIDE"
+echo "NOT IMPORTING DATA OUTSIDE LOCAL BOX TO AVOID OVERRIDE"
 {% endif %}
 {{ venv.path }}/bin/python manage.py collectstatic -l --noinput
 {{ venv.path }}/bin/python manage.py compilemessages
