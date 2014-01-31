@@ -3,6 +3,7 @@
 {% set django = pillar['django'].djangos[django_name] %}
 {% set host = pillar['nginx'].hosts[django_name] %}
 {% set db = pillar['pg'].dbs[django_name] %}
+{% set dev = grains['configuration'] in ['local', 'dev'] %}
 
 import os
 
@@ -177,6 +178,13 @@ INSTALLED_APPS = (
 # South specific configuration to exclude migrations from tests
 SKIP_SOUTH_TESTS = True
 SOUTH_TESTS_MIGRATE = False
+
+{% if dev %}
+EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+EMAIL_FILE_PATH = '../log/mail.log'
+{% else %}
+#TODO: EMAIL BACKEND QUANDO IL DOMINIO ED I DNS SONO OK
+{% endif %}
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
