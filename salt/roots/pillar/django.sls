@@ -40,7 +40,7 @@ django:
                 - 'sorl.thumbnail'
                 - 'compressor'
                 - 'bagni'
-                - 'managers'
+                - 'authauth'
         {% if dev %}
                 - 'fts'
                 - 'debug_toolbar'

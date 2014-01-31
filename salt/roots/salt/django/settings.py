@@ -19,7 +19,7 @@ DEBUG_TOOLBAR_CONFIG = {
 DEBUG_TOOLBAR_PATCH_SETTINGS = False
 {% endif %}
 
-ACCOUNT_SIGNUP_FORM_CLASS = "managers.forms.ManagerSignupForm"
+ACCOUNT_SIGNUP_FORM_CLASS = "authauth.forms.ManagerSignupForm"
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
