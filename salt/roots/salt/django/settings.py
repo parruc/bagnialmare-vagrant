@@ -21,9 +21,13 @@ DEBUG_TOOLBAR_PATCH_SETTINGS = False
 {% endif %}
 
 ACCOUNT_SIGNUP_FORM_CLASS = "authauth.forms.ManagerSignupForm"
+LOGIN_REDIRECT_URL = "homepage"
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ("Matteo Parrucci", "parruc@gmail.com", ),
+    ("Nicola Valentini", "nicola.valentini@gmail.com", ),
+    ("Marco Bartolini", "marcobartolini@gmail.com", ),
+    ("Marco Benvenuto", "marco.benvenuto1@gmail.com", ),
 )
 
 MANAGERS = ADMINS
