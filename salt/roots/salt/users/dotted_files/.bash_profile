@@ -864,6 +864,7 @@ _killall()
 
 complete -F _killall killall killps
 
+export EDITOR=vim
 export WORKON_HOME=$HOME
 source virtualenvwrapper.sh
 
