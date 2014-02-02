@@ -36,7 +36,6 @@ django:
                 - 'allauth.socialaccount.providers.twitter'
                 #}
                 - 'modeltranslation'
-                - 'permission'
                 - 'south'
                 - 'autoslug'
                 - 'sorl.thumbnail'
@@ -61,7 +60,6 @@ django:
             authentication_backends:
                 - 'django.contrib.auth.backends.ModelBackend'
                 - 'allauth.account.auth_backends.AuthenticationBackend'
-                - 'permission.backends.PermissionBackend'
             template_loaders:
                 - 'django.template.loaders.filesystem.Loader'
                 - 'django.template.loaders.app_directories.Loader'

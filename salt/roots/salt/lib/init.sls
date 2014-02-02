@@ -30,6 +30,7 @@ lib_reqs:
     pkg.installed:
         - names:
             - gettext
+            - libgdal-dev
             - libjpeg8
             - libjpeg8-dev
             - libxml2
