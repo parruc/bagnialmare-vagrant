@@ -15,7 +15,6 @@ venv:
                 - 'argparse'
                 - 'django-autoslug'
                 - 'django-allauth'
-                - 'django-permission'
                 - 'django-modeltranslation'
                 - 'docutils'
                 - 'whoosh'
