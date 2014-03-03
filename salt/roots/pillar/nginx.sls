@@ -5,7 +5,7 @@ nginx:
             {% if grains['configuration'] == 'local' %}
             server_name : 'ombrelloni.it'
             {% elif grains['configuration'] == 'dev' %}
-            server_name : 'dev.creepingserver.it'
+            server_name : 'bagnialmare.com'
             {% else %}
             server_name : 'da decidere'
             {% endif %}
