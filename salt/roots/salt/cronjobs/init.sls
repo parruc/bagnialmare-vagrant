@@ -1,6 +1,6 @@
 {% set dev = grains['configuration'] in ['dev'] %}
 
-
+{% if dev %}
 
 {% for django_name, django in pillar['django'].djangos.iteritems() %}
 {% set user = pillar.users[django_name] %}
@@ -44,4 +44,4 @@ add_cronjob_dumpdb{{ django_name }}:
         - comment: Dump django db every day at 20 PM UTC 2:00 AM and commit the dump
 
 {% endfor %}
-
+{% endif %}
