@@ -8,7 +8,7 @@
 add_cron_dumpdata_{{ django_name }}:
     file.managed:
         - name: {{ user.home_path }}/dbutils/dumpdata.sh
-        - source: salt://cronjobs/dumpdata.sh
+        - source: salt://cronjobs/dbutils/dumpdata.sh
         - user: {{ user.name }}
         - group: {{ user.group }}
         - mode: 500
@@ -19,7 +19,7 @@ add_cron_dumpdata_{{ django_name }}:
 add_cron_dumpdb_{{ django_name }}:
     file.managed:
         - name: {{ user.home_path }}/dbutils/dumpdb.sh
-        - source: salt://cronjobs/dumpdb.sh
+        - source: salt://cronjobs/dbutils/dumpdb.sh
         - user: {{ user.name }}
         - group: {{ user.group }}
         - mode: 500
