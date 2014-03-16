@@ -7,7 +7,7 @@
 
 add_cron_dumpdata_{{ django_name }}:
     file.managed:
-        - name: {{ user.home_path }}/dbutils/dumpdata.sh
+        - name: {{ user.home_path }}/django/dbutils/dumpdata.sh
         - source: salt://cronjobs/dbutils/dumpdata.sh
         - user: {{ user.name }}
         - group: {{ user.group }}
@@ -18,7 +18,7 @@ add_cron_dumpdata_{{ django_name }}:
 
 add_cron_dumpdb_{{ django_name }}:
     file.managed:
-        - name: {{ user.home_path }}/dbutils/dumpdb.sh
+        - name: {{ user.home_path }}/django/dbutils/dumpdb.sh
         - source: salt://cronjobs/dbutils/dumpdb.sh
         - user: {{ user.name }}
         - group: {{ user.group }}
@@ -29,7 +29,7 @@ add_cron_dumpdb_{{ django_name }}:
 
 add_cronjob_dumpdata{{ django_name }}:
     cron.present:
-        - name: {{ user.home_path }}/dbutils/dumpdata.sh
+        - name: {{ user.home_path }}/django/dbutils/dumpdata.sh
         - user: {{ user.name }}
         - minute: 0
         - hour: 21
@@ -37,7 +37,7 @@ add_cronjob_dumpdata{{ django_name }}:
 
 add_cronjob_dumpdb{{ django_name }}:
     cron.present:
-        - name: {{ user.home_path }}/dbutils/dumpdb.sh
+        - name: {{ user.home_path }}/django/dbutils/dumpdb.sh
         - user: root
         - minute: 0
         - hour: 20
