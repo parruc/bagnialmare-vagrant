@@ -40,9 +40,6 @@ user_with_home_{{ user_name }}:
         - name: {{ user.home_path }}
         - user: {{ user.name }}
         - group: {{ user.group }}
-        - recurse:
-            - user
-            - group
         - require:
             - user: user_{{ user_name }}
 

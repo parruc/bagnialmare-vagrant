@@ -22,7 +22,6 @@ venv_reqs:
 venv_{{ venv_name }}:
     virtualenv.managed:
         - name: {{ venv.path }}
-        - no_site_packages: True
         - python: /usr/bin/python2.7
         - user: {{ user.name }}
         - require:
