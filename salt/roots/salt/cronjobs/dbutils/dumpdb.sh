@@ -2,6 +2,6 @@
 {% set user = pillar.users[django_name] %}
 {% set db_user = pillar.users['postgres'] %}
 
-sudo -u {{ db_user.name }} pg_dump {{ db.name }} > ombrelloni/fixtures/dump.sql
+sudo -u {{ db_user.name }} pg_dump -C {{ db.name }} > ombrelloni/fixtures/dump.sql
 chown {{ user.name }}:{{ user.group }} ombrelloni/fixtures/dump.sql
 git commit ombrelloni/fixtures/* -m "db dump"
