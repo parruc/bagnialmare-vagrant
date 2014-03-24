@@ -13,7 +13,9 @@ COMPRESS_ENABLED = not DEBUG
 
 {% if django.debug %}
 def show_toolbar(request):
-    return DEBUG
+    if request.GET.get("toolbar", None):
+        return DEBUG
+    return False
 DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': 'ombrelloni.settings.show_toolbar'
 }
