@@ -7,6 +7,10 @@ django:
             db_engine: 'django.contrib.gis.db.backends.postgis'
             db_host: 'localhost'
             db_port: '5432'
+            email_host: 'mail.bagnialmare.com'
+            email_port: '25'
+            email_user: 'info@bagnialmare.com'
+            email_pass: 'fTIm9sr2@thx'
         {% if dev %}
             debug: 'True'
             coverage_command: './unittests'
@@ -42,6 +46,7 @@ django:
                 - 'compressor'
                 - 'bagni'
                 - 'authauth'
+                - 'contacts'
         {% if dev %}
                 - 'fts'
                 - 'debug_toolbar'

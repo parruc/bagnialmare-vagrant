@@ -4,6 +4,7 @@
 {% set host = pillar['nginx'].hosts[django_name] %}
 {% set db = pillar['pg'].dbs[django_name] %}
 {% set dev = grains['configuration'] in ['local', 'dev'] %}
+{% set loc = grains['configuration'] in ['local'] %}
 
 import os
 
@@ -27,9 +28,9 @@ LOGIN_REDIRECT_URL = "homepage"
 
 ADMINS = (
     ("Matteo Parrucci", "parruc@gmail.com", ),
-    ("Nicola Valentini", "nicola.valentini@gmail.com", ),
-    ("Marco Bartolini", "marcobartolini@gmail.com", ),
-    ("Marco Benvenuto", "marco.benvenuto1@gmail.com", ),
+#    ("Nicola Valentini", "nicola.valentini@gmail.com", ),
+#    ("Marco Bartolini", "marcobartolini@gmail.com", ),
+#    ("Marco Benvenuto", "marco.benvenuto1@gmail.com", ),
 )
 
 MANAGERS = ADMINS
@@ -185,11 +186,17 @@ INSTALLED_APPS = (
 SKIP_SOUTH_TESTS = True
 SOUTH_TESTS_MIGRATE = False
 
-{% if dev %}
+{% if loc %}
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = '../log/mail.log'
 {% else %}
-#TODO: EMAIL BACKEND QUANDO IL DOMINIO ED I DNS SONO OK
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = '{{ django.email_host }}'
+EMAIL_PORT = '{{ django.email_port }}'
+EMAIL_HOST_USER = '{{ django.email_user }}'
+EMAIL_HOST_PASSWORD = '{{ django.email_pass }}'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = True
 {% endif %}
 
 # A sample logging configuration. The only tangible logging
