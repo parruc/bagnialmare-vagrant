@@ -28,9 +28,9 @@ LOGIN_REDIRECT_URL = "homepage"
 
 ADMINS = (
     ("Matteo Parrucci", "parruc@gmail.com", ),
-#    ("Nicola Valentini", "nicola.valentini@gmail.com", ),
-#    ("Marco Bartolini", "marcobartolini@gmail.com", ),
-#    ("Marco Benvenuto", "marco.benvenuto1@gmail.com", ),
+    ("Nicola Valentini", "nicola.valentini@gmail.com", ),
+    ("Marco Bartolini", "marcobartolini@gmail.com", ),
+    ("Marco Benvenuto", "marco.benvenuto1@gmail.com", ),
 )
 
 MANAGERS = ADMINS
