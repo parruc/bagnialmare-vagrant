@@ -89,3 +89,6 @@ django:
                 - 'django.core.context_processors.static'
                 - 'django.core.context_processors.tz'
                 - 'django.contrib.messages.context_processors.messages'
+            locale_paths:
+                - '/var/www/ombrelloni.it/django/ombrelloni/locale/'
+

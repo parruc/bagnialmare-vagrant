@@ -176,6 +176,12 @@ TEMPLATE_DIRS = (
     {% endfor %}
 )
 
+LOCALE_PATHS = (
+    {% for locale_path in django.locale_paths %}
+        '{{ locale_path }}',
+    {% endfor %}
+)
+
 INSTALLED_APPS = (
     {% for installed_app in django.installed_apps %}
         '{{ installed_app }}',
