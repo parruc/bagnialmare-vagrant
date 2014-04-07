@@ -30,6 +30,7 @@ django:
                 - 'django.contrib.admindocs'
                 - 'django.contrib.gis'
                 - 'django.contrib.sites'
+                - 'django.contrib.sitemaps'
                 - 'allauth'
                 - 'allauth.account'
                 - 'allauth.socialaccount'
