@@ -41,6 +41,7 @@ lib_reqs:
             - libtiff4-dev
             - libzip2
             - libzip-dev
+            - libtidy-dev
         - require:
             - pkgrepo: lib_repo_remove
             - pkgrepo: lib_repo_add

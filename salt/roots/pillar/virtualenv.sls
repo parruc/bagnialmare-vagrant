@@ -37,9 +37,11 @@ venv:
                 - 'ipdb'
                 - 'ipython'
                 - 'django-debug-toolbar'
+                - 'django-debug-toolbar-line-profiler'
                 - 'uwsgitop'
                 - 'coverage'
                 - 'selenium'
             {% endif %}
 
 {# KEEP FOR REFERENCE: TO ADD THIRD PARTY PACKAGES IN DEV MODE --editable=hg+https://bitbucket.org/mchaput/whoosh#egg=Whoosh #}
+{#                - 'django-dtpanel-htmltidy' #}
