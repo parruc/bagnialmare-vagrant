@@ -13,6 +13,7 @@ add_dbutils_directory_{{ django_name }}:
         - template: jinja
         - defaults:
             django_name: {{ django_name }}
+            django_path: {{ django.path }}
         - makedirs: True
         - replace: True
 
