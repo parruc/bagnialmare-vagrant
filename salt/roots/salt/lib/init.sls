@@ -42,6 +42,7 @@ lib_reqs:
             - libzip2
             - libzip-dev
             - libtidy-dev
+            - memcached
         - require:
             - pkgrepo: lib_repo_remove
             - pkgrepo: lib_repo_add

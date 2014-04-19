@@ -5,6 +5,7 @@
 {% set db = pillar['pg'].dbs[django_name] %}
 {% set dev = grains['configuration'] in ['local', 'dev'] %}
 {% set loc = grains['configuration'] in ['local'] %}
+{% set prod = grains['configuration'] in ['prod'] %}
 
 import os
 
@@ -45,6 +46,15 @@ ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 ACCOUNT_AUTHENTICATION_METHOD = "email"
 ACCOUNT_USERNAME_REQUIRED = False
 LOGIN_REDIRECT_URL = "homepage"
+
+{% if prod %}
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+    }
+}
+{% endif %}
 
 ADMINS = (
     ("Matteo Parrucci", "parruc@gmail.com", ),

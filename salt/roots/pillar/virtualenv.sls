@@ -6,6 +6,7 @@ venv:
             packages:
                 - 'BeautifulSoup'
                 - 'Django'
+                - 'python-memcached'
                 - 'Jinja2'
                 - 'MarkupSafe'
                 - 'Pillow'
