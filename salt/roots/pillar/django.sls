@@ -57,14 +57,16 @@ django:
         {% endif %}
             secret_key: 'u)-#(7qe0o9=+ez%ay0=vi#oc52*&4np3x5^m!!c6u$@yr5eud'
             middleware:
+                - 'django.middleware.gzip.GZipMiddleware',
+                - 'django.middleware.cache.UpdateCacheMiddleware'
                 - 'django.contrib.sessions.middleware.SessionMiddleware'
                 - 'django.middleware.locale.LocaleMiddleware'
-                - 'django.middleware.cache.UpdateCacheMiddleware'
                 - 'django.middleware.common.CommonMiddleware'
                 - 'django.middleware.cache.FetchFromCacheMiddleware'
                 - 'django.middleware.csrf.CsrfViewMiddleware'
                 - 'django.contrib.auth.middleware.AuthenticationMiddleware'
                 - 'django.contrib.messages.middleware.MessageMiddleware'
+                - 'django.middleware.cache.FetchFromCacheMiddleware'
         {% if dev %}
                 - 'debug_toolbar.middleware.DebugToolbarMiddleware'
         {% endif %}
