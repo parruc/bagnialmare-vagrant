@@ -55,6 +55,17 @@ django_settings_test_{{ django_name }}:
             - virtualenv: venv_{{ django_name }}
             - file: user_with_home_{{ django_name }}
 
+django_uwsgi_logs_{{ django_name }}:
+    file.managed:
+        - name: {{ host.root }}/log/uwsgi_django.log
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - file_mode: 640
+        - makedirs: True
+        - replace: True
+        - require:
+            - file: user_with_home_{{ django_name }}
+
 django_logs_{{ django_name }}:
     file.managed:
         - name: {{ host.root }}/log/django.log

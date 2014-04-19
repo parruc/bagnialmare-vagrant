@@ -4,7 +4,6 @@
 {% set host = pillar['nginx'].hosts[django_name] %}
 {% set db = pillar['pg'].dbs[django_name] %}
 {% set dev = grains['configuration'] in ['local', 'dev'] %}
-{% set loc = grains['configuration'] in ['local'] %}
 {% set prod = grains['configuration'] in ['prod'] %}
 
 import os
@@ -90,7 +89,7 @@ COMPRESS_JS_FILTERS = [
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['{{ host.server_name }}', ]
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -222,7 +221,7 @@ INSTALLED_APPS = (
 SKIP_SOUTH_TESTS = True
 SOUTH_TESTS_MIGRATE = False
 
-{% if loc %}
+{% if dev %}
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = '../log/mail.log'
 {% else %}
@@ -266,6 +265,11 @@ LOGGING = {
             'class': 'logging.StreamHandler',
             'filters': ['require_debug_true'],
         },
+        'file':{
+            'level': 'WARNING',
+            'class': 'logging.FileHandler',
+            'filename': '../log/django.log',
+        },
     },
     'loggers': {
         'django.request': {
@@ -277,6 +281,10 @@ LOGGING = {
             'handlers': ['console'],
             'level': 'DEBUG',
             'propagate': True,
+        },
+        'django': {
+            'handlers': ['file'],
+            'level': 'WARNING',
         },
     }
 }
