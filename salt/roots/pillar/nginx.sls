@@ -5,9 +5,9 @@ nginx:
             {% if grains['configuration'] == 'local' %}
             server_name : 'ombrelloni.it'
             {% elif grains['configuration'] == 'dev' %}
+            server_name : 'dev.bagnialmare.com'
+            {% elif  grains['configuration'] == 'prod' %}
             server_name : 'bagnialmare.com'
-            {% else %}
-            server_name : 'da decidere'
             {% endif %}
             root: '/var/www/ombrelloni.it'
             web: '/var/www/ombrelloni.it/web'

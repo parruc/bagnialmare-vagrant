@@ -1,4 +1,4 @@
-{% set dev = grains['configuration'] in ['dev'] %}
+{% set prod = grains['configuration'] in ['prod'] %}
 
 {% for django_name, django in pillar['django'].djangos.iteritems() %}
 {% set user = pillar.users[django_name] %}
@@ -17,7 +17,7 @@ add_dbutils_directory_{{ django_name }}:
         - makedirs: True
         - replace: True
 
-{% if dev %}
+{% if prod %}
 
 add_cronjob_dumpdata{{ django_name }}:
     cron.present:
