@@ -1,4 +1,4 @@
-{% set dev = grains['configuration'] in ['dev'] %}
+{% set dev = grains['configuration'] in ['local', dev'] %}
 
 nginx_reqs:
     pkg:
@@ -86,7 +86,7 @@ nginx_{{ host_name }}_static_dir:
             - pkg: nginx_reqs
 {% endif %}
 
-{% if host.doc %}
+{% if dev %}
 nginx_{{ host_name }}_doc_dir:
     file.symlink:
         - name: {{ host.doc }}
@@ -97,9 +97,7 @@ nginx_{{ host_name }}_doc_dir:
         - makedirs: True
         - require:
             - cmd: django_doc_{{ host_name }}
-{% endif %}
 
-{% if host.coverage %}
 nginx_{{ host_name }}_coverage_dir:
     file.symlink:
         - name: {{ host.coverage }}
@@ -110,16 +108,6 @@ nginx_{{ host_name }}_coverage_dir:
         - makedirs: True
         - require:
             - cmd: django_coverage_{{ host_name }}
-{% endif %}
-
-{% if dev %}
-nginx_htpasswd_{{ host_name }}:
-    file.managed:
-        - name: /etc/nginx/htpasswd_{{ host_name }}
-        - source: salt://nginx/htpasswd_{{ host_name }}
-        - user: root
-        - group: www-data
-        - file_mode: 640
 {% endif %}
 
 nginx_site_{{ host_name }}:

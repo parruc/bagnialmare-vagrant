@@ -1,7 +1,7 @@
 {% for django_name, django in pillar['django'].djangos.iteritems() %}
 {% set user = pillar['users'][django_name] %}
 {% set host = pillar['nginx'].hosts[django_name] %}
-
+{% set dev = grains['configuration'] in ['local', 'dev'] %}
 
 django_wsgi_{{ django_name }}:
     file.managed:
@@ -108,7 +108,7 @@ django_loaddata_{{ django_name }}:
             - file: nginx_{{ django_name }}_static_dir
             - file: django_loaddata_script_{{ django_name }}
 
-{% if django.coverage_command and django.coverage_path %}
+{% if dev %}
 django_coverage_{{ django_name }}:
     cmd.run:
         - name: {{ django.coverage_command }}
@@ -119,9 +119,7 @@ django_coverage_{{ django_name }}:
             - git: git_{{ django_name }}
             - file: django_settings_{{ django_name }}
             - pip: venv_pip_{{ django_name }}
-{% endif %}
 
-{% if django.doc_command and django.doc_path %}
 django_doc_{{ django_name }}:
     cmd.run:
         - name: {{ django.doc_command }}
