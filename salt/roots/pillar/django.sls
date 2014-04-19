@@ -48,6 +48,7 @@ django:
                 - 'bagni'
                 - 'authauth'
                 - 'contacts'
+                - 'ckeditor'
         {% if dev %}
                 - 'fts'
                 - 'debug_toolbar'

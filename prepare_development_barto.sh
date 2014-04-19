@@ -13,7 +13,7 @@ CWD=$(pwd)
 echo "mounting $GUEST_DIR to $HOST_DIR"
 sshfs $GUEST_DIR $HOST_DIR -o uid=$(id -u) -o gid=$(id -g) -o defer_permissions
 echo "changing git credentials for your user: $GIT_USER"
-cd $HOST_DIR/django
+#cd $HOST_DIR/django
 #git config --global user.email "parruc@gmail.com"
 #git config --global user.name "Matteo Parrucci"
 #git remote rm origin
@@ -24,4 +24,4 @@ cd $CWD
 #launch selenium local server
 #java -jar selenium &
 #forward guest selenium port to host
-vagrant ssh -- -f -R 4444:localhost:4444 -N
+#vagrant ssh -- -f -R 4444:localhost:4444 -N

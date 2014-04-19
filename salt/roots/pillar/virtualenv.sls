@@ -33,6 +33,7 @@ venv:
                 - 'cssmin'
                 - 'jsmin'
                 - 'geopy'
+                - 'django-ckeditor-updated'
             {% if dev %}
                 - 'factory-boy'
                 - 'ipdb'

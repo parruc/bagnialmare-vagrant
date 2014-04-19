@@ -235,6 +235,10 @@ EMAIL_USE_TLS = True
 EMAIL_USE_SSL = True
 {% endif %}
 
+#this must be defined but ckeditor uploads are disabled
+#without this variable django will not work thus
+CKEDITOR_UPLOAD_PATH = "ckuploads/"
+
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
 # the site admins on every HTTP 500 error when DEBUG=False.
