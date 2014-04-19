@@ -1,5 +1,5 @@
 {% set host = pillar['nginx'].hosts[host_name] %}
-{% set dev = grains['configuration'] in ['dev'] %}
+{% set dev = grains['configuration'] in ['dev', 'local'] %}
 
 server {
     listen *:80;
@@ -93,16 +93,14 @@ server {
     }
 {% endif %}
 
-{% if host.doc %}
+{% if dev %}
     location /doc/ {
         gzip_static on;
         gzip_disable "MSIE [1-6]\.(?!.*SV1)";
         gzip_types application/x-javascript text/css;
         root {{ host.web }};
     }
-{% endif %}
 
-{% if host.coverage %}
     location /coverage/ {
         gzip_static on;
         gzip_disable "MSIE [1-6]\.(?!.*SV1)";
@@ -115,10 +113,6 @@ server {
     location / {
         include uwsgi_params;
         uwsgi_pass unix:/tmp/uwsgi_{{ host_name }}.sock;
-        {% if dev %}
-        auth_basic Restricted;
-        auth_basic_user_file htpasswd_ombrelloni;
-        {% endif %}
     }
     location /debug/ {
         rewrite ^/debug/(.*)$  /$1  break;
