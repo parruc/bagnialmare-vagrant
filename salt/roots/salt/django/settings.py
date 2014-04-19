@@ -89,7 +89,7 @@ COMPRESS_JS_FILTERS = [
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#\wed-hosts
-ALLOWED_HOSTS = ['{{ host.server_name }}', 'www.{{ host.server_name }}', ]
+ALLOWED_HOSTS = ['.{{ host.server_name }}', ]
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
