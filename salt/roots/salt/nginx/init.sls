@@ -1,4 +1,4 @@
-{% set dev = grains['configuration'] in ['local', dev'] %}
+{% set dev = grains['configuration'] in ['local', 'dev'] %}
 
 nginx_reqs:
     pkg:
