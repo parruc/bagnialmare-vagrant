@@ -98,4 +98,7 @@ django:
                 - 'django.contrib.messages.context_processors.messages'
             locale_paths:
                 - '/var/www/ombrelloni.it/django/ombrelloni/locale/'
+                - '/var/www/ombrelloni.it/django/authauth/locale/'
+                - '/var/www/ombrelloni.it/django/bagni/locale/'
+                - '/var/www/ombrelloni.it/django/contacts/locale/'
 
