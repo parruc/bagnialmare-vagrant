@@ -4,6 +4,7 @@ django:
         ombrelloni:
             settings: 'ombrelloni.settings'
             path: '/var/www/ombrelloni.it/django'
+            logs_path: '/var/www/ombrelloni.it/log'
             db_engine: 'django.contrib.gis.db.backends.postgis'
             db_host: 'localhost'
             db_port: '5432'

@@ -57,7 +57,7 @@ django_settings_test_{{ django_name }}:
 
 django_uwsgi_logs_{{ django_name }}:
     file.managed:
-        - name: {{ host.root }}/log/uwsgi_django.log
+        - name: {{ django.logs_path }}/uwsgi_django.log
         - user: {{ user.name }}
         - group: {{ user.group }}
         - file_mode: 640
@@ -68,7 +68,7 @@ django_uwsgi_logs_{{ django_name }}:
 
 django_logs_{{ django_name }}:
     file.managed:
-        - name: {{ host.root }}/log/django.log
+        - name: {{ django.logs_path }}/uwsgi_django.log
         - user: {{ user.name }}
         - group: {{ user.group }}
         - file_mode: 640

@@ -223,7 +223,7 @@ SOUTH_TESTS_MIGRATE = False
 
 {% if dev %}
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
-EMAIL_FILE_PATH = '../log/mail.log'
+EMAIL_FILE_PATH = '{{ django.logs_path }}/mail.log'
 {% else %}
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = '{{ django.email_host }}'
@@ -268,7 +268,7 @@ LOGGING = {
         'file':{
             'level': 'WARNING',
             'class': 'logging.FileHandler',
-            'filename': '../log/django.log',
+            'filename': '{{ django.logs_path }}/django.log',
         },
     },
     'loggers': {
