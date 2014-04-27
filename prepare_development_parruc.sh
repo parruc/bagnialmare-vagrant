@@ -11,7 +11,7 @@ GUEST_DIR=vagrant-ombrelloni:/var/www/ombrelloni.it
 CWD=$(pwd)
 
 echo "mounting $GUST_DIR to $HOST_DIR"
-sudo mount -t cifs //192.168.50.5/ombrelloni $HOST_DIR -o username=ombrelloni,password=ombrelloni,uid=creepingdeath
+sudo mount -t cifs //192.168.50.2/ombrelloni $HOST_DIR -o username=ombrelloni,password=ombrelloni,uid=creepingdeath
 echo "changing git credentials for your user: $GIT_USER"
 cd "$HOST_DIR/django"
 if [ "$PWD"=="$HOST_DIR/django" ]; then
