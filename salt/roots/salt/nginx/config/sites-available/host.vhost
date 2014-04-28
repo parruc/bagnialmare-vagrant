@@ -1,11 +1,18 @@
 {% set host = pillar['nginx'].hosts[host_name] %}
 {% set dev = grains['configuration'] in ['dev', 'local'] %}
 
+
+server {
+    listen *:80;
+    server_name www.{{ host.server_name }};
+    return 301 http://{{ host.server_name }}$request_uri;
+}
+
 server {
     listen *:80;
 
 
-    server_name {{ host.server_name }} www.{{ host.server_name }};
+    server_name {{ host.server_name }};
 
     root   {{ host.web }};
 
