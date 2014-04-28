@@ -116,8 +116,8 @@ server {
     }
 {% endif %}
 
-    # location = / { rewrite ^ /i18n/setlang/ permanent; }
     location / {
+        rewrite ^/Sitemap.xml$ /sitemap.xml break;
         include uwsgi_params;
         uwsgi_pass unix:/tmp/uwsgi_{{ host_name }}.sock;
     }
