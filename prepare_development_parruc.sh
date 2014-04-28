@@ -17,6 +17,7 @@ cd "$HOST_DIR/django"
 if [ "$PWD"=="$HOST_DIR/django" ]; then
     git config --global user.email "parruc@gmail.com"
     git config --global user.name "Matteo Parrucci"
+    git config master.autosetuprebase always
 #    git remote rm origin
 #    git remote add origin https://$GIT_USER@bitbucket.org/flyingfrog/4hm.git
 fi
