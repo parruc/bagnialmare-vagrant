@@ -86,6 +86,18 @@ nginx_{{ host_name }}_static_dir:
             - pkg: nginx_reqs
 {% endif %}
 
+nginx_{{ host_name }}_robots:
+    file.managed:
+        - name: {{ host.web }}/robots.txt
+        - source: salt://nginx/robots.txt
+        - user: {{ user.name }}
+        - group: {{ user.group }}
+        - mode: 755
+        - require:
+            - file: user_with_home_{{ host_name }}
+            - pkg: nginx_reqs
+
+
 {% if dev %}
 nginx_{{ host_name }}_doc_dir:
     file.symlink:
