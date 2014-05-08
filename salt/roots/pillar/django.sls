@@ -47,6 +47,7 @@ django:
                 - 'sorl.thumbnail'
                 - 'compressor'
                 - 'bagni'
+                - 'multilingual'
                 - 'authauth'
                 - 'contacts'
                 - 'ckeditor'
