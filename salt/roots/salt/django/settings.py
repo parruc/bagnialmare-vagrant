@@ -39,6 +39,7 @@ DEBUG_TOOLBAR_PANELS = [
 ]
 {% endif %}
 
+DEFAULT_FROM_EMAIL = "info@bagnialmare.com"
 ACCOUNT_SIGNUP_FORM_CLASS = "authauth.forms.ManagerSignupForm"
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = "mandatory"
