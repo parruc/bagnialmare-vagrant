@@ -50,6 +50,7 @@ django:
                 - 'multilingual'
                 - 'authauth'
                 - 'contacts'
+                - 'userfeedback'
                 - 'ckeditor'
         {% if dev %}
                 - 'fts'
