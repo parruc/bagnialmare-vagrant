@@ -239,7 +239,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = '{{ django.logs_path }}/mail.log'
 {% else %}
 MANDRILL_API_KEY = "oqrObEV8ZI_4hvxcNwbDcQ"
-MASS_EMAIL_BACKEND = "newsletters.mail.backends.mandreill.MandrillBackend"
+MASS_EMAIL_BACKEND = "newsletters.mail.backends.mandrill.MandrillBackend"
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = '{{ django.email_host }}'
 EMAIL_PORT = '{{ django.email_port }}'
