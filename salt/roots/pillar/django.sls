@@ -22,6 +22,33 @@ django:
             debug: 'False'
         {% endif %}
             installed_apps:
+                - 'bagni'
+                - 'newsletters'
+                - 'multilingual'
+                - 'authauth'
+                - 'contacts'
+                - 'userfeedback'
+        {% if dev %}
+                - 'fts'
+                - 'debug_toolbar'
+{#                - 'debug_toolbar_htmltidy' #}
+                - 'debug_toolbar_line_profiler'
+        {% endif %}
+                - 'allauth'
+                - 'allauth.account'
+                - 'allauth.socialaccount'
+                {#
+                - 'allauth.socialaccount.providers.facebook'
+                - 'allauth.socialaccount.providers.google'
+                - 'allauth.socialaccount.providers.openid'
+                - 'allauth.socialaccount.providers.twitter'
+                #}
+                - 'autoslug'
+                - 'compressor'
+                - 'ckeditor'
+                - 'modeltranslation'
+                - 'sorl.thumbnail'
+                - 'south'
                 - 'django.contrib.auth'
                 - 'django.contrib.contenttypes'
                 - 'django.contrib.sessions'
@@ -32,33 +59,7 @@ django:
                 - 'django.contrib.gis'
                 - 'django.contrib.sites'
                 - 'django.contrib.sitemaps'
-                - 'allauth'
-                - 'allauth.account'
-                - 'allauth.socialaccount'
-                {#
-                - 'allauth.socialaccount.providers.facebook'
-                - 'allauth.socialaccount.providers.google'
-                - 'allauth.socialaccount.providers.openid'
-                - 'allauth.socialaccount.providers.twitter'
-                #}
-                - 'modeltranslation'
-                - 'south'
-                - 'autoslug'
-                - 'sorl.thumbnail'
-                - 'compressor'
-                - 'bagni'
-                - 'newsletters'
-                - 'multilingual'
-                - 'authauth'
-                - 'contacts'
-                - 'userfeedback'
-                - 'ckeditor'
-        {% if dev %}
-                - 'fts'
-                - 'debug_toolbar'
-{#                - 'debug_toolbar_htmltidy' #}
-                - 'debug_toolbar_line_profiler'
-        {% endif %}
+                - 'django.contrib.webdesign'
             secret_key: 'u)-#(7qe0o9=+ez%ay0=vi#oc52*&4np3x5^m!!c6u$@yr5eud'
             middleware:
                 - 'django.middleware.gzip.GZipMiddleware'
