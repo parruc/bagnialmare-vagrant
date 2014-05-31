@@ -232,14 +232,11 @@ INSTALLED_APPS = (
 SKIP_SOUTH_TESTS = True
 SOUTH_TESTS_MIGRATE = False
 
-{% if dev %}
+{% if prod %}
 MANDRILL_API_KEY = "oqrObEV8ZI_4hvxcNwbDcQ"
-MASS_EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
-EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
-EMAIL_FILE_PATH = '{{ django.logs_path }}/mail.log'
-{% else %}
-MANDRILL_API_KEY = "oqrObEV8ZI_4hvxcNwbDcQ"
+MANDRILL_API_TEST_KEY = "9A8CJujchIFopMGY0Xry8A"
 MASS_EMAIL_BACKEND = "newsletters.mail.backends.mandrill.MandrillBackend"
+MASS_EMAIL_TEST_BACKEND = "newsletters.mail.backends.mandrill.MandrillTestBackend"
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = '{{ django.email_host }}'
 EMAIL_PORT = '{{ django.email_port }}'
@@ -247,6 +244,12 @@ EMAIL_HOST_USER = '{{ django.email_user }}'
 EMAIL_HOST_PASSWORD = '{{ django.email_pass }}'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = True
+{% else %}
+MANDRILL_API_KEY = "oqrObEV8ZI_4hvxcNwbDcQ"
+MANDRILL_API_TEST_KEY = "9A8CJujchIFopMGY0Xry8A"
+MASS_EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+EMAIL_FILE_PATH = '{{ django.logs_path }}/mail.log'
 {% endif %}
 
 #this must be defined but ckeditor uploads are disabled
