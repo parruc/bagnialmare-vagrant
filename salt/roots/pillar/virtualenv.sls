@@ -34,6 +34,7 @@ venv:
                 - 'jsmin'
                 - 'geopy'
                 - 'django-ckeditor-updated'
+                - 'pyzmq'
             {% if dev %}
                 - 'factory-boy'
                 - 'ipdb'
