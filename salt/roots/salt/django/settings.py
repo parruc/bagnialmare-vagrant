@@ -251,6 +251,7 @@ MASS_EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = '{{ django.logs_path }}/mail.log'
 {% endif %}
+MAILOFFLOADER_SOCKET = "ipc:///tmp/mailoffloader.ipc"
 
 #this must be defined but ckeditor uploads are disabled
 #without this variable django will not work thus
