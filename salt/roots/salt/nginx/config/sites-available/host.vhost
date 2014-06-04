@@ -1,5 +1,6 @@
 {% set host = pillar['nginx'].hosts[host_name] %}
 {% set dev = grains['configuration'] in ['dev', 'local'] %}
+{% set prod = grains['configuration'] in ['prod', ] %}
 
 
 server {
@@ -99,6 +100,14 @@ server {
         root {{ host.web }};
     }
 {% endif %}
+
+
+{% if prod %}
+    location /bagnialmare-debug.apk {
+        alias /var/www/ombrelloni.it/web/bagnialmare-debug.apk;
+    }
+{% endif %}
+
 
 {% if dev %}
     location /doc/ {
