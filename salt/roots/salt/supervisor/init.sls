@@ -20,12 +20,13 @@ sup_service:
 sup_conf_{{ sup_name }}:
     file.managed:
         - name: {{ sup.conf }}
-        - source: salt://supervisor/supervisor.conf
+        - source: salt://supervisor/{{ sup.model }}
         - user: root
         - group: root
         - template: jinja
         - defaults:
-            sup_name: {{ sup_name }}
+            sup_name: {{ sup.name }}
+            sup_command: {{ sup.command }}
         - file_mode: 640
         - replace: True
         - makedirs: True
@@ -52,7 +53,6 @@ sup_logs_{{ sup_name }}:
         - makedirs: True
         - replace: True
         - require:
-            - file: user_with_home_{{ sup_name }}
+            - file: user_with_home_{{ sup.name }}
 
 {% endfor %}
-
