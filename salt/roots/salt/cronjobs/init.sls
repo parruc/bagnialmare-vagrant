@@ -22,6 +22,7 @@ add_dbutils_directory_{{ django_name }}:
 add_cronjob_dumpdata{{ django_name }}:
     cron.present:
         - name: {{ user.home_path }}/django/dbutils/dumpdata.sh
+        - identifier: {{ django_name }}_dumpdata
         - user: {{ user.name }}
         - minute: 0
         - hour: 21
@@ -32,6 +33,7 @@ add_cronjob_dumpdata{{ django_name }}:
 add_cronjob_dumpdb{{ django_name }}:
     cron.present:
         - name: {{ user.home_path }}/django/dbutils/dumpdb.sh
+        - identifier: {{ django_name }}_dumpdb
         - user: root
         - minute: 0
         - hour: 20
