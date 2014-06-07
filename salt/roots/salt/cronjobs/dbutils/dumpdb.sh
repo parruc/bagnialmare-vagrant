@@ -1,4 +1,5 @@
 {% set db = pillar.pg.dbs[django_name] %}
+{% set django = pillar.django.djangos[django_name] %}
 {% set user = pillar.users[django_name] %}
 {% set db_user = pillar.users['postgres'] %}
 
