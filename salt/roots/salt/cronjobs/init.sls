@@ -23,7 +23,7 @@ add_cronjob_dumpdata{{ django_name }}:
     cron.present:
         - name: {{ user.home_path }}/django/dbutils/dumpdata.sh
         - identifier: {{ django_name }}_dumpdata
-        - user: {{ user.name }}
+        - user: root
         - minute: 0
         - hour: 21
         - comment: Dump django data every day at 21 PM UTC 3:00 AM and commit+push the dump
