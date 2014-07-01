@@ -248,6 +248,7 @@ EMAIL_USE_SSL = True
 MANDRILL_API_KEY = "oqrObEV8ZI_4hvxcNwbDcQ"
 MANDRILL_API_TEST_KEY = "9A8CJujchIFopMGY0Xry8A"
 MASS_EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+MASS_EMAIL_TEST_BACKEND  = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = '{{ django.logs_path }}/mail.log'
 {% endif %}

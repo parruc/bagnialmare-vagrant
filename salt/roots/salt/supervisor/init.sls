@@ -8,7 +8,6 @@ sup_service:
     service.running:
         - name: supervisor
         - sig: supervisord
-        #- update: True
         - watch:
             - file: /etc/supervisor/*
             - file: /etc/supervisor/conf.d/*
@@ -39,6 +38,7 @@ sup_conf_{{ sup_name }}:
 sup_service_{{ sup_name }}:
     supervisord.running:
         - name: {{ sup_name }}
+        - update: True
         - watch:
             - file: uwsgi_conf_{{ sup.name }}
         - require:
