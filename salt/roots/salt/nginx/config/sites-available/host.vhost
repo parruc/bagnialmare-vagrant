@@ -13,7 +13,8 @@ server {
     listen *:80;
 
 
-    server_name {{ host.server_name }};
+    server_name m.{{ host.server_name }} {{ host.server_name }};
+;
 
     root   {{ host.web }};
 
