@@ -136,5 +136,5 @@ server {
         proxy_pass http://localhost:8000;
         proxy_intercept_errors off;
     }
-    proxy_intercept_errors on;
+    uwsgi_intercept_errors on;
 }
