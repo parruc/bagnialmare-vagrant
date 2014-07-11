@@ -257,6 +257,13 @@ MAILOFFLOADER_SOCKET = "ipc:///tmp/mailoffloader.ipc"
 #this must be defined but ckeditor uploads are disabled
 #without this variable django will not work thus
 CKEDITOR_UPLOAD_PATH = "ckuploads/"
+CKEDITOR_CONFIGS = {
+    'default' : {
+        'toolbar': 'Basic',
+        'removeButtons': 'Source',
+    },
+}
+
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
