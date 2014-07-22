@@ -262,6 +262,9 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'Basic',
         'removeButtons': 'Source',
     },
+    'admin' : {
+       'toolbar': 'Full',
+    },
 }
 
 
