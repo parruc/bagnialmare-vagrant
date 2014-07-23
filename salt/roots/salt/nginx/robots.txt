@@ -1,3 +1,5 @@
 User-agent: *
 Disallow: /admin
+Disallow: /it/bagni/*/edit
+Disallow: /en/beach-resorts/*/edit
 Sitemap: http://bagnialmare.com/sitemap.xml
