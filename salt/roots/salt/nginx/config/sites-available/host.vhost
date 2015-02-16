@@ -130,11 +130,15 @@ server {
         include uwsgi_params;
         uwsgi_pass unix:/tmp/uwsgi_{{ host_name }}.sock;
     }
-    location /debug/ {
-        rewrite ^/debug/(.*)$  /$1  break;
+    uwsgi_intercept_errors on;
+}
+
+server {
+    listen *:80;
+    server_name debug.{{ host.server_name }}.com;
+    location / {
         include uwsgi_params;
         proxy_pass http://localhost:8000;
         proxy_intercept_errors off;
     }
-    uwsgi_intercept_errors on;
 }

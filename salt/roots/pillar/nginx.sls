@@ -3,7 +3,7 @@ nginx:
     hosts:
         ombrelloni:
             {% if grains['configuration'] == 'local' %}
-            server_name : 'ombrelloni.it'
+            server_name : 'loc.bagnialmare.com'
             {% elif grains['configuration'] == 'dev' %}
             server_name : 'dev.bagnialmare.com'
             {% elif  grains['configuration'] == 'prod' %}

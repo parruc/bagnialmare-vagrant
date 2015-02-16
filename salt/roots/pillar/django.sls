@@ -23,6 +23,7 @@ django:
         {% endif %}
             installed_apps:
                 - 'bagni'
+                - 'booking'
                 - 'newsletters'
                 - 'multilingual'
                 - 'authauth'
