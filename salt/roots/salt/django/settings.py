@@ -71,6 +71,7 @@ ADMINS = (
     ("Nicola Valentini", "nicola.valentini@gmail.com", ),
     ("Marco Bartolini", "marcobartolini@gmail.com", ),
     ("Marco Benvenuto", "marco.benvenuto1@gmail.com", ),
+    ("Bagnialmare", "info@bagnialmare.com", ),
 )
 
 MANAGERS = ADMINS
