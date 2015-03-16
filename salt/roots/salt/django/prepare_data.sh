@@ -5,7 +5,7 @@
 
 {{ venv.path }}/bin/python manage.py syncdb --noinput --migrate
 {{ venv.path }}/bin/python manage.py manage_index -o create
-{{ venv.path }}/bin/python manage.py collectstatic -l --noinput
+{{ venv.path }}/bin/python manage.py collectstatic --noinput
 {{ venv.path }}/bin/python manage.py compilemessages
 {{ venv.path }}/bin/python manage.py manage_index -o rebuild
 

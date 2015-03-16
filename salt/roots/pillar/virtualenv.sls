@@ -44,6 +44,8 @@ venv:
                 - 'uwsgitop'
                 - 'coverage'
                 - 'selenium'
+            {% else %}
+                - 'opbeat'
             {% endif %}
 
 {# KEEP FOR REFERENCE: TO ADD THIRD PARTY PACKAGES IN DEV MODE --editable=hg+https://bitbucket.org/mchaput/whoosh#egg=Whoosh #}
