@@ -135,7 +135,7 @@ server {
 
 server {
     listen *:80;
-    server_name debug.{{ host.server_name }}.com;
+    server_name debug.{{ host.server_name }};
     location / {
         include uwsgi_params;
         proxy_pass http://localhost:8000;
