@@ -35,6 +35,7 @@ django:
 {#                - 'debug_toolbar_htmltidy' #}
                 - 'debug_toolbar_line_profiler'
         {% endif %}
+                - 'opbeat.contrib.django'
                 - 'allauth'
                 - 'allauth.account'
                 - 'allauth.socialaccount'
@@ -63,6 +64,7 @@ django:
                 - 'django.contrib.webdesign'
             secret_key: 'u)-#(7qe0o9=+ez%ay0=vi#oc52*&4np3x5^m!!c6u$@yr5eud'
             middleware:
+                - 'opbeat.contrib.django.middleware.OpbeatAPMMiddleware'
                 - 'django.middleware.gzip.GZipMiddleware'
                 - 'django.contrib.sessions.middleware.SessionMiddleware'
                 - 'django.middleware.locale.LocaleMiddleware'
