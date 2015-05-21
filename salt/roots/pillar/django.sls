@@ -111,5 +111,6 @@ django:
                 - '/var/www/ombrelloni.it/django/ombrelloni/locale/'
                 - '/var/www/ombrelloni.it/django/authauth/locale/'
                 - '/var/www/ombrelloni.it/django/bagni/locale/'
+                - '/var/www/ombrelloni.it/django/booking/locale/'
                 - '/var/www/ombrelloni.it/django/contacts/locale/'
 
