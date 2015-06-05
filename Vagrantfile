@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
     config.vm.network :private_network, ip: "192.168.50.2"
     config.vm.provider "virtualbox" do |v|
         v.customize ["modifyvm", :id, "--memory", "512"]
-        v.name = "4hm"
+        v.name = "4hm_test"
     end
 
     # SALT STACK PROVISIONING
@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder "./salt/roots/", "/srv/"
     ## Use all the defaults:
     config.vm.provision :salt do |salt|
-        salt.install_type = "stable"
+        salt.install_type = "git"
         salt.verbose = true
         salt.run_highstate = true
         ## Optional Settings:
