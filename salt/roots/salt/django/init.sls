@@ -95,6 +95,25 @@ django_loaddata_script_{{ django_name }}:
             - service: postgres_service
             - git: git_{{ django_name }}
 
+django_restartservices_script_{{ django_name }}:
+    file.managed:
+        - source: salt://django/restart_services.sh
+        - name: /tmp/restart_services.sh
+        - mode: 700
+        - user: root
+        - group: root
+        - makedirs: True
+        - replace: True
+        - template: jinja
+        - defaults:
+            django_name: {{ django_name }}
+        - require:
+            - file: user_with_home_{{ django_name }}
+            - pip: venv_pip_{{ django_name }}
+            - service: postgres_service
+            - git: git_{{ django_name }}
+
+
 django_index_folder_{{ django_name }}:
     file.directory:
         - name: {{ django.path }}/{{ django_name }}/whoosh_index/
@@ -118,6 +137,21 @@ django_loaddata_{{ django_name }}:
             - file: django_settings_test_{{ django_name }}
             - file: nginx_{{ django_name }}_static_dir
             - file: django_loaddata_script_{{ django_name }}
+
+django_restartservices_{{ django_name }}:
+    cmd.run:
+        - name: /tmp/restart_services.sh
+        {#- unless:#}
+        - user: root
+        - cwd: /
+        - group: root
+        - require:
+            - cmd: django_loaddata_{{ django_name }}
+            - file: django_index_folder_{{ django_name }}
+            - file: django_settings_{{ django_name }}
+            - file: django_settings_test_{{ django_name }}
+            - file: nginx_{{ django_name }}_static_dir
+            - file: django_restartservices_script_{{ django_name }}
 
 {% if dev %}
 django_coverage_{{ django_name }}:
