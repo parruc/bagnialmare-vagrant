@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
     config.vm.network :private_network, ip: "192.168.50.2"
     config.vm.provider "virtualbox" do |v|
         v.customize ["modifyvm", :id, "--memory", "512"]
-        v.name = "4hm_test"
+        v.name = "4hm"
     end
 
     # SALT STACK PROVISIONING
