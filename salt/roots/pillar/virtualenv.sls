@@ -18,7 +18,7 @@ venv:
                 - 'django-allauth'
                 - 'django-modeltranslation'
                 - 'docutils'
-                - 'whoosh'
+                - 'whoosh<2.7'
                 - 'lxml'
                 - 'paramiko'
                 - 'psycopg2'
